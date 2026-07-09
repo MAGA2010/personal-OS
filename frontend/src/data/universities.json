@@ -1,0 +1,70 @@
+{
+  "_instructions": "大学数据骨架 (University Data Skeleton) — PathOS 地图模块",
+  "_description": [
+    "此文件为学校 POI 标记层提供数据。每条记录包含双语信息、精确坐标、六大指标数值、周边配套信息。",
+    "当前包含 1 条示例记录（哈佛大学），其余数据待你补充。",
+    "",
+    "必填字段: id, name, chineseName, country, city, latitude, longitude, rankingBand, rankingTier",
+    "可选字段: streetviewPanoId, logoUrl, campusImages, nearby (无数据时填 null 或空数组)"
+  ],
+  "_todo": [
+    "1. 补充 Top 40-150 所美国大学数据（经纬度可通过 Google Maps 获取）",
+    "2. 补充真实指标数值：annualCostRmb, safetyScore, recognitionScore, admissionRate, toeflMin, satMedian",
+    "3. 补充周边信息：地铁站数、中餐馆数、华人超市数、月均租金（可对接 Google Places API）",
+    "4. 补充校园实景：streetviewPanoId（Google Street View）或 campusImages",
+    "5. 后续迁移到 Supabase universities 表"
+  ],
+  "_lastUpdated": "2026-07-09",
+  "universities": [
+    {
+      "id": "harvard",
+      "name": "Harvard University",
+      "chineseName": "哈佛大学",
+      "country": "United States",
+      "city": "Cambridge",
+      "state": "Massachusetts",
+      "stateFips": "25",
+      "latitude": 42.3736,
+      "longitude": -71.1097,
+      "rankingBand": "Global Top 5",
+      "rankingTier": "top20",
+      "annualCostRmb": 580000,
+      "safetyScore": 78,
+      "recognitionScore": 98,
+      "chineseCommunityRating": "high",
+      "admissionRate": 3.4,
+      "toeflMin": 100,
+      "satMedian": 1520,
+      "programs": [
+        "Computer Science",
+        "Economics",
+        "Engineering",
+        "Life Sciences",
+        "Government"
+      ],
+      "parentHighlights": [
+        "全球最高认可度之一",
+        "波士顿地区学术氛围浓厚",
+        "回国就业优势明显"
+      ],
+      "studentHighlights": [
+        "顶级学术资源与师资",
+        "丰富的创业与实习机会",
+        "国际化学生社区"
+      ],
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "streetviewPanoId": "Z8cHV4RJ1D6B7sXa2T5mcA",
+      "logoUrl": null,
+      "campusImages": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 28,
+        "asianGroceries": 4,
+        "avgRentRmb": 12000
+      },
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 12
+    }
+  ]
+}

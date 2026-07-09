@@ -1,0 +1,189 @@
+{
+  "_instructions": "region-metrics.json — 区域指标数据骨架 (Region Metrics Skeleton Store)",
+  "_description": [
+    "为地图模块（Choropleth Map）提供 state / county / city 三级粒度的六项指标数据。",
+    "Stores six metric layers across three granularity levels for the choropleth map module.",
+    "当前为占位骨架，所有数据均为示例占位。",
+    "This is a placeholder skeleton. All values are example stubs.",
+    "",
+    "数据字段说明 (Field Reference):",
+    "  - fipsCode:     FIPS地理编码。州级为2位数字字符串（如\"06\"=CA），县级为5位，市级为7位。",
+    "                    FIPS geographic code. 2-digit for states, 5-digit for counties, 7-digit for cities.",
+    "  - granularity:  粒度级别。\"state\" | \"county\" | \"city\"",
+    "  - name:         区域中文名称 (Chinese region name)",
+    "  - nameEn:       区域英文名称 (English region name)",
+    "  - metricId:     指标 ID。\"income\" | \"safety\" | \"toefl\" | \"sat\" | \"admission_rate\" | \"chinese_population\"",
+    "  - value:        归一化后的指标值（0–1），用于 choropleth 着色。Normalized value for choropleth coloring.",
+    "  - rawValue:     原始数值（未归一化）。Raw un-normalized value with meaningful unit.",
+    "  - displayValue: 展示用格式化字符串。Formatted display string, e.g. \"$82k\", \"450/100k\", \"1100\", \"32.5%\"",
+    "  - year:         数据年份（4位整数）。Year the data was collected.",
+    "  - source:       数据来源说明。Source attribution for the data.",
+    "",
+    "接入路径 (Integration):",
+    "  当前阶段: use-metrics.ts 使用 getMockRegionMetrics (src/lib/metrics.ts) 提供州级模拟数据。",
+    "  本文件为未来接入真实数据定义标准的 JSON 数据结构。",
+    "  TODO: Connect to Supabase when available — 将本结构映射到 region_metrics 数据表。",
+    "  表结构按 (fipsCode, granularity, metricId) 建立唯一索引，支持按粒度+指标快速查询。",
+    "",
+    "需要用户提供的真实数据:",
+    "  TODO: Replace with real income data — 各州/县/市中位家庭年收入",
+    "  TODO: Replace with real safety data — FBI Uniform Crime Reporting 暴力犯罪率",
+    "  TODO: Replace with real TOEFL data — 各区域大学国际生托福最低要求均值",
+    "  TODO: Replace with real SAT data — 各区域大学录取SAT中位数均值",
+    "  TODO: Replace with real admission_rate data — IPEDS / Common Data Set 录取率",
+    "  TODO: Replace with real chinese_population data — ACS 华裔人口占比数据"
+  ],
+
+  "meta": {
+    "version": "0.1.0",
+    "lastUpdated": null,
+    "dataSource": "placeholder",
+    "availableGranularities": ["state", "county", "city"],
+    "availableMetrics": [
+      { "id": "income",             "label": "收入水平",     "labelEn": "Median Income" },
+      { "id": "safety",             "label": "安全系数",     "labelEn": "Safety Index" },
+      { "id": "toefl",              "label": "托福成绩",     "labelEn": "TOEFL Requirement" },
+      { "id": "sat",                "label": "SAT分数",      "labelEn": "SAT Score" },
+      { "id": "admission_rate",     "label": "录取率",       "labelEn": "Admission Rate" },
+      { "id": "chinese_population", "label": "华人水平",     "labelEn": "Chinese Population" }
+    ]
+  },
+
+  "records": [
+    {
+      "_comment": "━━━ 州级示例 — California (FIPS: 06) ━━━ State-level example record ━━━",
+      "fipsCode": "06",
+      "granularity": "state",
+      "name": "加利福尼亚州",
+      "nameEn": "California",
+      "metricId": "income",
+      "value": 0.90,
+      "rawValue": 91550,
+      "displayValue": "$91.6k",
+      "year": 2025,
+      "source": "U.S. Census Bureau, ACS 5-Year Estimates"
+    },
+    {
+      "_comment": "━━━ 州级示例 — New York (FIPS: 36) ━━━",
+      "fipsCode": "36",
+      "granularity": "state",
+      "name": "纽约州",
+      "nameEn": "New York",
+      "metricId": "safety",
+      "value": 0.60,
+      "rawValue": 358,
+      "displayValue": "358/100k",
+      "year": 2025,
+      "source": "FBI Uniform Crime Reporting Program"
+    },
+    {
+      "_comment": "━━━ 州级示例 — Massachusetts (FIPS: 25) ━━━",
+      "fipsCode": "25",
+      "granularity": "state",
+      "name": "马萨诸塞州",
+      "nameEn": "Massachusetts",
+      "metricId": "toefl",
+      "value": 0.80,
+      "rawValue": 94,
+      "displayValue": "94",
+      "year": 2025,
+      "source": "IPEDS / Institutional websites"
+    },
+    {
+      "_comment": "━━━ 县级示例 — Los Angeles County, CA (FIPS: 06037) ━━━ County-level example record ━━━",
+      "fipsCode": "06037",
+      "granularity": "county",
+      "name": "洛杉矶县",
+      "nameEn": "Los Angeles County",
+      "metricId": "sat",
+      "value": 0.82,
+      "rawValue": 1320,
+      "displayValue": "1320",
+      "year": 2025,
+      "source": "College Board / IPEDS"
+    },
+    {
+      "_comment": "━━━ 县级示例 — Santa Clara County, CA (FIPS: 06085) ━━━",
+      "fipsCode": "06085",
+      "granularity": "county",
+      "name": "圣克拉拉县",
+      "nameEn": "Santa Clara County",
+      "metricId": "chinese_population",
+      "value": 0.88,
+      "rawValue": 9.2,
+      "displayValue": "9.2%",
+      "year": 2025,
+      "source": "U.S. Census Bureau, ACS 5-Year Estimates"
+    },
+    {
+      "_comment": "━━━ 市级示例 — Boston, MA (FIPS: 2507000) ━━━ City-level example record ━━━",
+      "fipsCode": "2507000",
+      "granularity": "city",
+      "name": "波士顿",
+      "nameEn": "Boston",
+      "metricId": "admission_rate",
+      "value": 0.32,
+      "rawValue": 28.5,
+      "displayValue": "28.5%",
+      "year": 2025,
+      "source": "IPEDS / Common Data Set"
+    },
+    {
+      "_comment": "━━━ 市级示例 — Seattle, WA (FIPS: 5363000) ━━━",
+      "fipsCode": "5363000",
+      "granularity": "city",
+      "name": "西雅图",
+      "nameEn": "Seattle",
+      "metricId": "income",
+      "value": 0.84,
+      "rawValue": 110800,
+      "displayValue": "$110.8k",
+      "year": 2025,
+      "source": "U.S. Census Bureau, ACS 5-Year Estimates"
+    }
+  ],
+
+  "_expectedQueryPatterns": {
+    "_comment": "预期查询模式 — 演示前端将如何按粒度+指标组合获取数据",
+    "byGranularityAndMetric": {
+      "description": "最常用查询：给定粒度和指标，返回该级别所有区域的指标值",
+      "example": "GET /api/region-metrics?granularity=state&metricId=income",
+      "returns": "所有州的收入水平数据（fipsCode + value + displayValue）"
+    },
+    "byFipsCode": {
+      "description": "给定 FIPS 编码，返回该区域所有六项指标的值",
+      "example": "GET /api/region-metrics?fipsCode=06&granularity=state",
+      "returns": "加利福尼亚州六项指标的完整数据"
+    },
+    "byMetricRange": {
+      "description": "给定指标和数值范围，返回符合条件的所有区域",
+      "example": "GET /api/region-metrics?metricId=safety&minValue=0.7&granularity=state",
+      "returns": "安全系数 >= 0.7 的所有州"
+    }
+  },
+
+  "_supabaseTableDesign": {
+    "_comment": "TODO: Connect to Supabase when available — 目标数据表设计",
+    "tableName": "region_metrics",
+    "columns": [
+      { "name": "id",           "type": "uuid",           "description": "主键，自动生成" },
+      { "name": "fips_code",    "type": "varchar(10)",    "description": "FIPS 地理编码" },
+      { "name": "granularity",  "type": "varchar(10)",    "description": "state | county | city" },
+      { "name": "name",         "type": "varchar(100)",   "description": "区域中文名称" },
+      { "name": "name_en",      "type": "varchar(100)",   "description": "区域英文名称" },
+      { "name": "metric_id",    "type": "varchar(30)",    "description": "指标ID" },
+      { "name": "value",        "type": "float4",         "description": "归一化值 0-1" },
+      { "name": "raw_value",    "type": "float4",         "description": "原始值" },
+      { "name": "display_value","type": "varchar(20)",    "description": "展示字符串" },
+      { "name": "year",         "type": "int2",           "description": "数据年份" },
+      { "name": "source",       "type": "varchar(200)",   "description": "数据来源" },
+      { "name": "created_at",   "type": "timestamptz",    "description": "创建时间" },
+      { "name": "updated_at",   "type": "timestamptz",    "description": "更新时间" }
+    ],
+    "indexes": [
+      "UNIQUE INDEX ON (fips_code, granularity, metric_id)",
+      "INDEX ON (granularity, metric_id)",
+      "INDEX ON (metric_id, value)"
+    ]
+  }
+}
