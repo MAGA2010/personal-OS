@@ -1,4 +1,5 @@
 import { MapShell } from "@/components/map/MapShell";
+import Link from "next/link";
 
 /**
  * Map Module / 留学地图
@@ -25,6 +26,18 @@ export default function MapPage() {
         <div>
           <h1 className="text-base font-semibold text-ink">留学地图</h1>
           <p className="text-xs text-ink/52">六大指标覆盖全美 / China-lens choropleth</p>
+        </div>
+        <div className="ml-auto flex items-center gap-2">
+          <Link
+            href="/map/rankings"
+            className="flex items-center gap-1.5 rounded-md border border-line/60 bg-white/80 px-3 py-1.5 text-xs font-medium text-ink/60 hover:text-ink hover:border-ink/30 transition-colors"
+          >
+            <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeLinecap="round"
+              strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24">
+              <path d="M6 20h12M6 10l4 4 4-6 4 4" />
+            </svg>
+            排名对比
+          </Link>
         </div>
       </header>
       <div className="relative flex-1 p-3">

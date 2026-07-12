@@ -240,9 +240,16 @@ export function MapCanvas({
   const initializedRef = useRef(false);
   const topologyRef = useRef<TopologyWithStates | null>(null);
   const regionClickRef = useRef<MapCanvasProps["onRegionClick"]>(onRegionClick);
+  const metricIdRef = useRef<MetricId>(DEFAULT_METRIC_ID);
 
   // ── State ──
-  const [mapReady, setMapReady] = useState(false);
+  const [tooltipData, setTooltipData] = useState<{
+    x: number;
+    y: number;
+    name: string;
+    displayValue: string;
+  } | null>(null);
+ const [mapReady, setMapReady] = useState(false);
   const [granularity, setGranularity] = useState<Granularity>("state");
   const [viewState, setViewState] = useState<MapViewState>({
     longitude: initialCenter[0],
@@ -277,6 +284,9 @@ export function MapCanvas({
   useEffect(() => {
     regionClickRef.current = onRegionClick;
   }, [onRegionClick]);
+  useEffect(() => {
+    metricIdRef.current = activeMetricId ?? DEFAULT_METRIC_ID;
+  }, [activeMetricId]);
 
   useEffect(() => {
     if (!mapReady || !mapRef.current) return;
@@ -300,9 +310,24 @@ export function MapCanvas({
           map.addSource(CHOROPLETH_SOURCE_ID, { type: "geojson", data });
           map.addLayer({ id: CHOROPLETH_FILL_LAYER_ID, type: "fill", source: CHOROPLETH_SOURCE_ID, paint: { "fill-color": ["coalesce", ["get", "metricColor"], MISSING_REGION_COLOR], "fill-opacity": 0.58 } });
           map.addLayer({ id: CHOROPLETH_LINE_LAYER_ID, type: "line", source: CHOROPLETH_SOURCE_ID, paint: { "line-color": "rgba(21, 32, 37, 0.32)", "line-width": 0.7 } });
-          map.on("mouseenter", CHOROPLETH_FILL_LAYER_ID, () => { map.getCanvas().style.cursor = "pointer"; });
-          map.on("mouseleave", CHOROPLETH_FILL_LAYER_ID, () => { map.getCanvas().style.cursor = ""; });
-          map.on("click", CHOROPLETH_FILL_LAYER_ID, (event) => {
+         map.on("mouseenter", CHOROPLETH_FILL_LAYER_ID, () => { map.getCanvas().style.cursor = "pointer"; });
+         map.on("mouseleave", CHOROPLETH_FILL_LAYER_ID, () => { map.getCanvas().style.cursor = ""; });
+            setTooltipData(null);
+         map.on("mousemove", CHOROPLETH_FILL_LAYER_ID, (e) => {
+            if (!e.features || e.features.length === 0) return;
+            const props = e.features[0].properties as Record<string, any>;
+            const currentMetricId = metricIdRef.current;
+            const metricRecord = (regionMetrics.records as any[]).find(
+              (r: any) => r.fipsCode === props.fipsCode && r.metricId === currentMetricId
+            );
+            setTooltipData({
+              x: e.point.x,
+              y: e.point.y,
+              name: props.name || props.fipsCode,
+              displayValue: metricRecord?.displayValue ?? "N/A",
+            });
+          });
+         map.on("click", CHOROPLETH_FILL_LAYER_ID, (event) => {
             const fipsCode = event.features?.[0]?.properties?.fipsCode;
             if (typeof fipsCode === "string") regionClickRef.current?.(fipsCode);
           });
@@ -452,6 +477,15 @@ export function MapCanvas({
 
         {/* ── Overlay children (metric tabs, legend, tooltip, etc.) ────── */}
         {children}
+       {/* State hover tooltip */}
+       {tooltipData && (
+         <div className="pointer-events-none absolute z-50 rounded border border-line bg-white/85 px-1.5 py-0.5 text-[10px] leading-tight shadow-sm backdrop-blur" style={{ left: tooltipData.x + 10, top: tooltipData.y - 10 }}>
+           <span className="font-medium text-ink">{tooltipData.name}</span>
+           <span className="text-ink/40 mx-0.5">·</span><span className="text-ink/60">{tooltipData.displayValue}</span>
+         </div>
+       )}
+
+
 
         {/* ── Granularity badge (bottom-right) ────────────────────────────
              Visible after map loads; shows current zoom-derived granularity.
@@ -540,6 +574,8 @@ export function MapCanvas({
 // ── Exports ───────────────────────────────────────────────────────────────────
 
 export default MapCanvas;
+
+
 
 
 

@@ -6,6 +6,10 @@ import { METRIC_DEFINITIONS, METRIC_ORDER } from "@/lib/metrics";
 import { MapCanvas } from "./MapCanvas";
 import { MetricTabs } from "./MetricTabs";
 import { MapLegend } from "./MapLegend";
+import { UniversityMarkers, UniversityMapPins } from "./UniversityMarkers";
+import { UniversityCard } from "./UniversityCard";
+import universityData from "@/data/universities.json";
+import regionMetrics from "@/data/region-metrics.json";
 import {
   Compass,
   PanelLeftOpen,
@@ -16,6 +20,8 @@ import {
   DollarSign,
   Shield,
   GraduationCap,
+  ChevronUp,
+  ChevronDown,
   Users,
 } from "lucide-react";
 
@@ -99,8 +105,10 @@ export function MapShell({
 
   // ── Sidebar State ───────────────────────────────────────────────
 
-  /** Null = showing news feed; non-null = showing region detail for this FIPS code. */
-  const [selectedRegionFips, setSelectedRegionFips] = useState<string | null>(null);
+ /** Null = showing news feed; non-null = showing region detail for this FIPS code. */
+  const [selectedUniversityId, setSelectedUniversityId] = useState<string | null>(null);
+ const [selectedRegionFips, setSelectedRegionFips] = useState<string | null>(null);
+  const [pillsOpen, setPillsOpen] = useState(false);
 
   // TODO: Replace with real region detail fetched from Supabase
   // Expected shape: { region: MapRegion, universities: UniversityPOI[] }
@@ -122,8 +130,9 @@ export function MapShell({
   const handleMetricChange = useCallback(
     (metricId: MetricId) => {
       const next = { ...viewState, activeMetricId: metricId };
-      setViewState(next);
-      onViewStateChange?.(next);
+     setViewState(next);
+      setSelectedUniversityId(null);
+     onViewStateChange?.(next);
     },
     [viewState, onViewStateChange],
   );
@@ -134,10 +143,33 @@ export function MapShell({
     onViewStateChange?.(next);
   }, [viewState, onViewStateChange]);
 
-  const handleRegionClick = useCallback(
-    (fipsCode: string) => {
-      setSelectedRegionFips(fipsCode);
-      // TODO: Fetch region detail from Supabase:
+ const handleRegionClick = useCallback(
+   (fipsCode: string) => {
+     setSelectedRegionFips(fipsCode);
+      setSelectedUniversityId(null);
+      // Use real data
+      const stateMetrics = (regionMetrics.records as any[]).filter(
+        (r: any) => r.granularity === "state" && r.fipsCode === fipsCode
+      );
+      if (stateMetrics.length > 0) {
+        setRegionDetail({
+          region: {
+           fipsCode: fipsCode,
+           name: stateMetrics[0].name,
+           nameEn: stateMetrics[0].nameEn,
+            granularity: "state" as any,
+            universityCount: universityData.universities.filter(
+              (u: any) => u.stateFips === fipsCode
+            ).length,
+            metrics: stateMetrics,
+          },
+          universities: (universityData.universities as any[]).filter(
+            (u: any) => u.id.startsWith(fipsCode) || u.state === stateMetrics[0].nameEn
+          ),
+        });
+        return;
+      }
+     // TODO: Fetch region detail from Supabase:
       //   const detail = await fetchRegionDetail(fipsCode, viewState.activeMetricId);
       //   setRegionDetail(detail);
       //
@@ -148,10 +180,11 @@ export function MapShell({
     [viewState.activeMetricId],
   );
 
-  const handleSidebarClose = useCallback(() => {
-    setSelectedRegionFips(null);
-    setRegionDetail(null);
-  }, []);
+ const handleSidebarClose = useCallback(() => {
+   setSelectedRegionFips(null);
+   setRegionDetail(null);
+    setSelectedUniversityId(null);
+ }, []);
 
   // ── Render ──────────────────────────────────────────────────────
 
@@ -209,10 +242,58 @@ export function MapShell({
         </div>
 
         {/* Map canvas — fills remaining space */}
-        <div className="relative flex-1 min-h-0">
-          <MapCanvas className="h-full" activeMetricId={viewState.activeMetricId} />
+        <div className="relative flex flex-col flex-1 min-h-0">
+          <MapCanvas className="flex-1 min-h-0" activeMetricId={viewState.activeMetricId} onRegionClick={handleRegionClick}>
+             <UniversityMapPins
+               universities={(universityData.universities) as any}
+               onSelect={setSelectedUniversityId}
+               selectedId={selectedUniversityId}
+             />
+           </MapCanvas>
+          {/* ── University pill strip — collapsible ── */}
+          {pillsOpen ? (
+            <div className="shrink-0 border-t border-line bg-panel px-3 py-2 overflow-x-auto" role="navigation" aria-label="大学列表">
+              <div className="flex items-center justify-between mb-1.5">
+                <span className="text-xs text-ink/40">{universityData.universities.length} 所大学</span>
+                <button
+                  onClick={() => setPillsOpen(false)}
+                  className="rounded p-0.5 text-ink/36 hover:text-ink hover:bg-ink/5 transition-colors"
+                  aria-label="收起大学列表"
+                >
+                  <ChevronDown size={14} />
+                </button>
+              </div>
+              <UniversityMarkers
+                universities={(universityData.universities) as any}
+                onSelect={setSelectedUniversityId}
+                selectedId={selectedUniversityId}
+              />
+            </div>
+          ) : (
+            <div className="shrink-0 border-t border-line bg-panel">
+              <button
+                onClick={() => setPillsOpen(true)}
+                className="flex w-full items-center justify-center gap-1 py-1.5 text-xs text-ink/44 hover:text-ink transition-colors"
+                aria-label="展开大学列表"
+              >
+                <GraduationCap size={11} />
+                <span>{universityData.universities.length} 所大学</span>
+                <ChevronUp size={11} />
+              </button>
+            </div>
+          )}
+          {selectedUniversityId && (
+            <div className="absolute inset-0 z-30 flex items-center justify-center bg-ink/20 backdrop-blur-sm" onClick={() => setSelectedUniversityId(null)}>
+              <div onClick={(e) => e.stopPropagation()} className="max-h-[85vh] overflow-y-auto rounded-xl shadow-xl">
+                <UniversityCard
+                  poi={(universityData.universities as any[]).find((u: any) => u.id === selectedUniversityId)}
+                  onClose={() => setSelectedUniversityId(null)}
+                />
+              </div>
+            </div>
+          )}
 
-          {/* Granularity badge overlay */}
+         {/* Granularity badge overlay */}
           <div className="pointer-events-none absolute right-3 top-3 z-10">
             <span className="rounded-full border border-line bg-white/88 px-2.5 py-1 text-[11px] font-medium text-ink/64 backdrop-blur">
               {/* TODO: Derive from map zoom level dynamically */}
@@ -709,3 +790,4 @@ const MOCK_REGION_DETAIL: Record<string, SelectedRegionDetail> = {
     ],
   },
 };
+

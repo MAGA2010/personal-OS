@@ -1,0 +1,335 @@
+﻿[
+    {
+        "id":  "boston-college",
+        "chineseName":  "波士顿学院",
+        "QS":  549,
+        "ARWU":  501,
+        "USNews":  518,
+        "THE":  251,
+        "description":  "波士顿学院，位于美国Boston，THE第251–300、ARWU第501-600、US News第=518、QS第=549 (2027)，优势学科：神学与宗教研究（全球第5）、金融学（全球第16）、护理学（全球第38），创建于1863年，在校学生约12,989人"
+    },
+    {
+        "id":  "boston-u",
+        "chineseName":  "波士顿大学",
+        "QS":  94,
+        "ARWU":  101,
+        "USNews":  86,
+        "THE":  76,
+        "description":  "波士顿大学，位于美国Boston，THE第=76、US News第=86、QS第94、ARWU第101-150 (2027)，优势学科：公共卫生（全球第16）、经济学（全球第23）、音乐（全球第26-50），创建于1839年，在校学生约29,239人"
+    },
+    {
+        "id":  "caltech",
+        "chineseName":  "加州理工学院",
+        "QS":  7,
+        "ARWU":  9,
+        "USNews":  23,
+        "THE":  7,
+        "description":  "加州理工学院，位于美国Pasadena，QS第7、THE第7、ARWU第9、US News第23 (2027)，优势学科：空间科学（全球第1）、物理科学（全球第1）、地球科学（全球第3），创建于1891年，在校学生约2,401人"
+    },
+    {
+        "id":  "cmu",
+        "chineseName":  "卡内基梅隆大学",
+        "QS":  55,
+        "ARWU":  101,
+        "USNews":  126,
+        "THE":  24,
+        "description":  "卡内基梅隆大学，位于美国Pittsburgh，THE第24、QS第55、ARWU第101-150、US News第126 (2027)，优势学科：计算机科学（全球第3）、机器人科学与工程（全球第5）、数据科学（全球第5），创建于1900年，在校学生约16,257人"
+    },
+    {
+        "id":  "columbia",
+        "chineseName":  "哥伦比亚大学",
+        "QS":  43,
+        "ARWU":  8,
+        "USNews":  10,
+        "THE":  20,
+        "description":  "哥伦比亚大学，位于美国New York，ARWU第8、US News第10、THE第20、QS第=43 (2027)，优势学科：气象学与大气科学（全球第1）、大气科学（全球第2）、地质学（全球第2），创建于1754年，在校学生约30,580人"
+    },
+    {
+        "id":  "cornell",
+        "chineseName":  "康奈尔大学",
+        "QS":  16,
+        "ARWU":  12,
+        "USNews":  16,
+        "THE":  18,
+        "description":  "康奈尔大学，位于美国Ithaca，ARWU第12、QS第=16、US News第=16、THE第=18 (2027)，优势学科：肿瘤学（全球第3）、兽医学（全球第3）、农业与林业（全球第4），创建于1865年，在校学生约25,673人"
+    },
+    {
+        "id":  "duke",
+        "chineseName":  "杜克大学",
+        "QS":  70,
+        "ARWU":  46,
+        "USNews":  27,
+        "THE":  28,
+        "description":  "杜克大学，位于美国Durham，US News第27、THE第28、ARWU第46、QS第70 (2027)，优势学科：心血管系统（全球第4）、护理学（全球第5）、临床医学（全球第8），创建于1838年，在校学生约17,871人"
+    },
+    {
+        "id":  "gatech",
+        "chineseName":  "佐治亚理工学院",
+        "QS":  142,
+        "ARWU":  151,
+        "USNews":  79,
+        "THE":  41,
+        "description":  "佐治亚理工学院，位于美国Atlanta，THE第=41、US News第=79、QS第=142、ARWU第151-200 (2027)，优势学科：材料科学（全球第4）、统计学与运筹学（全球第=7）、物理化学（全球第8），创建于1885年，在校学生约33,325人"
+    },
+    {
+        "id":  "harvard",
+        "chineseName":  "哈佛大学",
+        "QS":  5,
+        "ARWU":  1,
+        "USNews":  1,
+        "THE":  5,
+        "description":  "哈佛大学，位于美国Cambridge，ARWU第1、US News第1、QS第5、THE第=5 (2027)，优势学科：临床医学（全球第1）、外科学（全球第1）、生物学与生物化学（全球第1），创建于1636年，在校学生约22,680人"
+    },
+    {
+        "id":  "johns-hopkins",
+        "chineseName":  "约翰·霍普金斯大学",
+        "QS":  20,
+        "ARWU":  19,
+        "USNews":  14,
+        "THE":  16,
+        "description":  "约翰·霍普金斯大学，位于美国Baltimore，US News第14、THE第16、ARWU第19、QS第=20 (2027)，优势学科：临床医学（全球第2）、外科学（全球第2）、公共卫生（全球第2），创建于1876年，在校学生约21,275人"
+    },
+    {
+        "id":  "michigan-state",
+        "chineseName":  "密歇根州立大学",
+        "QS":  182,
+        "ARWU":  151,
+        "USNews":  133,
+        "THE":  105,
+        "description":  "密歇根州立大学，位于美国East Lansing，THE第=105、US News第=133、ARWU第151-200、QS第182 (2027)，优势学科：传播学与媒体研究（全球第5）、教育学（全球第6）、教育学与教育研究（全球第9），创建于1855年，在校学生约45,537人"
+    },
+    {
+        "id":  "mit",
+        "chineseName":  "麻省理工学院",
+        "QS":  1,
+        "ARWU":  3,
+        "USNews":  2,
+        "THE":  2,
+        "description":  "麻省理工学院，位于美国Cambridge，QS第1、THE第2、US News第2、ARWU第3 (2027)，优势学科：物理学与天文学（全球第1）、社会科学（全球第1）、商业与经济（全球第1），创建于1861年，在校学生约11,703人"
+    },
+    {
+        "id":  "northeastern",
+        "chineseName":  "东北大学",
+        "QS":  385,
+        "ARWU":  201,
+        "USNews":  220,
+        "THE":  201,
+        "description":  "东北大学，位于美国Boston，QS第=385、ARWU第201-300、US News第220、THE第201-250 (2027)，优势学科：工商管理（全球第11）、传播学与媒体研究（全球第27）、心理学（全球第46），创建于1898年，在校学生约27,133人"
+    },
+    {
+        "id":  "northwestern",
+        "chineseName":  "西北大学",
+        "QS":  47,
+        "ARWU":  30,
+        "USNews":  24,
+        "THE":  28,
+        "description":  "西北大学，位于美国Evanston，QS第47、ARWU第30、US News第24、THE第28 (2027)，优势学科：材料科学（全球第19）、传播学与媒体研究（全球第20）、经济与商业（全球第22），创建于1851年，在校学生约22,437人"
+    },
+    {
+        "id":  "nyu",
+        "chineseName":  "纽约大学",
+        "QS":  58,
+        "ARWU":  28,
+        "USNews":  32,
+        "THE":  31,
+        "description":  "纽约大学，位于美国New York，ARWU第28、THE第=31、US News第32、QS第58 (2027)，优势学科：哲学（全球第1）、法学（全球第2）、金融学（全球第4），创建于1831年，在校学生约48,973人"
+    },
+    {
+        "id":  "penn-state",
+        "chineseName":  "宾夕法尼亚州立大学",
+        "QS":  92,
+        "ARWU":  101,
+        "USNews":  91,
+        "THE":  108,
+        "description":  "宾夕法尼亚州立大学，位于美国State College，US News第=91、QS第=92、ARWU第101-150、THE第=108 (2027)，优势学科：传播学与媒体研究（全球第4）、矿物与采矿工程（全球第6）、工商管理（全球第8），创建于1855年，在校学生约48,746人"
+    },
+    {
+        "id":  "princeton",
+        "chineseName":  "普林斯顿大学",
+        "QS":  27,
+        "ARWU":  7,
+        "USNews":  16,
+        "THE":  3,
+        "description":  "普林斯顿大学，位于美国Princeton，THE第=3、ARWU第7、US News第=16、QS第27 (2027)，优势学科：数学（全球第1）、物理学与天文学（全球第2）、大气科学（全球第3），创建于1746年，在校学生约8,739人"
+    },
+    {
+        "id":  "rice",
+        "chineseName":  "莱斯大学",
+        "QS":  122,
+        "ARWU":  101,
+        "USNews":  219,
+        "THE":  103,
+        "description":  "莱斯大学，位于美国Houston，ARWU第101-150、THE第=103、QS第122、US News第219 (2027)，优势学科：机械工程（全球第24）、化学（全球第44）、材料科学（全球第51-75），创建于1912年，在校学生约8,223人"
+    },
+    {
+        "id":  "rochester",
+        "chineseName":  "罗切斯特大学",
+        "QS":  251,
+        "ARWU":  201,
+        "USNews":  201,
+        "THE":  127,
+        "description":  "罗切斯特大学，位于美国Rochester，THE第127、ARWU第201-300、US News第201、QS第251 (2027)，优势学科：音乐（全球第15）、表演艺术（全球第19）、牙科学（全球第51-150），创建于1850年，在校学生约10,505人"
+    },
+    {
+        "id":  "stanford",
+        "chineseName":  "斯坦福大学",
+        "QS":  2,
+        "ARWU":  2,
+        "USNews":  3,
+        "THE":  5,
+        "description":  "斯坦福大学，位于美国Stanford，QS第=2、ARWU第2、US News第3、THE第=5 (2027)，优势学科：数学（全球第1）、教育学（全球第1）、法学（全球第1），创建于1891年，在校学生约17,422人"
+    },
+    {
+        "id":  "uc-berkeley",
+        "chineseName":  "加州大学伯克利分校",
+        "QS":  20,
+        "ARWU":  5,
+        "USNews":  6,
+        "THE":  9,
+        "description":  "加州大学伯克利分校，位于美国Berkeley，ARWU第5、US News第6、THE第9、QS第=20 (2027)，优势学科：空间科学（全球第2）、教育学（全球第2）、化学（全球第2），创建于1868年，在校学生约42,565人"
+    },
+    {
+        "id":  "uc-davis",
+        "chineseName":  "加州大学戴维斯分校",
+        "QS":  137,
+        "ARWU":  101,
+        "USNews":  96,
+        "THE":  64,
+        "description":  "戴维斯加利福尼亚大学，位于美国Davis，THE第64、US News第=96、ARWU第101-150、QS第137 (2027)，优势学科：农业与林业（全球第2）、兽医学（全球第2）、生态学（全球第3），创建于1905年，在校学生约38,565人"
+    },
+    {
+        "id":  "uchicago",
+        "chineseName":  "芝加哥大学",
+        "QS":  24,
+        "ARWU":  10,
+        "USNews":  26,
+        "THE":  15,
+        "description":  "芝加哥大学，位于美国Chicago，ARWU第10、THE第15、QS第24、US News第26 (2027)，优势学科：经济学（全球第1）、金融学（全球第1）、法学（全球第4），创建于1890年，在校学生约16,509人"
+    },
+    {
+        "id":  "uc-irvine",
+        "chineseName":  "加州大学尔湾分校",
+        "QS":  252,
+        "ARWU":  79,
+        "USNews":  96,
+        "THE":  97,
+        "description":  "加利福尼亚大学欧文分校，位于美国Irvine，ARWU第79、US News第=96、THE第97、QS第=252 (2027)，优势学科：气象学与大气科学（全球第=10）、地球科学（全球第14）、法学（全球第16），创建于1965年，在校学生约35,079人"
+    },
+    {
+        "id":  "ucla",
+        "chineseName":  "加州大学洛杉矶分校",
+        "QS":  49,
+        "ARWU":  16,
+        "USNews":  13,
+        "THE":  18,
+        "description":  "加州大学洛杉矶分校，位于美国Los Angeles，US News第13、ARWU第16、THE第=18、QS第49 (2027)，优势学科：肿瘤学（全球第5）、大气科学（全球第5）、心理学（全球第6），创建于1919年，在校学生约44,700人"
+    },
+    {
+        "id":  "uc-san-diego",
+        "chineseName":  "加州大学圣迭戈分校",
+        "QS":  81,
+        "ARWU":  20,
+        "USNews":  21,
+        "THE":  47,
+        "description":  "圣迭戈加利福尼亚大学，位于美国San Diego，ARWU第20、US News第=21、THE第47、QS第81 (2027)，优势学科：消化病学与肝脏病学（全球第1）、海洋学（全球第1）、微生物学（全球第5），创建于1960年，在校学生约40,586人"
+    },
+    {
+        "id":  "uc-santa-barbara",
+        "chineseName":  "加州大学圣巴巴拉分校",
+        "QS":  173,
+        "ARWU":  70,
+        "USNews":  91,
+        "THE":  72,
+        "description":  "加利福尼亚大学圣巴巴拉分校，位于美国Santa Barbara，ARWU第70、THE第72、US News第=91、QS第173 (2027)，优势学科：光学（全球第13）、物理学与天文学（全球第16）、传播学与媒体研究（全球第19），创建于1891年，在校学生约25,735人"
+    },
+    {
+        "id":  "uflorida",
+        "chineseName":  "佛罗里达大学",
+        "QS":  228,
+        "ARWU":  151,
+        "USNews":  109,
+        "THE":  134,
+        "description":  "佛罗里达大学，位于美国Gainesville，US News第=109、THE第=134、ARWU第151-200、QS第=228 (2027)，优势学科：农学（全球第5）、生态学（全球第7）、体育相关学科（全球第8），创建于1853年，在校学生约47,815人"
+    },
+    {
+        "id":  "uiuc",
+        "chineseName":  "伊利诺伊大学厄巴纳-香槟分校",
+        "QS":  74,
+        "ARWU":  53,
+        "USNews":  109,
+        "THE":  41,
+        "description":  "伊利诺伊大学厄巴纳-香槟分校，位于美国Urbana，THE第=41、ARWU第53、QS第74、US News第=109 (2027)，优势学科：自动化与控制（全球第2）、图书馆与信息管理（全球第6）、水资源（全球第8），创建于1867年，在校学生约50,640人"
+    },
+    {
+        "id":  "umd",
+        "chineseName":  "马里兰大学科利奇帕克分校",
+        "QS":  252,
+        "ARWU":  55,
+        "USNews":  72,
+        "THE":  116,
+        "description":  "马里兰大学科利奇帕克分校，位于美国College Park，ARWU第55、US News第=72、THE第=116、QS第=252 (2027)，优势学科：地球科学（全球第13）、大气科学（全球第14）、气象学与大气科学（全球第=17），创建于1856年，在校学生约33,483人"
+    },
+    {
+        "id":  "umich",
+        "chineseName":  "密歇根大学",
+        "QS":  51,
+        "ARWU":  33,
+        "USNews":  21,
+        "THE":  23,
+        "description":  "密歇根大学，位于美国Ann Arbor，US News第=21、THE第23、ARWU第33、QS第51 (2027)，优势学科：牙科学（全球第1）、社会学（全球第2）、教育学（全球第5），创建于1817年，在校学生约48,449人"
+    },
+    {
+        "id":  "upenn",
+        "chineseName":  "宾夕法尼亚大学",
+        "QS":  15,
+        "ARWU":  14,
+        "USNews":  15,
+        "THE":  14,
+        "description":  "宾夕法尼亚大学，位于美国Philadelphia，THE第14、ARWU第14、QS第15、US News第15 (2027)，优势学科：护理学（全球第1）、人体生物科学（全球第2）、临床医学（全球第2），创建于1740年，在校学生约22,422人"
+    },
+    {
+        "id":  "usc",
+        "chineseName":  "南加州大学",
+        "QS":  153,
+        "ARWU":  68,
+        "USNews":  77,
+        "THE":  73,
+        "description":  "南加州大学，位于美国Los Angeles，ARWU第68、THE第=73、US News第77、QS第153 (2027)，优势学科：传播学与媒体研究（全球第8）、金融学（全球第14）、市场营销（全球第14），创建于1880年，在校学生约42,840人"
+    },
+    {
+        "id":  "ut-austin",
+        "chineseName":  "得克萨斯大学奥斯汀分校",
+        "QS":  67,
+        "ARWU":  48,
+        "USNews":  65,
+        "THE":  50,
+        "description":  "得克萨斯大学奥斯汀分校，位于美国Austin，QS第67、ARWU第48、US News第65、THE第50 (2027)，优势学科：空间科学（全球第=14）、艺术与人文（全球第=26）、物理学与天文学（全球第32），创建于1876年，在校学生约40,804人"
+    },
+    {
+        "id":  "uwashington",
+        "chineseName":  "华盛顿大学",
+        "QS":  92,
+        "ARWU":  17,
+        "USNews":  8,
+        "THE":  25,
+        "description":  "华盛顿大学，位于美国Seattle，US News第8、ARWU第17、THE第25、QS第=92 (2027)，优势学科：大气科学（全球第1）、图书馆与信息管理（全球第2）、海洋学（全球第3），创建于1861年，在校学生约49,524人"
+    },
+    {
+        "id":  "wisconsin",
+        "chineseName":  "威斯康星大学麦迪逊分校",
+        "QS":  131,
+        "ARWU":  36,
+        "USNews":  72,
+        "THE":  53,
+        "description":  "威斯康星大学麦迪逊分校，位于美国Madison，ARWU第36、THE第=53、US News第=72、QS第=131 (2027)，优势学科：传播学与媒体研究（全球第11）、心理学（全球第16）、教育学（全球第17），创建于1848年，在校学生约45,254人"
+    },
+    {
+        "id":  "yale",
+        "chineseName":  "耶鲁大学",
+        "QS":  16,
+        "ARWU":  11,
+        "USNews":  9,
+        "THE":  10,
+        "description":  "耶鲁大学，位于美国New Haven，US News第9、THE第10、ARWU第11、QS第=16 (2027)，优势学科：法学（全球第2）、心理学（全球第3）、英语语言文学（全球第4），创建于1701年，在校学生约14,884人"
+    }
+]

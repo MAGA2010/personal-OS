@@ -1,8 +1,10 @@
-"use client";
+﻿"use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useRef, useEffect, useState } from "react";
 import { MapPin, GraduationCap, DollarSign, Shield, Users, Star } from "lucide-react";
 import type { UniversityPOI, ChineseCommunityLevel, RankingTier } from "@/lib/types";
+import maplibregl from "maplibre-gl";
+import { useMapContext } from "./MapCanvas";
 
 // ═══════════════════════════════════════════════════════════════════
 // UniversityMarkers — School POI marker layer for the interactive map
@@ -101,6 +103,14 @@ const TIER_LABELS: Record<RankingTier, string> = {
   top50: "全球前50",
   top100: "全球前100",
   other: "其他",
+};
+
+/** Marker color for each ranking tier. */
+const TIER_COLORS: Record<RankingTier, string> = {
+  top20: '#c45f36',
+  top50: '#315d9f',
+  top100: '#23766b',
+  other: '#152025',
 };
 
 /** Chinese labels for Chinese community density. */
@@ -445,6 +455,74 @@ export function UniversityMarkers({
   //       should always provide real data or an empty array.
   const displayUniversities: UniversityPOI[] =
     universities.length > 0 ? universities : MOCK_UNIVERSITIES;
+  const mapContext = useMapContext();
+  const markersRef = useRef<{ id: string; marker: maplibregl.Marker; el: HTMLElement }[]>([]);
+
+  // Create/update MapLibre markers when map is ready
+  useEffect(() => {
+    const map = mapContext?.map;
+    if (!map || !mapContext?.mapReady) return;
+
+    // Clean up existing markers
+    markersRef.current.forEach(({ marker }) => marker.remove());
+    markersRef.current = [];
+
+    displayUniversities.forEach((uni) => {
+      const el = document.createElement('div');
+      const isSel = selectedId === uni.id;
+      el.style.cssText = [
+        'width:28px;height:28px;border-radius:50%;',
+        'border:2px solid white;cursor:pointer;',
+        'display:flex;align-items:center;justify-content:center;',
+        'font-size:12px;font-weight:700;color:white;',
+        'background:' + TIER_COLORS[uni.rankingTier] + ';',
+        'box-shadow:' + (isSel ? '0 0 0 3px rgba(49,93,159,0.5)' : '0 2px 6px rgba(0,0,0,0.2)') + ';',
+        'transform:' + (isSel ? 'scale(1.15)' : 'scale(1)') + ';',
+        'transition:transform 0.15s,box-shadow 0.15s;',
+      ].join('');
+      el.textContent = uni.chineseName.charAt(0);
+      el.title = uni.chineseName + ' (' + uni.name + ')';
+
+      el.addEventListener('click', function(e) {
+        e.stopPropagation();
+        onSelect(selectedId === uni.id ? null : uni.id);
+      });
+
+      el.addEventListener('mouseenter', function() {
+        setHoveredId(uni.id);
+        if (onHover) onHover(uni.id);
+      });
+
+      el.addEventListener('mouseleave', function() {
+        setHoveredId(null);
+        if (onHover) onHover(null);
+      });
+
+      var marker = new maplibregl.Marker({ element: el })
+        .setLngLat([uni.longitude, uni.latitude])
+        .addTo(map);
+
+      markersRef.current.push({ id: uni.id, marker: marker, el: el });
+    });
+
+    return function() {
+      markersRef.current.forEach(function(item) { item.marker.remove(); });
+      markersRef.current = [];
+    };
+  }, [mapContext?.map, mapContext?.mapReady, displayUniversities, selectedId, onSelect, onHover]);
+
+  // Update marker visual state when selection changes (without recreating DOM)
+  useEffect(function() {
+    markersRef.current.forEach(function(item) {
+      if (item.id === selectedId) {
+        item.el.style.transform = 'scale(1.15)';
+        item.el.style.boxShadow = '0 0 0 3px rgba(49,93,159,0.5)';
+      } else {
+        item.el.style.transform = 'scale(1)';
+        item.el.style.boxShadow = '0 2px 6px rgba(0,0,0,0.2)';
+      }
+    });
+  }, [selectedId]);
 
   // ── Handlers ──
 
@@ -618,11 +696,11 @@ export function UniversityMarkers({
               </button>
 
               {/* ── Preview tooltip card (shown on hover or selection) ── */}
-              {(isHovered || isSelected) && (
+              {isSelected && (
                 <div
                   id={`uni-preview-${uni.id}`}
                   role="tooltip"
-                  className="absolute left-0 top-full z-20 mt-2 w-64 rounded-lg border border-line bg-white/97 px-3.5 py-3 text-xs shadow-panel backdrop-blur"
+                  className="absolute left-0 top-full z-20 mt-1.5 w-48 rounded border border-line bg-white/90 px-2 py-1.5 text-[10px] leading-tight shadow-sm backdrop-blur"
                 >
                   {/* Header */}
                   <div className="mb-2 flex items-start justify-between gap-2">
@@ -764,5 +842,95 @@ export function UniversityMarkers({
 }
 
 // ── Exports ────────────────────────────────────────────────────────
+// ── UniversityMapPins — MapLibre markers only (no pill strip) ─────
+
+export function UniversityMapPins({
+  universities,
+  onSelect,
+  selectedId = null,
+  onHover,
+}: {
+  universities: UniversityPOI[];
+  onSelect: (id: string | null) => void;
+  selectedId?: string | null;
+  onHover?: (id: string | null) => void;
+}) {
+  const mapContext = useMapContext();
+  const [, setHoveredId] = useState<string | null>(null);
+  const markersRef = useRef<{ id: string; marker: maplibregl.Marker; el: HTMLElement }[]>([]);
+
+  const displayUniversities: UniversityPOI[] =
+    universities.length > 0 ? universities : MOCK_UNIVERSITIES;
+
+  // Create/update MapLibre markers when map is ready
+  useEffect(() => {
+    const map = mapContext?.map;
+    if (!map || !mapContext?.mapReady) return;
+
+    markersRef.current.forEach(({ marker }) => marker.remove());
+    markersRef.current = [];
+
+    displayUniversities.forEach((uni) => {
+      const el = document.createElement('div');
+      const isSel = selectedId === uni.id;
+      el.style.cssText = [
+        'width:28px;height:28px;border-radius:50%;',
+        'border:2px solid white;cursor:pointer;',
+        'display:flex;align-items:center;justify-content:center;',
+        'font-size:12px;font-weight:700;color:white;',
+        'background:' + TIER_COLORS[uni.rankingTier] + ';',
+        'box-shadow:' + (isSel ? '0 0 0 3px rgba(49,93,159,0.5)' : '0 2px 6px rgba(0,0,0,0.2)') + ';',
+        'transform:' + (isSel ? 'scale(1.15)' : 'scale(1)') + ';',
+        'transition:transform 0.15s,box-shadow 0.15s;',
+      ].join('');
+      el.textContent = uni.chineseName.charAt(0);
+      el.title = uni.chineseName + ' (' + uni.name + ')';
+
+      el.addEventListener('click', function(e) {
+        e.stopPropagation();
+        onSelect(selectedId === uni.id ? null : uni.id);
+      });
+
+      el.addEventListener('mouseenter', function() {
+        setHoveredId(uni.id);
+        if (onHover) onHover(uni.id);
+      });
+
+      el.addEventListener('mouseleave', function() {
+        setHoveredId(null);
+        if (onHover) onHover(null);
+      });
+
+      var marker = new maplibregl.Marker({ element: el })
+        .setLngLat([uni.longitude, uni.latitude])
+        .addTo(map);
+
+      markersRef.current.push({ id: uni.id, marker: marker, el: el });
+    });
+
+    return function() {
+      markersRef.current.forEach(function(item) { item.marker.remove(); });
+      markersRef.current = [];
+    };
+  }, [mapContext?.map, mapContext?.mapReady, displayUniversities, selectedId, onSelect, onHover]);
+
+  // Update marker visual state when selection changes
+  useEffect(function() {
+    markersRef.current.forEach(function(item) {
+      if (item.id === selectedId) {
+        item.el.style.transform = 'scale(1.15)';
+        item.el.style.boxShadow = '0 0 0 3px rgba(49,93,159,0.5)';
+      } else {
+        item.el.style.transform = 'scale(1)';
+        item.el.style.boxShadow = '0 2px 6px rgba(0,0,0,0.2)';
+      }
+    });
+  }, [selectedId]);
+
+  return null;
+}
+
 
 export default UniversityMarkers;
+
+

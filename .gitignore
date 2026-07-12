@@ -1,4 +1,4 @@
-# Dependencies
+﻿# Dependencies
 node_modules/
 
 # Next.js build output
@@ -37,3 +37,9 @@ input.xlsx
 factor_*.pdf
 factor_*.png
 factor_pages/
+
+# Editor scratch files
+_add_*.py
+_edit_*.js
+_edit_*.mjs
+test.py
