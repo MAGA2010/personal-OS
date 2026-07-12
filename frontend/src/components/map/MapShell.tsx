@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useCallback, useState } from "react";
 import type { MetricId, MapViewState, MapFilters, UniversityPOI, MapRegion, NewsArticle } from "@/lib/types";
@@ -210,7 +210,7 @@ export function MapShell({
 
         {/* Map canvas — fills remaining space */}
         <div className="relative flex-1 min-h-0">
-          <MapCanvas className="h-full" />
+          <MapCanvas className="h-full" activeMetricId={viewState.activeMetricId} />
 
           {/* Granularity badge overlay */}
           <div className="pointer-events-none absolute right-3 top-3 z-10">

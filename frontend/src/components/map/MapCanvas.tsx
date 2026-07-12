@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import {
   useCallback,
@@ -14,6 +14,18 @@ import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { MapPin, Loader2 } from "lucide-react";
 import type { MapViewState, Granularity, MetricId } from "@/lib/types";
+import { METRIC_DEFINITIONS } from "@/lib/metrics";
+import regionMetrics from "@/data/region-metrics.json";
+import {
+  interpolateGreens,
+  interpolateRdBu,
+  interpolateBlues,
+  interpolatePurples,
+  interpolateOrRd,
+  interpolateYlOrRd,
+} from "d3-scale-chromatic";
+import { feature } from "topojson-client";
+import type { FeatureCollection, Geometry } from "geojson";
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // MapCanvas — MapLibre GL map initialisation shell
@@ -51,19 +63,96 @@ import type { MapViewState, Granularity, MetricId } from "@/lib/types";
 
 /** Free CARTO Positron raster tile style — no API key needed. */
 const DEFAULT_STYLE_URL =
-  "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json";
+  "https://demotiles.maplibre.org/style.json";
 
 /** Map centre: continental US. */
 const INITIAL_CENTER: [number, number] = [-98.5, 39.8];
 
 /** Starting zoom: full US view. */
-const INITIAL_ZOOM = 3.5;
+const INITIAL_ZOOM = 4.0;
 
 /** Minimum zoom before we revert to state-level granularity. */
 const STATE_MAX_ZOOM = 6;
 
 /** County-level band. */
 const COUNTY_MAX_ZOOM = 9;
+
+const CHOROPLETH_SOURCE_ID = "pathos-us-states";
+const CHOROPLETH_FILL_LAYER_ID = "pathos-us-states-fill";
+const CHOROPLETH_LINE_LAYER_ID = "pathos-us-states-line";
+const STATE_TOPOJSON_URL = "/geography/us-states.topojson";
+const DEFAULT_METRIC_ID: MetricId = "income";
+const MISSING_REGION_COLOR = "rgba(21, 32, 37, 0.08)";
+
+type TopologyWithStates = {
+  objects: {
+    states: unknown;
+  };
+};
+
+type ChoroplethFeatureProperties = {
+  name?: string;
+  fipsCode: string;
+  metricValue?: number;
+  metricColor?: string;
+};
+
+type ChoroplethFeatureCollection = FeatureCollection<
+  Geometry,
+  ChoroplethFeatureProperties
+>;
+
+const COLOR_INTERPOLATORS: Record<string, (t: number) => string> = {
+  greens: interpolateGreens,
+  redblue: interpolateRdBu,
+  blues: interpolateBlues,
+  purples: interpolatePurples,
+  orangered: interpolateOrRd,
+  ylorrd: interpolateYlOrRd,
+};
+
+function metricColor(metricId: MetricId, value?: number): string {
+  if (value === undefined) return MISSING_REGION_COLOR;
+  const metric = METRIC_DEFINITIONS[metricId];
+  const t = Math.max(0, Math.min(1, value));
+  const clipped = 0.08 + t * 0.84;
+  const interpolator = COLOR_INTERPOLATORS[metric.colorScheme];
+  return interpolator(metric.invertScale ? 1 - clipped : clipped);
+}
+
+function firstSymbolLayerId(map: maplibregl.Map): string | undefined {
+  return map.getStyle().layers?.find((layer) => layer.type === "symbol")?.id;
+}
+
+function buildStateChoroplethData(
+  topology: TopologyWithStates,
+  metricId: MetricId,
+): ChoroplethFeatureCollection {
+  const collection = feature(
+    topology as never,
+    topology.objects.states as never,
+  ) as unknown as ChoroplethFeatureCollection;
+
+  const metricForMetricId = regionMetrics.records.filter((r) => r.metricId === metricId);
+  const metricByFips = new Map(metricForMetricId.map((metric) => [metric.fipsCode, metric]));
+
+  return {
+    ...collection,
+    features: collection.features.map((stateFeature) => {
+      const fipsCode = String(stateFeature.id ?? "");
+      const metric = metricByFips.get(fipsCode);
+      return {
+        ...stateFeature,
+        properties: {
+          ...(stateFeature.properties ?? {}),
+          fipsCode,
+          metricValue: metric?.value,
+          metricColor: metricColor(metricId, metric?.value),
+        },
+      };
+    }),
+  };
+}
 
 // ── Map Context ───────────────────────────────────────────────────────────────
 
@@ -112,6 +201,9 @@ export interface MapCanvasProps {
   /** Called when granularity flips due to zoom crossing a threshold. */
   onGranularityChange?: (granularity: Granularity) => void;
 
+  /** Called when a state choropleth region is clicked. */
+  onRegionClick?: (fipsCode: string) => void;
+
   /** Overlay components rendered inside the map container (e.g. legend, tooltip). */
   children?: ReactNode;
 
@@ -136,6 +228,7 @@ export function MapCanvas({
   initialZoom = INITIAL_ZOOM,
   onViewStateChange,
   onGranularityChange,
+  onRegionClick,
   children,
   loadingFallback,
   interactiveLayerIds,
@@ -145,6 +238,8 @@ export function MapCanvas({
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const initializedRef = useRef(false);
+  const topologyRef = useRef<TopologyWithStates | null>(null);
+  const regionClickRef = useRef<MapCanvasProps["onRegionClick"]>(onRegionClick);
 
   // ── State ──
   const [mapReady, setMapReady] = useState(false);
@@ -178,6 +273,47 @@ export function MapCanvas({
     setViewState((prev) => ({ ...prev, activeMetricId }));
   }, [activeMetricId]);
 
+
+  useEffect(() => {
+    regionClickRef.current = onRegionClick;
+  }, [onRegionClick]);
+
+  useEffect(() => {
+    if (!mapReady || !mapRef.current) return;
+    const map = mapRef.current;
+    const metricId = activeMetricId ?? DEFAULT_METRIC_ID;
+    let cancelled = false;
+
+    async function loadChoropleth() {
+      try {
+        if (!topologyRef.current) {
+          const response = await fetch(STATE_TOPOJSON_URL);
+          if (!response.ok) throw new Error("Failed to load " + STATE_TOPOJSON_URL);
+          topologyRef.current = (await response.json()) as TopologyWithStates;
+        }
+        if (cancelled || !topologyRef.current) return;
+        const data = buildStateChoroplethData(topologyRef.current, metricId);
+        const existingSource = map.getSource(CHOROPLETH_SOURCE_ID);
+        if (existingSource) {
+          (existingSource as maplibregl.GeoJSONSource).setData(data);
+        } else {
+          map.addSource(CHOROPLETH_SOURCE_ID, { type: "geojson", data });
+          map.addLayer({ id: CHOROPLETH_FILL_LAYER_ID, type: "fill", source: CHOROPLETH_SOURCE_ID, paint: { "fill-color": ["coalesce", ["get", "metricColor"], MISSING_REGION_COLOR], "fill-opacity": 0.58 } });
+          map.addLayer({ id: CHOROPLETH_LINE_LAYER_ID, type: "line", source: CHOROPLETH_SOURCE_ID, paint: { "line-color": "rgba(21, 32, 37, 0.32)", "line-width": 0.7 } });
+          map.on("mouseenter", CHOROPLETH_FILL_LAYER_ID, () => { map.getCanvas().style.cursor = "pointer"; });
+          map.on("mouseleave", CHOROPLETH_FILL_LAYER_ID, () => { map.getCanvas().style.cursor = ""; });
+          map.on("click", CHOROPLETH_FILL_LAYER_ID, (event) => {
+            const fipsCode = event.features?.[0]?.properties?.fipsCode;
+            if (typeof fipsCode === "string") regionClickRef.current?.(fipsCode);
+          });
+        }
+      } catch (error) {
+        console.error("[MapCanvas] Failed to render state choropleth:", error);
+      }
+    }
+    void loadChoropleth();
+    return () => { cancelled = true; };
+  }, [activeMetricId, mapReady]);
   // ── Initialise / destroy MapLibre ─────────────────────────────────────────
   useEffect(() => {
     if (!containerRef.current || initializedRef.current) return;
@@ -189,6 +325,9 @@ export function MapCanvas({
       center: initialCenter,
       zoom: initialZoom,
       attributionControl: false,
+      // Restrict view to US only
+      maxBounds: [[-135, 17], [-55, 55]],
+      minZoom: 1.5,
     });
 
     // Navigation controls (zoom +/- and compass)
@@ -401,3 +540,7 @@ export function MapCanvas({
 // ── Exports ───────────────────────────────────────────────────────────────────
 
 export default MapCanvas;
+
+
+
+
