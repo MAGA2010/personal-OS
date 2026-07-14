@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import type { MetricDefinition, ColorSchemeId } from "@/lib/types";
 import { METRIC_DEFINITIONS } from "@/lib/metrics";
@@ -8,10 +8,10 @@ import { METRIC_DEFINITIONS } from "@/lib/metrics";
 import {
   interpolateGreens,
   interpolateRdBu,
-  interpolateBlues,
-  interpolatePurples,
   interpolateOrRd,
   interpolateYlOrRd,
+  interpolateYlGn,
+  interpolateOranges,
 } from "d3-scale-chromatic";
 
 type ColorInterpolator = (t: number) => string;
@@ -19,8 +19,8 @@ type ColorInterpolator = (t: number) => string;
 const SCHEME_MAP: Record<ColorSchemeId, ColorInterpolator> = {
   greens: interpolateGreens,
   redblue: interpolateRdBu,
-  blues: interpolateBlues,
-  purples: interpolatePurples,
+  tealgrn: interpolateYlGn,
+  oranges: interpolateOranges,
   orangered: interpolateOrRd,
   ylorrd: interpolateYlOrRd,
 };
@@ -104,8 +104,8 @@ export interface MapLegendProps {
 const MOCK_RANGES: Record<string, { min: string; max: string }> = {
   income:             { min: "$55k",  max: "$140k"  },
   safety:             { min: "200",   max: "500"    },
-  toefl:              { min: "70",    max: "100"    },
-  sat:                { min: "1050",  max: "1550"   },
+  employment:         { min: "94.8%", max: "97.7%"  },
+  cost:               { min: "¥15万", max: "¥60万"  },
   admission_rate:     { min: "15%",   max: "85%"    },
   chinese_population: { min: "0.5%",  max: "14%"    },
 };

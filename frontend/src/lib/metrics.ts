@@ -40,26 +40,26 @@ export const METRIC_DEFINITIONS: Record<MetricId, MetricDefinition> = {
       "基于暴力犯罪率（每10万人暴力犯罪案件数）的倒数，数值越高越安全",
   },
 
-  toefl: {
-    id: "toefl",
-    label: "托福成绩",
-    labelEn: "TOEFL Requirement",
-    unit: "score",
-    colorScheme: "blues",
+  employment: {
+    id: "employment",
+    label: "就业指数",
+    labelEn: "Employment Index",
+    unit: "%",
+    colorScheme: "tealgrn",
     invertScale: false,
     description:
-      "该区域大学对国际学生的最低托福成绩要求（区域均值），范围约 70-100",
+      "基于BLS各州失业率数据计算：就业率 = 100% - 失业率，反映该地区的劳动力市场健康程度",
   },
 
-  sat: {
-    id: "sat",
-    label: "SAT分数",
-    labelEn: "SAT Score",
-    unit: "score",
-    colorScheme: "purples",
+  cost: {
+    id: "cost",
+    label: "留学成本",
+    labelEn: "Study Cost Index",
+    unit: "¥/年",
+    colorScheme: "oranges",
     invertScale: false,
     description:
-      "该区域大学录取学生的SAT中位数（区域均值），范围约 1050-1450",
+      "包含学费与生活费的年度综合留学成本评估，数值越高表示留学成本越高",
   },
 
   admission_rate: {
@@ -93,8 +93,8 @@ export const METRIC_DEFINITIONS: Record<MetricId, MetricDefinition> = {
 export const METRIC_ORDER: MetricId[] = [
   "income",
   "safety",
-  "toefl",
-  "sat",
+  "employment",
+  "cost",
   "admission_rate",
   "chinese_population",
 ];
@@ -114,9 +114,10 @@ export function formatMetricValue(metricId: MetricId, rawValue: number): string 
       return `$${(rawValue / 1000).toFixed(0)}k`;
     case "safety":
       return `${rawValue.toFixed(0)}/100k`;
-    case "toefl":
-    case "sat":
-      return rawValue.toFixed(0);
+    case "employment":
+      return `${rawValue.toFixed(1)}%`;
+        case "cost":
+      return `¥${(rawValue / 10000).toFixed(0)}万`;
     case "admission_rate":
     case "chinese_population":
       return `${rawValue.toFixed(1)}%`;
@@ -142,11 +143,11 @@ export function denormaliseDisplayValue(metricId: MetricId, normalised: number):
     case "safety":
       raw = Math.round(normalised * 500 + 200);
       break;
-    case "toefl":
-      raw = Math.round(normalised * 30 + 70);
+    case "employment":
+      raw = Math.round(normalised * 2.9 + 94.8);
       break;
-    case "sat":
-      raw = Math.round(normalised * 400 + 1050);
+    case "cost":
+      raw = Math.round(normalised * 450000 + 150000);
       break;
     case "admission_rate":
       raw = (1 - normalised) * 80 + 10;
@@ -182,33 +183,33 @@ export function denormaliseDisplayValue(metricId: MetricId, normalised: number):
 
 const MOCK_NORMALIZED: Record<string, Partial<Record<MetricId, number>>> = {
   // ── Northeast ──
-  "25": { income: 0.85, safety: 0.72, toefl: 0.80, sat: 0.78, admission_rate: 0.35, chinese_population: 0.62 }, // MA
-  "36": { income: 0.80, safety: 0.60, toefl: 0.82, sat: 0.80, admission_rate: 0.28, chinese_population: 0.88 }, // NY
-  "34": { income: 0.82, safety: 0.68, toefl: 0.75, sat: 0.74, admission_rate: 0.32, chinese_population: 0.52 }, // NJ
-  "42": { income: 0.72, safety: 0.65, toefl: 0.78, sat: 0.76, admission_rate: 0.40, chinese_population: 0.45 }, // PA
-  "09": { income: 0.78, safety: 0.70, toefl: 0.79, sat: 0.77, admission_rate: 0.30, chinese_population: 0.50 }, // CT
+  "25": { income: 0.85, safety: 0.72, employment: 0.80, cost: 0.78, admission_rate: 0.35, chinese_population: 0.62 }, // MA
+  "36": { income: 0.80, safety: 0.60, employment: 0.82, cost: 0.80, admission_rate: 0.28, chinese_population: 0.88 }, // NY
+  "34": { income: 0.82, safety: 0.68, employment: 0.75, cost: 0.74, admission_rate: 0.32, chinese_population: 0.52 }, // NJ
+  "42": { income: 0.72, safety: 0.65, employment: 0.78, cost: 0.76, admission_rate: 0.40, chinese_population: 0.45 }, // PA
+  "09": { income: 0.78, safety: 0.70, employment: 0.79, cost: 0.77, admission_rate: 0.30, chinese_population: 0.50 }, // CT
 
   // ── Midwest ──
-  "17": { income: 0.70, safety: 0.55, toefl: 0.72, sat: 0.70, admission_rate: 0.45, chinese_population: 0.48 }, // IL
-  "39": { income: 0.65, safety: 0.62, toefl: 0.68, sat: 0.68, admission_rate: 0.52, chinese_population: 0.25 }, // OH
-  "26": { income: 0.62, safety: 0.58, toefl: 0.70, sat: 0.69, admission_rate: 0.50, chinese_population: 0.30 }, // MI
-  "55": { income: 0.66, safety: 0.64, toefl: 0.66, sat: 0.65, admission_rate: 0.55, chinese_population: 0.20 }, // WI
-  "27": { income: 0.68, safety: 0.60, toefl: 0.67, sat: 0.66, admission_rate: 0.48, chinese_population: 0.22 }, // MN
+  "17": { income: 0.70, safety: 0.55, employment: 0.72, cost: 0.70, admission_rate: 0.45, chinese_population: 0.48 }, // IL
+  "39": { income: 0.65, safety: 0.62, employment: 0.68, cost: 0.68, admission_rate: 0.52, chinese_population: 0.25 }, // OH
+  "26": { income: 0.62, safety: 0.58, employment: 0.70, cost: 0.69, admission_rate: 0.50, chinese_population: 0.30 }, // MI
+  "55": { income: 0.66, safety: 0.64, employment: 0.66, cost: 0.65, admission_rate: 0.55, chinese_population: 0.20 }, // WI
+  "27": { income: 0.68, safety: 0.60, employment: 0.67, cost: 0.66, admission_rate: 0.48, chinese_population: 0.22 }, // MN
 
   // ── South ──
-  "48": { income: 0.68, safety: 0.50, toefl: 0.74, sat: 0.73, admission_rate: 0.42, chinese_population: 0.38 }, // TX
-  "12": { income: 0.64, safety: 0.52, toefl: 0.73, sat: 0.72, admission_rate: 0.44, chinese_population: 0.32 }, // FL
-  "13": { income: 0.66, safety: 0.54, toefl: 0.71, sat: 0.71, admission_rate: 0.46, chinese_population: 0.28 }, // GA
-  "37": { income: 0.63, safety: 0.56, toefl: 0.69, sat: 0.67, admission_rate: 0.50, chinese_population: 0.22 }, // NC
-  "51": { income: 0.70, safety: 0.62, toefl: 0.70, sat: 0.70, admission_rate: 0.48, chinese_population: 0.25 }, // VA
+  "48": { income: 0.68, safety: 0.50, employment: 0.74, cost: 0.73, admission_rate: 0.42, chinese_population: 0.38 }, // TX
+  "12": { income: 0.64, safety: 0.52, employment: 0.73, cost: 0.72, admission_rate: 0.44, chinese_population: 0.32 }, // FL
+  "13": { income: 0.66, safety: 0.54, employment: 0.71, cost: 0.71, admission_rate: 0.46, chinese_population: 0.28 }, // GA
+  "37": { income: 0.63, safety: 0.56, employment: 0.69, cost: 0.67, admission_rate: 0.50, chinese_population: 0.22 }, // NC
+  "51": { income: 0.70, safety: 0.62, employment: 0.70, cost: 0.70, admission_rate: 0.48, chinese_population: 0.25 }, // VA
 
   // ── West ──
-  "06": { income: 0.90, safety: 0.55, toefl: 0.85, sat: 0.85, admission_rate: 0.20, chinese_population: 0.95 }, // CA
-  "53": { income: 0.76, safety: 0.65, toefl: 0.72, sat: 0.70, admission_rate: 0.42, chinese_population: 0.42 }, // WA
-  "41": { income: 0.72, safety: 0.68, toefl: 0.70, sat: 0.68, admission_rate: 0.50, chinese_population: 0.28 }, // OR
-  "04": { income: 0.58, safety: 0.55, toefl: 0.65, sat: 0.64, admission_rate: 0.58, chinese_population: 0.18 }, // AZ
-  "32": { income: 0.60, safety: 0.52, toefl: 0.64, sat: 0.62, admission_rate: 0.55, chinese_population: 0.15 }, // NV
-  "08": { income: 0.74, safety: 0.62, toefl: 0.68, sat: 0.66, admission_rate: 0.48, chinese_population: 0.20 }, // CO
+  "06": { income: 0.90, safety: 0.55, employment: 0.85, cost: 0.85, admission_rate: 0.20, chinese_population: 0.95 }, // CA
+  "53": { income: 0.76, safety: 0.65, employment: 0.72, cost: 0.70, admission_rate: 0.42, chinese_population: 0.42 }, // WA
+  "41": { income: 0.72, safety: 0.68, employment: 0.70, cost: 0.68, admission_rate: 0.50, chinese_population: 0.28 }, // OR
+  "04": { income: 0.58, safety: 0.55, employment: 0.65, cost: 0.64, admission_rate: 0.58, chinese_population: 0.18 }, // AZ
+  "32": { income: 0.60, safety: 0.52, employment: 0.64, cost: 0.62, admission_rate: 0.55, chinese_population: 0.15 }, // NV
+  "08": { income: 0.74, safety: 0.62, employment: 0.68, cost: 0.66, admission_rate: 0.48, chinese_population: 0.20 }, // CO
 };
 
 /**

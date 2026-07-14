@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import type { MetricId } from "@/lib/types";
 import { METRIC_DEFINITIONS, METRIC_ORDER } from "@/lib/metrics";
@@ -26,8 +26,8 @@ interface MetricTabsProps {
 const METRIC_ABBREVIATIONS: Record<MetricId, string> = {
   income: "收入",
   safety: "安全",
-  toefl: "托福",
-  sat: "SAT",
+  employment: "就业",
+  cost: "成本",
   admission_rate: "录取",
   chinese_population: "华人",
 };

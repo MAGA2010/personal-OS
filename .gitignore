@@ -27,11 +27,6 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 
-# Data files - shared only with team
-frontend/src/data/region-metrics.json
-frontend/src/data/universities.json
-frontend/src/data/news.json
-input.xlsx
 
 # Temp / irrelevant
 factor_*.pdf
@@ -43,3 +38,8 @@ _add_*.py
 _edit_*.js
 _edit_*.mjs
 test.py
+
+# Junk artifacts
+frontend/0
+pathos-map.zip
+tuition_summary.txt

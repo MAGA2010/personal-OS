@@ -62,8 +62,7 @@ export interface UniversityMarkersProps {
    *  gets a highlighted ring and expanded state.  Pass `null` when
    *  nothing is selected. */
   selectedId?: string | null;
-
-  /** Callback fired when the user hovers over a university marker.
+    compareOpen?: boolean; compareIds?: string[];/** Callback fired when the user hovers over a university marker.
    *  The parent can use this to highlight the corresponding list item
    *  in the sidebar. */
   onHover?: (id: string | null) => void;
@@ -441,6 +440,8 @@ export function UniversityMarkers({
   isLoading = false,
   error,
   className,
+  compareOpen = false,
+  compareIds = [],
 }: UniversityMarkersProps) {
   // ── State ──
   const [hoveredId, setHoveredId] = useState<string | null>(null);
@@ -657,6 +658,7 @@ export function UniversityMarkers({
                 className={[
                   // Base pill
                   "flex items-center gap-1.5 rounded-full border px-2.5 py-1.5 text-xs font-medium",
+compareOpen && compareIds?.includes(uni.id) ? "bg-cobalt/20 border-cobalt text-cobalt" : "",
                   // Transitions
                   "transition-all duration-150",
                   // Focus ring
@@ -848,12 +850,14 @@ export function UniversityMapPins({
   universities,
   onSelect,
   selectedId = null,
-  onHover,
-}: {
+    onHover,
+    compareOpen,
+    compareIds,
+  }: {
   universities: UniversityPOI[];
   onSelect: (id: string | null) => void;
   selectedId?: string | null;
-  onHover?: (id: string | null) => void;
+    compareOpen?: boolean; compareIds?: string[];onHover?: (id: string | null) => void;
 }) {
   const mapContext = useMapContext();
   const [, setHoveredId] = useState<string | null>(null);
@@ -932,5 +936,9 @@ export function UniversityMapPins({
 
 
 export default UniversityMarkers;
+
+
+
+
 
 

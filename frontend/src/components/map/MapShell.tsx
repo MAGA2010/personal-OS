@@ -8,6 +8,7 @@ import { MetricTabs } from "./MetricTabs";
 import { MapLegend } from "./MapLegend";
 import { UniversityMarkers, UniversityMapPins } from "./UniversityMarkers";
 import { UniversityCard } from "./UniversityCard";
+import ComparePanel from "./ComparePanel";
 import universityData from "@/data/universities.json";
 import regionMetrics from "@/data/region-metrics.json";
 import {
@@ -109,9 +110,11 @@ export function MapShell({
   const [selectedUniversityId, setSelectedUniversityId] = useState<string | null>(null);
  const [selectedRegionFips, setSelectedRegionFips] = useState<string | null>(null);
   const [pillsOpen, setPillsOpen] = useState(false);
-
+  const [compareIds, setCompareIds] = useState<string[]>([]);
+  const [compareOpen, setCompareOpen] = useState(false);
   // TODO: Replace with real region detail fetched from Supabase
   // Expected shape: { region: MapRegion, universities: UniversityPOI[] }
+  
   const [regionDetail, setRegionDetail] =
     useState<SelectedRegionDetail | null>(null);
 
@@ -143,7 +146,23 @@ export function MapShell({
     onViewStateChange?.(next);
   }, [viewState, onViewStateChange]);
 
- const handleRegionClick = useCallback(
+   const addToCompare = useCallback((id: string) => {
+    setCompareIds(prev =>
+      prev.includes(id) ? prev : [...prev, id].slice(0, 4)
+    );
+    setCompareOpen(true);
+  }, []);
+
+  const removeFromCompare = useCallback((id: string) => {
+    setCompareIds(prev => prev.filter(i => i !== id));
+  }, []);
+
+  const clearCompare = useCallback(() => {
+    setCompareIds([]);
+    setCompareOpen(false);
+  }, []);
+
+  const handleRegionClick = useCallback(
    (fipsCode: string) => {
      setSelectedRegionFips(fipsCode);
       setSelectedUniversityId(null);
@@ -246,7 +265,13 @@ export function MapShell({
           <MapCanvas className="flex-1 min-h-0" activeMetricId={viewState.activeMetricId} onRegionClick={handleRegionClick}>
              <UniversityMapPins
                universities={(universityData.universities) as any}
-               onSelect={setSelectedUniversityId}
+               onSelect={(id) => {
+                 if (id && compareOpen) {
+                   addToCompare(id);
+                 } else {
+                   setSelectedUniversityId(id);
+                 }
+               }}
                selectedId={selectedUniversityId}
              />
            </MapCanvas>
@@ -254,7 +279,17 @@ export function MapShell({
           {pillsOpen ? (
             <div className="shrink-0 border-t border-line bg-panel px-3 py-2 overflow-x-auto" role="navigation" aria-label="大学列表">
               <div className="flex items-center justify-between mb-1.5">
-                <span className="text-xs text-ink/40">{universityData.universities.length} 所大学</span>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-ink/40">{universityData.universities.length} 所大学</span>
+                  <button
+                    onClick={() => setCompareOpen(v => !v)}
+                    className={`rounded px-2 py-0.5 text-[10px] font-medium transition-colors ${
+                      compareOpen ? "bg-cobalt/10 text-cobalt" : "text-ink/36 hover:text-ink hover:bg-ink/5"
+                    }`}
+                  >
+                    对比 {compareIds.length > 0 ? `(${compareIds.length})` : ""}
+                  </button>
+                </div>
                 <button
                   onClick={() => setPillsOpen(false)}
                   className="rounded p-0.5 text-ink/36 hover:text-ink hover:bg-ink/5 transition-colors"
@@ -265,22 +300,45 @@ export function MapShell({
               </div>
               <UniversityMarkers
                 universities={(universityData.universities) as any}
-                onSelect={setSelectedUniversityId}
+                onSelect={(id) => {
+                  if (id && compareOpen) {
+                    addToCompare(id);
+                  } else {
+                    setSelectedUniversityId(id);
+                  }
+                }}
                 selectedId={selectedUniversityId}
               />
             </div>
-          ) : (
-            <div className="shrink-0 border-t border-line bg-panel">
+         ) : (
+            <div className="shrink-0 border-t border-line bg-panel flex items-center justify-between px-3">
               <button
                 onClick={() => setPillsOpen(true)}
-                className="flex w-full items-center justify-center gap-1 py-1.5 text-xs text-ink/44 hover:text-ink transition-colors"
+                className="flex items-center gap-1 py-1.5 text-xs text-ink/44 hover:text-ink transition-colors"
                 aria-label="展开大学列表"
               >
                 <GraduationCap size={11} />
                 <span>{universityData.universities.length} 所大学</span>
                 <ChevronUp size={11} />
               </button>
+              <button
+                onClick={() => setCompareOpen(v => !v)}
+                className={`rounded px-2 py-0.5 text-[10px] font-medium transition-colors ${
+                  compareOpen ? "bg-cobalt/10 text-cobalt" : "text-ink/36 hover:text-ink hover:bg-ink/5"
+                }`}
+              >
+                对比 {compareIds.length > 0 ? `(${compareIds.length})` : ""}
+              </button>
             </div>
+          )}
+            { (compareOpen || compareIds.length > 0) && (
+            <ComparePanel
+              universities={(universityData.universities) as any}
+              selectedIds={compareIds}
+              onRemove={removeFromCompare}
+              onClear={clearCompare}
+              onClose={() => { setCompareIds([]); setCompareOpen(false); }}
+            />
           )}
           {selectedUniversityId && (
             <div className="absolute inset-0 z-30 flex items-center justify-center bg-ink/20 backdrop-blur-sm" onClick={() => setSelectedUniversityId(null)}>
@@ -663,19 +721,20 @@ const MOCK_REGION_DETAIL: Record<string, SelectedRegionDetail> = {
         {
           fipsCode: "06",
           granularity: "state",
-          metricId: "toefl",
-          value: 0.85,
-          rawValue: 96,
-          displayValue: "96",
+          metricId: "employment",
+          value: 0.82,
+          rawValue: 89,
+          displayValue: "89分",
           year: 2025,
         },
+
         {
           fipsCode: "06",
           granularity: "state",
-          metricId: "sat",
-          value: 0.85,
-          rawValue: 1390,
-          displayValue: "1390",
+          metricId: "cost",
+          value: 0.92,
+          rawValue: 427000,
+          displayValue: "¥43万",
           year: 2025,
         },
         {

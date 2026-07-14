@@ -19,8 +19,8 @@ import regionMetrics from "@/data/region-metrics.json";
 import {
   interpolateGreens,
   interpolateRdBu,
-  interpolateBlues,
-  interpolatePurples,
+  interpolateYlGn,
+  interpolateOranges,
   interpolateOrRd,
   interpolateYlOrRd,
 } from "d3-scale-chromatic";
@@ -105,8 +105,8 @@ type ChoroplethFeatureCollection = FeatureCollection<
 const COLOR_INTERPOLATORS: Record<string, (t: number) => string> = {
   greens: interpolateGreens,
   redblue: interpolateRdBu,
-  blues: interpolateBlues,
-  purples: interpolatePurples,
+  tealgrn: interpolateYlGn,
+  oranges: interpolateOranges,
   orangered: interpolateOrRd,
   ylorrd: interpolateYlOrRd,
 };

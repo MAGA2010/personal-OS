@@ -1,33 +1,30 @@
-// ═══════════════════════════════════════════════════════════════
-// PathOS · Map Module — Shared TypeScript Types
-// ═══════════════════════════════════════════════════════════════
-//
+﻿// 鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺?// PathOS 路 Map Module 鈥?Shared TypeScript Types
+// 鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺?//
 // This file defines every shape consumed or produced by the map
 // module: metric layers, choropleth regions, university POIs,
 // campus landmarks, news articles, map view state, and tooltip
 // payloads.
 //
 // Conventions
-// ───────────
-// • Chinese labels are primary (`label`); English is the fallback
-//   (`labelEn`).  Every UI‑visible string should follow this shape.
-// • Placeholder data / mock values are tagged with:
+// 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
+// 鈥?Chinese labels are primary (`label`); English is the fallback
+//   (`labelEn`).  Every UI鈥憊isible string should follow this shape.
+// 鈥?Placeholder data / mock values are tagged with:
 //     // TODO: Replace with real {metric name} data
 //     // TODO: Connect to Supabase when available
-// • MapLibre‑specific types (like `LngLatBoundsLike`) are imported
-//   dynamically inside components; this file stays framework‑agnostic.
-// • Tailwind color tokens used across the UI:
-//     ink        #152025    – body text, active states
-//     paper      #f6f3ed    – page background
-//     panel      #fffaf1    – card / panel background
-//     line       #d9d1c3    – borders, dividers
-//     jade       #23766b    – success / positive
-//     persimmon  #c45f36    – warning / highlight
-//     cobalt     #315d9f    – info / link / accent
+// 鈥?MapLibre鈥憇pecific types (like `LngLatBoundsLike`) are imported
+//   dynamically inside components; this file stays framework鈥慳gnostic.
+// 鈥?Tailwind color tokens used across the UI:
+//     ink        #152025    鈥?body text, active states
+//     paper      #f6f3ed    鈥?page background
+//     panel      #fffaf1    鈥?card / panel background
+//     line       #d9d1c3    鈥?borders, dividers
+//     jade       #23766b    鈥?success / positive
+//     persimmon  #c45f36    鈥?warning / highlight
+//     cobalt     #315d9f    鈥?info / link / accent
 //
-// ═══════════════════════════════════════════════════════════════
-
-// ── Identity / Perspective ──────────────────────────────────────
+// 鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺?
+// 鈹€鈹€ Identity / Perspective 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /** The two personas the advisory platform serves. */
 export type Perspective = "student" | "parent";
@@ -35,19 +32,19 @@ export type Perspective = "student" | "parent";
 /** Simplified affordability bucket for quick filtering. */
 export type Affordability = "good" | "stretch" | "over";
 
-// ── Metric System ───────────────────────────────────────────────
+// 鈹€鈹€ Metric System 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
  * Six metric layers the choropleth map can render.
  *
  * TODO: Confirm exact source for each metric (ACS, IPEDS, IIE, etc.)
- * TODO: Connect to Supabase when available — current values are mock
+ * TODO: Connect to Supabase when available 鈥?current values are mock
  */
 export type MetricId =
   | "income"
   | "safety"
-  | "toefl"
-  | "sat"
+  | "employment"
+  | "cost"
   | "admission_rate"
   | "chinese_population";
 
@@ -61,19 +58,19 @@ export type Granularity = "state" | "county" | "city";
 export type ColorSchemeId =
   | "greens"      // income
   | "redblue"     // safety
-  | "blues"       // TOEFL
-  | "purples"     // SAT
+  | "tealgrn"     // employment
+  | "oranges"     // cost
   | "orangered"   // admission rate
   | "ylorrd";     // Chinese population
 
-// ── Metric Definition ───────────────────────────────────────────
+// 鈹€鈹€ Metric Definition 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
- * Human‑readable metadata for one metric layer.
- * Displayed in the legend, metric‑tab bar, and info panel.
+ * Human鈥憆eadable metadata for one metric layer.
+ * Displayed in the legend, metric鈥憈ab bar, and info panel.
  */
 export interface MetricDefinition {
-  /** Machine‑readable key. */
+  /** Machine鈥憆eadable key. */
   id: MetricId;
 
   /** Chinese label (primary display language). */
@@ -90,21 +87,21 @@ export interface MetricDefinition {
 
   /**
    * When `true` the color ramp is reversed so that "worse" values
-   * map to the darker/stronger end (e.g. crime rate → safety).
+   * map to the darker/stronger end (e.g. crime rate 鈫?safety).
    */
   invertScale: boolean;
 
-  /** One‑sentence description (Chinese) shown in tooltips / info. */
+  /** One鈥憇entence description (Chinese) shown in tooltips / info. */
   description: string;
 }
 
-// ── Region / Choropleth Data ────────────────────────────────────
+// 鈹€鈹€ Region / Choropleth Data 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
  * A single metric value attached to a geographic region.
  *
- * One region may carry many `RegionMetric` rows — one per
- * `metricId`.  The `value` field is always **0‑1 normalised**
+ * One region may carry many `RegionMetric` rows 鈥?one per
+ * `metricId`.  The `value` field is always **0鈥? normalised**
  * so the choropleth layer uses a uniform data range.
  */
 export interface RegionMetric {
@@ -117,23 +114,23 @@ export interface RegionMetric {
   /** Which metric this value belongs to. */
   metricId: MetricId;
 
-  /** Normalised value 0‑1 for the choropleth ramp. */
+  /** Normalised value 0鈥? for the choropleth ramp. */
   value: number;
 
-  /** Original (un‑normalised) value for display formatting. */
+  /** Original (un鈥憂ormalised) value for display formatting. */
   rawValue: number;
 
-  /** Pre‑formatted string ready for tooltip / sidebar display. */
+  /** Pre鈥慺ormatted string ready for tooltip / sidebar display. */
   displayValue: string;
 
-  /** Data‑source year (e.g. 2025 ACS estimates). */
+  /** Data鈥憇ource year (e.g. 2025 ACS estimates). */
   year: number;
 }
 
 /**
  * A geographic region (state, county, or city) as it appears on the
  * choropleth map.  This is the "fat" view used by the sidebar and
- * tooltip — it merges boundary metadata with all available metrics.
+ * tooltip 鈥?it merges boundary metadata with all available metrics.
  *
  * TODO: Replace `metrics` with live Supabase query once region tables exist
  */
@@ -141,13 +138,13 @@ export interface MapRegion {
   /** FIPS / GEOID. */
   fipsCode: string;
 
-  /** Human‑readable Chinese name (e.g. "加利福尼亚州"). */
+  /** Human鈥憆eadable Chinese name (e.g. "鍔犲埄绂忓凹浜氬窞"). */
   name: string;
 
   /** English name. */
   nameEn: string;
 
-  /** State abbreviation (2‑letter, e.g. "CA") — only for county/city. */
+  /** State abbreviation (2鈥憀etter, e.g. "CA") 鈥?only for county/city. */
   stateAbbr?: string;
 
   granularity: Granularity;
@@ -159,17 +156,17 @@ export interface MapRegion {
   universityCount: number;
 }
 
-// ── Metric Layer (MapLibre paint configuration) ─────────────────
+// 鈹€鈹€ Metric Layer (MapLibre paint configuration) 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
- * A fully‑resolved metric layer ready to be applied to a MapLibre
+ * A fully鈥憆esolved metric layer ready to be applied to a MapLibre
  * source.  Built from a `MetricDefinition` + live data range.
  */
 export interface MetricLayer {
   /** The metric being rendered. */
   metricId: MetricId;
 
-  /** Human‑readable Chinese label for the layer. */
+  /** Human鈥憆eadable Chinese label for the layer. */
   label: string;
 
   /** English label for the layer. */
@@ -199,11 +196,11 @@ export interface MetricLayer {
   /** Is the underlying metric data still loading? */
   isLoading: boolean;
 
-  /** Error message — only set when a fetch / parse error occurs. */
+  /** Error message 鈥?only set when a fetch / parse error occurs. */
   error?: string;
 }
 
-// ── University & Campus POI Types ───────────────────────────────
+// 鈹€鈹€ University & Campus POI Types 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
  * Legacy university shape used by the advisory workbench.
@@ -258,8 +255,8 @@ export interface UniversityPOI {
   rankingBand: string;
   rankingTier: RankingTier;
   annualCostRmb: number;
-  safetyScore: number; // 0‑100
-  recognitionScore: number; // 0‑100
+  safetyScore: number; // 0鈥?00
+  recognitionScore: number; // 0鈥?00
   chineseCommunity: ChineseCommunityLevel;
   directFlight: boolean;
   postStudyVisa: string;
@@ -269,7 +266,7 @@ export interface UniversityPOI {
   verifiedAt: string;
   sourceCount: number;
 
-  // ── Campus Experience ──
+  // 鈹€鈹€ Campus Experience 鈹€鈹€
   /** Google / MapLibre Street View panorama ID for this campus. */
   streetviewPanoId?: string;
 
@@ -279,11 +276,11 @@ export interface UniversityPOI {
   /** University logo URL (for POI marker & detail card). */
   logoUrl?: string;
 
-  // ── Nearby Amenities ──
+  // 鈹€鈹€ Nearby Amenities 鈹€鈹€
   nearby: UniversityNearby;
 }
 
-/** Amenities within walking / short‑transit distance of campus. */
+/** Amenities within walking / short鈥憈ransit distance of campus. */
 export interface UniversityNearby {
   /** Number of subway / metro stations within 1 km. */
   subwayStations: number;
@@ -294,7 +291,7 @@ export interface UniversityNearby {
   /** Number of Asian grocery stores within 3 km. */
   asianGroceries: number;
 
-  /** Average monthly rent (RMB) for a 1‑bedroom near campus. */
+  /** Average monthly rent (RMB) for a 1鈥慴edroom near campus. */
   avgRentRmb: number;
 }
 
@@ -303,7 +300,7 @@ export interface CampusImage {
   /** URL to the image asset (CDN / S3). */
   url: string;
 
-  /** Chinese label, e.g. "主图书馆". */
+  /** Chinese label, e.g. "涓诲浘涔﹂". */
   label: string;
 
   /** Optional geotag for placing on the map. */
@@ -312,8 +309,8 @@ export interface CampusImage {
 }
 
 /**
- * A discrete point‑of‑interest on a university campus.
- * Used for the campus‑detail / street‑view drill‑in experience.
+ * A discrete point鈥憃f鈥慽nterest on a university campus.
+ * Used for the campus鈥慸etail / street鈥憊iew drill鈥慽n experience.
  *
  * TODO: Connect to Supabase `campus_pois` table when available
  */
@@ -324,7 +321,7 @@ export interface CampusPOI {
   /** Owning university ID. */
   universityId: string;
 
-  /** Chinese name, e.g. "工程学院". */
+  /** Chinese name, e.g. "宸ョ▼瀛﹂櫌". */
   name: string;
 
   /** English name, e.g. "College of Engineering". */
@@ -347,7 +344,7 @@ export interface CampusPOI {
   streetviewPanoId?: string;
 }
 
-// ── News / Sidebar Types ────────────────────────────────────────
+// 鈹€鈹€ News / Sidebar Types 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /** Category tags used to filter the news feed. */
 export type NewsCategory =
@@ -373,7 +370,7 @@ export interface NewsArticle {
   /** English title (fallback). */
   titleEn?: string;
 
-  /** Two‑line Chinese summary. */
+  /** Two鈥憀ine Chinese summary. */
   summary: string;
 
   /** Publisher / source name, e.g. "US News", "EIC Education". */
@@ -382,7 +379,7 @@ export interface NewsArticle {
   /** Canonical link to the full article. */
   url: string;
 
-  /** ISO‑8601 publication date. */
+  /** ISO鈥?601 publication date. */
   publishedAt: string;
 
   /** Thumbnail / hero image URL. */
@@ -391,13 +388,13 @@ export interface NewsArticle {
   category: NewsCategory;
 }
 
-// ── Map View State ──────────────────────────────────────────────
+// 鈹€鈹€ Map View State 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
  * Serializable snapshot of the map viewport.
  * Used to restore map state from URL search params, localStorage,
  * or shared links.  All fields are optional so partial updates
- * (e.g. zoom‑only) are supported.
+ * (e.g. zoom鈥憃nly) are supported.
  *
  * TODO: Persist view state in URL search params via nuqs or next-usequerystate
  */
@@ -408,13 +405,13 @@ export interface MapViewState {
   /** Latitude of map centre. */
   latitude?: number;
 
-  /** Zoom level (MapLibre: 0‑22). */
+  /** Zoom level (MapLibre: 0鈥?2). */
   zoom?: number;
 
-  /** Bearing in degrees (0 = north‑up). */
+  /** Bearing in degrees (0 = north鈥憉p). */
   bearing?: number;
 
-  /** Pitch in degrees (0 = top‑down). */
+  /** Pitch in degrees (0 = top鈥慸own). */
   pitch?: number;
 
   /** Active metric layer shown on the choropleth. */
@@ -426,45 +423,45 @@ export interface MapViewState {
   /** Currently selected campus POI ID (null = none). */
   selectedCampusPoiId?: string | null;
 
-  /** Active map mode: standard choropleth or street‑view immersive. */
+  /** Active map mode: standard choropleth or street鈥憊iew immersive. */
   mode?: "map" | "streetview";
 
   /** Sidebar panel visibility. */
   panelOpen?: boolean;
 }
 
-// ── Map Interaction Types ───────────────────────────────────────
+// 鈹€鈹€ Map Interaction Types 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
  * Transient tooltip payload computed on `mousemove` over a choropleth
  * region.  Displayed via `RegionTooltip` component.
  */
 export interface MapTooltip {
-  /** Pixel‑x of the cursor relative to the map container. */
+  /** Pixel鈥憍 of the cursor relative to the map container. */
   x: number;
 
-  /** Pixel‑y of the cursor relative to the map container. */
+  /** Pixel鈥憏 of the cursor relative to the map container. */
   y: number;
 
-  /** Human‑readable region name (Chinese when available). */
+  /** Human鈥憆eadable region name (Chinese when available). */
   regionName: string;
 
   /** Numeric metric value (null when data is missing). */
   metricValue: number | null;
 
-  /** Pre‑formatted display string, e.g. "$85k", "32.5%". */
+  /** Pre鈥慺ormatted display string, e.g. "$85k", "32.5%". */
   displayValue: string;
 }
 
-/** Top‑level map display mode. */
+/** Top鈥憀evel map display mode. */
 export type MapViewMode = "map" | "streetview";
 
-// ── Map Filter State ────────────────────────────────────────────
+// 鈹€鈹€ Map Filter State 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
- * User‑controlled filters that narrow the POI set and data overlay.
+ * User鈥慶ontrolled filters that narrow the POI set and data overlay.
  * Kept separate from `MapViewState` because filters do not represent
- * viewport state — they are application‑level UI state.
+ * viewport state 鈥?they are application鈥憀evel UI state.
  *
  * TODO: Wire filter controls to this shape in the sidebar panel
  */
@@ -488,7 +485,7 @@ export interface MapFilters {
   cssaOnly: boolean;
 }
 
-// ── POI Clustering (Phase 3) ────────────────────────────────────
+// 鈹€鈹€ POI Clustering (Phase 3) 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
  * A cluster aggregate produced by supercluster / MapLibre cluster
@@ -508,7 +505,7 @@ export interface POICluster {
   poiIds: string[];
 }
 
-// ── Map Layer Config (MapLibre style helpers) ───────────────────
+// 鈹€鈹€ Map Layer Config (MapLibre style helpers) 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
  * Describes a named MapLibre layer within the style spec.
@@ -528,10 +525,10 @@ export interface MapLayerConfig {
   beforeId?: string;
 }
 
-// ── Street View / Campus Immersive (Phase 4) ────────────────────
+// 鈹€鈹€ Street View / Campus Immersive (Phase 4) 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
- * Campus immersive view state used by the street‑view overlay
+ * Campus immersive view state used by the street鈥憊iew overlay
  * component.  Activated when the user clicks a campus POI or
  * toggles `MapViewMode` to `"streetview"`.
  *
@@ -541,7 +538,7 @@ export interface StreetViewState {
   /** Whether the immersive panel is active. */
   active: boolean;
 
-  /** Pano ID for the 360° view or street‑view widget. */
+  /** Pano ID for the 360掳 view or street鈥憊iew widget. */
   panoId: string | null;
 
   /** University POI this immersive session is anchored to. */
@@ -551,7 +548,7 @@ export interface StreetViewState {
   campusPoiId: string | null;
 }
 
-// ── API Response Shapes (Phase 4+) ──────────────────────────────
+// 鈹€鈹€ API Response Shapes (Phase 4+) 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 
 /**
  * Generic paginated API response envelope.
@@ -574,10 +571,11 @@ export interface PaginatedResponse<T> {
  */
 export interface UniversityDetailResponse {
   university: UniversityPOI;
-  /** Campus landmarks for the drill‑in view. */
+  /** Campus landmarks for the drill鈥慽n view. */
   campusPois: CampusPOI[];
   /** Neighbouring universities within 50 km. */
   nearbyUniversities: UniversityPOI[];
   /** Regional metrics for the university's county / city. */
   regionMetrics: RegionMetric[];
 }
+

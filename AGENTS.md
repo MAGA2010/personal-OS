@@ -1,4 +1,4 @@
-# PathOS — Map Module
+﻿# PathOS — Map Module
 
 > **面向中国家庭的留学数据平台 · 交互式地图子模块**
 >
@@ -70,8 +70,8 @@ D:\pathOS\
 |----|-------|-------|-------------|
 | `income` | 收入水平 | Green gradient | Census ACS 5-Year |
 | `safety` | 安全系数 | Blue→Red (diverging) | FBI UCR |
-| `toefl` | 托福成绩 | Blue gradient | University websites |
-| `sat` | SAT分数 | Purple gradient | IPEDS / College Scorecard |
+| `employment` | 就业指数 | Teal-Green gradient | BLS / LinkedIn / University career reports |
+| `cost` | 留学成本 | Orange gradient | College Board / University financial aid |
 | `admission_rate` | 录取率 | Orange-Red gradient | IPEDS |
 | `chinese_population` | 华人水平 | Yellow→Red | Census ACS |
 
@@ -113,8 +113,8 @@ Or place Python crawler scripts in a `data-pipeline/` directory at the project r
       "recognitionScore": 98,
       "chineseCommunityRating": "high",
       "admissionRate": 3.4,
-      "toeflMin": 100,
-      "satMedian": 1520,
+      "employmentScore": 85,
+      "annualCostRmbLow": 400000,
       "programs": ["Computer Science", "..."],
       "parentHighlights": ["..."],
       "studentHighlights": ["..."],
@@ -236,7 +236,7 @@ Replace the contents of `src/data/universities.json`, `src/data/region-metrics.j
 ### Option B: Python crawler scripts
 Create a `data-pipeline/` directory at `D:\pathOS\data-pipeline\` with Python scripts that:
 1. Call public APIs (Census ACS, FBI UCR, IPEDS/College Scorecard)
-2. Scrape university websites for TOEFL/SAT requirements
+2. Gather employment and cost data from public sources (BLS, university websites)
 3. Transform and normalize the data to match the JSON shapes in Section 5
 4. Output directly to `frontend/src/data/*.json`
 
@@ -246,8 +246,8 @@ data-pipeline/
 ├── requirements.txt
 ├── fetch_census.py        ← Income + Chinese population
 ├── fetch_crime.py         ← FBI UCR violent crime
-├── fetch_ipeds.py         ← Admission rates, SAT, tuition
-├── scrape_toefl.py        ← TOEFL requirements
+├── fetch_employment.py      ← Employment index (BLS, LinkedIn)
+├── fetch_cost.py            ← Cost of living + tuition data
 └── normalize.py           ← Value normalization to 0-1
 ```
 
