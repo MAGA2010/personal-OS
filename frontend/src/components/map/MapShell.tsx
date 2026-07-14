@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useCallback, useState } from "react";
 import type { MetricId, MapViewState, MapFilters, UniversityPOI, MapRegion, NewsArticle } from "@/lib/types";
@@ -23,6 +23,8 @@ import {
   GraduationCap,
   ChevronUp,
   ChevronDown,
+  Calculator,
+  Sparkles,
   Users,
 } from "lucide-react";
 
@@ -237,6 +239,19 @@ export function MapShell({
             />
           </div>
 
+          {/* Calculator link */}
+          <a href="/match"
+            aria-label="智能选校"
+            className="grid h-8 w-8 shrink-0 place-items-center rounded-md text-ink/52 transition-colors hover:bg-line/40 hover:text-ink"
+          >
+            <Sparkles size={18} />
+          </a>
+          <a href="/calculator"
+            aria-label="预算计算器"
+            className="grid h-8 w-8 shrink-0 place-items-center rounded-md text-ink/52 transition-colors hover:bg-line/40 hover:text-ink"
+          >
+            <Calculator size={18} />
+          </a>
           {/* Panel toggle button */}
           <button
             type="button"
@@ -849,4 +864,3 @@ const MOCK_REGION_DETAIL: Record<string, SelectedRegionDetail> = {
     ],
   },
 };
-
