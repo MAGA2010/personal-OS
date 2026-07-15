@@ -1,4 +1,4 @@
-﻿// 鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺?// PathOS 路 Map Module 鈥?Shared TypeScript Types
+// 鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺?// PathOS 路 Map Module 鈥?Shared TypeScript Types
 // 鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺愨晲鈺?//
 // This file defines every shape consumed or produced by the map
 // module: metric layers, choropleth regions, university POIs,
@@ -278,6 +278,45 @@ export interface UniversityPOI {
 
   // 鈹€鈹€ Nearby Amenities 鈹€鈹€
   nearby: UniversityNearby;
+}
+
+
+/** Aggregated university data for one city, used by the state -> city -> university drill-down. */
+export interface CityAggregate {
+  /** Stable city id: `${stateFips}-${citySlug}`. */
+  id: string;
+  /** English city name from university records. */
+  name: string;
+  /** Chinese display name when available; falls back to `name`. */
+  nameZh: string;
+  /** Two-digit state FIPS code. */
+  stateFips: string;
+  /** Two-letter state abbreviation. */
+  stateAbbr: string;
+  /** Average latitude of universities in this city. */
+  latitude: number;
+  /** Average longitude of universities in this city. */
+  longitude: number;
+  /** Number of universities represented by this city bubble. */
+  universityCount: number;
+  /** Universities in this city after the current data/filter transform. */
+  universities: UniversityPOI[];
+  /** Mean annual cost in RMB. */
+  avgAnnualCostRmb: number;
+  /** Mean safety score, 0-100. */
+  avgSafetyScore: number;
+  /** Mean recognition score, 0-100. */
+  avgRecognitionScore: number;
+  /** Mean admission rate percentage when available. */
+  avgAdmissionRate?: number;
+  /** Mean employment score, 0-100, when available. */
+  avgEmploymentScore?: number;
+  /** Dominant Chinese community level among universities in this city. */
+  dominantChineseCommunity: ChineseCommunityLevel;
+  /** Count of universities/cities with direct flights from China. */
+  directFlightCount: number;
+  /** Best ranking tier among universities in this city. */
+  topRankingTier: RankingTier;
 }
 
 /** Amenities within walking / short鈥憈ransit distance of campus. */
@@ -578,4 +617,5 @@ export interface UniversityDetailResponse {
   /** Regional metrics for the university's county / city. */
   regionMetrics: RegionMetric[];
 }
+
 

@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import {
   useCallback,
@@ -204,6 +204,9 @@ export interface MapCanvasProps {
   /** Called when a state choropleth region is clicked. */
   onRegionClick?: (fipsCode: string) => void;
 
+  /** Called once the MapLibre instance has been created. */
+  onMapInit?: (map: maplibregl.Map) => void;
+
   /** Overlay components rendered inside the map container (e.g. legend, tooltip). */
   children?: ReactNode;
 
@@ -229,6 +232,7 @@ export function MapCanvas({
   onViewStateChange,
   onGranularityChange,
   onRegionClick,
+  onMapInit,
   children,
   loadingFallback,
   interactiveLayerIds,
@@ -414,6 +418,7 @@ export function MapCanvas({
     map.on("moveend", syncViewState);
 
     mapRef.current = map;
+    onMapInit?.(map);
 
     // ── Cleanup ────────────────────────────────────────────────────────────
     return () => {

@@ -1,13 +1,18 @@
-"use client";
+﻿"use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import type { MetricId, MapViewState, MapFilters, UniversityPOI, MapRegion, NewsArticle } from "@/lib/types";
+import type maplibregl from "maplibre-gl";
 import { METRIC_DEFINITIONS, METRIC_ORDER } from "@/lib/metrics";
 import { MapCanvas } from "./MapCanvas";
 import { MetricTabs } from "./MetricTabs";
 import { MapLegend } from "./MapLegend";
 import { UniversityMarkers, UniversityMapPins } from "./UniversityMarkers";
 import { UniversityCard } from "./UniversityCard";
+import { CityLayer } from "./CityLayer";
+import { CityDetailPanel } from "./CityDetailPanel";
+import { CaliforniaRoadLayer } from "./CaliforniaRoadLayer";
+import { buildCityAggregates, getCitiesByState, getStateCenter, getCityMetricDisplay, getCityMetricValue } from "@/lib/city-utils";
 import ComparePanel from "./ComparePanel";
 import universityData from "@/data/universities.json";
 import regionMetrics from "@/data/region-metrics.json";
@@ -105,12 +110,16 @@ export function MapShell({
     useState<Required<MapViewState>>(DEFAULT_VIEW_STATE);
 
   const [filters, setFilters] = useState<MapFilters>(DEFAULT_FILTERS);
+  const mapRef = useRef<maplibregl.Map | null>(null);
 
   // ── Sidebar State ───────────────────────────────────────────────
 
  /** Null = showing news feed; non-null = showing region detail for this FIPS code. */
   const [selectedUniversityId, setSelectedUniversityId] = useState<string | null>(null);
  const [selectedRegionFips, setSelectedRegionFips] = useState<string | null>(null);
+  const [cityDrilldownEnabled, setCityDrilldownEnabled] = useState(false);
+  const [selectedStateFips, setSelectedStateFips] = useState<string | null>(null);
+  const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
   const [pillsOpen, setPillsOpen] = useState(false);
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [compareOpen, setCompareOpen] = useState(false);
@@ -130,7 +139,46 @@ export function MapShell({
 
   const activeMetricDef = METRIC_DEFINITIONS[viewState.activeMetricId];
 
+  const allUniversities = useMemo(
+    () => universityData.universities as unknown as UniversityPOI[],
+    [],
+  );
+
+  const selectedUniversity = useMemo(
+    () => allUniversities.find((u) => u.id === selectedUniversityId) ?? null,
+    [allUniversities, selectedUniversityId],
+  );
+
+  const cityAggregates = useMemo(
+    () => buildCityAggregates(allUniversities),
+    [allUniversities],
+  );
+
+  const visibleCities = useMemo(
+    () =>
+      cityDrilldownEnabled && selectedStateFips
+        ? getCitiesByState(selectedStateFips, cityAggregates)
+        : [],
+    [cityAggregates, cityDrilldownEnabled, selectedStateFips],
+  );
+
+  const selectedCity = useMemo(
+    () =>
+      cityDrilldownEnabled
+        ? cityAggregates.find((city) => city.id === selectedCityId) ?? null
+        : null,
+    [cityAggregates, cityDrilldownEnabled, selectedCityId],
+  );
+
   // ── Handlers ────────────────────────────────────────────────────
+
+  const flyTo = useCallback((longitude: number, latitude: number, zoom = 5.5) => {
+    mapRef.current?.flyTo({ center: [longitude, latitude], zoom, duration: 1000 });
+  }, []);
+
+  const flyToDefault = useCallback(() => {
+    mapRef.current?.flyTo({ center: [-98.5, 39.8], zoom: 3.5, duration: 900 });
+  }, []);
 
   const handleMetricChange = useCallback(
     (metricId: MetricId) => {
@@ -168,7 +216,14 @@ export function MapShell({
    (fipsCode: string) => {
      setSelectedRegionFips(fipsCode);
       setSelectedUniversityId(null);
-      // Use real data
+      setSelectedCityId(null);
+
+      if (cityDrilldownEnabled) {
+        setSelectedStateFips(fipsCode);
+        const center = getStateCenter(fipsCode);
+        if (center) flyTo(center[0], center[1], 4.35);
+      }
+
       const stateMetrics = (regionMetrics.records as any[]).filter(
         (r: any) => r.granularity === "state" && r.fipsCode === fipsCode
       );
@@ -179,30 +234,56 @@ export function MapShell({
            name: stateMetrics[0].name,
            nameEn: stateMetrics[0].nameEn,
             granularity: "state" as any,
-            universityCount: universityData.universities.filter(
+            universityCount: allUniversities.filter(
               (u: any) => u.stateFips === fipsCode
             ).length,
             metrics: stateMetrics,
           },
-          universities: (universityData.universities as any[]).filter(
+          universities: allUniversities.filter(
             (u: any) => u.id.startsWith(fipsCode) || u.state === stateMetrics[0].nameEn
           ),
         });
         return;
       }
-     // TODO: Fetch region detail from Supabase:
-      //   const detail = await fetchRegionDetail(fipsCode, viewState.activeMetricId);
-      //   setRegionDetail(detail);
-      //
-      // For now, use mock data keyed by FIPS code:
       const mock = MOCK_REGION_DETAIL[fipsCode];
       setRegionDetail(mock ?? null);
     },
-    [viewState.activeMetricId],
+    [allUniversities, cityDrilldownEnabled, flyTo],
   );
+  const handleCityClick = useCallback((cityId: string) => {
+    setSelectedCityId(cityId);
+    setSelectedUniversityId(null);
+  }, []);
+
+  const handleBackToState = useCallback(() => {
+    setSelectedCityId(null);
+    setSelectedUniversityId(null);
+    if (selectedStateFips) {
+      const center = getStateCenter(selectedStateFips);
+      if (center) flyTo(center[0], center[1], 4.35);
+    }
+  }, [flyTo, selectedStateFips]);
+
+  const handleDrilldownToggle = useCallback(() => {
+    setCityDrilldownEnabled((enabled) => {
+      const next = !enabled;
+      if (!next) {
+        setSelectedStateFips(null);
+        setSelectedCityId(null);
+        flyToDefault();
+      } else if (selectedRegionFips) {
+        setSelectedStateFips(selectedRegionFips);
+        const center = getStateCenter(selectedRegionFips);
+        if (center) flyTo(center[0], center[1], 4.35);
+      }
+      return next;
+    });
+  }, [flyTo, flyToDefault, selectedRegionFips]);
 
  const handleSidebarClose = useCallback(() => {
    setSelectedRegionFips(null);
+   setSelectedStateFips(null);
+   setSelectedCityId(null);
    setRegionDetail(null);
     setSelectedUniversityId(null);
  }, []);
@@ -277,9 +358,14 @@ export function MapShell({
 
         {/* Map canvas — fills remaining space */}
         <div className="relative flex flex-col flex-1 min-h-0">
-          <MapCanvas className="flex-1 min-h-0" activeMetricId={viewState.activeMetricId} onRegionClick={handleRegionClick}>
+          <MapCanvas
+            className="flex-1 min-h-0"
+            activeMetricId={viewState.activeMetricId}
+            onRegionClick={handleRegionClick}
+            onMapInit={(map) => { mapRef.current = map; }}
+          >
              <UniversityMapPins
-               universities={(universityData.universities) as any}
+               universities={allUniversities}
                onSelect={(id) => {
                  if (id && compareOpen) {
                    addToCompare(id);
@@ -288,14 +374,25 @@ export function MapShell({
                  }
                }}
                selectedId={selectedUniversityId}
+               pinMinZoom={cityDrilldownEnabled ? 7.6 : 0}
              />
+             {cityDrilldownEnabled && selectedStateFips === "06" && (
+               <CaliforniaRoadLayer enabled cities={visibleCities} />
+             )}
+             {cityDrilldownEnabled && (
+               <CityLayer
+                 visibleCities={visibleCities}
+                 activeMetricId={viewState.activeMetricId}
+                 onCityClick={handleCityClick}
+               />
+             )}
            </MapCanvas>
           {/* ── University pill strip — collapsible ── */}
           {pillsOpen ? (
             <div className="shrink-0 border-t border-line bg-panel px-3 py-2 overflow-x-auto" role="navigation" aria-label="大学列表">
               <div className="flex items-center justify-between mb-1.5">
                 <div className="flex items-center gap-2">
-                  <span className="text-xs text-ink/40">{universityData.universities.length} 所大学</span>
+                  <span className="text-xs text-ink/40">{allUniversities.length} 所大学</span>
                   <button
                     onClick={() => setCompareOpen(v => !v)}
                     className={`rounded px-2 py-0.5 text-[10px] font-medium transition-colors ${
@@ -314,7 +411,7 @@ export function MapShell({
                 </button>
               </div>
               <UniversityMarkers
-                universities={(universityData.universities) as any}
+                universities={allUniversities}
                 onSelect={(id) => {
                   if (id && compareOpen) {
                     addToCompare(id);
@@ -333,7 +430,7 @@ export function MapShell({
                 aria-label="展开大学列表"
               >
                 <GraduationCap size={11} />
-                <span>{universityData.universities.length} 所大学</span>
+                <span>{allUniversities.length} 所大学</span>
                 <ChevronUp size={11} />
               </button>
               <button
@@ -348,32 +445,81 @@ export function MapShell({
           )}
             { (compareOpen || compareIds.length > 0) && (
             <ComparePanel
-              universities={(universityData.universities) as any}
+              universities={allUniversities}
               selectedIds={compareIds}
               onRemove={removeFromCompare}
               onClear={clearCompare}
               onClose={() => { setCompareIds([]); setCompareOpen(false); }}
             />
           )}
-          {selectedUniversityId && (
+          {selectedUniversity && (
             <div className="absolute inset-0 z-30 flex items-center justify-center bg-ink/20 backdrop-blur-sm" onClick={() => setSelectedUniversityId(null)}>
               <div onClick={(e) => e.stopPropagation()} className="max-h-[85vh] overflow-y-auto rounded-xl shadow-xl">
                 <UniversityCard
-                  poi={(universityData.universities as any[]).find((u: any) => u.id === selectedUniversityId)}
+                  poi={selectedUniversity as any}
                   onClose={() => setSelectedUniversityId(null)}
                 />
               </div>
             </div>
           )}
-
-         {/* Granularity badge overlay */}
-          <div className="pointer-events-none absolute right-3 top-3 z-10">
-            <span className="rounded-full border border-line bg-white/88 px-2.5 py-1 text-[11px] font-medium text-ink/64 backdrop-blur">
-              {/* TODO: Derive from map zoom level dynamically */}
-              州级视图
+          {/* Granularity/drill-down controls overlay */}
+          <div className="absolute right-3 top-3 z-10 flex items-center gap-2">
+            <button
+              type="button"
+              onClick={handleDrilldownToggle}
+              className={`rounded-full border px-2.5 py-1 text-[11px] font-medium shadow-sm backdrop-blur transition-colors ${
+                cityDrilldownEnabled
+                  ? "border-cobalt/35 bg-cobalt text-white"
+                  : "border-line bg-white/88 text-ink/64 hover:bg-white hover:text-ink"
+              }`}
+              aria-pressed={cityDrilldownEnabled}
+            >
+              城市下钻{cityDrilldownEnabled ? "已开" : ""}
+            </button>
+            <span className="pointer-events-none rounded-full border border-line bg-white/88 px-2.5 py-1 text-[11px] font-medium text-ink/64 backdrop-blur">
+              {selectedCity ? "城市详情" : cityDrilldownEnabled && selectedStateFips ? "城市视图" : "州级视图"}
             </span>
           </div>
 
+          {cityDrilldownEnabled && selectedStateFips && visibleCities.length > 0 && (
+            <div className="absolute left-4 top-4 z-10 w-[280px] rounded-xl border border-line bg-white/92 p-3 text-xs shadow-panel backdrop-blur">
+              <div className="mb-2 flex items-center justify-between gap-2">
+                <div>
+                  <div className="font-semibold text-ink">城市级数据</div>
+                  <div className="text-[11px] text-ink/48">{activeMetricDef.label} · {visibleCities.length} 个城市</div>
+                </div>
+                <span className="rounded-full bg-cobalt/10 px-2 py-0.5 text-[10px] font-medium text-cobalt">City Layer</span>
+              </div>
+              <ol className="space-y-1.5">
+                {[...visibleCities]
+                  .sort((a, b) => getCityMetricValue(b, viewState.activeMetricId) - getCityMetricValue(a, viewState.activeMetricId))
+                  .slice(0, 5)
+                  .map((city, index) => (
+                    <li key={city.id}>
+                      <button
+                        type="button"
+                        onClick={() => handleCityClick(city.id)}
+                        className={`flex w-full items-center justify-between gap-2 rounded-lg border px-2 py-1.5 text-left transition-colors ${
+                          selectedCity?.id === city.id
+                            ? "border-cobalt/35 bg-cobalt/8"
+                            : "border-line/60 bg-white/70 hover:border-cobalt/25 hover:bg-cobalt/[0.03]"
+                        }`}
+                      >
+                        <span className="min-w-0">
+                          <span className="mr-1 text-ink/36">#{index + 1}</span>
+                          <span className="font-medium text-ink">{city.nameZh}</span>
+                          <span className="ml-1 text-ink/40">{city.universityCount}所</span>
+                        </span>
+                        <span className="shrink-0 font-semibold text-ink">{getCityMetricDisplay(city, viewState.activeMetricId)}</span>
+                      </button>
+                    </li>
+                  ))}
+              </ol>
+              <p className="mt-2 rounded-lg bg-paper px-2 py-1.5 text-[10px] leading-relaxed text-ink/44">
+                当前为城市聚合数据层；真实市级收入/道路/边界可继续接入 ACS city metrics 与 city roads GeoJSON。
+              </p>
+            </div>
+          )}
           {/* Map legend overlay */}
           <div className="absolute bottom-4 left-4 z-10 pointer-events-none">
             <div className="pointer-events-auto">
@@ -391,7 +537,15 @@ export function MapShell({
         }`}
       >
         <div className="flex h-full w-[360px] flex-col">
-          {selectedRegionFips && regionDetail ? (
+          {cityDrilldownEnabled && selectedCity ? (
+            <CityDetailPanel
+              city={selectedCity}
+              onBack={handleBackToState}
+              onUniversitySelect={setSelectedUniversityId}
+              selectedUniversityId={selectedUniversityId}
+              onAddToCompare={addToCompare}
+            />
+          ) : selectedRegionFips && regionDetail ? (
             <RegionDetailSidebar
               detail={regionDetail}
               activeMetricId={viewState.activeMetricId}
@@ -864,3 +1018,7 @@ const MOCK_REGION_DETAIL: Record<string, SelectedRegionDetail> = {
     ],
   },
 };
+
+
+
+

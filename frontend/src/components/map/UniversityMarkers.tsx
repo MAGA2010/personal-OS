@@ -80,6 +80,9 @@ export interface UniversityMarkersProps {
 
 // ── Constants ──────────────────────────────────────────────────────
 
+/** Default: keep the original map behaviour and show university pins at every zoom. */
+const DEFAULT_pinMinZoom = 0;
+
 /** Pixel sizes for ranking-tier marker icons. */
 const TIER_ICON_SIZES: Record<RankingTier, number> = {
   top20: 36,
@@ -846,27 +849,40 @@ compareOpen && compareIds?.includes(uni.id) ? "bg-cobalt/20 border-cobalt text-c
 // ── Exports ────────────────────────────────────────────────────────
 // ── UniversityMapPins — MapLibre markers only (no pill strip) ─────
 
+const DEFAULT_PIN_MIN_ZOOM = 0;
+
 export function UniversityMapPins({
   universities,
   onSelect,
   selectedId = null,
-    onHover,
-    compareOpen,
-    compareIds,
-  }: {
+  onHover,
+  pinMinZoom = DEFAULT_PIN_MIN_ZOOM,
+}: {
   universities: UniversityPOI[];
   onSelect: (id: string | null) => void;
   selectedId?: string | null;
-    compareOpen?: boolean; compareIds?: string[];onHover?: (id: string | null) => void;
+  onHover?: (id: string | null) => void;
+  /** Minimum zoom required to show map pins; pass 7.6 when city bubbles are enabled. */
+  pinMinZoom?: number;
 }) {
   const mapContext = useMapContext();
   const [, setHoveredId] = useState<string | null>(null);
   const markersRef = useRef<{ id: string; marker: maplibregl.Marker; el: HTMLElement }[]>([]);
 
-  const displayUniversities: UniversityPOI[] =
-    universities.length > 0 ? universities : MOCK_UNIVERSITIES;
+  // Map pins must reflect the actual filtered result set. Do not fall back to mock data here,
+  // otherwise empty filters/city drill-down still leave unrelated school pins on the map.
+  const displayUniversities: UniversityPOI[] = universities;
 
-  // Create/update MapLibre markers when map is ready
+  const updatePinVisibility = useCallback(() => {
+    const map = mapContext?.map;
+    if (!map) return;
+    const visible = map.getZoom() >= pinMinZoom;
+    markersRef.current.forEach(({ el }) => {
+      el.style.display = visible ? 'flex' : 'none';
+    });
+  }, [mapContext?.map, pinMinZoom]);
+
+  // Create/update MapLibre markers when map is ready.
   useEffect(() => {
     const map = mapContext?.map;
     if (!map || !mapContext?.mapReady) return;
@@ -887,6 +903,7 @@ export function UniversityMapPins({
         'transform:' + (isSel ? 'scale(1.15)' : 'scale(1)') + ';',
         'transition:transform 0.15s,box-shadow 0.15s;',
       ].join('');
+      el.style.display = map.getZoom() >= pinMinZoom ? 'flex' : 'none';
       el.textContent = uni.chineseName.charAt(0);
       el.title = uni.chineseName + ' (' + uni.name + ')';
 
@@ -897,28 +914,30 @@ export function UniversityMapPins({
 
       el.addEventListener('mouseenter', function() {
         setHoveredId(uni.id);
-        if (onHover) onHover(uni.id);
+        onHover?.(uni.id);
       });
 
       el.addEventListener('mouseleave', function() {
         setHoveredId(null);
-        if (onHover) onHover(null);
+        onHover?.(null);
       });
 
-      var marker = new maplibregl.Marker({ element: el })
+      const marker = new maplibregl.Marker({ element: el })
         .setLngLat([uni.longitude, uni.latitude])
         .addTo(map);
 
-      markersRef.current.push({ id: uni.id, marker: marker, el: el });
+      markersRef.current.push({ id: uni.id, marker, el });
     });
+
+    updatePinVisibility();
 
     return function() {
       markersRef.current.forEach(function(item) { item.marker.remove(); });
       markersRef.current = [];
     };
-  }, [mapContext?.map, mapContext?.mapReady, displayUniversities, selectedId, onSelect, onHover]);
+  }, [mapContext?.map, mapContext?.mapReady, displayUniversities, selectedId, onSelect, onHover, updatePinVisibility]);
 
-  // Update marker visual state when selection changes
+  // Update marker visual state when selection changes.
   useEffect(function() {
     markersRef.current.forEach(function(item) {
       if (item.id === selectedId) {
@@ -931,11 +950,27 @@ export function UniversityMapPins({
     });
   }, [selectedId]);
 
+  // Avoid crowding when city bubbles are enabled; default pinMinZoom=0 preserves original behaviour.
+  useEffect(() => {
+    const map = mapContext?.map;
+    if (!map || !mapContext?.mapReady) return;
+
+    map.on('zoom', updatePinVisibility);
+    map.on('zoomend', updatePinVisibility);
+    updatePinVisibility();
+
+    return () => {
+      map.off('zoom', updatePinVisibility);
+      map.off('zoomend', updatePinVisibility);
+    };
+  }, [mapContext?.map, mapContext?.mapReady, updatePinVisibility]);
+
   return null;
 }
 
 
 export default UniversityMarkers;
+
 
 
 
