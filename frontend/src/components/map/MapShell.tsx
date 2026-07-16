@@ -384,6 +384,7 @@ export function MapShell({
                  visibleCities={visibleCities}
                  activeMetricId={viewState.activeMetricId}
                  onCityClick={handleCityClick}
+                 selectedCityId={selectedCityId}
                />
              )}
            </MapCanvas>
