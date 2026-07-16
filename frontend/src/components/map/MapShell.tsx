@@ -12,10 +12,12 @@ import { UniversityCard } from "./UniversityCard";
 import { CityLayer } from "./CityLayer";
 import { CityDetailPanel } from "./CityDetailPanel";
 import { CaliforniaRoadLayer } from "./CaliforniaRoadLayer";
+import { CityChoroplethLayer } from "./CityChoroplethLayer";
 import { buildCityAggregates, getCitiesByState, getStateCenter, getCityMetricDisplay, getCityMetricValue } from "@/lib/city-utils";
 import ComparePanel from "./ComparePanel";
 import universityData from "@/data/universities.json";
 import regionMetrics from "@/data/region-metrics.json";
+import STATE_OPTIONS from "@/data/state-options.json";
 import {
   Compass,
   PanelLeftOpen,
@@ -264,6 +266,16 @@ export function MapShell({
     }
   }, [flyTo, selectedStateFips]);
 
+  const [showStateDropdown, setShowStateDropdown] = useState(false);
+  const handleStateSelect = useCallback((fips: string) => {
+    setCityDrilldownEnabled(true);
+    setSelectedStateFips(fips);
+    setSelectedCityId(null);
+    setShowStateDropdown(false);
+    const center = getStateCenter(fips);
+    if (center) flyTo(center[0], center[1], 6.0);
+  }, [flyTo]);
+
   const handleDrilldownToggle = useCallback(() => {
     setCityDrilldownEnabled((enabled) => {
       const next = !enabled;
@@ -478,7 +490,7 @@ export function MapShell({
               城市下钻{cityDrilldownEnabled ? "已开" : ""}
             </button>
             <span className="pointer-events-none rounded-full border border-line bg-white/88 px-2.5 py-1 text-[11px] font-medium text-ink/64 backdrop-blur">
-              {selectedCity ? "城市详情" : cityDrilldownEnabled && selectedStateFips ? "城市视图" : "州级视图"}
+              {selectedCity ? "城市详情" : cityDrilldownEnabled && selectedStateFips ? selectedStateFips + " 城市级" : "州级色块图"}
             </span>
           </div>
 
