@@ -376,7 +376,7 @@ export function MapShell({
                selectedId={selectedUniversityId}
                pinMinZoom={cityDrilldownEnabled ? 7.6 : 0}
              />
-             {cityDrilldownEnabled && selectedStateFips === "06" && (
+             {selectedStateFips === "06" && (
                <CaliforniaRoadLayer enabled cities={visibleCities} />
              )}
              {cityDrilldownEnabled && (
@@ -538,7 +538,7 @@ export function MapShell({
         }`}
       >
         <div className="flex h-full w-[360px] flex-col">
-          {cityDrilldownEnabled && selectedCity ? (
+          {selectedCity ? (
             <CityDetailPanel
               city={selectedCity}
               onBack={handleBackToState}
