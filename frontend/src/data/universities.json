@@ -1,9 +1,9 @@
 {
   "_instructions": "Generated from xlsx",
   "_description": [
-    "20 schools"
+    "46 schools (including CA additions)"
   ],
-  "_lastUpdated": "2026-07-12",
+  "_lastUpdated": "2026-07-16",
   "universities": [
     {
       "id": "harvard",
@@ -1144,6 +1144,270 @@
       "rankingBand": "National Universities",
       "rankingTier": "top100",
       "admissionRate": 48
+    },
+    {
+      "id": "san-jose-state",
+      "name": "San José State University",
+      "chineseName": "圣何塞州立大学",
+      "city": "San Jose",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 37.3352,
+      "longitude": -121.8811,
+      "rankingBand": "Regional Universities West",
+      "rankingTier": "top100",
+      "annualCostRmb": 380000,
+      "safetyScore": 72,
+      "recognitionScore": 60,
+      "chineseCommunity": "high",
+      "admissionRate": 67,
+      "programs": [
+        "Computer Science",
+        "Engineering",
+        "Business",
+        "Data Science"
+      ],
+      "parentHighlights": [
+        "硅谷就业机会丰富，实习资源突出。",
+        "公立大学，学费相对可控。"
+      ],
+      "studentHighlights": [
+        "位于硅谷中心，CS 就业率高。",
+        "多元化校园，华人学生社区活跃。"
+      ],
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT",
+      "streetviewPanoId": null,
+      "logoUrl": null,
+      "campusImages": [],
+      "nearby": {
+        "subwayStations": 2,
+        "chineseRestaurants": 35,
+        "asianGroceries": 6,
+        "avgRentRmb": 15000
+      },
+      "verifiedAt": "2026-07-16",
+      "sourceCount": 8
+    },
+    {
+      "id": "uc-santa-cruz",
+      "name": "University of California, Santa Cruz",
+      "chineseName": "加州大学圣克鲁兹分校",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 36.9742,
+      "longitude": -122.0297,
+      "rankingBand": "National Universities",
+      "rankingTier": "top100",
+      "annualCostRmb": 520000,
+      "safetyScore": 82,
+      "recognitionScore": 65,
+      "chineseCommunity": "medium",
+      "admissionRate": 47,
+      "programs": [
+        "Computer Game Design",
+        "Engineering",
+        "Psychology",
+        "Environmental Science"
+      ],
+      "parentHighlights": [
+        "环境优美，安全系数高，适合低压力学习。",
+        "靠近硅谷，实习机会便利。"
+      ],
+      "studentHighlights": [
+        "校园自然环境优越，适合喜欢户外活动。",
+        "学术氛围友善，适合过渡适应。"
+      ],
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT",
+      "streetviewPanoId": null,
+      "logoUrl": null,
+      "campusImages": [],
+      "nearby": {
+        "subwayStations": 0,
+        "chineseRestaurants": 8,
+        "asianGroceries": 2,
+        "avgRentRmb": 11000
+      },
+      "verifiedAt": "2026-07-16",
+      "sourceCount": 6
+    },
+    {
+      "id": "san-diego-state",
+      "name": "San Diego State University",
+      "chineseName": "圣地亚哥州立大学",
+      "city": "San Diego",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 32.7729,
+      "longitude": -117.0728,
+      "rankingBand": "National Universities",
+      "rankingTier": "top100",
+      "annualCostRmb": 400000,
+      "safetyScore": 76,
+      "recognitionScore": 62,
+      "chineseCommunity": "medium",
+      "admissionRate": 58,
+      "programs": [
+        "Business",
+        "Engineering",
+        "International Business",
+        "Computer Science"
+      ],
+      "parentHighlights": [
+        "圣地亚哥气候宜人，安全适中。",
+        "公立大学费用合理，性价比高。"
+      ],
+      "studentHighlights": [
+        "校园生活丰富，靠近海滩和市中心。",
+        "商科和工程专业实力不错。"
+      ],
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT",
+      "streetviewPanoId": null,
+      "logoUrl": null,
+      "campusImages": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 30,
+        "asianGroceries": 5,
+        "avgRentRmb": 13000
+      },
+      "verifiedAt": "2026-07-16",
+      "sourceCount": 7
+    },
+    {
+      "id": "uc-riverside",
+      "name": "University of California, Riverside",
+      "chineseName": "加州大学河滨分校",
+      "city": "Riverside",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 33.9737,
+      "longitude": -117.3273,
+      "rankingBand": "National Universities",
+      "rankingTier": "top100",
+      "annualCostRmb": 480000,
+      "safetyScore": 74,
+      "recognitionScore": 60,
+      "chineseCommunity": "medium",
+      "admissionRate": 65,
+      "programs": [
+        "Engineering",
+        "Business",
+        "Computer Science",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "录取率友好，适合作为匹配校。",
+        "UC 系统中费用较低，性价比好。"
+      ],
+      "studentHighlights": [
+        "中国学生支持体系较完善。",
+        "校园规模中等，容易融入。"
+      ],
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT",
+      "streetviewPanoId": null,
+      "logoUrl": null,
+      "campusImages": [],
+      "nearby": {
+        "subwayStations": 0,
+        "chineseRestaurants": 15,
+        "asianGroceries": 3,
+        "avgRentRmb": 9500
+      },
+      "verifiedAt": "2026-07-16",
+      "sourceCount": 5
+    },
+    {
+      "id": "cal-poly-slo",
+      "name": "California Polytechnic State University",
+      "chineseName": "加州州立理工大学",
+      "city": "San Luis Obispo",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 35.305,
+      "longitude": -120.6625,
+      "rankingBand": "Regional Universities West",
+      "rankingTier": "top100",
+      "annualCostRmb": 350000,
+      "safetyScore": 88,
+      "recognitionScore": 55,
+      "chineseCommunity": "low",
+      "admissionRate": 38,
+      "programs": [
+        "Engineering",
+        "Architecture",
+        "Computer Science",
+        "Business"
+      ],
+      "parentHighlights": [
+        "治安优秀，所在城市非常安全。",
+        "工程教育声誉好，就业率高。"
+      ],
+      "studentHighlights": [
+        "注重实践教学，学习压力适中。",
+        "校园环境优美，生活舒适。"
+      ],
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT",
+      "streetviewPanoId": null,
+      "logoUrl": null,
+      "campusImages": [],
+      "nearby": {
+        "subwayStations": 0,
+        "chineseRestaurants": 4,
+        "asianGroceries": 1,
+        "avgRentRmb": 8500
+      },
+      "verifiedAt": "2026-07-16",
+      "sourceCount": 4
+    },
+    {
+      "id": "uc-merced",
+      "name": "University of California, Merced",
+      "chineseName": "加州大学默塞德分校",
+      "city": "Merced",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 37.3682,
+      "longitude": -120.4199,
+      "rankingBand": "National Universities",
+      "rankingTier": "other",
+      "annualCostRmb": 420000,
+      "safetyScore": 85,
+      "recognitionScore": 48,
+      "chineseCommunity": "low",
+      "admissionRate": 76,
+      "programs": [
+        "Engineering",
+        "Computer Science",
+        "Business",
+        "Psychology"
+      ],
+      "parentHighlights": [
+        "UC 系统中录取最友好，保底首选。",
+        "费用相对较低，性价比突出。"
+      ],
+      "studentHighlights": [
+        "校园新，设施先进。",
+        "小班教学，适合适应期。"
+      ],
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT",
+      "streetviewPanoId": null,
+      "logoUrl": null,
+      "campusImages": [],
+      "nearby": {
+        "subwayStations": 0,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 7000
+      },
+      "verifiedAt": "2026-07-16",
+      "sourceCount": 3
     }
   ]
 }
