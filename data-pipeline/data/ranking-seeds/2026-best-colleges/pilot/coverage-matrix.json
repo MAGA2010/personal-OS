@@ -1,0 +1,10 @@
+{
+  "record_type": "ranking_collection_pilot_coverage_matrix",
+  "edition": "2026 Best Colleges",
+  "generated_at": "2026-07-10T00:00:00+08:00",
+  "streams": [
+    {"stream_id": "national-universities-pilot", "expected_cutoff": "numeric_rank <= 50", "discovered_records": 3, "verified_records": 3, "partially_verified_records": 0, "unresolved_records": 0, "missing_ranks": "Ranks 4-50 and any tied groups were not collected in this pilot.", "ties_observed": 0, "tie_coverage": "unknown beyond collected records", "source_count": 1, "official_source_count": 1, "university_official_cross_source_count": 0, "identity_resolved_count": 3, "identity_unresolved_count": 0, "complete_cutoff_coverage": false},
+    {"stream_id": "undergraduate-business-programs-pilot", "expected_cutoff": "numeric_rank <= 20", "discovered_records": 4, "verified_records": 2, "partially_verified_records": 2, "unresolved_records": 0, "missing_ranks": "All other ranks <=20 and tie groups were not collected in this pilot.", "ties_observed": 1, "tie_coverage": "one partial #6 tie observed; cutoff-wide tie coverage incomplete", "source_count": 4, "official_source_count": 0, "university_official_cross_source_count": 4, "identity_resolved_count": 4, "identity_unresolved_count": 0, "complete_cutoff_coverage": false},
+    {"stream_id": "engineering-aerospace-pilot", "expected_cutoff": "numeric_rank <= 20", "discovered_records": 1, "verified_records": 1, "partially_verified_records": 0, "unresolved_records": 0, "missing_ranks": "Ranks 1 and 3-20 and any tied groups were not collected in this pilot.", "ties_observed": 0, "tie_coverage": "unknown beyond collected record", "source_count": 1, "official_source_count": 0, "university_official_cross_source_count": 1, "identity_resolved_count": 1, "identity_unresolved_count": 0, "complete_cutoff_coverage": false}
+  ]
+}

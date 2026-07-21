@@ -1,0 +1,149 @@
+{
+  "record_type": "official_program_sweep_gap_report",
+  "edition": "2026 Best Colleges",
+  "stream_gaps": [
+    {
+      "stream_id": "business-accounting",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-analytics",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-entrepreneurship",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-finance",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-international-business",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-management",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-management-information-systems",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-marketing",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-production-operations-management",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-real-estate",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "business-supply-chain-management-logistics",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-aerospace",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-biomedical",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-chemical",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-civil",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-computer",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-electrical",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-environmental",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-industrial",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-materials",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "engineering-mechanical",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "undergraduate-business-programs",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "undergraduate-computer-science",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "undergraduate-economics",
+      "stream_status": "no_verified_records",
+      "gap_reason": "Official-source sweep found no qualifying direct 2026 institution/category/rank evidence for this stream."
+    },
+    {
+      "stream_id": "undergraduate-engineering-doctorate",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "undergraduate-engineering-no-doctorate",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "undergraduate-nursing",
+      "stream_status": "incomplete",
+      "gap_reason": "Official direct-evidence records exist, but no full first-20-entry plus boundary-tie group was assembled."
+    },
+    {
+      "stream_id": "undergraduate-psychology",
+      "stream_status": "no_verified_records",
+      "gap_reason": "Official-source sweep found no qualifying direct 2026 institution/category/rank evidence for this stream."
+    }
+  ],
+  "canonical_universe_created": false,
+  "selection_memberships_created": false,
+  "frontend_export_created": false
+}

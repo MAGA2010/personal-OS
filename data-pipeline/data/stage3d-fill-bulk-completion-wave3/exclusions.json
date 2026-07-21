@@ -1,0 +1,7 @@
+{
+  "record_type": "stage3d_fill_bulk_completion_wave3_exclusions_input",
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "exclusions": []
+}

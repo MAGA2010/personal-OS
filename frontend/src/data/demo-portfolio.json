@@ -1,0 +1,28 @@
+{
+  "studentProfile": {
+    "background": "上海国际高中",
+    "targetDegree": "undergraduate",
+    "targetMajor": "Computer Science",
+    "gpa": 3.7,
+    "toefl": 105,
+    "sat": 1450,
+    "budgetRmb": 700000,
+    "priorities": [
+      "employment",
+      "safety",
+      "recognition"
+    ]
+  },
+  "recommendedSchoolIds": [
+    "stanford",
+    "mit",
+    "uc-berkeley",
+    "usc",
+    "columbia",
+    "uiuc",
+    "northeastern",
+    "purdue",
+    "new-york-university",
+    "ucla"
+  ]
+}

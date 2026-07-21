@@ -1,0 +1,2995 @@
+{
+  "_instructions": "PathOS 大学数据 — 62 所候选大学",
+  "_lastUpdated": "2026-07-21",
+  "universities": [
+    {
+      "id": "princeton-university",
+      "name": "Princeton University",
+      "chineseName": "普林斯顿大学",
+      "country": "United States",
+      "city": "Princeton",
+      "state": "NJ",
+      "stateFips": "34",
+      "latitude": 40.3431,
+      "longitude": -74.6551,
+      "rankingBand": "National #1",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 68,
+      "recognitionScore": 98,
+      "chineseCommunity": "high",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Princeton的普林斯顿大学，全美排名第1位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 1
+    },
+    {
+      "id": "massachusetts-institute-of-technology",
+      "name": "Massachusetts Institute of Technology",
+      "chineseName": "麻省理工学院",
+      "country": "United States",
+      "city": "Cambridge",
+      "state": "MA",
+      "stateFips": "25",
+      "latitude": 42.3601,
+      "longitude": -71.0942,
+      "rankingBand": "National #2",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 72,
+      "recognitionScore": 98,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Cambridge的麻省理工学院，全美排名第2位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "MIT was chartered in Massachusetts in 1861 around a polytechnic vision centered on science and engineering.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 2
+    },
+    {
+      "id": "harvard-university",
+      "name": "Harvard University",
+      "chineseName": "哈佛大学",
+      "country": "United States",
+      "city": "Cambridge",
+      "state": "MA",
+      "stateFips": "25",
+      "latitude": 42.3736,
+      "longitude": -71.1097,
+      "rankingBand": "National #3",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 72,
+      "recognitionScore": 98,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Cambridge的哈佛大学，全美排名第3位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 3
+    },
+    {
+      "id": "stanford-university",
+      "name": "Stanford University",
+      "chineseName": "斯坦福大学",
+      "country": "United States",
+      "city": "Stanford",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 37.4275,
+      "longitude": -122.1697,
+      "rankingBand": "National #4",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 65,
+      "recognitionScore": 98,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Stanford的斯坦福大学，全美排名第4位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 4
+    },
+    {
+      "id": "yale-university",
+      "name": "Yale University",
+      "chineseName": "耶鲁大学",
+      "country": "United States",
+      "city": "New Haven",
+      "state": "CT",
+      "stateFips": "09",
+      "latitude": 41.3163,
+      "longitude": -72.922,
+      "rankingBand": "National #4",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 70,
+      "recognitionScore": 98,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于New Haven的耶鲁大学，全美排名第4位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Yale was founded in Saybrook in 1701 as the Collegiate School.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 4
+    },
+    {
+      "id": "university-of-chicago",
+      "name": "University of Chicago",
+      "chineseName": "芝加哥大学",
+      "country": "United States",
+      "city": "Chicago",
+      "state": "IL",
+      "stateFips": "17",
+      "latitude": 41.7886,
+      "longitude": -87.5987,
+      "rankingBand": "National #6",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 58,
+      "recognitionScore": 98,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Chicago的芝加哥大学，全美排名第6位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 6
+    },
+    {
+      "id": "duke-university",
+      "name": "Duke University",
+      "chineseName": "杜克大学",
+      "country": "United States",
+      "city": "Durham",
+      "state": "NC",
+      "stateFips": "37",
+      "latitude": 36.0014,
+      "longitude": -78.9382,
+      "rankingBand": "National #7",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 62,
+      "recognitionScore": 98,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Durham的杜克大学，全美排名第7位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Duke’s institutional history begins in 1838, before the school later took the Duke University name.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 7
+    },
+    {
+      "id": "johns-hopkins-university",
+      "name": "Johns Hopkins University",
+      "chineseName": "约翰霍普金斯大学",
+      "country": "United States",
+      "city": "Baltimore",
+      "state": "MD",
+      "stateFips": "24",
+      "latitude": 39.3299,
+      "longitude": -76.6205,
+      "rankingBand": "National #7",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 55,
+      "recognitionScore": 98,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Baltimore的约翰霍普金斯大学，全美排名第7位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 7
+    },
+    {
+      "id": "northwestern-university",
+      "name": "Northwestern University",
+      "chineseName": "西北大学",
+      "country": "United States",
+      "city": "Evanston",
+      "state": "IL",
+      "stateFips": "17",
+      "latitude": 42.0565,
+      "longitude": -87.6753,
+      "rankingBand": "National #7",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 58,
+      "recognitionScore": 98,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Evanston的西北大学，全美排名第7位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 7
+    },
+    {
+      "id": "university-of-pennsylvania",
+      "name": "University of Pennsylvania",
+      "chineseName": "宾夕法尼亚大学",
+      "country": "United States",
+      "city": "Philadelphia",
+      "state": "PA",
+      "stateFips": "42",
+      "latitude": 39.9522,
+      "longitude": -75.1932,
+      "rankingBand": "National #7",
+      "rankingTier": "top20",
+      "annualCostRmb": 620000,
+      "safetyScore": 65,
+      "recognitionScore": 98,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Philadelphia的宾夕法尼亚大学，全美排名第7位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 13777
+      },
+      "numericRank": 7
+    },
+    {
+      "id": "california-institute-of-technology",
+      "name": "California Institute of Technology",
+      "chineseName": "加州理工学院",
+      "country": "United States",
+      "city": "Pasadena",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 34.1377,
+      "longitude": -118.1253,
+      "rankingBand": "National #11",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 65,
+      "recognitionScore": 94,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Pasadena的加州理工学院，全美排名第11位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Caltech began as Throop University in Pasadena in 1891 and adopted its current name in 1920.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 11
+    },
+    {
+      "id": "cornell-university",
+      "name": "Cornell University",
+      "chineseName": "康奈尔大学",
+      "country": "United States",
+      "city": "Ithaca",
+      "state": "NY",
+      "stateFips": "36",
+      "latitude": 42.4534,
+      "longitude": -76.4735,
+      "rankingBand": "National #12",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 62,
+      "recognitionScore": 94,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Ithaca的康奈尔大学，全美排名第12位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Cornell was founded by Ezra Cornell and Andrew Dickson White in 1865 and opened in 1868.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 12
+    },
+    {
+      "id": "brown-university",
+      "name": "Brown University",
+      "chineseName": "布朗大学",
+      "country": "United States",
+      "city": "Providence",
+      "state": "RI",
+      "stateFips": "44",
+      "latitude": 41.8268,
+      "longitude": -71.4025,
+      "rankingBand": "National #13",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 68,
+      "recognitionScore": 94,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Providence的布朗大学，全美排名第13位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Brown was founded in 1764 with a commitment to admit students regardless of religious affiliation.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 13
+    },
+    {
+      "id": "dartmouth-college",
+      "name": "Dartmouth College",
+      "chineseName": "达特茅斯学院",
+      "country": "United States",
+      "city": "Hanover",
+      "state": "NH",
+      "stateFips": "33",
+      "latitude": 43.7044,
+      "longitude": -72.2887,
+      "rankingBand": "National #13",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 75,
+      "recognitionScore": 94,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Hanover的达特茅斯学院，全美排名第13位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Dartmouth was founded in 1769 and has since shaped education across generations.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 13
+    },
+    {
+      "id": "columbia-university",
+      "name": "Columbia University",
+      "chineseName": "哥伦比亚大学",
+      "country": "United States",
+      "city": "New York",
+      "state": "NY",
+      "stateFips": "36",
+      "latitude": 40.8075,
+      "longitude": -73.9626,
+      "rankingBand": "National #15",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 62,
+      "recognitionScore": 94,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Biomedical Engineering",
+        "Computer Engineering",
+        "Computer Science",
+        "Electrical Engineering",
+        "Mechanical Engineering"
+      ],
+      "parentHighlights": [
+        "位于New York的哥伦比亚大学，全美排名第15位",
+        "强劲的Biomedical Engineering领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Columbia began as King’s College in 1754 under a royal charter from King George II.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 15
+    },
+    {
+      "id": "university-of-california-berkeley",
+      "name": "University of California, Berkeley",
+      "chineseName": "加州大学伯克利分校",
+      "country": "United States",
+      "city": "Berkeley",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 37.8716,
+      "longitude": -122.2727,
+      "rankingBand": "National #15",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 65,
+      "recognitionScore": 94,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Berkeley的加州大学伯克利分校，全美排名第15位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "The University of California was founded in 1868 under a state constitutional vision for a public university.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 15
+    },
+    {
+      "id": "rice-university",
+      "name": "Rice University",
+      "chineseName": "莱斯大学",
+      "country": "United States",
+      "city": "Houston",
+      "state": "TX",
+      "stateFips": "48",
+      "latitude": 29.7178,
+      "longitude": -95.4017,
+      "rankingBand": "National #17",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 60,
+      "recognitionScore": 94,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Houston的莱斯大学，全美排名第17位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Rice’s founding institute filed its Texas charter on May 19, 1891.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 17
+    },
+    {
+      "id": "university-of-california-los-angeles",
+      "name": "University of California, Los Angeles",
+      "chineseName": "加州大学洛杉矶分校",
+      "country": "United States",
+      "city": "Los Angeles",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 34.0689,
+      "longitude": -118.4452,
+      "rankingBand": "National #17",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 65,
+      "recognitionScore": 94,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Los Angeles的加州大学洛杉矶分校，全美排名第17位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 17
+    },
+    {
+      "id": "vanderbilt-university",
+      "name": "Vanderbilt University",
+      "chineseName": "范德堡大学",
+      "country": "United States",
+      "city": "Nashville",
+      "state": "TN",
+      "stateFips": "47",
+      "latitude": 36.1447,
+      "longitude": -86.8027,
+      "rankingBand": "National #17",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 58,
+      "recognitionScore": 94,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Nashville的范德堡大学，全美排名第17位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 17
+    },
+    {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "chineseName": "卡内基梅隆大学",
+      "country": "United States",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "stateFips": "42",
+      "latitude": 40.4432,
+      "longitude": -79.943,
+      "rankingBand": "National #20",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 65,
+      "recognitionScore": 94,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Pittsburgh的卡内基梅隆大学，全美排名第20位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 20
+    },
+    {
+      "id": "university-of-michigan-ann-arbor",
+      "name": "University of Michigan—Ann Arbor",
+      "chineseName": "密歇根大学安娜堡分校",
+      "country": "United States",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "stateFips": "26",
+      "latitude": 42.278,
+      "longitude": -83.7382,
+      "rankingBand": "National #20",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 58,
+      "recognitionScore": 94,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Ann Arbor的密歇根大学安娜堡分校，全美排名第20位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "The school that became the University of Michigan was created in Detroit in 1817.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 20
+    },
+    {
+      "id": "university-of-notre-dame",
+      "name": "University of Notre Dame",
+      "chineseName": "圣母大学",
+      "country": "United States",
+      "city": "Notre Dame",
+      "state": "IN",
+      "stateFips": "18",
+      "latitude": 41.7045,
+      "longitude": -86.2381,
+      "rankingBand": "National #20",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 65,
+      "recognitionScore": 94,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Notre Dame的圣母大学，全美排名第20位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 20
+    },
+    {
+      "id": "washington-university-in-st-louis",
+      "name": "Washington University in St. Louis",
+      "chineseName": "圣路易斯华盛顿大学",
+      "country": "United States",
+      "city": "St. Louis",
+      "state": "MO",
+      "stateFips": "29",
+      "latitude": 38.6488,
+      "longitude": -90.3105,
+      "rankingBand": "National #20",
+      "rankingTier": "top20",
+      "annualCostRmb": 560000,
+      "safetyScore": 55,
+      "recognitionScore": 94,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于St. Louis的圣路易斯华盛顿大学，全美排名第20位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Wayman Crow and William Greenleaf Eliot Jr. led Washington University’s founding in St. Louis in 1853.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 12444
+      },
+      "numericRank": 20
+    },
+    {
+      "id": "emory-university",
+      "name": "Emory University",
+      "chineseName": "埃默里大学",
+      "country": "United States",
+      "city": "Atlanta",
+      "state": "GA",
+      "stateFips": "13",
+      "latitude": 33.7969,
+      "longitude": -84.323,
+      "rankingBand": "National #24",
+      "rankingTier": "top50",
+      "annualCostRmb": 520000,
+      "safetyScore": 55,
+      "recognitionScore": 88,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Atlanta的埃默里大学，全美排名第24位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 11555
+      },
+      "numericRank": 24
+    },
+    {
+      "id": "georgetown-university",
+      "name": "Georgetown University",
+      "chineseName": "乔治城大学",
+      "country": "United States",
+      "city": "Washington",
+      "state": "DC",
+      "stateFips": "11",
+      "latitude": 38.9076,
+      "longitude": -77.0723,
+      "rankingBand": "National #24",
+      "rankingTier": "top50",
+      "annualCostRmb": 520000,
+      "safetyScore": 52,
+      "recognitionScore": 88,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Washington的乔治城大学，全美排名第24位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 11555
+      },
+      "numericRank": 24
+    },
+    {
+      "id": "university-of-north-carolina-chapel-hill",
+      "name": "University of North Carolina—Chapel Hill",
+      "chineseName": "北卡罗来纳大学教堂山分校",
+      "country": "United States",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "stateFips": "37",
+      "latitude": 35.9049,
+      "longitude": -79.0468,
+      "rankingBand": "National #26",
+      "rankingTier": "top50",
+      "annualCostRmb": 520000,
+      "safetyScore": 62,
+      "recognitionScore": 88,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Asian Studies, B.A. — Japanese Concentration",
+        "Asian Studies, B.A. — Korean Studies Concentration",
+        "Asian Studies, B.A. — South Asian Studies Concentration"
+      ],
+      "parentHighlights": [
+        "位于Chapel Hill的北卡罗来纳大学教堂山分校，全美排名第26位",
+        "强劲的Asian Studies, B.A. — Japanese Concentration领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "UNC-Chapel Hill opened to students in 1795 as the nation’s first public university.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 11555
+      },
+      "numericRank": 26
+    },
+    {
+      "id": "university-of-virginia",
+      "name": "University of Virginia",
+      "chineseName": "弗吉尼亚大学",
+      "country": "United States",
+      "city": "Charlottesville",
+      "state": "VA",
+      "stateFips": "51",
+      "latitude": 38.0336,
+      "longitude": -78.508,
+      "rankingBand": "National #26",
+      "rankingTier": "top50",
+      "annualCostRmb": 520000,
+      "safetyScore": 65,
+      "recognitionScore": 88,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Biomedical Engineering",
+        "Commerce",
+        "Computer Science",
+        "Data Science",
+        "Economics"
+      ],
+      "parentHighlights": [
+        "位于Charlottesville的弗吉尼亚大学，全美排名第26位",
+        "强劲的Biomedical Engineering领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "The University of Virginia was formally founded in 1819 through a charter approved by the Virginia General Assembly.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 11555
+      },
+      "numericRank": 26
+    },
+    {
+      "id": "university-of-southern-california",
+      "name": "University of Southern California",
+      "chineseName": "南加州大学",
+      "country": "United States",
+      "city": "Los Angeles",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 34.0224,
+      "longitude": -118.2851,
+      "rankingBand": "National #28",
+      "rankingTier": "top50",
+      "annualCostRmb": 520000,
+      "safetyScore": 65,
+      "recognitionScore": 88,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Los Angeles的南加州大学，全美排名第28位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "USC opened in 1880 with 53 students and 10 teachers.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 11555
+      },
+      "numericRank": 28
+    },
+    {
+      "id": "university-of-california-san-diego",
+      "name": "University of California, San Diego",
+      "chineseName": "加州大学圣地亚哥分校",
+      "country": "United States",
+      "city": "La Jolla",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 32.8801,
+      "longitude": -117.234,
+      "rankingBand": "National #29",
+      "rankingTier": "top50",
+      "annualCostRmb": 520000,
+      "safetyScore": 65,
+      "recognitionScore": 88,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于La Jolla的加州大学圣地亚哥分校，全美排名第29位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "UC San Diego was officially founded on November 18, 1960.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 11555
+      },
+      "numericRank": 29
+    },
+    {
+      "id": "university-of-florida",
+      "name": "University of Florida",
+      "chineseName": "佛罗里达大学",
+      "country": "United States",
+      "city": "Gainesville",
+      "state": "FL",
+      "stateFips": "12",
+      "latitude": 29.6516,
+      "longitude": -82.3248,
+      "rankingBand": "National #30",
+      "rankingTier": "top50",
+      "annualCostRmb": 520000,
+      "safetyScore": 58,
+      "recognitionScore": 88,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Gainesville的佛罗里达大学，全美排名第30位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "The University of Florida traces its institutional history to 1853.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 11555
+      },
+      "numericRank": 30
+    },
+    {
+      "id": "university-of-texas-austin",
+      "name": "University of Texas—Austin",
+      "chineseName": "德克萨斯大学奥斯汀分校",
+      "country": "United States",
+      "city": "Austin",
+      "state": "TX",
+      "stateFips": "48",
+      "latitude": 30.286,
+      "longitude": -97.7396,
+      "rankingBand": "National #30",
+      "rankingTier": "top50",
+      "annualCostRmb": 520000,
+      "safetyScore": 60,
+      "recognitionScore": 88,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Aerospace Engineering",
+        "Business Administration",
+        "Computer Science",
+        "Finance",
+        "Management Information Systems"
+      ],
+      "parentHighlights": [
+        "位于Austin的德克萨斯大学奥斯汀分校，全美排名第30位",
+        "强劲的Aerospace Engineering领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 11555
+      },
+      "numericRank": 30
+    },
+    {
+      "id": "georgia-institute-of-technology",
+      "name": "Georgia Institute of Technology",
+      "chineseName": "佐治亚理工学院",
+      "country": "United States",
+      "city": "Atlanta",
+      "state": "GA",
+      "stateFips": "13",
+      "latitude": 33.7756,
+      "longitude": -84.3963,
+      "rankingBand": "National #32",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 55,
+      "recognitionScore": 80,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Atlanta的佐治亚理工学院，全美排名第32位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Georgia Tech began as the Georgia School of Technology in 1885 as Georgia industrialized.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 32
+    },
+    {
+      "id": "new-york-university",
+      "name": "New York University",
+      "chineseName": "纽约大学",
+      "country": "United States",
+      "city": "New York",
+      "state": "NY",
+      "stateFips": "36",
+      "latitude": 40.7295,
+      "longitude": -73.9965,
+      "rankingBand": "National #32",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 62,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于New York的纽约大学，全美排名第32位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "New York University began in 1831 as the University of the City of New-York.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 32
+    },
+    {
+      "id": "university-of-california-davis",
+      "name": "University of California, Davis",
+      "chineseName": "加州大学戴维斯分校",
+      "country": "United States",
+      "city": "Davis",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 38.5382,
+      "longitude": -121.7617,
+      "rankingBand": "National #32",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 65,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Davis的加州大学戴维斯分校，全美排名第32位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "UC Davis opened in 1908 as the University Farm.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 32
+    },
+    {
+      "id": "university-of-california-irvine",
+      "name": "University of California, Irvine",
+      "chineseName": "加州大学尔湾分校",
+      "country": "United States",
+      "city": "Irvine",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 33.6405,
+      "longitude": -117.8443,
+      "rankingBand": "National #32",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 65,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Irvine的加州大学尔湾分校，全美排名第32位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "UC Irvine held its first day of classes in 1965.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 32
+    },
+    {
+      "id": "boston-college",
+      "name": "Boston College",
+      "chineseName": "波士顿学院",
+      "country": "United States",
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "stateFips": "25",
+      "latitude": 42.3355,
+      "longitude": -71.1685,
+      "rankingBand": "National #36",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 72,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Chestnut Hill的波士顿学院，全美排名第36位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Boston College was founded by the Jesuits in 1863 to serve Boston’s Irish Catholic immigrant community.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 36
+    },
+    {
+      "id": "tufts-university",
+      "name": "Tufts University",
+      "chineseName": "塔夫茨大学",
+      "country": "United States",
+      "city": "Medford",
+      "state": "MA",
+      "stateFips": "25",
+      "latitude": 42.4085,
+      "longitude": -71.1183,
+      "rankingBand": "National #36",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 72,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Medford的塔夫茨大学，全美排名第36位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Massachusetts chartered Tufts College in 1852.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 36
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign",
+      "name": "University of Illinois Urbana-Champaign",
+      "chineseName": "伊利诺伊大学香槟分校",
+      "country": "United States",
+      "city": "Urbana",
+      "state": "IL",
+      "stateFips": "17",
+      "latitude": 40.102,
+      "longitude": -88.2272,
+      "rankingBand": "National #36",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 58,
+      "recognitionScore": 80,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Urbana的伊利诺伊大学香槟分校，全美排名第36位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Illinois began in 1867 as the Illinois Industrial University.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 36
+    },
+    {
+      "id": "university-of-wisconsin-madison",
+      "name": "University of Wisconsin—Madison",
+      "chineseName": "威斯康星大学麦迪逊分校",
+      "country": "United States",
+      "city": "Madison",
+      "state": "WI",
+      "stateFips": "55",
+      "latitude": 43.0766,
+      "longitude": -89.4125,
+      "rankingBand": "National #36",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 68,
+      "recognitionScore": 80,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Madison的威斯康星大学麦迪逊分校，全美排名第36位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Wisconsin’s territorial legislature authorized a University of Wisconsin near Madison in 1838.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 36
+    },
+    {
+      "id": "university-of-california-santa-barbara",
+      "name": "University of California, Santa Barbara",
+      "chineseName": "加州大学圣塔芭芭拉分校",
+      "country": "United States",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 34.414,
+      "longitude": -119.8489,
+      "rankingBand": "National #40",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 65,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Santa Barbara的加州大学圣塔芭芭拉分校，全美排名第40位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "UC Santa Barbara evolved from a manual-training school founded in the 1890s.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 40
+    },
+    {
+      "id": "ohio-state-university",
+      "name": "The Ohio State University",
+      "chineseName": "俄亥俄州立大学",
+      "country": "United States",
+      "city": "Columbus",
+      "state": "OH",
+      "stateFips": "39",
+      "latitude": 40.0023,
+      "longitude": -83.0146,
+      "rankingBand": "National #41",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 60,
+      "recognitionScore": 80,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer and Information Science",
+        "Data Analytics",
+        "Economics",
+        "Psychology"
+      ],
+      "parentHighlights": [
+        "位于Columbus的俄亥俄州立大学，全美排名第41位",
+        "强劲的Computer and Information Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Ohio State began in 1870 as the Ohio Agricultural and Mechanical College under the Cannon Act.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 41
+    },
+    {
+      "id": "boston-university",
+      "name": "Boston University",
+      "chineseName": "波士顿大学",
+      "country": "United States",
+      "city": "Boston",
+      "state": "MA",
+      "stateFips": "25",
+      "latitude": 42.3505,
+      "longitude": -71.1054,
+      "rankingBand": "National #42",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 72,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Boston的波士顿大学，全美排名第42位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Boston University received its charter through founders Isaac Rich, Lee Claflin, and Jacob Sleeper.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 42
+    },
+    {
+      "id": "rutgers-university-new-brunswick",
+      "name": "Rutgers University—New Brunswick",
+      "chineseName": "罗格斯大学新布朗斯维克分校",
+      "country": "United States",
+      "city": "New Brunswick",
+      "state": "NJ",
+      "stateFips": "34",
+      "latitude": 40.5,
+      "longitude": -74.447,
+      "rankingBand": "National #42",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 68,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于New Brunswick的罗格斯大学新布朗斯维克分校，全美排名第42位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Rutgers was founded in 1766 as one of the nine colonial colleges.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 42
+    },
+    {
+      "id": "university-of-maryland-college-park",
+      "name": "University of Maryland, College Park",
+      "chineseName": "马里兰大学帕克分校",
+      "country": "United States",
+      "city": "College Park",
+      "state": "MD",
+      "stateFips": "24",
+      "latitude": 38.9869,
+      "longitude": -76.9426,
+      "rankingBand": "National #42",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 55,
+      "recognitionScore": 80,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于College Park的马里兰大学帕克分校，全美排名第42位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Maryland traces its history to an agricultural school chartered in 1856.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 42
+    },
+    {
+      "id": "university-of-washington",
+      "name": "University of Washington",
+      "chineseName": "华盛顿大学",
+      "country": "United States",
+      "city": "Seattle",
+      "state": "WA",
+      "stateFips": "53",
+      "latitude": 47.6553,
+      "longitude": -122.3035,
+      "rankingBand": "National #42",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 68,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Aeronautics and Astronautics",
+        "Chemical Engineering",
+        "Civil and Environmental Engineering",
+        "Computer Science and Engineering",
+        "Mechanical Engineering"
+      ],
+      "parentHighlights": [
+        "位于Seattle的华盛顿大学，全美排名第42位",
+        "强劲的Aeronautics and Astronautics领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 42
+    },
+    {
+      "id": "lehigh-university",
+      "name": "Lehigh University",
+      "chineseName": "里海大学",
+      "country": "United States",
+      "city": "Bethlehem",
+      "state": "PA",
+      "stateFips": "42",
+      "latitude": 40.6032,
+      "longitude": -75.3774,
+      "rankingBand": "National #46",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 65,
+      "recognitionScore": 80,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Bethlehem的里海大学，全美排名第46位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Asa Packer established Lehigh in 1865 with land on South Mountain and a $500,000 gift.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 46
+    },
+    {
+      "id": "northeastern-university",
+      "name": "Northeastern University",
+      "chineseName": "东北大学",
+      "country": "United States",
+      "city": "Boston",
+      "state": "MA",
+      "stateFips": "25",
+      "latitude": 42.3398,
+      "longitude": -71.0892,
+      "rankingBand": "National #46",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 72,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Boston的东北大学，全美排名第46位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Northeastern was founded in 1898 and developed an education model centered on experiential learning.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 46
+    },
+    {
+      "id": "purdue-university-main-campus",
+      "name": "Purdue University—Main Campus",
+      "chineseName": "普渡大学",
+      "country": "United States",
+      "city": "West Lafayette",
+      "state": "IN",
+      "stateFips": "18",
+      "latitude": 40.4237,
+      "longitude": -86.9212,
+      "rankingBand": "National #46",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 65,
+      "recognitionScore": 80,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于West Lafayette的普渡大学，全美排名第46位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Purdue was created by an Indiana law signed on May 6, 1869.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 46
+    },
+    {
+      "id": "university-of-georgia",
+      "name": "University of Georgia",
+      "chineseName": "佐治亚大学",
+      "country": "United States",
+      "city": "Athens",
+      "state": "GA",
+      "stateFips": "13",
+      "latitude": 33.948,
+      "longitude": -83.3779,
+      "rankingBand": "National #46",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 55,
+      "recognitionScore": 80,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Athens的佐治亚大学，全美排名第46位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "The University of Georgia’s founding charter dates to January 27, 1785.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 46
+    },
+    {
+      "id": "university-of-rochester",
+      "name": "University of Rochester",
+      "chineseName": "罗切斯特大学",
+      "country": "United States",
+      "city": "Rochester",
+      "state": "NY",
+      "stateFips": "36",
+      "latitude": 43.1284,
+      "longitude": -77.6292,
+      "rankingBand": "National #46",
+      "rankingTier": "top50",
+      "annualCostRmb": 460000,
+      "safetyScore": 62,
+      "recognitionScore": 80,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Rochester的罗切斯特大学，全美排名第46位",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": null,
+      "anecdotes": [],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 10222
+      },
+      "numericRank": 46
+    },
+    {
+      "id": "arizona-state-university",
+      "name": "Arizona State University",
+      "chineseName": "亚利桑那州立大学",
+      "country": "United States",
+      "city": "Tempe",
+      "state": "AZ",
+      "stateFips": "04",
+      "latitude": 33.4242,
+      "longitude": -111.9281,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 58,
+      "recognitionScore": 75,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Tempe的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "ASU traces its origins to the Territorial Normal School, which opened in Tempe in 1886.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "bucknell-university",
+      "name": "Bucknell University",
+      "chineseName": "巴克内尔大学",
+      "country": "United States",
+      "city": "Lewisburg",
+      "state": "PA",
+      "stateFips": "42",
+      "latitude": 40.9523,
+      "longitude": -76.8863,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 65,
+      "recognitionScore": 75,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Lewisburg的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Bucknell was established in 1846 under its original name, the University at Lewisburg.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "harvey-mudd-college",
+      "name": "Harvey Mudd College",
+      "chineseName": "哈维穆德学院",
+      "country": "United States",
+      "city": "Claremont",
+      "state": "CA",
+      "stateFips": "06",
+      "latitude": 34.106,
+      "longitude": -117.7117,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 65,
+      "recognitionScore": 75,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Claremont的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Harvey Mudd College was chartered in December 1955 as a liberal-arts college focused on science, engineering, and mathematics.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "indiana-university-bloomington",
+      "name": "Indiana University Bloomington",
+      "chineseName": "印第安纳大学布卢明顿分校",
+      "country": "United States",
+      "city": "Bloomington",
+      "state": "IN",
+      "stateFips": "18",
+      "latitude": 39.1653,
+      "longitude": -86.5264,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 65,
+      "recognitionScore": 75,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Bloomington的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "IU Bloomington began as a small seminary serving 10 students more than two centuries ago.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "loyola-university-chicago",
+      "name": "Loyola University Chicago",
+      "chineseName": "芝加哥洛约拉大学",
+      "country": "United States",
+      "city": "Chicago",
+      "state": "IL",
+      "stateFips": "17",
+      "latitude": 41.9995,
+      "longitude": -87.6586,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 58,
+      "recognitionScore": 75,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Chicago的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Loyola University Chicago began in 1870 as St. Ignatius College under Arnold Damen, S.J.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "olin-college-of-engineering",
+      "name": "Olin College of Engineering",
+      "chineseName": "欧林工程学院",
+      "country": "United States",
+      "city": "Needham",
+      "state": "MA",
+      "stateFips": "25",
+      "latitude": 42.2544,
+      "longitude": -71.2595,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 72,
+      "recognitionScore": 75,
+      "chineseCommunity": "high",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Bioengineering Concentration",
+        "Electrical and Computer Engineering",
+        "Engineering Computing Concentration",
+        "Mechanical Engineering"
+      ],
+      "parentHighlights": [
+        "位于Needham的顶尖大学",
+        "强劲的Bioengineering Concentration领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Olin College received its Massachusetts educational charter in 1997 as its foundation announced plans for the school.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 20,
+        "asianGroceries": 3,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "rose-hulman-institute-of-technology",
+      "name": "Rose-Hulman Institute of Technology",
+      "chineseName": "罗斯-霍曼理工学院",
+      "country": "United States",
+      "city": "Terre Haute",
+      "state": "IN",
+      "stateFips": "18",
+      "latitude": 39.4852,
+      "longitude": -87.3242,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 65,
+      "recognitionScore": 75,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Terre Haute的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Rose-Hulman traces its engineering-education history to 1874.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "texas-a-and-m-university",
+      "name": "Texas A&M University",
+      "chineseName": "德州农工大学",
+      "country": "United States",
+      "city": "College Station",
+      "state": "TX",
+      "stateFips": "48",
+      "latitude": 30.6188,
+      "longitude": -96.3365,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 60,
+      "recognitionScore": 75,
+      "chineseCommunity": "medium",
+      "directFlight": true,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于College Station的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Texas established the Agricultural and Mechanical College of Texas in April 1871.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "university-of-colorado-boulder",
+      "name": "University of Colorado Boulder",
+      "chineseName": "科罗拉多大学波德分校",
+      "country": "United States",
+      "city": "Boulder",
+      "state": "CO",
+      "stateFips": "08",
+      "latitude": 40.0076,
+      "longitude": -105.266,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 68,
+      "recognitionScore": 75,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Boulder的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "CU Boulder was founded in 1876, the year Colorado became a state.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "university-of-iowa",
+      "name": "University of Iowa",
+      "chineseName": "爱荷华大学",
+      "country": "United States",
+      "city": "Iowa City",
+      "state": "IA",
+      "stateFips": "19",
+      "latitude": 41.661,
+      "longitude": -91.536,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 72,
+      "recognitionScore": 75,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Iowa City的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "The University of Iowa dates to February 25, 1847, shortly after Iowa achieved statehood.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "university-of-minnesota-twin-cities",
+      "name": "University of Minnesota Twin Cities",
+      "chineseName": "明尼苏达大学双城分校",
+      "country": "United States",
+      "city": "Minneapolis",
+      "state": "MN",
+      "stateFips": "27",
+      "latitude": 44.9778,
+      "longitude": -93.265,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 70,
+      "recognitionScore": 75,
+      "chineseCommunity": "medium",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Computer Science",
+        "Business",
+        "Engineering",
+        "Economics",
+        "Biology"
+      ],
+      "parentHighlights": [
+        "位于Minneapolis的顶尖大学",
+        "强劲的Computer Science领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "The University of Minnesota traces its origins to 1851, before Minnesota became a state.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 10,
+        "asianGroceries": 2,
+        "avgRentRmb": 9333
+      }
+    },
+    {
+      "id": "university-of-south-carolina-columbia",
+      "name": "University of South Carolina",
+      "chineseName": "南卡罗来纳大学",
+      "country": "United States",
+      "city": "Columbia",
+      "state": "SC",
+      "stateFips": "45",
+      "latitude": 33.996,
+      "longitude": -81.031,
+      "rankingBand": "Program Top 20",
+      "rankingTier": "top20",
+      "annualCostRmb": 420000,
+      "safetyScore": 55,
+      "recognitionScore": 75,
+      "chineseCommunity": "low",
+      "directFlight": false,
+      "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
+      "programs": [
+        "Data Analytics",
+        "Economics",
+        "Management",
+        "Marketing"
+      ],
+      "parentHighlights": [
+        "位于Columbia的顶尖大学",
+        "强劲的Data Analytics领域实力"
+      ],
+      "studentHighlights": [
+        "丰富的学术资源与研究机会",
+        "多元化国际学生社区",
+        "强劲的职业发展与校友网络"
+      ],
+      "verifiedAt": "2026-07-01",
+      "sourceCount": 3,
+      "campusImages": [],
+      "historySummary": "Founded in 1801 as South Carolina College, the institution adopted the University of South Carolina name permanently in 1906.",
+      "anecdotes": [
+        ""
+      ],
+      "nearby": {
+        "subwayStations": 1,
+        "chineseRestaurants": 3,
+        "asianGroceries": 1,
+        "avgRentRmb": 9333
+      }
+    }
+  ]
+}

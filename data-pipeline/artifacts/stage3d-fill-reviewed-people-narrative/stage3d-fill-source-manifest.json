@@ -1,0 +1,27 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_source_manifest",
+  "source_limited": true,
+  "sources": [
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:harvard-university",
+      "field_domain": "history",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports one concise institutional founding-history fact only; it does not establish people, attendance, majors, or anecdotes.",
+      "publisher": "Harvard University",
+      "source_confidence": "high",
+      "source_id": "source_harvard_official_history_2026",
+      "source_title": "The history of Harvard University",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.harvard.edu/about/history/",
+      "verified_direct_quotes": [
+        "On October 28, 1636, Harvard, the first college in the American colonies, was founded."
+      ]
+    }
+  ]
+}

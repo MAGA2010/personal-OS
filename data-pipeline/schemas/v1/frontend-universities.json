@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathos.example/schemas/v1/frontend-universities.json",
+  "title": "PathOS UniversityPOI export",
+  "type": "object",
+  "required": ["universities"],
+  "properties": {
+    "universities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "chineseName", "country", "city", "latitude", "longitude", "rankingBand", "rankingTier", "annualCostRmb", "safetyScore", "recognitionScore", "chineseCommunity", "directFlight", "postStudyVisa", "programs", "parentHighlights", "studentHighlights", "verifiedAt", "sourceCount", "campusImages", "nearby"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "name": {"type": "string", "minLength": 1},
+          "chineseName": {"type": "string", "minLength": 1},
+          "country": {"type": "string", "minLength": 1},
+          "city": {"type": "string", "minLength": 1},
+          "latitude": {"type": "number", "minimum": -90, "maximum": 90},
+          "longitude": {"type": "number", "minimum": -180, "maximum": 180},
+          "rankingBand": {"type": "string", "minLength": 1},
+          "rankingTier": {"type": "string", "enum": ["top20", "top50", "top100", "other"]},
+          "annualCostRmb": {"type": "number", "minimum": 0},
+          "safetyScore": {"type": "number", "minimum": 0, "maximum": 100},
+          "recognitionScore": {"type": "number", "minimum": 0, "maximum": 100},
+          "chineseCommunity": {"type": "string", "enum": ["low", "medium", "high"]},
+          "directFlight": {"type": "boolean"},
+          "postStudyVisa": {"type": "string"},
+          "programs": {"type": "array", "items": {"type": "string"}},
+          "parentHighlights": {"type": "array", "items": {"type": "string"}},
+          "studentHighlights": {"type": "array", "items": {"type": "string"}},
+          "verifiedAt": {"type": "string", "minLength": 1},
+          "sourceCount": {"type": "integer", "minimum": 1},
+          "campusImages": {"type": "array"},
+          "nearby": {"type": "object"}
+        }
+      }
+    }
+  }
+}

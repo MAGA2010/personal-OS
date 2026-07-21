@@ -1,0 +1,23 @@
+{
+  "record_type": "university_universe_candidate_v2_generation_summary",
+  "edition": "2026 Best Colleges",
+  "candidate_university_count": 62,
+  "national_only_count": 45,
+  "program_only_count": 12,
+  "both_count": 5,
+  "supporting_national_record_count": 50,
+  "supporting_program_record_count": 80,
+  "excluded_partial_record_count": 2,
+  "excluded_unresolved_record_count": 0,
+  "excluded_outside_scope_observation_count": 1,
+  "program_complete_stream_count": 0,
+  "program_incomplete_stream_count": 27,
+  "economics_manual_seed_needed": true,
+  "deterministic_generation": true,
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "final_universe": false,
+  "official_selection_memberships_generated": false,
+  "frontend_export_generated": false
+}

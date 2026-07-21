@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathos.example/schemas/v1/source.json",
+  "title": "PathOS source provenance",
+  "type": "object",
+  "required": ["source_id", "url", "publisher", "page_title", "source_type", "accessed_at", "status"],
+  "properties": {
+    "source_id": {"type": "string", "minLength": 1},
+    "url": {"type": "string", "minLength": 1},
+    "publisher": {"type": "string", "minLength": 1},
+    "page_title": {"type": "string", "minLength": 1},
+    "source_type": {"type": "string", "minLength": 1},
+    "accessed_at": {"type": "string", "minLength": 1},
+    "status": {"type": "string", "minLength": 1}
+  }
+}

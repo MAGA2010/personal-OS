@@ -1,0 +1,11 @@
+{
+  "record_type": "ranking_family_inventory",
+  "schema_version": "v1",
+  "inventory_id": "test-family-inventory-v1",
+  "discovery_date": "2026-07-10",
+  "families": [
+    {"canonical_family_id": "national-universities", "official_display_name": "National Universities", "ranking_family": "national_universities", "edition": "2026 Best Colleges", "publication_date": "2025-09-23", "inclusion_status": "included", "inclusion_reason": "scope A", "exclusion_reason": null, "source_ids": ["test-source-best-colleges"], "accessibility_status": "partially_public", "last_verified_at": "2026-07-10T00:00:00Z"},
+    {"canonical_family_id": "best-global-universities", "official_display_name": "Best Global Universities", "ranking_family": "global_universities", "edition": "2025-2026 Best Global Universities", "publication_date": null, "inclusion_status": "excluded", "inclusion_reason": null, "exclusion_reason": "global ranking excluded", "source_ids": ["test-source-global"], "accessibility_status": "blocked", "last_verified_at": "2026-07-10T00:00:00Z"},
+    {"canonical_family_id": "best-graduate-schools", "official_display_name": "Best Graduate Schools", "ranking_family": "graduate_program", "edition": "2026 Best Graduate Schools", "publication_date": null, "inclusion_status": "excluded", "inclusion_reason": null, "exclusion_reason": "graduate ranking excluded", "source_ids": ["test-source-graduate"], "accessibility_status": "blocked", "last_verified_at": "2026-07-10T00:00:00Z"}
+  ]
+}

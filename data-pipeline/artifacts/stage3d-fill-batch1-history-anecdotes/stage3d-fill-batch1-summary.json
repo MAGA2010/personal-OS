@@ -1,0 +1,54 @@
+{
+  "anecdotes_resolved_count": 8,
+  "anecdotes_unresolved_count": 54,
+  "deterministic_generation": true,
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "history_resolved_count": 8,
+  "history_unresolved_count": 54,
+  "incomplete": true,
+  "input_sha256": {
+    "candidate_v2": {
+      "data/university-universe-candidates/v2-source-limited/candidate-universities.json": "8f940aa6d336402ff9c3c76a43d2efacdf2c887dc983afeb344937db9eadb18d"
+    },
+    "stage3c": {
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-demo-programs-overlay.json": "11ac883fcef31d00cd57610c17c848feca479c8d5c2b7030f7f07d69540a5491",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-gap-disclosure.json": "1109a647c5206fc81315026ba62f0d5d9b08aa0211a5ef46733944dbc70fd127",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-highest-lowest-tuition.json": "25205122375b3c93c8703d8d49605bc7c7d3d8bcc72bf1436a302311ecb63521",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-official-major-sources.json": "5ee67ae7c466f695ed2b837f48db2fd31b6c2ec83f7d3980ac9f80a0abb33b3b",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-official-majors.json": "d33c28e1032b339a3376f17e7e62d81c5b32360211e35a700ddddf968375b5d5",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-summary.json": "e649626bca7ac2a489d1abeb95dc060fb111434a8fad8d3639d545f6538b4346",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-tuition-deepening.json": "6083ce55190bcaedfdc05a7becc1e4091da77edacf99579a97b8958a885dda92",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-universities.json": "a64f0defe4e6fce6c863c5a3f2690c885d5c27664a679b9381931bf77733ebdb",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-validation-result.json": "4b45df8f597ef66840f17ee1b3ae9da1ec0b781cffa2a0866dc4dc98ebe103ba"
+    },
+    "stage3d_fill_seed": {
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-anecdotes.json": "3b44548d55cddc91376b587420a8b6fd828afc6ebfd85e3bb1b6cfb5853edc80",
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-exclusions.json": "feced78d033e3b2e8243883a9f36a8bf741a3166daf44d7cfd7a1cec3d9aff67",
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-gap-disclosure.json": "7a6faf9e938dc2e28326180255088a1a6bacfb487001ad5468e3ae3fe1d05c3a",
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-history.json": "ea7cf983bb051e18d07a8567c754123e88d35cad14b3f36b8812d4408664ef47",
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-notable-attendance.json": "b08ec9a2381a2c0248fb6fab23885909b9f0fd0cec56f42da3dfeaf802d002aa",
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-program-people.json": "c611600e31c3660fd8cd27f3a00b18f8ab54cebab97004f05f2545d734b8647e",
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-source-manifest.json": "013653b8b18b5ae1d750c78e04318b52fbc2358a68d3f44e81fdd018b1be34fe",
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-summary.json": "f447673eac533d24f1cdeb3f695987f3fb3bdedaa4ec848fb271875a1a3a4693",
+      "artifacts/stage3d-fill-reviewed-people-narrative/stage3d-fill-validation-result.json": "f127f3b098e1c19e85bed5ac484e563229c35507621ba92e4f17a71aab4347fa"
+    }
+  },
+  "not_final": true,
+  "notable_attendance_resolved_count": 0,
+  "official_selection_memberships_generated": false,
+  "program_people_identified_count": 0,
+  "program_people_source_review_not_completed_count": 310,
+  "quote_verification_method_counts": {
+    "manual_verbatim_check": 16
+  },
+  "ranking_field_contamination": 0,
+  "readiness_for_frontend_people_narrative_display": "partial",
+  "record_type": "stage3d_fill_batch1_summary",
+  "remaining_people_narrative_gaps": "Unreviewed fields remain explicit source_review_not_completed gaps; this Batch 1 overlay is not a final people or narrative database.",
+  "scoped_none_count": 0,
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "source_review_not_completed_count": 418,
+  "total_universities": 62
+}

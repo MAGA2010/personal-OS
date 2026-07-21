@@ -1,0 +1,173 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v2_batch_a_source_manifest",
+  "source_limited": true,
+  "sources": [
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field_domain": "attendance",
+      "publisher": "University of California, Berkeley",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_id": "source_bulk_people_berkeley_steve_wozniak",
+      "source_title": "Steve Wozniak profile",
+      "source_type": "official_institutional",
+      "source_url": "https://engineering.berkeley.edu/steve-wozniak-inventor-and-apple-co-founder/",
+      "source_url_or_reference": "https://engineering.berkeley.edu/steve-wozniak-inventor-and-apple-co-founder/",
+      "verified_direct_quotes": [
+        "Wozniak eventually returned to Berkeley to finish his coursework, earning his degree in 1986."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:columbia-university",
+      "field_domain": "attendance",
+      "publisher": "Columbia University",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_id": "source_bulk_people_columbia_barack_obama",
+      "source_title": "University history",
+      "source_type": "official_institutional",
+      "source_url": "https://www.columbia.edu/content/university-history",
+      "source_url_or_reference": "https://www.columbia.edu/content/university-history",
+      "verified_direct_quotes": [
+        "Barack Obama, who later became 44th president of the United States, graduated from Columbia College."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:harvard-university",
+      "field_domain": "attendance",
+      "publisher": "Harvard University",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_id": "source_bulk_people_harvard_natalie_portman",
+      "source_title": "Portman named Class Day speaker",
+      "source_type": "official_institutional",
+      "source_url": "https://news.harvard.edu/gazette/story/2015/04/portman-named-class-day-speaker/",
+      "source_url_or_reference": "https://news.harvard.edu/gazette/story/2015/04/portman-named-class-day-speaker/",
+      "verified_direct_quotes": [
+        "Academy Award-winning actress Natalie Portman ’03 has been selected as the 2015 Class Day speaker for Harvard College."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field_domain": "attendance",
+      "publisher": "University of Michigan",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_id": "source_bulk_people_michigan_james_earl_jones",
+      "source_title": "University heritage timeline",
+      "source_type": "official_institutional",
+      "source_url": "https://heritage.umich.edu/timeline/",
+      "source_url_or_reference": "https://heritage.umich.edu/timeline/",
+      "verified_direct_quotes": [
+        "James Earl Jones graduates with a bachelor’s degree in English literature"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field_domain": "attendance",
+      "publisher": "Massachusetts Institute of Technology",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_id": "source_bulk_people_mit_buzz_aldrin",
+      "source_title": "MIT logs 40 years of flight",
+      "source_type": "official_institutional",
+      "source_url": "https://news.mit.edu/2006/astro-side-1004",
+      "source_url_or_reference": "https://news.mit.edu/2006/astro-side-1004",
+      "verified_direct_quotes": [
+        "NASA astronaut Buzz Aldrin (Sc.D. in aeronautics and astronautics, 1963) became the first MIT graduate to walk in space"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:yale-university",
+      "field_domain": "attendance",
+      "publisher": "Yale University",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_id": "source_bulk_people_yale_amy_klobuchar",
+      "source_title": "Notable Alumni",
+      "source_type": "official_institutional",
+      "source_url": "https://jonathanedwards.yale.edu/about-0/notable-alumni",
+      "source_url_or_reference": "https://jonathanedwards.yale.edu/about-0/notable-alumni",
+      "verified_direct_quotes": [
+        "Amy Klobuchar (1982) graduated magna cum laude from Yale with a degree in political science"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:cornell-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Ginsburg's Cornell bachelor's degree and Government field.",
+      "publisher": "Cornell University",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_cornell_ruth_bader_ginsburg",
+      "source_title": "Ruth Bader Ginsburg Biographical Data | Cornell Legal Information Institute",
+      "source_type": "official_institutional",
+      "source_url": "https://www.law.cornell.edu/supct/justices/ginsburg.bio.clr.html",
+      "source_url_or_reference": "https://www.law.cornell.edu/supct/justices/ginsburg.bio.clr.html",
+      "verified_direct_quotes": [
+        "College: Cornell University, Phi Beta Kappa, Phi Kappa Phi, B.A. 1954, with high honors in Government and distinction in all subjects, College of Arts and Sciences Class Marshal."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:duke-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Cook's Duke MBA; it does not represent undergraduate tuition or ranking data.",
+      "publisher": "Duke University",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_duke_tim_cook",
+      "source_title": "2018 Commencement Speaker | Duke University",
+      "source_type": "official_institutional",
+      "source_url": "https://commencement.duke.edu/commencement-information/memorabilia-traditions/previous-speakers-degree-recipients/2018-commencement-speaker/",
+      "source_url_or_reference": "https://commencement.duke.edu/commencement-information/memorabilia-traditions/previous-speakers-degree-recipients/2018-commencement-speaker/",
+      "verified_direct_quotes": [
+        "Cook earned his MBA in 1988 from Duke, where he was a Fuqua Scholar, an honor given only to students who graduate in the top 10 percent of their class."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:princeton-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Bezos's Princeton undergraduate degree only.",
+      "publisher": "Princeton University",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_princeton_bezos_attendance",
+      "source_title": "Jeff Bezos '86 honored by Liberty Science Center",
+      "source_type": "official_institutional",
+      "source_url": "https://engineering.princeton.edu/news/2015/05/01/jeff-bezos-86-honored-liberty-science-center",
+      "source_url_or_reference": "https://engineering.princeton.edu/news/2015/05/01/jeff-bezos-86-honored-liberty-science-center",
+      "verified_direct_quotes": [
+        "Bezos received an undergraduate degree in electrical engineering and computer science from Princeton in 1986."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:stanford-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Brown's Stanford degree; later graduate education is contextual only.",
+      "publisher": "Stanford University",
+      "quote_verification_method": "local_cache_substring_check",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_stanford_sterling_brown",
+      "source_title": "Sterling K. Brown, award-winning actor, tells Stanford graduates not to be afraid to let their lights shine",
+      "source_type": "official_institutional",
+      "source_url": "https://news.stanford.edu/stories/2018/06/sterling-k-brown-award-winning-actor-tells-stanford-graduates-not-afraid-let-lights-shine",
+      "source_url_or_reference": "https://news.stanford.edu/stories/2018/06/sterling-k-brown-award-winning-actor-tells-stanford-graduates-not-afraid-let-lights-shine",
+      "verified_direct_quotes": [
+        "He graduated from Stanford in 1998 with a degree in drama followed by an MFA from New York University’s Tisch School of the Arts in 2001."
+      ]
+    }
+  ]
+}

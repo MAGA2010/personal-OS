@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "record_type": "stage3b_identity_gap_fill",
+    "source_limited": true,
+    "incomplete": true,
+    "not_final": true,
+    "final_universe_generated": false,
+    "official_selection_memberships_generated": false,
+    "frontend_export_generated": false
+  },
+  "universities": [
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "original_identity_gap": true,
+      "unitid": "104151",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-asu-campus-immersion",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=Arizona State University Campus Immersion"
+      },
+      "null_reason": null,
+      "review_note": "Candidate alias was manually reviewed against the exact primary campus IPEDS reporting name; Digital Immersion and California Center records are not eligible.",
+      "exact_ipeds_instnm": "Arizona State University Campus Immersion"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "original_identity_gap": true,
+      "unitid": "190150",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-columbia-city-new-york",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=Columbia University in the City of New York"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review selects the university reporting unit, not Teachers College or other Columbia-named institutions.",
+      "exact_ipeds_instnm": "Columbia University in the City of New York"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "original_identity_gap": true,
+      "unitid": "139755",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-georgia-tech-main",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=Georgia Institute of Technology-Main Campus"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review maps Georgia Tech to the explicit IPEDS main-campus reporting unit.",
+      "exact_ipeds_instnm": "Georgia Institute of Technology-Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "original_identity_gap": true,
+      "unitid": "204796",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-ohio-state-main",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=Ohio State University-Main Campus"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review excludes Ohio State regional campuses and selects Main Campus.",
+      "exact_ipeds_instnm": "Ohio State University-Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "original_identity_gap": true,
+      "unitid": "441982",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-franklin-olin",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=Franklin W Olin College of Engineering"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review expands the institution's formal IPEDS name; it does not match other Olin/Stolin names.",
+      "exact_ipeds_instnm": "Franklin W Olin College of Engineering"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "original_identity_gap": true,
+      "unitid": "228723",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-tamu-college-station",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=Texas A&M University-College Station"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review selects College Station, not Texas A&M system office or other system campuses.",
+      "exact_ipeds_instnm": "Texas A&M University-College Station"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "original_identity_gap": true,
+      "unitid": "199120",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-unc-chapel-hill",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=University of North Carolina at Chapel Hill"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review selects Chapel Hill, not UNC System or another campus.",
+      "exact_ipeds_instnm": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "original_identity_gap": true,
+      "unitid": "218663",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-usc-columbia",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=University of South Carolina-Columbia"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review selects Columbia, not Aiken, Beaufort, Lancaster, Sumter, Union, or Upstate.",
+      "exact_ipeds_instnm": "University of South Carolina-Columbia"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "original_identity_gap": true,
+      "unitid": "228778",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-ut-austin",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=The University of Texas at Austin"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review selects Austin, not another University of Texas campus.",
+      "exact_ipeds_instnm": "The University of Texas at Austin"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "original_identity_gap": true,
+      "unitid": "234076",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-uva-main",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=University of Virginia-Main Campus"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review selects Main Campus, not the College at Wise.",
+      "exact_ipeds_instnm": "University of Virginia-Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "original_identity_gap": true,
+      "unitid": "236948",
+      "resolution_status": "resolved",
+      "match_method": "reviewed_alias_exact_ipeds_instnm",
+      "mapping_id": "stage3b-alias-uw-seattle",
+      "source_id": "source_ipeds_hd2024",
+      "source_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "evidence_anchor": {
+        "source_id": "source_ipeds_hd2024",
+        "evidence_type": "dataset_row",
+        "quote": "INSTNM=University of Washington-Seattle Campus"
+      },
+      "null_reason": null,
+      "review_note": "Manual alias review selects Seattle, not Bothell, Tacoma, or Global Campus.",
+      "exact_ipeds_instnm": "University of Washington-Seattle Campus"
+    }
+  ]
+}

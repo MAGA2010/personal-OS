@@ -1,0 +1,57 @@
+{
+  "record_type": "program_gap_repair_source_manifest",
+  "edition": "2026 Best Colleges",
+  "accessed_at": "2026-07-12T00:00:00+08:00",
+  "sources": [
+    {
+      "source_id": "cu-boulder-2026-psychology",
+      "publisher": "University of Colorado Boulder Psychology and Neuroscience",
+      "source_type": "university_official_news",
+      "url": "https://www.colorado.edu/psych-neuro/2025/09/26/undergraduate-psychology-program-ranked-no-15-us-news-world-report",
+      "source_access_type": "public_web_page",
+      "source_confidence": "official_institutional",
+      "official_usnews_source": false,
+      "manual_seed": false
+    },
+    {
+      "source_id": "texas-am-2026-engineering",
+      "publisher": "Texas A&M Engineering",
+      "source_type": "university_official_news",
+      "url": "https://news.engineering.tamu.edu/news/2025/09/23/four-texas-am-undergraduate-engineering-programs-rank-1-in-texas/",
+      "source_access_type": "public_web_page",
+      "source_confidence": "official_institutional",
+      "official_usnews_source": false,
+      "manual_seed": false
+    },
+    {
+      "source_id": "bucknell-2026-engineering",
+      "publisher": "Bucknell University",
+      "source_type": "university_official_news",
+      "url": "https://www.bucknell.edu/news/bucknell-top-30-again-us-news-world-report-rankings",
+      "source_access_type": "public_web_page",
+      "source_confidence": "official_institutional",
+      "official_usnews_source": false,
+      "manual_seed": false
+    },
+    {
+      "source_id": "rose-hulman-2026-engineering",
+      "publisher": "Rose-Hulman Institute of Technology",
+      "source_type": "university_official_rankings",
+      "url": "https://www.rose-hulman.edu/about-us/rankings-and-distinction.html",
+      "source_access_type": "public_web_page",
+      "source_confidence": "official_institutional",
+      "official_usnews_source": false,
+      "manual_seed": false
+    },
+    {
+      "source_id": "baylor-2026-rankings-gap-attempt",
+      "publisher": "Baylor University",
+      "source_type": "university_official_news",
+      "url": "https://news.web.baylor.edu/news/story/2025/baylor-leaps-no-4-us-news-rankings-first-year-experiences-stays-top-10-learning",
+      "source_access_type": "public_web_page",
+      "source_confidence": "official_institutional",
+      "official_usnews_source": false,
+      "manual_seed": false
+    }
+  ]
+}

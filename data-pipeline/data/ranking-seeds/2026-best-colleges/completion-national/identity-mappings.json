@@ -1,0 +1,905 @@
+{
+  "record_type": "pilot_identity_mappings",
+  "mappings": [
+    {
+      "record_id": "completion-national-princeton-university",
+      "source_display_name": "Princeton University",
+      "normalized_display_name": "Princeton University",
+      "official_institution_name": "Princeton University",
+      "aliases": [
+        "Princeton University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "usn-2026-best-colleges-press-release",
+        "url": "https://www.prnewswire.com/news-releases/us-news-announces-2026-best-colleges-rankings-302563669.html"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:princeton-university"
+    },
+    {
+      "record_id": "completion-national-massachusetts-institute-of-technology",
+      "source_display_name": "Massachusetts Institute of Technology",
+      "normalized_display_name": "Massachusetts Institute of Technology",
+      "official_institution_name": "Massachusetts Institute of Technology",
+      "aliases": [
+        "Massachusetts Institute of Technology"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "usn-2026-best-colleges-press-release",
+        "url": "https://www.prnewswire.com/news-releases/us-news-announces-2026-best-colleges-rankings-302563669.html"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:massachusetts-institute-of-technology"
+    },
+    {
+      "record_id": "completion-national-harvard-university",
+      "source_display_name": "Harvard University",
+      "normalized_display_name": "Harvard University",
+      "official_institution_name": "Harvard University",
+      "aliases": [
+        "Harvard University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "usn-2026-best-colleges-press-release",
+        "url": "https://www.prnewswire.com/news-releases/us-news-announces-2026-best-colleges-rankings-302563669.html"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:harvard-university"
+    },
+    {
+      "record_id": "completion-national-stanford-university",
+      "source_display_name": "Stanford University",
+      "normalized_display_name": "Stanford University",
+      "official_institution_name": "Stanford University",
+      "aliases": [
+        "Stanford University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:stanford-university"
+    },
+    {
+      "record_id": "completion-national-yale-university",
+      "source_display_name": "Yale University",
+      "normalized_display_name": "Yale University",
+      "official_institution_name": "Yale University",
+      "aliases": [
+        "Yale University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:yale-university"
+    },
+    {
+      "record_id": "completion-national-university-of-chicago",
+      "source_display_name": "University of Chicago",
+      "normalized_display_name": "University of Chicago",
+      "official_institution_name": "University of Chicago",
+      "aliases": [
+        "University of Chicago"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-chicago"
+    },
+    {
+      "record_id": "completion-national-duke-university",
+      "source_display_name": "Duke University",
+      "normalized_display_name": "Duke University",
+      "official_institution_name": "Duke University",
+      "aliases": [
+        "Duke University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:duke-university"
+    },
+    {
+      "record_id": "completion-national-johns-hopkins-university",
+      "source_display_name": "Johns Hopkins University",
+      "normalized_display_name": "Johns Hopkins University",
+      "official_institution_name": "Johns Hopkins University",
+      "aliases": [
+        "Johns Hopkins University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:johns-hopkins-university"
+    },
+    {
+      "record_id": "completion-national-northwestern-university",
+      "source_display_name": "Northwestern University",
+      "normalized_display_name": "Northwestern University",
+      "official_institution_name": "Northwestern University",
+      "aliases": [
+        "Northwestern University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:northwestern-university"
+    },
+    {
+      "record_id": "completion-national-university-of-pennsylvania",
+      "source_display_name": "University of Pennsylvania",
+      "normalized_display_name": "University of Pennsylvania",
+      "official_institution_name": "University of Pennsylvania",
+      "aliases": [
+        "University of Pennsylvania"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-pennsylvania"
+    },
+    {
+      "record_id": "completion-national-california-institute-of-technology",
+      "source_display_name": "California Institute of Technology",
+      "normalized_display_name": "California Institute of Technology",
+      "official_institution_name": "California Institute of Technology",
+      "aliases": [
+        "California Institute of Technology"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:california-institute-of-technology"
+    },
+    {
+      "record_id": "completion-national-cornell-university",
+      "source_display_name": "Cornell University",
+      "normalized_display_name": "Cornell University",
+      "official_institution_name": "Cornell University",
+      "aliases": [
+        "Cornell University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:cornell-university"
+    },
+    {
+      "record_id": "completion-national-brown-university",
+      "source_display_name": "Brown University",
+      "normalized_display_name": "Brown University",
+      "official_institution_name": "Brown University",
+      "aliases": [
+        "Brown University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:brown-university"
+    },
+    {
+      "record_id": "completion-national-dartmouth-college",
+      "source_display_name": "Dartmouth College",
+      "normalized_display_name": "Dartmouth College",
+      "official_institution_name": "Dartmouth College",
+      "aliases": [
+        "Dartmouth College"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:dartmouth-college"
+    },
+    {
+      "record_id": "completion-national-columbia-university",
+      "source_display_name": "Columbia University",
+      "normalized_display_name": "Columbia University",
+      "official_institution_name": "Columbia University",
+      "aliases": [
+        "Columbia University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:columbia-university"
+    },
+    {
+      "record_id": "completion-national-university-of-california-berkeley",
+      "source_display_name": "University of California, Berkeley",
+      "normalized_display_name": "University of California, Berkeley",
+      "official_institution_name": "University of California, Berkeley",
+      "aliases": [
+        "University of California, Berkeley"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-california-berkeley"
+    },
+    {
+      "record_id": "completion-national-rice-university",
+      "source_display_name": "Rice University",
+      "normalized_display_name": "Rice University",
+      "official_institution_name": "Rice University",
+      "aliases": [
+        "Rice University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:rice-university"
+    },
+    {
+      "record_id": "completion-national-university-of-california-los-angeles",
+      "source_display_name": "University of California, Los Angeles",
+      "normalized_display_name": "University of California, Los Angeles",
+      "official_institution_name": "University of California, Los Angeles",
+      "aliases": [
+        "University of California, Los Angeles"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-california-los-angeles"
+    },
+    {
+      "record_id": "completion-national-vanderbilt-university",
+      "source_display_name": "Vanderbilt University",
+      "normalized_display_name": "Vanderbilt University",
+      "official_institution_name": "Vanderbilt University",
+      "aliases": [
+        "Vanderbilt University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:vanderbilt-university"
+    },
+    {
+      "record_id": "completion-national-carnegie-mellon-university",
+      "source_display_name": "Carnegie Mellon University",
+      "normalized_display_name": "Carnegie Mellon University",
+      "official_institution_name": "Carnegie Mellon University",
+      "aliases": [
+        "Carnegie Mellon University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:carnegie-mellon-university"
+    },
+    {
+      "record_id": "completion-national-university-of-michigan-ann-arbor",
+      "source_display_name": "University of Michigan—Ann Arbor",
+      "normalized_display_name": "University of Michigan—Ann Arbor",
+      "official_institution_name": "University of Michigan—Ann Arbor",
+      "aliases": [
+        "University of Michigan—Ann Arbor"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-michigan-ann-arbor"
+    },
+    {
+      "record_id": "completion-national-university-of-notre-dame",
+      "source_display_name": "University of Notre Dame",
+      "normalized_display_name": "University of Notre Dame",
+      "official_institution_name": "University of Notre Dame",
+      "aliases": [
+        "University of Notre Dame"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-notre-dame"
+    },
+    {
+      "record_id": "completion-national-washington-university-in-st-louis",
+      "source_display_name": "Washington University in St. Louis",
+      "normalized_display_name": "Washington University in St. Louis",
+      "official_institution_name": "Washington University in St. Louis",
+      "aliases": [
+        "Washington University in St. Louis"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:washington-university-in-st-louis"
+    },
+    {
+      "record_id": "completion-national-emory-university",
+      "source_display_name": "Emory University",
+      "normalized_display_name": "Emory University",
+      "official_institution_name": "Emory University",
+      "aliases": [
+        "Emory University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:emory-university"
+    },
+    {
+      "record_id": "completion-national-georgetown-university",
+      "source_display_name": "Georgetown University",
+      "normalized_display_name": "Georgetown University",
+      "official_institution_name": "Georgetown University",
+      "aliases": [
+        "Georgetown University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:georgetown-university"
+    },
+    {
+      "record_id": "completion-national-university-of-north-carolina-chapel-hill",
+      "source_display_name": "University of North Carolina—Chapel Hill",
+      "normalized_display_name": "University of North Carolina—Chapel Hill",
+      "official_institution_name": "University of North Carolina—Chapel Hill",
+      "aliases": [
+        "University of North Carolina—Chapel Hill"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-north-carolina-chapel-hill"
+    },
+    {
+      "record_id": "completion-national-university-of-virginia",
+      "source_display_name": "University of Virginia",
+      "normalized_display_name": "University of Virginia",
+      "official_institution_name": "University of Virginia",
+      "aliases": [
+        "University of Virginia"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-virginia"
+    },
+    {
+      "record_id": "completion-national-university-of-southern-california",
+      "source_display_name": "University of Southern California",
+      "normalized_display_name": "University of Southern California",
+      "official_institution_name": "University of Southern California",
+      "aliases": [
+        "University of Southern California"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-southern-california"
+    },
+    {
+      "record_id": "completion-national-university-of-california-san-diego",
+      "source_display_name": "University of California, San Diego",
+      "normalized_display_name": "University of California, San Diego",
+      "official_institution_name": "University of California, San Diego",
+      "aliases": [
+        "University of California, San Diego"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-california-san-diego"
+    },
+    {
+      "record_id": "completion-national-university-of-florida",
+      "source_display_name": "University of Florida",
+      "normalized_display_name": "University of Florida",
+      "official_institution_name": "University of Florida",
+      "aliases": [
+        "University of Florida"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-florida"
+    },
+    {
+      "record_id": "completion-national-university-of-texas-austin",
+      "source_display_name": "University of Texas—Austin",
+      "normalized_display_name": "University of Texas—Austin",
+      "official_institution_name": "University of Texas—Austin",
+      "aliases": [
+        "University of Texas—Austin"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-texas-austin"
+    },
+    {
+      "record_id": "completion-national-georgia-institute-of-technology",
+      "source_display_name": "Georgia Institute of Technology",
+      "normalized_display_name": "Georgia Institute of Technology",
+      "official_institution_name": "Georgia Institute of Technology",
+      "aliases": [
+        "Georgia Institute of Technology"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:georgia-institute-of-technology"
+    },
+    {
+      "record_id": "completion-national-new-york-university",
+      "source_display_name": "New York University",
+      "normalized_display_name": "New York University",
+      "official_institution_name": "New York University",
+      "aliases": [
+        "New York University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:new-york-university"
+    },
+    {
+      "record_id": "completion-national-university-of-california-davis",
+      "source_display_name": "University of California, Davis",
+      "normalized_display_name": "University of California, Davis",
+      "official_institution_name": "University of California, Davis",
+      "aliases": [
+        "University of California, Davis"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-california-davis"
+    },
+    {
+      "record_id": "completion-national-university-of-california-irvine",
+      "source_display_name": "University of California, Irvine",
+      "normalized_display_name": "University of California, Irvine",
+      "official_institution_name": "University of California, Irvine",
+      "aliases": [
+        "University of California, Irvine"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-california-irvine"
+    },
+    {
+      "record_id": "completion-national-boston-college",
+      "source_display_name": "Boston College",
+      "normalized_display_name": "Boston College",
+      "official_institution_name": "Boston College",
+      "aliases": [
+        "Boston College"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:boston-college"
+    },
+    {
+      "record_id": "completion-national-tufts-university",
+      "source_display_name": "Tufts University",
+      "normalized_display_name": "Tufts University",
+      "official_institution_name": "Tufts University",
+      "aliases": [
+        "Tufts University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:tufts-university"
+    },
+    {
+      "record_id": "completion-national-university-of-illinois-urbana-champaign",
+      "source_display_name": "University of Illinois Urbana-Champaign",
+      "normalized_display_name": "University of Illinois Urbana-Champaign",
+      "official_institution_name": "University of Illinois Urbana-Champaign",
+      "aliases": [
+        "University of Illinois Urbana-Champaign"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-illinois-urbana-champaign"
+    },
+    {
+      "record_id": "completion-national-university-of-wisconsin-madison",
+      "source_display_name": "University of Wisconsin—Madison",
+      "normalized_display_name": "University of Wisconsin—Madison",
+      "official_institution_name": "University of Wisconsin—Madison",
+      "aliases": [
+        "University of Wisconsin—Madison"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-wisconsin-madison"
+    },
+    {
+      "record_id": "completion-national-university-of-california-santa-barbara",
+      "source_display_name": "University of California, Santa Barbara",
+      "normalized_display_name": "University of California, Santa Barbara",
+      "official_institution_name": "University of California, Santa Barbara",
+      "aliases": [
+        "University of California, Santa Barbara"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-california-santa-barbara"
+    },
+    {
+      "record_id": "completion-national-the-ohio-state-university",
+      "source_display_name": "The Ohio State University",
+      "normalized_display_name": "The Ohio State University",
+      "official_institution_name": "The Ohio State University",
+      "aliases": [
+        "The Ohio State University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:ohio-state-university"
+    },
+    {
+      "record_id": "completion-national-boston-university",
+      "source_display_name": "Boston University",
+      "normalized_display_name": "Boston University",
+      "official_institution_name": "Boston University",
+      "aliases": [
+        "Boston University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:boston-university"
+    },
+    {
+      "record_id": "completion-national-rutgers-university-new-brunswick",
+      "source_display_name": "Rutgers University—New Brunswick",
+      "normalized_display_name": "Rutgers University—New Brunswick",
+      "official_institution_name": "Rutgers University—New Brunswick",
+      "aliases": [
+        "Rutgers University—New Brunswick"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:rutgers-university-new-brunswick"
+    },
+    {
+      "record_id": "completion-national-university-of-maryland-college-park",
+      "source_display_name": "University of Maryland, College Park",
+      "normalized_display_name": "University of Maryland, College Park",
+      "official_institution_name": "University of Maryland, College Park",
+      "aliases": [
+        "University of Maryland, College Park"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-maryland-college-park"
+    },
+    {
+      "record_id": "completion-national-university-of-washington",
+      "source_display_name": "University of Washington",
+      "normalized_display_name": "University of Washington",
+      "official_institution_name": "University of Washington",
+      "aliases": [
+        "University of Washington"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-washington"
+    },
+    {
+      "record_id": "completion-national-lehigh-university",
+      "source_display_name": "Lehigh University",
+      "normalized_display_name": "Lehigh University",
+      "official_institution_name": "Lehigh University",
+      "aliases": [
+        "Lehigh University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:lehigh-university"
+    },
+    {
+      "record_id": "completion-national-northeastern-university",
+      "source_display_name": "Northeastern University",
+      "normalized_display_name": "Northeastern University",
+      "official_institution_name": "Northeastern University",
+      "aliases": [
+        "Northeastern University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:northeastern-university"
+    },
+    {
+      "record_id": "completion-national-purdue-university-main-campus",
+      "source_display_name": "Purdue University—Main Campus",
+      "normalized_display_name": "Purdue University—Main Campus",
+      "official_institution_name": "Purdue University—Main Campus",
+      "aliases": [
+        "Purdue University—Main Campus"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:purdue-university-main-campus"
+    },
+    {
+      "record_id": "completion-national-university-of-georgia",
+      "source_display_name": "University of Georgia",
+      "normalized_display_name": "University of Georgia",
+      "official_institution_name": "University of Georgia",
+      "aliases": [
+        "University of Georgia"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-georgia"
+    },
+    {
+      "record_id": "completion-national-university-of-rochester",
+      "source_display_name": "University of Rochester",
+      "normalized_display_name": "University of Rochester",
+      "official_institution_name": "University of Rochester",
+      "aliases": [
+        "University of Rochester"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "source_think_academy_top100_2026_pdf",
+        "url": "user-provided-file"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-rochester"
+    }
+  ]
+}

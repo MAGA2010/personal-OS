@@ -1,0 +1,131 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_completion_wave2_source_manifest",
+  "source_limited": true,
+  "sources": [
+    {
+      "accessed_date": "2026-07-15",
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave2/source_wave2_harvard_andrew_bosworth.txt",
+      "candidate_id": "candidate-v2:harvard-university",
+      "publisher": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official alumni profile; the degree notation and stated computer science concentration supply both attendance and program evidence.",
+      "sha256": "e76f78df8f25a3da6d01c7647afe3dcd0b1f20dc67b9422303886300ae0ec002",
+      "source_id": "source_wave2_harvard_andrew_bosworth",
+      "source_type": "official_institutional",
+      "source_url": "https://seas.harvard.edu/news/alumni-profile-andrew-bosworth-ab-04",
+      "verified_direct_quotes": [
+        "Andrew Bosworth, A.B. '04 (computer science)"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-15",
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave2/source_wave2_northwestern_lauren_washington.txt",
+      "candidate_id": "candidate-v2:northwestern-university",
+      "publisher": "Northwestern University Farley Center",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official alumni story; only the source-stated degree is used for the related media-program match.",
+      "sha256": "e57606d587038d3f92a88d4bfc5de2dd04c33a4e3ae759ffc7ba7be93e82f712",
+      "source_id": "source_wave2_northwestern_lauren_washington",
+      "source_type": "official_institutional",
+      "source_url": "https://farley.northwestern.edu/about/student-alumni-stories/lauren-washington.html",
+      "verified_direct_quotes": [
+        "Degree: BS in radio, television, and film; Farley minor in entrepreneurship ’21"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-15",
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave2/source_wave2_texas_am_michael_plank.txt",
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "publisher": "Texas A&M University Engineering",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official engineering alumni article; the explicit degree supplies both attendance and exact-program evidence.",
+      "sha256": "10c412b35e0bf4994fbde0b79e15ccd30b1656b69dd5f44f0834c7b6658ab385",
+      "source_id": "source_wave2_texas_am_michael_plank",
+      "source_type": "official_institutional",
+      "source_url": "https://engineering.tamu.edu/news/2023/10/texas-aandm-honors-four-engineers-as-distinguished-alumni.html",
+      "verified_direct_quotes": [
+        "He graduated from Texas A&M in 1983 with a degree in mechanical engineering"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-15",
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave2/source_wave2_ucsd_james_kaplan.txt",
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "publisher": "UC San Diego Today",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official university story; donation context is not used, only the explicit graduation and degree statement.",
+      "sha256": "5314ce61480aa581bc44bd5fc6a21c0424e87d94712a40469f1863f6769e1861",
+      "source_id": "source_wave2_ucsd_james_kaplan",
+      "source_type": "official_institutional",
+      "source_url": "https://today.ucsd.edu/story/uc_san_diego_to_receive_750000_bequest_from_alumnus_and_chancellors_associa",
+      "verified_direct_quotes": [
+        "Kaplan, who graduated from UC San Diego with a degree in computer science"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-15",
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave2/source_wave2_umd_sergey_brin.txt",
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "publisher": "University of Maryland Department of Computer Science",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official department alumnus page; the source-stated degree is used rather than career or company context.",
+      "sha256": "ee5540f1e065aec31d2e93b72ad9605a86b12548ee8448b7d69f473ce072dcd2",
+      "source_id": "source_wave2_umd_sergey_brin",
+      "source_type": "official_institutional",
+      "source_url": "https://www.cs.umd.edu/community/alumnus/sergey-brin",
+      "verified_direct_quotes": [
+        "received a Bachelor of Science Degree with honors in mathematics and computer science from the University of Maryland at College Park in 1993"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-15",
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave2/source_wave2_umn_jeff_dean.txt",
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "publisher": "University of Minnesota College of Science and Engineering",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official college profile; employment context is excluded and only the stated degree is used.",
+      "sha256": "aca3b5537d08a30d8375481456bcc9946850e0b85a5b847b93d4b860b99f9ecf",
+      "source_id": "source_wave2_umn_jeff_dean",
+      "source_type": "official_institutional",
+      "source_url": "https://cse.umn.edu/college/news/computer-science-alumnus-and-chief-scientist-google-offers-key-lessons-graduates",
+      "verified_direct_quotes": [
+        "Dean earned his bachelor’s degree in computer science and economics from the University of Minnesota in 1990"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-15",
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave2/source_wave2_upenn_thomas_cusack.txt",
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "publisher": "University of Pennsylvania Almanac",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official university record; the economics degree supports a related econometrics slot without career inference.",
+      "sha256": "28ee4c0b500e3f9adaaec889be5ad20e064aed584e13ecb13016d80b5e944bf2",
+      "source_id": "source_wave2_upenn_thomas_cusack",
+      "source_type": "official_institutional",
+      "source_url": "https://almanac.upenn.edu/archive/volumes/v62/n18/alumni-awards.html",
+      "verified_direct_quotes": [
+        "earned degrees in economics and finance at Penn"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-15",
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave2/source_wave2_vanderbilt_john_arnold.txt",
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "publisher": "Vanderbilt University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official university profile; trustee and career context are not used, only the stated degree.",
+      "sha256": "91479f664865f809af8f01f51c2f6bf87f386981405755c1b52d598ffc71974d",
+      "source_id": "source_wave2_vanderbilt_john_arnold",
+      "source_type": "official_institutional",
+      "source_url": "https://news.vanderbilt.edu/2010/04/23/vanderbilt-university-board-of-trust-approves-five-new-members-113993/",
+      "verified_direct_quotes": [
+        "He earned his bachelor’s degree in economics and mathematics from Vanderbilt in 1995"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+[
+  {
+    "fipsCode": "05",
+    "name": "阿肯色",
+    "nameEn": "Arkansas"
+  },
+  {
+    "fipsCode": "01",
+    "name": "阿拉巴马",
+    "nameEn": "Alabama"
+  },
+  {
+    "fipsCode": "02",
+    "name": "阿拉斯加",
+    "nameEn": "Alaska"
+  },
+  {
+    "fipsCode": "16",
+    "name": "爱达荷",
+    "nameEn": "Idaho"
+  },
+  {
+    "fipsCode": "19",
+    "name": "爱荷华",
+    "nameEn": "Iowa"
+  },
+  {
+    "fipsCode": "38",
+    "name": "北达科他",
+    "nameEn": "North Dakota"
+  },
+  {
+    "fipsCode": "37",
+    "name": "北卡罗来纳",
+    "nameEn": "North Carolina"
+  },
+  {
+    "fipsCode": "42",
+    "name": "宾夕法尼亚",
+    "nameEn": "Pennsylvania"
+  },
+  {
+    "fipsCode": "48",
+    "name": "德克萨斯",
+    "nameEn": "Texas"
+  },
+  {
+    "fipsCode": "39",
+    "name": "俄亥俄",
+    "nameEn": "Ohio"
+  },
+  {
+    "fipsCode": "40",
+    "name": "俄克拉荷马",
+    "nameEn": "Oklahoma"
+  },
+  {
+    "fipsCode": "41",
+    "name": "俄勒冈",
+    "nameEn": "Oregon"
+  },
+  {
+    "fipsCode": "51",
+    "name": "弗吉尼亚",
+    "nameEn": "Virginia"
+  },
+  {
+    "fipsCode": "12",
+    "name": "佛罗里达",
+    "nameEn": "Florida"
+  },
+  {
+    "fipsCode": "50",
+    "name": "佛蒙特",
+    "nameEn": "Vermont"
+  },
+  {
+    "fipsCode": "53",
+    "name": "华盛顿",
+    "nameEn": "Washington"
+  },
+  {
+    "fipsCode": "11",
+    "name": "华盛顿特区",
+    "nameEn": "District of Columbia"
+  },
+  {
+    "fipsCode": "56",
+    "name": "怀俄明",
+    "nameEn": "Wyoming"
+  },
+  {
+    "fipsCode": "06",
+    "name": "加利福尼亚",
+    "nameEn": "California"
+  },
+  {
+    "fipsCode": "20",
+    "name": "堪萨斯",
+    "nameEn": "Kansas"
+  },
+  {
+    "fipsCode": "09",
+    "name": "康涅狄格",
+    "nameEn": "Connecticut"
+  },
+  {
+    "fipsCode": "08",
+    "name": "科罗拉多",
+    "nameEn": "Colorado"
+  },
+  {
+    "fipsCode": "21",
+    "name": "肯塔基",
+    "nameEn": "Kentucky"
+  },
+  {
+    "fipsCode": "22",
+    "name": "路易斯安那",
+    "nameEn": "Louisiana"
+  },
+  {
+    "fipsCode": "44",
+    "name": "罗德岛",
+    "nameEn": "Rhode Island"
+  },
+  {
+    "fipsCode": "24",
+    "name": "马里兰",
+    "nameEn": "Maryland"
+  },
+  {
+    "fipsCode": "25",
+    "name": "马萨诸塞",
+    "nameEn": "Massachusetts"
+  },
+  {
+    "fipsCode": "30",
+    "name": "蒙大拿",
+    "nameEn": "Montana"
+  },
+  {
+    "fipsCode": "29",
+    "name": "密苏里",
+    "nameEn": "Missouri"
+  },
+  {
+    "fipsCode": "28",
+    "name": "密西西比",
+    "nameEn": "Mississippi"
+  },
+  {
+    "fipsCode": "26",
+    "name": "密歇根",
+    "nameEn": "Michigan"
+  },
+  {
+    "fipsCode": "23",
+    "name": "缅因",
+    "nameEn": "Maine"
+  },
+  {
+    "fipsCode": "27",
+    "name": "明尼苏达",
+    "nameEn": "Minnesota"
+  },
+  {
+    "fipsCode": "46",
+    "name": "南达科他",
+    "nameEn": "South Dakota"
+  },
+  {
+    "fipsCode": "45",
+    "name": "南卡罗来纳",
+    "nameEn": "South Carolina"
+  },
+  {
+    "fipsCode": "31",
+    "name": "内布拉斯加",
+    "nameEn": "Nebraska"
+  },
+  {
+    "fipsCode": "32",
+    "name": "内华达",
+    "nameEn": "Nevada"
+  },
+  {
+    "fipsCode": "36",
+    "name": "纽约",
+    "nameEn": "New York"
+  },
+  {
+    "fipsCode": "10",
+    "name": "特拉华",
+    "nameEn": "Delaware"
+  },
+  {
+    "fipsCode": "47",
+    "name": "田纳西",
+    "nameEn": "Tennessee"
+  },
+  {
+    "fipsCode": "55",
+    "name": "威斯康星",
+    "nameEn": "Wisconsin"
+  },
+  {
+    "fipsCode": "54",
+    "name": "西弗吉尼亚",
+    "nameEn": "West Virginia"
+  },
+  {
+    "fipsCode": "15",
+    "name": "夏威夷",
+    "nameEn": "Hawaii"
+  },
+  {
+    "fipsCode": "33",
+    "name": "新罕布什尔",
+    "nameEn": "New Hampshire"
+  },
+  {
+    "fipsCode": "35",
+    "name": "新墨西哥",
+    "nameEn": "New Mexico"
+  },
+  {
+    "fipsCode": "34",
+    "name": "新泽西",
+    "nameEn": "New Jersey"
+  },
+  {
+    "fipsCode": "04",
+    "name": "亚利桑那",
+    "nameEn": "Arizona"
+  },
+  {
+    "fipsCode": "17",
+    "name": "伊利诺伊",
+    "nameEn": "Illinois"
+  },
+  {
+    "fipsCode": "18",
+    "name": "印第安纳",
+    "nameEn": "Indiana"
+  },
+  {
+    "fipsCode": "49",
+    "name": "犹他",
+    "nameEn": "Utah"
+  },
+  {
+    "fipsCode": "13",
+    "name": "佐治亚",
+    "nameEn": "Georgia"
+  }
+]

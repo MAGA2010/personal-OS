@@ -1,0 +1,26 @@
+{
+  "record_type": "stage3d_fill_bulk_people_v2_batch_b_school_manifest",
+  "scope_note": "Virginia Tech was removed because it is outside Candidate v2; Texas A&M University is the approved in-scope replacement.",
+  "schools": [
+    {"candidate_id": "candidate-v2:brown-university", "canonical_id": "institution:brown-university", "university_display_name": "Brown University"},
+    {"candidate_id": "candidate-v2:vanderbilt-university", "canonical_id": "institution:vanderbilt-university", "university_display_name": "Vanderbilt University"},
+    {"candidate_id": "candidate-v2:rice-university", "canonical_id": "institution:rice-university", "university_display_name": "Rice University"},
+    {"candidate_id": "candidate-v2:university-of-notre-dame", "canonical_id": "institution:university-of-notre-dame", "university_display_name": "University of Notre Dame"},
+    {"candidate_id": "candidate-v2:emory-university", "canonical_id": "institution:emory-university", "university_display_name": "Emory University"},
+    {"candidate_id": "candidate-v2:university-of-california-los-angeles", "canonical_id": "institution:university-of-california-los-angeles", "university_display_name": "University of California, Los Angeles"},
+    {"candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill", "canonical_id": "institution:university-of-north-carolina-chapel-hill", "university_display_name": "University of North Carolina—Chapel Hill"},
+    {"candidate_id": "candidate-v2:university-of-texas-austin", "canonical_id": "institution:university-of-texas-austin", "university_display_name": "University of Texas—Austin"},
+    {"candidate_id": "candidate-v2:university-of-illinois-urbana-champaign", "canonical_id": "institution:university-of-illinois-urbana-champaign", "university_display_name": "University of Illinois Urbana-Champaign"},
+    {"candidate_id": "candidate-v2:university-of-washington", "canonical_id": "institution:university-of-washington", "university_display_name": "University of Washington"},
+    {"candidate_id": "candidate-v2:georgia-institute-of-technology", "canonical_id": "institution:georgia-institute-of-technology", "university_display_name": "Georgia Institute of Technology"},
+    {"candidate_id": "candidate-v2:purdue-university-main-campus", "canonical_id": "institution:purdue-university-main-campus", "university_display_name": "Purdue University—Main Campus"},
+    {"candidate_id": "candidate-v2:texas-a-and-m-university", "canonical_id": "institution:texas-a-and-m-university", "university_display_name": "Texas A&M University"},
+    {"candidate_id": "candidate-v2:carnegie-mellon-university", "canonical_id": "institution:carnegie-mellon-university", "university_display_name": "Carnegie Mellon University"},
+    {"candidate_id": "candidate-v2:university-of-michigan-ann-arbor", "canonical_id": "institution:university-of-michigan-ann-arbor", "university_display_name": "University of Michigan—Ann Arbor"},
+    {"candidate_id": "candidate-v2:university-of-wisconsin-madison", "canonical_id": "institution:university-of-wisconsin-madison", "university_display_name": "University of Wisconsin—Madison"},
+    {"candidate_id": "candidate-v2:northwestern-university", "canonical_id": "institution:northwestern-university", "university_display_name": "Northwestern University"},
+    {"candidate_id": "candidate-v2:johns-hopkins-university", "canonical_id": "institution:johns-hopkins-university", "university_display_name": "Johns Hopkins University"},
+    {"candidate_id": "candidate-v2:university-of-florida", "canonical_id": "institution:university-of-florida", "university_display_name": "University of Florida"},
+    {"candidate_id": "candidate-v2:ohio-state-university", "canonical_id": "institution:ohio-state-university", "university_display_name": "The Ohio State University"}
+  ]
+}

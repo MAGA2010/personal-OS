@@ -1,0 +1,116 @@
+{
+  "record_type": "universe_completion_plan",
+  "edition": "2026 Best Colleges",
+  "plan_status": "strategy_only_no_collection",
+  "baseline": {
+    "total_scope_streams": 29,
+    "verified_records": 24,
+    "source_limited_candidate_count": 7,
+    "incomplete_streams": 29,
+    "no_verified_streams": 8,
+    "national_current_coverage_max_rank": 3
+  },
+  "candidate_states": {
+    "current": "source_limited_incomplete_candidate",
+    "next": "completed_ranking_universe_candidate_v1",
+    "final_database_universe": "requires_completed_corpus_and_gate_audit"
+  },
+  "phases": [
+    {
+      "phase_id": "A",
+      "name": "National Universities Top 50 completion",
+      "stream_id": "national-universities",
+      "target_numeric_rank": 50,
+      "include_all_ties": true,
+      "expected_record_count": "at least 50; larger when cutoff or earlier ranks have ties",
+      "source_strategy": "U.S. News public ranking page or official release first; university official rank page only when it directly states 2026 edition, National Universities category and numeric rank.",
+      "fallback_policy": "If direct evidence is unavailable, retain a partial/unresolved observation and coverage gap; never infer a rank or fill a name from memory.",
+      "identity_policy": "Preserve source display name and create an explicit mapping; defer UNITID unless separately source-verified.",
+      "validation_plan": "Require full artifact validation, rank <=50, edition direct evidence, preserved ties, and coverage matrix proof for every numeric rank/tie group."
+    },
+    {
+      "phase_id": "B",
+      "name": "High-yield undergraduate program stream completion",
+      "priority_streams": [
+        "undergraduate-business-programs",
+        "business-entrepreneurship",
+        "business-finance",
+        "business-international-business",
+        "business-marketing",
+        "undergraduate-engineering-no-doctorate",
+        "undergraduate-computer-science",
+        "undergraduate-nursing",
+        "undergraduate-economics",
+        "undergraduate-psychology"
+      ],
+      "priority_rationale": "These broad subject, degree-structure, or high-demand business streams are the most plausible sources of schools outside National Universities Top 50. Expected contribution is qualitative only until verified cutoff records exist.",
+      "stream_profiles": [
+        {"stream_id": "undergraduate-business-programs", "expected_added_schools": "high / not estimated without verified cutoff", "difficulty": "medium", "source_strategy": "U.S. News first; school business-college 2026 releases as direct-evidence supplements.", "risk": "ties and school-level display names"},
+        {"stream_id": "business-entrepreneurship", "expected_added_schools": "medium / not estimated without verified cutoff", "difficulty": "high", "source_strategy": "U.S. News first; school official pages only with category and direct edition evidence.", "risk": "specialty page availability"},
+        {"stream_id": "business-finance", "expected_added_schools": "medium / not estimated without verified cutoff", "difficulty": "high", "source_strategy": "U.S. News first; official college announcements as supplements.", "risk": "edition labels omitted on local pages"},
+        {"stream_id": "business-international-business", "expected_added_schools": "medium / not estimated without verified cutoff", "difficulty": "high", "source_strategy": "U.S. News first; school official rankings releases as supplements.", "risk": "rank may be reported without full category context"},
+        {"stream_id": "business-marketing", "expected_added_schools": "medium / not estimated without verified cutoff", "difficulty": "medium", "source_strategy": "Extend existing direct-evidence pattern with official school releases.", "risk": "current one-record coverage is not cutoff coverage"},
+        {"stream_id": "undergraduate-engineering-no-doctorate", "expected_added_schools": "high / not estimated without verified cutoff", "difficulty": "high", "source_strategy": "U.S. News first; engineering-school pages that explicitly identify no-doctorate category.", "risk": "doctorate/no-doctorate category confusion"},
+        {"stream_id": "undergraduate-computer-science", "expected_added_schools": "high / not estimated without verified cutoff", "difficulty": "high", "source_strategy": "U.S. News first; university official releases with category, rank and edition.", "risk": "graduate computer science contamination"},
+        {"stream_id": "undergraduate-nursing", "expected_added_schools": "medium / not estimated without verified cutoff", "difficulty": "high", "source_strategy": "U.S. News first; nursing-school official releases as supplements.", "risk": "undergraduate versus graduate nursing confusion"},
+        {"stream_id": "undergraduate-economics", "expected_added_schools": "medium / not estimated without verified cutoff", "difficulty": "high", "source_strategy": "U.S. News first; institutional pages with direct edition evidence.", "risk": "program versus department naming"},
+        {"stream_id": "undergraduate-psychology", "expected_added_schools": "medium / not estimated without verified cutoff", "difficulty": "high", "source_strategy": "U.S. News first; institutional pages with direct edition evidence.", "risk": "undergraduate versus graduate psychology contamination"}
+      ]
+    },
+    {
+      "phase_id": "C",
+      "name": "Remaining undergraduate program stream completion",
+      "remaining_streams": [
+        "business-accounting",
+        "business-analytics",
+        "business-management",
+        "business-management-information-systems",
+        "business-production-operations-management",
+        "business-real-estate",
+        "business-supply-chain-management-logistics",
+        "undergraduate-engineering-doctorate",
+        "engineering-aerospace",
+        "engineering-biomedical",
+        "engineering-chemical",
+        "engineering-civil",
+        "engineering-computer",
+        "engineering-electrical",
+        "engineering-environmental",
+        "engineering-industrial",
+        "engineering-materials",
+        "engineering-mechanical"
+      ],
+      "batch_plan": "Process six streams per batch, preserving a separate full artifact bundle and coverage matrix for each batch.",
+      "stop_conditions": "Stop a stream only after every numeric rank <=20 and all ties are verified, or after lawful source routes are exhausted and the coverage gap/rejected observations are recorded.",
+      "partial_unresolved_policy": "Partial and unresolved observations remain auditable but never enter completed candidate staging."
+    }
+  ],
+  "source_policy": {
+    "priority": ["U.S. News official public page or release", "University or college official page with direct edition/category/rank", "Trusted public institution only as supplementary cross-check"],
+    "forbidden": ["search snippet as final evidence", "AI memory", "forum or unofficial repost", "login/paywall/CAPTCHA/robots bypass", "prestige-based rank inference", "extrapolation from current seven candidates"],
+    "edition_rule": "Without direct edition evidence, record as partially verified or unresolved; it cannot enter the completed universe candidate."
+  },
+  "artifact_plan": {
+    "completion_national": "data/ranking-seeds/2026-best-colleges/completion-national/",
+    "completion_programs_priority": "data/ranking-seeds/2026-best-colleges/completion-programs-priority/",
+    "completion_programs_remaining": "data/ranking-seeds/2026-best-colleges/completion-programs-remaining/",
+    "completed_candidate": "data/university-universe/2026-best-colleges/completed-candidate/",
+    "required_bundle_artifacts": ["seed batches", "source manifest", "identity mappings", "candidate observations", "coverage matrix", "validation result", "gap report"]
+  },
+  "acceptance_criteria": [
+    "National Universities numeric ranks <=50 and all ties processed",
+    "All 28 included undergraduate program streams numeric ranks <=20 and all ties processed",
+    "Only verified records enter completed candidate; partial/unresolved are excluded",
+    "No-verified streams are documented without fake schools",
+    "Duplicate identities are resolved and Global/Graduate contamination is zero",
+    "Completed corpus validation passes and a completed ranking universe candidate is generated",
+    "Independent Gate audit passes before any final database-universe claim"
+  ],
+  "completed_candidate_is_final": false,
+  "output_boundaries": {
+    "final_universe_generated": false,
+    "selection_memberships_generated": false,
+    "frontend_export_generated": false,
+    "new_ranking_records_collected_in_stage_2e": false
+  }
+}

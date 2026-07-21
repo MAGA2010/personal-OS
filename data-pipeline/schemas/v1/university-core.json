@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathos.example/schemas/v1/university-core.json",
+  "title": "PathOS university core",
+  "type": "object",
+  "required": ["internal_id", "official_name", "name_zh", "city", "state", "state_code", "latitude", "longitude", "selection_reason"],
+  "properties": {
+    "internal_id": {"type": "string", "minLength": 1},
+    "unitid": {"type": "string", "pattern": "^[0-9]{6}$"},
+    "official_name": {"type": "string", "minLength": 1},
+    "name_zh": {"type": "string", "minLength": 1},
+    "city": {"type": "string", "minLength": 1},
+    "state": {"type": "string", "minLength": 1},
+    "state_code": {"type": "string", "pattern": "^[A-Z]{2}$"},
+    "latitude": {"type": "number", "minimum": -90, "maximum": 90},
+    "longitude": {"type": "number", "minimum": -180, "maximum": 180},
+    "selection_reason": {"type": "string", "enum": ["national_top_50", "program_top_20", "both"]}
+  }
+}

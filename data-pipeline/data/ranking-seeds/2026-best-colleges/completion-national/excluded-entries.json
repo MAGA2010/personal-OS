@@ -1,0 +1,41 @@
+{
+  "record_type": "national_completion_excluded_entries",
+  "entries": [
+    {
+      "school_display_name": "Case Western Reserve University",
+      "numeric_rank": 51,
+      "source_page": 4,
+      "reason": "beyond_first_50_us_domestic_entries"
+    },
+    {
+      "school_display_name": "Florida State University",
+      "numeric_rank": 51,
+      "source_page": 4,
+      "reason": "beyond_first_50_us_domestic_entries"
+    },
+    {
+      "school_display_name": "Texas A&M University",
+      "numeric_rank": 51,
+      "source_page": 4,
+      "reason": "beyond_first_50_us_domestic_entries"
+    },
+    {
+      "school_display_name": "Virginia Tech",
+      "numeric_rank": 51,
+      "source_page": 4,
+      "reason": "beyond_first_50_us_domestic_entries"
+    },
+    {
+      "school_display_name": "Wake Forest University",
+      "numeric_rank": 51,
+      "source_page": 4,
+      "reason": "beyond_first_50_us_domestic_entries"
+    },
+    {
+      "school_display_name": "William & Mary",
+      "numeric_rank": 51,
+      "source_page": 4,
+      "reason": "beyond_first_50_us_domestic_entries"
+    }
+  ]
+}

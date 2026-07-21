@@ -1,0 +1,76 @@
+{
+  "record_type": "stage3d_fill_batch1_history_observations",
+  "observations": [
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "fact_id": "history:harvard:founding-1636",
+      "history_summary": "Harvard traces its institutional founding to 1636.",
+      "source_id": "source_harvard_official_history_2026",
+      "evidence_anchor": {
+        "source_id": "source_harvard_official_history_2026",
+        "evidence_type": "direct_quote",
+        "quote": "On October 28, 1636, Harvard, the first college in the American colonies, was founded.",
+        "quote_verification_method": "manual_verbatim_check"
+      },
+      "paraphrase_notes": "Short founding-date summary; not a source quotation.",
+      "confidence": "high",
+      "null_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "fact_id": "history:princeton:charter-1746",
+      "history_summary": "Princeton was chartered in 1746.",
+      "source_id": "source_princeton_official_history_2026",
+      "evidence_anchor": {"source_id": "source_princeton_official_history_2026", "evidence_type": "direct_quote", "quote": "Chartered in 1746, Princeton is the fourth-oldest college in the United States.", "quote_verification_method": "manual_verbatim_check"},
+      "paraphrase_notes": "Short charter-date summary; not a source quotation.", "confidence": "high", "null_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "fact_id": "history:stanford:founded-1885",
+      "history_summary": "Stanford was founded in 1885 on a Palo Alto stock farm.",
+      "source_id": "source_stanford_official_history_2026",
+      "evidence_anchor": {"source_id": "source_stanford_official_history_2026", "evidence_type": "direct_quote", "quote": "Founded in 1885 on a Palo Alto stock farm, Stanford University has grown into one of the world’s leading research universities.", "quote_verification_method": "manual_verbatim_check"},
+      "paraphrase_notes": "Short founding-context summary; not a source quotation.", "confidence": "high", "null_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "fact_id": "history:penn:founding-1740",
+      "history_summary": "Penn dates its founding to 1740.",
+      "source_id": "source_penn_official_history_2026",
+      "evidence_anchor": {"source_id": "source_penn_official_history_2026", "evidence_type": "direct_quote", "quote": "Penn dates its founding to 1740", "quote_verification_method": "manual_verbatim_check"},
+      "paraphrase_notes": "Short founding-date summary; not a source quotation.", "confidence": "high", "null_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "fact_id": "history:northwestern:incorporation",
+      "history_summary": "Northwestern traces its formal establishment to an Illinois incorporation act.",
+      "source_id": "source_northwestern_official_history_2026",
+      "evidence_anchor": {"source_id": "source_northwestern_official_history_2026", "evidence_type": "direct_quote", "quote": "Northwestern University was officially established when its Act of Incorporation was passed by the Illinois legislature.", "quote_verification_method": "manual_verbatim_check"},
+      "paraphrase_notes": "Short incorporation summary; not a source quotation.", "confidence": "high", "null_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "fact_id": "history:vanderbilt:founded-1873",
+      "history_summary": "Vanderbilt was founded through Cornelius Vanderbilt’s 1873 gift.",
+      "source_id": "source_vanderbilt_official_history_2026",
+      "evidence_anchor": {"source_id": "source_vanderbilt_official_history_2026", "evidence_type": "direct_quote", "quote": "the gift that founded Vanderbilt University in the spring of 1873.", "quote_verification_method": "manual_verbatim_check"},
+      "paraphrase_notes": "Short founding summary; not a source quotation.", "confidence": "high", "null_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "fact_id": "history:notre-dame:began-1842",
+      "history_summary": "Notre Dame’s history begins with Father Sorin’s arrival in November 1842.",
+      "source_id": "source_notre_dame_official_history_2026",
+      "evidence_anchor": {"source_id": "source_notre_dame_official_history_2026", "evidence_type": "direct_quote", "quote": "The University of Notre Dame began late on the bitterly cold afternoon of November 26, 1842", "quote_verification_method": "manual_verbatim_check"},
+      "paraphrase_notes": "Short founding-context summary; not a source quotation.", "confidence": "high", "null_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "fact_id": "history:cmu:carnegie-donation-1900",
+      "history_summary": "Carnegie Mellon traces its origin to Andrew Carnegie’s 1900 donation to Pittsburgh.",
+      "source_id": "source_cmu_official_history_2026",
+      "evidence_anchor": {"source_id": "source_cmu_official_history_2026", "evidence_type": "direct_quote", "quote": "In 1900, Andrew Carnegie donated $1 million to the city of Pittsburgh", "quote_verification_method": "manual_verbatim_check"},
+      "paraphrase_notes": "Short origin summary; not a source quotation.", "confidence": "high", "null_reason": null
+    }
+  ]
+}

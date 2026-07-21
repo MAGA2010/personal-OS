@@ -1,0 +1,47 @@
+{
+  "attendance_evidence_reused_count": 8,
+  "attendance_records_added_count": 0,
+  "cache_missing_count": 0,
+  "cache_verified_quote_count": 16,
+  "cumulative_duplicate_person_count": 0,
+  "cumulative_input_identified_occurrence_count": 28,
+  "cumulative_post_merge_duplicate_count": 0,
+  "cumulative_unique_program_person_count": 28,
+  "dedup_key_fields": [
+    "candidate_id",
+    "canonical_person_id"
+  ],
+  "deterministic_generation": true,
+  "exclusions_count": 0,
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "immutable_input_pin_manifest": "data/stage3d-fill-bulk-completion-wave2/immutable-input-pin-manifest.json",
+  "incomplete": true,
+  "local_cache_substring_check_count": 8,
+  "manual_verbatim_check_count": 0,
+  "match_type_counts": {
+    "direct_program_match": 6,
+    "direct_related_program_match": 2
+  },
+  "not_final": true,
+  "not_final_reason": "Wave 2 covers 20 Candidate v2 schools and five existing demo-program slots per school; it remains source-limited and incomplete.",
+  "official_selection_memberships_generated": false,
+  "program_people_identified_count": 8,
+  "program_people_no_qualifying_person_found_count": 0,
+  "program_people_source_review_not_completed_count": 92,
+  "program_slots_processed_count": 100,
+  "ranking_field_contamination": 0,
+  "readiness_status": "reviewed_program_person_intake_in_progress",
+  "record_type": "stage3d_fill_bulk_completion_wave2_summary",
+  "relationship_type_counts": {
+    "graduated": 8
+  },
+  "remaining_gaps": {
+    "source_review_not_completed_slots": 92
+  },
+  "schools_processed_count": 20,
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "total_wave2_universities": 20,
+  "wave2_duplicate_person_count": 0
+}

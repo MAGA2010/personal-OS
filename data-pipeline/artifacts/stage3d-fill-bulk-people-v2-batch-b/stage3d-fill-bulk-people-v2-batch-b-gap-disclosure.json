@@ -1,0 +1,140 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "gaps": [
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer Science",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Business Administration and Management, General",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Emory University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Biomedical Engineering",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Georgia Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Cell/Cellular and Molecular Biology",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Johns Hopkins University"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Econometrics and Quantitative Economics",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Northwestern University"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer Science",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Industrial Engineering",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Texas A&M University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Econometrics and Quantitative Economics",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Real Estate",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of Florida"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Research and Experimental Psychology, Other",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Asian Studies, B.A. — Japanese Concentration",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Finance, General",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of Notre Dame"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Business Administration",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of Texas—Austin"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Aeronautics and Astronautics",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of Washington"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer and Information Sciences, General",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of Wisconsin—Madison"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Social Sciences, General",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Vanderbilt University"
+    }
+  ],
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v2_batch_b_gap_disclosure",
+  "source_limited": true,
+  "source_review_not_completed_is_none": false
+}

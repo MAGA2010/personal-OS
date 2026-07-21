@@ -1,0 +1,28 @@
+{
+  "record_type": "stage3d_fill_bulk_completion_wave1_school_manifest",
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "schools": [
+    {"candidate_id": "candidate-v2:arizona-state-university"},
+    {"candidate_id": "candidate-v2:boston-university"},
+    {"candidate_id": "candidate-v2:brown-university"},
+    {"candidate_id": "candidate-v2:carnegie-mellon-university"},
+    {"candidate_id": "candidate-v2:duke-university"},
+    {"candidate_id": "candidate-v2:georgetown-university"},
+    {"candidate_id": "candidate-v2:indiana-university-bloomington"},
+    {"candidate_id": "candidate-v2:massachusetts-institute-of-technology"},
+    {"candidate_id": "candidate-v2:ohio-state-university"},
+    {"candidate_id": "candidate-v2:princeton-university"},
+    {"candidate_id": "candidate-v2:purdue-university-main-campus"},
+    {"candidate_id": "candidate-v2:rice-university"},
+    {"candidate_id": "candidate-v2:stanford-university"},
+    {"candidate_id": "candidate-v2:university-of-california-berkeley"},
+    {"candidate_id": "candidate-v2:university-of-california-los-angeles"},
+    {"candidate_id": "candidate-v2:university-of-chicago"},
+    {"candidate_id": "candidate-v2:university-of-illinois-urbana-champaign"},
+    {"candidate_id": "candidate-v2:university-of-michigan-ann-arbor"},
+    {"candidate_id": "candidate-v2:university-of-notre-dame"},
+    {"candidate_id": "candidate-v2:yale-university"}
+  ]
+}

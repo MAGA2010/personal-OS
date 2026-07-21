@@ -1,0 +1,63 @@
+{
+  "cache_missing_count": 0,
+  "cache_verified_quote_count": 24,
+  "cumulative_batch_a_b_notable_attendance_identified": 29,
+  "cumulative_batch_a_b_program_people_identified": 5,
+  "cumulative_batch_a_b_program_people_no_qualifying_person_found": 0,
+  "cumulative_batch_a_b_program_people_source_review_not_completed": 24,
+  "cumulative_batch_a_b_program_slots_processed": 29,
+  "cumulative_batch_a_b_universities_processed": 29,
+  "cumulative_batch_a_b_university_occurrences": 30,
+  "deterministic_generation": true,
+  "exclusions_count": 0,
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "input_sha256": {
+    "batch_a_attendance": "2171eefc72ee6cf2ccf755678d85925505417e3eec87e938cd01c5358e6c40c1",
+    "batch_a_slots": "ed167081cc653a833c742eec17988ccf20a45b2b26e570e252fb8f55ae3ed97c",
+    "batch_a_summary": "e9b24febac392ed5ab74beb0309f211d8cfa7d41e82ce7ffcf15b722cc862a57",
+    "bulk_people_v1_attendance": "291cee5474876bf9230e45c7205c921aa14800ebee04bd54246cf05d46787b21",
+    "bulk_people_v1_cache_manifest": "9386d74dbfdd1b5254e301e2059863da54698e1cff841ba7a40d23fd75255447",
+    "bulk_people_v1_source_manifest": "c774a7a07df6010369e02ef157e7b3ceed0fceac882ce4ab54a87288680a786d",
+    "candidate_v2": "8f940aa6d336402ff9c3c76a43d2efacdf2c887dc983afeb344937db9eadb18d",
+    "exclusions": "abbdce7a3ec3f541b4b2b4dc839820896b2d9ed147fc4c03d407b7cfdf3013e7",
+    "pipeline_v2_slot_inventory": "ed80718f55a7aade6971fbd21574c1251e86f09f3938e31540cf68b762de0c1b",
+    "pipeline_v2_summary": "bb37a1b8b74aa98b62edf8fab52fd68bd82aa5fed51c1fe7c3f8b721fc0e1b79",
+    "program_cache_manifest": "7b2adf8dca917e162096ef2daffe41cab77e9af2899d57bfc961551144b65af9",
+    "program_people_observations": "e4cbfc876b1a0e3a6164f29d5dd59f49eb9063729e1fe64563cb027151e95955",
+    "program_source_manifest": "2b5060ff70b6ee3f6bea5792e1c65ea67434c81ff23d86b16014ee18173da46c",
+    "school_manifest": "86fc6407631f25a3ad4cee89c8c72fcdd2d3836a6e5a43055515cb0d4cd2a7d8"
+  },
+  "local_cache_substring_check_count": 24,
+  "manual_verbatim_check_count": 0,
+  "match_type_counts": {
+    "direct_program_match": 1,
+    "direct_related_program_match": 3
+  },
+  "not_final": true,
+  "not_final_reason": "Batch B is a source-limited reviewed overlay and not a final People/Narrative dataset.",
+  "notable_attendance_identified_count": 20,
+  "notable_attendance_source_review_not_completed_count": 0,
+  "notable_attendance_unresolved_count": 0,
+  "official_selection_memberships_generated": false,
+  "program_people_identified_count": 4,
+  "program_people_no_qualifying_person_found_count": 0,
+  "program_people_source_review_not_completed_count": 16,
+  "program_slots_processed_count": 20,
+  "ranking_field_contamination": 0,
+  "readiness_status": "batch_b_reviewed_intake_validated_program_coverage_partial",
+  "record_type": "stage3d_fill_bulk_people_v2_batch_b_summary",
+  "relationship_type_counts": {
+    "alumnus_unspecified": 5,
+    "attended_no_degree": 2,
+    "graduated": 13
+  },
+  "remaining_gaps": [
+    "16 of 20 Batch B Top-1 program-person slots remain source_review_not_completed.",
+    "No unreviewed slot is rendered as no_qualifying_person_found."
+  ],
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "total_batch_b_universities": 20
+}

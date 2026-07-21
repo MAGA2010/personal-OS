@@ -1,0 +1,13 @@
+{
+  "record_type": "university_universe_candidate_v2_validation_result",
+  "edition": "2026 Best Colleges",
+  "candidate_university_count": 62,
+  "membership_count": 67,
+  "result": "passed",
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "final_universe": false,
+  "official_selection_memberships_generated": false,
+  "frontend_export_generated": false
+}

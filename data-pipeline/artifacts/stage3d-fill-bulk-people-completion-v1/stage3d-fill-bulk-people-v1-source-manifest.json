@@ -1,0 +1,847 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v1_source_manifest_artifact",
+  "source_limited": true,
+  "sources": [
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field_domain": "attendance",
+      "publisher": "Arizona State University",
+      "source_id": "source_bulk_people_asu_pat_tillman",
+      "source_title": "Pat Tillman artwork at West campus",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://news.asu.edu/content/west-campus-parents-present-pat-tillman-artwork-fitness-center",
+      "verified_direct_quotes": [
+        "Tillman, who graduated with a marketing degree from ASU in three-and-a-half years with a 3.84 GPA"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:boston-college",
+      "field_domain": "attendance",
+      "publisher": "Boston College",
+      "source_id": "source_bulk_people_bc_amy_poehler",
+      "source_title": "Amy Poehler",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://web.bc.edu/umc/atbc/at.bc.edu/amypoehler/index.html",
+      "verified_direct_quotes": [
+        "Poehler, a native of Burlington, Massachusetts, graduated with a degree in theater and communications"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field_domain": "attendance",
+      "publisher": "University of California, Berkeley",
+      "source_id": "source_bulk_people_berkeley_steve_wozniak",
+      "source_title": "Steve Wozniak profile",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://engineering.berkeley.edu/steve-wozniak-inventor-and-apple-co-founder/",
+      "verified_direct_quotes": [
+        "Wozniak eventually returned to Berkeley to finish his coursework, earning his degree in 1986."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:brown-university",
+      "field_domain": "attendance",
+      "publisher": "Brown University",
+      "source_id": "source_bulk_people_brown_john_krasinski",
+      "source_title": "John Krasinski baccalaureate address",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.brown.edu/news/2019-05-25/baccalaureate",
+      "verified_direct_quotes": [
+        "John Krasinski earned his bachelor’s degree in 2001 with a concentration in English"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:boston-university",
+      "field_domain": "attendance",
+      "publisher": "Boston University",
+      "source_id": "source_bulk_people_bu_martin_luther_king_jr",
+      "source_title": "Martin Luther King Jr. profile",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.bu.edu/strategicreport/report/profile/",
+      "verified_direct_quotes": [
+        "Dr. Martin Luther King, Jr. received his doctorate from the Graduate School of Arts and Sciences in 1955"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field_domain": "attendance",
+      "publisher": "Bucknell University",
+      "source_id": "source_bulk_people_bucknell_christy_mathewson",
+      "source_title": "Bucknell Magazine",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://magazine.bucknell.edu/issue/bucknell/fall-2025/do?viewMobile=true",
+      "verified_direct_quotes": [
+        "Christy Mathewson, Class of 1902, P1927 made a donation to his alma mater."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field_domain": "attendance",
+      "publisher": "California Institute of Technology",
+      "source_id": "source_bulk_people_caltech_frank_capra",
+      "source_title": "The Pioneers",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.alumni.caltech.edu/techer/stories/the-pioneers/",
+      "verified_direct_quotes": [
+        "Frank Capra (BS ‘18)."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:columbia-university",
+      "field_domain": "attendance",
+      "publisher": "Columbia University",
+      "source_id": "source_bulk_people_columbia_barack_obama",
+      "source_title": "University history",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.columbia.edu/content/university-history",
+      "verified_direct_quotes": [
+        "Barack Obama, who later became 44th president of the United States, graduated from Columbia College."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field_domain": "attendance",
+      "publisher": "University of Colorado Boulder",
+      "source_id": "source_bulk_people_cu_boulder_lucile_buchanan_jones",
+      "source_title": "Celebrating 150 Years of CU People",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.colorado.edu/coloradan/2026/03/09/celebrating-150-years-cu-people",
+      "verified_direct_quotes": [
+        "Lucile Berkeley Buchanan Jones was an educator and the first known Black woman to graduate from CU Boulder."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field_domain": "attendance",
+      "publisher": "Dartmouth College",
+      "source_id": "source_bulk_people_dartmouth_mindy_kaling",
+      "source_title": "Mindy Kaling Doctor of Humane Letters",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://home.dartmouth.edu/news/2018/06/mindy-kaling-doctor-humane-letters",
+      "verified_direct_quotes": [
+        "You graduated with your degree in drama in 2001"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:emory-university",
+      "field_domain": "attendance",
+      "publisher": "Emory University",
+      "source_id": "source_bulk_people_emory_eva_rothenberg",
+      "source_title": "Rothenberg named Marshall Scholar",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://oxford.emory.edu/news/2023/12/rothenberg-marshall-scholar.html",
+      "verified_direct_quotes": [
+        "Rothenberg, who graduated in 2021 with highest honors from Emory College of Arts and Sciences with degrees in English and linguistics"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field_domain": "attendance",
+      "publisher": "University of Florida",
+      "source_id": "source_bulk_people_florida_tim_tebow",
+      "source_title": "Tebow to serve as commencement speaker",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://news.ufl.edu/2022/03/tebow-to-serve-as-ufs-2022-commencement-speaker/",
+      "verified_direct_quotes": [
+        "Tebow, who graduated in 2009 with a bachelor’s degree in family youth and community sciences"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field_domain": "attendance",
+      "publisher": "Georgia Institute of Technology",
+      "source_id": "source_bulk_people_georgia_tech_clemmie_whatley",
+      "source_title": "Celebrating Clemmie Whatley",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.gatech.edu/news/2026/03/24/celebrating-techs-first-african-american-female-graduate-clemmie-whatley",
+      "verified_direct_quotes": [
+        "Clemmie Whatley earned her master’s in applied mathematics in 1973"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:harvard-university",
+      "field_domain": "attendance",
+      "publisher": "Harvard University",
+      "source_id": "source_bulk_people_harvard_natalie_portman",
+      "source_title": "Portman named Class Day speaker",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://news.harvard.edu/gazette/story/2015/04/portman-named-class-day-speaker/",
+      "verified_direct_quotes": [
+        "Academy Award-winning actress Natalie Portman ’03 has been selected as the 2015 Class Day speaker for Harvard College."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field_domain": "attendance",
+      "publisher": "Harvey Mudd College",
+      "source_id": "source_bulk_people_hmc_stan_love",
+      "source_title": "Harvey Mudd alumnus Stan Love",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.hmc.edu/about/2026/04/02/harvey-mudd-alumnus-stan-love-87-leads-mission-control-communications-for-nasas-artemis-ii/",
+      "verified_direct_quotes": [
+        "Harvey Mudd College physics alumnus and veteran astronaut Stan Love ’87"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field_domain": "attendance",
+      "publisher": "University of Illinois Urbana-Champaign",
+      "source_id": "source_bulk_people_illinois_sean_evans",
+      "source_title": "2026 commencement speaker",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://commencement.illinois.edu/2026-commencement-speaker/",
+      "verified_direct_quotes": [
+        "Evans graduated from Illinois with a degree in broadcast journalism in 2008."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field_domain": "attendance",
+      "publisher": "Indiana University",
+      "source_id": "source_bulk_people_indiana_mark_cuban",
+      "source_title": "Mark Cuban honoree profile",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://honorsandawards.iu.edu/awards/honoree/5682.html",
+      "verified_direct_quotes": [
+        "Mr. Cuban received a BS in management from Indiana University in 1981."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field_domain": "attendance",
+      "publisher": "University of Iowa",
+      "source_id": "source_bulk_people_iowa_gene_wilder",
+      "source_title": "Gene Wilder archival authority record",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://aspace.lib.uiowa.edu/agents/people/1108",
+      "verified_direct_quotes": [
+        "obtained his B.A. degree in 1955"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field_domain": "attendance",
+      "publisher": "Lehigh University",
+      "source_id": "source_bulk_people_lehigh_lee_iacocca",
+      "source_title": "Lee Iacocca dies at 94",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://news.lehigh.edu/lee-iacocca-45-business-icon-and-a-great-son-of-lehigh-dies-at-94",
+      "verified_direct_quotes": [
+        "Iacocca focused on his studies, graduating in 1945 with a Bachelor of Science degree in industrial engineering."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field_domain": "attendance",
+      "publisher": "Loyola University Chicago",
+      "source_id": "source_bulk_people_loyola_bob_newhart",
+      "source_title": "Bob Newhart profile",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://news.luc.edu/stories/people-profiles/bobnewhart/",
+      "verified_direct_quotes": [
+        "Newhart, a kid from Chicago’s West Side who wasn’t sure what life had in store for him, graduated from Loyola."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field_domain": "attendance",
+      "publisher": "University of Maryland",
+      "source_id": "source_bulk_people_maryland_jim_henson",
+      "source_title": "Jim Henson statue and memorial garden",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://arboretum.umd.edu/jim-henson-statue-and-memorial-garden",
+      "verified_direct_quotes": [
+        "Henson, who graduated from the University of Maryland in 1960"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field_domain": "attendance",
+      "publisher": "University of Michigan",
+      "source_id": "source_bulk_people_michigan_james_earl_jones",
+      "source_title": "University heritage timeline",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://heritage.umich.edu/timeline/",
+      "verified_direct_quotes": [
+        "James Earl Jones graduates with a bachelor’s degree in English literature"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field_domain": "attendance",
+      "publisher": "University of Minnesota",
+      "source_id": "source_bulk_people_minnesota_norman_borlaug",
+      "source_title": "History and notable alumni",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://twin-cities.umn.edu/about-us/history",
+      "verified_direct_quotes": [
+        "Norman Borlaug Winner of Nobel Peace Prize and Father of the Green Revolution"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field_domain": "attendance",
+      "publisher": "Massachusetts Institute of Technology",
+      "source_id": "source_bulk_people_mit_buzz_aldrin",
+      "source_title": "MIT logs 40 years of flight",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://news.mit.edu/2006/astro-side-1004",
+      "verified_direct_quotes": [
+        "NASA astronaut Buzz Aldrin (Sc.D. in aeronautics and astronautics, 1963) became the first MIT graduate to walk in space"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field_domain": "attendance",
+      "publisher": "Northeastern University",
+      "source_id": "source_bulk_people_northeastern_henry_nasella",
+      "source_title": "Honoring Academic Excellence",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://president.northeastern.edu/2019/04/18/honoring-academic-excellence/",
+      "verified_direct_quotes": [
+        "Finally, our Trustee and Chair Emeritus Henry Nasella, an alumnus and true citizen of Northeastern, is the recipient of the Presidential Medallion, the university’s top honor."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field_domain": "attendance",
+      "publisher": "Northwestern University",
+      "source_id": "source_bulk_people_northwestern_stephen_colbert",
+      "source_title": "Congratulations on Graduating",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://news.northwestern.edu/stories/2016/05/opinion-give-up-on-your-dreams",
+      "verified_direct_quotes": [
+        "Comedian and TV host Stephen Colbert offered wiser counsel during a graduation speech at his alma mater, Northwestern University"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field_domain": "attendance",
+      "publisher": "University of Notre Dame",
+      "source_id": "source_bulk_people_notre_dame_marlene_daut",
+      "source_title": "Graduate School honors award winners",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://graduateschool.nd.edu/news/graduate-school-honors-2026-alumni-faculty-and-student-award-winners/",
+      "verified_direct_quotes": [
+        "Marlene L. Daut ‘09 Ph.D., is the winner of the Distinguished Graduate Alumni Award, given each year to a graduate alumnus or alumna of the University who has contributed significantly to scholarship, research, or society."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:new-york-university",
+      "field_domain": "attendance",
+      "publisher": "New York University",
+      "source_id": "source_bulk_people_nyu_spike_lee",
+      "source_title": "Spike Lee",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://tisch.nyu.edu/about/directory/grad-film/109468161.html",
+      "verified_direct_quotes": [
+        "He is a graduate of Morehouse College and New York University’s Tisch School of the Arts"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field_domain": "attendance",
+      "publisher": "The Ohio State University",
+      "source_id": "source_bulk_people_ohio_state_jesse_owens",
+      "source_title": "Jesse Owens biographical file",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://library.osu.edu/documents/university-archives/biographical_files/Owens_Jesse.pdf",
+      "verified_direct_quotes": [
+        "Owens attended Ohio State University from 1934-36."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field_domain": "attendance",
+      "publisher": "Olin College of Engineering",
+      "source_id": "source_bulk_people_olin_tom_cecil",
+      "source_title": "Olin twentieth commencement",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.olin.edu/articles/news-class-2025-and-olins-20th-commencement-startin-anew",
+      "verified_direct_quotes": [
+        "Tom Cecil ’06 greeted the Class of 2025 on behalf of alumni"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field_domain": "attendance",
+      "publisher": "Purdue University",
+      "source_id": "source_bulk_people_purdue_neil_armstrong",
+      "source_title": "Neil Armstrong archival authority record",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://archives.lib.purdue.edu/agents/people/100?filter_fields%5B%5D=subjects&filter_values%5B%5D=Purdue+University+--+Alumni+and+alumnae",
+      "verified_direct_quotes": [
+        "he resumed his studies at Purdue University and received a Bachelor of Science degree in Aeronautical Engineering in 1955"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:rice-university",
+      "field_domain": "attendance",
+      "publisher": "Rice University",
+      "source_id": "source_bulk_people_rice_peggy_whitson",
+      "source_title": "Peggy Whitson commencement speaker",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://naturalsciences.rice.edu/news/biosciences-alum-peggy-whitson-speak-may-4-commencement",
+      "verified_direct_quotes": [
+        "she studied as a Robert A. Welch Predoctoral Fellow and earned a Ph.D. in biochemistry"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field_domain": "attendance",
+      "publisher": "University of Rochester",
+      "source_id": "source_bulk_people_rochester_jeannine_shao_collins",
+      "source_title": "Jeannine Shao Collins ’86",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.rochester.edu/commencement/speakers/jeannine-shao-collins-86/",
+      "verified_direct_quotes": [
+        "Shao Collins earned a bachelor’s degree in economics from URochester"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field_domain": "attendance",
+      "publisher": "Rose-Hulman Institute of Technology",
+      "source_id": "source_bulk_people_rose_hulman_abe_silverstein",
+      "source_title": "History and leadership",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.rose-hulman.edu/about-us/history-and-leadership/index.html",
+      "verified_direct_quotes": [
+        "When Abe Silverstein graduated from Rose Polytechnic in 1929"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field_domain": "attendance",
+      "publisher": "Rutgers University",
+      "source_id": "source_bulk_people_rutgers_esther_salas",
+      "source_title": "Hall of Distinguished Alumni directory",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.alumni.rutgers.edu/hall-of-distinguished-alumni",
+      "verified_direct_quotes": [
+        "Esther Salas RC’91, NLAW’94"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field_domain": "attendance",
+      "publisher": "University of South Carolina",
+      "source_id": "source_bulk_people_south_carolina_glenn_tilton",
+      "source_title": "Alumni Awards 2024",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.sc.edu/uofsc/posts/2024/12/alumni-awards-2024.php",
+      "verified_direct_quotes": [
+        "Glenn Tilton graduated from USC in 1970 with a degree in international studies"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field_domain": "attendance",
+      "publisher": "Texas A&M University",
+      "source_id": "source_bulk_people_tamu_dudley_hughes",
+      "source_title": "2010 Distinguished Alumni",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://stories.tamu.edu/news/2010/04/09/texas-am-university-announces-2010-distinguished-alumni/",
+      "verified_direct_quotes": [
+        "Dudley J. Hughes, Class of 1951, graduated from Texas A&M University with a Bachelor of Science degree in geology."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:tufts-university",
+      "field_domain": "attendance",
+      "publisher": "Tufts University",
+      "source_id": "source_bulk_people_tufts_eugene_fama",
+      "source_title": "Tufts Alum Eugene Fama Wins Nobel Prize",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://tarc.tufts.edu/about/news/Tufts%20Alum%20Eugene%20Fama%20Wins%20Nobel%20Prize",
+      "verified_direct_quotes": [
+        "As an undergraduate, Eugene Fama was a busy, well-rounded, and high-achieving student."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field_domain": "attendance",
+      "publisher": "University of California, Davis",
+      "source_id": "source_bulk_people_ucdavis_woutrina_smith",
+      "source_title": "2026 UC Davis Alumni Awards",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.ucdavis.edu/news/2026-uc-davis-alumni-awards-celebrate-leadership-service-and-global-impact",
+      "verified_direct_quotes": [
+        "A three-time UC Davis graduate, Smith serves as associate dean for Global Programs"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field_domain": "attendance",
+      "publisher": "University of Chicago",
+      "source_id": "source_bulk_people_uchicago_sarah_koenig",
+      "source_title": "Alumni spotlight",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://college.uchicago.edu/news/student-stories/alumni-spotlight-one-liberal-arts-education-two-career-paths",
+      "verified_direct_quotes": [
+        "Sarah Koenig, AB’90"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field_domain": "attendance",
+      "publisher": "University of California, Irvine",
+      "source_id": "source_bulk_people_ucirvine_jon_lovitz",
+      "source_title": "Notable Alumni",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://special.lib.uci.edu/collections/anteater-chronicles/alumni/notable-alumni",
+      "verified_direct_quotes": [
+        "Jon Lovitz '79 (BA), actor and comedian on television show Saturday Night Live"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field_domain": "attendance",
+      "publisher": "University of California, Los Angeles",
+      "source_id": "source_bulk_people_ucla_kareem_abdul_jabbar",
+      "source_title": "Kareem Abdul-Jabbar ’69",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://alumni.ucla.edu/awards/kareem-abdul-jabbar-69/",
+      "verified_direct_quotes": [
+        "After receiving his bachelor’s degree in history in 1969"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field_domain": "attendance",
+      "publisher": "University of California, Santa Barbara",
+      "source_id": "source_bulk_people_ucsb_michael_douglas",
+      "source_title": "Faculty and Alumni",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.ucsb.edu/about/faculty-and-alumni",
+      "verified_direct_quotes": [
+        "Michael Douglas ‘68 Academy Award-Winning Actor and Producer"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field_domain": "attendance",
+      "publisher": "University of California, San Diego",
+      "source_id": "source_bulk_people_ucsd_fred_ramsdell",
+      "source_title": "The Class of 2026 embraces discovery",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://today.ucsd.edu/story/the-class-of-2026-embraces-a-future-of-discovery",
+      "verified_direct_quotes": [
+        "A community college transfer student who graduated from UC San Diego in 1983 with a degree in biochemistry and cell biology, Ramsdell returned to campus just months after receiving the 2025 Nobel Prize in Physiology or Medicine."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field_domain": "attendance",
+      "publisher": "University of Georgia",
+      "source_id": "source_bulk_people_uga_alton_brown",
+      "source_title": "Notable Alumni",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://alumni.uga.edu/notable/",
+      "verified_direct_quotes": [
+        "Alton Brown (AB ’04)"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field_domain": "attendance",
+      "publisher": "University of North Carolina at Chapel Hill",
+      "source_id": "source_bulk_people_unc_michael_jordan",
+      "source_title": "Diploma Will Be Carter's Top Prize",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://goheels.com/news/2001/5/16/205484867",
+      "verified_direct_quotes": [
+        "Michael Jordan left Carolina after his junior year but went back for his degree."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field_domain": "attendance",
+      "publisher": "University of Southern California",
+      "source_id": "source_bulk_people_usc_sydney_kamlager_dove",
+      "source_title": "We Are Trojans",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.usc.edu/we-are-trojans/",
+      "verified_direct_quotes": [
+        "Kamlager-Dove earned a political science degree from the USC Dornsife College of Letters, Arts and Sciences."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field_domain": "attendance",
+      "publisher": "University of Virginia",
+      "source_id": "source_bulk_people_uva_edgar_allan_poe",
+      "source_title": "Notable Alumni",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://as.virginia.edu/notable-alumni",
+      "verified_direct_quotes": [
+        "Edgar Allan Poe (attended U.Va. in 1826 for one-term)"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field_domain": "attendance",
+      "publisher": "Vanderbilt University",
+      "source_id": "source_bulk_people_vanderbilt_james_patterson",
+      "source_title": "Distinguished Alumni Award Winners",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.vanderbilt.edu/alumni/about/awards/distinguished-alum/",
+      "verified_direct_quotes": [
+        "James Patterson, MA'70, the world's bestselling author, philanthropist, and advocate for childhood literacy and education"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field_domain": "attendance",
+      "publisher": "Washington University in St. Louis",
+      "source_id": "source_bulk_people_washu_georgie_lewis",
+      "source_title": "Georgie W. Lewis Career Development Professors",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://artsci.washu.edu/ampersand/monta%C3%B1o-and-ramos-named-georgie-w-lewis-career-development-professors",
+      "verified_direct_quotes": [
+        "Lewis, who graduated from Washington University in 1947 with a degree in liberal arts"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field_domain": "attendance",
+      "publisher": "University of Wisconsin–Madison",
+      "source_id": "source_bulk_people_wisconsin_virgil_abloh",
+      "source_title": "Notable Alumni",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.wisc.edu/about/notable-alumni/",
+      "verified_direct_quotes": [
+        "Virgil Abloh (2003) – Designer, artist"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-14",
+      "candidate_id": "candidate-v2:yale-university",
+      "field_domain": "attendance",
+      "publisher": "Yale University",
+      "source_id": "source_bulk_people_yale_amy_klobuchar",
+      "source_title": "Notable Alumni",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://jonathanedwards.yale.edu/about-0/notable-alumni",
+      "verified_direct_quotes": [
+        "Amy Klobuchar (1982) graduated magna cum laude from Yale with a degree in political science"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Warhol's historical Carnegie Mellon degree only.",
+      "publisher": "Carnegie Mellon University",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_cmu_andy_warhol",
+      "source_title": "Notable Alumni | School of Art",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://art.cmu.edu/people/alumni/",
+      "verified_direct_quotes": [
+        "Andy Warhol graduated with a degree in Pictorial Design from the Carnegie Institute of Technology (now Carnegie Mellon University) in 1949."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:cornell-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Ginsburg's Cornell bachelor's degree and Government field.",
+      "publisher": "Cornell University",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_cornell_ruth_bader_ginsburg",
+      "source_title": "Ruth Bader Ginsburg Biographical Data | Cornell Legal Information Institute",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.law.cornell.edu/supct/justices/ginsburg.bio.clr.html",
+      "verified_direct_quotes": [
+        "College: Cornell University, Phi Beta Kappa, Phi Kappa Phi, B.A. 1954, with high honors in Government and distinction in all subjects, College of Arts and Sciences Class Marshal."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:duke-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Cook's Duke MBA; it does not represent undergraduate tuition or ranking data.",
+      "publisher": "Duke University",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_duke_tim_cook",
+      "source_title": "2018 Commencement Speaker | Duke University",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://commencement.duke.edu/commencement-information/memorabilia-traditions/previous-speakers-degree-recipients/2018-commencement-speaker/",
+      "verified_direct_quotes": [
+        "Cook earned his MBA in 1988 from Duke, where he was a Fuqua Scholar, an honor given only to students who graduate in the top 10 percent of their class."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "This pilot intentionally stores alumnus_unspecified because this selected anchor does not itself establish a degree award.",
+      "publisher": "Georgetown University",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_georgetown_bradley_cooper",
+      "source_title": "Bradley Cooper Says Directorial Debut Mirrored Goal to Get Into Georgetown",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://www.georgetown.edu/news/bradley-cooper-says-directorial-debut-mirrored-goal-to-get-into-georgetown/",
+      "verified_direct_quotes": [
+        "Four-time Oscar nominee Bradley Cooper (C’97)"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports a conservative alumnus_unspecified relationship and B.S. class notation only.",
+      "publisher": "Johns Hopkins University",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_jhu_michael_bloomberg",
+      "source_title": "Alumni Corner | Department of Electrical and Computer Engineering",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://engineering.jhu.edu/ece/alumni/alumni-corner/",
+      "verified_direct_quotes": [
+        "Michael Bloomberg (BS ’64)"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports John Legend's Penn graduation and English degree.",
+      "publisher": "University of Pennsylvania",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_penn_john_legend",
+      "source_title": "John Legend to Speak at Penn’s 258th Commencement | Penn Today",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://penntoday.upenn.edu/news/award-winning-musician-humanitarian-and-alumnus-john-legend-speak-penn-s-258th-commencement",
+      "verified_direct_quotes": [
+        "Known in Penn circles by his birth name John Stephens, Legend graduated from the College of Arts and Sciences in 1999 with a degree in English and a concentration in African-American literature and culture."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:princeton-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Bezos's Princeton undergraduate degree only.",
+      "publisher": "Princeton University",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_princeton_bezos_attendance",
+      "source_title": "Jeff Bezos '86 honored by Liberty Science Center",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://engineering.princeton.edu/news/2015/05/01/jeff-bezos-86-honored-liberty-science-center",
+      "verified_direct_quotes": [
+        "Bezos received an undergraduate degree in electrical engineering and computer science from Princeton in 1986."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:stanford-university",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports Brown's Stanford degree; later graduate education is contextual only.",
+      "publisher": "Stanford University",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_stanford_sterling_brown",
+      "source_title": "Sterling K. Brown, award-winning actor, tells Stanford graduates not to be afraid to let their lights shine",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://news.stanford.edu/stories/2018/06/sterling-k-brown-award-winning-actor-tells-stanford-graduates-not-afraid-let-lights-shine",
+      "verified_direct_quotes": [
+        "He graduated from Stanford in 1998 with a degree in drama followed by an MFA from New York University’s Tisch School of the Arts in 2001."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "Supports alumnus and B.S. relationship; it does not supply an additional program-ranking claim.",
+      "publisher": "The University of Texas at Austin",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_ut_matthew_mcconaughey",
+      "source_title": "Script to Screen | Moody College of Communication",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://moody.utexas.edu/news/script-screen",
+      "verified_direct_quotes": [
+        "Oscar-winning actor and Department of Radio-Television-Film alumnus Matthew McConaughey (B.S. ’93)"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-13",
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field_domain": "attendance",
+      "field_level_provenance_required": true,
+      "limitation_note": "The official page defines an asterisk as attended but did not graduate; this supports attended_no_degree.",
+      "publisher": "University of Washington",
+      "source_confidence": "high",
+      "source_id": "source_people_pilot_uw_bruce_lee",
+      "source_title": "100 unforgettable UW alumni of the 20th century | UW Magazine",
+      "source_type": "official_institutional",
+      "source_url_or_reference": "https://magazine.washington.edu/feature/100-unforgettable-uw-alumni-of-the-20th-century/",
+      "verified_direct_quotes": [
+        "Lee, Bruce* Attended the UW from 1961 to 1964 as a drama major and opened his first kung fu studio on the “Ave.”"
+      ]
+    }
+  ]
+}

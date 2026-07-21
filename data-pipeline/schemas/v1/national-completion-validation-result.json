@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathos.example/schemas/v1/national-completion-validation-result.json",
+  "title": "PathOS National completion validation result",
+  "type": "object",
+  "required": ["record_type", "edition", "accepted_us_domestic_entries", "partial_records_excluded", "unresolved_records_excluded", "identity_resolved", "identity_unresolved", "highest_included_original_rank", "boundary_entry", "boundary_tie_group_complete", "rank_51_entries_excluded", "excluded_non_us_entries_count", "national_completion_accepted", "source_limited_manual_seed", "canonical_universe_created", "selection_memberships_created", "frontend_export_created", "result"],
+  "properties": {
+    "record_type": {"const": "national_completion_validation_result"},
+    "edition": {"const": "2026 Best Colleges"},
+    "accepted_us_domestic_entries": {"const": 50},
+    "partial_records_excluded": {"const": 0},
+    "unresolved_records_excluded": {"const": 0},
+    "identity_resolved": {"const": 50},
+    "identity_unresolved": {"const": 0},
+    "highest_included_original_rank": {"const": 46},
+    "boundary_entry": {"const": "University of Rochester"},
+    "boundary_tie_group_complete": {"const": true},
+    "rank_51_entries_excluded": {"const": 6},
+    "excluded_non_us_entries_count": {"const": 0},
+    "national_completion_accepted": {"const": true},
+    "source_limited_manual_seed": {"const": true},
+    "canonical_universe_created": {"const": false},
+    "selection_memberships_created": {"const": false},
+    "frontend_export_created": {"const": false},
+    "result": {"const": "passed"}
+  }
+}
