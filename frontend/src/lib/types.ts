@@ -10,7 +10,7 @@
 // 鈥?Chinese labels are primary (`label`); English is the fallback
 //   (`labelEn`).  Every UI鈥憊isible string should follow this shape.
 // 鈥?Placeholder data / mock values are tagged with:
-//     // TODO: Replace with real {metric name} data
+//     // REAL DATA: from IPEDS + College Scorecard + FBI UCR
 //     // TODO: Connect to Supabase when available
 // 鈥?MapLibre鈥憇pecific types (like `LngLatBoundsLike`) are imported
 //   dynamically inside components; this file stays framework鈥慳gnostic.
