@@ -47,3 +47,12 @@ tuition_summary.txt
 # Archive
 _archive/
 PathOS-db-ranking.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Pipeline cache
+data-pipeline/cache/
+data-pipeline/data/cache/

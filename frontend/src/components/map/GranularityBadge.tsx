@@ -22,7 +22,7 @@ const GRANULARITY_LABELS: Record<
 // MapLibre internals.
 
 /** MapLibre zoom level at or above which counties replace states. */
-const ZOOM_COUNTY_THRESHOLD = 7;
+const ZOOM_COUNTY_THRESHOLD = 10; // disabled - no county data
 
 /** MapLibre zoom level at or above which cities replace counties. */
 const ZOOM_CITY_THRESHOLD = 10;

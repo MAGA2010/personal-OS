@@ -252,3 +252,41 @@ data-pipeline/
 ```
 
 Once the data is in place, `npm run dev` and the map will render with real data — no code changes needed.
+---
+
+## 9. Data Status (2026-07-22)
+
+### University Data (universities.json)
+
+| Field | Coverage | Source |
+|-------|----------|--------|
+| admissionRate | 60/62 | College Scorecard |
+| employmentScore | 62/62 | College Scorecard (median earnings) |
+| annualCostRmb | 62/62 | IPEDS (51), tier fallback (11) |
+| safetyScore | 62/62 | FBI UCR (state-level) |
+| recognitionScore | 62/62 | Admission-rate derived |
+| programs | 62/62 | U.S. News 2026 ranking seeds |
+| historySummary | 62/62 | Pipeline Stage 3D |
+| anecdotes | 62/62 | Pipeline Stage 3D |
+| campusImages | 0/62 | Needs sourcing |
+
+### Regional Metrics (region-metrics.json)
+
+| Metric | State | County | City |
+|--------|-------|--------|------|
+| income | ✅ (51 states) | ❌ | ⚠️ (14 CA cities, estimates) |
+| safety | ✅ (51 states) | ❌ | ❌ |
+| employment | ✅ (51 states) | ❌ | ❌ |
+| cost | ✅ (51 states) | ❌ | ❌ |
+| chinese_population | ✅ (51 states) | ❌ | ❌ |
+| admission_rate | ❌ | ❌ | ⚠️ (14 CA cities, estimates) |
+
+### Granularity
+
+- **State**: ✅ Full choropleth with real FBI/ACS data
+- **County**: ❌ No data — disabled in UI
+- **City**: ✅ 56 city bubbles shown at high zoom, simplified circular boundaries
+
+### News (news.json)
+
+- 130 articles from 启德教育 + QS, summaries cleaned of crawler text
