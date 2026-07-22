@@ -1,0 +1,149 @@
+{
+  "record_type": "program_gap_repair_report",
+  "edition": "2026 Best Colleges",
+  "stream_gaps": [
+    {
+      "stream_id": "business-accounting",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-analytics",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-entrepreneurship",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-finance",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-international-business",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-management",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-management-information-systems",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-marketing",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-production-operations-management",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-real-estate",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "business-supply-chain-management-logistics",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-aerospace",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-biomedical",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-chemical",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-civil",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-computer",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-electrical",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-environmental",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-industrial",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-materials",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "engineering-mechanical",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "undergraduate-business-programs",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "undergraduate-computer-science",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "undergraduate-economics",
+      "stream_status_after_repair": "no_verified_records",
+      "gap_reason": "Official sources were checked; no direct 2026 Top-20 record met accepted-seed requirements."
+    },
+    {
+      "stream_id": "undergraduate-engineering-doctorate",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "undergraduate-engineering-no-doctorate",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "undergraduate-nursing",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    },
+    {
+      "stream_id": "undergraduate-psychology",
+      "stream_status_after_repair": "incomplete",
+      "gap_reason": "Direct official records exist, but no complete first-20-entry plus boundary-tie proof is available."
+    }
+  ],
+  "canonical_universe_created": false,
+  "selection_memberships_created": false,
+  "frontend_export_created": false
+}

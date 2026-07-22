@@ -1,0 +1,88 @@
+{
+  "record_type": "stage3d_fill_bulk_completion_wave1_immutable_input_pin_manifest",
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "pins": [
+    {
+      "pin_id": "candidate_v2",
+      "role": "candidate_scope",
+      "path": "data/university-universe-candidates/v2-source-limited/candidate-universities.json",
+      "sha256": "8f940aa6d336402ff9c3c76a43d2efacdf2c887dc983afeb344937db9eadb18d",
+      "immutable": true
+    },
+    {
+      "pin_id": "stage3c_demo_programs",
+      "role": "demo_program_scope",
+      "path": "artifacts/stage3c-academic-geo-enrichment/stage3c-demo-programs-overlay.json",
+      "sha256": "11ac883fcef31d00cd57610c17c848feca479c8d5c2b7030f7f07d69540a5491",
+      "immutable": true
+    },
+    {
+      "pin_id": "batch_a_attendance",
+      "role": "prior_notable_attendance",
+      "path": "artifacts/stage3d-fill-bulk-people-v2-batch-a/stage3d-fill-bulk-people-v2-batch-a-notable-attendance.json",
+      "sha256": "2171eefc72ee6cf2ccf755678d85925505417e3eec87e938cd01c5358e6c40c1",
+      "immutable": true
+    },
+    {
+      "pin_id": "batch_a_program_people",
+      "role": "prior_program_people",
+      "path": "artifacts/stage3d-fill-bulk-people-v2-batch-a/stage3d-fill-bulk-people-v2-batch-a-program-person-matches.json",
+      "sha256": "7129201717e674927cf3d7405da0ab9fcb0f08f225ba2c70d1c481a9692ebe7d",
+      "immutable": true
+    },
+    {
+      "pin_id": "batch_a_summary",
+      "role": "prior_batch_summary",
+      "path": "artifacts/stage3d-fill-bulk-people-v2-batch-a/stage3d-fill-bulk-people-v2-batch-a-summary.json",
+      "sha256": "e9b24febac392ed5ab74beb0309f211d8cfa7d41e82ce7ffcf15b722cc862a57",
+      "immutable": true
+    },
+    {
+      "pin_id": "batch_b_attendance",
+      "role": "prior_notable_attendance",
+      "path": "artifacts/stage3d-fill-bulk-people-v2-batch-b/stage3d-fill-bulk-people-v2-batch-b-notable-attendance.json",
+      "sha256": "947f6b6b04a1a151ff8009930c3b46c443cc1217bfb9d0d075ff9c21d9c50df0",
+      "immutable": true
+    },
+    {
+      "pin_id": "batch_b_program_people",
+      "role": "prior_program_people",
+      "path": "artifacts/stage3d-fill-bulk-people-v2-batch-b/stage3d-fill-bulk-people-v2-batch-b-program-people.json",
+      "sha256": "5a68b45b7c29d88b4068c71adf830c8e38cc5f7b2e091b9912913fc315ca66fa",
+      "immutable": true
+    },
+    {
+      "pin_id": "batch_b_summary",
+      "role": "prior_batch_summary",
+      "path": "artifacts/stage3d-fill-bulk-people-v2-batch-b/stage3d-fill-bulk-people-v2-batch-b-summary.json",
+      "sha256": "6619144204baffdd4f5da31e191410e566364b5049dfda0722f100e31805d4f0",
+      "immutable": true
+    }
+  ],
+  "program_person_batches": [
+    {
+      "batch_id": "stage3d-fill-bulk-people-v2-batch-a",
+      "artifact_pin_id": "batch_a_program_people",
+      "collection_field": "records"
+    },
+    {
+      "batch_id": "stage3d-fill-bulk-people-v2-batch-b",
+      "artifact_pin_id": "batch_b_program_people",
+      "collection_field": "slots"
+    }
+  ],
+  "combined_attendance_batches": [
+    {
+      "batch_id": "stage3d-fill-bulk-people-v2-batch-a",
+      "attendance_pin_id": "batch_a_attendance",
+      "summary_pin_id": "batch_a_summary"
+    },
+    {
+      "batch_id": "stage3d-fill-bulk-people-v2-batch-b",
+      "attendance_pin_id": "batch_b_attendance",
+      "summary_pin_id": "batch_b_summary"
+    }
+  ]
+}

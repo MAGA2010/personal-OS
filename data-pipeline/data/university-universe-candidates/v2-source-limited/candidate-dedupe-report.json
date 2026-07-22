@@ -1,0 +1,13 @@
+{
+  "record_type": "university_universe_candidate_v2_dedupe_report",
+  "input_record_count": 130,
+  "candidate_university_count": 62,
+  "duplicate_identity_occurrences_merged": 68,
+  "duplicate_ranking_records_excluded": 0,
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "final_universe": false,
+  "official_selection_memberships_generated": false,
+  "frontend_export_generated": false
+}

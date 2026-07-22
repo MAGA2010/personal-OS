@@ -1,0 +1,21 @@
+{
+  "record_type": "stage3c_town_source_manifest",
+  "primary_source_id": "source_census_2024_places_gazetteer",
+  "source_status": "source_unavailable_in_execution_environment",
+  "allowed_place_types": [
+    "city",
+    "town",
+    "municipality",
+    "incorporated_place",
+    "census_designated_place"
+  ],
+  "forbidden_place_types": [
+    "county",
+    "campus",
+    "neighborhood",
+    "unincorporated_label"
+  ],
+  "distance_method": "haversine_straight_line",
+  "cache_path": "cache/stage3c-geography/2024_Gaz_place_national.zip",
+  "limitation_note": "The normal public Census download and public TigerWeb request were rejected by the execution environment. No fallback source is used without a reviewed lawful cache."
+}

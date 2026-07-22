@@ -1,0 +1,20 @@
+{
+  "record_type": "program_top20_completion_attempt_validation_result",
+  "edition": "2026 Best Colleges",
+  "streams_assessed": 28,
+  "accepted_program_records_considered": 80,
+  "new_verified_records_stageable": 0,
+  "complete_stream_count": 0,
+  "incomplete_stream_count": 27,
+  "manual_seed_needed_stream_count": 1,
+  "no_verified_records_stream_count": 0,
+  "canonical_universe_created": false,
+  "selection_memberships_created": false,
+  "frontend_export_created": false,
+  "result": "passed",
+  "generated_at": "2026-07-12T10:19:10.384030+00:00",
+  "validator": {
+    "command": "PYTHONPATH=src python3 -m pathos_data validate-program-top20-completion-attempt",
+    "python": "python3"
+  }
+}

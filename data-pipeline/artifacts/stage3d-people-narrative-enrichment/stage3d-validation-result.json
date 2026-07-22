@@ -1,0 +1,14 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "ranking_field_contamination": 0,
+  "record_type": "stage3d_people_narrative_validation_result",
+  "result": "passed",
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "top_program_slot_count": 310,
+  "total_universities": 62
+}

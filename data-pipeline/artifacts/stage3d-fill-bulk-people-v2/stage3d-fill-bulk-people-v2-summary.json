@@ -1,0 +1,40 @@
+{
+  "cache_missing_count": 0,
+  "cache_verified_quote_count": 0,
+  "deterministic_generation": true,
+  "exclusions_count": 0,
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "identified_person_count": 0,
+  "incomplete": true,
+  "input_sha256": {
+    "bulk_people_v1_summary": "780d45fea48e8e3f55141a9abb10e947c4c005762251ca34a389449107eef1e3",
+    "cache_manifest": "234d551d09158f0f1fd9544d31308a14bfaf8d273bfe2e72c32f10847de4841b",
+    "candidate_v2": "8f940aa6d336402ff9c3c76a43d2efacdf2c887dc983afeb344937db9eadb18d",
+    "exclusions": "fbea5bef43ff106b9cdf40f31a2c05302a045680515cd243dbada65ed1c31b7f",
+    "program_people_observations": "a00333d160b65c3a57f4509364ce4d543f807d7e27e56a5885dabdd076ccf832",
+    "source_manifest": "f6429d8b1662a3c6094f384accdc2eb6f5b2b33dc47aece1e8f9776a6b752b3a",
+    "stage3c_top_program_overlay": "11ac883fcef31d00cd57610c17c848feca479c8d5c2b7030f7f07d69540a5491"
+  },
+  "local_cache_substring_check_count": 0,
+  "manual_verbatim_check_count": 0,
+  "no_qualifying_person_found_count": 0,
+  "not_final": true,
+  "not_final_reason": "This is a source-limited pipeline overlay, not a final People/Narrative dataset or publication export.",
+  "official_selection_memberships_generated": false,
+  "program_people_after_count": 0,
+  "program_people_before_count": 0,
+  "ranking_field_contamination": 0,
+  "readiness_status": "top1_slot_pipeline_ready_reviewed_intake_not_started",
+  "record_type": "stage3d_fill_bulk_people_v2_summary",
+  "remaining_gaps": [
+    "62 Top-1 program-person slots remain source_review_not_completed.",
+    "No real-person source intake was authorized in this pipeline implementation round."
+  ],
+  "slots_processed": 62,
+  "slots_target": 62,
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "source_review_not_completed_count": 62,
+  "total_universities": 62
+}

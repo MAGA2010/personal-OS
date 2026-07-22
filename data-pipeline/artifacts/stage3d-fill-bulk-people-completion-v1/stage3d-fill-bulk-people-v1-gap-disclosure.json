@@ -1,0 +1,18 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "gaps": [
+    {
+      "count": 310,
+      "display_as_none": false,
+      "field": "program_people",
+      "reason": "Program-specific people are explicitly deferred by Stage 3D-Fill Bulk People Completion v1.",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v1_gap_disclosure",
+  "source_limited": true
+}

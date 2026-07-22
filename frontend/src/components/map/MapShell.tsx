@@ -17,6 +17,7 @@ import { buildCityAggregates, getCitiesByState, getStateCenter, getCityMetricDis
 import ComparePanel from "./ComparePanel";
 import universityData from "@/data/universities.json";
 import regionMetrics from "@/data/region-metrics.json";
+import newsData from "@/data/news.json";
 import STATE_OPTIONS from "@/data/state-options.json";
 import {
   Compass,
@@ -131,10 +132,8 @@ export function MapShell({
   const [regionDetail, setRegionDetail] =
     useState<SelectedRegionDetail | null>(null);
 
-  // TODO: Replace with real news articles from Supabase / CMS
-  // Expected shape: NewsArticle[]
-  const [newsArticles, setNewsArticles] = useState<NewsArticle[]>(
-    MOCK_NEWS_ARTICLES,
+  const [newsArticles] = useState<NewsArticle[]>(
+    (newsData as any).articles ?? []
   );
 
   // ── Derived State ───────────────────────────────────────────────
@@ -255,7 +254,14 @@ export function MapShell({
   const handleCityClick = useCallback((cityId: string) => {
     setSelectedCityId(cityId);
     setSelectedUniversityId(null);
-  }, []);
+    setSelectedRegionFips(null);
+    setRegionDetail(null);
+    // Fly to the selected city
+    const city = cityAggregates.find(c => c.id === cityId);
+    if (city) {
+      flyTo(city.longitude, city.latitude, 9.5);
+    }
+  }, [cityAggregates, flyTo]);
 
   const handleBackToState = useCallback(() => {
     setSelectedCityId(null);
@@ -386,12 +392,12 @@ export function MapShell({
                  }
                }}
                selectedId={selectedUniversityId}
-               pinMinZoom={cityDrilldownEnabled ? 7.6 : 0}
+               pinMinZoom={cityDrilldownEnabled ? 5.0 : 0}
              />
              {selectedStateFips === "06" && (
                <CaliforniaRoadLayer enabled cities={visibleCities} />
              )}
-             {cityDrilldownEnabled && (
+             {cityDrilldownEnabled && selectedStateFips && (
                <CityLayer
                  visibleCities={visibleCities}
                  activeMetricId={viewState.activeMetricId}
@@ -400,63 +406,7 @@ export function MapShell({
                />
              )}
            </MapCanvas>
-          {/* ── University pill strip — collapsible ── */}
-          {pillsOpen ? (
-            <div className="shrink-0 border-t border-line bg-panel px-3 py-2 overflow-x-auto" role="navigation" aria-label="大学列表">
-              <div className="flex items-center justify-between mb-1.5">
-                <div className="flex items-center gap-2">
-                  <span className="text-xs text-ink/40">{allUniversities.length} 所大学</span>
-                  <button
-                    onClick={() => setCompareOpen(v => !v)}
-                    className={`rounded px-2 py-0.5 text-[10px] font-medium transition-colors ${
-                      compareOpen ? "bg-cobalt/10 text-cobalt" : "text-ink/36 hover:text-ink hover:bg-ink/5"
-                    }`}
-                  >
-                    对比 {compareIds.length > 0 ? `(${compareIds.length})` : ""}
-                  </button>
-                </div>
-                <button
-                  onClick={() => setPillsOpen(false)}
-                  className="rounded p-0.5 text-ink/36 hover:text-ink hover:bg-ink/5 transition-colors"
-                  aria-label="收起大学列表"
-                >
-                  <ChevronDown size={14} />
-                </button>
-              </div>
-              <UniversityMarkers
-                universities={allUniversities}
-                onSelect={(id) => {
-                  if (id && compareOpen) {
-                    addToCompare(id);
-                  } else {
-                    setSelectedUniversityId(id);
-                  }
-                }}
-                selectedId={selectedUniversityId}
-              />
-            </div>
-         ) : (
-            <div className="shrink-0 border-t border-line bg-panel flex items-center justify-between px-3">
-              <button
-                onClick={() => setPillsOpen(true)}
-                className="flex items-center gap-1 py-1.5 text-xs text-ink/44 hover:text-ink transition-colors"
-                aria-label="展开大学列表"
-              >
-                <GraduationCap size={11} />
-                <span>{allUniversities.length} 所大学</span>
-                <ChevronUp size={11} />
-              </button>
-              <button
-                onClick={() => setCompareOpen(v => !v)}
-                className={`rounded px-2 py-0.5 text-[10px] font-medium transition-colors ${
-                  compareOpen ? "bg-cobalt/10 text-cobalt" : "text-ink/36 hover:text-ink hover:bg-ink/5"
-                }`}
-              >
-                对比 {compareIds.length > 0 ? `(${compareIds.length})` : ""}
-              </button>
-            </div>
-          )}
-            { (compareOpen || compareIds.length > 0) && (
+          { (compareOpen || compareIds.length > 0) && (
             <ComparePanel
               universities={allUniversities}
               selectedIds={compareIds}
@@ -477,20 +427,48 @@ export function MapShell({
           )}
           {/* Granularity/drill-down controls overlay */}
           <div className="absolute right-3 top-3 z-10 flex items-center gap-2">
-            <button
-              type="button"
-              onClick={handleDrilldownToggle}
-              className={`rounded-full border px-2.5 py-1 text-[11px] font-medium shadow-sm backdrop-blur transition-colors ${
-                cityDrilldownEnabled
-                  ? "border-cobalt/35 bg-cobalt text-white"
-                  : "border-line bg-white/88 text-ink/64 hover:bg-white hover:text-ink"
-              }`}
-              aria-pressed={cityDrilldownEnabled}
-            >
-              城市下钻{cityDrilldownEnabled ? "已开" : ""}
-            </button>
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setShowStateDropdown(v => !v)}
+                className={`rounded-full border px-2.5 py-1 text-[11px] font-medium shadow-sm backdrop-blur transition-colors ${
+                  cityDrilldownEnabled
+                    ? "border-cobalt/35 bg-cobalt text-white"
+                    : "border-line bg-white/88 text-ink/64 hover:bg-white hover:text-ink"
+                }`}
+                aria-pressed={cityDrilldownEnabled}
+              >
+                {cityDrilldownEnabled && selectedStateFips
+                  ? (STATE_OPTIONS.find(s => s.fipsCode === selectedStateFips)?.name || selectedStateFips)
+                  : "选择州"}
+                <span className="ml-1">{cityDrilldownEnabled ? "▼" : "▽"}</span>
+              </button>
+              {showStateDropdown && (
+                <div className="absolute right-0 top-full mt-1 z-20 w-[240px] max-h-[320px] overflow-y-auto rounded-xl border border-line bg-white shadow-lg backdrop-blur-sm">
+                  <div className="border-b border-line/60 px-3 py-2 text-[10px] font-semibold text-ink/48">选择一个州查看城市级数据</div>
+                  <div className="py-1">
+                    {STATE_OPTIONS.map(st => (
+                      <button
+                        key={st.fipsCode}
+                        type="button"
+                        onClick={() => handleStateSelect(st.fipsCode)}
+                        className={`flex w-full items-center gap-3 px-3 py-1.5 text-left text-xs transition-colors hover:bg-cobalt/8 ${
+                          selectedStateFips === st.fipsCode ? "bg-cobalt/10 text-cobalt font-medium" : "text-ink"
+                        }`}
+                      >
+                        <span className="w-6 text-center text-[10px] text-ink/28">{st.fipsCode}</span>
+                        <span>{st.name}</span>
+                        <span className="ml-auto text-[10px] text-ink/36">{st.nameEn}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
             <span className="pointer-events-none rounded-full border border-line bg-white/88 px-2.5 py-1 text-[11px] font-medium text-ink/64 backdrop-blur">
-              {selectedCity ? "城市详情" : cityDrilldownEnabled && selectedStateFips ? selectedStateFips + " 城市级" : "州级色块图"}
+              {selectedCity ? "城市详情" : cityDrilldownEnabled && selectedStateFips
+                ? (STATE_OPTIONS.find(s => s.fipsCode === selectedStateFips)?.name || selectedStateFips) + " 城市级 · " + visibleCities.reduce((s,c)=>s + c.universityCount, 0) + " 所大学"
+                : "州级色块图"}
             </span>
           </div>
 
@@ -499,7 +477,7 @@ export function MapShell({
               <div className="mb-2 flex items-center justify-between gap-2">
                 <div>
                   <div className="font-semibold text-ink">城市级数据</div>
-                  <div className="text-[11px] text-ink/48">{activeMetricDef.label} · {visibleCities.length} 个城市</div>
+                  <div className="text-[11px] text-ink/48">{activeMetricDef.label} · {visibleCities.length} 个城市 · {visibleCities.reduce((s,c)=>s + c.universityCount, 0)} 所大学</div>
                 </div>
                 <span className="rounded-full bg-cobalt/10 px-2 py-0.5 text-[10px] font-medium text-cobalt">City Layer</span>
               </div>
@@ -565,7 +543,7 @@ export function MapShell({
               onClose={handleSidebarClose}
             />
           ) : (
-            <NewsFeedSidebar articles={newsArticles} />
+            <div className="flex flex-col items-center justify-center h-full p-6 text-center"><div className="grid h-12 w-12 place-items-center rounded-full bg-ink/5 text-ink/20 mb-3"><svg className="h-6 w-6" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24"><circle cx="12" cy="10" r="3" /><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z" /></svg></div><p className="text-sm font-medium text-ink/60">点击地图上的州或城市</p><p className="mt-1 text-xs text-ink/40">查看区域指标详情和附近大学</p></div>
           )}
         </div>
       </aside>
@@ -693,61 +671,84 @@ function RegionDetailSidebar({
 // ═══════════════════════════════════════════════════════════════════
 
 function NewsFeedSidebar({ articles }: { articles: NewsArticle[] }) {
+  const [expandedId, setExpandedId] = useState<string | null>(null);
+
+  const toggleExpand = (id: string) => {
+    setExpandedId((prev) => (prev === id ? null : id));
+  };
+
   return (
     <>
-      {/* Sidebar header */}
       <div className="border-b border-line px-4 py-3">
         <h2 className="text-sm font-semibold text-ink">留学资讯</h2>
-        <p className="text-xs text-ink/48">最新动态与政策解读</p>
+        <p className="text-xs text-ink/48">点击查看详情 · 共 {articles.length} 条</p>
       </div>
 
-      {/* Article list */}
       <div className="flex-1 overflow-y-auto">
         {articles.length === 0 ? (
           <div className="flex flex-col items-center justify-center gap-2 px-4 py-12 text-center">
-            <p className="text-sm text-ink/40">
-              {/* TODO: Connect to Supabase when available */}
-              暂无资讯
-            </p>
+            <p className="text-sm text-ink/40">暂无资讯</p>
           </div>
         ) : (
           <ul className="divide-y divide-line/60" role="list">
-            {articles.map((article) => (
-              <li key={article.id}>
-                <a
-                  href={article.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block px-4 py-3 transition-colors hover:bg-ink/[0.03] group"
-                >
-                  <div className="flex items-start justify-between gap-2">
-                    <h3 className="flex-1 text-xs font-medium leading-snug text-ink group-hover:text-cobalt transition-colors">
-                      {article.title}
-                    </h3>
-                    <ExternalLink
-                      size={12}
-                      className="shrink-0 mt-0.5 text-ink/24 group-hover:text-cobalt/60 transition-colors"
-                    />
-                  </div>
-                  <p className="mt-1 text-[11px] leading-relaxed text-ink/52 line-clamp-2">
-                    {article.summary}
-                  </p>
-                  <div className="mt-2 flex items-center gap-2 text-[10px] text-ink/36">
-                    <span>{article.source}</span>
-                    <span aria-hidden="true">·</span>
-                    <time dateTime={article.publishedAt}>
-                      {formatRelativeDate(article.publishedAt)}
-                    </time>
-                    <span
-                      className="ml-auto rounded-full bg-ink/6 px-1.5 py-0.5 text-[10px]"
-                      aria-label={`分类: ${article.category}`}
+            {articles.map((article) => {
+              const isExpanded = expandedId === article.id;
+              return (
+                <li key={article.id}>
+                  <div className="px-4 py-3 transition-colors hover:bg-ink/[0.03]">
+                    <button
+                      onClick={() => toggleExpand(article.id)}
+                      className="w-full text-left"
                     >
-                      {NEWS_CATEGORY_LABELS[article.category] ?? article.category}
-                    </span>
+                      <div className="flex items-start justify-between gap-2">
+                        <h3 className="flex-1 text-xs font-medium leading-snug text-ink">
+                          {article.title}
+                        </h3>
+                        <ChevronDown
+                          size={12}
+                          className={"shrink-0 mt-0.5 text-ink/24 transition-transform " + (isExpanded ? "rotate-180" : "")}
+                        />
+                      </div>
+                      <p className={"mt-1 text-[11px] leading-relaxed text-ink/52 " + (isExpanded ? "" : "line-clamp-2")}>
+                        {article.summary}
+                      </p>
+                    </button>
+                    {isExpanded && (
+                      <div className="mt-2 animate-fade-in">
+                        <p className="text-[11px] leading-relaxed text-ink/60 whitespace-pre-line">
+                          {article.summary}
+                        </p>
+                        <div className="mt-2 flex items-center gap-3">
+                          <a
+                            href={article.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 rounded-md bg-cobalt/10 px-2.5 py-1 text-[11px] font-medium text-cobalt transition-colors hover:bg-cobalt/20"
+                          >
+                            <ExternalLink size={11} />
+                            查看原文
+                          </a>
+                          <span className="text-[10px] text-ink/36">来源: {article.source}</span>
+                        </div>
+                      </div>
+                    )}
+                    <div className="mt-2 flex items-center gap-2 text-[10px] text-ink/36">
+                      <span>{article.source}</span>
+                      <span aria-hidden="true">·</span>
+                      <time dateTime={article.publishedAt}>
+                        {formatRelativeDate(article.publishedAt)}
+                      </time>
+                      <span
+                        className="ml-auto rounded-full bg-ink/6 px-1.5 py-0.5 text-[10px]"
+                        aria-label={`分类: ${article.category}`}
+                      >
+                        {NEWS_CATEGORY_LABELS[article.category] ?? article.category}
+                      </span>
+                    </div>
                   </div>
-                </a>
-              </li>
-            ))}
+                </li>
+              );
+            })}
           </ul>
         )}
       </div>
@@ -787,82 +788,6 @@ function formatRelativeDate(isoString: string): string {
   const months = Math.floor(days / 30);
   return `${months}个月前`;
 }
-
-// ═══════════════════════════════════════════════════════════════════
-// Mock Data — to be replaced with Supabase / CMS
-// ═══════════════════════════════════════════════════════════════════
-//
-// TODO: Replace with real {news, article} data
-// TODO: Connect to Supabase when available
-//
-// Expected Supabase query shape:
-//   SELECT id, title, title_en, summary, source, url, published_at, category
-//     FROM news_articles
-//    ORDER BY published_at DESC
-//    LIMIT 20;
-
-const MOCK_NEWS_ARTICLES: NewsArticle[] = [
-  {
-    id: "news-001",
-    title: "2026年H-1B签证新规解读：对中国留学生的影响",
-    titleEn: "2026 H-1B Visa Changes: Impact on Chinese Students",
-    summary: "美国移民局发布2026年度H-1B签证最新政策，STEM专业优势进一步扩大，对中国留学生总体利好。",
-    source: "EIC Education",
-    url: "#",
-    publishedAt: "2026-07-08T10:00:00Z",
-    category: "visa",
-  },
-  {
-    id: "news-002",
-    title: "US News 2027全球大学排名提前泄露：亚洲高校表现亮眼",
-    titleEn: "US News 2027 Rankings Leak: Asian Universities Shine",
-    summary: "US News 2027全球大学排名中，新加坡国立大学首次进入全球前十，清北排名持续上升。",
-    source: "US News",
-    url: "#",
-    publishedAt: "2026-07-07T14:30:00Z",
-    category: "ranking",
-  },
-  {
-    id: "news-003",
-    title: "加州大学系统宣布扩招国际学生：2027秋季入学名额增加15%",
-    titleEn: "UC System Expands International Enrollment by 15% for Fall 2027",
-    summary: "加州大学伯克利、洛杉矶、圣地亚哥等校区将大幅增加国际学生录取名额，中国学生为最大受益群体。",
-    source: "UC Newsroom",
-    url: "#",
-    publishedAt: "2026-07-06T08:15:00Z",
-    category: "admissions",
-  },
-  {
-    id: "news-004",
-    title: "留学生活成本排行2026：纽约仍居榜首，德州城市性价比突出",
-    titleEn: "2026 Cost of Living Rankings for International Students",
-    summary: "最新留学生活成本数据显示，纽约、旧金山、波士顿继续占据前三，休斯顿、达拉斯性价比最优。",
-    source: "QS",
-    url: "#",
-    publishedAt: "2026-07-05T16:45:00Z",
-    category: "life",
-  },
-  {
-    id: "news-005",
-    title: "STEM OPT延期政策更新：2026年新增AI与量子计算方向",
-    titleEn: "STEM OPT Extension Adds AI and Quantum Computing Fields for 2026",
-    summary: "美国国土安全部将人工智能、量子计算等新兴领域纳入STEM OPT延期目录，相关专业毕业生可获36个月OPT。",
-    source: "DHS",
-    url: "#",
-    publishedAt: "2026-07-04T09:00:00Z",
-    category: "career",
-  },
-  {
-    id: "news-006",
-    title: "英国毕业生签证政策收紧：2027年起最低薪资门槛上调至3万英镑",
-    titleEn: "UK Graduate Visa Tightens: Minimum Salary Threshold Rises to £30K from 2027",
-    summary: "英国内政部宣布2027年起毕业生签证转工签的最低薪资要求从£26,200提高至£30,000，中国学生需提前规划。",
-    source: "UK Home Office",
-    url: "#",
-    publishedAt: "2026-07-03T11:20:00Z",
-    category: "policy",
-  },
-];
 
 // ── Mock Region Detail ────────────────────────────────────────────
 //
@@ -917,15 +842,6 @@ const MOCK_REGION_DETAIL: Record<string, SelectedRegionDetail> = {
           value: 0.92,
           rawValue: 427000,
           displayValue: "¥43万",
-          year: 2025,
-        },
-        {
-          fipsCode: "06",
-          granularity: "state",
-          metricId: "admission_rate",
-          value: 0.2,
-          rawValue: 26,
-          displayValue: "26.0%",
           year: 2025,
         },
         {

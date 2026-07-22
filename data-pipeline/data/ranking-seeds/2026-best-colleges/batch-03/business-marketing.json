@@ -1,0 +1,94 @@
+{
+  "record_type": "manual_ranking_seed_batch",
+  "schema_version": "v1",
+  "batch_id": "stage-2b2-batch-03-business-marketing",
+  "created_at": "2026-07-11T00:00:00+08:00",
+  "stream": {
+    "stream_id": "business-marketing-batch-03",
+    "ranking_system": "u_s_news",
+    "ranking_family": "undergraduate_program",
+    "category_id": "business-marketing",
+    "edition": "2026 Best Colleges",
+    "publication_date": "2025-09-23",
+    "expected_cutoff": 20
+  },
+  "records": [
+    {
+      "record_id": "batch03-marketing-uf",
+      "ranking_system": "u_s_news",
+      "ranking_family": "undergraduate_program",
+      "category_id": "business-marketing",
+      "edition": "2026 Best Colleges",
+      "school_display_name": "Heavener School of Business",
+      "numeric_rank": 10,
+      "displayed_rank": "#10",
+      "tied": false,
+      "source": {
+        "source_id": "uf-2026-marketing-batch03",
+        "url": "https://warrington.ufl.edu/news/2026-us-news-best-colleges/",
+        "source_type": "university_official_news",
+        "accessed_at": "2026-07-11T00:00:00+08:00"
+      },
+      "evidence": {
+        "directly_supported_fields": [
+          "school_display_name",
+          "ranking_family",
+          "category_id",
+          "edition",
+          "numeric_rank",
+          "displayed_rank",
+          "tied"
+        ]
+      },
+      "edition_evidence": "edition_direct",
+      "evidence_anchors": [
+        {
+          "field": "school_display_name",
+          "source_id": "uf-2026-marketing-batch03",
+          "quote": "Heavener School of Business",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "ranking_family",
+          "source_id": "uf-2026-marketing-batch03",
+          "quote": "undergraduate business programs",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "category_id",
+          "source_id": "uf-2026-marketing-batch03",
+          "quote": "Marketing",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "edition",
+          "source_id": "uf-2026-marketing-batch03",
+          "quote": "2026 Best Colleges",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "numeric_rank",
+          "source_id": "uf-2026-marketing-batch03",
+          "quote": "Overall: #10",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "displayed_rank",
+          "source_id": "uf-2026-marketing-batch03",
+          "quote": "Overall: #10",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "tied",
+          "source_id": "uf-2026-marketing-batch03",
+          "quote": "Overall: #10",
+          "evidence_type": "direct_quote"
+        }
+      ],
+      "entered_by": "pathos-stage-2b2-batch-03",
+      "entered_at": "2026-07-11T00:00:00+08:00",
+      "verification_status": "verified",
+      "notes": "Direct official UF evidence; incomplete category coverage."
+    }
+  ]
+}

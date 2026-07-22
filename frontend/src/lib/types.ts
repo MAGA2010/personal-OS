@@ -45,7 +45,6 @@ export type MetricId =
   | "safety"
   | "employment"
   | "cost"
-  | "admission_rate"
   | "chinese_population";
 
 /** Choropleth granularity controlled by zoom level. */

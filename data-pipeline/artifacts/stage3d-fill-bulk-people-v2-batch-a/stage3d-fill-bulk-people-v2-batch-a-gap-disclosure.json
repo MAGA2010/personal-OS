@@ -1,0 +1,84 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "gaps": [
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer Science",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Columbia University"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer Science",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Cornell University"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer Science",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Econometrics and Quantitative Economics",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Harvard University"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer Science",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer Science",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Real Estate",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Computer and Information Sciences, General",
+      "slot_status": "source_review_not_completed",
+      "university_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "display_as_none": false,
+      "null_reason": "program_person_source_review_not_completed",
+      "program_name": "Econometrics and Quantitative Economics",
+      "slot_status": "source_review_not_completed",
+      "university_name": "Yale University"
+    }
+  ],
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v2_batch_a_gap_disclosure",
+  "source_limited": true,
+  "source_review_not_completed_is_none": false
+}

@@ -1,0 +1,49 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "observations": [
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Bezos received an undergraduate degree in electrical engineering and computer science from Princeton in 1986.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_people_pilot_princeton_bezos_attendance"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Bezos received an undergraduate degree in electrical engineering and computer science from Princeton in 1986.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_people_pilot_princeton_bezos_attendance"
+        }
+      },
+      "identity_confirmation_notes": "The immutable Bulk People v1 record and its reviewed Princeton source resolve the named person, school, degree program, and graduation year without fuzzy matching.",
+      "identity_resolution_method": "reused_verified_bulk_people_v1_identity",
+      "match_notes": "The source states an Electrical Engineering and Computer Science undergraduate degree; Computer Science is the immutable Princeton Top-1 demo-program slot.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:jeff-bezos:princeton-university:source-people-pilot-princeton-bezos-attendance",
+      "person_identity_disambiguator_source_id": "source_people_pilot_princeton_bezos_attendance",
+      "person_name": "Jeff Bezos",
+      "program_match_basis": "source_stated_related_program",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "Princeton Engineering official Jeff Bezos profile"
+      ],
+      "reviewed_source_ids": [
+        "source_people_pilot_princeton_bezos_attendance"
+      ],
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_people_pilot_princeton_bezos_attendance"
+      ]
+    }
+  ],
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v2_batch_a_people_observations",
+  "source_limited": true
+}

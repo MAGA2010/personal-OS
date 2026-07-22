@@ -21,6 +21,7 @@
     "topojson-simplify": "^3.0.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "@types/d3-scale-chromatic": "^3.1.0",
     "@types/node": "^20.14.0",
     "@types/react": "^18.3.0",

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathos.example/schemas/v1/ranking-pilot-validation-result.json",
+  "title": "PathOS pilot ranking validation result",
+  "type": "object",
+  "required": ["record_type", "edition", "seed_batches_validated", "verified_records_stageable", "partially_verified_records_excluded_from_staging", "unresolved_records_excluded_from_staging", "canonical_universe_created", "selection_memberships_created", "frontend_export_created", "result"],
+  "properties": {"record_type": {"const": "ranking_collection_pilot_validation_result"}, "edition": {"type": "string", "minLength": 1}, "seed_batches_validated": {"type": "integer", "minimum": 1}, "verified_records_stageable": {"type": "integer", "minimum": 0}, "partially_verified_records_excluded_from_staging": {"type": "integer", "minimum": 0}, "unresolved_records_excluded_from_staging": {"type": "integer", "minimum": 0}, "canonical_universe_created": {"const": false}, "selection_memberships_created": {"const": false}, "frontend_export_created": {"const": false}, "result": {"const": "passed"}}
+}

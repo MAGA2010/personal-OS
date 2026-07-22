@@ -1,0 +1,11 @@
+{
+  "record_type": "official_program_sweep_duplicate_dedupe_report",
+  "edition": "2026 Best Colleges",
+  "existing_records_considered": 36,
+  "new_records_created": 26,
+  "duplicate_skipped_records": [],
+  "dedupe_policy": "Reject a newly accepted record when category_id, school_display_name, and numeric_rank duplicate a prior accepted program seed; retain the earlier evidence without mutation.",
+  "canonical_universe_created": false,
+  "selection_memberships_created": false,
+  "frontend_export_created": false
+}

@@ -1,0 +1,10 @@
+{
+  "record_type": "program_top20_completion_attempt_dedupe_report",
+  "edition": "2026 Best Colleges",
+  "accepted_records_considered": 80,
+  "duplicate_accepted_records_found": 0,
+  "duplicate_skipped_records": [],
+  "canonical_universe_created": false,
+  "selection_memberships_created": false,
+  "frontend_export_created": false
+}

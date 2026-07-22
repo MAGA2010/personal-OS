@@ -357,6 +357,10 @@ export function MapCanvas({
       // Restrict view to US only
       maxBounds: [[-135, 17], [-55, 55]],
       minZoom: 1.5,
+      scrollZoom: true,
+      touchZoomRotate: true,
+      dragPan: true,
+      dragRotate: false,
     });
 
     // Navigation controls (zoom +/- and compass)

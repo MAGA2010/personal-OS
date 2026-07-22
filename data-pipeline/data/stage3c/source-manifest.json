@@ -1,0 +1,47 @@
+{
+  "record_type": "stage3c_source_manifest",
+  "sources": [
+    {
+      "source_id": "source_ipeds_ic2023_ay",
+      "candidate_id": null,
+      "source_type": "ipeds_federal",
+      "field_domain": "tuition_detail",
+      "source_title": "IPEDS Institutional Characteristics Academic Year 2023-24",
+      "source_url_or_reference": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx",
+      "publisher": "National Center for Education Statistics",
+      "accessed_date": "2026-07-13",
+      "license_or_use_note": "Federal public data; retained only as institution-level undergraduate tuition/required-fee provenance.",
+      "official_institutional": false,
+      "field_level_provenance_required": true,
+      "limitation_note": "Does not establish a current institutional catalog or a program-specific fee."
+    },
+    {
+      "source_id": "source_unc_2026_undergraduate_catalog",
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "source_type": "official_institutional",
+      "field_domain": "official_majors",
+      "source_title": "Undergraduate Programs of Study: Majors and Minors",
+      "source_url_or_reference": "https://catalog.unc.edu/undergraduate/programs-study/",
+      "publisher": "The University of North Carolina at Chapel Hill",
+      "accessed_date": "2026-07-13",
+      "license_or_use_note": "Public official catalog page; only short direct quotes retained.",
+      "official_institutional": true,
+      "field_level_provenance_required": true,
+      "limitation_note": null
+    },
+    {
+      "source_id": "source_census_2024_places_gazetteer",
+      "candidate_id": null,
+      "source_type": "census_gazetteer",
+      "field_domain": "geography",
+      "source_title": "2024 National Places Gazetteer Files",
+      "source_url_or_reference": "https://www.census.gov/geographies/reference-files/2024/geo/gazetter-file.html",
+      "publisher": "U.S. Census Bureau",
+      "accessed_date": "2026-07-13",
+      "license_or_use_note": "Federal public geography source; cache is gitignored.",
+      "official_institutional": false,
+      "field_level_provenance_required": true,
+      "limitation_note": "The execution environment rejected the normal public download/query endpoints; no place observations are generated until a lawful cache is available."
+    }
+  ]
+}

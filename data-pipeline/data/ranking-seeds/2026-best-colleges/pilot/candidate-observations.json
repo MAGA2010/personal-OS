@@ -1,0 +1,47 @@
+{
+  "record_type": "ranking_collection_candidate_observations",
+  "edition_target": "2026 Best Colleges",
+  "observations": [
+    {
+      "candidate_id": "pilot-business-cornell-partial",
+      "ranking_system": "u_s_news",
+      "ranking_family": "undergraduate_program",
+      "category_id": "undergraduate-business-programs",
+      "school_display_name": "Cornell SC Johnson College",
+      "numeric_rank": 8,
+      "displayed_rank": "#8",
+      "tied": false,
+      "source_id": "cornell-2025-26-business-candidate",
+      "verification_status": "partially_verified",
+      "edition_evidence": "edition_ambiguous",
+      "directly_supported_fields": ["school_display_name", "category_id", "numeric_rank", "displayed_rank", "tied"],
+      "supported_facts": ["school_display_name", "category_id", "numeric_rank", "publication_date"],
+      "unverified_facts": ["edition"],
+      "reason_not_staged": "The source says 2025-26 but does not directly establish the pilot's required 2026 Best Colleges edition label.",
+      "identity_resolution_status": "resolved",
+      "official_institution_name": "Cornell University",
+      "canonical_identity_id": "institution:cornell-university",
+      "unitid": null
+    },
+    {
+      "candidate_id": "pilot-business-tepper-partial",
+      "ranking_system": "u_s_news",
+      "ranking_family": "undergraduate_program",
+      "category_id": "undergraduate-business-programs",
+      "school_display_name": "Tepper School of Business",
+      "numeric_rank": 6,
+      "displayed_rank": "No. 6",
+      "tied": true,
+      "source_id": "cmu-tepper-2026-business",
+      "verification_status": "partially_verified",
+      "edition_evidence": "edition_inferred_from_release_cycle",
+      "directly_supported_fields": ["school_display_name", "ranking_family", "category_id", "numeric_rank", "displayed_rank", "tied"],
+      "contextual_evidence": [{"source_id": "cmu-tepper-2026-business", "quote": "Sep 23, 2025", "evidence_type": "direct_quote", "notes": "Matches the U.S. News 2026 Best Colleges release date, but the page does not directly state the 2026 edition."}],
+      "reason_not_staged": "The source directly supports No. 6 and the tie, but does not directly state the required 2026 Best Colleges edition.",
+      "identity_resolution_status": "resolved",
+      "official_institution_name": "Carnegie Mellon University",
+      "canonical_identity_id": "institution:carnegie-mellon-university",
+      "unitid": null
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "record_type": "stage3d_fill_program_people_wave5_program_people_observations",
+  "observations": [
+    {
+      "slot_id": "candidate-v2:boston-university:slot-3", "candidate_id": "candidate-v2:boston-university", "program_slot": 3, "slot_status": "identified_person",
+      "person_id": "person:rebecca-norlander:boston-university:wave5-bu-rebecca-norlander-cs", "person_name": "Rebecca Norlander", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave5-bu-rebecca-norlander-cs"],
+      "attendance_source_id": "wave5-bu-rebecca-norlander-cs", "program_source_id": "wave5-bu-rebecca-norlander-cs",
+      "attendance_quote": "Rebecca graduated from Boston University’s College of Arts and Sciences, with a Bachelors degree in Computer Science in May 1991.",
+      "program_quote": "Rebecca graduated from Boston University’s College of Arts and Sciences, with a Bachelors degree in Computer Science in May 1991.",
+      "match_notes": "BU's official CS award biography states graduation and a bachelor's degree in Computer Science.",
+      "reviewed_scope": ["official Boston University Computer Science distinguished alumni biography"]
+    },
+    {
+      "slot_id": "candidate-v2:brown-university:slot-1", "candidate_id": "candidate-v2:brown-university", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:danah-boyd:brown-university:wave5-brown-danah-boyd-cs", "person_name": "danah boyd", "relationship_type": "alumnus_unspecified",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave5-brown-danah-boyd-cs"],
+      "attendance_source_id": "wave5-brown-danah-boyd-cs", "program_source_id": "wave5-brown-danah-boyd-cs",
+      "attendance_quote": "Brown CS alum and Advisory Board member danah boyd has just received one of the organization’s Sloan Research Fellowships.",
+      "program_quote": "Brown CS Alum danah boyd Receives A Sloan Research Fellowship",
+      "match_notes": "Brown CS directly identifies boyd as a Brown CS alum; the page does not assert a degree, so the relationship remains alumnus unspecified.",
+      "reviewed_scope": ["official Brown Computer Science alumni news profile"]
+    },
+    {
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-3", "candidate_id": "candidate-v2:carnegie-mellon-university", "program_slot": 3, "slot_status": "identified_person",
+      "person_id": "person:joy-whittington-bretthauer:carnegie-mellon-university:wave5-cmu-joy-bretthauer-ee", "person_name": "Joy Whittington Bretthauer", "relationship_type": "graduated",
+      "match_type": "direct_related_program_match", "program_match_basis": "source_stated_related_program", "source_ids": ["wave5-cmu-joy-bretthauer-ee"],
+      "attendance_source_id": "wave5-cmu-joy-bretthauer-ee", "program_source_id": "wave5-cmu-joy-bretthauer-ee",
+      "attendance_quote": "Joy Whittington Bretthauer is a Carnegie Mellon University graduate with a Bachelor of Science in Electrical Engineering.",
+      "program_quote": "Joy Whittington Bretthauer is a Carnegie Mellon University graduate with a Bachelor of Science in Electrical Engineering.",
+      "match_notes": "CMU states a BS in Electrical Engineering, directly related to the Electrical and Electronics Engineering slot.",
+      "reviewed_scope": ["official Carnegie Mellon College of Engineering alumni award profile"]
+    },
+    {
+      "slot_id": "candidate-v2:cornell-university:slot-1", "candidate_id": "candidate-v2:cornell-university", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:allan-borodin:cornell-university:wave5-cornell-allan-borodin-cs", "person_name": "Allan Borodin", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave5-cornell-allan-borodin-cs"],
+      "attendance_source_id": "wave5-cornell-allan-borodin-cs", "program_source_id": "wave5-cornell-allan-borodin-cs",
+      "attendance_quote": "Allan Borodin | Hartmanis, Juris | 1969", "program_quote": "Computer Science Ph.D. Alumni",
+      "match_notes": "Cornell's official CS PhD alumni archive lists Borodin with a 1969 graduation year.",
+      "reviewed_scope": ["official Cornell Computer Science PhD alumni archive"]
+    },
+    {
+      "slot_id": "candidate-v2:dartmouth-college:slot-1", "candidate_id": "candidate-v2:dartmouth-college", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:bruce-sacerdote:dartmouth-college:wave5-dartmouth-bruce-sacerdote-econ", "person_name": "Bruce Sacerdote", "relationship_type": "alumnus_unspecified",
+      "match_type": "direct_related_program_match", "program_match_basis": "source_stated_related_program", "source_ids": ["wave5-dartmouth-bruce-sacerdote-econ"],
+      "attendance_source_id": "wave5-dartmouth-bruce-sacerdote-econ", "program_source_id": "wave5-dartmouth-bruce-sacerdote-econ",
+      "attendance_quote": "Bruce Sacerdote '90", "program_quote": "Economics",
+      "match_notes": "Dartmouth Economics lists Sacerdote as a class-year alumnus in Economics, directly related to the Econometrics slot.",
+      "reviewed_scope": ["official Dartmouth Economics alumni listing"]
+    },
+    {
+      "slot_id": "candidate-v2:georgia-institute-of-technology:slot-1", "candidate_id": "candidate-v2:georgia-institute-of-technology", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:craig-l-duvall:georgia-institute-of-technology:wave5-gatech-craig-duvall-bme", "person_name": "Craig L. Duvall", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave5-gatech-craig-duvall-bme"],
+      "attendance_source_id": "wave5-gatech-craig-duvall-bme", "program_source_id": "wave5-gatech-craig-duvall-bme",
+      "attendance_quote": "The College also honored Craig L. Duvall, Ph.D. BME 2007, with the Academy of Distinguished Engineering Alumni Award in recognition of his contributions to biomedical engineering.",
+      "program_quote": "The College also honored Craig L. Duvall, Ph.D. BME 2007, with the Academy of Distinguished Engineering Alumni Award in recognition of his contributions to biomedical engineering.",
+      "match_notes": "Georgia Tech's BME department states Duvall's BME PhD and alumni award, exactly matching Biomedical Engineering.",
+      "reviewed_scope": ["official Georgia Tech Biomedical Engineering alumni award story"]
+    },
+    {
+      "slot_id": "candidate-v2:johns-hopkins-university:slot-1", "candidate_id": "candidate-v2:johns-hopkins-university", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:sallie-permar:johns-hopkins-university:wave5-jhu-sallie-permar-mmi", "person_name": "Sallie Permar", "relationship_type": "graduated",
+      "match_type": "direct_related_program_match", "program_match_basis": "source_stated_related_program", "source_ids": ["wave5-jhu-sallie-permar-mmi"],
+      "attendance_source_id": "wave5-jhu-sallie-permar-mmi", "program_source_id": "wave5-jhu-sallie-permar-mmi",
+      "attendance_quote": "PhD, 2004", "program_quote": "Department of Molecular Microbiology and Immunology",
+      "match_notes": "The official MMI alumni page lists Permar's 2004 PhD; Molecular Microbiology and Immunology is directly related to the Cell and Molecular Biology slot.",
+      "reviewed_scope": ["official Johns Hopkins Molecular Microbiology and Immunology alumni page"]
+    },
+    {
+      "slot_id": "candidate-v2:massachusetts-institute-of-technology:slot-1", "candidate_id": "candidate-v2:massachusetts-institute-of-technology", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:carine-you:massachusetts-institute-of-technology:wave5-mit-carine-you-eecs", "person_name": "Carine You", "relationship_type": "graduated",
+      "match_type": "direct_related_program_match", "program_match_basis": "source_stated_related_program", "source_ids": ["wave5-mit-carine-you-eecs"],
+      "attendance_source_id": "wave5-mit-carine-you-eecs", "program_source_id": "wave5-mit-carine-you-eecs",
+      "attendance_quote": "Carine You, from San Diego, California, graduated from MIT in May 2022 with bachelor’s degrees in electrical engineering and computer science and in mathematics.",
+      "program_quote": "Carine You, from San Diego, California, graduated from MIT in May 2022 with bachelor’s degrees in electrical engineering and computer science and in mathematics.",
+      "match_notes": "MIT's alumni association states You graduated with an electrical engineering and computer science bachelor's degree, directly related to the Computer Science slot.",
+      "reviewed_scope": ["official MIT Alumni Association scholarship profile"]
+    },
+    {
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-1", "candidate_id": "candidate-v2:purdue-university-main-campus", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:vicki-capadona:purdue-university-main-campus:wave5-purdue-vicki-capadona-cs", "person_name": "Vicki Capadona", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave5-purdue-vicki-capadona-cs"],
+      "attendance_source_id": "wave5-purdue-vicki-capadona-cs", "program_source_id": "wave5-purdue-vicki-capadona-cs",
+      "attendance_quote": "Vicki Capadona graduated in 1972 with one of the inaugural computer science undergraduate degrees earned at Purdue.",
+      "program_quote": "Vicki Capadona graduated in 1972 with one of the inaugural computer science undergraduate degrees earned at Purdue.",
+      "match_notes": "Purdue CS states that Capadona graduated with a Computer Science undergraduate degree.",
+      "reviewed_scope": ["official Purdue Computer Science outstanding alumni page"]
+    },
+    {
+      "slot_id": "candidate-v2:rice-university:slot-2", "candidate_id": "candidate-v2:rice-university", "program_slot": 2, "slot_status": "identified_person",
+      "person_id": "person:peggy-whitson:rice-university:wave5-rice-peggy-whitson-biochemistry", "person_name": "Peggy Whitson", "relationship_type": "graduated",
+      "match_type": "direct_related_program_match", "program_match_basis": "source_stated_related_program", "source_ids": ["wave5-rice-peggy-whitson-biochemistry"],
+      "attendance_source_id": "wave5-rice-peggy-whitson-biochemistry", "program_source_id": "wave5-rice-peggy-whitson-biochemistry",
+      "attendance_quote": "Rice Biosciences’ alumna Peggy Whitson ’86, America’s most experienced astronaut, will deliver Rice’s undergraduate commencement address at 7 p.m. May 4 at Rice Stadium.",
+      "program_quote": "Her storied career in Space City Houston began at Rice, where she studied as a Robert A. Welch Predoctoral Fellow and earned a Ph.D. in biochemistry.",
+      "match_notes": "Rice states Whitson's Biosciences alumni status and PhD in Biochemistry, directly related to the Biology slot.",
+      "reviewed_scope": ["official Rice Biosciences alumni commencement profile"]
+    }
+  ]
+}

@@ -1,84 +1,182 @@
 ﻿import Link from "next/link";
 import type { Metadata } from "next";
-import { Compass, Map, ArrowRight, Trophy, TrendingUp } from "lucide-react";
+import { Compass, Map, Sparkles, ClipboardCheck, Bookmark, Newspaper, TrendingUp, ArrowRight, BarChart3, Globe2, GraduationCap } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "PathOS — 面向中国家庭的留学选校决策平台",
-  description: "PathOS 是一款留学数据平台。交互式地图 + 六大核心指标 + 智能选校匹配。",
+  title: "PathOS — 面向中国家庭的留学选校数据平台",
+  description: "交互式留学地图、院校匹配、选校评估。数据驱动，让选校更理性。",
 };
 
-const METRICS = [
-  { id: "income",           label: "收入水平",   color: "bg-emerald-500/80",   bar: 72, desc: "区域家庭中位年收入" },
-  { id: "safety",           label: "安全系数",   color: "bg-blue-500/80",      bar: 55, desc: "基于暴力犯罪率的倒数" },
-  { id: "employment",       label: "就业指数",   color: "bg-teal-500/80",      bar: 78, desc: "BLS各州就业率数据" },
-  { id: "cost",             label: "留学成本",   color: "bg-orange-500/80",    bar: 65, desc: "学费+生活费综合评估" },
-  { id: "admission_rate",   label: "录取率",     color: "bg-red-500/80",       bar: 35, desc: "大学平均录取率" },
-  { id: "chinese_population",label: "华人水平",  color: "bg-yellow-500/80",    bar: 60, desc: "华裔人口占比" },
+const FEATURES = [
+  {
+    title: "留学地图",
+    desc: "安全系数 · 就业指数 · 留学成本 · 华人水平 · 收入水平 · 录取率，六大指标交互式可视化",
+    href: "/map",
+    icon: Map,
+    tags: ["可视化", "六大指标"],
+    color: "from-emerald-500 to-teal-600",
+  },
+  {
+    title: "院校匹配",
+    desc: "输入预算、排名偏好、安全要求等条件，智能计算每所大学的综合匹配度",
+    href: "/match",
+    icon: Sparkles,
+    tags: ["智能推荐", "多维评分"],
+    color: "from-violet-500 to-purple-600",
+  },
+  {
+    title: "选校评估",
+    desc: "填写 GPA、托福/雅思、目标专业、家庭偏好，生成专属学生画像",
+    href: "/assessment",
+    icon: ClipboardCheck,
+    tags: ["学生画像", "背景评估"],
+    color: "from-amber-500 to-orange-600",
+  },
+  {
+    title: "选校清单",
+    desc: "收藏心仪学校、对比差异、导出选校方案，把数据决策沉淀为行动清单",
+    href: "/portfolio",
+    icon: Bookmark,
+    tags: ["收藏管理", "对比导出"],
+    color: "from-blue-500 to-indigo-600",
+  },
+  {
+    title: "排名对比",
+    desc: "综合 US News、QS、THE 等排名体系，多维度交叉对比院校实力",
+    href: "/match",
+    icon: BarChart3,
+    tags: ["交叉对比", "排名分析"],
+    color: "from-rose-500 to-pink-600",
+  },
+  {
+    title: "留学资讯",
+    desc: "最新签证政策、申请动态、留学生活指南，一站式留学信息聚合",
+    href: "/news",
+    icon: Newspaper,
+    tags: ["政策动态", "申请攻略"],
+    color: "from-cyan-500 to-sky-600",
+  },
 ];
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-paper">
-      <main className="mx-auto max-w-5xl px-4 py-16 sm:py-24">
-        {/* Hero */}
-        <div className="text-center">
-          <div className="mx-auto mb-6 grid h-16 w-16 place-items-center rounded-2xl bg-ink text-panel shadow-lg">
-            <Compass size={32} />
+    <div className="flex-1 bg-paper">
+      {/* Hero */}
+      <section className="relative overflow-hidden border-b border-line/30">
+        <div className="absolute inset-0 bg-gradient-to-br from-ink/3 via-transparent to-cobalt/5 pointer-events-none" />
+        <div className="relative mx-auto max-w-5xl px-4 py-20 sm:py-28 text-center">
+          <div className="mx-auto mb-6 grid h-16 w-16 place-items-center rounded-2xl bg-ink text-panel shadow-lg ring-1 ring-ink/10">
+            <Compass size={30} />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-5xl">PathOS</h1>
-          <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-ink/60 sm:text-lg">
-            面向中国家庭的留学选校决策平台。<br />
-            交互式地图 · 六大核心指标 · 智能匹配
+          <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-5xl">
+            PathOS
+          </h1>
+          <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-ink/50 sm:text-lg">
+            面向中国家庭的美国留学选校数据平台。<br />
+            交互式地图 · 院校匹配 · 数据驱动
           </p>
-        </div>
-
-        {/* 6 Metric Cards */}
-        <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
-          {METRICS.map((m) => (
-            <div key={m.id} className="rounded-xl border border-line/50 bg-white/90 px-4 py-3.5 shadow-sm transition hover:shadow-md hover:border-line">
-              <div className="flex items-center gap-2">
-                <div className={"h-2.5 w-2.5 rounded-full " + m.color} />
-                <span className="text-sm font-medium text-ink/80">{m.label}</span>
-              </div>
-              <div className="mt-2 h-2 rounded-full bg-ink/6 overflow-hidden">
-                <div className={"h-full rounded-full " + m.color + " transition-all"} style={{ width: m.bar + "%" }} />
-              </div>
-              <p className="mt-1.5 text-[11px] text-ink/40">{m.desc}</p>
+          
+          {/* Stats bar */}
+          <div className="mt-8 flex flex-wrap justify-center gap-x-10 gap-y-3">
+            <div className="text-center">
+              <div className="text-2xl font-bold text-ink">40+</div>
+              <div className="text-xs text-ink/40 mt-0.5">所美国大学</div>
             </div>
-          ))}
-        </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-ink">18</div>
+              <div className="text-xs text-ink/40 mt-0.5">个州覆盖</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-ink">6</div>
+              <div className="text-xs text-ink/40 mt-0.5">大核心指标</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-ink">3</div>
+              <div className="text-xs text-ink/40 mt-0.5">种评估维度</div>
+            </div>
+          </div>
 
-        {/* Stats */}
-        <div className="mt-10 text-center">
-          <p className="text-sm text-ink/48">
-            <span className="font-semibold text-ink/70">40</span> 所大学 ·
-            <span className="font-semibold text-ink/70"> 18</span> 个州 ·
-            <span className="font-semibold text-ink/70"> 6</span> 大核心指标 ·
-            覆盖全美主要留学目的地
-          </p>
+          {/* Search / CTA */}
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <Link
+              href="/map"
+              className="inline-flex items-center gap-2 rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-panel shadow transition hover:bg-ink/90 active:scale-[0.97]"
+            >
+              <Map size={18} />
+              探索留学地图
+            </Link>
+            <Link
+              href="/match"
+              className="inline-flex items-center gap-2 rounded-lg border border-line/60 bg-white px-6 py-3 text-sm font-semibold text-ink/70 shadow-sm transition hover:border-ink/30 active:scale-[0.97]"
+            >
+              <Sparkles size={18} />
+              智能匹配院校
+            </Link>
+          </div>
         </div>
+      </section>
 
-        {/* CTA Buttons */}
-        <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <Link href="/match">
-            <Map size={18} />
-            探索地图
-            <ArrowRight size={16} />
-          </Link>
-          <Link href="/map/rankings"
-            className="inline-flex items-center gap-2 rounded-lg border border-line/70 bg-white px-5 py-3 text-sm font-semibold text-ink/70 shadow-sm transition hover:border-ink/20 active:scale-[0.97]">
-            <Trophy size={18} />
-            查看排名
-          </Link>
-          <Link href="/calculator" className="inline-flex items-center gap-2 rounded-lg border border-jade/30 bg-jade/5 px-5 py-3 text-sm font-semibold text-jade shadow-sm transition hover:bg-jade/10 active:scale-[0.97]"><TrendingUp size={18} /> 智能选校
-          </Link>
+      {/* Features Grid - Parallel tools */}
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:py-20">
+        <div className="text-center mb-10">
+          <h2 className="text-xl font-semibold text-ink">选校工具箱</h2>
+          <p className="mt-1.5 text-sm text-ink/40">所有工具平行开放，按需使用</p>
         </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {FEATURES.map((f) => {
+            const Icon = f.icon;
+            return (
+              <Link
+                key={f.href}
+                href={f.href}
+                className="group block rounded-xl border border-line/40 bg-white/90 p-5 shadow-sm transition hover:shadow-md hover:border-line/80 active:scale-[0.98]"
+              >
+                <div className="flex items-start gap-4">
+                  <div className={"flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br text-white shadow-sm " + f.color}>
+                    <Icon size={18} />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <h3 className="text-sm font-semibold text-ink group-hover:text-ink/90 transition-colors">
+                      {f.title}
+                      <ArrowRight size={14} className="inline ml-1 opacity-0 group-hover:opacity-60 transition-all" />
+                    </h3>
+                    <p className="mt-1 text-xs leading-relaxed text-ink/50">{f.desc}</p>
+                    <div className="mt-2 flex flex-wrap gap-1.5">
+                      {f.tags.map((t) => (
+                        <span key={t} className="rounded-full bg-ink/5 px-2 py-0.5 text-[10px] font-medium text-ink/40">
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
 
-        {/* Footer */}
-        <footer className="mt-16 text-center text-xs text-ink/30">
-          PathOS — 面向中国家庭的留学选校决策平台 · MVP 阶段
-        </footer>
-      </main>
+      {/* Bottom CTA */}
+      <section className="border-t border-line/30 bg-ink/5">
+        <div className="mx-auto max-w-2xl px-4 py-14 text-center">
+          <GraduationCap size={28} className="mx-auto text-ink/30" />
+          <h2 className="mt-3 text-lg font-semibold text-ink">不确定从哪里开始？</h2>
+          <p className="mt-1 text-sm text-ink/50">先建立你的学生画像，系统会自动为你推荐匹配的院校</p>
+          <div className="mt-5 flex justify-center gap-3">
+            <Link
+              href="/assessment"
+              className="inline-flex items-center gap-2 rounded-lg bg-ink px-5 py-2.5 text-sm font-semibold text-panel shadow transition hover:bg-ink/90"
+            >
+              <ClipboardCheck size={16} />
+              开始评估
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <footer className="py-8 text-center text-xs text-ink/25">
+        PathOS — 面向中国家庭的留学选校决策平台 · MVP
+      </footer>
     </div>
   );
 }

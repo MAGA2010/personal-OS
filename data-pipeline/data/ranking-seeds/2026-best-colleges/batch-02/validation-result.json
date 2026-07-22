@@ -1,0 +1,17 @@
+{
+  "record_type": "ranking_collection_pilot_validation_result",
+  "edition": "2026 Best Colleges",
+  "seed_batches_validated": 10,
+  "verified_records_stageable": 10,
+  "partially_verified_records_excluded_from_staging": 0,
+  "unresolved_records_excluded_from_staging": 0,
+  "canonical_universe_created": false,
+  "selection_memberships_created": false,
+  "frontend_export_created": false,
+  "result": "passed",
+  "generated_at": "2026-07-11T05:34:09.604969+00:00",
+  "validator": {
+    "command": "PYTHONPATH=src python3 -m pathos_data validate-ranking-pilot",
+    "python": "python3"
+  }
+}

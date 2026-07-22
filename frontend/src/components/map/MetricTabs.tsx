@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import type { MetricId } from "@/lib/types";
 import { METRIC_DEFINITIONS, METRIC_ORDER } from "@/lib/metrics";
@@ -28,7 +28,6 @@ const METRIC_ABBREVIATIONS: Record<MetricId, string> = {
   safety: "安全",
   employment: "就业",
   cost: "成本",
-  admission_rate: "录取",
   chinese_population: "华人",
 };
 

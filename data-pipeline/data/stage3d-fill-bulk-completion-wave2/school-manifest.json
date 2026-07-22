@@ -1,0 +1,29 @@
+{
+  "record_type": "stage3d_fill_bulk_completion_wave2_school_manifest",
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "selection_notes": "Twenty Candidate v2 schools not present in Wave 1; selection favors reusable reviewed official sources without expanding scope.",
+  "schools": [
+    {"candidate_id": "candidate-v2:boston-college"},
+    {"candidate_id": "candidate-v2:california-institute-of-technology"},
+    {"candidate_id": "candidate-v2:columbia-university"},
+    {"candidate_id": "candidate-v2:cornell-university"},
+    {"candidate_id": "candidate-v2:dartmouth-college"},
+    {"candidate_id": "candidate-v2:emory-university"},
+    {"candidate_id": "candidate-v2:georgia-institute-of-technology"},
+    {"candidate_id": "candidate-v2:harvard-university"},
+    {"candidate_id": "candidate-v2:johns-hopkins-university"},
+    {"candidate_id": "candidate-v2:northwestern-university"},
+    {"candidate_id": "candidate-v2:texas-a-and-m-university"},
+    {"candidate_id": "candidate-v2:university-of-california-san-diego"},
+    {"candidate_id": "candidate-v2:university-of-maryland-college-park"},
+    {"candidate_id": "candidate-v2:university-of-minnesota-twin-cities"},
+    {"candidate_id": "candidate-v2:university-of-pennsylvania"},
+    {"candidate_id": "candidate-v2:university-of-rochester"},
+    {"candidate_id": "candidate-v2:university-of-southern-california"},
+    {"candidate_id": "candidate-v2:university-of-virginia"},
+    {"candidate_id": "candidate-v2:vanderbilt-university"},
+    {"candidate_id": "candidate-v2:washington-university-in-st-louis"}
+  ]
+}

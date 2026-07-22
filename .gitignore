@@ -43,3 +43,9 @@ test.py
 frontend/0
 pathos-map.zip
 tuition_summary.txt
+
+# Archive
+_archive/
+
+# Local alternate Git metadata
+.alt_git/

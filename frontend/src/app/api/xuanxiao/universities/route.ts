@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+﻿import { NextResponse } from "next/server";
 
 const XUANXIAO_URL = "https://xuanxiao.org/universities";
 

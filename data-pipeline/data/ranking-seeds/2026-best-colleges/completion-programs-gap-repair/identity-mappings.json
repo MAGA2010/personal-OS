@@ -1,0 +1,329 @@
+{
+  "record_type": "pilot_identity_mappings",
+  "mappings": [
+    {
+      "record_id": "repair-cu-boulder-psychology",
+      "source_display_name": "CU Boulder Psychology and Neuroscience",
+      "normalized_display_name": "CU Boulder Psychology and Neuroscience",
+      "official_institution_name": "University of Colorado Boulder",
+      "aliases": [
+        "CU Boulder Psychology and Neuroscience"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "cu-boulder-2026-psychology",
+        "url": "https://www.colorado.edu/psych-neuro/2025/09/26/undergraduate-psychology-program-ranked-no-15-us-news-world-report"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:university-of-colorado-boulder"
+    },
+    {
+      "record_id": "repair-tamu-engineering-doctorate",
+      "source_display_name": "Texas A&M University College of Engineering",
+      "normalized_display_name": "Texas A&M University College of Engineering",
+      "official_institution_name": "Texas A&M University",
+      "aliases": [
+        "Texas A&M University College of Engineering"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "texas-am-2026-engineering",
+        "url": "https://news.engineering.tamu.edu/news/2025/09/23/four-texas-am-undergraduate-engineering-programs-rank-1-in-texas/"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:texas-a-and-m-university"
+    },
+    {
+      "record_id": "repair-tamu-aerospace",
+      "source_display_name": "Texas A&M University College of Engineering",
+      "normalized_display_name": "Texas A&M University College of Engineering",
+      "official_institution_name": "Texas A&M University",
+      "aliases": [
+        "Texas A&M University College of Engineering"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "texas-am-2026-engineering",
+        "url": "https://news.engineering.tamu.edu/news/2025/09/23/four-texas-am-undergraduate-engineering-programs-rank-1-in-texas/"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:texas-a-and-m-university"
+    },
+    {
+      "record_id": "repair-tamu-computer",
+      "source_display_name": "Texas A&M University College of Engineering",
+      "normalized_display_name": "Texas A&M University College of Engineering",
+      "official_institution_name": "Texas A&M University",
+      "aliases": [
+        "Texas A&M University College of Engineering"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "texas-am-2026-engineering",
+        "url": "https://news.engineering.tamu.edu/news/2025/09/23/four-texas-am-undergraduate-engineering-programs-rank-1-in-texas/"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:texas-a-and-m-university"
+    },
+    {
+      "record_id": "repair-tamu-electrical",
+      "source_display_name": "Texas A&M University College of Engineering",
+      "normalized_display_name": "Texas A&M University College of Engineering",
+      "official_institution_name": "Texas A&M University",
+      "aliases": [
+        "Texas A&M University College of Engineering"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "texas-am-2026-engineering",
+        "url": "https://news.engineering.tamu.edu/news/2025/09/23/four-texas-am-undergraduate-engineering-programs-rank-1-in-texas/"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:texas-a-and-m-university"
+    },
+    {
+      "record_id": "repair-tamu-industrial",
+      "source_display_name": "Texas A&M University College of Engineering",
+      "normalized_display_name": "Texas A&M University College of Engineering",
+      "official_institution_name": "Texas A&M University",
+      "aliases": [
+        "Texas A&M University College of Engineering"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "texas-am-2026-engineering",
+        "url": "https://news.engineering.tamu.edu/news/2025/09/23/four-texas-am-undergraduate-engineering-programs-rank-1-in-texas/"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:texas-a-and-m-university"
+    },
+    {
+      "record_id": "repair-tamu-materials",
+      "source_display_name": "Texas A&M University College of Engineering",
+      "normalized_display_name": "Texas A&M University College of Engineering",
+      "official_institution_name": "Texas A&M University",
+      "aliases": [
+        "Texas A&M University College of Engineering"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "texas-am-2026-engineering",
+        "url": "https://news.engineering.tamu.edu/news/2025/09/23/four-texas-am-undergraduate-engineering-programs-rank-1-in-texas/"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:texas-a-and-m-university"
+    },
+    {
+      "record_id": "repair-tamu-mechanical",
+      "source_display_name": "Texas A&M University College of Engineering",
+      "normalized_display_name": "Texas A&M University College of Engineering",
+      "official_institution_name": "Texas A&M University",
+      "aliases": [
+        "Texas A&M University College of Engineering"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "texas-am-2026-engineering",
+        "url": "https://news.engineering.tamu.edu/news/2025/09/23/four-texas-am-undergraduate-engineering-programs-rank-1-in-texas/"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:texas-a-and-m-university"
+    },
+    {
+      "record_id": "repair-bucknell-engineering",
+      "source_display_name": "Bucknell University",
+      "normalized_display_name": "Bucknell University",
+      "official_institution_name": "Bucknell University",
+      "aliases": [
+        "Bucknell University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "bucknell-2026-engineering",
+        "url": "https://www.bucknell.edu/news/bucknell-top-30-again-us-news-world-report-rankings"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:bucknell-university"
+    },
+    {
+      "record_id": "repair-bucknell-civil",
+      "source_display_name": "Bucknell University",
+      "normalized_display_name": "Bucknell University",
+      "official_institution_name": "Bucknell University",
+      "aliases": [
+        "Bucknell University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "bucknell-2026-engineering",
+        "url": "https://www.bucknell.edu/news/bucknell-top-30-again-us-news-world-report-rankings"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:bucknell-university"
+    },
+    {
+      "record_id": "repair-bucknell-electrical",
+      "source_display_name": "Bucknell University",
+      "normalized_display_name": "Bucknell University",
+      "official_institution_name": "Bucknell University",
+      "aliases": [
+        "Bucknell University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "bucknell-2026-engineering",
+        "url": "https://www.bucknell.edu/news/bucknell-top-30-again-us-news-world-report-rankings"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:bucknell-university"
+    },
+    {
+      "record_id": "repair-bucknell-mechanical",
+      "source_display_name": "Bucknell University",
+      "normalized_display_name": "Bucknell University",
+      "official_institution_name": "Bucknell University",
+      "aliases": [
+        "Bucknell University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "bucknell-2026-engineering",
+        "url": "https://www.bucknell.edu/news/bucknell-top-30-again-us-news-world-report-rankings"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:bucknell-university"
+    },
+    {
+      "record_id": "repair-bucknell-computer",
+      "source_display_name": "Bucknell University",
+      "normalized_display_name": "Bucknell University",
+      "official_institution_name": "Bucknell University",
+      "aliases": [
+        "Bucknell University"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "bucknell-2026-engineering",
+        "url": "https://www.bucknell.edu/news/bucknell-top-30-again-us-news-world-report-rankings"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:bucknell-university"
+    },
+    {
+      "record_id": "repair-rose-engineering",
+      "source_display_name": "Rose-Hulman Institute of Technology",
+      "normalized_display_name": "Rose-Hulman Institute of Technology",
+      "official_institution_name": "Rose-Hulman Institute of Technology",
+      "aliases": [
+        "Rose-Hulman Institute of Technology"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "rose-hulman-2026-engineering",
+        "url": "https://www.rose-hulman.edu/about-us/rankings-and-distinction.html"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:rose-hulman-institute-of-technology"
+    },
+    {
+      "record_id": "repair-rose-civil",
+      "source_display_name": "Rose-Hulman Institute of Technology",
+      "normalized_display_name": "Rose-Hulman Institute of Technology",
+      "official_institution_name": "Rose-Hulman Institute of Technology",
+      "aliases": [
+        "Rose-Hulman Institute of Technology"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "rose-hulman-2026-engineering",
+        "url": "https://www.rose-hulman.edu/about-us/rankings-and-distinction.html"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:rose-hulman-institute-of-technology"
+    },
+    {
+      "record_id": "repair-rose-electrical",
+      "source_display_name": "Rose-Hulman Institute of Technology",
+      "normalized_display_name": "Rose-Hulman Institute of Technology",
+      "official_institution_name": "Rose-Hulman Institute of Technology",
+      "aliases": [
+        "Rose-Hulman Institute of Technology"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "rose-hulman-2026-engineering",
+        "url": "https://www.rose-hulman.edu/about-us/rankings-and-distinction.html"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:rose-hulman-institute-of-technology"
+    },
+    {
+      "record_id": "repair-rose-mechanical",
+      "source_display_name": "Rose-Hulman Institute of Technology",
+      "normalized_display_name": "Rose-Hulman Institute of Technology",
+      "official_institution_name": "Rose-Hulman Institute of Technology",
+      "aliases": [
+        "Rose-Hulman Institute of Technology"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "rose-hulman-2026-engineering",
+        "url": "https://www.rose-hulman.edu/about-us/rankings-and-distinction.html"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:rose-hulman-institute-of-technology"
+    },
+    {
+      "record_id": "repair-rose-computer",
+      "source_display_name": "Rose-Hulman Institute of Technology",
+      "normalized_display_name": "Rose-Hulman Institute of Technology",
+      "official_institution_name": "Rose-Hulman Institute of Technology",
+      "aliases": [
+        "Rose-Hulman Institute of Technology"
+      ],
+      "unitid": null,
+      "unitid_status": "not_collected",
+      "identity_confidence": "high",
+      "identity_source": {
+        "source_id": "rose-hulman-2026-engineering",
+        "url": "https://www.rose-hulman.edu/about-us/rankings-and-distinction.html"
+      },
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:rose-hulman-institute-of-technology"
+    }
+  ]
+}

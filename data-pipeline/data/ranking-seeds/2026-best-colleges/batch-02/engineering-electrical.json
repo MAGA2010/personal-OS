@@ -1,0 +1,94 @@
+{
+  "record_type": "manual_ranking_seed_batch",
+  "schema_version": "v1",
+  "batch_id": "stage-2b2-batch-02-engineering-electrical",
+  "created_at": "2026-07-11T00:00:00+08:00",
+  "stream": {
+    "stream_id": "engineering-electrical-batch-02",
+    "ranking_system": "u_s_news",
+    "ranking_family": "undergraduate_program",
+    "category_id": "engineering-electrical",
+    "edition": "2026 Best Colleges",
+    "publication_date": "2025-09-23",
+    "expected_cutoff": 20
+  },
+  "records": [
+    {
+      "record_id": "batch02-engineering-electrical-gatech",
+      "ranking_system": "u_s_news",
+      "ranking_family": "undergraduate_program",
+      "category_id": "engineering-electrical",
+      "edition": "2026 Best Colleges",
+      "school_display_name": "Georgia Tech College of Engineering",
+      "numeric_rank": 3,
+      "displayed_rank": "3rd",
+      "tied": false,
+      "source": {
+        "source_id": "gatech-2026-engineering-batch02",
+        "url": "https://coe.gatech.edu/news/2025/09/undergrad-engineering-program-returns-no-3-us-news-2026-rankings",
+        "source_type": "university_official_news",
+        "accessed_at": "2026-07-11T00:00:00+08:00"
+      },
+      "evidence": {
+        "directly_supported_fields": [
+          "school_display_name",
+          "ranking_family",
+          "category_id",
+          "edition",
+          "numeric_rank",
+          "displayed_rank",
+          "tied"
+        ]
+      },
+      "edition_evidence": "edition_direct",
+      "evidence_anchors": [
+        {
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02",
+          "quote": "Georgia Tech College of Engineering",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02",
+          "quote": "undergraduate engineering programs",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02",
+          "quote": "Electrical Engineering 3rd",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02",
+          "quote": "2026 Best Colleges list",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02",
+          "quote": "Electrical Engineering 3rd",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02",
+          "quote": "Electrical Engineering 3rd",
+          "evidence_type": "direct_quote"
+        },
+        {
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02",
+          "quote": "Electrical Engineering 3rd",
+          "evidence_type": "direct_quote"
+        }
+      ],
+      "entered_by": "pathos-stage-2b2-batch-02",
+      "entered_at": "2026-07-11T00:00:00+08:00",
+      "verification_status": "verified",
+      "notes": "Direct official Georgia Tech evidence; incomplete category coverage."
+    }
+  ]
+}

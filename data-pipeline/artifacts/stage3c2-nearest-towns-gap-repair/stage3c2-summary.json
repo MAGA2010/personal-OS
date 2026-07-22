@@ -1,0 +1,35 @@
+{
+  "cache_sha256": "cf262fc92b2326f7a8c62a89d156a60eb17d64d6d35f7a62310c43bb08972c06",
+  "campus_city_included_place_count": 46,
+  "campus_city_included_university_count": 46,
+  "distance_method": "haversine_straight_line",
+  "excluded_place_type_count": 0,
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "geo_nearest_towns_readiness": 1.0,
+  "incomplete": true,
+  "input_sha256": {
+    "stage3c": {
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-demo-programs-overlay.json": "11ac883fcef31d00cd57610c17c848feca479c8d5c2b7030f7f07d69540a5491",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-gap-disclosure.json": "1109a647c5206fc81315026ba62f0d5d9b08aa0211a5ef46733944dbc70fd127",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-highest-lowest-tuition.json": "25205122375b3c93c8703d8d49605bc7c7d3d8bcc72bf1436a302311ecb63521",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-official-major-sources.json": "5ee67ae7c466f695ed2b837f48db2fd31b6c2ec83f7d3980ac9f80a0abb33b3b",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-official-majors.json": "d33c28e1032b339a3376f17e7e62d81c5b32360211e35a700ddddf968375b5d5",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-summary.json": "e649626bca7ac2a489d1abeb95dc060fb111434a8fad8d3639d545f6538b4346",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-tuition-deepening.json": "6083ce55190bcaedfdc05a7becc1e4091da77edacf99579a97b8958a885dda92",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-universities.json": "a64f0defe4e6fce6c863c5a3f2690c885d5c27664a679b9381931bf77733ebdb",
+      "artifacts/stage3c-academic-geo-enrichment/stage3c-validation-result.json": "4b45df8f597ef66840f17ee1b3ae9da1ec0b781cffa2a0866dc4dc98ebe103ba"
+    }
+  },
+  "nearest_town_resolved_university_count": 62,
+  "nearest_town_unresolved_university_count": 0,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "place_source_used": "source_census_2024_national_places_gazetteer_reviewed_cache",
+  "ranking_field_contamination": 0,
+  "record_type": "stage3c2_nearest_towns_summary",
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "total_nearest_town_records": 186,
+  "total_universities": 62
+}

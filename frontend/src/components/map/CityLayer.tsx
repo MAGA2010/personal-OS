@@ -24,8 +24,8 @@ const CA_BOUNDARY_LINE_ID = "pathos-ca-boundary-line";
 
 const MIN_ZOOM = 4.0;
 const MAX_ZOOM = 10.0;
-const BASE_RADIUS = 14;
-const RADIUS_PER_UNI = 6;
+const BASE_RADIUS = 18;
+const RADIUS_PER_UNI = 8;
 const MAX_RADIUS = 40;
 
 
@@ -86,7 +86,7 @@ export function CityLayer({ visibleCities, activeMetricId, onCityClick, selected
     if (boundaryData.features.length > 0) {
       map.addSource(CA_BOUNDARY_SOURCE_ID, { type: "geojson", data: boundaryData });
       map.addLayer({ id: CA_BOUNDARY_FILL_ID, type: "fill", source: CA_BOUNDARY_SOURCE_ID, minzoom: 5.5, maxzoom: MAX_ZOOM,
-        paint: { "fill-color": "#23766b", "fill-opacity": 0.12, "fill-outline-color": "#23766b" } });
+        paint: { "fill-color": "#23766b", "fill-opacity": 0.06, "fill-outline-color": "#23766b" } });
       map.addLayer({ id: CA_BOUNDARY_LINE_ID, type: "line", source: CA_BOUNDARY_SOURCE_ID, minzoom: 5.5, maxzoom: MAX_ZOOM,
         paint: { "line-color": "#23766b", "line-width": 2, "line-opacity": 0.6, "line-dasharray": [3, 2] } });
     }
@@ -94,12 +94,12 @@ export function CityLayer({ visibleCities, activeMetricId, onCityClick, selected
     const bubbleData = buildBubbleGeoJSON(visibleCities, activeMetricId);
     map.addSource(CITY_BUBBLE_SOURCE_ID, { type: "geojson", data: bubbleData });
     map.addLayer({ id: CITY_BUBBLE_LAYER_ID, type: "circle", source: CITY_BUBBLE_SOURCE_ID, minzoom: MIN_ZOOM, maxzoom: MAX_ZOOM,
-      paint: { "circle-radius": ["get", "radius"], "circle-color": ["get", "color"], "circle-opacity": 0.82,
-        "circle-stroke-width": ["case", ["==", ["get", "id"], selectedCityId || ""], 4, 2],
+      paint: { "circle-radius": ["get", "radius"], "circle-color": ["get", "color"], "circle-opacity": 0.9,
+        "circle-stroke-width": ["case", ["==", ["get", "id"], selectedCityId || ""], 4, 3],
         "circle-stroke-color": ["case", ["==", ["get", "id"], selectedCityId || ""], "#152025", "#ffffff"] } });
     map.addLayer({ id: CITY_BUBBLE_LABEL_LAYER_ID, type: "symbol", source: CITY_BUBBLE_SOURCE_ID, minzoom: 5.2, maxzoom: MAX_ZOOM,
-      layout: { "text-field": ["get", "label"], "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"], "text-size": 12,
-        "text-offset": [0, 0.3], "text-allow-overlap": false },
+      layout: { "text-field": ["get", "label"], "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"], "text-size": 13,
+        "text-offset": [0, 0.3], "text-allow-overlap": true },
       paint: { "text-color": "#152025", "text-halo-width": 1.5, "text-halo-color": "rgba(255,255,255,0.85)" } });
 
     prevCityIdsRef.current = visibleCities.map(c => c.id).join("|");

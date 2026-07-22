@@ -1,5 +1,5 @@
-﻿import Link from "next/link";
-import { Compass, Github, Mail } from "lucide-react";
+import Link from "next/link";
+import { Compass, Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,21 +15,20 @@ export default function Footer() {
               <span className="text-base font-bold text-panel">PathOS</span>
             </div>
             <p className="mt-2 text-sm leading-relaxed text-panel/60">
-              面向中国家庭的留学选校决策平台。<br />
+              面向中国家庭的留学选校数据平台。<br />
               数据驱动，让选校更理性。
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="mb-3 text-sm font-semibold text-panel/85">快速入口</h3>
+            <h3 className="mb-3 text-sm font-semibold text-panel/85">平台功能</h3>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              <Link href="/assessment" className="transition-colors hover:text-panel">学生画像</Link>
-              <Link href="/match" className="transition-colors hover:text-panel">智能匹配</Link>
               <Link href="/map" className="transition-colors hover:text-panel">留学地图</Link>
+              <Link href="/match" className="transition-colors hover:text-panel">匹配测评</Link>
+              <Link href="/assessment" className="transition-colors hover:text-panel">选校评估</Link>
               <Link href="/portfolio" className="transition-colors hover:text-panel">选校清单</Link>
-              <Link href="/calculator" className="transition-colors hover:text-panel">预算计算器</Link>
-              <Link href="/map/rankings" className="transition-colors hover:text-panel">排名对比</Link>
+              <Link href="/news" className="transition-colors hover:text-panel">留学资讯</Link>
             </div>
           </div>
 

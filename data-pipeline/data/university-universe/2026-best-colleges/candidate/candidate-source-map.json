@@ -1,0 +1,903 @@
+{
+  "universities": [
+    {
+      "candidate_university_id": "candidate:arizona-state-university",
+      "source_ids": [
+        "asu-2026-business-batch01"
+      ],
+      "evidence_anchor_references": [
+        {
+          "record_id": "batch01-accounting-asu",
+          "field": "school_display_name",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-accounting-asu",
+          "field": "ranking_family",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-accounting-asu",
+          "field": "category_id",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-accounting-asu",
+          "field": "edition",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-accounting-asu",
+          "field": "numeric_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-accounting-asu",
+          "field": "displayed_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-accounting-asu",
+          "field": "tied",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-analytics-asu",
+          "field": "school_display_name",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-analytics-asu",
+          "field": "ranking_family",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-analytics-asu",
+          "field": "category_id",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-analytics-asu",
+          "field": "edition",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-analytics-asu",
+          "field": "numeric_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-analytics-asu",
+          "field": "displayed_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-analytics-asu",
+          "field": "tied",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-mis-asu",
+          "field": "school_display_name",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-mis-asu",
+          "field": "ranking_family",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-mis-asu",
+          "field": "category_id",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-mis-asu",
+          "field": "edition",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-mis-asu",
+          "field": "numeric_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-mis-asu",
+          "field": "displayed_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-mis-asu",
+          "field": "tied",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-management-asu",
+          "field": "school_display_name",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-management-asu",
+          "field": "ranking_family",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-management-asu",
+          "field": "category_id",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-management-asu",
+          "field": "edition",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-management-asu",
+          "field": "numeric_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-management-asu",
+          "field": "displayed_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-management-asu",
+          "field": "tied",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-operations-asu",
+          "field": "school_display_name",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-operations-asu",
+          "field": "ranking_family",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-operations-asu",
+          "field": "category_id",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-operations-asu",
+          "field": "edition",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-operations-asu",
+          "field": "numeric_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-operations-asu",
+          "field": "displayed_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-operations-asu",
+          "field": "tied",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-supply-chain-asu",
+          "field": "school_display_name",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-supply-chain-asu",
+          "field": "ranking_family",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-supply-chain-asu",
+          "field": "category_id",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-supply-chain-asu",
+          "field": "edition",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-supply-chain-asu",
+          "field": "numeric_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-supply-chain-asu",
+          "field": "displayed_rank",
+          "source_id": "asu-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-supply-chain-asu",
+          "field": "tied",
+          "source_id": "asu-2026-business-batch01"
+        }
+      ]
+    },
+    {
+      "candidate_university_id": "candidate:georgia-institute-of-technology",
+      "source_ids": [
+        "gatech-2026-engineering-batch02",
+        "gatech-aerospace-2026",
+        "gatech-scheller-2026-business"
+      ],
+      "evidence_anchor_references": [
+        {
+          "record_id": "batch02-engineering-biomedical-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-biomedical-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-biomedical-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-biomedical-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-biomedical-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-biomedical-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-biomedical-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-chemical-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-chemical-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-chemical-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-chemical-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-chemical-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-chemical-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-chemical-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-civil-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-civil-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-civil-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-civil-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-civil-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-civil-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-civil-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-computer-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-computer-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-computer-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-computer-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-computer-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-computer-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-computer-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-electrical-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-electrical-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-electrical-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-electrical-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-electrical-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-electrical-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-electrical-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-environmental-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-environmental-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-environmental-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-environmental-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-environmental-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-environmental-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-environmental-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-industrial-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-industrial-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-industrial-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-industrial-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-industrial-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-industrial-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-industrial-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-materials-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-materials-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-materials-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-materials-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-materials-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-materials-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-materials-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-mechanical-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-mechanical-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-mechanical-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-mechanical-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-mechanical-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-mechanical-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-engineering-mechanical-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-undergraduate-engineering-doctorate-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-undergraduate-engineering-doctorate-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-undergraduate-engineering-doctorate-gatech",
+          "field": "category_id",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-undergraduate-engineering-doctorate-gatech",
+          "field": "edition",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-undergraduate-engineering-doctorate-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-undergraduate-engineering-doctorate-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "batch02-undergraduate-engineering-doctorate-gatech",
+          "field": "tied",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        {
+          "record_id": "pilot-aerospace-gatech",
+          "field": "school_display_name",
+          "source_id": "gatech-aerospace-2026"
+        },
+        {
+          "record_id": "pilot-aerospace-gatech",
+          "field": "ranking_family",
+          "source_id": "gatech-aerospace-2026"
+        },
+        {
+          "record_id": "pilot-aerospace-gatech",
+          "field": "category_id",
+          "source_id": "gatech-aerospace-2026"
+        },
+        {
+          "record_id": "pilot-aerospace-gatech",
+          "field": "edition",
+          "source_id": "gatech-aerospace-2026"
+        },
+        {
+          "record_id": "pilot-aerospace-gatech",
+          "field": "numeric_rank",
+          "source_id": "gatech-aerospace-2026"
+        },
+        {
+          "record_id": "pilot-aerospace-gatech",
+          "field": "displayed_rank",
+          "source_id": "gatech-aerospace-2026"
+        },
+        {
+          "record_id": "pilot-aerospace-gatech",
+          "field": "tied",
+          "source_id": "gatech-aerospace-2026"
+        },
+        {
+          "record_id": "pilot-business-scheller",
+          "field": "school_display_name",
+          "source_id": "gatech-scheller-2026-business"
+        },
+        {
+          "record_id": "pilot-business-scheller",
+          "field": "ranking_family",
+          "source_id": "gatech-scheller-2026-business"
+        },
+        {
+          "record_id": "pilot-business-scheller",
+          "field": "category_id",
+          "source_id": "gatech-scheller-2026-business"
+        },
+        {
+          "record_id": "pilot-business-scheller",
+          "field": "edition",
+          "source_id": "gatech-scheller-2026-business"
+        },
+        {
+          "record_id": "pilot-business-scheller",
+          "field": "numeric_rank",
+          "source_id": "gatech-scheller-2026-business"
+        },
+        {
+          "record_id": "pilot-business-scheller",
+          "field": "displayed_rank",
+          "source_id": "gatech-scheller-2026-business"
+        },
+        {
+          "record_id": "pilot-business-scheller",
+          "field": "tied",
+          "source_id": "gatech-scheller-2026-business"
+        }
+      ]
+    },
+    {
+      "candidate_university_id": "candidate:harvard-university",
+      "source_ids": [
+        "usn-2026-best-colleges-press-release"
+      ],
+      "evidence_anchor_references": [
+        {
+          "record_id": "pilot-national-harvard",
+          "field": "school_display_name",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-harvard",
+          "field": "ranking_family",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-harvard",
+          "field": "category_id",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-harvard",
+          "field": "edition",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-harvard",
+          "field": "numeric_rank",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-harvard",
+          "field": "displayed_rank",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-harvard",
+          "field": "tied",
+          "source_id": "usn-2026-best-colleges-press-release"
+        }
+      ]
+    },
+    {
+      "candidate_university_id": "candidate:massachusetts-institute-of-technology",
+      "source_ids": [
+        "usn-2026-best-colleges-press-release"
+      ],
+      "evidence_anchor_references": [
+        {
+          "record_id": "pilot-national-mit",
+          "field": "school_display_name",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-mit",
+          "field": "ranking_family",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-mit",
+          "field": "category_id",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-mit",
+          "field": "edition",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-mit",
+          "field": "numeric_rank",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-mit",
+          "field": "displayed_rank",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-mit",
+          "field": "tied",
+          "source_id": "usn-2026-best-colleges-press-release"
+        }
+      ]
+    },
+    {
+      "candidate_university_id": "candidate:ohio-state-university",
+      "source_ids": [
+        "osu-fisher-2026-business"
+      ],
+      "evidence_anchor_references": [
+        {
+          "record_id": "pilot-business-fisher",
+          "field": "school_display_name",
+          "source_id": "osu-fisher-2026-business"
+        },
+        {
+          "record_id": "pilot-business-fisher",
+          "field": "ranking_family",
+          "source_id": "osu-fisher-2026-business"
+        },
+        {
+          "record_id": "pilot-business-fisher",
+          "field": "category_id",
+          "source_id": "osu-fisher-2026-business"
+        },
+        {
+          "record_id": "pilot-business-fisher",
+          "field": "edition",
+          "source_id": "osu-fisher-2026-business"
+        },
+        {
+          "record_id": "pilot-business-fisher",
+          "field": "numeric_rank",
+          "source_id": "osu-fisher-2026-business"
+        },
+        {
+          "record_id": "pilot-business-fisher",
+          "field": "displayed_rank",
+          "source_id": "osu-fisher-2026-business"
+        },
+        {
+          "record_id": "pilot-business-fisher",
+          "field": "tied",
+          "source_id": "osu-fisher-2026-business"
+        }
+      ]
+    },
+    {
+      "candidate_university_id": "candidate:princeton-university",
+      "source_ids": [
+        "usn-2026-best-colleges-press-release"
+      ],
+      "evidence_anchor_references": [
+        {
+          "record_id": "pilot-national-princeton",
+          "field": "school_display_name",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-princeton",
+          "field": "ranking_family",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-princeton",
+          "field": "category_id",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-princeton",
+          "field": "edition",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-princeton",
+          "field": "numeric_rank",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-princeton",
+          "field": "displayed_rank",
+          "source_id": "usn-2026-best-colleges-press-release"
+        },
+        {
+          "record_id": "pilot-national-princeton",
+          "field": "tied",
+          "source_id": "usn-2026-best-colleges-press-release"
+        }
+      ]
+    },
+    {
+      "candidate_university_id": "candidate:university-of-florida",
+      "source_ids": [
+        "uf-2026-business-batch01",
+        "uf-2026-marketing-batch03"
+      ],
+      "evidence_anchor_references": [
+        {
+          "record_id": "batch01-real-estate-uf",
+          "field": "school_display_name",
+          "source_id": "uf-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-real-estate-uf",
+          "field": "ranking_family",
+          "source_id": "uf-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-real-estate-uf",
+          "field": "category_id",
+          "source_id": "uf-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-real-estate-uf",
+          "field": "edition",
+          "source_id": "uf-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-real-estate-uf",
+          "field": "numeric_rank",
+          "source_id": "uf-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-real-estate-uf",
+          "field": "displayed_rank",
+          "source_id": "uf-2026-business-batch01"
+        },
+        {
+          "record_id": "batch01-real-estate-uf",
+          "field": "tied",
+          "source_id": "uf-2026-business-batch01"
+        },
+        {
+          "record_id": "batch03-marketing-uf",
+          "field": "school_display_name",
+          "source_id": "uf-2026-marketing-batch03"
+        },
+        {
+          "record_id": "batch03-marketing-uf",
+          "field": "ranking_family",
+          "source_id": "uf-2026-marketing-batch03"
+        },
+        {
+          "record_id": "batch03-marketing-uf",
+          "field": "category_id",
+          "source_id": "uf-2026-marketing-batch03"
+        },
+        {
+          "record_id": "batch03-marketing-uf",
+          "field": "edition",
+          "source_id": "uf-2026-marketing-batch03"
+        },
+        {
+          "record_id": "batch03-marketing-uf",
+          "field": "numeric_rank",
+          "source_id": "uf-2026-marketing-batch03"
+        },
+        {
+          "record_id": "batch03-marketing-uf",
+          "field": "displayed_rank",
+          "source_id": "uf-2026-marketing-batch03"
+        },
+        {
+          "record_id": "batch03-marketing-uf",
+          "field": "tied",
+          "source_id": "uf-2026-marketing-batch03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "national_top50_incomplete": true,
+  "all_streams_incomplete": true,
+  "no_verified_stream_count": 8,
+  "candidate_university_count": 7,
+  "frontend_export_allowed": false,
+  "final_universe_allowed": false,
+  "selection_memberships_allowed": false,
+  "national_universities_coverage": "Top-3 pilot only; not Top-50.",
+  "not_for_final_product_or_frontend": true
+}

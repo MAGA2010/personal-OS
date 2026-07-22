@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import type { MetricDefinition, ColorSchemeId } from "@/lib/types";
 import { METRIC_DEFINITIONS } from "@/lib/metrics";

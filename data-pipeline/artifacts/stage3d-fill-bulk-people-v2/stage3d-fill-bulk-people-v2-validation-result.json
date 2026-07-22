@@ -1,0 +1,18 @@
+{
+  "checks_passed": 22,
+  "deterministic_regeneration": true,
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "identified_person_count": 0,
+  "incomplete": true,
+  "no_qualifying_person_found_count": 0,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "ranking_field_contamination": 0,
+  "record_type": "stage3d_fill_bulk_people_v2_validation_result",
+  "slots_processed": 62,
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "source_review_not_completed_count": 62,
+  "status": "passed"
+}

@@ -1,4 +1,4 @@
-﻿import type { CityAggregate, ChineseCommunityLevel, MetricId, RankingTier, UniversityPOI } from "@/lib/types";
+import type { CityAggregate, ChineseCommunityLevel, MetricId, RankingTier, UniversityPOI } from "@/lib/types";
 import universityData from "@/data/universities.json";
 
 export const STATE_CENTERS: Record<string, [number, number]> = {
@@ -204,8 +204,6 @@ export function getCityMetricValue(city: CityAggregate, metricId: MetricId): num
       return clamp01(city.avgSafetyScore / 100);
     case "cost":
       return clamp01(city.avgAnnualCostRmb / 800000);
-    case "admission_rate":
-      return clamp01((city.avgAdmissionRate ?? 0) / 100);
     case "employment":
       return clamp01((city.avgEmploymentScore ?? city.avgRecognitionScore) / 100);
     case "chinese_population":
@@ -223,7 +221,6 @@ export function cityMetricColor(metricId: MetricId, value = 0.62): string {
     safety: ["#d73027", "#fee08b", "#4575b4"],
     employment: ["#d9f0e6", "#66c2a4", "#238b45"],
     cost: ["#fee6ce", "#fdae6b", "#e6550d"],
-    admission_rate: ["#fee8c8", "#fdbb84", "#e34a33"],
     chinese_population: ["#ffffb2", "#fecc5c", "#e31a1c"],
   };
   const [low, mid, high] = ramps[metricId];
@@ -238,8 +235,6 @@ export function getCityMetricDisplay(city: CityAggregate, metricId: MetricId): s
       return `${Math.round(city.avgSafetyScore)}/100`;
     case "cost":
       return `¥${(city.avgAnnualCostRmb / 10000).toFixed(1)}万`;
-    case "admission_rate":
-      return typeof city.avgAdmissionRate === "number" ? `${city.avgAdmissionRate.toFixed(city.avgAdmissionRate < 10 ? 1 : 0)}%` : "暂无";
     case "employment":
       return typeof city.avgEmploymentScore === "number" ? `${Math.round(city.avgEmploymentScore)}/100` : `${Math.round(city.avgRecognitionScore)}/100`;
     case "chinese_population":

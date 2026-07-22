@@ -1,0 +1,31 @@
+{
+  "record_type": "national_completion_source_manifest",
+  "edition": "2026 Best Colleges",
+  "accessed_at": "2026-07-11T21:19:00+08:00",
+  "sources": [
+    {
+      "source_id": "source_think_academy_top100_2026_pdf",
+      "source_title": "Top 100 College Ranking Shifts 2026 vs. 2025",
+      "source_publisher": "Think Academy",
+      "source_access_type": "user_provided_document",
+      "source_role": "manual_seed_reference",
+      "source_file": "/Users/jiayihuang/Downloads/Think-Academy-Top-100-College-Ranking-Shifts-2026-vs.-2025.pdf",
+      "official_usnews_source": false,
+      "source_confidence": "secondary_user_provided",
+      "permission_note": "User provided document for manual seed extraction; not treated as official U.S. News source.",
+      "limitation_note": "Third-party compiled ranking table; official U.S. News full ranking page was not accessible in execution environment."
+    },
+    {
+      "source_id": "usn-2026-best-colleges-press-release",
+      "source_title": "U.S. News Announces 2026 Best Colleges Rankings",
+      "source_publisher": "U.S. News & World Report L.P. via PR Newswire",
+      "source_access_type": "public_web_page",
+      "source_role": "official_top3_cross_check",
+      "url": "https://www.prnewswire.com/news-releases/us-news-announces-2026-best-colleges-rankings-302563669.html",
+      "official_usnews_source": true,
+      "source_confidence": "official",
+      "permission_note": "Public official U.S. News release used only to cross-check the first three entries.",
+      "limitation_note": "The release does not provide the complete National Top-50 table."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "record_type": "stage3b_demo_critical_gap_fill_summary",
+  "total_universities": 62,
+  "student_faculty_ratio_resolved_count": 62,
+  "student_faculty_ratio_unresolved_count": 0,
+  "identity_gap_original_count": 11,
+  "identity_gap_resolved_count": 11,
+  "identity_gap_remaining_count": 0,
+  "tuition_gap_resolved_count": 11,
+  "tuition_gap_remaining_count": 0,
+  "majors_gap_resolved_count": 11,
+  "majors_gap_remaining_count": 0,
+  "demo_program_gap_original_count": 8,
+  "demo_program_gap_resolved_count": 7,
+  "demo_program_gap_remaining_count": 1,
+  "stale_top5_gap_reason_original_count": 6,
+  "stale_top5_gap_reason_cleared_in_overlay_count": 6,
+  "source_policy_violations": 0,
+  "ranking_field_contamination": 0,
+  "demo_readiness_before": 0.629,
+  "demo_readiness_after": 0.996,
+  "remaining_blockers_before_frontend": [
+    "Candidate v2 and Stage 3B remain source-limited and not final.",
+    "Any remaining demo-program gap requires an official undergraduate source."
+  ],
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "final_universe_generated": false,
+  "official_selection_memberships_generated": false,
+  "frontend_export_generated": false
+}

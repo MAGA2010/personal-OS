@@ -1,0 +1,228 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_program_people_wave4_source_manifest",
+  "source_limited": true,
+  "sources": [
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-asu-alex-swartz-supply-chain.txt",
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "publisher": "Arizona State University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official ASU alumni story reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "09108ab3559bdc7bbed81ef12780ddad29659831441065f399c05d5e1dcce466",
+      "source_id": "wave4-asu-alex-swartz-supply-chain",
+      "source_type": "official_institutional",
+      "source_url": "https://usenate.asu.edu/mentorship-inspires-entrepreneurship-asu-alumni",
+      "verified_direct_quotes": [
+        "Alum Alex Swartz took Roskind’s class in 2012 while completing his Bachelor of Science in supply chain management."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-bucknell-sam-roy-ee.txt",
+      "candidate_id": "candidate-v2:bucknell-university",
+      "publisher": "Bucknell University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Bucknell alumni spotlight reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "f6955f548fac572a5fe98c7d192116714c85c73b09f7602b28a2a56e968a9e47",
+      "source_id": "wave4-bucknell-sam-roy-ee",
+      "source_type": "official_institutional",
+      "source_url": "https://www.bucknell.edu/life-bucknell/diversity-equity-inclusion/international-student-services/alumni-spotlight",
+      "verified_direct_quotes": [
+        "Sam Roy ’16",
+        "Major: Electrical Engineering",
+        "Sam graduated from Bucknell in 2016 with a myriad of academic, professional and extracurricular experiences."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-columbia-jennifer-lee-ee.txt",
+      "candidate_id": "candidate-v2:columbia-university",
+      "publisher": "Columbia University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Columbia EE profile reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "a31c74e46a489d99668a00223dc929a7f6cfd42f68d339934195fe5a0660d308",
+      "source_id": "wave4-columbia-jennifer-lee-ee",
+      "source_type": "official_institutional",
+      "source_url": "https://www.ee.columbia.edu/content/jennifer-lee",
+      "verified_direct_quotes": [
+        "Jennifer is an alumna of Columbia University, where she received her MS in Electrical Engineering and her MBA."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-cornell-kathy-george-hotel.txt",
+      "candidate_id": "candidate-v2:cornell-university",
+      "publisher": "Cornell University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Cornell alumni listing reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "4641a467638c472a568891fc8716e6b2e5dbe7366ab38e461157bc73939c9a5c",
+      "source_id": "wave4-cornell-kathy-george-hotel",
+      "source_type": "official_institutional",
+      "source_url": "https://cals.cornell.edu/american-indian-indigenous-studies/alumni",
+      "verified_direct_quotes": [
+        "Kathy George (Seneca, Mohawk) B.A. Hotel Administration 1991"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-dartmouth-owen-astrachan-cs.txt",
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "publisher": "Dartmouth College",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Dartmouth CS alumni list reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "904cc5df94f288bc855a6e0de197cbc3a0751fb9c280fc2a725d3e22b0986fa7",
+      "source_id": "wave4-dartmouth-owen-astrachan-cs",
+      "source_type": "official_institutional",
+      "source_url": "https://web.cs.dartmouth.edu/graduate/alumni-professors",
+      "verified_direct_quotes": [
+        "Prof. David Kotz has compiled a list of Dartmouth CS graduates who are now professors at universities and colleges around the world.",
+        "Owen Astrachan, '78, Duke University"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-emory-kim-chenevey-bba.txt",
+      "candidate_id": "candidate-v2:emory-university",
+      "publisher": "Emory University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Emory alumni award biography reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "c35e33a8b47bf622b058bad0788f622ff62863e3185dbdabade6acf17c009b3f",
+      "source_id": "wave4-emory-kim-chenevey-bba",
+      "source_type": "official_institutional",
+      "source_url": "https://oxford.emory.edu/alumni/awards-bios/bio-chenevy-2022.html",
+      "verified_direct_quotes": [
+        "Kim Chenevey earned her AA degree from Oxford College in 2002 and graduated from Goizueta Business School as a double major in 2004, with a BBA in finance and accounting and a BA in political science."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-gatech-farah-zuberi-ae.txt",
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "publisher": "Georgia Institute of Technology",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Georgia Tech aerospace alumni award story reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "19fe7e9292fcbda33973ba91b890b2ddc38c2d7f63fe1e277f8367658164a476",
+      "source_id": "wave4-gatech-farah-zuberi-ae",
+      "source_type": "official_institutional",
+      "source_url": "https://ae.gatech.edu/news/2026/03/three-ae-alumni-honored-2026-college-engineering-alumni-award-ceremony",
+      "verified_direct_quotes": [
+        "Farah minored in French at Georgia Tech while earning her aerospace engineering degree."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-jhu-alexander-schiffhauer-cs.txt",
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "publisher": "Johns Hopkins University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Johns Hopkins CS alumni spotlight reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "59ae1918944e9ca77e048c6861a733a82af9e25a70fe00c5eca32abf5f388baf",
+      "source_id": "wave4-jhu-alexander-schiffhauer-cs",
+      "source_type": "official_institutional",
+      "source_url": "https://www.cs.jhu.edu/news/cs-alum-says-course-exploration-at-hopkins-attributed-to-his-successful-career/",
+      "verified_direct_quotes": [
+        "The native New Yorker didn’t declare computer science as his major until his junior year, after switching between neuroscience and writing seminars.",
+        "In 2015, he went on to obtain a master’s in computer science from Hopkins."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-lehigh-jonathan-abramson-finance.txt",
+      "candidate_id": "candidate-v2:lehigh-university",
+      "publisher": "Lehigh University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Lehigh finance alumni mentor page reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "a463cf168ee2b9c8722cb1b4af0b96e9e444f18fcc98af822dab46dc223b96d1",
+      "source_id": "wave4-lehigh-jonathan-abramson-finance",
+      "source_type": "official_institutional",
+      "source_url": "https://alumni.lehigh.edu/finance-mentorship-program",
+      "verified_direct_quotes": [
+        "Mr. Abramson holds a Bachelor of Science in Finance from Lehigh University and graduated in 2009."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-mit-cara-lai-me.txt",
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "publisher": "Massachusetts Institute of Technology",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official MIT alumni gallery spotlight reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "83b29c296c1bd7cf96fe84f1527c0cd826b7ee4d81174c2746a1873d01ed7ee7",
+      "source_id": "wave4-mit-cara-lai-me",
+      "source_type": "official_institutional",
+      "source_url": "https://lit.mit.edu/shass-alumni-gallery-spotlights-cara-lai-graduated-from-mit-in-2016-with-degrees-in-mechanical-engineering-and-literature/",
+      "verified_direct_quotes": [
+        "Cara Lai, who graduated from MIT in 2016 with degrees in Mechanical Engineering and Literature, is a medical resident in orthopedic surgery."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-northwestern-antonio-daniels-cs.txt",
+      "candidate_id": "candidate-v2:northwestern-university",
+      "publisher": "Northwestern University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Northwestern Engineering alumni speaker profile reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "0223359b7da00a8b6c1390dcf6848be51d70acc40e6fd25bc1c04da09cf415a5",
+      "source_id": "wave4-northwestern-antonio-daniels-cs",
+      "source_type": "official_institutional",
+      "source_url": "https://www.mccormick.northwestern.edu/news/articles/2026/04/antonio-daniels-aaron-w-saak-to-speak-at-2026-graduation-ceremonies/",
+      "verified_direct_quotes": [
+        "“Antonio Daniels and Aaron Saak represent the depth and breadth of what our alumni achieve across industries,” said Christopher Schuh, dean of Northwestern Engineering.",
+        "Daniels earned his bachelor’s degree in electrical engineering and computer science."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-rutgers-maxine-deines-cs.txt",
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "publisher": "Rutgers University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Rutgers School of Engineering alumni PDF reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "d1a7d92d78f8bc9440b0763c4cbebdc63dd8e67bd8fb53bb44a2d276d4ff4ceb",
+      "source_id": "wave4-rutgers-maxine-deines-cs",
+      "source_type": "official_institutional",
+      "source_url": "https://engineering.rutgers.edu/sites/default/files/imce/Final%20Class%20of%202016%20and%202017.pdf",
+      "verified_direct_quotes": [
+        "She then graduated with highest honors from Rutgers School of Engineering, where she double majored in Electrical and Computer Engineering and Computer Science."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-tufts-liam-strand-cs.txt",
+      "candidate_id": "candidate-v2:tufts-university",
+      "publisher": "Tufts University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Tufts alumni award profile reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "95cf47455b525c8c869543521f6b1214ec505e8e926d5cfbc70605584c41bcdf",
+      "source_id": "wave4-tufts-liam-strand-cs",
+      "source_type": "official_institutional",
+      "source_url": "https://alumniandfriends.tufts.edu/2024-senior-awardee-liam-strand-e24",
+      "verified_direct_quotes": [
+        "Liam Strand graduated summa cum laude with a Bachelor's in Computer Science from the School of Engineering."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-16",
+      "cache_path": "cache/stage3d-fill-program-people-wave4/wave4-ucla-william-sharpe-econ.txt",
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "publisher": "University of California, Los Angeles",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official UCLA alumni and student honors page reviewed; only short verbatim evidence is retained in the gitignored cache.",
+      "sha256": "665347202b6f9ef28678cd0cf4ad13b8af0213ea89b178763ee33acd412087a2",
+      "source_id": "wave4-ucla-william-sharpe-econ",
+      "source_type": "official_institutional",
+      "source_url": "https://www.ucla.edu/about/awards-and-honors/alumni-and-student-honors",
+      "verified_direct_quotes": [
+        "William Sharpe",
+        "Economic Sciences, 1990",
+        "B.A. ’55, M.A. ’56, Ph.D. ’61 economics"
+      ]
+    }
+  ]
+}

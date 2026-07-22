@@ -1,0 +1,5 @@
+{
+  "universe_candidate_ready": true,
+  "universe_generated": false,
+  "reason": "All streams are processed and validated, but coverage remains source-limited and incomplete."
+}

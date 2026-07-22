@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathos.example/schemas/v1/ranking-pilot-candidate-observations.json",
+  "title": "PathOS pilot ranking candidate observations",
+  "type": "object",
+  "required": ["record_type", "edition_target", "observations"],
+  "properties": {"record_type": {"const": "ranking_collection_candidate_observations"}, "edition_target": {"type": "string", "minLength": 1}, "observations": {"type": "array", "items": {"type": "object"}}}
+}

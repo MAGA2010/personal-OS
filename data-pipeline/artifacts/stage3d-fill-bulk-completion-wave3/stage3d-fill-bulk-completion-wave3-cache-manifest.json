@@ -1,0 +1,72 @@
+{
+  "cache_is_gitignored": true,
+  "entries": [
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_cu_boulder_brian_tan.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "a79c5d73a6ef4f8b507639557264db80f5107d441f682a229db088e8b44ceee0",
+      "source_id": "source_wave3_cu_boulder_brian_tan"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_florida_david_nassau.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "371100d4e769ee51a1da035831d37b5066817c2760870c2029287372c8384df3",
+      "source_id": "source_wave3_florida_david_nassau"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_lehigh_terry_hart.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "6c88df3249d81fac4923b5cbca85cf5328f5a2fe4157de2bb51a3c6016fcf28d",
+      "source_id": "source_wave3_lehigh_terry_hart"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_nyu_fadi_chehade.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "3f13b1cb1c725bd9b9a5576dd47f56d0a3be8cc0d231d877941aa87d629e3692",
+      "source_id": "source_wave3_nyu_fadi_chehade"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_rose_hulman_fred_garry.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "74484b87cacf91bb529e5f2777cc50cb5ba8332e0ad1cf74853d9cbd5c2e8e46",
+      "source_id": "source_wave3_rose_hulman_fred_garry"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_south_carolina_glenn_tilton.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "584350ba677fe931c27e47926cbdea42022255ff695d67f7c2d8603d1bfd9d96",
+      "source_id": "source_wave3_south_carolina_glenn_tilton"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_uc_davis_gerald_hayden.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "e23296658866e9ea5a6448fab24311fe80b7c6fb79b5bb067d79c8c10232975e",
+      "source_id": "source_wave3_uc_davis_gerald_hayden"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_uc_irvine_maya_lee.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "e623b62a521d58a3783f1cdf7dfde30459f648ddb2a6677ca3ecb1898faa21f5",
+      "source_id": "source_wave3_uc_irvine_maya_lee"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_ucsb_cameron_brown.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "e4aee7216388d8a2b0b88a8e5173fd2be67141a39ccb5bc2a4898d4a26e8e787",
+      "source_id": "source_wave3_ucsb_cameron_brown"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-completion-wave3/source_wave3_washington_mekonnen_kassa.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "337a5bac3ebefd3875ea421f4e3773053d28e3f68ab7d368af58924056f82030",
+      "source_id": "source_wave3_washington_mekonnen_kassa"
+    }
+  ],
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_completion_wave3_cache_manifest",
+  "source_limited": true
+}

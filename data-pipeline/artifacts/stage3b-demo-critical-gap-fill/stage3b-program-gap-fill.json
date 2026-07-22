@@ -1,0 +1,809 @@
+{
+  "metadata": {
+    "record_type": "stage3b_program_gap_fill",
+    "source_limited": true,
+    "incomplete": true,
+    "not_final": true,
+    "final_universe_generated": false,
+    "official_selection_memberships_generated": false,
+    "frontend_export_generated": false
+  },
+  "universities": [
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "display_name": "Columbia University",
+      "original_gap": true,
+      "original_program_count": 0,
+      "added_demo_programs": [
+        {
+          "program_name": "Computer Science",
+          "normalized_program_name": "Computer Science",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_columbia_engineering_undergraduate_catalog",
+          "source_url": "https://bulletin.columbia.edu/columbia-engineering/academic-departments-programs/computer-science/undergraduate-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_columbia_engineering_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Computer Science (BS)"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Computer Engineering",
+          "normalized_program_name": "Computer Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_columbia_engineering_undergraduate_catalog",
+          "source_url": "https://bulletin.columbia.edu/columbia-engineering/academic-departments-programs/computer-engineering-program/undergraduate-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_columbia_engineering_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Computer Engineering (BS)"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Electrical Engineering",
+          "normalized_program_name": "Electrical Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_columbia_engineering_undergraduate_catalog",
+          "source_url": "https://bulletin.columbia.edu/columbia-engineering/academic-departments-programs/electrical-engineering/undergraduate-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_columbia_engineering_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Electrical Engineering (BS)"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Biomedical Engineering",
+          "normalized_program_name": "Biomedical Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_columbia_engineering_undergraduate_catalog",
+          "source_url": "https://bulletin.columbia.edu/columbia-engineering/undergraduate-studies/undergraduate-programs/junior-senior-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_columbia_engineering_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "undergraduate programs ... biomedical engineering"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Mechanical Engineering",
+          "normalized_program_name": "Mechanical Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_columbia_engineering_undergraduate_catalog",
+          "source_url": "https://bulletin.columbia.edu/columbia-engineering/undergraduate-studies/undergraduate-programs/junior-senior-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_columbia_engineering_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "undergraduate programs ... mechanical engineering"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        }
+      ],
+      "final_program_count": 5,
+      "resolved": true,
+      "top_5_gap_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "display_name": "The Ohio State University",
+      "original_gap": true,
+      "original_program_count": 1,
+      "added_demo_programs": [
+        {
+          "program_name": "Computer and Information Science",
+          "normalized_program_name": "Computer and Information Science",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ohio_state_undergraduate_majors",
+          "source_url": "https://undergrad.osu.edu/majors-and-academics/majors-by-college",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ohio_state_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Computer and Information Science"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Data Analytics",
+          "normalized_program_name": "Data Analytics",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ohio_state_undergraduate_majors",
+          "source_url": "https://undergrad.osu.edu/majors-and-academics/majors-by-college",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ohio_state_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Data Analytics"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Psychology",
+          "normalized_program_name": "Psychology",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ohio_state_undergraduate_majors",
+          "source_url": "https://undergrad.osu.edu/majors-and-academics/majors-by-college",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ohio_state_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Psychology"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Economics",
+          "normalized_program_name": "Economics",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ohio_state_undergraduate_majors",
+          "source_url": "https://undergrad.osu.edu/majors-and-academics/majors-by-college",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ohio_state_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Economics"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        }
+      ],
+      "final_program_count": 5,
+      "resolved": true,
+      "top_5_gap_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "display_name": "Olin College of Engineering",
+      "original_gap": true,
+      "original_program_count": 1,
+      "added_demo_programs": [
+        {
+          "program_name": "Mechanical Engineering",
+          "normalized_program_name": "Mechanical Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_olin_majors_concentrations",
+          "source_url": "https://www.olin.edu/academics/majors-concentrations",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_olin_majors_concentrations",
+            "evidence_type": "direct_quote",
+            "quote": "Mechanical Engineering (ME)"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Electrical and Computer Engineering",
+          "normalized_program_name": "Electrical and Computer Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_olin_majors_concentrations",
+          "source_url": "https://www.olin.edu/academics/majors-concentrations",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_olin_majors_concentrations",
+            "evidence_type": "direct_quote",
+            "quote": "Electrical and Computer Engineering (ECE)"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Bioengineering Concentration",
+          "normalized_program_name": "Bioengineering Concentration",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_olin_majors_concentrations",
+          "source_url": "https://www.olin.edu/academics/majors-concentrations",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_olin_majors_concentrations",
+            "evidence_type": "direct_quote",
+            "quote": "Bioengineering Concentration (E:Bio)"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Engineering Computing Concentration",
+          "normalized_program_name": "Engineering Computing Concentration",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_olin_majors_concentrations",
+          "source_url": "https://www.olin.edu/academics/majors-concentrations",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_olin_majors_concentrations",
+            "evidence_type": "direct_quote",
+            "quote": "Engineering Computing (E:C)"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        }
+      ],
+      "final_program_count": 5,
+      "resolved": true,
+      "top_5_gap_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "display_name": "University of North Carolina—Chapel Hill",
+      "original_gap": true,
+      "original_program_count": 0,
+      "added_demo_programs": [
+        {
+          "program_name": "Asian Studies, B.A. — Japanese Concentration",
+          "normalized_program_name": "Asian Studies, B.A. — Japanese Concentration",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_unc_undergraduate_catalog",
+          "source_url": "https://catalog.unc.edu/undergraduate/programs-study/programs-study.pdf",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_unc_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Asian Studies Major, B.A.–Japanese Concentration"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Asian Studies, B.A. — Korean Studies Concentration",
+          "normalized_program_name": "Asian Studies, B.A. — Korean Studies Concentration",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_unc_undergraduate_catalog",
+          "source_url": "https://catalog.unc.edu/undergraduate/programs-study/programs-study.pdf",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_unc_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Asian Studies Major, B.A.–Korean Studies Concentration"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Asian Studies, B.A. — South Asian Studies Concentration",
+          "normalized_program_name": "Asian Studies, B.A. — South Asian Studies Concentration",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_unc_undergraduate_catalog",
+          "source_url": "https://catalog.unc.edu/undergraduate/programs-study/programs-study.pdf",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_unc_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Asian Studies Major, B.A.–South Asian Studies Concentration"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        }
+      ],
+      "final_program_count": 3,
+      "resolved": false,
+      "top_5_gap_reason": "fewer_than_five_official_undergraduate_demo_programs_available_after_stage3b"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "display_name": "University of South Carolina",
+      "original_gap": true,
+      "original_program_count": 1,
+      "added_demo_programs": [
+        {
+          "program_name": "Data Analytics",
+          "normalized_program_name": "Data Analytics",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_usc_majors_degrees",
+          "source_url": "https://sc.edu/study/majors_and_degrees/index.php",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_usc_majors_degrees",
+            "evidence_type": "direct_quote",
+            "quote": "Bachelor's Data Analytics, B.S."
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Economics",
+          "normalized_program_name": "Economics",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_usc_majors_degrees",
+          "source_url": "https://sc.edu/study/majors_and_degrees/index.php",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_usc_majors_degrees",
+            "evidence_type": "direct_quote",
+            "quote": "Bachelor's Economics, B.A. / B.S."
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Management",
+          "normalized_program_name": "Management",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_usc_majors_degrees",
+          "source_url": "https://sc.edu/study/majors_and_degrees/index.php",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_usc_majors_degrees",
+            "evidence_type": "direct_quote",
+            "quote": "Bachelor's Management, B.S.B.A."
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Marketing",
+          "normalized_program_name": "Marketing",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_usc_majors_degrees",
+          "source_url": "https://sc.edu/study/majors_and_degrees/index.php",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_usc_majors_degrees",
+            "evidence_type": "direct_quote",
+            "quote": "Bachelor's Marketing, B.S.B.A."
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        }
+      ],
+      "final_program_count": 5,
+      "resolved": true,
+      "top_5_gap_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "display_name": "University of Texas—Austin",
+      "original_gap": true,
+      "original_program_count": 0,
+      "added_demo_programs": [
+        {
+          "program_name": "Business Administration",
+          "normalized_program_name": "Business Administration",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ut_austin_undergraduate_catalog",
+          "source_url": "https://catalog.utexas.edu/undergraduate/the-university/degree-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ut_austin_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Business administration BBA"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Computer Science",
+          "normalized_program_name": "Computer Science",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ut_austin_undergraduate_catalog",
+          "source_url": "https://catalog.utexas.edu/undergraduate/the-university/degree-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ut_austin_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Computer science BSA, BSCompSci"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Aerospace Engineering",
+          "normalized_program_name": "Aerospace Engineering",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ut_austin_undergraduate_catalog",
+          "source_url": "https://catalog.utexas.edu/undergraduate/the-university/degree-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ut_austin_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Aerospace engineering BSAsE"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Finance",
+          "normalized_program_name": "Finance",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ut_austin_undergraduate_catalog",
+          "source_url": "https://catalog.utexas.edu/undergraduate/the-university/degree-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ut_austin_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Finance BBA"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Management Information Systems",
+          "normalized_program_name": "Management Information Systems",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_ut_austin_undergraduate_catalog",
+          "source_url": "https://catalog.utexas.edu/undergraduate/the-university/degree-programs/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_ut_austin_undergraduate_catalog",
+            "evidence_type": "direct_quote",
+            "quote": "Management information systems BBA"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        }
+      ],
+      "final_program_count": 5,
+      "resolved": true,
+      "top_5_gap_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "display_name": "University of Virginia",
+      "original_gap": true,
+      "original_program_count": 0,
+      "added_demo_programs": [
+        {
+          "program_name": "Computer Science",
+          "normalized_program_name": "Computer Science",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uva_undergraduate_majors",
+          "source_url": "https://www.virginia.edu/majors-minors/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uva_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Computer Science, B.A. and B.S."
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Data Science",
+          "normalized_program_name": "Data Science",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uva_undergraduate_majors",
+          "source_url": "https://www.virginia.edu/majors-minors/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uva_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Data Science, B.S."
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Economics",
+          "normalized_program_name": "Economics",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uva_undergraduate_majors",
+          "source_url": "https://www.virginia.edu/majors-minors/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uva_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Economics"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Biomedical Engineering",
+          "normalized_program_name": "Biomedical Engineering",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uva_undergraduate_majors",
+          "source_url": "https://www.virginia.edu/majors-minors/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uva_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Biomedical Engineering"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Commerce",
+          "normalized_program_name": "Commerce",
+          "college_or_school": null,
+          "source_basis": "official_major_list",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uva_undergraduate_majors",
+          "source_url": "https://www.virginia.edu/majors-minors/",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uva_undergraduate_majors",
+            "evidence_type": "direct_quote",
+            "quote": "Commerce"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        }
+      ],
+      "final_program_count": 5,
+      "resolved": true,
+      "top_5_gap_reason": null
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "display_name": "University of Washington",
+      "original_gap": true,
+      "original_program_count": 0,
+      "added_demo_programs": [
+        {
+          "program_name": "Aeronautics and Astronautics",
+          "normalized_program_name": "Aeronautics and Astronautics",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uw_undergraduate_degree_programs",
+          "source_url": "https://www.washington.edu/students/gencat/degree_programs.html",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uw_undergraduate_degree_programs",
+            "evidence_type": "direct_quote",
+            "quote": "Aeronautics and Astronautics"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Chemical Engineering",
+          "normalized_program_name": "Chemical Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uw_undergraduate_degree_programs",
+          "source_url": "https://www.washington.edu/students/gencat/degree_programs.html",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uw_undergraduate_degree_programs",
+            "evidence_type": "direct_quote",
+            "quote": "Chemical Engineering"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Civil and Environmental Engineering",
+          "normalized_program_name": "Civil and Environmental Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uw_undergraduate_degree_programs",
+          "source_url": "https://www.washington.edu/students/gencat/degree_programs.html",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uw_undergraduate_degree_programs",
+            "evidence_type": "direct_quote",
+            "quote": "Civil and Environmental Engineering"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Computer Science and Engineering",
+          "normalized_program_name": "Computer Science and Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uw_undergraduate_degree_programs",
+          "source_url": "https://www.washington.edu/students/gencat/degree_programs.html",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uw_undergraduate_degree_programs",
+            "evidence_type": "direct_quote",
+            "quote": "Computer Science and Engineering"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        },
+        {
+          "program_name": "Mechanical Engineering",
+          "normalized_program_name": "Mechanical Engineering",
+          "college_or_school": null,
+          "source_basis": "official_school_program_page",
+          "usnews_category": null,
+          "usnews_rank": null,
+          "confidence": "medium",
+          "source_id": "source_uw_undergraduate_degree_programs",
+          "source_url": "https://www.washington.edu/students/gencat/degree_programs.html",
+          "source_type": "official_institutional",
+          "undergraduate_status": "undergraduate",
+          "evidence_anchor": {
+            "source_id": "source_uw_undergraduate_degree_programs",
+            "evidence_type": "direct_quote",
+            "quote": "Mechanical Engineering"
+          },
+          "null_reason": null,
+          "source_note": "Official undergraduate program supplement for demo display; not a U.S. News ranking record."
+        }
+      ],
+      "final_program_count": 5,
+      "resolved": true,
+      "top_5_gap_reason": null
+    }
+  ]
+}

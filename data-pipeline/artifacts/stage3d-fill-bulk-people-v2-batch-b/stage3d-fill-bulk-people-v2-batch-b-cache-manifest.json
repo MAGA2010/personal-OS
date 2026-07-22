@@ -1,0 +1,244 @@
+{
+  "cache_is_gitignored": true,
+  "entries": [
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-v2-batch-b/source_batch_b_cmu_james_gosling.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Gitignored reviewed excerpt cache; not a full-page snapshot.",
+      "sha256": "919e8dff8a7cc71982e2560d2bce393bfa6ca09ef9f438e2d5605145ab3e04f1",
+      "source_id": "source_batch_b_cmu_james_gosling",
+      "source_url": "https://www.cs.cmu.edu/news/2009/gosling-reflects-history-java-programming-language-carnegie-mellon-celebrates-andrew-project"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-v2-batch-b/source_batch_b_michigan_larry_page.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Gitignored reviewed excerpt cache; not a full newsletter snapshot.",
+      "sha256": "959316ae2e4c41e93a59054fab1e4f833567330266132b16070214fe390b83ef",
+      "source_id": "source_batch_b_michigan_larry_page",
+      "source_url": "https://ece.engin.umich.edu/wp-content/uploads/sites/4/2019/10/EECSNewsFW04.pdf"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-v2-batch-b/source_batch_b_ohio_state_leslie_wexner.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Gitignored reviewed excerpt cache; not a full-page snapshot.",
+      "sha256": "e71bcf4131a45d350fef2d990c97e498fad2161d7b9eb33097cabd322a018a18",
+      "source_id": "source_batch_b_ohio_state_leslie_wexner",
+      "source_url": "https://trustees.osu.edu/people/leslie-wexner"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-v2-batch-b/source_batch_b_rice_mohit_aron.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Gitignored reviewed excerpt cache; not a full-page snapshot.",
+      "sha256": "2ae6c37a0dd869594e5628635d98a44011e2ba5891f0735d5fef2fc18952f3d5",
+      "source_id": "source_batch_b_rice_mohit_aron",
+      "source_url": "https://engineering.rice.edu/mohit-aron"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_brown_john_krasinski",
+      "source_url": "https://www.brown.edu/news/2019-05-25/baccalaureate",
+      "source_url_or_reference": "https://www.brown.edu/news/2019-05-25/baccalaureate"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_emory_eva_rothenberg",
+      "source_url": "https://oxford.emory.edu/news/2023/12/rothenberg-marshall-scholar.html",
+      "source_url_or_reference": "https://oxford.emory.edu/news/2023/12/rothenberg-marshall-scholar.html"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_florida_tim_tebow",
+      "source_url": "https://news.ufl.edu/2022/03/tebow-to-serve-as-ufs-2022-commencement-speaker/",
+      "source_url_or_reference": "https://news.ufl.edu/2022/03/tebow-to-serve-as-ufs-2022-commencement-speaker/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_georgia_tech_clemmie_whatley",
+      "source_url": "https://www.gatech.edu/news/2026/03/24/celebrating-techs-first-african-american-female-graduate-clemmie-whatley",
+      "source_url_or_reference": "https://www.gatech.edu/news/2026/03/24/celebrating-techs-first-african-american-female-graduate-clemmie-whatley"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_illinois_sean_evans",
+      "source_url": "https://commencement.illinois.edu/2026-commencement-speaker/",
+      "source_url_or_reference": "https://commencement.illinois.edu/2026-commencement-speaker/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_michigan_james_earl_jones",
+      "source_url": "https://heritage.umich.edu/timeline/",
+      "source_url_or_reference": "https://heritage.umich.edu/timeline/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_northwestern_stephen_colbert",
+      "source_url": "https://news.northwestern.edu/stories/2016/05/opinion-give-up-on-your-dreams",
+      "source_url_or_reference": "https://news.northwestern.edu/stories/2016/05/opinion-give-up-on-your-dreams"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_notre_dame_marlene_daut",
+      "source_url": "https://graduateschool.nd.edu/news/graduate-school-honors-2026-alumni-faculty-and-student-award-winners/",
+      "source_url_or_reference": "https://graduateschool.nd.edu/news/graduate-school-honors-2026-alumni-faculty-and-student-award-winners/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_ohio_state_jesse_owens",
+      "source_url": "https://library.osu.edu/documents/university-archives/biographical_files/Owens_Jesse.pdf",
+      "source_url_or_reference": "https://library.osu.edu/documents/university-archives/biographical_files/Owens_Jesse.pdf"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_purdue_neil_armstrong",
+      "source_url": "https://archives.lib.purdue.edu/agents/people/100?filter_fields%5B%5D=subjects&filter_values%5B%5D=Purdue+University+--+Alumni+and+alumnae",
+      "source_url_or_reference": "https://archives.lib.purdue.edu/agents/people/100?filter_fields%5B%5D=subjects&filter_values%5B%5D=Purdue+University+--+Alumni+and+alumnae"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_rice_peggy_whitson",
+      "source_url": "https://naturalsciences.rice.edu/news/biosciences-alum-peggy-whitson-speak-may-4-commencement",
+      "source_url_or_reference": "https://naturalsciences.rice.edu/news/biosciences-alum-peggy-whitson-speak-may-4-commencement"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_tamu_dudley_hughes",
+      "source_url": "https://stories.tamu.edu/news/2010/04/09/texas-am-university-announces-2010-distinguished-alumni/",
+      "source_url_or_reference": "https://stories.tamu.edu/news/2010/04/09/texas-am-university-announces-2010-distinguished-alumni/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_ucla_kareem_abdul_jabbar",
+      "source_url": "https://alumni.ucla.edu/awards/kareem-abdul-jabbar-69/",
+      "source_url_or_reference": "https://alumni.ucla.edu/awards/kareem-abdul-jabbar-69/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_unc_michael_jordan",
+      "source_url": "https://goheels.com/news/2001/5/16/205484867",
+      "source_url_or_reference": "https://goheels.com/news/2001/5/16/205484867"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_vanderbilt_james_patterson",
+      "source_url": "https://www.vanderbilt.edu/alumni/about/awards/distinguished-alum/",
+      "source_url_or_reference": "https://www.vanderbilt.edu/alumni/about/awards/distinguished-alum/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-bulk-people-completion-v1/reviewed-excerpts.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed official source; shared gitignored cache stores only source references and short verified excerpts.",
+      "sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_id": "source_bulk_people_wisconsin_virgil_abloh",
+      "source_url": "https://www.wisc.edu/about/notable-alumni/",
+      "source_url_or_reference": "https://www.wisc.edu/about/notable-alumni/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-people-pilot/source_people_pilot_cmu_andy_warhol.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Normal public official page was reviewed; cache retains only source metadata and the short verified excerpt, never a full-page snapshot.",
+      "sha256": "1f6eaa93fbdd204a34614dbdd525f2e86ed2f5dbf3fbd82364be5d593564b3c8",
+      "source_id": "source_people_pilot_cmu_andy_warhol",
+      "source_url": "https://art.cmu.edu/people/alumni/",
+      "source_url_or_reference": "https://art.cmu.edu/people/alumni/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-people-pilot/source_people_pilot_jhu_michael_bloomberg.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Normal public official page was reviewed; cache retains only source metadata and the short verified excerpt, never a full-page snapshot.",
+      "sha256": "c2878afca86002df5db297ab914316b80976b2e0fe7f60e8f0bb75c4a01bc743",
+      "source_id": "source_people_pilot_jhu_michael_bloomberg",
+      "source_url": "https://engineering.jhu.edu/ece/alumni/alumni-corner/",
+      "source_url_or_reference": "https://engineering.jhu.edu/ece/alumni/alumni-corner/"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-people-pilot/source_people_pilot_ut_matthew_mcconaughey.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Normal public official page was reviewed; cache retains only source metadata and the short verified excerpt, never a full-page snapshot.",
+      "sha256": "dce7fb46cbbb54abe795277f7d607c0292da46c6abe5f80c090670749b7d0e83",
+      "source_id": "source_people_pilot_ut_matthew_mcconaughey",
+      "source_url": "https://moody.utexas.edu/news/script-screen",
+      "source_url_or_reference": "https://moody.utexas.edu/news/script-screen"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-people-pilot/source_people_pilot_uw_bruce_lee.txt",
+      "cache_status": "cached",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Normal public official page was reviewed; cache retains only source metadata and the short verified excerpt, never a full-page snapshot.",
+      "sha256": "8eff936b52d35bc9dca620856c225a6a4543677249040556e1b4548f0a527935",
+      "source_id": "source_people_pilot_uw_bruce_lee",
+      "source_url": "https://magazine.washington.edu/feature/100-unforgettable-uw-alumni-of-the-20th-century/",
+      "source_url_or_reference": "https://magazine.washington.edu/feature/100-unforgettable-uw-alumni-of-the-20th-century/"
+    }
+  ],
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v2_batch_b_cache_manifest",
+  "source_limited": true
+}

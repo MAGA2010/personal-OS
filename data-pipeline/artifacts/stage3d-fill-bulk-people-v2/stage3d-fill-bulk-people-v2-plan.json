@@ -1,0 +1,21 @@
+{
+  "allowed_slot_statuses": [
+    "identified_person",
+    "no_qualifying_person_found",
+    "source_review_not_completed"
+  ],
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "objective": "Process one immutable Top-1 demo-program person slot for each Candidate v2 school.",
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v2_plan",
+  "scope": {
+    "real_person_intake_this_round": false,
+    "slots_per_university": 1,
+    "universities": 62
+  },
+  "source_limited": true,
+  "upstream_mutation_allowed": false
+}
