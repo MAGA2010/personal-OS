@@ -392,7 +392,7 @@ export function MapShell({
                  }
                }}
                selectedId={selectedUniversityId}
-               pinMinZoom={cityDrilldownEnabled ? 7.6 : 0}
+               pinMinZoom={cityDrilldownEnabled ? 5.0 : 0}
              />
              {selectedStateFips === "06" && (
                <CaliforniaRoadLayer enabled cities={visibleCities} />
@@ -467,7 +467,7 @@ export function MapShell({
             </div>
             <span className="pointer-events-none rounded-full border border-line bg-white/88 px-2.5 py-1 text-[11px] font-medium text-ink/64 backdrop-blur">
               {selectedCity ? "城市详情" : cityDrilldownEnabled && selectedStateFips
-                ? (STATE_OPTIONS.find(s => s.fipsCode === selectedStateFips)?.name || selectedStateFips) + " 城市级"
+                ? (STATE_OPTIONS.find(s => s.fipsCode === selectedStateFips)?.name || selectedStateFips) + " 城市级 · " + visibleCities.reduce((s,c)=>s + c.universityCount, 0) + " 所大学"
                 : "州级色块图"}
             </span>
           </div>
@@ -477,7 +477,7 @@ export function MapShell({
               <div className="mb-2 flex items-center justify-between gap-2">
                 <div>
                   <div className="font-semibold text-ink">城市级数据</div>
-                  <div className="text-[11px] text-ink/48">{activeMetricDef.label} · {visibleCities.length} 个城市</div>
+                  <div className="text-[11px] text-ink/48">{activeMetricDef.label} · {visibleCities.length} 个城市 · {visibleCities.reduce((s,c)=>s + c.universityCount, 0)} 所大学</div>
                 </div>
                 <span className="rounded-full bg-cobalt/10 px-2 py-0.5 text-[10px] font-medium text-cobalt">City Layer</span>
               </div>

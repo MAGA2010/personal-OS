@@ -1,0 +1,17 @@
+{
+  "record_type": "pilot_identity_mappings",
+  "mappings": [
+    {
+      "record_id": "test-tepper-business",
+      "source_display_name": "Tepper School of Business",
+      "normalized_display_name": "Tepper School of Business",
+      "official_institution_name": "Carnegie Mellon University",
+      "aliases": ["Tepper", "Carnegie Mellon University"],
+      "unitid": null,
+      "identity_confidence": "high",
+      "identity_source": {"source_id": "test-source", "url": "https://example.invalid/identity"},
+      "resolution_status": "resolved",
+      "canonical_identity_id": "institution:carnegie-mellon-university"
+    }
+  ]
+}

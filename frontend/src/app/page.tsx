@@ -60,7 +60,7 @@ export default function HomePage() {
 
         {/* CTA Buttons */}
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <Link href="/match">
+          <Link href="/map" className="inline-flex items-center gap-2 rounded-lg border border-line/70 bg-white px-5 py-3 text-sm font-semibold text-ink/70 shadow-sm transition hover:border-ink/20 active:scale-[0.97]">
             <Map size={18} />
             探索地图
             <ArrowRight size={16} />
@@ -70,7 +70,8 @@ export default function HomePage() {
             <Trophy size={18} />
             查看排名
           </Link>
-          <Link href="/calculator" className="inline-flex items-center gap-2 rounded-lg border border-jade/30 bg-jade/5 px-5 py-3 text-sm font-semibold text-jade shadow-sm transition hover:bg-jade/10 active:scale-[0.97]"><TrendingUp size={18} /> 智能选校
+          <Link href="/match" className="inline-flex items-center gap-2 rounded-lg border border-line/70 bg-white px-5 py-3 text-sm font-semibold text-ink/70 shadow-sm transition hover:border-ink/20 active:scale-[0.97]">
+            <TrendingUp size={18} /> 智能选校
           </Link>
         </div>
 
