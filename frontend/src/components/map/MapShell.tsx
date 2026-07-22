@@ -618,29 +618,16 @@ export function MapShell({
               onClose={handleSidebarClose}
             />
           ) : (
-            <>
-              <div className="shrink-0">
-                <MapFilterPanel
-                  filters={filters}
-                  universities={allUniversities}
-                  resultCount={filteredUniversities.length}
-                  totalCount={allUniversities.length}
-                  onChange={setFilters}
-                  onReset={() => setFilters(DEFAULT_STRONG_MAP_FILTERS)}
-                />
-              </div>
-              <div className="flex-1 overflow-y-auto">
-                {countActiveFilters(filters) > 0 || filters.sortBy !== "recommended" ? (
-                  <FilteredUniversityList
-                    universities={filteredUniversities}
-                    onSelect={setSelectedUniversityId}
-                    onAddToCompare={addToCompare}
-                  />
-                ) : (
-                  <NewsFeedSidebar articles={newsArticles} />
-                )}
-              </div>
-            </>
+            <SidebarTabsContent
+              filters={filters}
+              allUniversities={allUniversities}
+              filteredUniversities={filteredUniversities}
+              newsArticles={newsArticles}
+              onFilterChange={setFilters}
+              onFilterReset={() => setFilters(DEFAULT_STRONG_MAP_FILTERS)}
+              onUniversitySelect={setSelectedUniversityId}
+              onAddToCompare={addToCompare}
+            />
           )}
         </div>
       </aside>
@@ -853,6 +840,99 @@ function NewsFeedSidebar({ articles }: { articles: NewsArticle[] }) {
   );
 }
 
+
+// ═══════════════════════════════════════════════════════════════════
+// SidebarTabsContent — tabbed sidebar: 留学资讯 / 智能筛选
+// ═══════════════════════════════════════════════════════════════════
+
+function SidebarTabsContent({
+  filters,
+  allUniversities,
+  filteredUniversities,
+  newsArticles,
+  onFilterChange,
+  onFilterReset,
+  onUniversitySelect,
+  onAddToCompare,
+}: {
+  filters: StrongMapFilters;
+  allUniversities: UniversityPOI[];
+  filteredUniversities: UniversityPOI[];
+  newsArticles: NewsArticle[];
+  onFilterChange: (next: StrongMapFilters) => void;
+  onFilterReset: () => void;
+  onUniversitySelect: (id: string) => void;
+  onAddToCompare: (id: string) => void;
+}) {
+  const [activeTab, setActiveTab] = useState<"news" | "smartFilter">("news");
+
+  return (
+    <div className="flex h-full flex-col">
+      {/* Tab bar */}
+      <div className="flex shrink-0 border-b border-line">
+        <button
+          type="button"
+          onClick={() => setActiveTab("news")}
+          className={`flex flex-1 items-center justify-center gap-1.5 py-2.5 text-xs font-medium transition-colors ${
+            activeTab === "news"
+              ? "border-b-2 border-cobalt text-cobalt"
+              : "border-b-2 border-transparent text-ink/44 hover:text-ink/64"
+          }`}
+        >
+          留学资讯
+        </button>
+        <button
+          type="button"
+          onClick={() => setActiveTab("smartFilter")}
+          className={`flex flex-1 items-center justify-center gap-1.5 py-2.5 text-xs font-medium transition-colors ${
+            activeTab === "smartFilter"
+              ? "border-b-2 border-cobalt text-cobalt"
+              : "border-b-2 border-transparent text-ink/44 hover:text-ink/64"
+          }`}
+        >
+          智能筛选
+        </button>
+      </div>
+
+      {/* Tab content */}
+      <div className="flex min-h-0 flex-1 flex-col">
+        {activeTab === "news" ? (
+          <div className="flex-1 overflow-y-auto">
+            <NewsFeedSidebar articles={newsArticles} />
+          </div>
+        ) : (
+          <>
+            <div className="shrink-0">
+              <MapFilterPanel
+                filters={filters}
+                universities={allUniversities}
+                resultCount={filteredUniversities.length}
+                totalCount={allUniversities.length}
+                onChange={onFilterChange}
+                onReset={onFilterReset}
+              />
+            </div>
+            <div className="flex-1 overflow-y-auto">
+              {countActiveFilters(filters) > 0 || filters.sortBy !== "recommended" ? (
+                <FilteredUniversityList
+                  universities={filteredUniversities}
+                  onSelect={onUniversitySelect}
+                  onAddToCompare={onAddToCompare}
+                />
+              ) : (
+                <div className="flex flex-col items-center justify-center gap-2 px-4 py-12 text-center">
+                  <Sparkles size={20} className="text-ink/20" aria-hidden="true" />
+                  <p className="text-sm text-ink/40">调整筛选条件找到目标学校</p>
+                  <p className="text-xs text-ink/32">从上方选项中开始筛选</p>
+                </div>
+              )}
+            </div>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
 // ═══════════════════════════════════════════════════════════════════
 // Helpers
 // ═══════════════════════════════════════════════════════════════════
