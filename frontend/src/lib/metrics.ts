@@ -96,6 +96,7 @@ export const METRIC_ORDER: MetricId[] = [
   "employment",
   "cost",
   "chinese_population",
+  "admission_rate",
 ];
 
 // ── Display Formatting ──
@@ -117,6 +118,8 @@ export function formatMetricValue(metricId: MetricId, rawValue: number): string 
       return `${rawValue.toFixed(1)}%`;
         case "cost":
       return `¥${(rawValue / 10000).toFixed(0)}万`;
+    case "admission_rate":
+      return `${rawValue.toFixed(1)}%`;
     case "chinese_population":
       return `${rawValue.toFixed(1)}%`;
     default: {
@@ -146,6 +149,9 @@ export function denormaliseDisplayValue(metricId: MetricId, normalised: number):
       break;
     case "cost":
       raw = Math.round(normalised * 450000 + 150000);
+      break;
+    case "admission_rate":
+      raw = normalised * 100;
       break;
     case "chinese_population":
       raw = normalised * 15;

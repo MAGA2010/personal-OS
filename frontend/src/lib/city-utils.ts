@@ -222,7 +222,7 @@ export function cityMetricColor(metricId: MetricId, value = 0.62): string {
     employment: ["#d9f0e6", "#66c2a4", "#238b45"],
     cost: ["#fee6ce", "#fdae6b", "#e6550d"],
     chinese_population: ["#ffffb2", "#fecc5c", "#e31a1c"],
-  };
+    admission_rate: ["#fee8d8", "#fb6a4a", "#cb181d"],  };
   const [low, mid, high] = ramps[metricId];
   if (t < 0.33) return low;
   if (t < 0.66) return mid;

@@ -29,7 +29,7 @@ const METRIC_ABBREVIATIONS: Record<MetricId, string> = {
   employment: "就业",
   cost: "成本",
   chinese_population: "华人",
-};
+  admission_rate: "录取率",};
 
 // ── Component ──
 
