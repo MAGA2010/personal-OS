@@ -52,7 +52,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 13777
       },
-      "numericRank": 1
+      "numericRank": 1,
+      "admissionRate": 4.5
     },
     {
       "id": "massachusetts-institute-of-technology",
@@ -101,7 +102,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 13777
       },
-      "numericRank": 2
+      "numericRank": 2,
+      "admissionRate": 4.7
     },
     {
       "id": "harvard-university",
@@ -153,7 +155,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 13777
       },
-      "numericRank": 3
+      "numericRank": 3,
+      "admissionRate": 3.5
     },
     {
       "id": "stanford-university",
@@ -205,7 +208,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 13777
       },
-      "numericRank": 4
+      "numericRank": 4,
+      "admissionRate": 3.9
     },
     {
       "id": "yale-university",
@@ -254,7 +258,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 13777
       },
-      "numericRank": 4
+      "numericRank": 4,
+      "admissionRate": 4.5
     },
     {
       "id": "university-of-chicago",
@@ -306,7 +311,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 13777
       },
-      "numericRank": 6
+      "numericRank": 6,
+      "admissionRate": 4.8
     },
     {
       "id": "duke-university",
@@ -355,7 +361,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 13777
       },
-      "numericRank": 7
+      "numericRank": 7,
+      "admissionRate": 6.8
     },
     {
       "id": "johns-hopkins-university",
@@ -407,7 +414,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 13777
       },
-      "numericRank": 7
+      "numericRank": 7,
+      "admissionRate": 7.6
     },
     {
       "id": "northwestern-university",
@@ -459,7 +467,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 13777
       },
-      "numericRank": 7
+      "numericRank": 7,
+      "admissionRate": 7.1
     },
     {
       "id": "university-of-pennsylvania",
@@ -511,7 +520,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 13777
       },
-      "numericRank": 7
+      "numericRank": 7,
+      "admissionRate": 5.9
     },
     {
       "id": "california-institute-of-technology",
@@ -560,7 +570,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 12444
       },
-      "numericRank": 11
+      "numericRank": 11,
+      "admissionRate": 3.1
     },
     {
       "id": "cornell-university",
@@ -609,7 +620,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 12444
       },
-      "numericRank": 12
+      "numericRank": 12,
+      "admissionRate": 8.2
     },
     {
       "id": "brown-university",
@@ -658,7 +670,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 12444
       },
-      "numericRank": 13
+      "numericRank": 13,
+      "admissionRate": 5.2
     },
     {
       "id": "dartmouth-college",
@@ -707,7 +720,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 12444
       },
-      "numericRank": 13
+      "numericRank": 13,
+      "admissionRate": 6.2
     },
     {
       "id": "columbia-university",
@@ -756,7 +770,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 12444
       },
-      "numericRank": 15
+      "numericRank": 15,
+      "admissionRate": 97.6
     },
     {
       "id": "university-of-california-berkeley",
@@ -805,7 +820,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 12444
       },
-      "numericRank": 15
+      "numericRank": 15,
+      "admissionRate": 11.7
     },
     {
       "id": "rice-university",
@@ -854,7 +870,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 12444
       },
-      "numericRank": 17
+      "numericRank": 17,
+      "admissionRate": 7.9
     },
     {
       "id": "university-of-california-los-angeles",
@@ -906,7 +923,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 12444
       },
-      "numericRank": 17
+      "numericRank": 17,
+      "admissionRate": 8.7
     },
     {
       "id": "vanderbilt-university",
@@ -958,7 +976,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 12444
       },
-      "numericRank": 17
+      "numericRank": 17,
+      "admissionRate": 6.3
     },
     {
       "id": "carnegie-mellon-university",
@@ -1010,7 +1029,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 12444
       },
-      "numericRank": 20
+      "numericRank": 20,
+      "admissionRate": 11.4
     },
     {
       "id": "university-of-michigan-ann-arbor",
@@ -1059,7 +1079,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 12444
       },
-      "numericRank": 20
+      "numericRank": 20,
+      "admissionRate": 17.9
     },
     {
       "id": "university-of-notre-dame",
@@ -1111,7 +1132,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 12444
       },
-      "numericRank": 20
+      "numericRank": 20,
+      "admissionRate": 12.4
     },
     {
       "id": "washington-university-in-st-louis",
@@ -1160,7 +1182,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 12444
       },
-      "numericRank": 20
+      "numericRank": 20,
+      "admissionRate": 12.0
     },
     {
       "id": "emory-university",
@@ -1212,7 +1235,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 11555
       },
-      "numericRank": 24
+      "numericRank": 24,
+      "admissionRate": 11.1
     },
     {
       "id": "georgetown-university",
@@ -1264,7 +1288,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 11555
       },
-      "numericRank": 24
+      "numericRank": 24,
+      "admissionRate": 13.1
     },
     {
       "id": "university-of-north-carolina-chapel-hill",
@@ -1311,7 +1336,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 11555
       },
-      "numericRank": 26
+      "numericRank": 26,
+      "admissionRate": 18.7
     },
     {
       "id": "university-of-virginia",
@@ -1360,7 +1386,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 11555
       },
-      "numericRank": 26
+      "numericRank": 26,
+      "admissionRate": 16.9
     },
     {
       "id": "university-of-southern-california",
@@ -1409,7 +1436,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 11555
       },
-      "numericRank": 28
+      "numericRank": 28,
+      "admissionRate": 10.0
     },
     {
       "id": "university-of-california-san-diego",
@@ -1458,7 +1486,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 11555
       },
-      "numericRank": 29
+      "numericRank": 29,
+      "admissionRate": 24.5
     },
     {
       "id": "university-of-florida",
@@ -1507,7 +1536,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 11555
       },
-      "numericRank": 30
+      "numericRank": 30,
+      "admissionRate": 24.0
     },
     {
       "id": "university-of-texas-austin",
@@ -1559,7 +1589,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 11555
       },
-      "numericRank": 30
+      "numericRank": 30,
+      "admissionRate": 29.1
     },
     {
       "id": "georgia-institute-of-technology",
@@ -1608,7 +1639,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 10222
       },
-      "numericRank": 32
+      "numericRank": 32,
+      "admissionRate": 16.5
     },
     {
       "id": "new-york-university",
@@ -1657,7 +1689,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 32
+      "numericRank": 32,
+      "admissionRate": 9.4
     },
     {
       "id": "university-of-california-davis",
@@ -1706,7 +1739,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 32
+      "numericRank": 32,
+      "admissionRate": 41.6
     },
     {
       "id": "university-of-california-irvine",
@@ -1755,7 +1789,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 32
+      "numericRank": 32,
+      "admissionRate": 25.6
     },
     {
       "id": "boston-college",
@@ -1804,7 +1839,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 36
+      "numericRank": 36,
+      "admissionRate": 15.7
     },
     {
       "id": "tufts-university",
@@ -1853,7 +1889,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 36
+      "numericRank": 36,
+      "admissionRate": 10.1
     },
     {
       "id": "university-of-illinois-urbana-champaign",
@@ -1902,7 +1939,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 10222
       },
-      "numericRank": 36
+      "numericRank": 36,
+      "admissionRate": 43.7
     },
     {
       "id": "university-of-wisconsin-madison",
@@ -1951,7 +1989,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 10222
       },
-      "numericRank": 36
+      "numericRank": 36,
+      "admissionRate": 43.4
     },
     {
       "id": "university-of-california-santa-barbara",
@@ -2000,7 +2039,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 40
+      "numericRank": 40,
+      "admissionRate": 27.8
     },
     {
       "id": "ohio-state-university",
@@ -2048,7 +2088,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 10222
       },
-      "numericRank": 41
+      "numericRank": 41,
+      "admissionRate": 50.8
     },
     {
       "id": "boston-university",
@@ -2097,7 +2138,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 42
+      "numericRank": 42,
+      "admissionRate": 10.8
     },
     {
       "id": "rutgers-university-new-brunswick",
@@ -2146,7 +2188,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 42
+      "numericRank": 42,
+      "admissionRate": 65.3
     },
     {
       "id": "university-of-maryland-college-park",
@@ -2195,7 +2238,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 10222
       },
-      "numericRank": 42
+      "numericRank": 42,
+      "admissionRate": 44.8
     },
     {
       "id": "university-of-washington",
@@ -2247,7 +2291,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 42
+      "numericRank": 42,
+      "admissionRate": 86.3
     },
     {
       "id": "lehigh-university",
@@ -2296,7 +2341,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 10222
       },
-      "numericRank": 46
+      "numericRank": 46,
+      "admissionRate": 29.3
     },
     {
       "id": "northeastern-university",
@@ -2345,7 +2391,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 46
+      "numericRank": 46,
+      "admissionRate": 5.7
     },
     {
       "id": "purdue-university-main-campus",
@@ -2394,7 +2441,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 10222
       },
-      "numericRank": 46
+      "numericRank": 46,
+      "admissionRate": 50.3
     },
     {
       "id": "university-of-georgia",
@@ -2443,7 +2491,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 10222
       },
-      "numericRank": 46
+      "numericRank": 46,
+      "admissionRate": 37.2
     },
     {
       "id": "university-of-rochester",
@@ -2495,7 +2544,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 10222
       },
-      "numericRank": 46
+      "numericRank": 46,
+      "admissionRate": 35.9
     },
     {
       "id": "arizona-state-university",
@@ -2591,7 +2641,8 @@
         "chineseRestaurants": 10,
         "asianGroceries": 2,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 32.0
     },
     {
       "id": "harvey-mudd-college",
@@ -2639,7 +2690,8 @@
         "chineseRestaurants": 20,
         "asianGroceries": 3,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 13.1
     },
     {
       "id": "indiana-university-bloomington",
@@ -2687,7 +2739,8 @@
         "chineseRestaurants": 3,
         "asianGroceries": 1,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 80.4
     },
     {
       "id": "loyola-university-chicago",
@@ -2735,7 +2788,8 @@
         "chineseRestaurants": 10,
         "asianGroceries": 2,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 81.4
     },
     {
       "id": "olin-college-of-engineering",
@@ -2782,7 +2836,8 @@
         "chineseRestaurants": 20,
         "asianGroceries": 3,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 21.7
     },
     {
       "id": "rose-hulman-institute-of-technology",
@@ -2830,7 +2885,8 @@
         "chineseRestaurants": 3,
         "asianGroceries": 1,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 72.8
     },
     {
       "id": "texas-a-and-m-university",
@@ -2878,7 +2934,8 @@
         "chineseRestaurants": 10,
         "asianGroceries": 2,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 80.2
     },
     {
       "id": "university-of-colorado-boulder",
@@ -2926,7 +2983,8 @@
         "chineseRestaurants": 3,
         "asianGroceries": 1,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 83.3
     },
     {
       "id": "university-of-iowa",
@@ -2974,7 +3032,8 @@
         "chineseRestaurants": 3,
         "asianGroceries": 1,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 84.7
     },
     {
       "id": "university-of-minnesota-twin-cities",
@@ -3022,7 +3081,8 @@
         "chineseRestaurants": 10,
         "asianGroceries": 2,
         "avgRentRmb": 9333
-      }
+      },
+      "admissionRate": 77.0
     },
     {
       "id": "university-of-south-carolina-columbia",
@@ -3072,5 +3132,6 @@
       }
     }
   ],
-  "_mergedFrom": "data-pipeline/artifacts (Program MVP + Stage 3D)"
+  "_mergedFrom": "data-pipeline/artifacts (Program MVP + Stage 3D)",
+  "_scorecardSource": "College Scorecard 2025-05-19"
 }
