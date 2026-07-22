@@ -1160,7 +1160,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Seal_of_the_University_of_Michigan.svg/250px-Seal_of_the_University_of_Michigan.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "The school that became the University of Michigan was created in Detroit in 1817.",
       "anecdotes": [
         ""
@@ -2387,7 +2393,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Rutgers_University_seal.svg/250px-Rutgers_University_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Rutgers was founded in 1766 as one of the nine colonial colleges.",
       "anecdotes": [
         ""
