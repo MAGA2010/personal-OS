@@ -75,7 +75,6 @@ const INITIAL_ZOOM = 4.0;
 const STATE_MAX_ZOOM = 6;
 
 /** County-level band. */
-const COUNTY_MAX_ZOOM = 9;
 
 const CHOROPLETH_SOURCE_ID = "pathos-us-states";
 const CHOROPLETH_FILL_LAYER_ID = "pathos-us-states-fill";
@@ -387,8 +386,6 @@ export function MapCanvas({
       let next: Granularity;
       if (z < STATE_MAX_ZOOM) {
         next = "state";
-      } else if (z < COUNTY_MAX_ZOOM) {
-        next = "county";
       } else {
         next = "city";
       }

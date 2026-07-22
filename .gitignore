@@ -56,3 +56,17 @@ __pycache__/
 # Pipeline cache
 data-pipeline/cache/
 data-pipeline/data/cache/
+
+# Python / Pipeline
+__pycache__/
+*.pyc
+
+# Pipeline source data ZIPs (large, reproducible from public sources)
+*.zip
+!data-pipeline/**/*.zip
+
+# Temporary merge scripts (used to bridge pipeline → frontend)
+merge_*.py
+
+# Pipeline reports (regenerable)
+data-pipeline/reports/
