@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import type { MetricId, MapViewState, MapFilters, UniversityPOI, MapRegion, NewsArticle } from "@/lib/types";
 import type maplibregl from "maplibre-gl";
 import { METRIC_DEFINITIONS, METRIC_ORDER } from "@/lib/metrics";
@@ -109,10 +110,41 @@ export function MapShell({
 }: MapShellProps) {
   // ── View State ──────────────────────────────────────────────────
 
-  const [viewState, setViewState] =
+    const [viewState, setViewState] =
     useState<Required<MapViewState>>(DEFAULT_VIEW_STATE);
-
   const [filters, setFilters] = useState<MapFilters>(DEFAULT_FILTERS);
+
+  // ── URL Persistence ─────────────────────────────────────────────
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+  const prevUrlRef = useRef("");
+
+  useEffect(() => {
+    const zoom = searchParams.get("zoom");
+    const lat = searchParams.get("lat");
+    const lng = searchParams.get("lng");
+    const metric = searchParams.get("metric");
+    const panel = searchParams.get("panel");
+    const updates: Partial<MapViewState> = {};
+    if (zoom) updates.zoom = parseFloat(zoom);
+    if (lat) updates.latitude = parseFloat(lat);
+    if (lng) updates.longitude = parseFloat(lng);
+    if (metric) updates.activeMetricId = metric as MetricId;
+    if (panel) updates.panelOpen = panel === "1";
+    if (Object.keys(updates).length > 0) setViewState(p => ({ ...p, ...updates }));
+  }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (viewState.zoom !== undefined) params.set("zoom", viewState.zoom.toFixed(1));
+    if (viewState.latitude !== undefined) params.set("lat", viewState.latitude.toFixed(4));
+    if (viewState.longitude !== undefined) params.set("lng", viewState.longitude.toFixed(4));
+    if (viewState.activeMetricId) params.set("metric", viewState.activeMetricId);
+    params.set("panel", viewState.panelOpen ? "1" : "0");
+    const newUrl = `${pathname}?${params.toString()}`;
+    if (newUrl !== prevUrlRef.current) { prevUrlRef.current = newUrl; router.replace(newUrl as any, { scroll: false }); }
+  }, [viewState]);
   const mapRef = useRef<maplibregl.Map | null>(null);
 
   // ── Sidebar State ───────────────────────────────────────────────
