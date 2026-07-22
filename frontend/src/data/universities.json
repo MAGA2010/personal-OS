@@ -1,6 +1,6 @@
 {
   "_instructions": "PathOS 大学数据 — 62 所候选大学",
-  "_lastUpdated": "2026-07-21",
+  "_lastUpdated": "2026-07-22",
   "universities": [
     {
       "id": "princeton-university",
@@ -14,7 +14,7 @@
       "longitude": -74.6551,
       "rankingBand": "National #1",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 436000.0,
       "safetyScore": 68,
       "recognitionScore": 98,
       "chineseCommunity": "high",
@@ -22,10 +22,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Econometrics and Quantitative Economics",
+        "Public Policy Analysis",
+        "Operations Research",
+        "History"
       ],
       "parentHighlights": [
         "位于Princeton的普林斯顿大学，全美排名第1位",
@@ -39,8 +39,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Princeton was chartered in 1746.",
+      "anecdotes": [
+        {
+          "text": "Princeton records the Class of 1970 as its first women to receive undergraduate degrees.",
+          "type": "academic_milestone"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 20,
@@ -61,7 +66,7 @@
       "longitude": -71.0942,
       "rankingBand": "National #2",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 439000.0,
       "safetyScore": 72,
       "recognitionScore": 98,
       "chineseCommunity": "high",
@@ -69,10 +74,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Mechanical Engineering",
+        "Mathematics",
+        "Electrical and Electronics Engineering",
+        "Physics"
       ],
       "parentHighlights": [
         "位于Cambridge的麻省理工学院，全美排名第2位",
@@ -110,18 +115,18 @@
       "longitude": -71.1097,
       "rankingBand": "National #3",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 431000.0,
       "safetyScore": 72,
       "recognitionScore": 98,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Econometrics and Quantitative Economics",
+        "Social Sciences",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Political Science and Government",
+        "Applied Mathematics"
       ],
       "parentHighlights": [
         "位于Cambridge的哈佛大学，全美排名第3位",
@@ -135,8 +140,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Harvard traces its institutional founding to 1636.",
+      "anecdotes": [
+        {
+          "text": "Harvard’s official history describes it as the first college in the American colonies.",
+          "type": "founding"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 20,
@@ -157,7 +167,7 @@
       "longitude": -122.1697,
       "rankingBand": "National #4",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 456000.0,
       "safetyScore": 65,
       "recognitionScore": 98,
       "chineseCommunity": "high",
@@ -165,10 +175,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Human Biology",
+        "Econometrics and Quantitative Economics",
+        "Engineering, Other",
+        "Cognitive Science"
       ],
       "parentHighlights": [
         "位于Stanford的斯坦福大学，全美排名第4位",
@@ -182,8 +192,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Stanford was founded in 1885 on a Palo Alto stock farm.",
+      "anecdotes": [
+        {
+          "text": "Stanford’s legal name was Leland Stanford Junior University when it opened in 1891.",
+          "type": "founding"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 20,
@@ -204,18 +219,18 @@
       "longitude": -72.922,
       "rankingBand": "National #4",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 472000.0,
       "safetyScore": 70,
       "recognitionScore": 98,
       "chineseCommunity": "medium",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Econometrics and Quantitative Economics",
+        "Computer and Information Sciences",
+        "Political Science and Government",
+        "History",
+        "Cell/Cellular and Molecular Biology"
       ],
       "parentHighlights": [
         "位于New Haven的耶鲁大学，全美排名第4位",
@@ -253,18 +268,18 @@
       "longitude": -87.5987,
       "rankingBand": "National #6",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 479000.0,
       "safetyScore": 58,
       "recognitionScore": 98,
       "chineseCommunity": "medium",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Econometrics and Quantitative Economics",
+        "Mathematics",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Biology/Biological Sciences",
+        "Political Science and Government"
       ],
       "parentHighlights": [
         "位于Chicago的芝加哥大学，全美排名第6位",
@@ -278,8 +293,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "UChicago describes its distinctive institutional path as beginning in 1890.",
+      "anecdotes": [
+        {
+          "text": "UChicago’s Hyde Park campus is a designated botanic garden.",
+          "type": "cultural_fact"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 10,
@@ -300,7 +320,7 @@
       "longitude": -78.9382,
       "rankingBand": "National #7",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 480000.0,
       "safetyScore": 62,
       "recognitionScore": 98,
       "chineseCommunity": "medium",
@@ -308,10 +328,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Multi-/Interdisciplinary Studies, Other",
+        "Registered Nursing/Registered Nurse",
+        "Econometrics and Quantitative Economics",
+        "Biology/Biological Sciences"
       ],
       "parentHighlights": [
         "位于Durham的杜克大学，全美排名第7位",
@@ -349,18 +369,18 @@
       "longitude": -76.6205,
       "rankingBand": "National #7",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 459000.0,
       "safetyScore": 55,
       "recognitionScore": 98,
       "chineseCommunity": "medium",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Cell/Cellular and Molecular Biology",
+        "Public Health",
+        "Computer and Information Sciences",
+        "Econometrics and Quantitative Economics",
+        "Neuroscience"
       ],
       "parentHighlights": [
         "位于Baltimore的约翰霍普金斯大学，全美排名第7位",
@@ -374,8 +394,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Johns Hopkins was founded in 1876 as a research university.",
+      "anecdotes": [
+        {
+          "text": "At his 1876 inauguration, Johns Hopkins’ first president framed the university’s mission as a question.",
+          "type": "notable_event"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 10,
@@ -396,18 +421,18 @@
       "longitude": -87.6753,
       "rankingBand": "National #7",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 482000.0,
       "safetyScore": 58,
       "recognitionScore": 98,
       "chineseCommunity": "medium",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Econometrics and Quantitative Economics",
+        "Psychology",
+        "Digital Communication and Media/Multimedia",
+        "Biology/Biological Sciences",
+        "Computer Science"
       ],
       "parentHighlights": [
         "位于Evanston的西北大学，全美排名第7位",
@@ -421,8 +446,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Northwestern traces its formal establishment to an Illinois incorporation act.",
+      "anecdotes": [
+        {
+          "text": "Northwestern’s painted Rock began as a Class of 1902 gift.",
+          "type": "campus_tradition"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 10,
@@ -443,18 +473,18 @@
       "longitude": -75.1932,
       "rankingBand": "National #7",
       "rankingTier": "top20",
-      "annualCostRmb": 620000,
+      "annualCostRmb": 483000.0,
       "safetyScore": 65,
       "recognitionScore": 98,
       "chineseCommunity": "medium",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Financial Analytics",
+        "Econometrics and Quantitative Economics",
+        "Computer and Information Sciences",
+        "Registered Nursing/Registered Nurse",
+        "Biology/Biological Sciences"
       ],
       "parentHighlights": [
         "位于Philadelphia的宾夕法尼亚大学，全美排名第7位",
@@ -468,8 +498,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Penn dates its founding to 1740.",
+      "anecdotes": [
+        {
+          "text": "Penn’s history lists a 1765 medical-school milestone in the American colonies.",
+          "type": "academic_milestone"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 10,
@@ -490,7 +525,7 @@
       "longitude": -118.1253,
       "rankingBand": "National #11",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 462000.0,
       "safetyScore": 65,
       "recognitionScore": 94,
       "chineseCommunity": "high",
@@ -498,10 +533,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Mechanical Engineering",
+        "Physics",
+        "Bioengineering and Biomedical Engineering",
+        "Electrical and Electronics Engineering"
       ],
       "parentHighlights": [
         "位于Pasadena的加州理工学院，全美排名第11位",
@@ -539,7 +574,7 @@
       "longitude": -76.4735,
       "rankingBand": "National #12",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 482000.0,
       "safetyScore": 62,
       "recognitionScore": 94,
       "chineseCommunity": "high",
@@ -547,10 +582,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Hotel/Motel Administration/Management",
+        "Labor and Industrial Relations",
+        "Agricultural Economics",
+        "Biology/Biological Sciences"
       ],
       "parentHighlights": [
         "位于Ithaca的康奈尔大学，全美排名第12位",
@@ -588,7 +623,7 @@
       "longitude": -71.4025,
       "rankingBand": "National #13",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 498000.0,
       "safetyScore": 68,
       "recognitionScore": 94,
       "chineseCommunity": "medium",
@@ -596,10 +631,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Econometrics and Quantitative Economics",
+        "Applied Mathematics",
+        "International Relations and Affairs",
+        "Biology/Biological Sciences"
       ],
       "parentHighlights": [
         "位于Providence的布朗大学，全美排名第13位",
@@ -637,18 +672,18 @@
       "longitude": -72.2887,
       "rankingBand": "National #13",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 478000.0,
       "safetyScore": 75,
       "recognitionScore": 94,
       "chineseCommunity": "low",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Econometrics and Quantitative Economics",
+        "Political Science and Government",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Biology/Biological Sciences",
+        "Engineering Science"
       ],
       "parentHighlights": [
         "位于Hanover的达特茅斯学院，全美排名第13位",
@@ -735,18 +770,18 @@
       "longitude": -122.2727,
       "rankingBand": "National #15",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 333000.0,
       "safetyScore": 65,
       "recognitionScore": 94,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Real Estate",
+        "Supply Chain Management/Logistics",
+        "Undergraduate Computer Science Programs",
+        "Undergraduate Business Programs",
+        "Entrepreneurship"
       ],
       "parentHighlights": [
         "位于Berkeley的加州大学伯克利分校，全美排名第15位",
@@ -784,18 +819,18 @@
       "longitude": -95.4017,
       "rankingBand": "National #17",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 424000.0,
       "safetyScore": 60,
       "recognitionScore": 94,
       "chineseCommunity": "medium",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
+        "Computer and Information Sciences",
+        "Biology/Biological Sciences",
         "Economics",
-        "Biology"
+        "Psychology",
+        "Mechanical Engineering"
       ],
       "parentHighlights": [
         "位于Houston的莱斯大学，全美排名第17位",
@@ -833,18 +868,18 @@
       "longitude": -118.4452,
       "rankingBand": "National #17",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 325000.0,
       "safetyScore": 65,
       "recognitionScore": 94,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Econometrics and Quantitative Economics",
+        "Psychology",
+        "Sociology",
+        "Political Science and Government",
+        "Behavioral Neuroscience"
       ],
       "parentHighlights": [
         "位于Los Angeles的加州大学洛杉矶分校，全美排名第17位",
@@ -858,8 +893,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "UCLA marked a century of achievements in 2019.",
+      "anecdotes": [
+        {
+          "text": "UCLA’s official profile cites Nobel laureates, MacArthur Fellows, NCAA titles and Olympic medals among its achievements.",
+          "type": "academic_milestone"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 20,
@@ -880,18 +920,18 @@
       "longitude": -86.8027,
       "rankingBand": "National #17",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 467000.0,
       "safetyScore": 58,
       "recognitionScore": 94,
       "chineseCommunity": "low",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Social Sciences",
+        "Econometrics and Quantitative Economics",
+        "Multi-/Interdisciplinary Studies, Other",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Mathematics"
       ],
       "parentHighlights": [
         "位于Nashville的范德堡大学，全美排名第17位",
@@ -905,8 +945,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Vanderbilt was founded through Cornelius Vanderbilt’s 1873 gift.",
+      "anecdotes": [
+        {
+          "text": "Vanderbilt’s official history connects early campus tree-planting with its national-arboretum identity.",
+          "type": "cultural_fact"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 3,
@@ -927,7 +972,7 @@
       "longitude": -79.943,
       "rankingBand": "National #20",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 462000.0,
       "safetyScore": 65,
       "recognitionScore": 94,
       "chineseCommunity": "medium",
@@ -935,10 +980,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Statistics",
+        "Electrical and Electronics Engineering",
+        "Business Administration and Management",
+        "Systems Science and Theory"
       ],
       "parentHighlights": [
         "位于Pittsburgh的卡内基梅隆大学，全美排名第20位",
@@ -952,8 +997,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Carnegie Mellon traces its origin to Andrew Carnegie’s 1900 donation to Pittsburgh.",
+      "anecdotes": [
+        {
+          "text": "Carnegie Mellon’s predecessor awarded the first U.S. drama degree in 1914.",
+          "type": "academic_milestone"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 10,
@@ -974,18 +1024,18 @@
       "longitude": -83.7382,
       "rankingBand": "National #20",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 439000.0,
       "safetyScore": 58,
       "recognitionScore": 94,
       "chineseCommunity": "medium",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
+        "Computer and Information Sciences",
+        "Business Administration and Management",
         "Economics",
-        "Biology"
+        "Behavioral Neuroscience",
+        "Experimental Psychology"
       ],
       "parentHighlights": [
         "位于Ann Arbor的密歇根大学安娜堡分校，全美排名第20位",
@@ -1023,18 +1073,18 @@
       "longitude": -86.2381,
       "rankingBand": "National #20",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 458000.0,
       "safetyScore": 65,
       "recognitionScore": 94,
       "chineseCommunity": "low",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Finance",
+        "Econometrics and Quantitative Economics",
+        "Political Science and Government",
+        "Computer and Information Sciences",
+        "Neuroscience"
       ],
       "parentHighlights": [
         "位于Notre Dame的圣母大学，全美排名第20位",
@@ -1048,8 +1098,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Notre Dame’s history begins with Father Sorin’s arrival in November 1842.",
+      "anecdotes": [
+        {
+          "text": "Notre Dame’s official history describes Father Sorin arriving with $310 to pursue a Catholic university.",
+          "type": "founding"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 3,
@@ -1070,7 +1125,7 @@
       "longitude": -90.3105,
       "rankingBand": "National #20",
       "rankingTier": "top20",
-      "annualCostRmb": 560000,
+      "annualCostRmb": 460000.0,
       "safetyScore": 55,
       "recognitionScore": 94,
       "chineseCommunity": "low",
@@ -1078,10 +1133,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Finance",
+        "Experimental Psychology",
+        "Econometrics and Quantitative Economics",
+        "Mechanical Engineering"
       ],
       "parentHighlights": [
         "位于St. Louis的圣路易斯华盛顿大学，全美排名第20位",
@@ -1119,18 +1174,18 @@
       "longitude": -84.323,
       "rankingBand": "National #24",
       "rankingTier": "top50",
-      "annualCostRmb": 520000,
+      "annualCostRmb": 444000.0,
       "safetyScore": 55,
       "recognitionScore": 88,
       "chineseCommunity": "medium",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Business Administration and Management",
+        "Biology/Biological Sciences",
+        "Psychology",
+        "Econometrics and Quantitative Economics",
+        "Neuroscience"
       ],
       "parentHighlights": [
         "位于Atlanta的埃默里大学，全美排名第24位",
@@ -1144,8 +1199,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Emory was founded in Oxford, Georgia, in 1836 and later chartered in Atlanta’s Druid Hills area.",
+      "anecdotes": [
+        {
+          "text": "Emory granted its first doctoral degree in 1948.",
+          "type": "academic_milestone"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 10,
@@ -1166,18 +1226,18 @@
       "longitude": -77.0723,
       "rankingBand": "National #24",
       "rankingTier": "top50",
-      "annualCostRmb": 520000,
+      "annualCostRmb": 475000.0,
       "safetyScore": 52,
       "recognitionScore": 88,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "International Relations and Affairs",
+        "Finance",
+        "Political Science and Government",
+        "Econometrics and Quantitative Economics",
+        "Psychology"
       ],
       "parentHighlights": [
         "位于Washington的乔治城大学，全美排名第24位",
@@ -1191,8 +1251,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "Georgetown was established in 1789 as a Catholic and Jesuit university.",
+      "anecdotes": [
+        {
+          "text": "Georgetown’s university seal carries its 1789 founding date and the motto Utraque Unum.",
+          "type": "cultural_fact"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 20,
@@ -1309,18 +1374,18 @@
       "longitude": -118.2851,
       "rankingBand": "National #28",
       "rankingTier": "top50",
-      "annualCostRmb": 520000,
+      "annualCostRmb": 498000.0,
       "safetyScore": 65,
       "recognitionScore": 88,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Management Science",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Speech Communication and Rhetoric",
+        "Human Biology",
+        "Psychology"
       ],
       "parentHighlights": [
         "位于Los Angeles的南加州大学，全美排名第28位",
@@ -1358,18 +1423,18 @@
       "longitude": -117.234,
       "rankingBand": "National #29",
       "rankingTier": "top50",
-      "annualCostRmb": 520000,
+      "annualCostRmb": 336000.0,
       "safetyScore": 65,
       "recognitionScore": 88,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Cognitive Science",
+        "Anatomy",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "International/Globalization Studies",
+        "Econometrics and Quantitative Economics"
       ],
       "parentHighlights": [
         "位于La Jolla的加州大学圣地亚哥分校，全美排名第29位",
@@ -1407,18 +1472,18 @@
       "longitude": -82.3248,
       "rankingBand": "National #30",
       "rankingTier": "top50",
-      "annualCostRmb": 520000,
+      "annualCostRmb": 209000.0,
       "safetyScore": 58,
       "recognitionScore": 88,
       "chineseCommunity": "medium",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Real Estate",
+        "Marketing",
+        "Psychology",
+        "Biology/Biological Sciences",
+        "Business Administration and Management"
       ],
       "parentHighlights": [
         "位于Gainesville的佛罗里达大学，全美排名第30位",
@@ -1481,8 +1546,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "UT’s Tower history records an official university opening on the hill where the Tower now stands.",
+      "anecdotes": [
+        {
+          "text": "UT’s Tower lighting guidelines originated in 1947 and remain in use, according to the Tower history.",
+          "type": "campus_tradition"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 10,
@@ -1510,11 +1580,11 @@
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Biomedical Engineering",
+        "Environmental Engineering",
+        "Industrial Engineering",
+        "Aerospace Engineering",
+        "Chemical Engineering"
       ],
       "parentHighlights": [
         "位于Atlanta的佐治亚理工学院，全美排名第32位",
@@ -1552,18 +1622,18 @@
       "longitude": -73.9965,
       "rankingBand": "National #32",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 441000.0,
       "safetyScore": 62,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Liberal Arts and Sciences/Liberal Studies",
+        "Econometrics and Quantitative Economics",
+        "Research and Experimental Psychology, Other",
+        "Computer and Information Sciences",
+        "Digital Communication and Media/Multimedia"
       ],
       "parentHighlights": [
         "位于New York的纽约大学，全美排名第32位",
@@ -1601,18 +1671,18 @@
       "longitude": -121.7617,
       "rankingBand": "National #32",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 336000.0,
       "safetyScore": 65,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Research and Experimental Psychology, Other",
+        "Management Sciences and Quantitative Methods, Other",
+        "Econometrics and Quantitative Economics",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Neurobiology and Anatomy"
       ],
       "parentHighlights": [
         "位于Davis的加州大学戴维斯分校，全美排名第32位",
@@ -1650,18 +1720,18 @@
       "longitude": -117.8443,
       "rankingBand": "National #32",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 329000.0,
       "safetyScore": 65,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Biology/Biological Sciences",
+        "Business/Managerial Economics",
+        "Research and Experimental Psychology, Other",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Criminology"
       ],
       "parentHighlights": [
         "位于Irvine的加州大学尔湾分校，全美排名第32位",
@@ -1699,18 +1769,18 @@
       "longitude": -71.1685,
       "rankingBand": "National #36",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 494000.0,
       "safetyScore": 72,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Finance",
+        "Accounting",
+        "Analytics",
+        "Marketing",
+        "Entrepreneurship"
       ],
       "parentHighlights": [
         "位于Chestnut Hill的波士顿学院，全美排名第36位",
@@ -1748,18 +1818,18 @@
       "longitude": -71.1183,
       "rankingBand": "National #36",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 495000.0,
       "safetyScore": 72,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Econometrics and Quantitative Economics",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "International Relations and Affairs",
+        "Biology/Biological Sciences",
+        "Experimental Psychology"
       ],
       "parentHighlights": [
         "位于Medford的塔夫茨大学，全美排名第36位",
@@ -1797,18 +1867,18 @@
       "longitude": -88.2272,
       "rankingBand": "National #36",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 286000.0,
       "safetyScore": 58,
       "recognitionScore": 80,
       "chineseCommunity": "medium",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Research and Experimental Psychology, Other",
+        "Computer Engineering",
+        "Accounting",
+        "Finance",
+        "Computer Science"
       ],
       "parentHighlights": [
         "位于Urbana的伊利诺伊大学香槟分校，全美排名第36位",
@@ -1846,18 +1916,18 @@
       "longitude": -89.4125,
       "rankingBand": "National #36",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 296000.0,
       "safetyScore": 68,
       "recognitionScore": 80,
       "chineseCommunity": "low",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
+        "Computer and Information Sciences",
+        "Psychology",
         "Economics",
-        "Biology"
+        "Biology/Biological Sciences",
+        "Political Science and Government"
       ],
       "parentHighlights": [
         "位于Madison的威斯康星大学麦迪逊分校，全美排名第36位",
@@ -1895,18 +1965,18 @@
       "longitude": -119.8489,
       "rankingBand": "National #40",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 334000.0,
       "safetyScore": 65,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Econometrics and Quantitative Economics",
+        "Sociology",
+        "Communication",
+        "Experimental Psychology",
+        "Biology/Biological Sciences"
       ],
       "parentHighlights": [
         "位于Santa Barbara的加州大学圣塔芭芭拉分校，全美排名第40位",
@@ -1992,18 +2062,18 @@
       "longitude": -71.1054,
       "rankingBand": "National #42",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 476000.0,
       "safetyScore": 72,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
+        "Business Administration and Management",
         "Economics",
-        "Biology"
+        "Computer Science",
+        "Psychology",
+        "Radio and Television"
       ],
       "parentHighlights": [
         "位于Boston的波士顿大学，全美排名第42位",
@@ -2041,18 +2111,18 @@
       "longitude": -74.447,
       "rankingBand": "National #42",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 263000.0,
       "safetyScore": 68,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Computer and Information Sciences",
+        "Psychology",
+        "Finance",
+        "Biology/Biological Sciences",
+        "Registered Nursing/Registered Nurse"
       ],
       "parentHighlights": [
         "位于New Brunswick的罗格斯大学新布朗斯维克分校，全美排名第42位",
@@ -2090,7 +2160,7 @@
       "longitude": -76.9426,
       "rankingBand": "National #42",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 294000.0,
       "safetyScore": 55,
       "recognitionScore": 80,
       "chineseCommunity": "medium",
@@ -2098,10 +2168,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Information Science/Studies",
+        "Biology/Biological Sciences",
+        "Psychology",
+        "Finance"
       ],
       "parentHighlights": [
         "位于College Park的马里兰大学帕克分校，全美排名第42位",
@@ -2164,8 +2234,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "The University of Washington traces its founding to 1861.",
+      "anecdotes": [
+        {
+          "text": "UW’s official overview identifies Seattle, Bothell and Tacoma as its campuses.",
+          "type": "cultural_fact"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 20,
@@ -2186,18 +2261,18 @@
       "longitude": -75.3774,
       "rankingBand": "National #46",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 454000.0,
       "safetyScore": 65,
       "recognitionScore": 80,
       "chineseCommunity": "medium",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Finance",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Mechanical Engineering",
+        "Psychology",
+        "Marketing/Marketing Management"
       ],
       "parentHighlights": [
         "位于Bethlehem的里海大学，全美排名第46位",
@@ -2235,18 +2310,18 @@
       "longitude": -71.0892,
       "rankingBand": "National #46",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 461000.0,
       "safetyScore": 72,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Business/Commerce",
+        "Computer and Information Sciences",
+        "Mechanical Engineering",
+        "Engineering, Other",
+        "Econometrics and Quantitative Economics"
       ],
       "parentHighlights": [
         "位于Boston的东北大学，全美排名第46位",
@@ -2284,7 +2359,7 @@
       "longitude": -86.9212,
       "rankingBand": "National #46",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 210000.0,
       "safetyScore": 65,
       "recognitionScore": 80,
       "chineseCommunity": "low",
@@ -2292,10 +2367,10 @@
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Mechanical Engineering",
+        "Computer Engineering",
+        "Experimental Psychology",
+        "Aerospace, Aeronautical, and Astronautical/Space Engineering"
       ],
       "parentHighlights": [
         "位于West Lafayette的普渡大学，全美排名第46位",
@@ -2333,18 +2408,18 @@
       "longitude": -83.3779,
       "rankingBand": "National #46",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 221000.0,
       "safetyScore": 55,
       "recognitionScore": 80,
       "chineseCommunity": "medium",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Psychology",
+        "Biology/Biological Sciences",
+        "Finance",
+        "Marketing/Marketing Management",
+        "Management Information Systems"
       ],
       "parentHighlights": [
         "位于Athens的佐治亚大学，全美排名第46位",
@@ -2382,18 +2457,18 @@
       "longitude": -77.6292,
       "rankingBand": "National #46",
       "rankingTier": "top50",
-      "annualCostRmb": 460000,
+      "annualCostRmb": 470000.0,
       "safetyScore": 62,
       "recognitionScore": 80,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Biology/Biological Sciences",
+        "Registered Nursing/Registered Nurse",
+        "Management Sciences and Quantitative Methods, Other",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Research and Experimental Psychology, Other"
       ],
       "parentHighlights": [
         "位于Rochester的罗切斯特大学，全美排名第46位",
@@ -2407,8 +2482,13 @@
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
       "campusImages": [],
-      "historySummary": null,
-      "anecdotes": [],
+      "historySummary": "The University of Rochester was founded in 1850 by a convention of Baptists.",
+      "anecdotes": [
+        {
+          "text": "Rochester’s Eastman Theatre has 3,352 seats and was a gift from George Eastman.",
+          "type": "cultural_fact"
+        }
+      ],
       "nearby": {
         "subwayStations": 1,
         "chineseRestaurants": 20,
@@ -2436,11 +2516,11 @@
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Supply Chain Management/Logistics",
+        "Analytics",
+        "Management Information Systems",
+        "Production/Operations Management",
+        "Management"
       ],
       "parentHighlights": [
         "位于Tempe的顶尖大学",
@@ -2477,18 +2557,18 @@
       "longitude": -76.8863,
       "rankingBand": "Program Top 20",
       "rankingTier": "top20",
-      "annualCostRmb": 420000,
+      "annualCostRmb": 473000.0,
       "safetyScore": 65,
       "recognitionScore": 75,
       "chineseCommunity": "medium",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Civil Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Computer Engineering",
+        "Undergraduate Engineering Programs (No Doctorate)"
       ],
       "parentHighlights": [
         "位于Lewisburg的顶尖大学",
@@ -2525,18 +2605,18 @@
       "longitude": -117.7117,
       "rankingBand": "Program Top 20",
       "rankingTier": "top20",
-      "annualCostRmb": 420000,
+      "annualCostRmb": 484000.0,
       "safetyScore": 65,
       "recognitionScore": 75,
       "chineseCommunity": "high",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Undergraduate Engineering Programs (No Doctorate)",
+        "Mechanical Engineering",
+        "Computer Engineering",
+        "Electrical Engineering",
+        "Computer Science"
       ],
       "parentHighlights": [
         "位于Claremont的顶尖大学",
@@ -2573,18 +2653,18 @@
       "longitude": -86.5264,
       "rankingBand": "Program Top 20",
       "rankingTier": "top20",
-      "annualCostRmb": 420000,
+      "annualCostRmb": 296000.0,
       "safetyScore": 65,
       "recognitionScore": 75,
       "chineseCommunity": "low",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Accounting",
+        "Management",
+        "Marketing",
+        "Management Information Systems",
+        "Entrepreneurship"
       ],
       "parentHighlights": [
         "位于Bloomington的顶尖大学",
@@ -2621,18 +2701,18 @@
       "longitude": -87.6586,
       "rankingBand": "Program Top 20",
       "rankingTier": "top20",
-      "annualCostRmb": 420000,
+      "annualCostRmb": 378000.0,
       "safetyScore": 58,
       "recognitionScore": 75,
       "chineseCommunity": "medium",
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "International Business",
+        "Registered Nursing/Registered Nurse",
+        "Psychology",
+        "Biology/Biological Sciences",
+        "Finance"
       ],
       "parentHighlights": [
         "位于Chicago的顶尖大学",
@@ -2716,18 +2796,18 @@
       "longitude": -87.3242,
       "rankingBand": "Program Top 20",
       "rankingTier": "top20",
-      "annualCostRmb": 420000,
+      "annualCostRmb": 395000.0,
       "safetyScore": 65,
       "recognitionScore": 75,
       "chineseCommunity": "low",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Civil Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Undergraduate Engineering Programs (No Doctorate)",
+        "Computer Engineering"
       ],
       "parentHighlights": [
         "位于Terre Haute的顶尖大学",
@@ -2771,11 +2851,11 @@
       "directFlight": true,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Industrial Engineering",
+        "Aerospace Engineering",
+        "Mechanical Engineering",
+        "Materials Engineering",
+        "Electrical Engineering"
       ],
       "parentHighlights": [
         "位于College Station的顶尖大学",
@@ -2812,18 +2892,18 @@
       "longitude": -105.266,
       "rankingBand": "Program Top 20",
       "rankingTier": "top20",
-      "annualCostRmb": 420000,
+      "annualCostRmb": 306000.0,
       "safetyScore": 68,
       "recognitionScore": 75,
       "chineseCommunity": "low",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
+        "Undergraduate Psychology Programs",
+        "Business Administration and Management",
+        "Psychology",
         "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Public Relations, Advertising, and Applied Communication"
       ],
       "parentHighlights": [
         "位于Boulder的顶尖大学",
@@ -2860,18 +2940,18 @@
       "longitude": -91.536,
       "rankingBand": "Program Top 20",
       "rankingTier": "top20",
-      "annualCostRmb": 420000,
+      "annualCostRmb": 240000.0,
       "safetyScore": 72,
       "recognitionScore": 75,
       "chineseCommunity": "low",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Undergraduate Nursing Programs",
+        "Exercise Science and Kinesiology",
+        "Finance",
+        "Behavioral Sciences",
+        "Marketing/Marketing Management"
       ],
       "parentHighlights": [
         "位于Iowa City的顶尖大学",
@@ -2908,18 +2988,18 @@
       "longitude": -93.265,
       "rankingBand": "Program Top 20",
       "rankingTier": "top20",
-      "annualCostRmb": 420000,
+      "annualCostRmb": 266000.0,
       "safetyScore": 70,
       "recognitionScore": 75,
       "chineseCommunity": "medium",
       "directFlight": false,
       "postStudyVisa": "OPT / STEM OPT (36 months for STEM)",
       "programs": [
-        "Computer Science",
-        "Business",
-        "Engineering",
-        "Economics",
-        "Biology"
+        "Management Information Systems",
+        "Supply Chain Management/Logistics",
+        "Analytics",
+        "Undergraduate Business Programs",
+        "Computer Science"
       ],
       "parentHighlights": [
         "位于Minneapolis的顶尖大学",
@@ -2991,5 +3071,6 @@
         "avgRentRmb": 9333
       }
     }
-  ]
+  ],
+  "_mergedFrom": "data-pipeline/artifacts (Program MVP + Stage 3D)"
 }
