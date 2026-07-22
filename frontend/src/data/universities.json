@@ -38,7 +38,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Princeton_seal.svg/250px-Princeton_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Princeton was chartered in 1746.",
       "anecdotes": [
         {
@@ -92,7 +98,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/MIT_2023_red_logo.svg/250px-MIT_2023_red_logo.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "MIT was chartered in Massachusetts in 1861 around a polytechnic vision centered on science and engineering.",
       "anecdotes": [
         ""
@@ -143,7 +155,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Harvard_University_coat_of_arms.svg/250px-Harvard_University_coat_of_arms.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Harvard traces its institutional founding to 1636.",
       "anecdotes": [
         {
@@ -197,7 +215,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Seal_of_Leland_Stanford_Junior_University.svg/250px-Seal_of_Leland_Stanford_Junior_University.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Stanford was founded in 1885 on a Palo Alto stock farm.",
       "anecdotes": [
         {
@@ -251,7 +275,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Yale_University_Shield_1.svg/250px-Yale_University_Shield_1.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Yale was founded in Saybrook in 1701 as the Collegiate School.",
       "anecdotes": [
         ""
@@ -356,7 +386,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/250px-Duke_University_logo.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Duke’s institutional history begins in 1838, before the school later took the Duke University name.",
       "anecdotes": [
         ""
@@ -461,7 +497,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Northwestern_University_seal.svg/250px-Northwestern_University_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Northwestern traces its formal establishment to an Illinois incorporation act.",
       "anecdotes": [
         {
@@ -515,7 +557,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UPenn_shield_with_banner.svg/250px-UPenn_shield_with_banner.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Penn dates its founding to 1740.",
       "anecdotes": [
         {
@@ -620,7 +668,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cornell_University_seal.svg/250px-Cornell_University_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Cornell was founded by Ezra Cornell and Andrew Dickson White in 1865 and opened in 1868.",
       "anecdotes": [
         ""
@@ -773,7 +827,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Coat_of_Arms_of_Columbia_University.svg/250px-Coat_of_Arms_of_Columbia_University.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Columbia began as King’s College in 1754 under a royal charter from King George II.",
       "anecdotes": [
         ""
@@ -824,7 +884,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/250px-Seal_of_University_of_California%2C_Berkeley.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "The University of California was founded in 1868 under a state constitutional vision for a public university.",
       "anecdotes": [
         ""
@@ -926,7 +992,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/The_University_of_California_UCLA.svg/250px-The_University_of_California_UCLA.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "UCLA marked a century of achievements in 2019.",
       "anecdotes": [
         {
@@ -1139,7 +1211,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/University_of_Notre_Dame_seal_%282%29.svg/250px-University_of_Notre_Dame_seal_%282%29.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Notre Dame’s history begins with Father Sorin’s arrival in November 1842.",
       "anecdotes": [
         {
@@ -1298,7 +1376,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Georgetown_University_seal.svg/250px-Georgetown_University_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Georgetown was established in 1789 as a Catholic and Jesuit university.",
       "anecdotes": [
         {
@@ -1401,7 +1485,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/University_of_Virginia_seal.svg/250px-University_of_Virginia_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "The University of Virginia was formally founded in 1819 through a charter approved by the Virginia General Assembly.",
       "anecdotes": [
         ""
@@ -1452,7 +1542,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/University_of_Southern_California_%28USC%29_seal.svg/250px-University_of_Southern_California_%28USC%29_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "USC opened in 1880 with 53 students and 10 teachers.",
       "anecdotes": [
         ""
@@ -1503,7 +1599,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Seal_of_the_University_of_California%2C_San_Diego.svg/250px-Seal_of_the_University_of_California%2C_San_Diego.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "UC San Diego was officially founded on November 18, 1960.",
       "anecdotes": [
         ""
@@ -1605,7 +1707,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/University_of_Texas_at_Austin_seal.svg/250px-University_of_Texas_at_Austin_seal.svg.png",
+          "label": "校园",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "UT’s Tower history records an official university opening on the hill where the Tower now stands.",
       "anecdotes": [
         {
@@ -1659,7 +1767,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Georgia_Tech_seal.svg/250px-Georgia_Tech_seal.svg.png",
+          "label": "校园",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Georgia Tech began as the Georgia School of Technology in 1885 as Georgia industrialized.",
       "anecdotes": [
         ""
@@ -1710,7 +1824,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/New_York_University_Seal.svg/250px-New_York_University_Seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "New York University began in 1831 as the University of the City of New-York.",
       "anecdotes": [
         ""
@@ -1761,7 +1881,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/The_University_of_California_Davis.svg/250px-The_University_of_California_Davis.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "UC Davis opened in 1908 as the University Farm.",
       "anecdotes": [
         ""
@@ -1812,7 +1938,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/The_University_of_California_Irvine.svg/250px-The_University_of_California_Irvine.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "UC Irvine held its first day of classes in 1965.",
       "anecdotes": [
         ""
@@ -1863,7 +1995,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Boston_College_Logotype.svg/250px-Boston_College_Logotype.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Boston College was founded by the Jesuits in 1863 to serve Boston’s Irish Catholic immigrant community.",
       "anecdotes": [
         ""
@@ -1914,7 +2052,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tufts_University_wordmark.svg/250px-Tufts_University_wordmark.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Massachusetts chartered Tufts College in 1852.",
       "anecdotes": [
         ""
@@ -1965,7 +2109,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/University_of_Illinois_seal.svg/250px-University_of_Illinois_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Illinois began in 1867 as the Illinois Industrial University.",
       "anecdotes": [
         ""
@@ -2016,7 +2166,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Seal_of_the_University_of_Wisconsin.svg/250px-Seal_of_the_University_of_Wisconsin.svg.png",
+          "label": "校园",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Wisconsin’s territorial legislature authorized a University of Wisconsin near Madison in 1838.",
       "anecdotes": [
         ""
@@ -2067,7 +2223,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/UC_Santa_Barbara_Seal.png/250px-UC_Santa_Barbara_Seal.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "UC Santa Barbara evolved from a manual-training school founded in the 1890s.",
       "anecdotes": [
         ""
@@ -2168,7 +2330,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Boston_University_seal.svg/250px-Boston_University_seal.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Boston University received its charter through founders Isaac Rich, Lee Claflin, and Jacob Sleeper.",
       "anecdotes": [
         ""
@@ -2270,7 +2438,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/University_of_Maryland.png/250px-University_of_Maryland.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Maryland traces its history to an agricultural school chartered in 1856.",
       "anecdotes": [
         ""
@@ -2426,7 +2600,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/NU_RGB_seal_R.png/250px-NU_RGB_seal_R.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Northeastern was founded in 1898 and developed an education model centered on experiential learning.",
       "anecdotes": [
         ""
@@ -2682,7 +2862,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bucknell_University_logo.svg/250px-Bucknell_University_logo.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Bucknell was established in 1846 under its original name, the University at Lewisburg.",
       "anecdotes": [
         ""
@@ -2732,7 +2918,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Harvey_Mudd_College_logo.svg/250px-Harvey_Mudd_College_logo.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "Harvey Mudd College was chartered in December 1955 as a liberal-arts college focused on science, engineering, and mathematics.",
       "anecdotes": [
         ""
@@ -3031,7 +3223,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Seal_of_the_University_of_Colorado.svg/250px-Seal_of_the_University_of_Colorado.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "CU Boulder was founded in 1876, the year Colorado became a state.",
       "anecdotes": [
         ""
@@ -3081,7 +3279,13 @@
       ],
       "verifiedAt": "2026-07-01",
       "sourceCount": 3,
-      "campusImages": [],
+      "campusImages": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/University_of_Iowa_wordmark.svg/250px-University_of_Iowa_wordmark.svg.png",
+          "label": "校徽",
+          "source": "Wikipedia"
+        }
+      ],
       "historySummary": "The University of Iowa dates to February 25, 1847, shortly after Iowa achieved statehood.",
       "anecdotes": [
         ""
@@ -3195,5 +3399,6 @@
     }
   ],
   "_mergedFrom": "data-pipeline/artifacts (Program MVP + Stage 3D)",
-  "_scorecardSource": "College Scorecard 2025-05-19"
+  "_scorecardSource": "College Scorecard 2025-05-19",
+  "_campusImagesSource": "Wikipedia pageimages API"
 }
