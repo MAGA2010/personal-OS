@@ -25,9 +25,10 @@ export default function Footer() {
             <h3 className="mb-3 text-sm font-semibold text-panel/85">平台功能</h3>
             <div className="grid grid-cols-2 gap-2 text-sm">
               <Link href="/map" className="transition-colors hover:text-panel">留学地图</Link>
-              <Link href="/match" className="transition-colors hover:text-panel">匹配测评</Link>
-              <Link href="/assessment" className="transition-colors hover:text-panel">选校评估</Link>
-              <Link href="/portfolio" className="transition-colors hover:text-panel">选校清单</Link>
+              <Link href="/calculator" className="transition-colors hover:text-panel">留学计算器</Link>
+              <Link href="/match" className="transition-colors hover:text-panel">自主测验</Link>
+              <Link href="/assessment" className="transition-colors hover:text-panel">AI 学校评估</Link>
+              <Link href="/portfolio" className="transition-colors hover:text-panel">AI 清单分析</Link>
               <Link href="/news" className="transition-colors hover:text-panel">留学资讯</Link>
             </div>
           </div>

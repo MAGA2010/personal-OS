@@ -53,7 +53,7 @@ export default function XuanxiaoPage() {
         <div className="mx-auto flex max-w-6xl items-center gap-3">
           <div className="grid h-8 w-8 shrink-0 place-items-center rounded-md bg-cobalt text-panel"><Globe size={18} /></div>
           <div><h1 className="text-base font-semibold text-ink">全球大学库</h1><p className="text-xs text-ink/52">数据合作方 · 选校</p></div>
-          <Link href="/match" className="ml-auto text-xs text-cobalt hover:underline">← 返回智能匹配</Link>
+          <Link href="/match" className="ml-auto text-xs text-cobalt hover:underline">← 返回自主测验</Link>
         </div>
       </header>
       <div className="mx-auto max-w-6xl px-4 pt-4"><ProductJourney active="match" compact /></div>

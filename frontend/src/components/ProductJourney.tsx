@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Route } from "next";
-import { ClipboardCheck, Sparkles, Map, Bookmark, Stethoscope, ArrowRight } from "lucide-react";
+import { ClipboardCheck, Sparkles, Map, Bookmark, Stethoscope } from "lucide-react";
 
 export type JourneyStepId = "assessment" | "match" | "map" | "portfolio";
 
@@ -15,23 +15,23 @@ const STEPS: Array<{
   {
     id: "assessment",
     href: "/assessment",
-    step: "01",
-    title: "建立学生画像",
-    subtitle: "成绩、预算、专业与家庭偏好",
+    step: "AI-A",
+    title: "AI 学校评估",
+    subtitle: "上传画像与目标校，调用 AI 做风险体检",
     icon: ClipboardCheck
   },
   {
     id: "match",
     href: "/match",
-    step: "02",
-    title: "智能匹配学校",
-    subtitle: "按六大指标生成优先级",
+    step: "SELF",
+    title: "自主测验",
+    subtitle: "学生自行拉取百分比与权重，匹配学校百分比",
     icon: Sparkles
   },
   {
     id: "map",
     href: "/map",
-    step: "03",
+    step: "MAP",
     title: "地图验证环境",
     subtitle: "安全、就业、华人社区与成本",
     icon: Map
@@ -39,9 +39,9 @@ const STEPS: Array<{
   {
     id: "portfolio",
     href: "/portfolio",
-    step: "04",
-    title: "沉淀选校清单",
-    subtitle: "管理、对比并导出方案",
+    step: "AI-B",
+    title: "AI 清单分析",
+    subtitle: "分析冲刺、匹配、保底比例与家庭问题",
     icon: Bookmark
   }
 ];
@@ -77,7 +77,6 @@ export function ProductJourney({
                   <span>{item.step}</span>
                   <span className="hidden sm:inline">{item.title}</span>
                 </Link>
-                {index < STEPS.length - 1 && <ArrowRight size={12} className="hidden text-ink/18 sm:block" />}
               </div>
             );
           })}
@@ -90,13 +89,13 @@ export function ProductJourney({
     <section className={"rounded-2xl border border-line/60 bg-panel p-4 shadow-sm sm:p-5 " + className}>
       <div className="mb-4 flex items-center justify-between gap-3">
         <div>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cobalt/80">PathOS workflow</p>
-          <h2 className="mt-1 text-lg font-semibold text-ink">从画像到选校单，一条连续决策路径</h2>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-cobalt/80">PathOS parallel tests</p>
+          <h2 className="mt-1 text-lg font-semibold text-ink">自主测验与 AI 测验并行，结果互相校验</h2>
         </div>
         <Stethoscope size={20} className="hidden text-ink/28 sm:block" />
       </div>
       <div className="grid gap-3 md:grid-cols-4">
-        {STEPS.map((item, index) => {
+        {STEPS.map((item) => {
           const Icon = item.icon;
           const isActive = item.id === active;
           return (
@@ -118,9 +117,6 @@ export function ProductJourney({
               </div>
               <h3 className="text-sm font-semibold">{item.title}</h3>
               <p className={"mt-1 text-xs leading-relaxed " + (isActive ? "text-panel/60" : "text-ink/48")}>{item.subtitle}</p>
-              {index < STEPS.length - 1 && (
-                <ArrowRight className="absolute -right-2 top-1/2 hidden h-4 w-4 -translate-y-1/2 rounded-full bg-panel text-ink/24 md:block" />
-              )}
             </Link>
           );
         })}

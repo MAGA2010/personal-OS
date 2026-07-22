@@ -13,6 +13,11 @@ import { CityLayer } from "./CityLayer";
 import { CityDetailPanel } from "./CityDetailPanel";
 import { CaliforniaRoadLayer } from "./CaliforniaRoadLayer";
 import { CityChoroplethLayer } from "./CityChoroplethLayer";
+import {
+  MapFilterPanel,
+  countActiveFilters,
+  type StrongMapFilters,
+} from "./MapFilterPanel";
 import { buildCityAggregates, getCitiesByState, getStateCenter, getCityMetricDisplay, getCityMetricValue } from "@/lib/city-utils";
 import ComparePanel from "./ComparePanel";
 import universityData from "@/data/universities.json";
@@ -241,7 +246,7 @@ export function MapShell({
             metrics: stateMetrics,
           },
           universities: allUniversities.filter(
-            (u: any) => u.id.startsWith(fipsCode) || u.state === stateMetrics[0].nameEn
+            (u: any) => u.stateFips === fipsCode
           ),
         });
         return;
@@ -847,6 +852,58 @@ function SidebarTabsContent({
         )}
       </div>
     </div>
+  );
+}
+
+function FilteredUniversityList({
+  universities,
+  onSelect,
+  onAddToCompare,
+}: {
+  universities: UniversityPOI[];
+  onSelect: (id: string) => void;
+  onAddToCompare: (id: string) => void;
+}) {
+  if (universities.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-2 px-4 py-12 text-center">
+        <Sparkles size={20} className="text-ink/20" aria-hidden="true" />
+        <p className="text-sm text-ink/40">没有符合条件的学校</p>
+        <p className="text-xs text-ink/32">放宽筛选条件再试试</p>
+      </div>
+    );
+  }
+
+  return (
+    <ul className="divide-y divide-line/60" role="list">
+      {universities.map((university) => (
+        <li key={university.id} className="px-4 py-3 transition-colors hover:bg-ink/[0.03]">
+          <button type="button" onClick={() => onSelect(university.id)} className="w-full text-left">
+            <div className="flex items-start justify-between gap-2">
+              <div className="min-w-0">
+                <h3 className="truncate text-sm font-semibold text-ink">{university.chineseName}</h3>
+                <p className="truncate text-[11px] text-ink/40">{university.name}</p>
+              </div>
+              <span className="rounded-full bg-cobalt/8 px-2 py-0.5 text-[10px] font-semibold text-cobalt">
+                {university.rankingTier}
+              </span>
+            </div>
+            <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-ink/48">
+              <span>{university.city}, {(university as any).state ?? university.country}</span>
+              <span>¥{Math.round((university.annualCostRmb ?? 0) / 10000)}万/年</span>
+              <span>安全 {university.safetyScore ?? "-"}</span>
+            </div>
+          </button>
+          <button
+            type="button"
+            onClick={() => onAddToCompare(university.id)}
+            className="mt-2 rounded-full border border-line/60 px-2.5 py-1 text-[11px] font-medium text-ink/52 transition-colors hover:border-cobalt/35 hover:text-cobalt"
+          >
+            加入对比
+          </button>
+        </li>
+      ))}
+    </ul>
   );
 }
 // ═══════════════════════════════════════════════════════════════════

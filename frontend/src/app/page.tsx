@@ -4,7 +4,7 @@ import { Compass, Map, Sparkles, ClipboardCheck, Bookmark, Newspaper, TrendingUp
 
 export const metadata: Metadata = {
   title: "PathOS — 面向中国家庭的留学选校数据平台",
-  description: "交互式留学地图、院校匹配、选校评估。数据驱动，让选校更理性。",
+  description: "交互式留学地图、自主测验、AI 学校评估与 AI 清单分析。数据驱动，让选校更理性。",
 };
 
 const FEATURES = [
@@ -17,27 +17,27 @@ const FEATURES = [
     color: "from-emerald-500 to-teal-600",
   },
   {
-    title: "院校匹配",
-    desc: "输入预算、排名偏好、安全要求等条件，智能计算每所大学的综合匹配度",
+    title: "自主测验",
+    desc: "学生自主拉取六维百分比和权重，再匹配学校的数据百分比",
     href: "/match",
     icon: Sparkles,
-    tags: ["智能推荐", "多维评分"],
+    tags: ["自主权重", "百分比匹配"],
     color: "from-violet-500 to-purple-600",
   },
   {
-    title: "选校评估",
-    desc: "填写 GPA、托福/雅思、目标专业、家庭偏好，生成专属学生画像",
+    title: "AI 学校评估",
+    desc: "融入 AI 分析接口，对学生画像与目标学校做风险体检",
     href: "/assessment",
     icon: ClipboardCheck,
-    tags: ["学生画像", "背景评估"],
+    tags: ["AI 测验", "风险体检"],
     color: "from-amber-500 to-orange-600",
   },
   {
-    title: "选校清单",
-    desc: "收藏心仪学校、对比差异、导出选校方案，把数据决策沉淀为行动清单",
+    title: "AI 清单分析",
+    desc: "把候选学校清单交给 AI，分析冲刺、匹配、保底比例和家长追问点",
     href: "/portfolio",
     icon: Bookmark,
-    tags: ["收藏管理", "对比导出"],
+    tags: ["清单分析", "家庭讨论"],
     color: "from-blue-500 to-indigo-600",
   },
   {
@@ -73,7 +73,7 @@ export default function HomePage() {
           </h1>
           <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-ink/50 sm:text-lg">
             面向中国家庭的美国留学选校数据平台。<br />
-            交互式地图 · 院校匹配 · 数据驱动
+            交互式地图 · 自主测验 · AI 测验
           </p>
           
           {/* Stats bar */}
@@ -110,7 +110,7 @@ export default function HomePage() {
               className="inline-flex items-center gap-2 rounded-lg border border-line/60 bg-white px-6 py-3 text-sm font-semibold text-ink/70 shadow-sm transition hover:border-ink/30 active:scale-[0.97]"
             >
               <Sparkles size={18} />
-              智能匹配院校
+              开始自主测验
             </Link>
           </div>
         </div>
@@ -161,14 +161,14 @@ export default function HomePage() {
         <div className="mx-auto max-w-2xl px-4 py-14 text-center">
           <GraduationCap size={28} className="mx-auto text-ink/30" />
           <h2 className="mt-3 text-lg font-semibold text-ink">不确定从哪里开始？</h2>
-          <p className="mt-1 text-sm text-ink/50">先建立你的学生画像，系统会自动为你推荐匹配的院校</p>
+          <p className="mt-1 text-sm text-ink/50">先做自主测验，再用 AI 测验校验学校与清单风险</p>
           <div className="mt-5 flex justify-center gap-3">
             <Link
-              href="/assessment"
+              href="/match"
               className="inline-flex items-center gap-2 rounded-lg bg-ink px-5 py-2.5 text-sm font-semibold text-panel shadow transition hover:bg-ink/90"
             >
               <ClipboardCheck size={16} />
-              开始评估
+              开始自主测验
             </Link>
           </div>
         </div>

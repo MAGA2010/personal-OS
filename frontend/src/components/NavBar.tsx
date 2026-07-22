@@ -6,9 +6,10 @@ import { useState } from "react";
 
 const NAV_LINKS = [
   { href: "/map",        label: "留学地图" },
-  { href: "/match",      label: "匹配测评" },
-  { href: "/assessment", label: "选校评估" },
-  { href: "/portfolio",  label: "选校清单" },
+  { href: "/calculator", label: "留学计算器" },
+  { href: "/match",      label: "自主测验" },
+  { href: "/assessment", label: "AI 学校评估" },
+  { href: "/portfolio",  label: "AI 清单分析" },
   { href: "/news",       label: "留学资讯" },
 ];
 
@@ -51,10 +52,10 @@ export default function NavBar() {
         {/* Right area */}
         <div className="ml-auto flex items-center gap-3">
           <Link
-            href="/assessment"
+            href="/match"
             className="hidden rounded-lg bg-ink px-4 py-1.5 text-sm font-semibold text-panel shadow-sm transition hover:bg-ink/90 sm:inline-flex"
           >
-            开始评估
+            开始自主测验
           </Link>
           {/* Mobile menu toggle */}
           <button

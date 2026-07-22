@@ -5,10 +5,10 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: { default: "PathOS — 面向中国家庭的留学选校决策平台", template: "%s | PathOS" },
-  description: "PathOS 把学生画像、智能匹配、留学地图和选校清单串成一条连续的选校决策路径。面向中国家庭的美国本科/研究生选校平台。",
+  description: "PathOS 提供留学地图、自主测验、AI 学校评估和 AI 清单分析，帮助中国家庭做更理性的美国本科/研究生选校决策。",
   keywords: ["留学地图", "美国大学", "中国家庭留学", "PathOS", "选校"],
   authors: [{ name: "PathOS" }], robots: { index: true, follow: true },
-  openGraph: { title: "PathOS — 留学选校决策平台", description: "面向中国家庭的美国留学咨询平台。交互式地图、智能匹配、选校清单。", type: "website", locale: "zh_CN", siteName: "PathOS" },
+  openGraph: { title: "PathOS — 留学选校决策平台", description: "面向中国家庭的美国留学咨询平台。交互式地图、自主测验、AI 学校评估和 AI 清单分析。", type: "website", locale: "zh_CN", siteName: "PathOS" },
   twitter: { card: "summary_large_image" },
   metadataBase: new URL("http://localhost:3000")
 };
