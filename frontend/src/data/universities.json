@@ -53,7 +53,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 1,
-      "admissionRate": 4.5
+      "admissionRate": 4.5,
+      "employmentScore": 65
     },
     {
       "id": "massachusetts-institute-of-technology",
@@ -103,7 +104,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 2,
-      "admissionRate": 4.7
+      "admissionRate": 4.7,
+      "employmentScore": 92
     },
     {
       "id": "harvard-university",
@@ -156,7 +158,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 3,
-      "admissionRate": 3.5
+      "admissionRate": 3.5,
+      "employmentScore": 58
     },
     {
       "id": "stanford-university",
@@ -209,7 +212,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 4,
-      "admissionRate": 3.9
+      "admissionRate": 3.9,
+      "employmentScore": 76
     },
     {
       "id": "yale-university",
@@ -259,7 +263,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 4,
-      "admissionRate": 4.5
+      "admissionRate": 4.5,
+      "employmentScore": 57
     },
     {
       "id": "university-of-chicago",
@@ -312,7 +317,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 6,
-      "admissionRate": 4.8
+      "admissionRate": 4.8,
+      "employmentScore": 50
     },
     {
       "id": "duke-university",
@@ -362,7 +368,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 7,
-      "admissionRate": 6.8
+      "admissionRate": 6.8,
+      "employmentScore": 55
     },
     {
       "id": "johns-hopkins-university",
@@ -415,7 +422,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 7,
-      "admissionRate": 7.6
+      "admissionRate": 7.6,
+      "employmentScore": 47
     },
     {
       "id": "northwestern-university",
@@ -468,7 +476,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 7,
-      "admissionRate": 7.1
+      "admissionRate": 7.1,
+      "employmentScore": 48
     },
     {
       "id": "university-of-pennsylvania",
@@ -521,7 +530,8 @@
         "avgRentRmb": 13777
       },
       "numericRank": 7,
-      "admissionRate": 5.9
+      "admissionRate": 5.9,
+      "employmentScore": 66
     },
     {
       "id": "california-institute-of-technology",
@@ -571,7 +581,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 11,
-      "admissionRate": 3.1
+      "admissionRate": 3.1,
+      "employmentScore": 80
     },
     {
       "id": "cornell-university",
@@ -621,7 +632,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 12,
-      "admissionRate": 8.2
+      "admissionRate": 8.2,
+      "employmentScore": 60
     },
     {
       "id": "brown-university",
@@ -671,7 +683,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 13,
-      "admissionRate": 5.2
+      "admissionRate": 5.2,
+      "employmentScore": 51
     },
     {
       "id": "dartmouth-college",
@@ -721,7 +734,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 13,
-      "admissionRate": 6.2
+      "admissionRate": 6.2,
+      "employmentScore": 55
     },
     {
       "id": "columbia-university",
@@ -771,7 +785,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 15,
-      "admissionRate": 97.6
+      "admissionRate": 97.6,
+      "employmentScore": 7
     },
     {
       "id": "university-of-california-berkeley",
@@ -821,7 +836,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 15,
-      "admissionRate": 11.7
+      "admissionRate": 11.7,
+      "employmentScore": 51
     },
     {
       "id": "rice-university",
@@ -871,7 +887,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 17,
-      "admissionRate": 7.9
+      "admissionRate": 7.9,
+      "employmentScore": 48
     },
     {
       "id": "university-of-california-los-angeles",
@@ -924,7 +941,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 17,
-      "admissionRate": 8.7
+      "admissionRate": 8.7,
+      "employmentScore": 43
     },
     {
       "id": "vanderbilt-university",
@@ -977,7 +995,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 17,
-      "admissionRate": 6.3
+      "admissionRate": 6.3,
+      "employmentScore": 50
     },
     {
       "id": "carnegie-mellon-university",
@@ -1030,7 +1049,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 20,
-      "admissionRate": 11.4
+      "admissionRate": 11.4,
+      "employmentScore": 69
     },
     {
       "id": "university-of-michigan-ann-arbor",
@@ -1080,7 +1100,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 20,
-      "admissionRate": 17.9
+      "admissionRate": 17.9,
+      "employmentScore": 43
     },
     {
       "id": "university-of-notre-dame",
@@ -1133,7 +1154,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 20,
-      "admissionRate": 12.4
+      "admissionRate": 12.4,
+      "employmentScore": 57
     },
     {
       "id": "washington-university-in-st-louis",
@@ -1183,7 +1205,8 @@
         "avgRentRmb": 12444
       },
       "numericRank": 20,
-      "admissionRate": 12.0
+      "admissionRate": 12.0,
+      "employmentScore": 46
     },
     {
       "id": "emory-university",
@@ -1236,7 +1259,8 @@
         "avgRentRmb": 11555
       },
       "numericRank": 24,
-      "admissionRate": 11.1
+      "admissionRate": 11.1,
+      "employmentScore": 41
     },
     {
       "id": "georgetown-university",
@@ -1289,7 +1313,8 @@
         "avgRentRmb": 11555
       },
       "numericRank": 24,
-      "admissionRate": 13.1
+      "admissionRate": 13.1,
+      "employmentScore": 60
     },
     {
       "id": "university-of-north-carolina-chapel-hill",
@@ -1337,7 +1362,8 @@
         "avgRentRmb": 11555
       },
       "numericRank": 26,
-      "admissionRate": 18.7
+      "admissionRate": 18.7,
+      "employmentScore": 34
     },
     {
       "id": "university-of-virginia",
@@ -1387,7 +1413,8 @@
         "avgRentRmb": 11555
       },
       "numericRank": 26,
-      "admissionRate": 16.9
+      "admissionRate": 16.9,
+      "employmentScore": 46
     },
     {
       "id": "university-of-southern-california",
@@ -1437,7 +1464,8 @@
         "avgRentRmb": 11555
       },
       "numericRank": 28,
-      "admissionRate": 10.0
+      "admissionRate": 10.0,
+      "employmentScore": 51
     },
     {
       "id": "university-of-california-san-diego",
@@ -1487,7 +1515,8 @@
         "avgRentRmb": 11555
       },
       "numericRank": 29,
-      "admissionRate": 24.5
+      "admissionRate": 24.5,
+      "employmentScore": 45
     },
     {
       "id": "university-of-florida",
@@ -1537,7 +1566,8 @@
         "avgRentRmb": 11555
       },
       "numericRank": 30,
-      "admissionRate": 24.0
+      "admissionRate": 24.0,
+      "employmentScore": 34
     },
     {
       "id": "university-of-texas-austin",
@@ -1590,7 +1620,8 @@
         "avgRentRmb": 11555
       },
       "numericRank": 30,
-      "admissionRate": 29.1
+      "admissionRate": 29.1,
+      "employmentScore": 37
     },
     {
       "id": "georgia-institute-of-technology",
@@ -1640,7 +1671,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 32,
-      "admissionRate": 16.5
+      "admissionRate": 16.5,
+      "employmentScore": 59
     },
     {
       "id": "new-york-university",
@@ -1690,7 +1722,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 32,
-      "admissionRate": 9.4
+      "admissionRate": 9.4,
+      "employmentScore": 43
     },
     {
       "id": "university-of-california-davis",
@@ -1740,7 +1773,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 32,
-      "admissionRate": 41.6
+      "admissionRate": 41.6,
+      "employmentScore": 41
     },
     {
       "id": "university-of-california-irvine",
@@ -1790,7 +1824,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 32,
-      "admissionRate": 25.6
+      "admissionRate": 25.6,
+      "employmentScore": 41
     },
     {
       "id": "boston-college",
@@ -1840,7 +1875,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 36,
-      "admissionRate": 15.7
+      "admissionRate": 15.7,
+      "employmentScore": 60
     },
     {
       "id": "tufts-university",
@@ -1890,7 +1926,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 36,
-      "admissionRate": 10.1
+      "admissionRate": 10.1,
+      "employmentScore": 43
     },
     {
       "id": "university-of-illinois-urbana-champaign",
@@ -1940,7 +1977,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 36,
-      "admissionRate": 43.7
+      "admissionRate": 43.7,
+      "employmentScore": 41
     },
     {
       "id": "university-of-wisconsin-madison",
@@ -1990,7 +2028,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 36,
-      "admissionRate": 43.4
+      "admissionRate": 43.4,
+      "employmentScore": 35
     },
     {
       "id": "university-of-california-santa-barbara",
@@ -2040,7 +2079,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 40,
-      "admissionRate": 27.8
+      "admissionRate": 27.8,
+      "employmentScore": 36
     },
     {
       "id": "ohio-state-university",
@@ -2089,7 +2129,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 41,
-      "admissionRate": 50.8
+      "admissionRate": 50.8,
+      "employmentScore": 25
     },
     {
       "id": "boston-university",
@@ -2139,7 +2180,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 42,
-      "admissionRate": 10.8
+      "admissionRate": 10.8,
+      "employmentScore": 43
     },
     {
       "id": "rutgers-university-new-brunswick",
@@ -2189,7 +2231,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 42,
-      "admissionRate": 65.3
+      "admissionRate": 65.3,
+      "employmentScore": 36
     },
     {
       "id": "university-of-maryland-college-park",
@@ -2239,7 +2282,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 42,
-      "admissionRate": 44.8
+      "admissionRate": 44.8,
+      "employmentScore": 43
     },
     {
       "id": "university-of-washington",
@@ -2292,7 +2336,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 42,
-      "admissionRate": 86.3
+      "admissionRate": 86.3,
+      "employmentScore": 25
     },
     {
       "id": "lehigh-university",
@@ -2342,7 +2387,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 46,
-      "admissionRate": 29.3
+      "admissionRate": 29.3,
+      "employmentScore": 61
     },
     {
       "id": "northeastern-university",
@@ -2392,7 +2438,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 46,
-      "admissionRate": 5.7
+      "admissionRate": 5.7,
+      "employmentScore": 51
     },
     {
       "id": "purdue-university-main-campus",
@@ -2442,7 +2489,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 46,
-      "admissionRate": 50.3
+      "admissionRate": 50.3,
+      "employmentScore": 34
     },
     {
       "id": "university-of-georgia",
@@ -2492,7 +2540,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 46,
-      "admissionRate": 37.2
+      "admissionRate": 37.2,
+      "employmentScore": 31
     },
     {
       "id": "university-of-rochester",
@@ -2545,7 +2594,8 @@
         "avgRentRmb": 10222
       },
       "numericRank": 46,
-      "admissionRate": 35.9
+      "admissionRate": 35.9,
+      "employmentScore": 40
     },
     {
       "id": "arizona-state-university",
@@ -2593,7 +2643,8 @@
         "chineseRestaurants": 3,
         "asianGroceries": 1,
         "avgRentRmb": 9333
-      }
+      },
+      "employmentScore": 26
     },
     {
       "id": "bucknell-university",
@@ -2642,7 +2693,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 9333
       },
-      "admissionRate": 32.0
+      "admissionRate": 32.0,
+      "employmentScore": 52
     },
     {
       "id": "harvey-mudd-college",
@@ -2691,7 +2743,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 9333
       },
-      "admissionRate": 13.1
+      "admissionRate": 13.1,
+      "employmentScore": 88
     },
     {
       "id": "indiana-university-bloomington",
@@ -2740,7 +2793,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 9333
       },
-      "admissionRate": 80.4
+      "admissionRate": 80.4,
+      "employmentScore": 27
     },
     {
       "id": "loyola-university-chicago",
@@ -2789,7 +2843,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 9333
       },
-      "admissionRate": 81.4
+      "admissionRate": 81.4,
+      "employmentScore": 34
     },
     {
       "id": "olin-college-of-engineering",
@@ -2837,7 +2892,8 @@
         "asianGroceries": 3,
         "avgRentRmb": 9333
       },
-      "admissionRate": 21.7
+      "admissionRate": 21.7,
+      "employmentScore": 81
     },
     {
       "id": "rose-hulman-institute-of-technology",
@@ -2886,7 +2942,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 9333
       },
-      "admissionRate": 72.8
+      "admissionRate": 72.8,
+      "employmentScore": 58
     },
     {
       "id": "texas-a-and-m-university",
@@ -2935,7 +2992,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 9333
       },
-      "admissionRate": 80.2
+      "admissionRate": 80.2,
+      "employmentScore": 13
     },
     {
       "id": "university-of-colorado-boulder",
@@ -2984,7 +3042,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 9333
       },
-      "admissionRate": 83.3
+      "admissionRate": 83.3,
+      "employmentScore": 32
     },
     {
       "id": "university-of-iowa",
@@ -3033,7 +3092,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 9333
       },
-      "admissionRate": 84.7
+      "admissionRate": 84.7,
+      "employmentScore": 28
     },
     {
       "id": "university-of-minnesota-twin-cities",
@@ -3082,7 +3142,8 @@
         "asianGroceries": 2,
         "avgRentRmb": 9333
       },
-      "admissionRate": 77.0
+      "admissionRate": 77.0,
+      "employmentScore": 32
     },
     {
       "id": "university-of-south-carolina-columbia",
@@ -3129,7 +3190,8 @@
         "chineseRestaurants": 3,
         "asianGroceries": 1,
         "avgRentRmb": 9333
-      }
+      },
+      "employmentScore": 47
     }
   ],
   "_mergedFrom": "data-pipeline/artifacts (Program MVP + Stage 3D)",
