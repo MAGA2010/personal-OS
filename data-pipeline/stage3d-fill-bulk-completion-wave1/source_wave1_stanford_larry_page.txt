@@ -1,2 +1,0 @@
-source_url: https://engineering.stanford.edu/about/history/heroes/2014-heroes/larry-page
-reviewed_quote: Page earned his master’s degree in computer science at Stanford.

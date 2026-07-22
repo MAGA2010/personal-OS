@@ -11,7 +11,6 @@ const GRANULARITY_LABELS: Record<
   { label: string; labelEn: string }
 > = {
   state: { label: "州级", labelEn: "State" },
-  county: { label: "县级", labelEn: "County" },
   city: { label: "市级", labelEn: "City" },
 };
 
@@ -22,8 +21,6 @@ const GRANULARITY_LABELS: Record<
 // MapLibre internals.
 
 /** MapLibre zoom level at or above which counties replace states. */
-const ZOOM_COUNTY_THRESHOLD = 10; // disabled - no county data
-
 /** MapLibre zoom level at or above which cities replace counties. */
 const ZOOM_CITY_THRESHOLD = 10;
 
@@ -59,7 +56,6 @@ interface GranularityBadgeProps {
  */
 function granularityFromZoom(zoom: number): Granularity {
   if (zoom >= ZOOM_CITY_THRESHOLD) return "city";
-  if (zoom >= ZOOM_COUNTY_THRESHOLD) return "county";
   return "state";
 }
 
@@ -70,7 +66,7 @@ function granularityFromZoom(zoom: number): Granularity {
  *
  * A small pill displayed in the map toolbar that tells the user
  * which geographic resolution the choropleth is currently showing:
- * 州级 (state), 县级 (county), or 市级 (city).
+ * 州级 (state) or 市级 (city).
  *
  * It updates reactively as the user zooms in / out so they always
  * know the data granularity beneath the cursor.
@@ -78,7 +74,7 @@ function granularityFromZoom(zoom: number): Granularity {
  * Usage:
  * ```tsx
  * <GranularityBadge zoom={mapViewState.zoom ?? 4} />
- * <GranularityBadge granularity="county" />
+ * <GranularityBadge granularity="state" />
  * ```
  */
 export function GranularityBadge({ zoom, granularity }: GranularityBadgeProps) {
@@ -115,8 +111,6 @@ export function GranularityBadge({ zoom, granularity }: GranularityBadgeProps) {
         className={`ml-0.5 inline-block h-1.5 w-1.5 rounded-full ${
           resolved === "city"
             ? "bg-jade"
-            : resolved === "county"
-            ? "bg-cobalt"
             : "bg-persimmon"
         }`}
       />

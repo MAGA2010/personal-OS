@@ -1,3 +1,0 @@
-source_id: source_people_pilot_cornell_ruth_bader_ginsburg
-source_url_or_reference: https://www.law.cornell.edu/supct/justices/ginsburg.bio.clr.html
-reviewed_excerpt: College: Cornell University, Phi Beta Kappa, Phi Kappa Phi, B.A. 1954, with high honors in Government and distinction in all subjects, College of Arts and Sciences Class Marshal.

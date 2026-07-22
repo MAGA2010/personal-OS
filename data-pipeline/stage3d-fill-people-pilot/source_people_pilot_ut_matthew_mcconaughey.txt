@@ -1,3 +1,0 @@
-source_id: source_people_pilot_ut_matthew_mcconaughey
-source_url_or_reference: https://moody.utexas.edu/news/script-screen
-reviewed_excerpt: Oscar-winning actor and Department of Radio-Television-Film alumnus Matthew McConaughey (B.S. ’93)

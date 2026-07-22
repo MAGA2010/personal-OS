@@ -37,8 +37,6 @@ export type Affordability = "good" | "stretch" | "over";
 /**
  * Six metric layers the choropleth map can render.
  *
- * TODO: Confirm exact source for each metric (ACS, IPEDS, IIE, etc.)
- * TODO: Connect to Supabase when available 鈥?current values are mock
  */
 export type MetricId =
   | "income"
@@ -48,7 +46,7 @@ export type MetricId =
   | "chinese_population"
   | "admission_rate"
 /** Choropleth granularity controlled by zoom level. */
-export type Granularity = "state" | "county" | "city";
+export type Granularity = "state" | "city";
 
 /**
  * Color scheme identifiers mapped to d3-scale-chromatic interpolators.
@@ -257,6 +255,10 @@ export interface UniversityPOI {
   safetyScore: number; // 0鈥?00
   recognitionScore: number; // 0鈥?00
   chineseCommunity: ChineseCommunityLevel;
+  /** Admission rate percentage (0-100). Available from College Scorecard merge. */
+  admissionRate?: number;
+  /** Employment/earnings score (0-100). Derived from College Scorecard MD_EARN_WNE_P10. */
+  employmentScore?: number;
   directFlight: boolean;
   postStudyVisa: string;
   programs: string[];
@@ -434,7 +436,6 @@ export interface NewsArticle {
  * or shared links.  All fields are optional so partial updates
  * (e.g. zoom鈥憃nly) are supported.
  *
- * TODO: Persist view state in URL search params via nuqs or next-usequerystate
  */
 export interface MapViewState {
   /** Longitude of map centre. */
@@ -501,7 +502,6 @@ export type MapViewMode = "map" | "streetview";
  * Kept separate from `MapViewState` because filters do not represent
  * viewport state 鈥?they are application鈥憀evel UI state.
  *
- * TODO: Wire filter controls to this shape in the sidebar panel
  */
 export interface MapFilters {
   /** Only show universities in this ranking tier (null = all). */
@@ -529,7 +529,7 @@ export interface MapFilters {
  * A cluster aggregate produced by supercluster / MapLibre cluster
  * source.  Displayed as a numbered circle on the map.
  *
- * TODO: Replace with real supercluster integration in Phase 3
+ * TODO: C3: Wire supercluster clustering (package installed, not wired)
  */
 export interface POICluster {
   id: string;

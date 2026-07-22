@@ -56,7 +56,7 @@ function buildLegendStops(
 //   • Min / max raw values       →  hardcoded per metric (see MOCK_RANGES)
 //   • Gradient colour stops      →  buildLegendStops() from color-ramp.ts
 //
-// TODO: Replace MOCK_RANGES with live min/max from Supabase
+  // TODO: Use live min/max from region-metrics.json (currently MOCK_RANGES)
 //       once `region_metrics` table is populated.  Expected shape:
 //
 //         SELECT MIN(raw_value), MAX(raw_value)

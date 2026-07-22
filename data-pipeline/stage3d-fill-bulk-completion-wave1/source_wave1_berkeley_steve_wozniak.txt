@@ -1,2 +1,0 @@
-source_url: https://engineering.berkeley.edu/steve-wozniak-inventor-and-apple-co-founder/
-reviewed_quote: Steve Wozniak (B.S.’86 EECS)

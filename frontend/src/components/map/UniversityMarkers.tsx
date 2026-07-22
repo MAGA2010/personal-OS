@@ -4,6 +4,7 @@ import { useCallback, useRef, useEffect, useState } from "react";
 import { MapPin, GraduationCap, DollarSign, Shield, Users, Star } from "lucide-react";
 import type { UniversityPOI, ChineseCommunityLevel, RankingTier } from "@/lib/types";
 import maplibregl from "maplibre-gl";
+import type Supercluster from "supercluster";
 import { useMapContext } from "./MapCanvas";
 
 // ═══════════════════════════════════════════════════════════════════
@@ -34,12 +35,11 @@ import { useMapContext } from "./MapCanvas";
 //   cobalt — all defined in tailwind.config.ts.
 // • TODO markers for data-dependent sections.
 //
-// TODO: Replace mock university data with live Supabase query
 // TODO: Connect to Supabase `universities` table when available
 // TODO: Replace absolute-position overlays with MapLibre GL markers
 //       (using maplibregl.Marker API) when the MapCanvas context is
 //       wired for marker lifecycle management — Phase 3.
-// TODO: Add POI clustering via supercluster when zoom level drops
+// TODO: C3: Wire supercluster clustering (package installed)
 //       below county granularity — Phase 3.
 
 // ── Types ──────────────────────────────────────────────────────────
@@ -49,7 +49,6 @@ export interface UniversityMarkersProps {
    *  When empty, the component renders a subtle "no results" state
    *  instead of markers.
    *
-   *  TODO: Replace with real {UniversityPOI[]} data from Supabase
    */
   universities: UniversityPOI[];
 
@@ -124,7 +123,6 @@ const COMMUNITY_LABELS: Record<ChineseCommunityLevel, string> = {
 
 // ── Mock Data ──────────────────────────────────────────────────────
 //
-// TODO: Replace with real {UniversityPOI[]} data from Supabase.
 // TODO: Connect to Supabase when available.
 //
 // Expected Supabase query shape:
@@ -182,7 +180,6 @@ export function UniversityMarkers({
   // component always renders something visible.  The mock data is
   // replaced once the parent wires up a real Supabase query.
   //
-  // TODO: Remove fallback once Supabase is connected — the parent
   //       should always provide real data or an empty array.
   const displayUniversities: UniversityPOI[] =
     universities;
@@ -589,112 +586,119 @@ export function UniversityMapPins({
   onSelect: (id: string | null) => void;
   selectedId?: string | null;
   onHover?: (id: string | null) => void;
-  /** Minimum zoom required to show map pins; pass 7.6 when city bubbles are enabled. */
   pinMinZoom?: number;
 }) {
   const mapContext = useMapContext();
-  const [, setHoveredId] = useState<string | null>(null);
   const markersRef = useRef<{ id: string; marker: maplibregl.Marker; el: HTMLElement }[]>([]);
+  const clusterIndexRef = useRef<Supercluster | null>(null);
+  const [, setHoveredId] = useState<string | null>(null);
 
-  // Map pins must reflect the actual filtered result set. Do not fall back to mock data here,
-  // otherwise empty filters/city drill-down still leave unrelated school pins on the map.
-  const displayUniversities: UniversityPOI[] = universities;
+  const CLUSTER_MAX_ZOOM = 7.0;
 
-  const updatePinVisibility = useCallback(() => {
-    const map = mapContext?.map;
-    if (!map) return;
-    const visible = map.getZoom() >= pinMinZoom;
-    markersRef.current.forEach(({ el }) => {
-      el.style.display = visible ? 'flex' : 'none';
-    });
-  }, [mapContext?.map, pinMinZoom]);
+  // Create supercluster index from university points (dynamic import for ESM)
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      const { default: SC } = await import("supercluster") as any;
+      if (!mounted) return;
+      const points = universities.map((uni) => ({
+        type: "Feature" as const,
+        geometry: { type: "Point" as const, coordinates: [uni.longitude, uni.latitude] as [number, number] },
+        properties: { id: uni.id, name: uni.chineseName, tier: uni.rankingTier },
+      }));
+      const index = new (SC as any)({ radius: 60, maxZoom: CLUSTER_MAX_ZOOM });
+      index.load(points);
+      clusterIndexRef.current = index;
+    })();
+    return () => { mounted = false; };
+  }, [universities]);
 
-  // Create/update MapLibre markers when map is ready.
+  // Render markers from supercluster query, refreshed on each map move
   useEffect(() => {
     const map = mapContext?.map;
-    if (!map || !mapContext?.mapReady) return;
+    if (!map || !mapContext?.mapReady || !clusterIndexRef.current) return;
 
-    markersRef.current.forEach(({ marker }) => marker.remove());
-    markersRef.current = [];
+    const refreshMarkers = () => {
+      markersRef.current.forEach(({ marker }) => marker.remove());
+      markersRef.current = [];
 
-    displayUniversities.forEach((uni) => {
-      const el = document.createElement('div');
-      const isSel = selectedId === uni.id;
-      el.style.cssText = [
-        'width:28px;height:28px;border-radius:50%;',
-        'border:2px solid white;cursor:pointer;',
-        'display:flex;align-items:center;justify-content:center;',
-        'font-size:12px;font-weight:700;color:white;',
-        'background:' + TIER_COLORS[uni.rankingTier] + ';',
-        'box-shadow:' + (isSel ? '0 0 0 3px rgba(49,93,159,0.5)' : '0 2px 6px rgba(0,0,0,0.2)') + ';',
-        'transform:' + (isSel ? 'scale(1.15)' : 'scale(1)') + ';',
-        'transition:transform 0.15s,box-shadow 0.15s;',
-      ].join('');
-      el.style.display = map.getZoom() >= pinMinZoom ? 'flex' : 'none';
-      el.textContent = uni.chineseName.charAt(0);
-      el.title = uni.chineseName + ' (' + uni.name + ')';
+      const index = clusterIndexRef.current!;
+      const zoom = map.getZoom();
+      const b = map.getBounds();
+      const bbox: [number, number, number, number] = [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()];
+      const clusters = index.getClusters(bbox, Math.min(zoom, CLUSTER_MAX_ZOOM));
 
-      el.addEventListener('click', function(e) {
-        e.stopPropagation();
-        onSelect(selectedId === uni.id ? null : uni.id);
+      clusters.forEach((feature) => {
+        const [lng, lat] = feature.geometry.coordinates;
+        const props = feature.properties as any;
+
+        if (props.cluster) {
+          const size = Math.min(30 + Math.log(props.point_count) * 8, 60);
+          const el = document.createElement("div");
+          el.style.cssText = [
+            `width:${size}px;height:${size}px;border-radius:50%;`,
+            "background:rgba(49,93,159,0.85);border:2px solid white;cursor:pointer;",
+            "display:flex;align-items:center;justify-content:center;",
+            "font-size:12px;font-weight:700;color:white;",
+            "box-shadow:0 2px 8px rgba(0,0,0,0.25);transition:transform 0.15s;",
+          ].join("");
+          el.textContent = String(props.point_count);
+          el.title = props.point_count + " 所大学";
+          el.addEventListener("click", () => {
+            const ez = index.getClusterExpansionZoom(props.cluster_id);
+            map.flyTo({ center: [lng, lat], zoom: ez, duration: 500 });
+          });
+          markersRef.current.push({
+            id: "cluster-" + props.cluster_id,
+            marker: new maplibregl.Marker({ element: el }).setLngLat([lng, lat]).addTo(map),
+            el,
+          });
+        } else if (zoom >= pinMinZoom) {
+          const el = document.createElement("div");
+          const isSel = selectedId === props.id;
+          el.style.cssText = [
+            "width:28px;height:28px;border-radius:50%;border:2px solid white;cursor:pointer;",
+            "display:flex;align-items:center;justify-content:center;",
+            "font-size:12px;font-weight:700;color:white;",
+            "background:" + TIER_COLORS[(props.tier || "other") as RankingTier] + ";",
+            "box-shadow:" + (isSel ? "0 0 0 3px rgba(49,93,159,0.5)" : "0 2px 6px rgba(0,0,0,0.2)") + ";",
+            "transform:" + (isSel ? "scale(1.15)" : "scale(1)") + ";",
+            "transition:transform 0.15s,box-shadow 0.15s;",
+          ].join("");
+          el.textContent = (props.name || "?").charAt(0);
+          el.title = props.name || "";
+          el.addEventListener("click", (e) => {
+            e.stopPropagation();
+            onSelect(selectedId === props.id ? null : props.id);
+          });
+          el.addEventListener("mouseenter", () => {
+            setHoveredId(props.id);
+            onHover?.(props.id);
+          });
+          el.addEventListener("mouseleave", () => {
+            setHoveredId(null);
+            onHover?.(null);
+          });
+          markersRef.current.push({
+            id: props.id,
+            marker: new maplibregl.Marker({ element: el }).setLngLat([lng, lat]).addTo(map),
+            el,
+          });
+        }
       });
+    };
 
-      el.addEventListener('mouseenter', function() {
-        setHoveredId(uni.id);
-        onHover?.(uni.id);
-      });
-
-      el.addEventListener('mouseleave', function() {
-        setHoveredId(null);
-        onHover?.(null);
-      });
-
-      const marker = new maplibregl.Marker({ element: el })
-        .setLngLat([uni.longitude, uni.latitude])
-        .addTo(map);
-
-      markersRef.current.push({ id: uni.id, marker, el });
-    });
-
-    updatePinVisibility();
-
-    return function() {
-      markersRef.current.forEach(function(item) { item.marker.remove(); });
+    refreshMarkers();
+    map.on("moveend", refreshMarkers);
+    return () => {
+      map.off("moveend", refreshMarkers);
+      markersRef.current.forEach(({ marker }) => marker.remove());
       markersRef.current = [];
     };
-  }, [mapContext?.map, mapContext?.mapReady, displayUniversities, selectedId, onSelect, onHover, updatePinVisibility]);
-
-  // Update marker visual state when selection changes.
-  useEffect(function() {
-    markersRef.current.forEach(function(item) {
-      if (item.id === selectedId) {
-        item.el.style.transform = 'scale(1.15)';
-        item.el.style.boxShadow = '0 0 0 3px rgba(49,93,159,0.5)';
-      } else {
-        item.el.style.transform = 'scale(1)';
-        item.el.style.boxShadow = '0 2px 6px rgba(0,0,0,0.2)';
-      }
-    });
-  }, [selectedId]);
-
-  // Avoid crowding when city bubbles are enabled; default pinMinZoom=0 preserves original behaviour.
-  useEffect(() => {
-    const map = mapContext?.map;
-    if (!map || !mapContext?.mapReady) return;
-
-    map.on('zoom', updatePinVisibility);
-    map.on('zoomend', updatePinVisibility);
-    updatePinVisibility();
-
-    return () => {
-      map.off('zoom', updatePinVisibility);
-      map.off('zoomend', updatePinVisibility);
-    };
-  }, [mapContext?.map, mapContext?.mapReady, updatePinVisibility]);
+  }, [mapContext?.map, mapContext?.mapReady, universities, selectedId, pinMinZoom, onSelect, onHover]);
 
   return null;
 }
-
 
 export default UniversityMarkers;
 

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import type { MetricId, MapViewState, MapFilters, UniversityPOI, MapRegion, NewsArticle } from "@/lib/types";
+import type { MetricId, MapViewState, UniversityPOI, MapRegion, NewsArticle } from "@/lib/types";
 import type maplibregl from "maplibre-gl";
 import { METRIC_DEFINITIONS, METRIC_ORDER } from "@/lib/metrics";
 import { MapCanvas } from "./MapCanvas";
@@ -19,6 +19,8 @@ import ComparePanel from "./ComparePanel";
 import universityData from "@/data/universities.json";
 import regionMetrics from "@/data/region-metrics.json";
 import newsData from "@/data/news.json";
+import type { StrongMapFilters } from "./MapFilterPanel";
+import { MapFilterPanel, DEFAULT_STRONG_MAP_FILTERS, countActiveFilters } from "./MapFilterPanel";
 import STATE_OPTIONS from "@/data/state-options.json";
 import {
   Compass,
@@ -48,7 +50,6 @@ import {
 //  3. Renders a collapsible sidebar that shows region detail when a
 //     region is selected, or the news/article feed by default.
 //
-// TODO: Persist view state in URL search params (nuqs / next-usequerystate)
 // TODO: Connect region detail queries to Supabase when available
 // TODO: Replace hardcoded news/articles with live CMS / DB feed
 // TODO: Wire metric switching to MapCanvas paint expression updates (Phase 2)
@@ -70,14 +71,6 @@ const DEFAULT_VIEW_STATE: Required<MapViewState> = {
 
 // ── Default Filters ───────────────────────────────────────────────
 
-const DEFAULT_FILTERS: MapFilters = {
-  rankingTier: null,
-  maxCostRmb: null,
-  minSafetyScore: null,
-  countries: [],
-  directFlightOnly: false,
-  cssaOnly: false,
-};
 
 // ── Region Detail Shape (sidebar when user clicks a choropleth region) ──
 // TODO: Replace with real MapRegion from Supabase query
@@ -112,7 +105,7 @@ export function MapShell({
 
     const [viewState, setViewState] =
     useState<Required<MapViewState>>(DEFAULT_VIEW_STATE);
-  const [filters, setFilters] = useState<MapFilters>(DEFAULT_FILTERS);
+  const [filters, setFilters] = useState<StrongMapFilters>(DEFAULT_STRONG_MAP_FILTERS);
 
   // ── URL Persistence ─────────────────────────────────────────────
   const searchParams = useSearchParams();
@@ -133,7 +126,7 @@ export function MapShell({
     if (metric) updates.activeMetricId = metric as MetricId;
     if (panel) updates.panelOpen = panel === "1";
     if (Object.keys(updates).length > 0) setViewState(p => ({ ...p, ...updates }));
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const params = new URLSearchParams(searchParams.toString());
@@ -144,7 +137,7 @@ export function MapShell({
     params.set("panel", viewState.panelOpen ? "1" : "0");
     const newUrl = `${pathname}?${params.toString()}`;
     if (newUrl !== prevUrlRef.current) { prevUrlRef.current = newUrl; router.replace(newUrl as any, { scroll: false }); }
-  }, [viewState]);
+  }, [viewState, pathname, router, searchParams]);
   const mapRef = useRef<maplibregl.Map | null>(null);
 
   // ── Sidebar State ───────────────────────────────────────────────
@@ -176,6 +169,56 @@ export function MapShell({
     () => universityData.universities as unknown as UniversityPOI[],
     [],
   );
+  const filteredUniversities = useMemo(() => {
+    let list = [...allUniversities];
+    if (filters.searchQuery.trim()) {
+      const q = filters.searchQuery.toLowerCase();
+      list = list.filter(u =>
+        u.name.toLowerCase().includes(q) ||
+        u.chineseName.includes(filters.searchQuery) ||
+        u.city.toLowerCase().includes(q)
+      );
+    }
+    if (filters.rankingTier) {
+      list = list.filter(u => u.rankingTier === filters.rankingTier);
+    }
+    if (filters.maxCostRmb) {
+      const maxCost = filters.maxCostRmb;
+      list = list.filter(u => u.annualCostRmb <= maxCost);
+    }
+    if (filters.minSafetyScore) {
+      const minSafety = filters.minSafetyScore;
+      list = list.filter(u => u.safetyScore >= minSafety);
+    }
+    if (filters.chineseCommunityLevels.length > 0) {
+      list = list.filter(u => filters.chineseCommunityLevels.includes(u.chineseCommunity));
+    }
+    if (filters.admissionSelectivity !== "all") {
+      list = list.filter(u => {
+        const rate = (u as any).admissionRate ?? 50;
+        if (filters.admissionSelectivity === "reach") return rate < 10;
+        if (filters.admissionSelectivity === "target") return rate >= 10 && rate < 40;
+        if (filters.admissionSelectivity === "likely") return rate >= 40;
+        return true;
+      });
+    }
+    if (filters.stateCodes.length > 0) {
+      list = list.filter(u => filters.stateCodes.includes((u as any).state ?? ""));
+    }
+    if (filters.directFlightOnly) {
+      list = list.filter(u => u.directFlight);
+    }
+    switch (filters.sortBy) {
+      case "cost": list.sort((a, b) => a.annualCostRmb - b.annualCostRmb); break;
+      case "safety": list.sort((a, b) => b.safetyScore - a.safetyScore); break;
+      case "admission":
+        list.sort((a, b) => ((a as any).admissionRate ?? 50) - ((b as any).admissionRate ?? 50));
+        break;
+      case "name": list.sort((a, b) => a.name.localeCompare(b.name)); break;
+      default: list.sort((a, b) => b.recognitionScore - a.recognitionScore);
+    }
+    return list;
+  }, [allUniversities, filters]);
 
   const selectedUniversity = useMemo(
     () => allUniversities.find((u) => u.id === selectedUniversityId) ?? null,
@@ -415,7 +458,7 @@ export function MapShell({
             onMapInit={(map) => { mapRef.current = map; }}
           >
              <UniversityMapPins
-               universities={allUniversities}
+               universities={filteredUniversities}
                onSelect={(id) => {
                  if (id && compareOpen) {
                    addToCompare(id);
@@ -575,7 +618,29 @@ export function MapShell({
               onClose={handleSidebarClose}
             />
           ) : (
-            <div className="flex flex-col items-center justify-center h-full p-6 text-center"><div className="grid h-12 w-12 place-items-center rounded-full bg-ink/5 text-ink/20 mb-3"><svg className="h-6 w-6" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24"><circle cx="12" cy="10" r="3" /><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z" /></svg></div><p className="text-sm font-medium text-ink/60">点击地图上的州或城市</p><p className="mt-1 text-xs text-ink/40">查看区域指标详情和附近大学</p></div>
+            <>
+              <div className="shrink-0">
+                <MapFilterPanel
+                  filters={filters}
+                  universities={allUniversities}
+                  resultCount={filteredUniversities.length}
+                  totalCount={allUniversities.length}
+                  onChange={setFilters}
+                  onReset={() => setFilters(DEFAULT_STRONG_MAP_FILTERS)}
+                />
+              </div>
+              <div className="flex-1 overflow-y-auto">
+                {countActiveFilters(filters) > 0 || filters.sortBy !== "recommended" ? (
+                  <FilteredUniversityList
+                    universities={filteredUniversities}
+                    onSelect={setSelectedUniversityId}
+                    onAddToCompare={addToCompare}
+                  />
+                ) : (
+                  <NewsFeedSidebar articles={newsArticles} />
+                )}
+              </div>
+            </>
           )}
         </div>
       </aside>
@@ -819,6 +884,70 @@ function formatRelativeDate(isoString: string): string {
 
   const months = Math.floor(days / 30);
   return `${months}个月前`;
+}
+
+
+// ═══════════════════════════════════════════════════════════════════
+// FilteredUniversityList — shown in sidebar when filters are active
+// ═══════════════════════════════════════════════════════════════════
+
+function FilteredUniversityList({
+  universities,
+  onSelect,
+  onAddToCompare,
+}: {
+  universities: UniversityPOI[];
+  onSelect: (id: string) => void;
+  onAddToCompare: (id: string) => void;
+}) {
+  if (universities.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-2 px-4 py-12 text-center">
+        <div className="grid h-10 w-10 place-items-center rounded-full bg-ink/5 text-ink/20">
+          <GraduationCap size={20} aria-hidden="true" />
+        </div>
+        <p className="text-sm font-medium text-ink/60">没有匹配的学校</p>
+        <p className="text-xs text-ink/40">试试调整筛选条件</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="divide-y divide-line/60">
+      {universities.map((uni) => (
+        <div key={uni.id} className="px-4 py-3 transition-colors hover:bg-ink/[0.02]">
+          <div className="flex items-start justify-between gap-2">
+            <div className="min-w-0 flex-1">
+              <button
+                type="button"
+                onClick={() => onSelect(uni.id)}
+                className="text-left"
+              >
+                <div className="text-sm font-semibold text-ink hover:text-cobalt transition-colors">
+                  {uni.chineseName}
+                </div>
+                <div className="text-[11px] text-ink/52 truncate">{uni.name} · {uni.city}</div>
+              </button>
+              <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-ink/48">
+                <span>排名: {uni.rankingBand}</span>
+                <span>费用: ¥{(uni.annualCostRmb / 10000).toFixed(0)}万</span>
+                <span>安全: {uni.safetyScore}分</span>
+              </div>
+            </div>
+            <button
+              type="button"
+              onClick={() => onAddToCompare(uni.id)}
+              aria-label="加入对比"
+              className="shrink-0 grid h-7 w-7 place-items-center rounded-md text-ink/36 transition-colors hover:bg-line/40 hover:text-cobalt"
+              title="加入对比"
+            >
+              <Users size={14} />
+            </button>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 // ── Mock Region Detail ────────────────────────────────────────────

@@ -2872,7 +2872,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 9333
       },
-      "employmentScore": 26
+      "employmentScore": 26,
+      "admissionRate": 90
     },
     {
       "id": "bucknell-university",
@@ -3455,7 +3456,8 @@
         "asianGroceries": 1,
         "avgRentRmb": 9333
       },
-      "employmentScore": 47
+      "employmentScore": 47,
+      "admissionRate": 60
     }
   ],
   "_mergedFrom": "data-pipeline/artifacts (Program MVP + Stage 3D)",

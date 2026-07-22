@@ -1,7 +1,0 @@
-{
-  "schemaVersion": "v1",
-  "canonicalDatabase": "postgresql-compatible-migrations",
-  "networkCollectionEnabled": false,
-  "formalFrontendExport": "canonical-validated-non-test-records-only",
-  "defaultRateLimitPerMinute": 30
-}

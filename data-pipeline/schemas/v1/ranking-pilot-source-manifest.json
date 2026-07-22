@@ -1,8 +1,0 @@
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://pathos.example/schemas/v1/ranking-pilot-source-manifest.json",
-  "title": "PathOS pilot ranking source manifest",
-  "type": "object",
-  "required": ["record_type", "edition", "accessed_at", "sources"],
-  "properties": {"record_type": {"const": "ranking_collection_pilot_source_manifest"}, "edition": {"type": "string", "minLength": 1}, "accessed_at": {"type": "string", "minLength": 1}, "sources": {"type": "array", "minItems": 1, "items": {"type": "object"}}}
-}

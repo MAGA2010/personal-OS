@@ -249,6 +249,8 @@ data-pipeline/
 ├── fetch_employment.py      ← Employment index (BLS, LinkedIn)
 ├── fetch_cost.py            ← Cost of living + tuition data
 └── normalize.py           ← Value normalization to 0-1
+fetch_campus_images.py   ← Wikipedia campus images (A1)
+fetch_news.py           ← Study-abroad news refresh (A4)
 ```
 
 Once the data is in place, `npm run dev` and the map will render with real data — no code changes needed.
@@ -260,7 +262,7 @@ Once the data is in place, `npm run dev` and the map will render with real data 
 
 | Field | Coverage | Source |
 |-------|----------|--------|
-| admissionRate | 60/62 | College Scorecard |
+| admissionRate | 62/62 | College Scorecard + screenshot |
 | employmentScore | 62/62 | College Scorecard (median earnings) |
 | annualCostRmb | 62/62 | IPEDS (51), tier fallback (11) |
 | safetyScore | 62/62 | FBI UCR (state-level) |
@@ -289,4 +291,4 @@ Once the data is in place, `npm run dev` and the map will render with real data 
 
 ### News (news.json)
 
-- 130 articles from 启德教育 + QS, summaries cleaned of crawler text
+- 34 recent articles (2025-2026, kept from 启德教育 + QS, summaries cleaned of crawler text

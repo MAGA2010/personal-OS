@@ -74,8 +74,6 @@ const INITIAL_ZOOM = 4.0;
 /** Minimum zoom before we revert to state-level granularity. */
 const STATE_MAX_ZOOM = 6;
 
-/** County-level band. */
-
 const CHOROPLETH_SOURCE_ID = "pathos-us-states";
 const CHOROPLETH_FILL_LAYER_ID = "pathos-us-states-fill";
 const CHOROPLETH_LINE_LAYER_ID = "pathos-us-states-line";
@@ -504,9 +502,7 @@ export function MapCanvas({
             <span className="rounded-full border border-line bg-white/88 px-2.5 py-1 text-[11px] font-medium text-ink/56 backdrop-blur">
               {granularity === "state"
                 ? "州级 / State"
-                : granularity === "county"
-                  ? "县级 / County"
-                  : "市级 / City"}
+                : "市级 / City"}
             </span>
           </div>
         )}
@@ -525,7 +521,7 @@ export function MapCanvas({
              layer is wired:
                {
                  fipsCode: "06",            // FIPS / GEOID string
-                 granularity: "state",       // state | county | city
+                 granularity: "state",       // state | city
                  metricId: "income",         // MetricId
                  value: 0.90,               // 0–1 normalised
                  rawValue: 135000,          // actual $ or score

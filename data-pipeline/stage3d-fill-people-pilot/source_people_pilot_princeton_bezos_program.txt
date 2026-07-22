@@ -1,3 +1,0 @@
-source_id: source_people_pilot_princeton_bezos_program
-source_url_or_reference: https://engineering.princeton.edu/news/2015/05/01/jeff-bezos-86-honored-liberty-science-center
-reviewed_excerpt: Bezos received an undergraduate degree in electrical engineering and computer science from Princeton in 1986.

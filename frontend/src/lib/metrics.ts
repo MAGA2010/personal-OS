@@ -1,7 +1,6 @@
 // ── Metric Metadata Registry ──
 // All six map metric layers: definitions, display formatting, and mock data.
 //
-// TODO: Connect to Supabase when available — replace MOCK_STATE_METRICS
 //       with `getMetricValue(fipsCode, metricId, granularity)` API call.
 
 import type { MetricDefinition, MetricId, RegionMetric, Granularity } from "./types";
