@@ -1,0 +1,3907 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_completion_wave1_program_people",
+  "slots": [
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Supply Chain Management/Logistics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Supply Chain Management/Logistics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 2, supply chain management/logistics",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-supply-chain-asu"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:arizona-state-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Analytics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Analytics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 11, analytics",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-analytics-asu"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:arizona-state-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Management Information Systems",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Management Information Systems",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 11, management information systems",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-mis-asu"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:arizona-state-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Production/Operations Management",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Production/Operations Management",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 11, production/operations management",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-operations-asu"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:arizona-state-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Tillman, who graduated with a marketing degree from ASU in three-and-a-half years with a 3.84 GPA",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_asu_pat_tillman"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Tillman, who graduated with a marketing degree from ASU in three-and-a-half years with a 3.84 GPA",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_asu_pat_tillman"
+        }
+      },
+      "match_notes": "The source states a marketing degree; Marketing is directly related to the broader Management demo-program slot.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Management",
+      "null_reason": null,
+      "person_id": "person:pat-tillman:arizona-state-university:source-bulk-people-asu-pat-tillman",
+      "person_name": "Pat Tillman",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Management",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 13, management",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-management-asu"
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official ASU named-person source"
+      ],
+      "reviewed_source_ids": [
+        "source_bulk_people_asu_pat_tillman"
+      ],
+      "slot_id": "candidate-v2:arizona-state-university:slot-5",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_bulk_people_asu_pat_tillman"
+      ],
+      "source_sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_url": "https://news.asu.edu/content/west-campus-parents-present-pat-tillman-artwork-fitness-center",
+      "university_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Business Administration and Management, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Business Administration and Management, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=164988; CIPCODE=52.0201; AWLEVEL=5; CTOTALT=672",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:boston-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Ocasio-Cortez graduated from Boston University in 2011 with a BA in International Relations and Economics.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_bu_alexandria_ocasio_cortez"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Ocasio-Cortez graduated from Boston University in 2011 with a BA in International Relations and Economics.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_bu_alexandria_ocasio_cortez"
+        }
+      },
+      "match_notes": "The source explicitly states Economics; it is directly related to the Economics, General slot.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Economics, General",
+      "null_reason": null,
+      "person_id": "person:alexandria-ocasio-cortez:boston-university:source-wave1-bu-alexandria-ocasio-cortez",
+      "person_name": "Alexandria Ocasio-Cortez",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Economics, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=164988; CIPCODE=45.0601; AWLEVEL=5; CTOTALT=307",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Boston University economics alumni page"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_bu_alexandria_ocasio_cortez"
+      ],
+      "slot_id": "candidate-v2:boston-university:slot-2",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_bu_alexandria_ocasio_cortez"
+      ],
+      "source_sha256": "b96237d7cb1acc590b189fce6a28b2d05f6ec7929aaca44e7b63fa625e546d72",
+      "source_url": "https://www.bu.edu/econ/alumni/distinguished-alumni-award/2019-awards/",
+      "university_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer Science",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=164988; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=305",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:boston-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Psychology, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Psychology, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=164988; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=305",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:boston-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Radio and Television",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Radio and Television",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=164988; CIPCODE=09.0701; AWLEVEL=5; CTOTALT=195",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:boston-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=236",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:brown-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Yellen earned a bachelor’s degree in economics from Brown in 1967 after studies at Pembroke College",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_brown_janet_yellen"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Yellen earned a bachelor’s degree in economics from Brown in 1967 after studies at Pembroke College",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_brown_janet_yellen"
+        }
+      },
+      "match_notes": "The source states economics; it is directly related to Econometrics and Quantitative Economics.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": null,
+      "person_id": "person:janet-yellen:brown-university:source-wave1-brown-janet-yellen",
+      "person_name": "Janet Yellen",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=179",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Brown University news profile"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_brown_janet_yellen"
+      ],
+      "slot_id": "candidate-v2:brown-university:slot-2",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_brown_janet_yellen"
+      ],
+      "source_sha256": "758d14382b3fae7a89b7892c9cad0c8e178e1ff73d38bfb0c6fbf52efc9822ac",
+      "source_url": "https://www.brown.edu/news/2021-01-28/yellen",
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Applied Mathematics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Applied Mathematics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=27.0301; AWLEVEL=5; CTOTALT=156",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:brown-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "International Relations and Affairs",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "International Relations and Affairs",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=45.0901; AWLEVEL=5; CTOTALT=137",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:brown-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=110",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:brown-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Gosling, who earned his Ph.D. in computer science at Carnegie Mellon in 1983",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_batch_b_cmu_james_gosling"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Gosling, who earned his Ph.D. in computer science at Carnegie Mellon in 1983",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_batch_b_cmu_james_gosling"
+        }
+      },
+      "match_notes": "The source explicitly states computer science, exactly matching the slot.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:james-gosling:carnegie-mellon-university:source-batch-b-cmu-james-gosling",
+      "person_name": "James Gosling",
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=270",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Carnegie Mellon School of Computer Science page"
+      ],
+      "reviewed_source_ids": [
+        "source_batch_b_cmu_james_gosling"
+      ],
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-1",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_batch_b_cmu_james_gosling"
+      ],
+      "source_sha256": "919e8dff8a7cc71982e2560d2bce393bfa6ca09ef9f438e2d5605145ab3e04f1",
+      "source_url": "https://www.cs.cmu.edu/news/2009/gosling-reflects-history-java-programming-language-carnegie-mellon-celebrates-andrew-project",
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Statistics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Statistics, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=27.0501; AWLEVEL=5; CTOTALT=161",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Electrical and Electronics Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Electrical and Electronics Engineering",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=14.1001; AWLEVEL=5; CTOTALT=157",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Business Administration and Management, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Business Administration and Management, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=52.0201; AWLEVEL=5; CTOTALT=151",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Systems Science and Theory",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Systems Science and Theory",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=30.0601; AWLEVEL=5; CTOTALT=118",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Gates earned her bachelor’s degree in computer science and economics from Duke in 1986",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_duke_melinda_french_gates"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Gates earned her bachelor’s degree in computer science and economics from Duke in 1986",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_duke_melinda_french_gates"
+        }
+      },
+      "match_notes": "The source explicitly states computer science, exactly matching the slot.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:melinda-french-gates:duke-university:source-wave1-duke-melinda-french-gates",
+      "person_name": "Melinda French Gates",
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=198419; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=410",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Duke University profile"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_duke_melinda_french_gates"
+      ],
+      "slot_id": "candidate-v2:duke-university:slot-1",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_duke_melinda_french_gates"
+      ],
+      "source_sha256": "62ca13ffb4568c35516058bd41f7fa63cefc517dddd56cf95dee91004088722f",
+      "source_url": "https://globalhealth.duke.edu/index.php/news/melinda-gates-named-2013-commencement-speaker",
+      "university_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Multi-/Interdisciplinary Studies, Other",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Multi-/Interdisciplinary Studies, Other",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=198419; CIPCODE=30.9999; AWLEVEL=5; CTOTALT=281",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:duke-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Registered Nursing/Registered Nurse",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Registered Nursing/Registered Nurse",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=198419; CIPCODE=51.3801; AWLEVEL=5; CTOTALT=224",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:duke-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=198419; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=199",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:duke-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=198419; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=169",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:duke-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Clinton entered Georgetown as a freshman in 1964 and graduated four years later with a bachelor of science in international affairs from the School of Foreign Service.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_georgetown_bill_clinton"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Clinton entered Georgetown as a freshman in 1964 and graduated four years later with a bachelor of science in international affairs from the School of Foreign Service.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_georgetown_bill_clinton"
+        }
+      },
+      "match_notes": "International affairs is directly related to International Relations and Affairs.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "International Relations and Affairs",
+      "null_reason": null,
+      "person_id": "person:bill-clinton:georgetown-university:source-wave1-georgetown-bill-clinton",
+      "person_name": "Bill Clinton",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "International Relations and Affairs",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=45.0901; AWLEVEL=5; CTOTALT=283",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Georgetown University history page"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_georgetown_bill_clinton"
+      ],
+      "slot_id": "candidate-v2:georgetown-university:slot-1",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_georgetown_bill_clinton"
+      ],
+      "source_sha256": "b7cc435ffa8617e9c48ad6c7dc671fe1dcb7f9a8ca4b0fd2fce209ecd9e48e5b",
+      "source_url": "https://www.georgetown.edu/news/the-clinton-lectures/",
+      "university_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Finance, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Finance, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=236",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:georgetown-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Political Science and Government, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Political Science and Government, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=203",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:georgetown-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=184",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:georgetown-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Psychology, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Psychology, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=100",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:georgetown-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Accounting",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Accounting",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Accounting, No. 4.",
+          "source_id": "indiana-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "indiana-2026-business-sweep",
+        "source_record_id": "sweep-indiana-accounting"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:indiana-university-bloomington:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Mr. Cuban received a BS in management from Indiana University in 1981.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_indiana_mark_cuban"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Mr. Cuban received a BS in management from Indiana University in 1981.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_indiana_mark_cuban"
+        }
+      },
+      "match_notes": "The source explicitly states management, exactly matching the slot.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Management",
+      "null_reason": null,
+      "person_id": "person:mark-cuban:indiana-university-bloomington:source-bulk-people-indiana-mark-cuban",
+      "person_name": "Mark Cuban",
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Management",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Management, No. 4.",
+          "source_id": "indiana-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "indiana-2026-business-sweep",
+        "source_record_id": "sweep-indiana-management"
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Indiana University honoree profile"
+      ],
+      "reviewed_source_ids": [
+        "source_bulk_people_indiana_mark_cuban"
+      ],
+      "slot_id": "candidate-v2:indiana-university-bloomington:slot-2",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_bulk_people_indiana_mark_cuban"
+      ],
+      "source_sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_url": "https://honorsandawards.iu.edu/awards/honoree/5682.html",
+      "university_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Marketing",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Marketing",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Marketing, No. 4",
+          "source_id": "indiana-2026-business-nursing"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "indiana-2026-business-nursing",
+        "source_record_id": "priority01-indiana-marketing"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:indiana-university-bloomington:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Management Information Systems",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Management Information Systems",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Management information systems, No. 6.",
+          "source_id": "indiana-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "indiana-2026-business-sweep",
+        "source_record_id": "sweep-indiana-mis"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:indiana-university-bloomington:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Entrepreneurship",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Entrepreneurship",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Entrepreneurship, No. 7",
+          "source_id": "indiana-2026-business-nursing"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "indiana-2026-business-nursing",
+        "source_record_id": "priority01-indiana-entrepreneurship"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:indiana-university-bloomington:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166683; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=389",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:massachusetts-institute-of-technology:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166683; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=141",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:massachusetts-institute-of-technology:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mathematics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Mathematics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166683; CIPCODE=27.0101; AWLEVEL=5; CTOTALT=139",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:massachusetts-institute-of-technology:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "He was born in Philadelphia in 1929 and received his BS and PhD in Electrical Engineering from MIT.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_mit_amar_bose"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "He was born in Philadelphia in 1929 and received his BS and PhD in Electrical Engineering from MIT.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_mit_amar_bose"
+        }
+      },
+      "match_notes": "Electrical Engineering is directly related to Electrical and Electronics Engineering.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Electrical and Electronics Engineering",
+      "null_reason": null,
+      "person_id": "person:amar-bose:massachusetts-institute-of-technology:source-wave1-mit-amar-bose",
+      "person_name": "Amar Bose",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Electrical and Electronics Engineering",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166683; CIPCODE=14.1001; AWLEVEL=5; CTOTALT=87",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official MIT Libraries exhibit"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_mit_amar_bose"
+      ],
+      "slot_id": "candidate-v2:massachusetts-institute-of-technology:slot-4",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_mit_amar_bose"
+      ],
+      "source_sha256": "2330079ccc1237aa2315eb2982d205121a8ba292251304feab46a8af4d382b14",
+      "source_url": "https://digital-exhibits.libraries.mit.edu/s/south-asia-and-mit/page/Amar-Bose",
+      "university_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Physics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Physics, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166683; CIPCODE=40.0801; AWLEVEL=5; CTOTALT=79",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:massachusetts-institute-of-technology:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Mr. Wexner holds a B.S. degree in Business Administration from The Ohio State University",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_batch_b_ohio_state_leslie_wexner"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Mr. Wexner holds a B.S. degree in Business Administration from The Ohio State University",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_batch_b_ohio_state_leslie_wexner"
+        }
+      },
+      "match_notes": "Business Administration is directly related to Undergraduate Business Programs.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Undergraduate Business Programs",
+      "null_reason": null,
+      "person_id": "person:leslie-h-wexner:ohio-state-university:source-batch-b-ohio-state-leslie-wexner",
+      "person_name": "Leslie H. Wexner",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Undergraduate Business Programs",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "#12 overall",
+          "source_id": "osu-fisher-2026-business"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "osu-fisher-2026-business",
+        "source_record_id": "pilot-business-fisher"
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Ohio State named-person biography"
+      ],
+      "reviewed_source_ids": [
+        "source_batch_b_ohio_state_leslie_wexner"
+      ],
+      "slot_id": "candidate-v2:ohio-state-university:slot-1",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_batch_b_ohio_state_leslie_wexner"
+      ],
+      "source_sha256": "e71bcf4131a45d350fef2d990c97e498fad2161d7b9eb33097cabd322a018a18",
+      "source_url": "https://trustees.osu.edu/people/leslie-wexner",
+      "university_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer and Information Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer and Information Science",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer and Information Science",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:ohio-state-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Data Analytics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Data Analytics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Data Analytics",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:ohio-state-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Psychology",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Psychology",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Psychology",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:ohio-state-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Economics",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Economics",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:ohio-state-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Bezos received an undergraduate degree in electrical engineering and computer science from Princeton in 1986.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_people_pilot_princeton_bezos_attendance"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Bezos received an undergraduate degree in electrical engineering and computer science from Princeton in 1986.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_people_pilot_princeton_bezos_attendance"
+        }
+      },
+      "match_notes": "The stated combined degree is directly related to the Computer Science slot.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:jeff-bezos:princeton-university:source-people-pilot-princeton-bezos-attendance",
+      "person_name": "Jeff Bezos",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186131; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=201",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Princeton Engineering profile"
+      ],
+      "reviewed_source_ids": [
+        "source_people_pilot_princeton_bezos_attendance"
+      ],
+      "slot_id": "candidate-v2:princeton-university:slot-1",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_people_pilot_princeton_bezos_attendance"
+      ],
+      "source_sha256": "15f1040525c12958aee5a1e3d93ff26fba1c30adb8cdc7a873e1439910124cfb",
+      "source_url": "https://engineering.princeton.edu/news/2015/05/01/jeff-bezos-86-honored-liberty-science-center",
+      "university_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186131; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=132",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:princeton-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Public Policy Analysis, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Public Policy Analysis, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186131; CIPCODE=44.0501; AWLEVEL=5; CTOTALT=114",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:princeton-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Operations Research",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Operations Research",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186131; CIPCODE=14.3701; AWLEVEL=5; CTOTALT=77",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:princeton-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "History, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "History, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186131; CIPCODE=54.0101; AWLEVEL=5; CTOTALT=72",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:princeton-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=560",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=478",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Engineering, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer Engineering, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=14.0901; AWLEVEL=5; CTOTALT=319",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Experimental Psychology",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Experimental Psychology",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=42.2704; AWLEVEL=5; CTOTALT=318",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "he resumed his studies at Purdue University and received a Bachelor of Science degree in Aeronautical Engineering in 1955",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_purdue_neil_armstrong"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "he resumed his studies at Purdue University and received a Bachelor of Science degree in Aeronautical Engineering in 1955",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_purdue_neil_armstrong"
+        }
+      },
+      "match_notes": "Aeronautical Engineering is directly related to the broader aerospace and astronautical engineering slot.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Aerospace, Aeronautical, and Astronautical/Space Engineering, General",
+      "null_reason": null,
+      "person_id": "person:neil-armstrong:purdue-university-main-campus:source-bulk-people-purdue-neil-armstrong",
+      "person_name": "Neil Armstrong",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Aerospace, Aeronautical, and Astronautical/Space Engineering, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=14.0201; AWLEVEL=5; CTOTALT=314",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Purdue archival authority record"
+      ],
+      "reviewed_source_ids": [
+        "source_bulk_people_purdue_neil_armstrong"
+      ],
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-5",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_bulk_people_purdue_neil_armstrong"
+      ],
+      "source_sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_url": "https://archives.lib.purdue.edu/agents/people/100?filter_fields%5B%5D=subjects&filter_values%5B%5D=Purdue+University+--+Alumni+and+alumnae",
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Aron graduated with a Ph.D. in computer science from Rice University with a focus on distributed systems.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_batch_b_rice_mohit_aron"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Aron graduated with a Ph.D. in computer science from Rice University with a focus on distributed systems.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_batch_b_rice_mohit_aron"
+        }
+      },
+      "match_notes": "Computer science is directly related to Computer and Information Sciences, General.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "null_reason": null,
+      "person_id": "person:mohit-aron:rice-university:source-batch-b-rice-mohit-aron",
+      "person_name": "Mohit Aron",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=164",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Rice Engineering profile"
+      ],
+      "reviewed_source_ids": [
+        "source_batch_b_rice_mohit_aron"
+      ],
+      "slot_id": "candidate-v2:rice-university:slot-1",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_batch_b_rice_mohit_aron"
+      ],
+      "source_sha256": "2ae6c37a0dd869594e5628635d98a44011e2ba5891f0735d5fef2fc18952f3d5",
+      "source_url": "https://engineering.rice.edu/mohit-aron",
+      "university_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=70",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rice-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Economics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Economics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=45.0601; AWLEVEL=5; CTOTALT=69",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rice-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Psychology, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Psychology, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=66",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rice-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=65",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rice-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Page earned his master’s degree in computer science at Stanford.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_stanford_larry_page"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Page earned his master’s degree in computer science at Stanford.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_stanford_larry_page"
+        }
+      },
+      "match_notes": "The source explicitly states computer science, exactly matching the slot.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:larry-page:stanford-university:source-wave1-stanford-larry-page",
+      "person_name": "Larry Page",
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=293",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Stanford Engineering profile"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_stanford_larry_page"
+      ],
+      "slot_id": "candidate-v2:stanford-university:slot-1",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_stanford_larry_page"
+      ],
+      "source_sha256": "aafb1b5007165b58d11f66ec039d43bdebbbfbfde6bd5cf85ddbc7c5c89d109c",
+      "source_url": "https://engineering.stanford.edu/about/history/heroes/2014-heroes/larry-page",
+      "university_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Human Biology",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Human Biology",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=30.2701; AWLEVEL=5; CTOTALT=140",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:stanford-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=112",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:stanford-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Engineering, Other",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Engineering, Other",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=14.9999; AWLEVEL=5; CTOTALT=89",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:stanford-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Cognitive Science, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Cognitive Science, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=30.2501; AWLEVEL=5; CTOTALT=83",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:stanford-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Real Estate",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Real Estate",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "#2 in Real Estate",
+          "source_id": "berkeley-haas-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "berkeley-haas-2026-business-sweep",
+        "source_record_id": "sweep-berkeley-real-estate"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Supply Chain Management/Logistics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Supply Chain Management/Logistics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "#2 in Supply Chain/Logistics (tie)",
+          "source_id": "berkeley-haas-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "berkeley-haas-2026-business-sweep",
+        "source_record_id": "sweep-berkeley-supply-chain"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Steve Wozniak (B.S.’86 EECS)",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_berkeley_steve_wozniak"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Steve Wozniak (B.S.’86 EECS)",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_berkeley_steve_wozniak"
+        }
+      },
+      "match_notes": "EECS is directly related to the Undergraduate Computer Science Programs slot.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Undergraduate Computer Science Programs",
+      "null_reason": null,
+      "person_id": "person:steve-wozniak:university-of-california-berkeley:source-wave1-berkeley-steve-wozniak",
+      "person_name": "Steve Wozniak",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Undergraduate Computer Science Programs",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 2 ranking in computer science at the undergraduate level",
+          "source_id": "berkeley-cdss-2026-computer-science"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "berkeley-cdss-2026-computer-science",
+        "source_record_id": "sweep-berkeley-computer-science"
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Berkeley Engineering profile"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_berkeley_steve_wozniak"
+      ],
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-3",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_berkeley_steve_wozniak"
+      ],
+      "source_sha256": "24388da77f5c8f302e4f43d228e6c7bc9d9e0a78a09b69975ef888a4328c1ec8",
+      "source_url": "https://engineering.berkeley.edu/steve-wozniak-inventor-and-apple-co-founder/",
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Undergraduate Business Programs",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Undergraduate Business Programs",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 3",
+          "source_id": "berkeley-haas-2026-business"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "berkeley-haas-2026-business",
+        "source_record_id": "priority01-berkeley-business"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Entrepreneurship",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Entrepreneurship",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "#4 in Entrepreneurship (tie)",
+          "source_id": "berkeley-haas-2026-business"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "berkeley-haas-2026-business",
+        "source_record_id": "priority01-berkeley-entrepreneurship"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110662; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=740",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-los-angeles:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Psychology, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Psychology, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110662; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=685",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-los-angeles:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Sociology, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Sociology, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110662; CIPCODE=45.1101; AWLEVEL=5; CTOTALT=669",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-los-angeles:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Political Science and Government, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Political Science and Government, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110662; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=653",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-los-angeles:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "After “Blossom” ended, Bialik left acting and earned her bachelor of science degree in neuroscience from UCLA in 2000, with a minor in Hebrew and Jewish studies.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_ucla_mayim_bialik"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "After “Blossom” ended, Bialik left acting and earned her bachelor of science degree in neuroscience from UCLA in 2000, with a minor in Hebrew and Jewish studies.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_ucla_mayim_bialik"
+        }
+      },
+      "match_notes": "Neuroscience is directly related to the Behavioral Neuroscience slot; acting context was not used.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Behavioral Neuroscience",
+      "null_reason": null,
+      "person_id": "person:mayim-bialik:university-of-california-los-angeles:source-wave1-ucla-mayim-bialik",
+      "person_name": "Mayim Bialik",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Behavioral Neuroscience",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110662; CIPCODE=42.2706; AWLEVEL=5; CTOTALT=412",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official UCLA Newsroom profile"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_ucla_mayim_bialik"
+      ],
+      "slot_id": "candidate-v2:university-of-california-los-angeles:slot-5",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_ucla_mayim_bialik"
+      ],
+      "source_sha256": "597e2c67508b11a5a4ed9d5b41826d02ba9e33284c7d0fa279e070deb86fe097",
+      "source_url": "https://newsroom.ucla.edu/releases/mayim-bialik-ucla-college-commencement",
+      "university_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=622",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-chicago:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mathematics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Mathematics, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=27.0101; AWLEVEL=5; CTOTALT=181",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-chicago:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer Science",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=156",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-chicago:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=127",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-chicago:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Sarah Koenig, AB’90",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_uchicago_sarah_koenig"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Koenig majored in Political Science but was fascinated by Russian history and literature.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_uchicago_sarah_koenig"
+        }
+      },
+      "match_notes": "The source explicitly states Political Science; it is directly related to Political Science and Government, General.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Political Science and Government, General",
+      "null_reason": null,
+      "person_id": "person:sarah-koenig:university-of-chicago:source-bulk-people-uchicago-sarah-koenig",
+      "person_name": "Sarah Koenig",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Political Science and Government, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=111",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "alumnus_unspecified",
+      "reviewed_scope": [
+        "official University of Chicago alumni spotlight"
+      ],
+      "reviewed_source_ids": [
+        "source_bulk_people_uchicago_sarah_koenig"
+      ],
+      "slot_id": "candidate-v2:university-of-chicago:slot-5",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_bulk_people_uchicago_sarah_koenig"
+      ],
+      "source_sha256": "0ac646bacb36caafece2a180bda462f05385a4c92659679585477e7b19f6608d",
+      "source_url": "https://college.uchicago.edu/news/student-stories/alumni-spotlight-one-liberal-arts-education-two-career-paths",
+      "university_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Research and Experimental Psychology, Other",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Research and Experimental Psychology, Other",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=42.2799; AWLEVEL=5; CTOTALT=573",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Engineering, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer Engineering, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=14.0901; AWLEVEL=5; CTOTALT=396",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Accounting",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Accounting",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=52.0301; AWLEVEL=5; CTOTALT=352",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Finance, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Finance, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=323",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Attendee, Computer Science, University of Illinois",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_uiuc_steve_chen"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Attendee, Computer Science, University of Illinois",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_uiuc_steve_chen"
+        }
+      },
+      "match_notes": "The source explicitly labels Chen an attendee in Computer Science, exactly matching the slot; no graduation is claimed.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:steve-chen:university-of-illinois-urbana-champaign:source-wave1-uiuc-steve-chen",
+      "person_name": "Steve Chen",
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Computer Science",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=311",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "attended_no_degree",
+      "reviewed_scope": [
+        "official Grainger Engineering Hall of Fame profile"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_uiuc_steve_chen"
+      ],
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-5",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_uiuc_steve_chen"
+      ],
+      "source_sha256": "2ac2b708e62eb9bb565d60abdc880f1f82dd669b159525379071e8ad295b9089",
+      "source_url": "https://grainger.illinois.edu/alumni/hall-of-fame/Steve-Chen",
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Larry Page, Google’s Co-founder and President, is a U-M EECS grad",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_batch_b_michigan_larry_page"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Larry Page, Google’s Co-founder and President, is a U-M EECS grad",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_batch_b_michigan_larry_page"
+        }
+      },
+      "match_notes": "EECS is directly related to Computer and Information Sciences, General; employment context was not used.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "null_reason": null,
+      "person_id": "person:larry-page:university-of-michigan-ann-arbor:source-batch-b-michigan-larry-page",
+      "person_name": "Larry Page",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=170976; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=1206",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official University of Michigan EECS newsletter"
+      ],
+      "reviewed_source_ids": [
+        "source_batch_b_michigan_larry_page"
+      ],
+      "slot_id": "candidate-v2:university-of-michigan-ann-arbor:slot-1",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_batch_b_michigan_larry_page"
+      ],
+      "source_sha256": "959316ae2e4c41e93a59054fab1e4f833567330266132b16070214fe390b83ef",
+      "source_url": "https://ece.engin.umich.edu/wp-content/uploads/sites/4/2019/10/EECSNewsFW04.pdf",
+      "university_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Business Administration and Management, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Business Administration and Management, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=170976; CIPCODE=52.0201; AWLEVEL=5; CTOTALT=613",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-michigan-ann-arbor:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Economics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Economics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=170976; CIPCODE=45.0601; AWLEVEL=5; CTOTALT=608",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-michigan-ann-arbor:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Behavioral Neuroscience",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Behavioral Neuroscience",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=170976; CIPCODE=42.2706; AWLEVEL=5; CTOTALT=381",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-michigan-ann-arbor:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Experimental Psychology",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Experimental Psychology",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=170976; CIPCODE=42.2704; AWLEVEL=5; CTOTALT=380",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-michigan-ann-arbor:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Finance, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Finance, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=152080; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=271",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Notre Dame"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=152080; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=256",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Notre Dame"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Rice earned her masters degree from the University in government and international studies.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_notre_dame_condoleezza_rice"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Rice earned her masters degree from the University in government and international studies.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_wave1_notre_dame_condoleezza_rice"
+        }
+      },
+      "match_notes": "Government and international studies is directly related to Political Science and Government, General; honorary-degree context is excluded.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Political Science and Government, General",
+      "null_reason": null,
+      "person_id": "person:condoleezza-rice:university-of-notre-dame:source-wave1-notre-dame-condoleezza-rice",
+      "person_name": "Condoleezza Rice",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Political Science and Government, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=152080; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=175",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Notre Dame news page"
+      ],
+      "reviewed_source_ids": [
+        "source_wave1_notre_dame_condoleezza_rice"
+      ],
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-3",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_wave1_notre_dame_condoleezza_rice"
+      ],
+      "source_sha256": "f852d2a24b9b8412084f4406ca704add0c8df5ab81d1a163cfdc58f1d886d311",
+      "source_url": "https://news.nd.edu/news/rsquo75-graduate-condoleezza-rice-nominated-as-secretary-of-state/",
+      "university_name": "University of Notre Dame"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=152080; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=162",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Notre Dame"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Neuroscience",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Neuroscience",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=152080; CIPCODE=26.1501; AWLEVEL=5; CTOTALT=136",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "University of Notre Dame"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=182",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:yale-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Yale University"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=145",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:yale-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Yale University"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Amy Klobuchar (1982) graduated magna cum laude from Yale with a degree in political science",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_yale_amy_klobuchar"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Amy Klobuchar (1982) graduated magna cum laude from Yale with a degree in political science",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "source_bulk_people_yale_amy_klobuchar"
+        }
+      },
+      "match_notes": "Political science is directly related to Political Science and Government, General.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Political Science and Government, General",
+      "null_reason": null,
+      "person_id": "person:amy-klobuchar:yale-university:source-bulk-people-yale-amy-klobuchar",
+      "person_name": "Amy Klobuchar",
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Political Science and Government, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=107",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official Yale notable alumni page"
+      ],
+      "reviewed_source_ids": [
+        "source_bulk_people_yale_amy_klobuchar"
+      ],
+      "slot_id": "candidate-v2:yale-university:slot-3",
+      "slot_status": "identified_person",
+      "source_ids": [
+        "source_bulk_people_yale_amy_klobuchar"
+      ],
+      "source_sha256": "fb753d2176a0b32bf10cf06bde0d49a8c34602b3f7b669f1f47d8e2fd97d784a",
+      "source_url": "https://jonathanedwards.yale.edu/about-0/notable-alumni",
+      "university_name": "Yale University"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "History, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "History, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=54.0101; AWLEVEL=5; CTOTALT=96",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:yale-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Yale University"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Cell/Cellular and Molecular Biology",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "program_match_basis": null,
+      "program_name": "Cell/Cellular and Molecular Biology",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=26.0406; AWLEVEL=5; CTOTALT=86",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:yale-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_ids": [],
+      "source_sha256": null,
+      "source_url": null,
+      "university_name": "Yale University"
+    }
+  ],
+  "source_limited": true
+}

@@ -1,0 +1,15 @@
+{
+  "coverage_target": {
+    "notable_attendance": "62/62 schools",
+    "program_people": "deferred at 0/310"
+  },
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "objective": "Complete reviewed notable-attendance coverage for the immutable 62-school Candidate v2 scope.",
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_bulk_people_v1_plan",
+  "source_limited": true,
+  "upstream_mutation_allowed": false
+}

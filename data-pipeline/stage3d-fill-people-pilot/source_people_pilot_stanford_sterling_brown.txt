@@ -1,0 +1,3 @@
+source_id: source_people_pilot_stanford_sterling_brown
+source_url_or_reference: https://news.stanford.edu/stories/2018/06/sterling-k-brown-award-winning-actor-tells-stanford-graduates-not-afraid-let-lights-shine
+reviewed_excerpt: He graduated from Stanford in 1998 with a degree in drama followed by an MFA from New York University’s Tisch School of the Arts in 2001.

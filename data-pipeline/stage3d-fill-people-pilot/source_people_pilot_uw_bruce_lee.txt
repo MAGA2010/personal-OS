@@ -1,0 +1,3 @@
+source_id: source_people_pilot_uw_bruce_lee
+source_url_or_reference: https://magazine.washington.edu/feature/100-unforgettable-uw-alumni-of-the-20th-century/
+reviewed_excerpt: Lee, Bruce* Attended the UW from 1961 to 1964 as a drama major and opened his first kung fu studio on the “Ave.”

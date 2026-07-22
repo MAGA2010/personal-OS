@@ -1,0 +1,3 @@
+source_id: source_people_pilot_cmu_andy_warhol
+source_url_or_reference: https://art.cmu.edu/people/alumni/
+reviewed_excerpt: Andy Warhol graduated with a degree in Pictorial Design from the Carnegie Institute of Technology (now Carnegie Mellon University) in 1949.

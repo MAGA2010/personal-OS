@@ -1,0 +1,3 @@
+source_id: source_people_pilot_jhu_michael_bloomberg
+source_url_or_reference: https://engineering.jhu.edu/ece/alumni/alumni-corner/
+reviewed_excerpt: Michael Bloomberg (BS ’64)

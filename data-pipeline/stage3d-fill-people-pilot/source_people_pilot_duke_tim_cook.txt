@@ -1,0 +1,3 @@
+source_id: source_people_pilot_duke_tim_cook
+source_url_or_reference: https://commencement.duke.edu/commencement-information/memorabilia-traditions/previous-speakers-degree-recipients/2018-commencement-speaker/
+reviewed_excerpt: Cook earned his MBA in 1988 from Duke, where he was a Fuqua Scholar, an honor given only to students who graduate in the top 10 percent of their class.
