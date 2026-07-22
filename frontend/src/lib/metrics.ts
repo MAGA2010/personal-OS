@@ -72,6 +72,17 @@ export const METRIC_DEFINITIONS: Record<MetricId, MetricDefinition> = {
     description:
       "华裔人口占比，反映该区域华人社区规模和便利程度，范围约 0-15%",
   },
+
+  admission_rate: {
+    id: "admission_rate",
+    label: "录取率",
+    labelEn: "Admission Rate",
+    unit: "%",
+    colorScheme: "orangered",
+    invertScale: false,
+    description:
+      "基于IPEDS/College Scorecard的本科录取率，数值越低表示录取竞争越激烈",
+  },
 };
 
 // ── Metric Display Order ──

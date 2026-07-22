@@ -9,7 +9,8 @@
     "lastUpdated": "2026-07-12",
     "dataSource": "Census ACS + FBI UCR",
     "availableGranularities": [
-      "state"
+      "state",
+      "city"
     ],
     "availableMetrics": [
       {
@@ -36,6 +37,11 @@
         "id": "cost",
         "label": "留学成本",
         "labelEn": "Study Cost Index"
+      },
+      {
+        "id": "admission_rate",
+        "label": "录取率",
+        "labelEn": "Admission Rate"
       }
     ]
   },
