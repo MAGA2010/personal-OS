@@ -28,9 +28,9 @@
 //     both. It never reaches into the parent MapCanvas.
 //   - Selection state uses MapLibre's `setFeatureState` so we don't
 //     rebuild the source on every selection change.
-//   - Filter (zoom threshold) is implemented as a paint expression
-//     driven by `feature-state` so show/hide is fast and doesn't
-//     require re-clustering.
+//   - Zoom visibility is owned by MapLibre's native layer `minzoom`.
+//     It therefore survives asynchronous `setData`, resize and style
+//     reloads without relying on feature-state that may be discarded.
 
 import { useCallback, useEffect, useMemo, useRef } from "react";
 import type { Feature, FeatureCollection, Point } from "geojson";
@@ -44,6 +44,49 @@ const POINT_LAYER_ID = "pathos-universities-points";
 const HOVER_LAYER_ID = "pathos-universities-hover";
 const LABEL_LAYER_ID = "pathos-universities-labels";
 const HALO_LAYER_ID = "pathos-universities-halo";
+
+/** Clamp an external zoom threshold to a valid MapLibre layer minzoom. */
+export function normalizePoiMinZoom(value: number): number {
+  return Number.isFinite(value) && value > 0 ? value : 0;
+}
+
+export interface PoiStyleReadyGate {
+  isStyleLoaded(): boolean | void;
+}
+
+/**
+ * Wait briefly for a usable MapLibre style without subscribing to the
+ * one-time `load` event, which may already have fired by the time React
+ * publishes the map through context. The timer is bounded and cancellable
+ * so Strict Mode remounts cannot leave duplicate installers behind.
+ */
+export function deferPoiInstallUntilStyleReady(
+  map: PoiStyleReadyGate,
+  apply: () => void,
+  options: { maxAttempts?: number; retryDelayMs?: number } = {},
+): () => void {
+  const maxAttempts = Math.max(1, options.maxAttempts ?? 20);
+  const retryDelayMs = Math.max(1, options.retryDelayMs ?? 16);
+  let attempts = 0;
+  let cancelled = false;
+  let timer: ReturnType<typeof setTimeout> | undefined;
+
+  const tick = () => {
+    if (cancelled) return;
+    if (map.isStyleLoaded() || attempts >= maxAttempts - 1) {
+      apply();
+      return;
+    }
+    attempts += 1;
+    timer = setTimeout(tick, retryDelayMs);
+  };
+
+  tick();
+  return () => {
+    cancelled = true;
+    if (timer !== undefined) clearTimeout(timer);
+  };
+}
 
 interface POIFeatureProps {
   id: string;
@@ -209,6 +252,7 @@ export function UniversityPoiLayer({
 
   const compareSet = useMemo(() => new Set(compareIds ?? []), [compareIds]);
   const savedSet = useMemo(() => new Set(savedIds ?? []), [savedIds]);
+  const layerMinZoom = normalizePoiMinZoom(pinMinZoom);
 
   const collection = useMemo(
     () => buildFeatureCollection(universities, { compareIds: compareSet, savedIds: savedSet }),
@@ -233,14 +277,15 @@ export function UniversityPoiLayer({
         if (src) src.setData(sourceDataRef.current ?? { type: "FeatureCollection", features: [] });
       }
 
-      // 2. Add the point layer if it isn't there yet. The visible
-      //    expression respects `pinMinZoom` via a feature-state flag
-      //    flipped in the zoom handler below.
+      // 2. Add each POI layer with a native minzoom. Unlike
+      //    feature-state, layer visibility survives async setData and
+      //    is re-established automatically when style.load reinstalls.
       if (!map.getLayer(HALO_LAYER_ID)) {
         map.addLayer({
           id: HALO_LAYER_ID,
           type: "circle",
           source: SOURCE_ID,
+          minzoom: layerMinZoom,
           paint: {
             "circle-radius": [
               "interpolate", ["linear"], ["zoom"],
@@ -269,6 +314,7 @@ export function UniversityPoiLayer({
           id: POINT_LAYER_ID,
           type: "circle",
           source: SOURCE_ID,
+          minzoom: layerMinZoom,
           paint: {
             "circle-radius": [
               "interpolate", ["linear"], ["zoom"],
@@ -298,16 +344,8 @@ export function UniversityPoiLayer({
               ["==", ["feature-state", "saved"], 1], 2.0,
               1.5,
             ],
-            "circle-opacity": [
-              "case",
-              ["==", ["feature-state", "visible"], 1], 0.96,
-              0,
-            ],
-            "circle-stroke-opacity": [
-              "case",
-              ["==", ["feature-state", "visible"], 1], 1,
-              0,
-            ],
+            "circle-opacity": 0.96,
+            "circle-stroke-opacity": 1,
             "circle-pitch-alignment": "viewport",
           },
         });
@@ -317,6 +355,7 @@ export function UniversityPoiLayer({
           id: HOVER_LAYER_ID,
           type: "circle",
           source: SOURCE_ID,
+          minzoom: layerMinZoom,
           paint: {
             "circle-radius": [
               "interpolate", ["linear"], ["zoom"],
@@ -331,10 +370,7 @@ export function UniversityPoiLayer({
               "case",
               ["==", ["feature-state", "hover"], 1], 0.95, 0,
             ],
-            "circle-opacity": [
-              "case",
-              ["==", ["feature-state", "visible"], 1], 0.001, 0,
-            ],
+            "circle-opacity": 0.001,
           },
         });
       }
@@ -354,7 +390,7 @@ export function UniversityPoiLayer({
           id: LABEL_LAYER_ID,
           type: "symbol",
           source: SOURCE_ID,
-          minzoom: 3,
+          minzoom: layerMinZoom,
           layout: {
             "text-field": ["get", "abbr"],
             "text-allow-overlap": true,
@@ -371,11 +407,7 @@ export function UniversityPoiLayer({
             "text-color": "#fffaf1",
             "text-halo-color": "#152025",
             "text-halo-width": 0.6,
-            "text-opacity": [
-              "case",
-              ["==", ["feature-state", "visible"], 1], 1,
-              0,
-            ],
+            "text-opacity": 1,
           },
         });
       }
@@ -420,28 +452,12 @@ export function UniversityPoiLayer({
       map.on("mousemove", POINT_LAYER_ID, handleMouseMove);
       map.on("mouseleave", POINT_LAYER_ID, handleMouseLeave);
 
-      // 5. Pin-visibility driven by zoom threshold.
-      const applyPinVisibility = () => {
-        const z = map.getZoom();
-        const visible = z >= pinMinZoom;
-        const setVisibleFor = (id: string, value: 0 | 1) => {
-          try { map.setFeatureState({ source: SOURCE_ID, id }, { visible: value }); } catch { /* race during teardown */ }
-        };
-        for (const feat of (sourceDataRef.current?.features ?? []) as POIFeature[]) {
-          const id = String(feat.id ?? feat.properties.id);
-          setVisibleFor(id, visible ? 1 : 0);
-        }
-      };
-      applyPinVisibility();
-      map.on("zoom", applyPinVisibility);
-
-      // 6. Cleanup
+      // 5. Cleanup
       const cleanup = () => {
         map.off("click", POINT_LAYER_ID, handleClick);
         map.off("mouseenter", POINT_LAYER_ID, handleMouseEnter);
         map.off("mousemove", POINT_LAYER_ID, handleMouseMove);
         map.off("mouseleave", POINT_LAYER_ID, handleMouseLeave);
-        map.off("zoom", applyPinVisibility);
         try { if (map.getLayer(HALO_LAYER_ID)) map.removeLayer(HALO_LAYER_ID); } catch { /* noop */ }
         try { if (map.getLayer(LABEL_LAYER_ID)) map.removeLayer(LABEL_LAYER_ID); } catch { /* noop */ }
         try { if (map.getLayer(HOVER_LAYER_ID)) map.removeLayer(HOVER_LAYER_ID); } catch { /* noop */ }
@@ -458,16 +474,23 @@ export function UniversityPoiLayer({
       cleanupActive?.();
       cleanupActive = ready();
     };
+    let cancelPendingInstall: (() => void) | undefined;
+    const scheduleInstall = () => {
+      cancelPendingInstall?.();
+      cancelPendingInstall = deferPoiInstallUntilStyleReady(map, install);
+    };
+    // `style.load` itself is the readiness signal. Install immediately so
+    // the established style-reload contract remains explicit; only the
+    // late initial mount needs bounded readiness polling.
     const onStyleLoad = () => install();
     map.on("style.load", onStyleLoad);
-    if (map.loaded()) install();
-    else map.once("load", install);
+    scheduleInstall();
     return () => {
       map.off("style.load", onStyleLoad);
-      map.off("load", install);
+      cancelPendingInstall?.();
       cleanupActive?.();
     };
-  }, [mapContext?.map, mapContext?.mapReady, pinMinZoom]);
+  }, [mapContext?.map, mapContext?.mapReady, layerMinZoom]);
 
   // ── Update data when the input list changes. ──────────────────────────────
   useEffect(() => {
