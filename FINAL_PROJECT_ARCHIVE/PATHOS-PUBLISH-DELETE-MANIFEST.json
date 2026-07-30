@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-07-30",
+  "backupPath": "/Users/jiayihuang/Downloads/PathOS合并-prepublish-backup-2026-07-30.zip",
+  "backupSha256": "78a9950b35b1825e8e0a253957bbd729684ab93804d78d7c855b3698af75212e",
+  "entries": [
+    {
+      "path": ".pathos-candidate-preview",
+      "type": "DUPLICATE_FRONTEND",
+      "reason": "旧候选，仅 52 个 src 文件、无测试、无授权 News 摄影。",
+      "duplicateOf": "frontend",
+      "estimatedBytes": 498842254,
+      "safeToDeleteEvidence": "候选 src digest ba8d… 与最终 721c… 不同，功能清单明显较旧。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": ".pathos-coupling-edit",
+      "type": "DUPLICATE_FRONTEND",
+      "reason": "耦合过程工作副本；包含 node_modules 和 .next，源代码已由最终 integration 取代。",
+      "duplicateOf": "frontend",
+      "estimatedBytes": 614322169,
+      "safeToDeleteEvidence": "最终源具有更多路由和测试；历史报告另行保留。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": ".pathos-bugfix-edit/integration",
+      "type": "DUPLICATE_FRONTEND",
+      "reason": "Bugfix 中间副本；123 个 src 文件、16 个测试，早于最终 143/21。",
+      "duplicateOf": "frontend",
+      "estimatedBytes": 5150000,
+      "safeToDeleteEvidence": "正式 reports 与截图先迁入 docs/history。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": ".pathos-bugfix-edit/browser-before",
+      "type": "OTHER",
+      "reason": "从临时目录迁入 docs/history/integration-bugfix/screenshots 后删除原副本。",
+      "duplicateOf": "docs/history/integration-bugfix/screenshots/before",
+      "estimatedBytes": 454000,
+      "safeToDeleteEvidence": "迁移后逐文件 SHA 对照。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": ".pathos-bugfix-edit/browser-after",
+      "type": "OTHER",
+      "reason": "从临时目录迁入 docs/history/integration-bugfix/screenshots 后删除原副本。",
+      "duplicateOf": "docs/history/integration-bugfix/screenshots/after",
+      "estimatedBytes": 903000,
+      "safeToDeleteEvidence": "迁移后逐文件 SHA 对照。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": ".pathos-bugfix-edit/reports",
+      "type": "OTHER",
+      "reason": "从临时目录迁入 docs/history/integration-bugfix/reports 后删除原副本。",
+      "duplicateOf": "docs/history/integration-bugfix/reports",
+      "estimatedBytes": 723000,
+      "safeToDeleteEvidence": "迁移后逐文件 SHA 对照。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": ".coupling-final",
+      "type": "DUPLICATE_FRONTEND",
+      "reason": "仅含与 Bugfix reports 相同 SHA 的重复耦合报告。",
+      "duplicateOf": "docs/history/integration-bugfix/reports",
+      "estimatedBytes": 36710,
+      "safeToDeleteEvidence": "文件 SHA 已逐项与保留报告对照。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "PathOS-main",
+      "type": "DUPLICATE_FRONTEND",
+      "reason": "历史稳定前端与数据副本；缺少最终 News 摄影，且含本地 .env.local。",
+      "duplicateOf": "frontend and PathOS-db-ranking-standalone",
+      "estimatedBytes": 491467092,
+      "safeToDeleteEvidence": "最终前端/后端/归档均已独立保留；外部备份可恢复。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "PathOS所有合并",
+      "type": "DUPLICATE_FRONTEND",
+      "reason": "并行候选输入，含旧 Git、历史 Backend ZIP、旧前端和构建产物。",
+      "duplicateOf": "frontend and PathOS-db-ranking-standalone",
+      "estimatedBytes": 741699912,
+      "safeToDeleteEvidence": "候选盘点报告已保留；最终实现未依赖此目录。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "PathOS-db-ranking",
+      "type": "DUPLICATE_BACKEND",
+      "reason": "历史 linked worktree，不是最终 Backend。",
+      "duplicateOf": "PathOS-db-ranking-standalone",
+      "estimatedBytes": 148573996,
+      "safeToDeleteEvidence": "standalone HEAD 和 Preview Bundle 已核验；不调用 git worktree remove，避免写旧 Git source。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "vercel-deploy",
+      "type": "DUPLICATE_FRONTEND",
+      "reason": "最终 staging 内容复制并校验到 frontend 后删除，避免保留第二套正式前端和本地 .vercel metadata。",
+      "duplicateOf": "frontend",
+      "estimatedBytes": 576908028,
+      "safeToDeleteEvidence": "复制前后过滤清单与 SHA aggregate 对照。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": ".pathos-demo-runtime",
+      "type": "LOG_FILE",
+      "reason": "可再生成的运行日志 / state。",
+      "duplicateOf": null,
+      "estimatedBytes": 8760,
+      "safeToDeleteEvidence": "当前无运行 state，运行工具会重新创建。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": ".claude",
+      "type": "TEMPORARY_FILE",
+      "reason": "本机测试 harness，不属于公开运行路径。",
+      "duplicateOf": null,
+      "estimatedBytes": 372,
+      "safeToDeleteEvidence": "不被 package scripts 或 runtime import。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "PathOS-main/frontend/.env.local",
+      "type": "SECRET_FILE",
+      "reason": "包含已撤销的非空 Baidu AK；不能进入公开仓库。",
+      "duplicateOf": null,
+      "estimatedBytes": 0,
+      "safeToDeleteEvidence": "值仅在该文件出现；最终配置使用安全 .env.example。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "**/node_modules, **/.next, **/.pytest_cache, **/__pycache__, **/.DS_Store, **/*.log, **/tsconfig.tsbuildinfo",
+      "type": "DEPENDENCY_CACHE",
+      "reason": "依赖、构建、测试、OS metadata 和可再生成缓存不应提交。",
+      "duplicateOf": null,
+      "estimatedBytes": 0,
+      "safeToDeleteEvidence": "package-lock、源码和测试保留，可重新生成。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "pathos-demo and scripts/",
+      "type": "UNUSED_SOURCE",
+      "reason": "Stage 6 运行控制器绑定已删除的 PathOS-main/frontend 和 Stage 6 分支，不是当前公开版启动路径。",
+      "duplicateOf": "frontend package scripts and FINAL_PROJECT_ARCHIVE/PATHOS-STARTUP-GUIDE.md",
+      "estimatedBytes": 188416,
+      "safeToDeleteEvidence": "当前 frontend 已通过 npm ci、563 项测试、build 与浏览器冒烟；Stage 6 实现和 hash 记录仍保留于 docs/ 历史文档。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "frontend/.claude/launch.json",
+      "type": "TEMPORARY_FILE",
+      "reason": "本机启动 harness，不属于应用源码或公开运行配置。",
+      "duplicateOf": null,
+      "estimatedBytes": 4096,
+      "safeToDeleteEvidence": "不被 package scripts、Next.js runtime 或测试 import。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "STAGE6-DEMO-FREEZE-MANIFEST.json",
+      "type": "OLD_CHECKPOINT_COPY",
+      "reason": "机器绑定的 Stage 6 运行 manifest，内含已删除前端路径，不应作为当前公开运行配置。",
+      "duplicateOf": "docs/STAGE6-DEMO-FREEZE-REPORT.md and external prepublish backup",
+      "estimatedBytes": 8192,
+      "safeToDeleteEvidence": "Stage 6 历史审计值已由 docs/ 报告与外部备份保留，当前运行方式不读取该文件。",
+      "restorableFromBackup": true
+    },
+    {
+      "path": "docs/history/integration-bugfix/screenshots",
+      "type": "TEST_OUTPUT",
+      "reason": "与 reports/screenshots/integration-bugfix 重复的浏览器证据目录。",
+      "duplicateOf": "docs/history/integration-bugfix/reports/screenshots/integration-bugfix",
+      "estimatedBytes": 2069734,
+      "safeToDeleteEvidence": "删除前已将额外视口文件合并到报告引用目录，并逐文件校验 SHA-256。",
+      "restorableFromBackup": true
+    }
+  ],
+  "reviewRequired": []
+}

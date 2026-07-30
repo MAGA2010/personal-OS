@@ -1,0 +1,31 @@
+{
+  "blockedMetrics": [
+    "admission_rate"
+  ],
+  "coverage": "51/51 (50 states + DC)",
+  "datasetId": "pathos-regional-state-v1",
+  "datasetVersion": "1.0.0",
+  "description": "六类区域指标原始数据，覆盖 50 州 + DC。本轮仅上线 4 类。",
+  "existsOutOfScope": [
+    "cost"
+  ],
+  "geoIdType": "state_fips",
+  "geographyLevel": "state",
+  "normalizationMethod": "见各指标定义",
+  "productionReady": false,
+  "readyMetrics": [
+    "income",
+    "safety",
+    "employment",
+    "chinese_population"
+  ],
+  "referenceYear": "2026-07 (ACS/FBI/BLS latest available)",
+  "retrievedAt": "2026-07-25",
+  "sourceName": "Census ACS + FBI UCR + BLS + IPEDS + College Board (混合来源)",
+  "sourceUrl": "",
+  "sourceWorkbookSha256": "409ed47b5153725914b463ae3421ad51e5d3d34e5918144f001f341b9894b096",
+  "status": "verified",
+  "title": "PathOS 美国各州留学数据矩阵",
+  "unit": "见各指标定义",
+  "valueDirection": "见各指标 rawDirection"
+}

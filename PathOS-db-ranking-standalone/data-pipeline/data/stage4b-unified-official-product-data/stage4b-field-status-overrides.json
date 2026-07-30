@@ -1,0 +1,30 @@
+{
+  "overrides": [
+    {
+      "field": "chinese_display_name",
+      "reason": "No reviewed official Chinese alias source",
+      "status": "deferred"
+    },
+    {
+      "field": "graduate_enrollment",
+      "reason": "Not present in frozen official institutional inputs",
+      "status": "deferred"
+    },
+    {
+      "field": "total_enrollment",
+      "reason": "Not present in frozen official institutional inputs",
+      "status": "deferred"
+    },
+    {
+      "field": "test_optional_policy",
+      "reason": "Score reporting cannot establish current policy",
+      "status": "pending"
+    },
+    {
+      "field": "toefl_policy",
+      "reason": "Official undergraduate policy review not completed",
+      "status": "pending"
+    }
+  ],
+  "record_type": "stage4b_field_status_overrides"
+}

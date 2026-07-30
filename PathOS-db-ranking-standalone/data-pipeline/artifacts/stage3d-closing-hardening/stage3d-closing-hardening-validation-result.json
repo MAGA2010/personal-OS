@@ -1,0 +1,22 @@
+{
+  "checks_passed": 34,
+  "deterministic_regeneration": true,
+  "duplicate_person_count": 0,
+  "input_counts": {
+    "gaps": 130,
+    "identified": 180,
+    "total_slots": 310
+  },
+  "missing_referenced_cache_count": 0,
+  "network_disabled_regeneration": true,
+  "old_cache_files_deleted": false,
+  "post_merge_duplicate_count": 0,
+  "push_performed": false,
+  "ranking_field_contamination": 0,
+  "raw_person_occurrence_count": 180,
+  "record_type": "stage3d_closing_hardening_validation_result",
+  "source_policy_violations": 0,
+  "status": "passed",
+  "tag_created": false,
+  "unique_person_count": 180
+}

@@ -1,0 +1,21 @@
+{
+  "artifact_directory": "data-pipeline/artifacts/stage4b-unified-official-product-data",
+  "cache_directory": "data-pipeline/cache/stage4b-unified-official-product-data",
+  "candidate_scope": 62,
+  "deterministic_generation_network_access": false,
+  "input_mode": "frozen_official_cache_and_intake_metadata",
+  "network_intake": {
+    "enabled": true,
+    "max_retries": 2,
+    "timeout_seconds": 20
+  },
+  "not_final": true,
+  "program_people_expected": {
+    "gaps": 130,
+    "identified": 180,
+    "slots": 310
+  },
+  "raw_directory": "data-pipeline/raw/stage4b-unified-official-product-data",
+  "record_type": "stage4b_config",
+  "source_limited": true
+}

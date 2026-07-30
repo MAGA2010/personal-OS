@@ -1,0 +1,22 @@
+{
+  "cost_of_living": {
+    "coverage": 0,
+    "opaque_index_generated": false,
+    "status": "deferred"
+  },
+  "crime": {
+    "coverage": 0,
+    "status": "deferred"
+  },
+  "record_type": "stage4c_nonblocking_crime_safety_col_transport",
+  "safety": {
+    "coverage": 0,
+    "missing_means_safe": false,
+    "status": "deferred"
+  },
+  "transport": {
+    "coverage": 62,
+    "source": "stage4b_nearest_towns",
+    "status": "partial"
+  }
+}

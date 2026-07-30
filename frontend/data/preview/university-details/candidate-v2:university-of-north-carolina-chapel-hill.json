@@ -1,0 +1,432 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.1874,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1874,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "composite": {
+          "percentile_25": 30,
+          "percentile_75": 34
+        },
+        "evidence_type": "middle_50_percent_range",
+        "null_reason": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score"
+      },
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9207,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9715,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "average": 1454,
+        "evidence_type": "middle_50_percent_range",
+        "math": {
+          "percentile_25": 690,
+          "percentile_75": 780
+        },
+        "null_reason": null,
+        "reading_writing": {
+          "percentile_25": 680,
+          "percentile_75": 750
+        },
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score",
+        "warnings": [
+          "score reporting does not establish a current test-optional policy"
+        ]
+      },
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "University of North Carolina—Chapel Hill"
+  ],
+  "allMajors": [],
+  "allMajorsStatus": {
+    "nullReason": "identity_ipeds_match_not_resolved",
+    "status": "not_reported"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_bulk_v2_unc_anecdote"
+      ],
+      "text": "The cornerstone of UNC’s Old East was laid on October 12, 1793.",
+      "type": "founding"
+    }
+  ],
+  "chineseName": "北卡罗来纳大学教堂山分校",
+  "city": "Chapel Hill",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": false,
+    "currency": "USD",
+    "displayLabel": "$8,989–$39,330",
+    "maximumUsd": 39330.0,
+    "minimumUsd": 8989.0,
+    "scopes": [
+      "in_state",
+      "out_of_state"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": [
+      "Public in-state and out-of-state tuition are separate scopes."
+    ]
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 11553,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_derived_same_scope",
+      "unit": null,
+      "value": 32109,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 20556,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "20500",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "Orange County",
+      "warnings": []
+    },
+    "geographyScope": "place",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [
+        "source_stage4b_census_2024_places_gazetteer"
+      ],
+      "status": "verified_place",
+      "unit": "name",
+      "value": "Chapel Hill",
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_bulk_v2_unc_history"
+    ],
+    "status": "verified",
+    "value": "UNC-Chapel Hill opened to students in 1795 as the nation’s first public university."
+  },
+  "id": "candidate-v2:university-of-north-carolina-chapel-hill",
+  "latitude": 35.911769,
+  "longitude": -79.050969,
+  "name": "University of North Carolina—Chapel Hill",
+  "nameZh": "北卡罗来纳大学教堂山分校",
+  "nationalRanking": 26,
+  "nearbyTowns": [
+    {
+      "distance": 2.03,
+      "name": "Chapel Hill"
+    },
+    {
+      "distance": 3.62,
+      "name": "Carrboro"
+    },
+    {
+      "distance": 6.51,
+      "name": "Carolina Meadows"
+    }
+  ],
+  "notableAttendance": [],
+  "people": [],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Asian Studies, B.A. — Japanese Concentration",
+      "slotId": "candidate-v2:university-of-north-carolina-chapel-hill:slot-1",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Asian Studies, B.A. — Korean Studies Concentration",
+      "slotId": "candidate-v2:university-of-north-carolina-chapel-hill:slot-2",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Asian Studies, B.A. — South Asian Studies Concentration",
+      "slotId": "candidate-v2:university-of-north-carolina-chapel-hill:slot-3",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Economics",
+      "slotId": "candidate-v2:university-of-north-carolina-chapel-hill:slot-5",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:university-of-north-carolina-chapel-hill:program:1",
+      "name": "Asian Studies, B.A. — Japanese Concentration",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_unc_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-north-carolina-chapel-hill:program:2",
+      "name": "Asian Studies, B.A. — Korean Studies Concentration",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_unc_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-north-carolina-chapel-hill:program:3",
+      "name": "Asian Studies, B.A. — South Asian Studies Concentration",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_unc_undergraduate_catalog"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "english_policy_pending_external_access",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ]
+  },
+  "rankingBand": "national_top_50",
+  "rankingSummary": {
+    "filterBehavior": "include_as_ranked",
+    "nationalRank": 26,
+    "rankingLabel": "#26",
+    "rankingTier": "national_top_50",
+    "sourceIds": [
+      "source_think_academy_top100_2026_pdf"
+    ],
+    "status": "ranked_in_selected_national_family"
+  },
+  "rankingTier": "national_top_50",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 8989.0,
+      "currency": "USD",
+      "scope": "in_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    },
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 39330.0,
+      "currency": "USD",
+      "scope": "out_of_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "Southeast",
+  "schoolType": "public",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "NC",
+  "studentFacultyRatio": 15.0,
+  "topPrograms": [
+    "Asian Studies, B.A. — Japanese Concentration",
+    "Asian Studies, B.A. — Korean Studies Concentration",
+    "Asian Studies, B.A. — South Asian Studies Concentration"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 20556,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "english_policy_pending_external_access",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ],
+    "count": 3,
+    "hasWarnings": true
+  }
+}

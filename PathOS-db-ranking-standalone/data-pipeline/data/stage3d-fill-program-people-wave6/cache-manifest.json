@@ -1,0 +1,17 @@
+{
+  "record_type": "stage3d_fill_program_people_wave6_cache_manifest_input",
+  "cache_is_gitignored": true,
+  "entries": [
+    {"source_id": "wave6-bc-mian-azmy-finance", "cache_path": "cache/stage3d-fill-program-people-wave6/boston-college-mian-azmy.txt", "sha256": "921083c8545f9fe7f917cac4f36f7ecdb7c2b2050c6b4b9cd617f8a800e9fed2", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-bu-hector-meneses-business", "cache_path": "cache/stage3d-fill-program-people-wave6/bu-hector-meneses.txt", "sha256": "b058f42433f9a26c818a274752ca6212f3f1c77238c8301c80151cbace6751ac", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-caltech-niv-karthikeyan-cs", "cache_path": "cache/stage3d-fill-program-people-wave6/caltech-niv-karthikeyan.txt", "sha256": "3c4c0e55f367099f9728ebfc1d893e95e14bc189f00155a040bd54b52d1a32db", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-colorado-christian-dokken-business", "cache_path": "cache/stage3d-fill-program-people-wave6/colorado-christian-dokken.txt", "sha256": "09ec6b6851be9d2a18cf729f19715d3db09a64c2e71a27e2066e53a2f622c1c6", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-cornell-peter-orthwein-ag-econ", "cache_path": "cache/stage3d-fill-program-people-wave6/cornell-peter-orthwein.txt", "sha256": "0c5e8cf15d461610ff770d31f5f08fdfb2639126b30bd35427db54e6e118fa3f", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-michigan-alex-cater-business", "cache_path": "cache/stage3d-fill-program-people-wave6/michigan-alex-cater.txt", "sha256": "b7f50b412b833fb17a312034eb93f04662ae8cf7310c5ca0dbe5207f85d1fa8f", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-notre-dame-trent-grocock-finance", "cache_path": "cache/stage3d-fill-program-people-wave6/notre-dame-trent-grocock.txt", "sha256": "a817c63211311fbce807c6bdb7a06078ac1684d3eae29f88334d3a8c9392e54d", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-princeton-shruti-venkat-econ", "cache_path": "cache/stage3d-fill-program-people-wave6/princeton-shruti-venkat.txt", "sha256": "ac142f9b23858c19915a85f32316c2bf8c0d5c0b956520c582d032bfb0e24f9c", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-ucdavis-deb-frincke-cs", "cache_path": "cache/stage3d-fill-program-people-wave6/ucdavis-deb-frincke.txt", "sha256": "a598cdce0f5bcee28ac7c1c47bbabf0d0594c49549efde4af9cc04ca2b3fd06e", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-ucla-michael-waterstone-poli-sci", "cache_path": "cache/stage3d-fill-program-people-wave6/ucla-michael-waterstone.txt", "sha256": "31d0cbd9da5363df6e622cbf3a4e9e549227e275495db89bd71fc46d1e977054", "quote_verification_method": "local_cache_substring_check"},
+    {"source_id": "wave6-uva-burhan-chaudhry-cs", "cache_path": "cache/stage3d-fill-program-people-wave6/uva-burhan-chaudhry.txt", "sha256": "9b9fb7aa3921f32c5a0c3da430c2f24c88561879c52718ff43e3921ce25be3e6", "quote_verification_method": "local_cache_substring_check"}
+  ]
+}

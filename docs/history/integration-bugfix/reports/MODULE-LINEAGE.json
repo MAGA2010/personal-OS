@@ -1,0 +1,4342 @@
+{
+  "generatedAt": "2026-07-25T22:31:40+00:00",
+  "modules": [
+    {
+      "relativePath": "src/app/api/ai/analyze/route.ts",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "d485d9fb6c5064dce2c647228a11f2341dc94e379f5b8b762a737886fac72270",
+          "lines": 297,
+          "exports": [
+            "POST"
+          ],
+          "imports": [
+            "@/lib/assessment",
+            "@/server/pathos-preview",
+            "next/server"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "259e072d6f0bd8e1f869c9b46f89feac3e8f4dbeda29318f8d153314ef76a211",
+          "lines": 254,
+          "exports": [
+            "POST"
+          ],
+          "imports": [
+            "@/data/universities.json",
+            "@/lib/assessment",
+            "next/server"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "259e072d6f0bd8e1f869c9b46f89feac3e8f4dbeda29318f8d153314ef76a211",
+          "lines": 254,
+          "exports": [
+            "POST"
+          ],
+          "imports": [
+            "@/data/universities.json",
+            "@/lib/assessment",
+            "next/server"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.8445287662803815,
+        "candidateGitHead": 0.8445287662803815
+      }
+    },
+    {
+      "relativePath": "src/app/api/ai/context/route.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "331476205ab92ad88eceff85c5ecf0ecc2636c3ad159f7506105c7fbf1956d33",
+          "lines": 16,
+          "exports": [
+            "POST"
+          ],
+          "imports": [
+            "@/server/ai-context"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/api/pathos/preview/route.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "d899f554e1cdb528a6f7b785cd6250f5cd9545b35cde17cb6c60a00ddbc717f1",
+          "lines": 17,
+          "exports": [
+            "GET"
+          ],
+          "imports": [
+            "@/server/pathos-preview",
+            "next/server"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/api/xuanxiao/universities/route.ts",
+      "category": "exactDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "42f869fdb833e90699b68c50bfc4f383ec367f04cd19a7812be1b915d049f8c5",
+          "lines": 77,
+          "exports": [
+            "GET"
+          ],
+          "imports": [
+            "next/server"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "42f869fdb833e90699b68c50bfc4f383ec367f04cd19a7812be1b915d049f8c5",
+          "lines": 77,
+          "exports": [
+            "GET"
+          ],
+          "imports": [
+            "next/server"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "42f869fdb833e90699b68c50bfc4f383ec367f04cd19a7812be1b915d049f8c5",
+          "lines": 77,
+          "exports": [
+            "GET"
+          ],
+          "imports": [
+            "next/server"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 1.0,
+        "candidateGitHead": 1.0
+      }
+    },
+    {
+      "relativePath": "src/app/assessment/assessment.module.css",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "f9ab26cd4f4fefa007a18f238293266ec473c6b911d3f11e4bea0419e486043d",
+          "lines": 784,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/assessment/page.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "02fdad98658d308ab186a6b8e545a7daf58d39baac78cae43620fff3bb6e2aea",
+          "lines": 231,
+          "exports": [
+            "AssessmentPage"
+          ],
+          "imports": [
+            "@/components/shared/SearchInput",
+            "@/hooks/use-data-source",
+            "@/services/data-source-provider",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "155d8c5b2048589ed2465edc660d967ca0b5a8745253233a542a8507040192a3",
+          "lines": 684,
+          "exports": [
+            "AssessmentPage"
+          ],
+          "imports": [
+            "./assessment.module.css",
+            "@/components/ProductJourney",
+            "@/components/assessment/AssessmentEntry",
+            "@/data/universities.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "f670154ba51edea4463649f49a8d31fa5c4078de61b4425db99d6cdecfe7bbb4",
+          "lines": 207,
+          "exports": [
+            "AssessmentPage"
+          ],
+          "imports": [
+            "@/components/ProductJourney",
+            "@/data/universities.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.2424713603000023,
+        "candidateGitHead": 0.8927697294436727
+      }
+    },
+    {
+      "relativePath": "src/app/calculator/page.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "d2bbc190e58c2d2e15eafbf8c3e9b41a2f6e020a0f421c4fbbeda8a3484a5972",
+          "lines": 380,
+          "exports": [
+            "CalculatorPage"
+          ],
+          "imports": [
+            "@/components/calculator/SchoolPicker",
+            "@/domain/dataset",
+            "@/hooks/use-data-source",
+            "@/lib/cost-format",
+            "@/lib/legacy-mappers",
+            "@/services/data-source-provider",
+            "@/state/compare-store",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "73c8d1ff305c2f38528eabe19eed7744973d5a4ce1bf9783b77e9e5dea3f7b27",
+          "lines": 228,
+          "exports": [
+            "CalculatorPage"
+          ],
+          "imports": [
+            "@/data/region-metrics.json",
+            "@/data/universities.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "76be90a18246fa1df1a25a1ae89d120492c71352a1e1f8672ac6d4e9f55c2543",
+          "lines": 228,
+          "exports": [
+            "CalculatorPage"
+          ],
+          "imports": [
+            "@/data/region-metrics.json",
+            "@/data/universities.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.6146427005699254,
+        "candidateGitHead": 0.6147864472184056
+      }
+    },
+    {
+      "relativePath": "src/app/globals.css",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "a7f7edad751e586e6d6bd1bcdef7e21d8eecd7e20f97b3a29c9b4ad21e252091",
+          "lines": 371,
+          "exports": [],
+          "imports": []
+        },
+        "candidateWorktree": {
+          "sha256": "9fe091004eede3ac16355d52ad95180ffc9c2b692b4f0906c096bc9bee5170b5",
+          "lines": 3158,
+          "exports": [],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "4deb5ba0d358e5c47aa241fe60aa67435e436bed1dc3b5711d39225da09192db",
+          "lines": 64,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.0062157388930938785,
+        "candidateGitHead": 0.015424836601307189
+      }
+    },
+    {
+      "relativePath": "src/app/layout.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "70b24f89e3b58282a4a015660092effafcdafb5c6c4b61a8517145eb736be546",
+          "lines": 56,
+          "exports": [
+            "RootLayout",
+            "metadata",
+            "viewport"
+          ],
+          "imports": [
+            "@/components/Footer",
+            "@/components/NavBar",
+            "@/lib/theme",
+            "@/services/data-source-provider",
+            "next"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "28ade9622ef8d93fc94350796adfa9c10605038cfc214498c82cac7a1f52319b",
+          "lines": 28,
+          "exports": [
+            "RootLayout",
+            "metadata",
+            "viewport"
+          ],
+          "imports": [
+            "@/components/Footer",
+            "@/components/NavBar",
+            "next"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "b498e96265feb7fae6e1cf132288583c17fd6eab6c3afa6f240fd01fc8f15505",
+          "lines": 28,
+          "exports": [
+            "RootLayout",
+            "metadata",
+            "viewport"
+          ],
+          "imports": [
+            "@/components/Footer",
+            "@/components/NavBar",
+            "next"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.6621586475942783,
+        "candidateGitHead": 0.7042326668397819
+      }
+    },
+    {
+      "relativePath": "src/app/map/explore/page.tsx",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "5275cb0e4755ac07d10a10978cd9d98860198ca3e4f37f02f418357d7a12aaec",
+          "lines": 15,
+          "exports": [
+            "MapExplorePage"
+          ],
+          "imports": [
+            "@/components/map/MapShell"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/map/layout.tsx",
+      "category": "exactDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "84d125e4e530acdacbcf2422051a1b2a1fdf6b1b19ad3f0d56cd6beaaab49c33",
+          "lines": 11,
+          "exports": [
+            "MapLayout",
+            "metadata"
+          ],
+          "imports": [
+            "next"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "84d125e4e530acdacbcf2422051a1b2a1fdf6b1b19ad3f0d56cd6beaaab49c33",
+          "lines": 11,
+          "exports": [
+            "MapLayout",
+            "metadata"
+          ],
+          "imports": [
+            "next"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "84d125e4e530acdacbcf2422051a1b2a1fdf6b1b19ad3f0d56cd6beaaab49c33",
+          "lines": 11,
+          "exports": [
+            "MapLayout",
+            "metadata"
+          ],
+          "imports": [
+            "next"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 1.0,
+        "candidateGitHead": 1.0
+      }
+    },
+    {
+      "relativePath": "src/app/map/page.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "6aafb7e03111bcda06b0dce41cceecbb151c041de6b5542076604f724cea9400",
+          "lines": 29,
+          "exports": [
+            "MapPage"
+          ],
+          "imports": [
+            "@/components/map/shell/MapPageShell"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "63af17dfe1a8422f4d840d0594776d62727825e82aaa999188c57f322156b910",
+          "lines": 18,
+          "exports": [
+            "MapPage"
+          ],
+          "imports": [
+            "@/components/map/MapShell"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "d6e13a7da245212dd9305889b1052f81067e623ea04bcf5c819e7d5498cf944e",
+          "lines": 16,
+          "exports": [
+            "MapPage"
+          ],
+          "imports": [
+            "@/components/map/MapShell"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.04495556717198118,
+        "candidateGitHead": 0.032456631225517625
+      }
+    },
+    {
+      "relativePath": "src/app/map/rankings/page.tsx",
+      "category": "forkedFromCandidate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "6b0c38dc5a34185d04d27826faed608cefda755d1f03dc335492808a8a546eba",
+          "lines": 548,
+          "exports": [
+            "RankingsPage"
+          ],
+          "imports": [
+            "@/data/universities.json",
+            "@/data/university-rankings.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "5f4afd484ec2093d9a48cb6faf17710aff1e294634579180fe50885b88106972",
+          "lines": 548,
+          "exports": [
+            "RankingsPage"
+          ],
+          "imports": [
+            "@/data/universities.json",
+            "@/data/university-rankings.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/match/explore/page.tsx",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "c4eb5807247ea6c3dd60db9d64255cbbbfcfdb90575c9adf02089474407e4f8e",
+          "lines": 226,
+          "exports": [
+            "SmartMatchPage"
+          ],
+          "imports": [
+            "@/components/match/MatchDataUI",
+            "@/data/region-metrics.json",
+            "@/data/universities.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/match/page.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "0c75fd0cf8ab035951b2b44c046037d8dd02832aa0fe73c28748124809b13852",
+          "lines": 366,
+          "exports": [
+            "SmartMatchPage"
+          ],
+          "imports": [
+            "@/hooks/use-data-source",
+            "@/services/data-source-provider",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "f470dec16ac5276a2ef84018a4890d35ef4ec37412fe5bcddb01f4aac718e70b",
+          "lines": 6,
+          "exports": [
+            "MatchPage"
+          ],
+          "imports": [
+            "@/components/match/MatchEntry"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "76e01e0a5eaff5f15602513b56caa077dab3941f5a302caa9c2fde5cf06fd0b6",
+          "lines": 205,
+          "exports": [
+            "SmartMatchPage"
+          ],
+          "imports": [
+            "@/components/ProductJourney",
+            "@/data/region-metrics.json",
+            "@/data/universities.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.011370694185657637,
+        "candidateGitHead": 0.5670437105667027
+      }
+    },
+    {
+      "relativePath": "src/app/news/credits/page.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "a6b6c4716d86dc54a319f31090ab685dc5baed1ccc054d908be2893b9a927c1b",
+          "lines": 19,
+          "exports": [
+            "Page",
+            "metadata"
+          ],
+          "imports": [
+            "@/components/news/NewsCreditsPage"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/news/page.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "86907e673db8c5822c13446e2131f95550db70dde23af223f573d043ca2e34fc",
+          "lines": 123,
+          "exports": [
+            "NewsPage"
+          ],
+          "imports": [
+            "@/components/news/NewsEntryHero",
+            "@/components/shared/data-states",
+            "@/hooks/use-data-source",
+            "@/services/data-source-provider",
+            "lucide-react",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "ac3483eeae529df739c665c92768e3ea168e6c17010c3ceb4792a56514fb64d9",
+          "lines": 96,
+          "exports": [
+            "NewsPage"
+          ],
+          "imports": [
+            "@/components/ProductJourney",
+            "@/data/news.json",
+            "lucide-react",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "ac3483eeae529df739c665c92768e3ea168e6c17010c3ceb4792a56514fb64d9",
+          "lines": 96,
+          "exports": [
+            "NewsPage"
+          ],
+          "imports": [
+            "@/components/ProductJourney",
+            "@/data/news.json",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.789376807783329,
+        "candidateGitHead": 0.789376807783329
+      }
+    },
+    {
+      "relativePath": "src/app/page.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "be0c74a6027b9c44ab85714b85e882c72431c6a7950a63508e410e77f7e40308",
+          "lines": 183,
+          "exports": [
+            "HomePage",
+            "metadata"
+          ],
+          "imports": [
+            "lucide-react",
+            "next",
+            "next/link"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "c8f6cd926048d8413afde5de9dc2c55e369b2eeb9358a4ed749e2e01ff319173",
+          "lines": 138,
+          "exports": [
+            "HomePage"
+          ],
+          "imports": [
+            "@/components/match/MatchEntry",
+            "lucide-react",
+            "next/link"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "59ec502db8b9bb99d6ef2bc15020bfa676f5cb53588ed0153b643a174b76b93b",
+          "lines": 138,
+          "exports": [
+            "HomePage"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.059061346458076994,
+        "candidateGitHead": 0.15977382875605817
+      }
+    },
+    {
+      "relativePath": "src/app/portfolio/explore/page.tsx",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "802832e6200739a9d05ecceaccf5f1d02c1df7753d3e01d4f6d14a9653bada25",
+          "lines": 209,
+          "exports": [
+            "PortfolioPage"
+          ],
+          "imports": [
+            "@/data/universities.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/portfolio/page.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "217f8e1afa67d70592d0bdb4cba992aa5512f79971e864aa94d9fe39d360dd67",
+          "lines": 263,
+          "exports": [
+            "PortfolioPage"
+          ],
+          "imports": [
+            "@/components/shared/SearchInput",
+            "@/hooks/use-data-source",
+            "@/services/data-source-provider",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "3b392407acd835edd4d8a47cbbe42eb17658ced39463b80fe330fdbfc8023b76",
+          "lines": 6,
+          "exports": [
+            "PortfolioPage"
+          ],
+          "imports": [
+            "@/components/portfolio/PortfolioEntry"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "aea920033a9f3f4f702a669d6bc892ce55b25f3cbd9e67ffa35b2c99422d2539",
+          "lines": 224,
+          "exports": [
+            "PortfolioPage"
+          ],
+          "imports": [
+            "@/components/ProductJourney",
+            "@/data/universities.json",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.01572890765049442,
+        "candidateGitHead": 0.8688334654552107
+      }
+    },
+    {
+      "relativePath": "src/app/university/[id]/page.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "c071100e29f3f9e02c7e06f944f71d21c10f00421881db2d9d430fb34682ed57",
+          "lines": 15,
+          "exports": [
+            "UniversityDetailPage",
+            "dynamic",
+            "dynamicParams"
+          ],
+          "imports": [
+            "@/components/university/UniversityDetailView"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/app/xuanxiao/page.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "a6299cb30689d76a81f93b24a819f3692108e1327bdacb9d07cb5f65098553ca",
+          "lines": 134,
+          "exports": [
+            "XuanxiaoPage"
+          ],
+          "imports": [
+            "@/components/shared/data-states",
+            "lucide-react",
+            "next/image",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "1a17e7f57900ebf4a594e89198dee72bb1f5bbee8a40aac38dab4bdf9b0cd82b",
+          "lines": 116,
+          "exports": [
+            "XuanxiaoPage"
+          ],
+          "imports": [
+            "@/components/ProductJourney",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "20f2151c1cd52c7017c64f0f618c98b277eb3183030a5d32ef8793ab5e0aaf7f",
+          "lines": 116,
+          "exports": [
+            "XuanxiaoPage"
+          ],
+          "imports": [
+            "@/components/ProductJourney",
+            "lucide-react",
+            "next/link",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.7506435273602923,
+        "candidateGitHead": 0.7511425010386373
+      }
+    },
+    {
+      "relativePath": "src/components/Footer.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "cc92745ccf2870bda239a03e1d736582ddc070bb5cb543ad18831f89edb43cb9",
+          "lines": 61,
+          "exports": [
+            "Footer"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/link"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "f07b78e0fd1a69d1d1c9698377b6336c4501a66e09cb831c4bd25238ea737177",
+          "lines": 61,
+          "exports": [
+            "Footer"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/link"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "cc92745ccf2870bda239a03e1d736582ddc070bb5cb543ad18831f89edb43cb9",
+          "lines": 61,
+          "exports": [
+            "Footer"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/link"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.967373572593801,
+        "candidateGitHead": 1.0
+      }
+    },
+    {
+      "relativePath": "src/components/NavBar.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "234ec04f76085a37c790aab83f3ce9ea0c896348d1803f6b1013308119020f62",
+          "lines": 162,
+          "exports": [
+            "NavBar"
+          ],
+          "imports": [
+            "@/components/ThemeToggle",
+            "lucide-react",
+            "next/link",
+            "next/navigation",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "b023d33ba61fd4074e4bfebce6cce37a040396c78f498b99c4db593f58712fef",
+          "lines": 126,
+          "exports": [
+            "NavBar"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/link",
+            "next/navigation",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "9431fd3a952b62e14e74e0cde9ffc1256ba2d0d06cd94d5a22428a1cdb429892",
+          "lines": 99,
+          "exports": [
+            "NavBar"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/link",
+            "next/navigation",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.44996801608334097,
+        "candidateGitHead": 0.4970802171908616
+      }
+    },
+    {
+      "relativePath": "src/components/ProductJourney.tsx",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "da35def2d3600ac2d424b5c502ddb669a05329fd6b7399de92a787e351a525ac",
+          "lines": 127,
+          "exports": [
+            "JourneyStepId",
+            "ProductJourney"
+          ],
+          "imports": [
+            "lucide-react",
+            "next",
+            "next/link"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "da35def2d3600ac2d424b5c502ddb669a05329fd6b7399de92a787e351a525ac",
+          "lines": 127,
+          "exports": [
+            "JourneyStepId",
+            "ProductJourney"
+          ],
+          "imports": [
+            "lucide-react",
+            "next",
+            "next/link"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/ThemeToggle.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "38169f8cc076a6329ac018290aff5d4b011acddb721aab1d38b4cbd4c46b1ce1",
+          "lines": 57,
+          "exports": [
+            "ThemeToggle"
+          ],
+          "imports": [
+            "@/lib/theme",
+            "lucide-react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/ai/AiContextPanel.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "bdddf2af4780ee406974dfae3e9b6099e4a4fe136ec2e2d98547a4988342dcda",
+          "lines": 175,
+          "exports": [
+            "AiContextPanel",
+            "AiContextPanelProps"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/navigation",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/assessment/AssessmentEntry.tsx",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "5b76e94d8b652ae7c2ff3538a8277710a99456bee7585301b47b685733acbf15",
+          "lines": 175,
+          "exports": [
+            "AssessmentEntry"
+          ],
+          "imports": [
+            "./assessment-entry.module.css",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/assessment/assessment-entry.module.css",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "002a956e2cc8a3511d8bc938d4ce90158f422b9447c055c99591ca03f8dcead2",
+          "lines": 445,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/calculator/SchoolPicker.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "169d6c7ce1bd7eb2e5881a80e4822a1ca34bf20f0c1b138eb53416904013093f",
+          "lines": 315,
+          "exports": [
+            "SchoolPicker",
+            "SchoolPickerProps"
+          ],
+          "imports": [
+            "@/domain/dataset",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/CaliforniaRoadLayer.tsx",
+      "category": "exactDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "c802c34eb99e10e128a1eb0fe3889b081013b4840ced53b16f42e1c42a1d2380",
+          "lines": 178,
+          "exports": [
+            "CaliforniaRoadLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/types",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "c802c34eb99e10e128a1eb0fe3889b081013b4840ced53b16f42e1c42a1d2380",
+          "lines": 178,
+          "exports": [
+            "CaliforniaRoadLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/types",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "c802c34eb99e10e128a1eb0fe3889b081013b4840ced53b16f42e1c42a1d2380",
+          "lines": 178,
+          "exports": [
+            "CaliforniaRoadLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/types",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 1.0,
+        "candidateGitHead": 1.0
+      }
+    },
+    {
+      "relativePath": "src/components/map/CityChoroplethLayer.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "56485a39917bedde255a20c9a737dd5dad5a02b80ca5d59e50f6df46a22a26e3",
+          "lines": 119,
+          "exports": [
+            "CityChoroplethLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/config/metrics.config",
+            "@/lib/types",
+            "maplibre-gl",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "607461faec5de76b3184bf3a4328216dcc1193942ab52947685b72a96a93d24b",
+          "lines": 60,
+          "exports": [
+            "CityChoroplethLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/metrics",
+            "@/lib/types",
+            "d3-scale-chromatic",
+            "maplibre-gl",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "c1c352434a672ae691aa764bcc65324bde46af4afa1a13be39941228e2bdec9a",
+          "lines": 48,
+          "exports": [
+            "CityChoroplethLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/metrics",
+            "@/lib/types",
+            "maplibre-gl",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.40476053584775484,
+        "candidateGitHead": 0.5186534216335541
+      }
+    },
+    {
+      "relativePath": "src/components/map/CityDetailPanel.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "d5ef3445c894b7189435d426c3d44732191cb841f4fc719f9884b18097402e37",
+          "lines": 189,
+          "exports": [
+            "CityDetailPanel"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "1eab4a711f0a30c45d248719cbc66689ea5dbaed6c7f2f1551bded7fdb6ea640",
+          "lines": 180,
+          "exports": [
+            "CityDetailPanel"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "1eab4a711f0a30c45d248719cbc66689ea5dbaed6c7f2f1551bded7fdb6ea640",
+          "lines": 180,
+          "exports": [
+            "CityDetailPanel"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.9567752026162377,
+        "candidateGitHead": 0.9567752026162377
+      }
+    },
+    {
+      "relativePath": "src/components/map/CityLayer.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "57daa76f8880c31da70e80f4b45603b2b4c620972a9b8b08910e979962444ba2",
+          "lines": 187,
+          "exports": [
+            "CityLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/city-utils",
+            "@/lib/types",
+            "maplibre-gl",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "d25ae739d70410a44b912746d6a3296fd50f976bd4c160882f0d98c92134de90",
+          "lines": 137,
+          "exports": [
+            "CityLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/city-utils",
+            "@/lib/types",
+            "maplibre-gl",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "d25ae739d70410a44b912746d6a3296fd50f976bd4c160882f0d98c92134de90",
+          "lines": 137,
+          "exports": [
+            "CityLayer"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/city-utils",
+            "@/lib/types",
+            "maplibre-gl",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.4153365284434257,
+        "candidateGitHead": 0.4153365284434257
+      }
+    },
+    {
+      "relativePath": "src/components/map/CitySelector.tsx",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "b297875a795c2d3a4a77ec05a668a81c8a4d3cf304c20f98b45f3f428dc8a17f",
+          "lines": 188,
+          "exports": [
+            "CitySelector"
+          ],
+          "imports": [
+            "@/lib/city-utils",
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "b297875a795c2d3a4a77ec05a668a81c8a4d3cf304c20f98b45f3f428dc8a17f",
+          "lines": 188,
+          "exports": [
+            "CitySelector"
+          ],
+          "imports": [
+            "@/lib/city-utils",
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/ComparePanel.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "d486c3ea09584e6dccef78dcfad4f19e7c0a6c7e6845f21563db27af27e235c8",
+          "lines": 306,
+          "exports": [
+            "ComparePanel"
+          ],
+          "imports": [
+            "@/hooks/use-data-source",
+            "@/lib/types",
+            "@/services/data-source-provider",
+            "lucide-react",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "d2e5ba54de62c8166b15d8c9b0a707230fcf927f1580faf4b0f53388bb2bf32e",
+          "lines": 257,
+          "exports": [
+            "ComparePanel"
+          ],
+          "imports": [
+            "@/data/university-rankings.json",
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "d2e5ba54de62c8166b15d8c9b0a707230fcf927f1580faf4b0f53388bb2bf32e",
+          "lines": 257,
+          "exports": [
+            "ComparePanel"
+          ],
+          "imports": [
+            "@/data/university-rankings.json",
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.8501146737419616,
+        "candidateGitHead": 0.8501146737419616
+      }
+    },
+    {
+      "relativePath": "src/components/map/GranularityBadge.tsx",
+      "category": "exactDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "0605fc8faf06a56013e417a09ad81907cbeb1c4490078348bd0e7b7a74b4c06f",
+          "lines": 126,
+          "exports": [
+            "GranularityBadge"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "0605fc8faf06a56013e417a09ad81907cbeb1c4490078348bd0e7b7a74b4c06f",
+          "lines": 126,
+          "exports": [
+            "GranularityBadge"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "0605fc8faf06a56013e417a09ad81907cbeb1c4490078348bd0e7b7a74b4c06f",
+          "lines": 126,
+          "exports": [
+            "GranularityBadge"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 1.0,
+        "candidateGitHead": 1.0
+      }
+    },
+    {
+      "relativePath": "src/components/map/MapCanvas.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "932ccc3cef9554f1905039d03ade5b0f080ab8ee8f9af4d8df9a391b756cd813",
+          "lines": 653,
+          "exports": [
+            "DEFAULT_DARK_STYLE",
+            "DEFAULT_LIGHT_STYLE",
+            "MapCanvas",
+            "MapCanvasProps",
+            "MapContextValue",
+            "useMapContext"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react",
+            "maplibre-gl",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "6d77924bc0182a674cc315bc6fa2d9d8da5509d4b7852cfd3a3d5de3bdd98f81",
+          "lines": 866,
+          "exports": [
+            "MapCanvas",
+            "MapCanvasProps",
+            "MapContextValue",
+            "useMapContext"
+          ],
+          "imports": [
+            "@/data/region-metrics.json",
+            "@/lib/metrics",
+            "@/lib/types",
+            "d3-scale-chromatic",
+            "geojson",
+            "lucide-react",
+            "maplibre-gl",
+            "react",
+            "topojson-client"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "b4d4b3885b7286c4bacaa352e5b7624fe11ffd9dc406f8689fb7de15fe86854e",
+          "lines": 590,
+          "exports": [
+            "MapCanvas",
+            "MapCanvasProps",
+            "MapContextValue",
+            "useMapContext"
+          ],
+          "imports": [
+            "@/data/region-metrics.json",
+            "@/lib/metrics",
+            "@/lib/types",
+            "d3-scale-chromatic",
+            "geojson",
+            "lucide-react",
+            "maplibre-gl",
+            "react",
+            "topojson-client"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.29675054883248364,
+        "candidateGitHead": 0.4654388902176513
+      }
+    },
+    {
+      "relativePath": "src/components/map/MapEntry.tsx",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "5a2749fe14d4e1ad5d54b33ac41bb2e54bf3ddc7ae9496cd2b3399fdc69aae48",
+          "lines": 109,
+          "exports": [
+            "MapEntry"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/link"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/MapFilterPanel.tsx",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "f200cafdf7890b1d82af8914944b2567c5cfb5d872952639204815c7b76e6815",
+          "lines": 360,
+          "exports": [
+            "AdmissionSelectivity",
+            "DEFAULT_STRONG_MAP_FILTERS",
+            "MapFilterPanel",
+            "StrongMapFilters",
+            "UniversitySortKey",
+            "countActiveFilters"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "f200cafdf7890b1d82af8914944b2567c5cfb5d872952639204815c7b76e6815",
+          "lines": 360,
+          "exports": [
+            "AdmissionSelectivity",
+            "DEFAULT_STRONG_MAP_FILTERS",
+            "MapFilterPanel",
+            "StrongMapFilters",
+            "UniversitySortKey",
+            "countActiveFilters"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/MapLegend.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "a1b32b8432682a8a1bf13095d2e8226b95dbfc908f3232871325c9deec3537d6",
+          "lines": 248,
+          "exports": [
+            "MapLegend",
+            "MapLegendProps",
+            "MetricMetadata"
+          ],
+          "imports": [
+            "@/config/metrics.config",
+            "@/lib/types",
+            "d3-scale-chromatic"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "d22de73a28dae8e92bfafab22acd32631a857feaff88eec5f864282abea0a050",
+          "lines": 222,
+          "exports": [
+            "MapLegend",
+            "MapLegendProps"
+          ],
+          "imports": [
+            "@/lib/metrics",
+            "@/lib/types",
+            "d3-scale-chromatic"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "d8fb36a8cf8ae59b666947cc9e0f3350ca6d5ff9163a385b26ee7a9190f3d39d",
+          "lines": 224,
+          "exports": [
+            "MapLegend",
+            "MapLegendProps"
+          ],
+          "imports": [
+            "@/lib/metrics",
+            "@/lib/types",
+            "d3-scale-chromatic"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.5571517801374141,
+        "candidateGitHead": 0.5654176521847379
+      }
+    },
+    {
+      "relativePath": "src/components/map/MapShell.tsx",
+      "category": "sameNameDifferentPurpose",
+      "versions": {
+        "canonical": {
+          "sha256": "94dd480ae214c69d32b1f6a4fb54eedf64118fffee074e8b4565518bf4d9e401",
+          "lines": 1211,
+          "exports": [
+            "MapShell"
+          ],
+          "imports": [
+            "./CaliforniaRoadLayer",
+            "./CityChoroplethLayer",
+            "./CityDetailPanel",
+            "./CityLayer",
+            "./ComparePanel",
+            "./MapCanvas",
+            "./MapToolbar",
+            "./RegionDetailPanel",
+            "./UniversityHoverTooltip",
+            "./UniversityPoiLayer",
+            "./UniversityProfile",
+            "./regional/RegionalHoverTooltip",
+            "./regional/RegionalLegend",
+            "./regional/RegionalStateLayer",
+            "@/components/shared/BottomSheet",
+            "@/components/shared/ResizablePanel",
+            "@/components/shared/ViewModeToggle",
+            "@/components/shared/data-states",
+            "@/config/metrics.config",
+            "@/config/states.config",
+            "@/domain/dataset",
+            "@/hooks/use-data-source",
+            "@/hooks/use-view-state-bridge",
+            "@/lib/city-utils",
+            "@/lib/legacy-mappers",
+            "@/lib/theme",
+            "@/lib/types",
+            "@/regional/load",
+            "@/regional/types",
+            "@/regional/useRegionalMetric",
+            "@/regional/useSelectedRegionUrl",
+            "@/services/data-source-provider",
+            "@/state/compare-store",
+            "lucide-react",
+            "maplibre-gl",
+            "next/dynamic",
+            "next/navigation",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "d7e69781990f89957fbd1044a9522d369859fb3adbaacdb13f37ceba9f163c19",
+          "lines": 1042,
+          "exports": [
+            "MapShell"
+          ],
+          "imports": [
+            "./CaliforniaRoadLayer",
+            "./CityChoroplethLayer",
+            "./CityDetailPanel",
+            "./CityLayer",
+            "./ComparePanel",
+            "./MapCanvas",
+            "./MapFilterPanel",
+            "./MapLegend",
+            "./MetricTabs",
+            "./UniversityCard",
+            "./UniversityMarkers",
+            "@/data/news.json",
+            "@/data/region-metrics.json",
+            "@/data/universities.json",
+            "@/lib/city-utils",
+            "@/lib/metrics",
+            "@/lib/types",
+            "lucide-react",
+            "maplibre-gl",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "7e461ffb3d13b17203cae4c4658bdde0c432a4427a8b7a4305f60eebcd428d7f",
+          "lines": 1244,
+          "exports": [
+            "MapShell"
+          ],
+          "imports": [
+            "./CaliforniaRoadLayer",
+            "./CityChoroplethLayer",
+            "./CityDetailPanel",
+            "./CityLayer",
+            "./CitySelector",
+            "./ComparePanel",
+            "./MapCanvas",
+            "./MapFilterPanel",
+            "./MapLegend",
+            "./MetricTabs",
+            "./UniversityCard",
+            "./UniversityMarkers",
+            "@/data/news.json",
+            "@/data/region-metrics.json",
+            "@/data/state-options.json",
+            "@/data/universities.json",
+            "@/lib/city-utils",
+            "@/lib/metrics",
+            "@/lib/types",
+            "lucide-react",
+            "maplibre-gl",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.4347726439310598,
+        "candidateGitHead": 0.34401696077820043
+      }
+    },
+    {
+      "relativePath": "src/components/map/MapToolbar.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "ba2bb34a80836318d2808919c2c114a7eef636e4b8e26259d701705323e59267",
+          "lines": 162,
+          "exports": [
+            "MapToolbar",
+            "MapToolbarProps",
+            "StateOption"
+          ],
+          "imports": [
+            "@/components/map/regional/RegionalLayerControl",
+            "@/regional/types",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/MetricTabs.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "3480ab2a6c7bb0fbbfde3d391438f080f3ef1f5e0fbe6dd309ef2fc88b6f6460",
+          "lines": 109,
+          "exports": [
+            "MetricTabs"
+          ],
+          "imports": [
+            "@/config/metrics.config",
+            "@/lib/types"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "802fff175f42f46b6e38d39f89266167343d54b35ab85eb7d324049df79ddd39",
+          "lines": 109,
+          "exports": [
+            "MetricTabs"
+          ],
+          "imports": [
+            "@/lib/metrics",
+            "@/lib/types"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "802fff175f42f46b6e38d39f89266167343d54b35ab85eb7d324049df79ddd39",
+          "lines": 109,
+          "exports": [
+            "MetricTabs"
+          ],
+          "imports": [
+            "@/lib/metrics",
+            "@/lib/types"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.9978689397975493,
+        "candidateGitHead": 0.9978689397975493
+      }
+    },
+    {
+      "relativePath": "src/components/map/RegionDetailPanel.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "8d56c310c06345cc232b60519563d77e3b3aecf9ea55ed3752be55dc19ed550f",
+          "lines": 161,
+          "exports": [
+            "RegionDetailPanel"
+          ],
+          "imports": [
+            "@/config/metrics.config",
+            "@/config/states.config",
+            "@/lib/types",
+            "@/regional/normalizeStateFips",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/UniversityCard.tsx",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "2704559972542e645e307e2e66a6bc3f431b658879f325299337c586205e5ed4",
+          "lines": 578,
+          "exports": [
+            "UniversityCard",
+            "UniversityCardProps"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "eba0c7448a30b98f860e6403a9becc3e9f00780bc608011b88b0689c36efd78e",
+          "lines": 526,
+          "exports": [
+            "UniversityCard",
+            "UniversityCardProps"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "eba0c7448a30b98f860e6403a9becc3e9f00780bc608011b88b0689c36efd78e",
+          "lines": 526,
+          "exports": [
+            "UniversityCard",
+            "UniversityCardProps"
+          ],
+          "imports": [
+            "@/lib/types",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.9178496868475992,
+        "candidateGitHead": 0.9178496868475992
+      }
+    },
+    {
+      "relativePath": "src/components/map/UniversityHoverTooltip.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "662971fac382b08651c69ea43d87359b3f76ae7689be55cacdf732e7574d5180",
+          "lines": 94,
+          "exports": [
+            "UniversityHoverTooltip",
+            "UniversityHoverTooltipProps"
+          ],
+          "imports": [
+            "@/components/shared/useEdgeFlippedPosition",
+            "@/domain/dataset",
+            "@/lib/legacy-mappers",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/UniversityMarkers.tsx",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "d2da85664c1159d1448d655f47b4a145609422b12bc00c44c3a30d3000b61bb5",
+          "lines": 980,
+          "exports": [
+            "UniversityMapPins",
+            "UniversityMarkers",
+            "UniversityMarkersProps"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/types",
+            "lucide-react",
+            "maplibre-gl",
+            "react"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "d2da85664c1159d1448d655f47b4a145609422b12bc00c44c3a30d3000b61bb5",
+          "lines": 980,
+          "exports": [
+            "UniversityMapPins",
+            "UniversityMarkers",
+            "UniversityMarkersProps"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/lib/types",
+            "lucide-react",
+            "maplibre-gl",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/UniversityPoiLayer.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "c1e263a0b401e45f70a279b746f43b1a455cd30775c589dc85bfe82f3e04478e",
+          "lines": 499,
+          "exports": [
+            "UniversityPoiLayer",
+            "UniversityPoiLayerProps"
+          ],
+          "imports": [
+            "./MapCanvas",
+            "@/domain/dataset",
+            "@/lib/abbreviation",
+            "@/lib/types",
+            "geojson",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/UniversityProfile.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "a915e0756bdbbf0d4581022b7be94c2971907f67e7dad65f4b43c0b750085fa6",
+          "lines": 264,
+          "exports": [
+            "UniversityProfile",
+            "UniversityProfileProps"
+          ],
+          "imports": [
+            "@/domain/dataset",
+            "@/hooks/use-data-source",
+            "@/lib/legacy-mappers",
+            "@/services/data-source-provider",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/map-zindex.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "78389b93a36f3c643341ce42265c114481091c7eb526ceb2b667d2f5377ff027",
+          "lines": 63,
+          "exports": [
+            "MAP_Z",
+            "MAP_Z_CSS_VARS",
+            "MapZToken",
+            "buildMapZCssVars"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/providers/MapProviderHost.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "f8b4b46867fa4190d56b6e2dacae7c9a584296ecb77f1869ee15110959809cdb",
+          "lines": 175,
+          "exports": [
+            "MapProviderHost",
+            "MapProviderHostProps",
+            "MapProviderHostState",
+            "getCurrentLoaderState",
+            "resolveConfigFromEnv"
+          ],
+          "imports": [
+            "./baidu/BaiduMapProviderAdapter",
+            "./baidu/load-baidu-map",
+            "./maplibre/MapLibreProviderAdapter",
+            "./types",
+            "maplibre-gl",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/providers/baidu/BaiduMapProviderAdapter.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "69eff119d407ff6afbd50148f7f0df0e217d7181deecbcda1181ca61c359326d",
+          "lines": 168,
+          "exports": [
+            "BaiduMapProviderAdapter"
+          ],
+          "imports": [
+            "../types",
+            "./load-baidu-map"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/providers/baidu/load-baidu-map.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "361d3de85522c983884d96790d7dc4cee1c3ad04adaa90a1e47ce4a15ab0f694",
+          "lines": 229,
+          "exports": [
+            "BaiduGlobal",
+            "BaiduLoadError",
+            "BaiduLoadErrorCode",
+            "BaiduLoaderOptions",
+            "BaiduLoaderState",
+            "__resetBaiduLoaderForTests",
+            "getBaiduLoaderError",
+            "getBaiduLoaderState",
+            "isBrowser",
+            "loadBaiduMap"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/providers/index.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "eabd875c2d19a61971ee608ac691cee57665316543773e655fbabec29775f413",
+          "lines": 8,
+          "exports": [],
+          "imports": [
+            "./MapProviderHost",
+            "./baidu/BaiduMapProviderAdapter",
+            "./baidu/load-baidu-map",
+            "./maplibre/MapLibreProviderAdapter",
+            "./types"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/providers/maplibre/MapLibreProviderAdapter.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "30735b51570a13ef6ebb2208cc3866a1b1f9af226ffea0249f0d44498ff89288",
+          "lines": 162,
+          "exports": [
+            "MapLibreAdapterOptions",
+            "MapLibreProviderAdapter"
+          ],
+          "imports": [
+            "../types",
+            "maplibre-gl"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/providers/types.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "38dd73d87ad8e4539f5e0765890625b72191b5f4d0563d7fd874cfa056a78a67",
+          "lines": 170,
+          "exports": [
+            "MapClickEvent",
+            "MapMarkerSpec",
+            "MapMoveEvent",
+            "MapProviderAdapter",
+            "MapProviderConfig",
+            "MapProviderError",
+            "MapProviderErrorCode",
+            "MapProviderId",
+            "MapViewState",
+            "RegionalFillSpec",
+            "ThemeMode",
+            "resolveMapProviderConfig",
+            "resolveMapProviderId"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/regional/RegionalHoverTooltip.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "ed4e3918b89f63f2cc5b7a8f88e2ede2d3988422b19db0a57eb1ced11bda61cf",
+          "lines": 100,
+          "exports": [
+            "RegionalHoverTooltip"
+          ],
+          "imports": [
+            "@/components/shared/useEdgeFlippedPosition",
+            "@/regional/types",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/regional/RegionalLayerControl.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "a178dabe6783d79f3498c0a8ccb615de7528fa28ad4e884b751b281985b658b9",
+          "lines": 81,
+          "exports": [
+            "RegionalLayerControl"
+          ],
+          "imports": [
+            "@/regional/load",
+            "@/regional/types",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/regional/RegionalLegend.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "176395bb2800722094c4d0af07c01b3eaee1c20a77579b4864d26b895c9cb93d",
+          "lines": 134,
+          "exports": [
+            "RegionalLegend"
+          ],
+          "imports": [
+            "@/regional/load",
+            "@/regional/palettes",
+            "@/regional/types",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/regional/RegionalStateLayer.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "941681b0b117d9f004a28dd38cb0ea4b565dffbbfa30a701e8fbaf56d8688cfe",
+          "lines": 704,
+          "exports": [
+            "RegionalStateLayer",
+            "StyleLoadedGate",
+            "deferUntilStyleLoaded",
+            "isKnownRegionalMetricId",
+            "pickInsertionId",
+            "summarizeRegionalRecords"
+          ],
+          "imports": [
+            "../MapCanvas",
+            "@/regional/load",
+            "@/regional/palettes",
+            "@/regional/types",
+            "geojson",
+            "maplibre-gl",
+            "react",
+            "topojson-client"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/shell/MapPageShell.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "673bda63eed729337a41d3c337ab93dbd213421c10b89b59d3e62fcbcda7d97f",
+          "lines": 21,
+          "exports": [
+            "MapPageShell"
+          ],
+          "imports": [
+            "./MapRuntimeClient"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/map/shell/MapRuntimeClient.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "fb94de8279609a0ec42ad2e9e6eebbfb4ef2b2895084337602cacf822a99fdab",
+          "lines": 79,
+          "exports": [
+            "MapRuntimeClient"
+          ],
+          "imports": [
+            "@/components/map/MapShell",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/match/MatchDataUI.tsx",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "27914e3d06bbd42cd6440742ea2b7ff3392ba08fdea891dd6eaa661ca1883b53",
+          "lines": 176,
+          "exports": [
+            "DarkGlassCard",
+            "DataDashboard",
+            "MetricLabel",
+            "PercentageDisplay",
+            "ProgressBar",
+            "SchoolMatchCard",
+            "ScoreDisplay",
+            "Slider",
+            "SliderThumb",
+            "SliderTrack"
+          ],
+          "imports": [
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/match/MatchEntry.tsx",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "e2f41d39350065089448f0bcddcfe7aafbc5289fc1cdd60eef0b5c7ffd6ef1ad",
+          "lines": 135,
+          "exports": [
+            "MatchEntry",
+            "MatchWaveField"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/link"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/news/HeroBracket.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "a7cd633e43702a1ecd5d940cc6d3a8074b3acae77f3cb6eed9a5f5eda0dcc89f",
+          "lines": 78,
+          "exports": [
+            "HeroBracket",
+            "HeroBracketProps"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/news/HeroImage.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "0282db488f2984d4d06e03be06307259738c994ee96a93bd7a2b3a947154e540",
+          "lines": 75,
+          "exports": [
+            "HeroImage",
+            "HeroImageProps"
+          ],
+          "imports": [
+            "./news-images",
+            "./usePrefersReducedMotion",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/news/NewsCreditsPage.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "8eb77fbfbfb23b9836aca86d9b494e0bd207404e1211381bb068141967e3ed32",
+          "lines": 303,
+          "exports": [
+            "NewsCreditsPage"
+          ],
+          "imports": [
+            "./news-images",
+            "lucide-react",
+            "next/link"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/news/NewsEntryHero.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "d67b9e902555e7c120270dda53aa367329fba169f63d6ca4009ed2fc5712c1c1",
+          "lines": 167,
+          "exports": [
+            "NewsEntryHero"
+          ],
+          "imports": [
+            "./HeroBracket",
+            "./HeroImage",
+            "./news-images",
+            "lucide-react",
+            "next/link"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/news/news-images.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "b5d57813d8448af6e65a809e2a451ae22d84c987350c6186e012c95ffde08aa4",
+          "lines": 206,
+          "exports": [
+            "HeroImageAspect",
+            "NEWS_HERO_ARIA_LABEL",
+            "NEWS_HERO_COLORS",
+            "NEWS_HERO_CREDITS_LINK",
+            "NEWS_HERO_CTA",
+            "NEWS_HERO_IMAGES",
+            "NEWS_HERO_LINK",
+            "NEWS_HERO_SUBTITLE_ZH",
+            "NEWS_HERO_TITLE_EN",
+            "NEWS_HERO_TITLE_ZH",
+            "NewsHeroImage"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/news/usePrefersReducedMotion.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "349001fd4179df2f3869edbcf7ff88adcf0f7b7216b1f5d2235f249acf2de73f",
+          "lines": 32,
+          "exports": [
+            "usePrefersReducedMotion"
+          ],
+          "imports": [
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/portfolio/PortfolioEntry.tsx",
+      "category": "independentImplementation",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "68617f786060e0d15d6d14fcd22a9d90ccd65243b6d4f7efa0ec653da4392637",
+          "lines": 68,
+          "exports": [
+            "PortfolioEntry"
+          ],
+          "imports": [
+            "lucide-react",
+            "next/image",
+            "next/link"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/shared/BottomSheet.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "ad5703e293cd4f3c0268c62d2281dc8a2aca1766d4eb2d10810ebcbd93db2e70",
+          "lines": 180,
+          "exports": [
+            "BottomSheet",
+            "BottomSheetProps",
+            "Snap"
+          ],
+          "imports": [
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/shared/ResizablePanel.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "c76d2dab6bf10cf163cccbdf009e7ddea9012dc2bea462e74c65f73561850f70",
+          "lines": 169,
+          "exports": [
+            "PanelEdge",
+            "ResizablePanel",
+            "ResizablePanelProps"
+          ],
+          "imports": [
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/shared/SearchInput.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "d3a009a0960be8210c758db55fcb4a5c3f08898e09c16fb49b72b0546018ff42",
+          "lines": 57,
+          "exports": [
+            "SearchInput",
+            "SearchInputProps"
+          ],
+          "imports": [
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/shared/ViewModeToggle.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "b6ad3dc4dabfd2456821c32f3ed4f4549e42b873722a03a3fdb7dd0ba69016c1",
+          "lines": 68,
+          "exports": [
+            "ViewModeToggle",
+            "ViewModeToggleProps"
+          ],
+          "imports": [
+            "@/hooks/use-view-state-bridge",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/shared/data-states.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "4f97e086c2475fc014b556fe5d0b4297a5619e380e549456485cf1bbdb50e0a4",
+          "lines": 285,
+          "exports": [
+            "DataEmptyState",
+            "DataLoadingState",
+            "DataUnavailableState",
+            "DataValidationError",
+            "PreviewErrorKind",
+            "PreviewErrorPresentation",
+            "PreviewErrorState",
+            "PreviewWarningBanner",
+            "getPreviewErrorPresentation"
+          ],
+          "imports": [
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/shared/useEdgeFlippedPosition.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "846451178111fc84f86deaa35844cd92bc33768f513c4459e842e009d2782944",
+          "lines": 126,
+          "exports": [
+            "EdgeFlippedOptions",
+            "EdgeFlippedPosition",
+            "HorizontalPlacement",
+            "VerticalPlacement",
+            "useEdgeFlippedPosition"
+          ],
+          "imports": [
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/university/ProvenanceBadge.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "bee03f83282ce049a6d350c5d7e4918d0207b68e5aa9fe5d7df088ae18b98827",
+          "lines": 85,
+          "exports": [
+            "ProvenanceBadge",
+            "ProvenanceBadgeProps"
+          ],
+          "imports": [
+            "@/domain/dataset"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/university/UniversityDetailView.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "a4a64291b77e69107a3188edebac56bc6146e6abd8259cc02e85184e755c544a",
+          "lines": 134,
+          "exports": [
+            "UniversityDetailView"
+          ],
+          "imports": [
+            "@/components/shared/data-states",
+            "@/components/university/UniversityProfilePanel",
+            "@/hooks/use-data-source",
+            "@/services/data-source-provider",
+            "lucide-react",
+            "next/link",
+            "next/navigation"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/components/university/UniversityProfilePanel.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "4c1b023b29434b2f77e1f483c4e21bd01cdbde6cf7cd39415c7703ab91552b3a",
+          "lines": 661,
+          "exports": [
+            "UniversityProfilePanel",
+            "UniversityProfilePanelProps"
+          ],
+          "imports": [
+            "./ProvenanceBadge",
+            "@/domain/dataset",
+            "lucide-react",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/config/metrics.config.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "d3eee2e39552b32a8597eb53fe3ff612ca217883b0c0bbb48ebb3d8fb59d16aa",
+          "lines": 105,
+          "exports": [
+            "METRIC_DEFINITIONS",
+            "METRIC_ORDER",
+            "METRIC_RENDER_MODE",
+            "formatMetricValue"
+          ],
+          "imports": [
+            "@/lib/types"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/config/states.config.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "68d510bd80830c34710ffdc17495a20c8f99496b8f18b094ec81e2e028b5ad3e",
+          "lines": 73,
+          "exports": [
+            "ABBR_TO_FIPS",
+            "STATE_NAME_EN",
+            "STATE_NAME_ZH",
+            "abbrFromFips",
+            "fipsFromAbbr",
+            "stateNameEn",
+            "stateNameZh"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/config/status-dictionary.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "98c1b45f4a16370a381e64e163465ebadf3ad057dfbca799740df163a9037b5b",
+          "lines": 69,
+          "exports": [
+            "FALLBACK_STATUS_DICTIONARY",
+            "describePersonStatus",
+            "resolveStatusLabel"
+          ],
+          "imports": [
+            "@/domain/dataset"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/data/city-boundaries.json",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "79e3ef78bd082a260c883404fce5b5374311170eb63a74b5d6254e4be732472b",
+          "lines": 1,
+          "exports": [],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "79e3ef78bd082a260c883404fce5b5374311170eb63a74b5d6254e4be732472b",
+          "lines": 1,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/data/demo-portfolio.json",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "091da7c4cf712b5619e1d53fe2defa719c93c06e95aa3965335ddca6efe68925",
+          "lines": 28,
+          "exports": [],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "091da7c4cf712b5619e1d53fe2defa719c93c06e95aa3965335ddca6efe68925",
+          "lines": 28,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/data/news.json",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "82458b6bde40a74459aad4c813a2e7f5f598bc016b7ed0d50c8d6299e83170e5",
+          "lines": 1274,
+          "exports": [],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "82458b6bde40a74459aad4c813a2e7f5f598bc016b7ed0d50c8d6299e83170e5",
+          "lines": 1274,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/data/region-metrics.json",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "29813680257623a9d21da3c0e208260088d10b3a35bc32fbb6e2548a6f937790",
+          "lines": 4113,
+          "exports": [],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "29813680257623a9d21da3c0e208260088d10b3a35bc32fbb6e2548a6f937790",
+          "lines": 4113,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/data/state-options.json",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "10133bc40822497cca20e4e64d3a0b39d938e315e6fef3e41bfe581e488dc161",
+          "lines": 257,
+          "exports": [],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "10133bc40822497cca20e4e64d3a0b39d938e315e6fef3e41bfe581e488dc161",
+          "lines": 257,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/data/universities.json",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "a0441f5a7542c30b4bca1f7733652ad1acc74afb6b1b0fd64a46ef9e38e38576",
+          "lines": 2996,
+          "exports": [],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "a0441f5a7542c30b4bca1f7733652ad1acc74afb6b1b0fd64a46ef9e38e38576",
+          "lines": 2996,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/data/university-rankings.json",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "4ada2205352c01fbdb5f145e39498d1b1ede4fa21e89fafcd82f8aff9da1b17e",
+          "lines": 336,
+          "exports": [],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "4ada2205352c01fbdb5f145e39498d1b1ede4fa21e89fafcd82f8aff9da1b17e",
+          "lines": 336,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/domain/dataset.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "5eba2f7a65d1942165234850012268b19ab135155b395db9e447f03a1b3fe418",
+          "lines": 351,
+          "exports": [
+            "Anecdote",
+            "CostRecord",
+            "DataSourceUnavailable",
+            "DatasetManifest",
+            "DisplayTier",
+            "NearbyTown",
+            "NewsArticle",
+            "NotableAttendance",
+            "Person",
+            "PreviewField",
+            "PreviewMetadata",
+            "Program",
+            "ProvenanceStatus",
+            "ProvenanceStatusLabel",
+            "QualityBadge",
+            "RankingMembership",
+            "RegionDetail",
+            "RegionMetricQuery",
+            "RegionMetricRecord",
+            "ResourceState",
+            "SourceReference",
+            "StatusDictionaryMap",
+            "UniversityDetail",
+            "UniversityQuery",
+            "UniversitySearchResult",
+            "UniversitySummary"
+          ],
+          "imports": [
+            "./region-metric-set"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/domain/region-metric-set.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "74dd8ec8afe3d74716ec3e6af00a9bdb36291ad7ec32c3dc820be4823ee5f442",
+          "lines": 66,
+          "exports": [
+            "RegionMetricSet"
+          ],
+          "imports": [
+            "./dataset"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/hooks/use-data-source.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "84de32891f92d0600350228c3445caafda1ad0ded90380e24fe63b0581d7b7e5",
+          "lines": 202,
+          "exports": [
+            "useDatasetManifest",
+            "useNews",
+            "useRegionDetail",
+            "useRegionMetrics",
+            "useSourceReferenceResolver",
+            "useStatusDictionary",
+            "useUniversityDetail",
+            "useUniversitySearch",
+            "useUniversitySummaries"
+          ],
+          "imports": [
+            "@/domain/dataset",
+            "@/services/pathos-data-source",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/hooks/use-view-state-bridge.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "f915421f4730414969f913dfd3d238ce69882fffe3c55642f09dfa88be0ef4d5",
+          "lines": 317,
+          "exports": [
+            "COMPARE_CAP",
+            "UrlBridgeState",
+            "UseViewStateBridgeResult",
+            "isParentModeAvailable",
+            "mergeOwnedSearchParams",
+            "resolveAllowedViewMode",
+            "useViewStateBridge"
+          ],
+          "imports": [
+            "@/config/metrics.config",
+            "@/domain/dataset",
+            "@/lib/types",
+            "@/lib/url-params",
+            "next/navigation",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/lib/abbreviation.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "54c2829a772b65a20c0ffaf9661c961acdc0f76f4f5b7989f4aaf1047b4b67c2",
+          "lines": 56,
+          "exports": [
+            "pickAbbreviation"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/lib/assessment.ts",
+      "category": "exactDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "6df51fe86e50389a59cb925ef201f2ff59ae5e24a83c0cad562b936470d304b3",
+          "lines": 159,
+          "exports": [
+            "AdmissionTier",
+            "PortfolioAssessment",
+            "RiskLevel",
+            "SchoolAssessment",
+            "StudentProfile",
+            "assessPortfolio",
+            "assessSchoolFit"
+          ],
+          "imports": []
+        },
+        "candidateWorktree": {
+          "sha256": "6df51fe86e50389a59cb925ef201f2ff59ae5e24a83c0cad562b936470d304b3",
+          "lines": 159,
+          "exports": [
+            "AdmissionTier",
+            "PortfolioAssessment",
+            "RiskLevel",
+            "SchoolAssessment",
+            "StudentProfile",
+            "assessPortfolio",
+            "assessSchoolFit"
+          ],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "6df51fe86e50389a59cb925ef201f2ff59ae5e24a83c0cad562b936470d304b3",
+          "lines": 159,
+          "exports": [
+            "AdmissionTier",
+            "PortfolioAssessment",
+            "RiskLevel",
+            "SchoolAssessment",
+            "StudentProfile",
+            "assessPortfolio",
+            "assessSchoolFit"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 1.0,
+        "candidateGitHead": 1.0
+      }
+    },
+    {
+      "relativePath": "src/lib/city-utils.ts",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "c97a2a606f4a62e1500ca8cb154f71123f2f1413841ed2c01068701b8e99bb99",
+          "lines": 255,
+          "exports": [
+            "STATE_CENTERS",
+            "buildCityAggregates",
+            "cityMetricColor",
+            "getCitiesByState",
+            "getCityById",
+            "getCityMetricDisplay",
+            "getCityMetricValue",
+            "getStateAbbr",
+            "getStateCenter",
+            "getStateNameEn",
+            "getStateNameZh"
+          ],
+          "imports": [
+            "@/lib/types"
+          ]
+        },
+        "candidateWorktree": {
+          "sha256": "8d3d275874722d3d053b3a5ac37a328ba64ce1e54d084630de0b2658d8f90814",
+          "lines": 292,
+          "exports": [
+            "STATE_CENTERS",
+            "buildCityAggregates",
+            "cityMetricColor",
+            "getCitiesByState",
+            "getCityById",
+            "getCityMetricDisplay",
+            "getCityMetricValue",
+            "getStateAbbr",
+            "getStateCenter",
+            "getStateNameEn",
+            "getStateNameZh",
+            "searchCitiesByName"
+          ],
+          "imports": [
+            "@/data/universities.json",
+            "@/lib/types"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "8d3d275874722d3d053b3a5ac37a328ba64ce1e54d084630de0b2658d8f90814",
+          "lines": 292,
+          "exports": [
+            "STATE_CENTERS",
+            "buildCityAggregates",
+            "cityMetricColor",
+            "getCitiesByState",
+            "getCityById",
+            "getCityMetricDisplay",
+            "getCityMetricValue",
+            "getStateAbbr",
+            "getStateCenter",
+            "getStateNameEn",
+            "getStateNameZh",
+            "searchCitiesByName"
+          ],
+          "imports": [
+            "@/data/universities.json",
+            "@/lib/types"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.9143092043798349,
+        "candidateGitHead": 0.9143092043798349
+      }
+    },
+    {
+      "relativePath": "src/lib/cost-format.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "147925913e38fa54f68a563f1127c03c082929019ceeddafa7f65c24261d3f61",
+          "lines": 92,
+          "exports": [
+            "FormattedCost",
+            "TUITION_EMPTY_LABEL",
+            "computeAnnualTotalRmb",
+            "computeCostMultiplier",
+            "formatRmb",
+            "formatRmbShort"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/lib/legacy-mappers.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "de9cbffadaa687807f367f03b33fcace19dff0660e93e586084887e5a39ad4cc",
+          "lines": 185,
+          "exports": [
+            "MISSING_COST",
+            "legacyPoiAnnualCostLabel",
+            "legacyPoiScoreLabel",
+            "summaryToLegacyUniversityPOI",
+            "tuitionRmbFromSummary"
+          ],
+          "imports": [
+            "@/config/states.config",
+            "@/domain/dataset",
+            "@/lib/cost-format",
+            "@/lib/types"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/lib/metrics.ts",
+      "category": "exactDuplicate",
+      "versions": {
+        "candidateWorktree": {
+          "sha256": "a3b8c1178f340cc19571b7c9f8392f58bf1ebb88f8193f2e28ed0bd44e896d8b",
+          "lines": 256,
+          "exports": [
+            "METRIC_DEFINITIONS",
+            "METRIC_ORDER",
+            "denormaliseDisplayValue",
+            "formatMetricValue",
+            "getMockMetricForFips",
+            "getMockRegionMetrics"
+          ],
+          "imports": [
+            "./types"
+          ]
+        },
+        "candidateGitHead": {
+          "sha256": "a3b8c1178f340cc19571b7c9f8392f58bf1ebb88f8193f2e28ed0bd44e896d8b",
+          "lines": 256,
+          "exports": [
+            "METRIC_DEFINITIONS",
+            "METRIC_ORDER",
+            "denormaliseDisplayValue",
+            "formatMetricValue",
+            "getMockMetricForFips",
+            "getMockRegionMetrics"
+          ],
+          "imports": [
+            "./types"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/lib/theme.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "9ae1ff1871097b1533db94226a370fa8debc8b8bdaa9de25f4d8428f4246efc5",
+          "lines": 220,
+          "exports": [
+            "ResolvedTheme",
+            "THEME_INIT_SCRIPT",
+            "ThemeMode",
+            "ThemeSnapshot",
+            "useTheme"
+          ],
+          "imports": [
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/lib/types.ts",
+      "category": "nearDuplicate",
+      "versions": {
+        "canonical": {
+          "sha256": "55869b227f5caa56f9cd7d2068ddc66bc02c24b30ab29682e2ce5dd9d3aaae92",
+          "lines": 629,
+          "exports": [
+            "Affordability",
+            "CampusImage",
+            "CampusPOI",
+            "ChineseCommunityLevel",
+            "CityAggregate",
+            "ColorSchemeId",
+            "Granularity",
+            "MapFilters",
+            "MapLayerConfig",
+            "MapRegion",
+            "MapTooltip",
+            "MapViewMode",
+            "MapViewState",
+            "MetricDefinition",
+            "MetricId",
+            "MetricLayer",
+            "NewsArticle",
+            "NewsCategory",
+            "POICluster",
+            "PaginatedResponse",
+            "Perspective",
+            "RankingTier",
+            "RegionMetric",
+            "StreetViewState",
+            "University",
+            "UniversityDetailResponse",
+            "UniversityNearby",
+            "UniversityPOI"
+          ],
+          "imports": []
+        },
+        "candidateWorktree": {
+          "sha256": "da81e0fbe26804bf7d560dce8b03985f3faa392355c6d0eb71355a7a35199396",
+          "lines": 621,
+          "exports": [
+            "Affordability",
+            "CampusImage",
+            "CampusPOI",
+            "ChineseCommunityLevel",
+            "CityAggregate",
+            "ColorSchemeId",
+            "Granularity",
+            "MapFilters",
+            "MapLayerConfig",
+            "MapRegion",
+            "MapTooltip",
+            "MapViewMode",
+            "MapViewState",
+            "MetricDefinition",
+            "MetricId",
+            "MetricLayer",
+            "NewsArticle",
+            "NewsCategory",
+            "POICluster",
+            "PaginatedResponse",
+            "Perspective",
+            "RankingTier",
+            "RegionMetric",
+            "StreetViewState",
+            "University",
+            "UniversityDetailResponse",
+            "UniversityNearby",
+            "UniversityPOI"
+          ],
+          "imports": []
+        },
+        "candidateGitHead": {
+          "sha256": "da81e0fbe26804bf7d560dce8b03985f3faa392355c6d0eb71355a7a35199396",
+          "lines": 621,
+          "exports": [
+            "Affordability",
+            "CampusImage",
+            "CampusPOI",
+            "ChineseCommunityLevel",
+            "CityAggregate",
+            "ColorSchemeId",
+            "Granularity",
+            "MapFilters",
+            "MapLayerConfig",
+            "MapRegion",
+            "MapTooltip",
+            "MapViewMode",
+            "MapViewState",
+            "MetricDefinition",
+            "MetricId",
+            "MetricLayer",
+            "NewsArticle",
+            "NewsCategory",
+            "POICluster",
+            "PaginatedResponse",
+            "Perspective",
+            "RankingTier",
+            "RegionMetric",
+            "StreetViewState",
+            "University",
+            "UniversityDetailResponse",
+            "UniversityNearby",
+            "UniversityPOI"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": 0.9779390030901518,
+        "candidateGitHead": 0.9779390030901518
+      }
+    },
+    {
+      "relativePath": "src/lib/url-params.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "332f8873928072fb47192a4492c7f0ee80b66f696dc5adccc963c70028954a33",
+          "lines": 116,
+          "exports": [
+            "BRIDGE_OWNED_KEYS",
+            "isBridgeOwnedKey",
+            "readAllSearchParams",
+            "readSearchParam",
+            "updateSearchParam"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/regional/load.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "182fa6880a847201a9d239cc7fc5c7724b572ae41cf24b7edcadcff570e64e1e",
+          "lines": 112,
+          "exports": [
+            "RegionalCounters",
+            "findRegionalRecord",
+            "getRegionalCounters",
+            "getRegionalDatasetMetadata",
+            "getRegionalManifest",
+            "getRegionalMetricDefinition",
+            "getRegionalMetricRecords",
+            "getRegionalValidation"
+          ],
+          "imports": [
+            "../../generated/regional-data/regional-data-manifest.json",
+            "../../generated/regional-data/regional-data-validation.json",
+            "../../generated/regional-data/regional-datasets.json",
+            "../../generated/regional-data/regional-metrics.json",
+            "../../generated/regional-data/regional-records.json",
+            "./types"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/regional/normalizeStateFips.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "9d2d01ebacb4e8819fb3ea81aba1bb627c4f9c61cce2da6a995d48184124000f",
+          "lines": 30,
+          "exports": [
+            "normalizeStateFips"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/regional/palettes.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "bab6b8e540cbd79151f4bafceb3f3b0450db5f0ad4804704eb6c5ec3f8c97fda",
+          "lines": 168,
+          "exports": [
+            "REGIONAL_PALETTES",
+            "bucketFromNormalized",
+            "getPalette"
+          ],
+          "imports": [
+            "./types"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/regional/types.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "8191956d34b52a7c44ca2adf5b649642b3b9e4404dc907f2df2411f883595d75",
+          "lines": 181,
+          "exports": [
+            "PaletteStops",
+            "REGIONAL_METRIC_IDS",
+            "RawDirection",
+            "RegionalDataManifest",
+            "RegionalDataValidation",
+            "RegionalDatasetMetadata",
+            "RegionalMetricDefinition",
+            "RegionalMetricId",
+            "RegionalMetricRecord",
+            "RegionalRecordsPayload",
+            "VerificationStatus"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/regional/useRegionalMetric.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "036ef3eb17c18cfa5dd6ba1f81245335c48e6d9ab3b00377a3124ab135a0c686",
+          "lines": 145,
+          "exports": [
+            "REGIONAL_URL_PARAM",
+            "REGIONAL_VALID_VALUES",
+            "SetRegionalMetric",
+            "parseRegionParam",
+            "serialiseRegionParam",
+            "useRegionalMetric"
+          ],
+          "imports": [
+            "@/lib/url-params",
+            "@/regional/types",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/regional/useSelectedRegionUrl.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "6653444308f52cb73cc42b55535c4c05afbdd432b33f1f2e8d14c1eb9c3717a6",
+          "lines": 101,
+          "exports": [
+            "UseSelectedRegionUrlResult",
+            "useSelectedRegionUrl"
+          ],
+          "imports": [
+            "./normalizeStateFips",
+            "next/navigation",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/schemas/dataset.schema.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "89c896c952a4b96d760b5ac18df399e1f86adabb02969a81df8216f85ba79589",
+          "lines": 557,
+          "exports": [
+            "__test",
+            "parseManifest",
+            "parseNewsArticleList",
+            "parsePerson",
+            "parseRegionDetail",
+            "parseRegionMetricRecord",
+            "parseRegionMetricRecordList",
+            "parseSourceReference",
+            "parseStatusDictionary",
+            "parseUniversityDetail",
+            "parseUniversitySearchResultList",
+            "parseUniversitySummary",
+            "parseUniversitySummaryList"
+          ],
+          "imports": [
+            "./validators",
+            "@/domain/dataset"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/schemas/stage5-preview.schema.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "396da817eefb995c52eb41e7bc4253b9e2a8ee62766a0350bda0f622e808fb8c",
+          "lines": 514,
+          "exports": [
+            "STAGE5_CONTRACT_VERSION",
+            "Stage5Detail",
+            "Stage5Manifest",
+            "Stage5RankingSummary",
+            "Stage5RegionEnvelope",
+            "Stage5SourceIndex",
+            "Stage5Summary",
+            "normalizeStage5Detail",
+            "normalizeStage5StatusDictionary",
+            "normalizeStage5Summary",
+            "parseStage5Detail",
+            "parseStage5Manifest",
+            "parseStage5RegionEnvelope",
+            "parseStage5SourceIndex",
+            "parseStage5Summaries",
+            "parseStage5Summary"
+          ],
+          "imports": [
+            "@/config/status-dictionary",
+            "@/domain/dataset"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/schemas/validators.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "f511a0f9d50a10e72056aa6cb637236ef1cc2873866726a33847fa296edd86c1",
+          "lines": 69,
+          "exports": [
+            "OneOfResult",
+            "ValidationError",
+            "ValidationIssue",
+            "ValidationResult",
+            "combine",
+            "validateNullable",
+            "validateNumber",
+            "validateOneOf",
+            "validateString"
+          ],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/server/ai-context.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "2d0b2c70470abaa7c8c0e3025bf54a733b35023ac35cf647294092b5af0c38ed",
+          "lines": 199,
+          "exports": [
+            "AiContextPayload",
+            "AiContextRequest",
+            "buildAiContext",
+            "handleAiContextRoute"
+          ],
+          "imports": [
+            "@/domain/dataset",
+            "@/schemas/dataset.schema",
+            "@/server/pathos-preview",
+            "next/server"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/server/backend-preview.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "df7386044efc2065f80175a365342f133e82ee2e5fea41308552c6b7cfa8d6af",
+          "lines": 336,
+          "exports": [
+            "PreviewBundleError",
+            "handleBackendPreviewRoute",
+            "previewErrorResponse"
+          ],
+          "imports": [
+            "@/schemas/stage5-preview.schema",
+            "next/server",
+            "node:fs/promises",
+            "node:path"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/server/fixture-preview.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "078c06aa7b4fb5351354b55230a321ec6cbdb064939ec54e93b74253b05a4913",
+          "lines": 496,
+          "exports": [
+            "handleFixturePreviewRoute",
+            "loadUniversities"
+          ],
+          "imports": [
+            "next/server",
+            "node:fs/promises",
+            "node:path"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/server/pathos-preview.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "65c8a39d61d2889868c96677915cce16bf6323fcb42791f199dabe0cf24f59e4",
+          "lines": 43,
+          "exports": [
+            "PathosDataMode",
+            "createPreviewRouteHandler",
+            "handlePreviewRoute",
+            "resolveDataMode"
+          ],
+          "imports": [
+            "@/server/backend-preview",
+            "@/server/fixture-preview",
+            "next/server"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/services/data-source-provider.tsx",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "ef407c8b47d4898c95e9fb0aa1f310c2c9cc5c6fa935cbf02f3b4cc17df66c23",
+          "lines": 31,
+          "exports": [
+            "DataSourceProvider",
+            "useDataSource"
+          ],
+          "imports": [
+            "@/services/pathos-data-source",
+            "@/services/preview-api-data-source",
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/services/pathos-data-source.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "36a58b900fa372b1a04663c4a42e077f6c085e53adf0c024a8015bdb754dd2aa",
+          "lines": 51,
+          "exports": [
+            "PathOSDataSource"
+          ],
+          "imports": [
+            "@/domain/dataset"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/services/preview-api-data-source.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "534bbd9171dc025f697511fca97e4c4ebd5042331242b50c174c14a8c2798038",
+          "lines": 231,
+          "exports": [
+            "PreviewApiDataSource",
+            "fetchPreviewJson"
+          ],
+          "imports": [
+            "./pathos-data-source",
+            "@/domain/dataset",
+            "@/schemas/dataset.schema",
+            "@/schemas/validators"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/services/unavailable-data-source.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "b1d91816361829d967ff0be926340f655bb4fd1be15b627039248a83b50de8b2",
+          "lines": 60,
+          "exports": [
+            "UnavailableDataSource"
+          ],
+          "imports": [
+            "./pathos-data-source",
+            "@/domain/dataset"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/state/compare-store.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "439185bb10e2c85c5d2216119aa87ec848a501f5df150f7409db3da1e9dd0dc3",
+          "lines": 171,
+          "exports": [
+            "CompareApi",
+            "useCompareStore"
+          ],
+          "imports": [
+            "react"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/fixtures/city-boundaries.fixture.json",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "79e3ef78bd082a260c883404fce5b5374311170eb63a74b5d6254e4be732472b",
+          "lines": 1,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/fixtures/demo-portfolio.fixture.json",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "091da7c4cf712b5619e1d53fe2defa719c93c06e95aa3965335ddca6efe68925",
+          "lines": 28,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/fixtures/news.fixture.json",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "82458b6bde40a74459aad4c813a2e7f5f598bc016b7ed0d50c8d6299e83170e5",
+          "lines": 1274,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/fixtures/region-metrics.fixture.json",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "29813680257623a9d21da3c0e208260088d10b3a35bc32fbb6e2548a6f937790",
+          "lines": 4113,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/fixtures/state-options.fixture.json",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "10133bc40822497cca20e4e64d3a0b39d938e315e6fef3e41bfe581e488dc161",
+          "lines": 257,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/fixtures/universities.fixture.json",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "a0441f5a7542c30b4bca1f7733652ad1acc74afb6b1b0fd64a46ef9e38e38576",
+          "lines": 2996,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/fixtures/university-rankings.fixture.json",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "4ada2205352c01fbdb5f145e39498d1b1ede4fa21e89fafcd82f8aff9da1b17e",
+          "lines": 336,
+          "exports": [],
+          "imports": []
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/legacy-mapper.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "46a2854550f0e75e6e850113f5d4960358d9e959135560f518b382ea4a86b5ff",
+          "lines": 197,
+          "exports": [],
+          "imports": [
+            "@/domain/dataset",
+            "@/lib/city-utils",
+            "@/lib/cost-format",
+            "@/lib/legacy-mappers",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage5-closing-ui.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "fbc30be818fd400de6b90d656726b81af9b3d64c7183d3235838a0dce4b091e9",
+          "lines": 211,
+          "exports": [],
+          "imports": [
+            "@/app/university/[id]/page",
+            "@/components/shared/data-states",
+            "@/hooks/use-view-state-bridge",
+            "@/schemas/dataset.schema",
+            "@/schemas/stage5-preview.schema",
+            "@/server/pathos-preview",
+            "@/services/preview-api-data-source",
+            "node:fs/promises",
+            "node:os",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage5-integration.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "d6da934b6614b69c7481252e23515eefc711e6173af8da140c2cd8bcc9146f44",
+          "lines": 433,
+          "exports": [],
+          "imports": [
+            "@/schemas/dataset.schema",
+            "@/schemas/stage5-preview.schema",
+            "@/server/ai-context",
+            "@/server/pathos-preview",
+            "@/services/preview-api-data-source",
+            "node:fs/promises",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7a-theme-heatmap.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "e4064ebef6d0f37714e22a1147769f410bb497e1723a4c75f1eb3ffd02ddc3bf",
+          "lines": 297,
+          "exports": [],
+          "imports": [
+            "@/components/map/MapCanvas",
+            "@/lib/legacy-mappers",
+            "@/lib/theme",
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7b-a1-closing-patch-v2.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "4f82094c29ff8d15862f5db3b56bec9c9bd1140faf1c664e22bf66bcd466ef49",
+          "lines": 502,
+          "exports": [
+            "updateSearchParam"
+          ],
+          "imports": [
+            "@/components/map/regional/RegionalStateLayer",
+            "@/lib/url-params",
+            "@/regional/types",
+            "@/regional/useRegionalMetric",
+            "next/dynamic",
+            "node:fs",
+            "node:path",
+            "topojson-client",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7b-a1-closing-patch-v3.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "f8cd26f4bd7b3eb9e76f98229d95e621d9aafca6c8b4d216cbbf876b1a95fb95",
+          "lines": 428,
+          "exports": [
+            "BRIDGE_OWNED_KEYS",
+            "updateSearchParam",
+            "useViewStateBridge"
+          ],
+          "imports": [
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7b-a3-1-region-selection.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "e42acbdc0cf0b09e5117e181b798eba6fafc81803770a3a0924c48815cccd1e6",
+          "lines": 369,
+          "exports": [
+            "RegionDetailPanel",
+            "normalizeStateFips",
+            "useSelectedRegionUrl"
+          ],
+          "imports": [
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7b-a3-2-news-entry.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "7d3c1a8762b2115ee5b7313bb9da4c5f72b172064a20d45552e4655a4bbb144e",
+          "lines": 310,
+          "exports": [
+            "NEWS_HERO_LINK",
+            "NewsEntryHero"
+          ],
+          "imports": [
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7b-a3-3-photography.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "63d76cd704ab8fab6722dbcaa98b6f8267d2dac42866ff793418f100e8b35983",
+          "lines": 532,
+          "exports": [],
+          "imports": [
+            "next/image",
+            "node:crypto",
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7b-a3-ui-collision.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "764bd46e2b3811d33800af7d3e1f2a919a270a073e2fe5a803f5eb3c1c88a00d",
+          "lines": 485,
+          "exports": [
+            "useEdgeFlippedPosition"
+          ],
+          "imports": [
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7ba-baidu-pilot.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "c3c19c31bba41b1a03bfaf19a47039f9a5f4958c1c892f9601972107fadd135c",
+          "lines": 201,
+          "exports": [],
+          "imports": [
+            "@/components/map/providers/baidu/BaiduMapProviderAdapter",
+            "@/components/map/providers/baidu/load-baidu-map",
+            "@/components/map/providers/maplibre/MapLibreProviderAdapter",
+            "@/components/map/providers/types",
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7ba1-heatmap-control-unification.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "51113d3d6546d2028260c5effd94ac9c711a3b91984eef0072b577fcec04fc24",
+          "lines": 415,
+          "exports": [],
+          "imports": [
+            "@/components/map/map-zindex",
+            "@/regional/load",
+            "@/regional/types",
+            "@/regional/useRegionalMetric",
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7baf-regional-styleload-lifecycle.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "3c4a499c78460427efb0634adc24087f64036c468f65887895b4c48b5d917e3a",
+          "lines": 458,
+          "exports": [],
+          "imports": [
+            "@/components/map/regional/RegionalStateLayer",
+            "node:fs",
+            "node:path",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7r-maplibre-style.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "d80bc0c058d0b962648065eed654933eabf993c5bd0c32e3c82faa9ee624f62a",
+          "lines": 255,
+          "exports": [],
+          "imports": [
+            "@/components/map/MapCanvas",
+            "maplibre-gl",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    },
+    {
+      "relativePath": "src/test/unit/stage7r-regional-heatmap.test.ts",
+      "category": "canonicalOnly",
+      "versions": {
+        "canonical": {
+          "sha256": "b17758982c163ece5fcc221fb2812a67cd635aaf2c6498848d42d0c2bb59799a",
+          "lines": 295,
+          "exports": [],
+          "imports": [
+            "../../../generated/regional-data/regional-data-manifest.json",
+            "../../../generated/regional-data/regional-data-validation.json",
+            "../../../generated/regional-data/regional-datasets.json",
+            "../../../generated/regional-data/regional-metrics.json",
+            "../../../generated/regional-data/regional-records.json",
+            "@/regional/load",
+            "@/regional/palettes",
+            "@/regional/types",
+            "vitest"
+          ]
+        }
+      },
+      "similarityToCanonical": {
+        "candidateWorktree": null,
+        "candidateGitHead": null
+      }
+    }
+  ],
+  "count": 144
+}

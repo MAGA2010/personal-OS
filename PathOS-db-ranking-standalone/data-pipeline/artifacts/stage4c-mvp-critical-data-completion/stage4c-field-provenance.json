@@ -1,0 +1,1557 @@
+{
+  "record_type": "stage4c_field_provenance",
+  "records": [
+    {
+      "record_id": "stage4c:candidate-v2:arizona-state-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:arizona-state-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:arizona-state-university:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:arizona-state-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:boston-college:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:boston-college:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:boston-college:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:boston-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:boston-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:boston-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:brown-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:brown-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:brown-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:bucknell-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:bucknell-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:bucknell-university:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:bucknell-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:california-institute-of-technology:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:california-institute-of-technology:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:california-institute-of-technology:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:carnegie-mellon-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:carnegie-mellon-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:carnegie-mellon-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:columbia-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:columbia-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:columbia-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:cornell-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:cornell-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:cornell-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:dartmouth-college:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:dartmouth-college:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:dartmouth-college:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:duke-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:duke-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:duke-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:emory-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:emory-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:emory-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:georgetown-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:georgetown-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:georgetown-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:georgia-institute-of-technology:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:georgia-institute-of-technology:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:georgia-institute-of-technology:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:harvard-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:harvard-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:harvard-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:harvey-mudd-college:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:harvey-mudd-college:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:indiana-university-bloomington:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:indiana-university-bloomington:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:indiana-university-bloomington:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:indiana-university-bloomington:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:johns-hopkins-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:johns-hopkins-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:johns-hopkins-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:lehigh-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:lehigh-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:lehigh-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:loyola-university-chicago:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:loyola-university-chicago:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:loyola-university-chicago:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:loyola-university-chicago:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:massachusetts-institute-of-technology:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:massachusetts-institute-of-technology:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:massachusetts-institute-of-technology:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:new-york-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:new-york-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:new-york-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:northeastern-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:northeastern-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:northeastern-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:northwestern-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:northwestern-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:northwestern-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:ohio-state-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:ohio-state-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:ohio-state-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:olin-college-of-engineering:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:olin-college-of-engineering:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:princeton-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:princeton-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:princeton-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:purdue-university-main-campus:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:purdue-university-main-campus:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:purdue-university-main-campus:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rice-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rice-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rice-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rose-hulman-institute-of-technology:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rose-hulman-institute-of-technology:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rose-hulman-institute-of-technology:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rose-hulman-institute-of-technology:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rutgers-university-new-brunswick:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rutgers-university-new-brunswick:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:rutgers-university-new-brunswick:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:stanford-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:stanford-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:stanford-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:texas-a-and-m-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:texas-a-and-m-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:texas-a-and-m-university:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:texas-a-and-m-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:tufts-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:tufts-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:tufts-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-berkeley:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-berkeley:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-berkeley:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-davis:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-davis:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-davis:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-irvine:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-irvine:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-irvine:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-los-angeles:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-los-angeles:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-los-angeles:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-san-diego:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-san-diego:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-san-diego:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-santa-barbara:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-santa-barbara:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-california-santa-barbara:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-chicago:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-chicago:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-chicago:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-colorado-boulder:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-colorado-boulder:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-colorado-boulder:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-colorado-boulder:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-florida:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-florida:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-florida:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-georgia:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-georgia:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-georgia:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-illinois-urbana-champaign:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-illinois-urbana-champaign:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-illinois-urbana-champaign:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-iowa:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-iowa:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-iowa:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-iowa:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-maryland-college-park:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-maryland-college-park:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-maryland-college-park:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-michigan-ann-arbor:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-michigan-ann-arbor:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-michigan-ann-arbor:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-minnesota-twin-cities:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-minnesota-twin-cities:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-minnesota-twin-cities:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-minnesota-twin-cities:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-north-carolina-chapel-hill:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-north-carolina-chapel-hill:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-north-carolina-chapel-hill:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-notre-dame:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-notre-dame:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-notre-dame:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-pennsylvania:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-pennsylvania:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-pennsylvania:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-rochester:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-rochester:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-rochester:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-south-carolina-columbia:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-south-carolina-columbia:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-south-carolina-columbia:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-south-carolina-columbia:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-southern-california:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-southern-california:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-southern-california:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-texas-austin:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-texas-austin:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-texas-austin:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-virginia:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-virginia:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-virginia:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-washington:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-washington:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-washington:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-wisconsin-madison:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-wisconsin-madison:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:university-of-wisconsin-madison:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:vanderbilt-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:vanderbilt-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:vanderbilt-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:washington-university-in-st-louis:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:washington-university-in-st-louis:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:washington-university-in-st-louis:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:yale-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:yale-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "record_id": "stage4c:candidate-v2:yale-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    }
+  ]
+}

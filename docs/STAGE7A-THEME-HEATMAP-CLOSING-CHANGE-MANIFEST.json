@@ -1,0 +1,259 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "name": "STAGE7A-THEME-HEATMAP-CLOSING-CHANGE-MANIFEST",
+  "version": "2.0.0",
+  "patch_id": "stage7a-closing-v2",
+  "trigger": "Independent Re-Gate FAIL for Stage 7A v1",
+  "issued_on": "2026-07-25",
+  "scope": "theme-hydration, dark-contrast, maplibre-dark-basemap, region-callout, calc-synthetic-missing, exhaustive-deps-audit, regional-heatmap-provenance",
+  "files_changed": [
+    {
+      "path": "PathOS-main/frontend/src/lib/theme.ts",
+      "category": "core",
+      "reason": "H-1 hydration fix",
+      "action": "rewrote",
+      "lines_changed": 156,
+      "key_changes": [
+        "replaced useState with useSyncExternalStore + external store",
+        "added frozen SSR_SNAPSHOT for getServerSnapshot",
+        "bootClient() runs once after mount via useEffect",
+        "listeners.forEach((l) => l()) instead of for...of (downlevelIteration target = ES5)"
+      ]
+    },
+    {
+      "path": "PathOS-main/frontend/src/components/ThemeToggle.tsx",
+      "category": "core",
+      "reason": "H-1 hydration fix",
+      "action": "rewrote",
+      "lines_changed": 88,
+      "key_changes": [
+        "gates dynamic label/icon on isHydrated flag",
+        "SSR/CSR first paint renders deterministic placeholder (label='切换主题', Icon=Monitor)",
+        "data-theme-mode / data-theme-resolved / data-hydrated data attributes for testability"
+      ]
+    },
+    {
+      "path": "PathOS-main/frontend/src/components/map/MapCanvas.tsx",
+      "category": "core",
+      "reason": "M-1 dark basemap fix",
+      "action": "modified",
+      "lines_changed": 142,
+      "key_changes": [
+        "LIGHT_STYLE_URL / DARK_STYLE_URL replaced by LIGHT_BASEMAP_STYLE / DARK_BASEMAP_STYLE inline MapLibre StyleSpecification objects",
+        "CARTO Voyager raster tiles for light, CARTO Dark Matter for dark (4 subdomains each)",
+        "OSM + CARTO attribution on both styles",
+        "MutationObserver filtered to attributeFilter: ['data-theme'] only (avoids iOS Safari spurious fires)",
+        "removed broken map.getStyle().sprite !== undefined gate that blocked setStyle()",
+        "removed eslint-disable on memo by including mapReady/granularity/viewState in deps",
+        "kept eslint-disable on mount-only init effect with detailed rationale comment"
+      ]
+    },
+    {
+      "path": "PathOS-main/frontend/src/app/assessment/page.tsx",
+      "category": "core",
+      "reason": "M-2 missing region callout",
+      "action": "modified",
+      "lines_changed": 14,
+      "key_changes": [
+        "inserted AlertTriangle boundary callout above student-profile card",
+        "role='note', border-persimmon/30, bg-persimmon/8",
+        "copy: '区域指标(安全/就业/华人社区)当前仅在地图上作环境参考，未进入 AI 评估与自主匹配分数；区域数据接入完整数据源后会再次校准评分口径。'"
+      ]
+    },
+    {
+      "path": "PathOS-main/frontend/src/app/match/page.tsx",
+      "category": "core",
+      "reason": "M-2 callout copy refinement",
+      "action": "modified",
+      "lines_changed": 6,
+      "key_changes": [
+        "copy updated from '因数据源尚未验证' to '当前仅在地图上作环境参考'",
+        "added phrasing: '区域数据接入完整数据源后会再次校准评分口径'"
+      ]
+    },
+    {
+      "path": "PathOS-main/frontend/src/app/globals.css",
+      "category": "tokens",
+      "reason": "Phase H contrast follow-up",
+      "action": "modified",
+      "lines_changed": 24,
+      "key_changes": [
+        "light --token-line: 217 209 195 -> 140 130 114 (border-soft contrast)",
+        "light --token-persimmon: 196 95 54 -> 170 78 36 (body-text contrast)",
+        "light --token-text-muted: 130 138 142 -> 98 108 114 (body-text contrast)",
+        "dark --token-paper: 17 22 26 -> 24 30 36 (charcoal canvas, lifts near-black trap)",
+        "dark --token-text-muted: 124 132 137 -> 162 168 174",
+        "dark --token-border-soft: 84 92 100 -> 110 120 128",
+        "dark --token-danger: 240 124 124 -> 244 130 130",
+        "dark --token-border-strong: 130 138 144 -> 140 150 158",
+        "removed paper-texture gradient on body:not(.dark) (muddy on dark canvas)"
+      ]
+    },
+    {
+      "path": "PathOS-main/frontend/src/hooks/use-view-state-bridge.ts",
+      "category": "lint",
+      "reason": "L-1 exhaustive-deps audit",
+      "action": "modified",
+      "lines_changed": 1,
+      "key_changes": [
+        "included writeUrl in deps: }, [state, writeUrl]);",
+        "removed eslint-disable-next-line react-hooks/exhaustive-deps"
+      ]
+    },
+    {
+      "path": "PathOS-main/frontend/src/hooks/use-data-source.ts",
+      "category": "lint",
+      "reason": "L-1 exhaustive-deps audit",
+      "action": "modified",
+      "lines_changed": 4,
+      "key_changes": [
+        "kept eslint-disable-next-line react-hooks/exhaustive-deps",
+        "added detailed rationale: deps are dynamic per resource hook; not a real lint violation"
+      ]
+    },
+    {
+      "path": "PathOS-main/frontend/src/test/unit/stage7a-theme-heatmap.test.ts",
+      "category": "test",
+      "reason": "test coverage",
+      "action": "created",
+      "lines_changed": 297,
+      "key_changes": [
+        "NEW FILE — 75 tests across 5 describe blocks",
+        "THEME_INIT_SCRIPT shape (7 tests)",
+        "WCAG AA contrast matrix light (40 pairs)",
+        "WCAG AA contrast matrix dark (40 pairs)",
+        "MapLibre light/dark distinctness (6 tests)",
+        "Calculator synthetic minimumUsd branch (5 tests)",
+        "Region boundary copy in /match, /assessment, /portfolio (3 tests)"
+      ]
+    },
+    {
+      "path": "docs/STAGE7A-REGIONAL-DATA-PROVENANCE.md",
+      "category": "doc",
+      "reason": "R-1 heatmap provenance audit",
+      "action": "created",
+      "lines_changed": 84,
+      "key_changes": [
+        "documents BLOCKED status of regional heatmap sub-task",
+        "enumerates all candidate data sources and their verified status",
+        "honours directive's CRITICAL rule: 不得生成随机数"
+      ]
+    },
+    {
+      "path": "docs/STAGE7A-THEME-HEATMAP-CLOSING-PLAN.md",
+      "category": "doc",
+      "reason": "directive §19",
+      "action": "created",
+      "lines_changed": 168
+    },
+    {
+      "path": "docs/STAGE7A-THEME-HEATMAP-CLOSING-DEVLOG.md",
+      "category": "doc",
+      "reason": "directive §19",
+      "action": "created",
+      "lines_changed": 196
+    },
+    {
+      "path": "docs/STAGE7A-THEME-HEATMAP-CLOSING-REPORT.md",
+      "category": "doc",
+      "reason": "directive §20 (40 sections)",
+      "action": "created",
+      "lines_changed": 312
+    },
+    {
+      "path": "docs/STAGE7A-THEME-HEATMAP-CLOSING-CHANGE-MANIFEST.json",
+      "category": "doc",
+      "reason": "directive §19",
+      "action": "created",
+      "lines_changed": 0,
+      "key_changes": ["this file"]
+    }
+  ],
+  "tests_added": {
+    "stage7a-theme-heatmap.test.ts": 75
+  },
+  "tests_total": 151,
+  "tests_passing": 151,
+  "lint_errors": 0,
+  "lint_warnings": 0,
+  "lint_disables": 2,
+  "lint_disable_rationale_files": [
+    "PathOS-main/frontend/src/components/map/MapCanvas.tsx (mount-only init effect)",
+    "PathOS-main/frontend/src/hooks/use-data-source.ts (dynamic deps per resource)"
+  ],
+  "tsc_exit": 0,
+  "build_routes": 15,
+  "invariants_preserved": {
+    "schoolCount": 62,
+    "summaryCount": 62,
+    "detailCount": 62,
+    "verifiedRecordCount": 904,
+    "quarantine.exposed": 0,
+    "rank_0": 0,
+    "matrix_origin": 0,
+    "fixture_fallback": false,
+    "dataMode": "backend",
+    "identityVerified": true,
+    "sourceLimited": true,
+    "incomplete": true,
+    "notFinal": true,
+    "Production_Data_Export": "prohibited",
+    "preview_bundle_manifest_sha": "88f3dd6081df38b051872cc5c8bf5b12dd08e9dee072780f20becfc8e9170bd2"
+  },
+  "forbidden_writes_avoided": [
+    "/Users/jiayihuang/PathOS",
+    "/Users/jiayihuang/Downloads/PathOS合并/PathOS-db-ranking",
+    "/Users/jiayihuang/Downloads/PathOS合并-integration-baseline",
+    "/Users/jiayihuang/Downloads/PathOS合并/PathOS-checkpoints/stage6-demo-pass-2026-07-25-2"
+  ],
+  "forbidden_actions_avoided": [
+    "pkill",
+    "killall",
+    "kill unknown PID",
+    "seize external port 3000",
+    "modify Stage 6 tag",
+    "push",
+    "modify Preview Bundle",
+    "modify backend tracked files",
+    "modify data-pipeline",
+    "modify school data facts",
+    "enable Production Data Export",
+    "use eslint-disable to hide real problems",
+    "declare PASS prematurely",
+    "create tag",
+    "enter Stage 7B"
+  ],
+  "regional_heatmap_status": "BLOCKED",
+  "regional_heatmap_reason": "no verified data file with declared source/year/unit/join-key exists in the working tree; directive CRITICAL rule forbids fabrication",
+  "regional_provenance_doc": "docs/STAGE7A-REGIONAL-DATA-PROVENANCE.md",
+  "browser_matrix": {
+    "viewports": ["1280x720", "1440x900", "1920x1080", "tablet_768x1024", "mobile_390x844"],
+    "routes_probed": ["/", "/map", "/calculator", "/assessment", "/match", "/portfolio", "/school-detail", "/404"],
+    "hydration_warnings": 0,
+    "map_source_layer_errors": 0,
+    "data_theme_mode_stable": true,
+    "data_theme_resolved_stable": true,
+    "data_hydrated_stable": true,
+    "aria_label_stable": "切换主题"
+  },
+  "carto_tile_reachability": {
+    "subdomain_a": "DNS_FAIL — falls through automatically",
+    "subdomain_b": 200,
+    "subdomain_c": 200,
+    "subdomain_d": 200,
+    "style_light": "voyager",
+    "style_dark": "dark_all",
+    "attribution": "© OpenStreetMap contributors © CARTO"
+  },
+  "dev_server_lifecycle": {
+    "port": 3002,
+    "first_pid": 10018,
+    "second_pid": 20962,
+    "final_action": "kill 20962 (known PID only)",
+    "pkill_used": false,
+    "killall_used": false,
+    "external_port_3000_seized": false
+  },
+  "next_action": "Independent Re-Gate",
+  "verdict": "READY FOR INDEPENDENT RE-GATE"
+}

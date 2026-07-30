@@ -1,0 +1,111 @@
+{
+  "record_type": "stage3d_fill_program_people_wave6_program_people_observations",
+  "observations": [
+    {
+      "slot_id": "candidate-v2:boston-college:slot-1", "candidate_id": "candidate-v2:boston-college", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:mian-azmy:boston-college:wave6-bc-mian-azmy-finance", "person_name": "Mian Azmy", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-bc-mian-azmy-finance"],
+      "attendance_source_id": "wave6-bc-mian-azmy-finance", "program_source_id": "wave6-bc-mian-azmy-finance",
+      "attendance_quote": "Mian Azmy ’02", "program_quote": "Mian Azmy graduated from the Carroll School of Management with a major in finance.",
+      "match_notes": "Boston College identifies Azmy as a class-year graduate of the Carroll School with a Finance major.",
+      "reviewed_scope": ["official Boston College alumni networking profile"]
+    },
+    {
+      "slot_id": "candidate-v2:boston-university:slot-1", "candidate_id": "candidate-v2:boston-university", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:hector-meneses-jr:boston-university:wave6-bu-hector-meneses-business", "person_name": "Hector Meneses, Jr.", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-bu-hector-meneses-business"],
+      "attendance_source_id": "wave6-bu-hector-meneses-business", "program_source_id": "wave6-bu-hector-meneses-business",
+      "attendance_quote": "Hector holds a Bachelor of Science in Business Administration, concentrating in Accounting and Finance from Boston University.",
+      "program_quote": "Hector holds a Bachelor of Science in Business Administration, concentrating in Accounting and Finance from Boston University.",
+      "match_notes": "BU Questrom states Meneses holds a Boston University BS in Business Administration.",
+      "reviewed_scope": ["official Boston University Questrom alumni profile"]
+    },
+    {
+      "slot_id": "candidate-v2:california-institute-of-technology:slot-1", "candidate_id": "candidate-v2:california-institute-of-technology", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:niv-karthikeyan:california-institute-of-technology:wave6-caltech-niv-karthikeyan-cs", "person_name": "Niv Karthikeyan", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-caltech-niv-karthikeyan-cs"],
+      "attendance_source_id": "wave6-caltech-niv-karthikeyan-cs", "program_source_id": "wave6-caltech-niv-karthikeyan-cs",
+      "attendance_quote": "BS ’20 | Computer Science, History", "program_quote": "BS ’20 | Computer Science, History",
+      "match_notes": "Caltech Alumni states Karthikeyan earned a 2020 BS with Computer Science and History.",
+      "reviewed_scope": ["official Caltech alumni profile"]
+    },
+    {
+      "slot_id": "candidate-v2:cornell-university:slot-4", "candidate_id": "candidate-v2:cornell-university", "program_slot": 4, "slot_status": "identified_person",
+      "person_id": "person:peter-b-orthwein:cornell-university:wave6-cornell-peter-orthwein-ag-econ", "person_name": "Peter B. Orthwein", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-cornell-peter-orthwein-ag-econ"],
+      "attendance_source_id": "wave6-cornell-peter-orthwein-ag-econ", "program_source_id": "wave6-cornell-peter-orthwein-ag-econ",
+      "attendance_quote": "Peter B. Orthwein ’68, MBA ’69", "program_quote": "A double Cornellian, Peter Orthwein earned a degree in agricultural economics in 1968 and an MBA in 1969.",
+      "match_notes": "Cornell states Orthwein earned its Agricultural Economics degree in 1968.",
+      "reviewed_scope": ["official Cornell alumni award profile"]
+    },
+    {
+      "slot_id": "candidate-v2:princeton-university:slot-2", "candidate_id": "candidate-v2:princeton-university", "program_slot": 2, "slot_status": "identified_person",
+      "person_id": "person:shruti-venkat:princeton-university:wave6-princeton-shruti-venkat-econ", "person_name": "Shruti Venkat", "relationship_type": "graduated",
+      "match_type": "direct_related_program_match", "program_match_basis": "source_stated_related_program", "source_ids": ["wave6-princeton-shruti-venkat-econ"],
+      "attendance_source_id": "wave6-princeton-shruti-venkat-econ", "program_source_id": "wave6-princeton-shruti-venkat-econ",
+      "attendance_quote": "Graduating Summa Cum Laude from Princeton in 2023 and winning awards for her junior and senior theses, Venkat is now an investor at Insight Partners, a software venture capital and private equity company.",
+      "program_quote": "Venkat majored in Economics and completed certificates in finance and statistics and machine learning to develop her skills in these areas.",
+      "match_notes": "Princeton states Venkat graduated in 2023 and majored in Economics, directly related to the Econometrics slot.",
+      "reviewed_scope": ["official Princeton Economics alumni spotlight"]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-california-davis:slot-4", "candidate_id": "candidate-v2:university-of-california-davis", "program_slot": 4, "slot_status": "identified_person",
+      "person_id": "person:deb-frincke:university-of-california-davis:wave6-ucdavis-deb-frincke-cs", "person_name": "Deb Frincke", "relationship_type": "alumnus_unspecified",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-ucdavis-deb-frincke-cs"],
+      "attendance_source_id": "wave6-ucdavis-deb-frincke-cs", "program_source_id": "wave6-ucdavis-deb-frincke-cs",
+      "attendance_quote": "Since her time as a computer science student at UC Davis, Deb Frincke, B.S. ’85, M.S. ’89, Ph.D. ’92 has been at the forefront of cybersecurity as it has become an increasingly important part of modern life.",
+      "program_quote": "Since her time as a computer science student at UC Davis, Deb Frincke, B.S. ’85, M.S. ’89, Ph.D. ’92 has been at the forefront of cybersecurity as it has become an increasingly important part of modern life.",
+      "match_notes": "UC Davis CS identifies Frincke as its Computer Science student and alumna with class-year degrees; the exact degree-conferral wording is not repeated, so relationship remains alumnus unspecified.",
+      "reviewed_scope": ["official UC Davis Computer Science alumni page"]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-california-los-angeles:slot-4", "candidate_id": "candidate-v2:university-of-california-los-angeles", "program_slot": 4, "slot_status": "identified_person",
+      "person_id": "person:michael-waterstone:university-of-california-los-angeles:wave6-ucla-michael-waterstone-poli-sci", "person_name": "Michael Waterstone", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-ucla-michael-waterstone-poli-sci"],
+      "attendance_source_id": "wave6-ucla-michael-waterstone-poli-sci", "program_source_id": "wave6-ucla-michael-waterstone-poli-sci",
+      "attendance_quote": "The appointment brings Waterstone back to his alma mater: He earned his bachelor’s degree in political science from UCLA.",
+      "program_quote": "The appointment brings Waterstone back to his alma mater: He earned his bachelor’s degree in political science from UCLA.",
+      "match_notes": "UCLA Political Science states Waterstone earned a UCLA bachelor's degree in Political Science.",
+      "reviewed_scope": ["official UCLA Political Science notable alumni page"]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-colorado-boulder:slot-2", "candidate_id": "candidate-v2:university-of-colorado-boulder", "program_slot": 2, "slot_status": "identified_person",
+      "person_id": "person:christian-dokken:university-of-colorado-boulder:wave6-colorado-christian-dokken-business", "person_name": "Christian Dokken", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-colorado-christian-dokken-business"],
+      "attendance_source_id": "wave6-colorado-christian-dokken-business", "program_source_id": "wave6-colorado-christian-dokken-business",
+      "attendance_quote": "Christian graduated from the University of Colorado Boulder in December of 2021 with a Bachelor of Science in Business Administration and a double emphasis in finance and marketing.",
+      "program_quote": "Christian graduated from the University of Colorado Boulder in December of 2021 with a Bachelor of Science in Business Administration and a double emphasis in finance and marketing.",
+      "match_notes": "Colorado's Leeds alumni profile states a BS in Business Administration.",
+      "reviewed_scope": ["official University of Colorado Boulder Leeds alumni spotlight"]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-michigan-ann-arbor:slot-2", "candidate_id": "candidate-v2:university-of-michigan-ann-arbor", "program_slot": 2, "slot_status": "identified_person",
+      "person_id": "person:alex-cater:university-of-michigan-ann-arbor:wave6-michigan-alex-cater-business", "person_name": "Alex Cater", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-michigan-alex-cater-business"],
+      "attendance_source_id": "wave6-michigan-alex-cater-business", "program_source_id": "wave6-michigan-alex-cater-business",
+      "attendance_quote": "Alex Cater, BBA '09", "program_quote": "Alex has a Bachelor of Business Administration from the Ross School at University of Michigan and a Master of Business Administration from the Wharton School at the University of Pennsylvania.",
+      "match_notes": "Michigan Ross states Cater holds its Bachelor of Business Administration.",
+      "reviewed_scope": ["official Michigan Ross alumni profile"]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-1", "candidate_id": "candidate-v2:university-of-notre-dame", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:trent-a-grocock:university-of-notre-dame:wave6-notre-dame-trent-grocock-finance", "person_name": "Trent A. Grocock", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-notre-dame-trent-grocock-finance"],
+      "attendance_source_id": "wave6-notre-dame-trent-grocock-finance", "program_source_id": "wave6-notre-dame-trent-grocock-finance",
+      "attendance_quote": "Trent graduated from Notre Dame in 1989 with a bachelor’s degree in Business Administration in Finance.",
+      "program_quote": "Trent graduated from Notre Dame in 1989 with a bachelor’s degree in Business Administration in Finance.",
+      "match_notes": "Notre Dame states Grocock graduated with a bachelor's degree in Business Administration in Finance.",
+      "reviewed_scope": ["official University of Notre Dame leadership biography"]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-virginia:slot-1", "candidate_id": "candidate-v2:university-of-virginia", "program_slot": 1, "slot_status": "identified_person",
+      "person_id": "person:burhan-muhammad-chaudhry:university-of-virginia:wave6-uva-burhan-chaudhry-cs", "person_name": "Burhan Muhammad Chaudhry", "relationship_type": "graduated",
+      "match_type": "direct_program_match", "program_match_basis": "source_stated_exact_program", "source_ids": ["wave6-uva-burhan-chaudhry-cs"],
+      "attendance_source_id": "wave6-uva-burhan-chaudhry-cs", "program_source_id": "wave6-uva-burhan-chaudhry-cs",
+      "attendance_quote": "The Burhan Chaudhry Scholarship was established in 2021 to honor Burhan Muhammad Chaudhry’s graduation from the University of Virginia.",
+      "program_quote": "Burhan graduated from UVA with a Bachelor’s in Computer Science in 2 years.",
+      "match_notes": "The UVA Alumni Association states Chaudhry graduated from UVA with a bachelor's in Computer Science.",
+      "reviewed_scope": ["reviewed University of Virginia Alumni Association scholarship biography"]
+    }
+  ]
+}

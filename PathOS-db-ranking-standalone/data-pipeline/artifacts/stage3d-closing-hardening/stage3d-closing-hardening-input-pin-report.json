@@ -1,0 +1,20 @@
+{
+  "all_pins_match": true,
+  "baseline_commit": "e4b3dcf5621dcaa498c4e3e7cd714004fedcbd9f",
+  "expected_cumulative_counts": {
+    "duplicate_person_count": 0,
+    "identified_person_count": 180,
+    "no_qualifying_person_found_count": 0,
+    "post_merge_duplicate_count": 0,
+    "raw_person_occurrence_count": 180,
+    "source_review_not_completed_count": 130,
+    "total_program_slots": 310,
+    "unique_person_count": 180,
+    "unique_source_id_count": 180
+  },
+  "pins_verified": 54,
+  "record_type": "stage3d_closing_hardening_input_pin_report",
+  "reviewed_exceptions_count": 0,
+  "stage3a_stash_untouched": true,
+  "waves_1_through_10_immutable": true
+}

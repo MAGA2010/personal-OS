@@ -1,0 +1,997 @@
+{
+  "record_type": "stage4c_english_proficiency_policy",
+  "universities": [
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.asu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Arizona State University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:boston-college",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.bc.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Boston College",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:boston-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.bu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Boston University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:brown-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.brown.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Brown University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:bucknell-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.bucknell.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Bucknell University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.caltech.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "California Institute of Technology",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.cmu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Carnegie Mellon University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:columbia-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.columbia.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Columbia University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:cornell-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.cornell.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Cornell University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://dartmouth.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Dartmouth College",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:duke-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.duke.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Duke University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:emory-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.emory.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Emory University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:georgetown-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.georgetown.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Georgetown University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.gatech.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Georgia Institute of Technology",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:harvard-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.harvard.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Harvard University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.hmc.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Harvey Mudd College",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://bloomington.iu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Indiana University Bloomington",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.jhu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Johns Hopkins University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:lehigh-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.lehigh.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Lehigh University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.luc.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Loyola University Chicago",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "web.mit.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Massachusetts Institute of Technology",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:new-york-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.nyu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "New York University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:northeastern-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.northeastern.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Northeastern University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:northwestern-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.northwestern.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Northwestern University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.osu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "The Ohio State University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.olin.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Olin College of Engineering",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:princeton-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.princeton.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Princeton University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.purdue.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Purdue University—Main Campus",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:rice-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.rice.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Rice University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.rose-hulman.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Rose-Hulman Institute of Technology",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://newbrunswick.rutgers.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Rutgers University—New Brunswick",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:stanford-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.stanford.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Stanford University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.tamu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Texas A&M University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:tufts-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.tufts.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Tufts University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.berkeley.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of California, Berkeley",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "ucdavis.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of California, Davis",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.uci.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of California, Irvine",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.ucla.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of California, Los Angeles",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.ucsd.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of California, San Diego",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.ucsb.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of California, Santa Barbara",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.uchicago.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Chicago",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.colorado.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Colorado Boulder",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-florida",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.ufl.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Florida",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.uga.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Georgia",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.illinois.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Illinois Urbana-Champaign",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://uiowa.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Iowa",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.umd.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Maryland, College Park",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://umich.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Michigan—Ann Arbor",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://twin-cities.umn.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Minnesota Twin Cities",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.unc.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of North Carolina—Chapel Hill",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.nd.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Notre Dame",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.upenn.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Pennsylvania",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.rochester.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Rochester",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.sc.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of South Carolina",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.usc.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Southern California",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.utexas.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Texas—Austin",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.virginia.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Virginia",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-washington",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.washington.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Washington",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.wisc.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "University of Wisconsin—Madison",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "www.vanderbilt.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Vanderbilt University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://washu.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Washington University in St. Louis",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    },
+    {
+      "accepted_tests": [],
+      "applicant_scope": "international_first_year_undergraduate",
+      "candidate_id": "candidate-v2:yale-university",
+      "gap_reason": "official_undergraduate_english_policy_pages_not_frozen",
+      "policy_status": "pending",
+      "reference_cycle": null,
+      "reviewed_scope": [
+        "https://www.yale.edu/"
+      ],
+      "source_ids": [],
+      "university_display_name": "Yale University",
+      "verification_status": "pending_external_access",
+      "waiver_available": null,
+      "waiver_conditions": []
+    }
+  ]
+}

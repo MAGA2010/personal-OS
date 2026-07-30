@@ -1,0 +1,58 @@
+{
+  "contractVersion": "pathos-preview-v1",
+  "features": {
+    "admissions_section": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    },
+    "ai_context": {
+      "previewEligibility": false,
+      "status": "disabled"
+    },
+    "choropleth": {
+      "previewEligibility": false,
+      "status": "blocked"
+    },
+    "comparison": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    },
+    "core_map": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    },
+    "filters": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    },
+    "international_applicant_section": {
+      "previewEligibility": false,
+      "status": "blocked"
+    },
+    "marker_summary": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    },
+    "parent_mode": {
+      "previewEligibility": false,
+      "status": "blocked"
+    },
+    "school_detail": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    },
+    "search": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    },
+    "source_panel": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    },
+    "student_mode": {
+      "previewEligibility": true,
+      "status": "ready_with_warnings"
+    }
+  },
+  "productionEligibility": false
+}

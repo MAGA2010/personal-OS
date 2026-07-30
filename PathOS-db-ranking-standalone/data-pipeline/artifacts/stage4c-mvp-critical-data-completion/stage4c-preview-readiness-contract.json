@@ -1,0 +1,280 @@
+{
+  "areas": [
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "core_map",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "identity",
+        "coordinates",
+        "marker_summary"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "marker_summary",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "school_type",
+        "undergraduate_enrollment"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "school_detail",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "school_profile",
+        "admissions",
+        "stories",
+        "localization"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready_with_warning"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "admissions_section",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "acceptance_rate",
+        "graduation_rate",
+        "sat",
+        "act",
+        "test_policy"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready_with_warning"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": false,
+      "product_area": "international_applicant_section",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "english_proficiency_policy"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "partial"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "search",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "identity",
+        "aliases",
+        "programs"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "filters",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "school_metrics",
+        "null_strategy"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready_with_warning"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "comparison",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "normalized_units",
+        "scope_warnings"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready_with_warning"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "student_mode",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "programs",
+        "stories",
+        "admissions"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": false,
+      "product_area": "parent_mode",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "tuition",
+        "regional_metrics"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "partial"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": false,
+      "product_area": "ai_context",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "verified_facts",
+        "missing_disclosure"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "partial"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": true,
+      "product_area": "source_panel",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "source_ids",
+        "source_status"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "ready"
+    },
+    {
+      "allowed_warnings": [
+        "source_limited",
+        "pending_external_access",
+        "null_not_zero"
+      ],
+      "current_coverage": "see_stage4c_product_data_coverage_matrix",
+      "missing_fields": [
+        "official_regional_metrics"
+      ],
+      "null_strategy": "preserve_null_with_status_and_warning",
+      "preview_eligibility": false,
+      "product_area": "choropleth",
+      "production_eligibility": false,
+      "quarantine_exclusions": true,
+      "required_backend_fields": [
+        "official_regional_metrics"
+      ],
+      "source_status_strategy": "expose_verification_and_source_ids",
+      "status": "blocked"
+    }
+  ],
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "preview_export_generated": false,
+  "production_export_generated": false,
+  "record_type": "stage4c_preview_readiness_contract",
+  "source_limited": true,
+  "stage4c_verified_record_count": 194
+}

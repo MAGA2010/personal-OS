@@ -1,0 +1,195 @@
+{
+  "baselineRoot": "/Users/jiayihuang/Downloads/PathOS合并-integration-baseline/stage5-prechange",
+  "baselineManifest": "/Users/jiayihuang/Downloads/PathOS合并-integration-baseline/stage5-prechange/baseline-manifest.json",
+  "baselineValidation": {
+    "readable": true,
+    "frontendEntryCount": 87,
+    "missingFiles": 0,
+    "hashMismatchesBeforeStage5": 0,
+    "existingBaselineReused": true
+  },
+  "currentFrontendRoot": "/Users/jiayihuang/Downloads/PathOS合并/PathOS-main/frontend",
+  "counts": {
+    "modified": 6,
+    "added": 8,
+    "deleted": 0,
+    "forbiddenDirectoryModifications": 0
+  },
+  "files": [
+    {
+      "file": ".env.example",
+      "change": "added",
+      "shaBefore": null,
+      "shaAfter": "1f83aa06a93de5d06c2a4dfc6db13d6ee8cd959b5c39d8c679777c2b5e8e4148",
+      "modificationCategory": "configuration",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Document explicit fixture/backend mode and Preview Bundle configuration.",
+      "testCoverage": ["production fixture prohibition", "backend configuration fail-closed"],
+      "riskLevel": "low"
+    },
+    {
+      "file": "docs/STAGE5-INTEGRATION-DEVELOPMENT-LOG.md",
+      "change": "added",
+      "shaBefore": null,
+      "shaAfter": "f56a8862763259ce881522a2e147366bec39ed6f78b2b07827a6e2e06ec7a2b4",
+      "modificationCategory": "documentation",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Record Stage 5 implementation and browser findings.",
+      "testCoverage": ["documentation review"],
+      "riskLevel": "low"
+    },
+    {
+      "file": "docs/STAGE5-FRONTEND-BACKEND-INTEGRATION-REPORT.md",
+      "change": "added",
+      "shaBefore": null,
+      "shaAfter": "29d199a753cefe200b1b3e88fc1803416a5f7855eb00a08cd1ff4dd7c413ee18",
+      "modificationCategory": "documentation",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Report integration architecture, semantics, validation, and gate items.",
+      "testCoverage": ["documentation review"],
+      "riskLevel": "low"
+    },
+    {
+      "file": "docs/STAGE5-FRONTEND-CHANGE-MANIFEST.json",
+      "change": "added",
+      "shaBefore": null,
+      "shaAfter": null,
+      "modificationCategory": "audit",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Self-describing baseline-to-current frontend change audit; self hash intentionally omitted.",
+      "testCoverage": ["JSON parse", "baseline hash comparison"],
+      "riskLevel": "low"
+    },
+    {
+      "file": "src/app/api/ai/analyze/route.ts",
+      "change": "modified",
+      "shaBefore": "706abca967abe5beacaab124b1aa2ea786617cd9d4099093cf18623c52df07e5",
+      "shaAfter": "d485d9fb6c5064dce2c647228a11f2341dc94e379f5b8b762a737886fac72270",
+      "modificationCategory": "feature-readiness",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Fail closed while AI verified context is disabled in backend Preview mode.",
+      "testCoverage": ["AI context disabled"],
+      "riskLevel": "medium"
+    },
+    {
+      "file": "src/domain/dataset.ts",
+      "change": "modified",
+      "shaBefore": "0b9beacd57961b91b33b30177f9f3f346b68c156d6231c650b64c822d9dc3c4e",
+      "shaAfter": "d312788bbaf584a46ae63ecd73c7e9ae1cd8faa19526f47fae15fd869fe5beac",
+      "modificationCategory": "domain-contract",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Represent Preview limitations and structured warning metadata without zero coercion.",
+      "testCoverage": ["Summary normalization", "Detail normalization", "null preservation"],
+      "riskLevel": "medium"
+    },
+    {
+      "file": "src/schemas/dataset.schema.ts",
+      "change": "modified",
+      "shaBefore": "81638f19a1f2d0b4722aa60ef300cc68742b03bc19395fba359c637803af5ad8",
+      "shaAfter": "5fb3624b1e1f79ebf44a0207fbc72a180d8d713a2df074cb613c29afa5039d06",
+      "modificationCategory": "runtime-schema",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Carry Preview manifest and metadata while keeping legacy rank-null display safe.",
+      "testCoverage": ["manifest schema", "rank null semantics", "Detail normalization"],
+      "riskLevel": "medium"
+    },
+    {
+      "file": "src/schemas/stage5-preview.schema.ts",
+      "change": "added",
+      "shaBefore": null,
+      "shaAfter": "396da817eefb995c52eb41e7bc4253b9e2a8ee62766a0350bda0f622e808fb8c",
+      "modificationCategory": "runtime-schema-normalizer",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Validate real Stage 5 DTOs and normalize them into the frozen frontend Domain model.",
+      "testCoverage": ["38 Stage 5 frontend contract cases"],
+      "riskLevel": "medium"
+    },
+    {
+      "file": "src/server/ai-context.ts",
+      "change": "modified",
+      "shaBefore": "160f6b4906403852656944d5fa900706b7823cc21232eb12965f511e36bffe6c",
+      "shaAfter": "2d0b2c70470abaa7c8c0e3025bf54a733b35023ac35cf647294092b5af0c38ed",
+      "modificationCategory": "feature-readiness",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Return an explicit disabled result and never send pending/deferred facts to AI.",
+      "testCoverage": ["AI context disabled"],
+      "riskLevel": "medium"
+    },
+    {
+      "file": "src/server/backend-preview.ts",
+      "change": "added",
+      "shaBefore": null,
+      "shaAfter": "f58a82e3afebaa8dda6b9c14e7402798af5798d75eca3c35b35c008ca8c34e5c",
+      "modificationCategory": "bff-adapter",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Read, validate, normalize, filter, and serve the deterministic Preview Bundle.",
+      "testCoverage": ["backend success", "404", "missing manifest", "encoded ID", "region/program/all-major search", "blocked region envelope", "no fallback"],
+      "riskLevel": "high"
+    },
+    {
+      "file": "src/server/fixture-preview.ts",
+      "change": "added",
+      "shaBefore": null,
+      "shaAfter": "078c06aa7b4fb5351354b55230a321ec6cbdb064939ec54e93b74253b05a4913",
+      "modificationCategory": "fixture-isolation",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Isolate the pre-existing fixture implementation behind explicit fixture mode.",
+      "testCoverage": ["fixture DataSource success", "explicit mode selection"],
+      "riskLevel": "medium"
+    },
+    {
+      "file": "src/server/pathos-preview.ts",
+      "change": "modified",
+      "shaBefore": "09836034334cf1d6a4273d5712a7b1d09c008235dc4b7dec1a52d2401bcb59e4",
+      "shaAfter": "65c8a39d61d2889868c96677915cce16bf6323fcb42791f199dabe0cf24f59e4",
+      "modificationCategory": "mode-dispatch",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Select fixture/backend explicitly and prohibit production fixture mode.",
+      "testCoverage": ["explicit mode selection", "production fixture prohibition", "no fallback"],
+      "riskLevel": "high"
+    },
+    {
+      "file": "src/services/preview-api-data-source.ts",
+      "change": "modified",
+      "shaBefore": "6280497d91f43e170028ecfb4fc3d94668dc327979874349bc6bc491ef6822fa",
+      "shaAfter": "5bfdb5b44e5a7bef20086cea18d0def21123cdd9b580fa0b0d039b6b5bf5deed",
+      "modificationCategory": "datasource-error-model",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Differentiate timeout, abort, connection, HTTP, JSON, and schema errors.",
+      "testCoverage": ["timeout", "500", "404", "connection refused", "invalid JSON", "schema invalid"],
+      "riskLevel": "high"
+    },
+    {
+      "file": "src/test/unit/stage5-integration.test.ts",
+      "change": "added",
+      "shaBefore": null,
+      "shaAfter": "d6da934b6614b69c7481252e23515eefc711e6173af8da140c2cd8bcc9146f44",
+      "modificationCategory": "contract-tests",
+      "allowedDirectory": true,
+      "forbiddenDirectory": false,
+      "reason": "Exercise all required frontend contracts against the real Stage 5 Bundle.",
+      "testCoverage": ["38/38 Stage 5 frontend cases"],
+      "riskLevel": "low"
+    }
+  ],
+  "deletedFiles": [],
+  "preExistingUntrackedExcluded": [
+    ".DS_Store",
+    ".claude/launch.json",
+    "src/.DS_Store",
+    "tsconfig.tsbuildinfo"
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "generatedAt": "2026-07-25T22:31:40+00:00",
+  "media": [
+    {
+      "project": "candidateWorktree",
+      "path": "frontend/public/images/harvard-library.jpg",
+      "sha256": "51edc06ba8e50084c8b992d2c05a3a685537484afad99cd991e349537cd68985",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067,
+        "format": "JPEG"
+      },
+      "bytes": 480261,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/components/assessment/AssessmentEntry.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateWorktree",
+      "path": "frontend/public/images/mit-dome.jpg",
+      "sha256": "3482ae7fa812144d69690b5d9903860fe97fb3feb85484e01bde213e1008dfe8",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067,
+        "format": "JPEG"
+      },
+      "bytes": 332015,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/components/assessment/AssessmentEntry.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateWorktree",
+      "path": "frontend/public/images/pathos-earth-from-orbit.jpg",
+      "sha256": "2fe7ed133cbbdafe02581c58665a5199e992dbcd53c700171a097f6bd45e5d33",
+      "dimensions": {
+        "width": 4256,
+        "height": 2700,
+        "format": "JPEG"
+      },
+      "bytes": 1179959,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/components/map/MapEntry.tsx",
+        "frontend/src/app/globals.css"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateWorktree",
+      "path": "frontend/public/images/portfolio-robot-cutout.png",
+      "sha256": "c41adf03da76a8cf15b4248775992dbc7052137cf9d9b12fe0af1ec99e3ecdce",
+      "dimensions": {
+        "width": 418,
+        "height": 265,
+        "format": "PNG"
+      },
+      "bytes": 87549,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/components/portfolio/PortfolioEntry.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateWorktree",
+      "path": "frontend/public/images/stanford-quad.jpg",
+      "sha256": "575dc17835a29e14a37d06188abf67431050b576d6d83fc57a738c8659cd95f1",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200,
+        "format": "JPEG"
+      },
+      "bytes": 461881,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/components/assessment/AssessmentEntry.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateWorktree",
+      "path": "poster/poster.png",
+      "sha256": "152eeb7b6fff67141a90c3b7fe53fa53fd8cb2a287dc986e66783c4724898faa",
+      "dimensions": {
+        "width": 800,
+        "height": 2000,
+        "format": "PNG"
+      },
+      "bytes": 190084,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [],
+      "recommendedAction": "LICENSE_REVIEW"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/campus-avenue.jpg",
+      "sha256": "86acdff134ecad6333d796b8f2f6a9101077ece57e3e41d8ce8e8fa9a485fb50",
+      "dimensions": {
+        "width": 1600,
+        "height": 1068,
+        "format": "JPEG"
+      },
+      "bytes": 206362,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/campus-walkway.jpg",
+      "sha256": "f5da319651640f988c527d6f06470b138a98e380f4a074c563d5b9f2b6c11cb4",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200,
+        "format": "JPEG"
+      },
+      "bytes": 571112,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/columbia-library.jpg",
+      "sha256": "d79786b388899af86a1ea96d5139ab67ff97644f0c6f46fe232f905687cad8f7",
+      "dimensions": {
+        "width": 1600,
+        "height": 2092,
+        "format": "JPEG"
+      },
+      "bytes": 320114,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/columns-building.jpg",
+      "sha256": "5374519ec1a6278928830942fa63dc83ccdc569b1ad886a8848824c521262b5f",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067,
+        "format": "JPEG"
+      },
+      "bytes": 301472,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/harvard-library.jpg",
+      "sha256": "51edc06ba8e50084c8b992d2c05a3a685537484afad99cd991e349537cd68985",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067,
+        "format": "JPEG"
+      },
+      "bytes": 480261,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/mit-dome.jpg",
+      "sha256": "3482ae7fa812144d69690b5d9903860fe97fb3feb85484e01bde213e1008dfe8",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067,
+        "format": "JPEG"
+      },
+      "bytes": 332015,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/princeton-arches.jpg",
+      "sha256": "4ba14f6d8525f29191c34a9a9f009bcd2a7cf1779d72d3c24e5cec09479d0c09",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200,
+        "format": "JPEG"
+      },
+      "bytes": 226438,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/red-brick-building.jpg",
+      "sha256": "4c26cbd80e1d8a7267eba681b28b113183be66a2e0b72a76d5cb30205960a0ca",
+      "dimensions": {
+        "width": 1600,
+        "height": 1067,
+        "format": "JPEG"
+      },
+      "bytes": 336282,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/stanford-quad.jpg",
+      "sha256": "575dc17835a29e14a37d06188abf67431050b576d6d83fc57a738c8659cd95f1",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200,
+        "format": "JPEG"
+      },
+      "bytes": 461881,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "frontend/public/images/university-building.jpg",
+      "sha256": "956380bba2292510ce61fcd56a75ed99e8632c654c5e8d24cbe4560089d4477c",
+      "dimensions": {
+        "width": 1600,
+        "height": 1048,
+        "format": "JPEG"
+      },
+      "bytes": 470440,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [
+        "frontend/src/app/page.tsx"
+      ],
+      "recommendedAction": "UNKNOWN_SOURCE"
+    },
+    {
+      "project": "candidateGitHead",
+      "path": "poster/poster.png",
+      "sha256": "152eeb7b6fff67141a90c3b7fe53fa53fd8cb2a287dc986e66783c4724898faa",
+      "dimensions": {
+        "width": 800,
+        "height": 2000,
+        "format": "PNG"
+      },
+      "bytes": 190084,
+      "sourceKnown": false,
+      "licenseKnown": false,
+      "containsWatermark": "not detected by metadata-only scan",
+      "likelyAI": "unknown; no provenance record",
+      "usedBy": [],
+      "recommendedAction": "LICENSE_REVIEW"
+    }
+  ],
+  "mediaCount": 17
+}

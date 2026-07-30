@@ -1,33 +1,29 @@
-﻿import { MapShell } from "@/components/map/MapShell";
-import Link from "next/link";
-import { Newspaper } from "lucide-react";
+import { MapPageShell } from "@/components/map/shell/MapPageShell";
 
-export default function MapPage() {
-  return (
-    <main className="flex flex-col bg-paper" style={{ height: "calc(100vh - 3.5rem)", overflow: "hidden" }} aria-label="留学地图">
-      {/* Mini floating news button */}
-      <div className="absolute top-3 left-3 z-10 flex items-center gap-2">
-        <div className="flex items-center gap-1.5 rounded-lg bg-white/85 backdrop-blur border border-line/50 px-3 py-1.5 shadow-xs">
-          <svg aria-hidden="true" className="h-4 w-4 text-ink/60" fill="none" stroke="currentColor"
-            strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24">
-            <circle cx="12" cy="10" r="3" />
-            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z" />
-          </svg>
-          <span className="text-xs font-medium text-ink/70">③ 留学地图</span>
-        </div>
-      </div>
-      <div className="absolute top-3 right-3 z-10 flex items-center gap-2">
-        <Link
-          href="/news"
-          className="flex items-center gap-1.5 rounded-lg bg-white/85 backdrop-blur border border-line/50 px-3 py-1.5 text-xs font-medium text-ink/60 hover:text-ink hover:border-ink/30 transition-colors shadow-xs"
-        >
-          <Newspaper size={14} />
-          留学资讯
-        </Link>
-      </div>
-      <div className="relative flex-1 min-h-0">
-        <MapShell className="h-full" />
-      </div>
-    </main>
-  );
+// Stage 7B-A.1 Closing Patch v3 (V3-A) — Server-side /map route.
+//
+// Previous (v2) version imported `next/dynamic` and gated MapShell
+// behind `dynamic({ssr:false})` with a `loading:` fallback.  That
+// fallback still produced a structural mismatch vs. MapShell's
+// outermost DOM, so React 18 dev mode emitted a hydration warning.
+//
+// The v3 route delegates everything to a Server Component,
+// `MapPageShell`, which statically renders the `<main>` chrome and
+// embeds a single client component:
+//   - `MapRuntimeClient`  — the mounted-gate wrapper around
+//                          `<MapShell />`. Until `mounted === true`
+//                          (one-shot `useEffect` flip) it renders
+//                          the same SSR-stable placeholder; after
+//                          mounted, it renders the real MapShell.
+//
+// Stage 7B-A.2 Phase 0.1 removed the orphan `MapToolbarClient`
+// (floating ③ 留学地图 / 留学资讯 buttons), which were unused
+// duplicates of widgets already rendered by MapShell + the news
+// sidebar. MapShell itself owns the unified toolbar.
+//
+// Server pre-render and Client first render both emit the
+// placeholder → hydration matches → no warning.  The "real"
+// MapShell swaps in on the second render, after hydration completes.
+export default function MapPage(): JSX.Element {
+  return <MapPageShell />;
 }

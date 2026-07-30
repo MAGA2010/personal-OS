@@ -1,0 +1,189 @@
+{
+  "stage": "Stage 7R MapLibre Style Closing Patch",
+  "title": "MapLibre glyphs:undefined + regional manifest SHA 修复",
+  "status": "ready_for_independent_regate",
+  "completedAt": "2026-07-25",
+  "scope": "Focused patch — only fixes two known defects from prior re-gate",
+  "defects": [
+    {
+      "id": "D1",
+      "severity": "Critical",
+      "title": "MapLibre StyleSpecification 含显式 undefined 字段导致 style 不加载",
+      "rootCause": "LIGHT_BASEMAP_STYLE 与 DARK_BASEMAP_STYLE 在 layers 数组之后追加了 `glyphs: undefined`。MapLibre v3 的 _checkLoaded schema validator 拒绝 `Object.hasOwn(style, 'glyphs') === true && style.glyphs === undefined`，触发 style validation error，style 进入 failed 状态，style.load 事件永不触发。",
+      "affectedFunctions": [
+        "Light basemap (CARTO Voyager raster)",
+        "Dark basemap (CARTO Dark Matter raster)",
+        "4 个 regional choropleth layers",
+        "University POI markers",
+        "Regional hover tooltip",
+        "Regional legend",
+        "Source panel",
+        "Map drag / wheel zoom",
+        "Theme visual switching"
+      ],
+      "filesChanged": [
+        "frontend/src/components/map/MapCanvas.tsx"
+      ],
+      "fix": "完全删除两处 `glyphs: undefined,` 行，替换为说明注释。raster-only style 无 symbol layer，不需要 glyph 字段。",
+      "testsAdded": "frontend/src/test/unit/stage7r-maplibre-style.test.ts (19 tests)",
+      "verifications": [
+        "19/19 new style tests passed",
+        "recursive hasUndefinedDeep() == null for both styles",
+        "Object.hasOwn(style, 'glyphs') === false for both styles",
+        "structuredClone + JSON.stringify round-trip lossless",
+        "browser: dark basemap visible, 4 regional layers toggle correctly"
+      ]
+    },
+    {
+      "id": "D2",
+      "severity": "Medium",
+      "title": "regional-data-manifest.json 8 个 artifact SHA 与磁盘文件不一致",
+      "rootCause": "旧 import-regional-data.py 使用 sha256_str(content) 哈希 JSON 字符串（无 trailing newline），但实际 f.write(content + '\\n') 落盘多 1 字节 newline。manifest 记录的 SHA 与磁盘文件 SHA 永远差 1 字节。",
+      "affectedArtifacts": [
+        "regional-datasets.json",
+        "regional-metrics.json",
+        "regional-records.json",
+        "regional-record-income.json",
+        "regional-record-safety.json",
+        "regional-record-employment.json",
+        "regional-record-chinese_population.json",
+        "regional-data-validation.json"
+      ],
+      "filesChanged": [
+        "frontend/scripts/import-regional-data.py"
+      ],
+      "fix": "将 SHA 哈希源从 sha256_str(content) 改为 hashlib.sha256((content + '\\n').encode('utf-8')).hexdigest()，与 f.write() 落盘的字节完全一致。manifest 自身写入也改为相同模式。",
+      "testsAdded": "无（新行为由已有 stage7r-regional-heatmap.test.ts 验证 manifest SHA + 字段结构）",
+      "verifications": [
+        "8/8 manifest SHA 与磁盘文件 SHA 匹配",
+        "9/9 产物连续两次运行 byte-identical",
+        "manifest sha256: 21e4c311784a455f00b2f4adaec20001495f6a5f6c0792132634ff71a77abb0b（两次一致）",
+        "工作簿 SHA 409ed47b… 未变"
+      ],
+      "oldShas": {
+        "regional-data-validation.json": "fa41303372a21aced0d915af5ecbad884aac5ff1d64bb7b118d197c2ad4c96f0",
+        "regional-datasets.json": "f940b798c442f5073a84c7fe958f4ae6dfd6c22d547f475abe1aec374cba2a60",
+        "regional-metrics.json": "0a573444d8f41490584d900853d97dd81fef006c5b5151f4d64f57bc7959b9ca",
+        "regional-record-chinese_population.json": "3c9a8a70e2a4a57d65acb44e3967907280bdc187ffd7e0ff5d57653d18963cdd",
+        "regional-record-employment.json": "a0be578116b9cf17bdd6f6083c6cde5970a09005daf7757cfbccbc2776dea0aa",
+        "regional-record-income.json": "5ac84afbd0fb96e454b3486ac28d22349b309326bfd2f417c418a970c1cc4868",
+        "regional-record-safety.json": "508cbed55b6e2b92e4c3e71903494d2efc8f600563f513ee1a9b01fe1f8208b7",
+        "regional-records.json": "38ec3f7d0484e45203d876aaee41903c3293bd84fb4886b30c89bb62d2edacd8"
+      },
+      "newShas": {
+        "regional-data-validation.json": "f524f3e71da1ef5aeb0c4c7da815e1ba79774e5908f4aef12c2bbe23de65c8f3",
+        "regional-datasets.json": "08475e7f690e6f3caeb68b0ba570b48180ff727658eef8406416fee888b227cb",
+        "regional-metrics.json": "6ae7b3ca84792342aca9b367d1319c07b3f8aa0b079ba7b49792f253f6aea713",
+        "regional-record-chinese_population.json": "337a6746472ae74dfb363936a207f2422f4d7fc5846faf351ff05abbdc79e56f",
+        "regional-record-employment.json": "2447a7849a549a76b98d3d2edb35f5e04d51e227603b273adc6bf7853a7f8d8d",
+        "regional-record-income.json": "5e7a9545dd60777dbfa980ed2dd4fb2889ba2ecbc1d97a81545b1eaebace0a06",
+        "regional-record-safety.json": "72a2e9412c95602fdea9d29ac0aff936d52e7ba012003e46565d5751fc1c28c2",
+        "regional-records.json": "9229fb80570a41271c21779adc316b3cbadc27c3e20f8fde5e726fadd33cbf5c"
+      },
+      "manifestSha": "21e4c311784a455f00b2f4adaec20001495f6a5f6c0792132634ff71a77abb0b"
+    }
+  ],
+  "filesChanged": [
+    "frontend/src/components/map/MapCanvas.tsx",
+    "frontend/scripts/import-regional-data.py",
+    "frontend/src/test/unit/stage7r-maplibre-style.test.ts",
+    "frontend/generated/regional-data/*.json (regenerated, byte-identical data)",
+    "frontend/docs/STAGE7R-MAPLIBRE-STYLE-CLOSING-PATCH.md",
+    "frontend/docs/STAGE7R-MAPLIBRE-STYLE-CLOSING-DEVLOG.md",
+    "frontend/docs/STAGE7R-MAPLIBRE-STYLE-CLOSING-REPORT.md",
+    "frontend/docs/STAGE7R-MAPLIBRE-STYLE-CLOSING-CHANGE-MANIFEST.json"
+  ],
+  "filesNotModified": [
+    "resource/PathOS_美国各州留学数据矩阵.xlsx (workbook SHA unchanged)",
+    "PathOS-db-ranking-standalone/** (backend tracked files clean)",
+    "data-pipeline/artifacts/stage5-warning-aware-preview/** (bundle read-only)",
+    "frontend/.env.local (per directive, no .env.local modification)"
+  ],
+  "regression": {
+    "vitestTotal": 197,
+    "vitestPassed": 197,
+    "vitestNewTests": 19,
+    "tscErrors": 0,
+    "eslintWarnings": 0,
+    "nextBuildSuccess": true,
+    "nextBuildStaticPages": 15
+  },
+  "browserMatrix": {
+    "mapRoutesHttp200": ["/map"],
+    "regionalLayersVisual": {
+      "income": "green 5-step, ACS 5-Year, 204/51 coverage",
+      "safety": "blue 5-step, FBI UCR, 204/51 coverage",
+      "employment": "purple 5-step, BLS, 204/51 coverage",
+      "chinese_population": "orange 5-step, Census ACS, 204/51 coverage"
+    },
+    "basemapDark": "CARTO Dark Matter visible (Pierre, Des Moines, Chicago, MO, CHIC labels)",
+    "basemapLight": "CARTO Voyager triggers on theme switch",
+    "tooltip": "visible on layer hover (e.g. 'Montana · 数据补充中')",
+    "legend": "5-stop gradient + 缺失 swatch + source + SHA visible",
+    "sourcePanel": "visible in toolbar",
+    "themeSwitch": "preserves active regional layer + legend + tooltip + map state"
+  },
+  "dataInvariants": {
+    "schoolCount": 62,
+    "summaryCount": 62,
+    "detailCount": 62,
+    "verifiedRecordCount": 904,
+    "quarantine_exposed": 0,
+    "fixture_fallback": false,
+    "dataMode": "backend",
+    "identityVerified": true,
+    "sourceLimited": true,
+    "incomplete": true,
+    "notFinal": true,
+    "regional_records": 204,
+    "regional_metrics_ready": 4,
+    "regional_usedForMap": true,
+    "regional_usedForMatch": false,
+    "previewBundleSha": "88f3dd6081df38b051872cc5c8bf5b12dd08e9dee072780f20becfc8e9170bd2",
+    "workbookSha": "409ed47b5153725914b463ae3421ad51e5d3d34e5918144f001f341b9894b096"
+  },
+  "consoleStatus": {
+    "style_validation_failed": "gone",
+    "glyphs_validation_error": "gone",
+    "style_is_not_done_loading": "gone (initial mount)",
+    "source_already_exists": "gone",
+    "layer_already_exists": "gone",
+    "hydration_failed": "absent",
+    "runtime_error": "absent",
+    "fixture_fallback": "absent"
+  },
+  "networkStatus": {
+    "previewAPI": "200 OK (manifest, universities, region-metrics, news, status-dictionary)",
+    "geographyTopojson": "200 OK",
+    "cartocdnTiles": "200 OK (voyager + dark_all)"
+  },
+  "completionCriteria": {
+    "c1_glyphs_removed": true,
+    "c2_style_loads": true,
+    "c3_light_basemap": true,
+    "c4_dark_basemap": true,
+    "c5_4_regional_layers": true,
+    "c6_university_poi": true,
+    "c7_tooltip": true,
+    "c8_legend": true,
+    "c9_source_panel": true,
+    "c10_map_drag": true,
+    "c11_theme_switch_preserves": true,
+    "c12_console_clean": true,
+    "c13_manifest_sha_refreshed": true,
+    "c14_two_run_deterministic": true,
+    "c15_typescript_pass": true,
+    "c16_lint_zero": true,
+    "c17_tests_pass": true,
+    "c18_build_pass": true,
+    "c19_backend_preview_pass": true,
+    "c20_data_invariants_preserved": true,
+    "c21_204_regional_records": true,
+    "c22_bundle_unchanged": true,
+    "c23_backend_tracked_unchanged": true,
+    "c24_no_fixture_fallback": true,
+    "c25_critical_zero": true,
+    "c26_high_zero": true
+  },
+  "completionStatement": "全部 26 项验收点满足，等待独立 Stage 7R Re-Gate。"
+}

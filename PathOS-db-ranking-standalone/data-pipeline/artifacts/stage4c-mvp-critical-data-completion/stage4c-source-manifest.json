@@ -1,0 +1,44 @@
+{
+  "record_type": "stage4c_source_manifest",
+  "sources": [
+    {
+      "cache_path": "data-pipeline/cache/stage3b-official/Most-Recent-Cohorts-Institution_05192025.zip",
+      "dataset_identifier": "Most-Recent-Cohorts-Institution_05192025",
+      "field_scope": [
+        "UGDS",
+        "GRADS",
+        "SAT",
+        "ACT"
+      ],
+      "publisher": "U.S. Department of Education",
+      "reference_year": 2019,
+      "sha256": "74d464963c2948b7b6e97df6864345055b177466325a2b06c54f0e50e910b8e4",
+      "source_id": "source_stage4b_college_scorecard_2025_05_19",
+      "source_type": "official_federal_dataset"
+    },
+    {
+      "cache_path": "data-pipeline/data/stage4c-mvp-critical-data-completion/stage4c-reviewed-chinese-name-mapping.json",
+      "dataset_identifier": "stage4c-reviewed-chinese-name-mapping",
+      "field_scope": [
+        "chinese_display_name"
+      ],
+      "publisher": "PathOS reviewed localization mapping",
+      "reference_year": 2026,
+      "sha256": "0abf05f7d1c920ff4061815f044ca753bafc13be3938a82819136f7199f0de81",
+      "source_id": "source_stage4c_reviewed_localization",
+      "source_type": "reviewed_localization_mapping"
+    },
+    {
+      "cache_path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-marker-summary.json",
+      "dataset_identifier": "stage4b-marker-summary",
+      "field_scope": [
+        "national_ranking_status"
+      ],
+      "publisher": "PathOS verified Stage 4B artifact",
+      "reference_year": 2026,
+      "sha256": "e489733ca8c2aead4b5745ebd7aed24456f45c06ea6765f44c68ae4e084e4ddd",
+      "source_id": "source_stage4b_ranking_scope",
+      "source_type": "verified_stage4b_artifact"
+    }
+  ]
+}

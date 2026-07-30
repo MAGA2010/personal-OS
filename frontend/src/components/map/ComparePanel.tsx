@@ -2,7 +2,10 @@
 
 import { useState, useMemo, type ReactNode } from "react";
 import type { UniversityPOI, ChineseCommunityLevel } from "@/lib/types";
-import rankingData from "@/data/university-rankings.json";
+import { useDataSource } from "@/services/data-source-provider";
+import {
+  useUniversityDetail,
+} from "@/hooks/use-data-source";
 import {
   Trophy, DollarSign, GraduationCap, Shield, MapPin, Star,
   X, Plus, ChevronRight,
@@ -60,14 +63,30 @@ const UNI_COLORS = [
 ];
 
 function formatValue(key: string, val: any): string {
-  if (val === null || val === undefined) return "—";
+  if (val === null || val === undefined) return "数据补充中";
+  // The pre-ReGate version coerced `val + "/100"` even when the value
+  // was undefined; that produced bars labelled "0/100" or "undefined/100"
+  // for every school missing safety/recognition data. Now we route
+  // through the explicit null guards below.
   switch (key) {
     case "QS": case "ARWU": case "USNews": case "THE": return String(val);
     case "rankingBand": return val;
-    case "annualCostRmb": return "¥" + Number(val).toLocaleString();
-    case "admissionRate": return val + "%";
-    case "safetyScore": return val + "/100";
-    case "recognitionScore": return val + "/100";
+    case "annualCostRmb": {
+      if (typeof val !== "number" || !Number.isFinite(val) || val <= 0) return "学费数据补充中";
+      return "¥" + Number(val).toLocaleString();
+    }
+    case "admissionRate": {
+      if (typeof val !== "number" || !Number.isFinite(val)) return "数据补充中";
+      return val + "%";
+    }
+    case "safetyScore": {
+      if (typeof val !== "number" || !Number.isFinite(val)) return "数据补充中";
+      return val + "/100";
+    }
+    case "recognitionScore": {
+      if (typeof val !== "number" || !Number.isFinite(val)) return "数据补充中";
+      return val + "/100";
+    }
     case "city": return val;
     case "postStudyVisa": return val;
     default: return String(val);
@@ -88,11 +107,26 @@ export default function ComparePanel({
     [universities, selectedIds]
   );
 
+  const dataSource = useDataSource();
+  // Fetch detail (with ranking data) for the first selected university
+  // so the comparison rows can show QS/ARWU/USNews/THE positions. The
+  // preview BFF returns empty `ranking[]` until backend exposes real
+  // data — components must not invent values to fill the bars.
+  const primaryDetail = useUniversityDetail(dataSource, selected[0]?.id ?? null);
   const rankingMap = useMemo(() => {
-    const m: Record<string, any> = {};
-    (rankingData as any[]).forEach(r => { m[r.id] = r; });
+    const m: Record<string, Record<string, string | number>> = {};
+    const ranking = primaryDetail.state.status === "ready" ? primaryDetail.state.data?.ranking : undefined;
+    if (Array.isArray(ranking) && selected[0]) {
+      const row: Record<string, string | number> = {};
+      ranking.forEach((r) => {
+        if (typeof r.position === "string" || typeof r.position === "number") {
+          row[r.system] = r.position;
+        }
+      });
+      m[selected[0].id] = row;
+    }
     return m;
-  }, []);
+  }, [primaryDetail.state, selected]);
 
   const toggleCategory = (label: string) => {
     setOpenCategories(prev =>
@@ -109,8 +143,18 @@ export default function ComparePanel({
             const r = rankingMap[u.id];
             return r ? r[key] : 9999;
           }
-          return (u as any)[key] ?? 0;
-        }).filter(v => v !== null && v !== undefined);
+          // Gate-bloker repair #RG-P0-G: the previous `?? 0` made
+          // every missing numeric show up as a valid bar with value
+          // 0, and inflated `Math.max(...vals)` so schools with real
+          // scores looked almost empty. Now we filter nullish values
+          // out so the comparison only runs over schools that
+          // actually carry the metric.
+          const raw = (u as any)[key];
+          if (raw === null || raw === undefined || raw === "" || (typeof raw === "number" && !Number.isFinite(raw))) {
+            return null;
+          }
+          return raw;
+        }).filter((v): v is number => v !== null && v !== undefined);
         m[key] = vals.length > 0 ? Math.max(...vals) : 1;
       }
     }));
@@ -147,7 +191,7 @@ export default function ComparePanel({
       {selected.length === 0 ? (
         <div className="flex items-center justify-center gap-2 px-4 pb-3 text-xs text-ink/32 shrink-0">
           <Plus size={14} />
-          <span>点击大学添加到对比（最多 4 所）</span>
+          <span>添加学校开始比较（最多 3 所）</span>
         </div>
       ) : (
         <div className="overflow-y-auto px-4 pb-3 space-y-3 flex-1">
@@ -240,16 +284,21 @@ export default function ComparePanel({
     u: UniversityPOI; i: number; metricKey: string; val: any; maxVal: number; formatter: (v: any) => string;
   }) {
     const c = UNI_COLORS[i % UNI_COLORS.length];
-    const numVal = Number(val) || 0;
+    // Gate-bloker repair #RG-P0-G: the previous `Number(val) || 0`
+    // coerced every missing value into a 0% bar. Now we explicitly
+    // check the type and render no bar when the value is absent.
+    const numVal = typeof val === "number" && Number.isFinite(val) ? val : null;
     const inv = metricKey === "admissionRate" || metricKey === "QS" || metricKey === "ARWU" || metricKey === "USNews" || metricKey === "THE";
-    const pct = maxVal > 0 ? (inv ? (1 - numVal / maxVal) * 100 : (numVal / maxVal) * 100) : 0;
+    const pct = numVal === null || maxVal <= 0 ? 0 : (inv ? (1 - numVal / maxVal) * 100 : (numVal / maxVal) * 100);
     return (
       <div className="flex items-center gap-2 mb-1 last:mb-0">
         <span className={`w-16 shrink-0 text-[10px] font-medium truncate ${c.text}`}>{u.chineseName}</span>
         <div className="flex-1 h-4 bg-ink/5 rounded-sm overflow-hidden relative">
-          <div className={`h-full rounded-sm transition-all duration-300 ${c.bar}`}
-            style={{ width: Math.max(pct, 3) + "%", minWidth: pct > 0 ? "3px" : "0" }}
-          />
+          {numVal !== null && pct > 0 ? (
+            <div className={`h-full rounded-sm transition-all duration-300 ${c.bar}`}
+              style={{ width: Math.max(pct, 3) + "%", minWidth: "3px" }}
+            />
+          ) : null}
         </div>
         <span className={`w-20 shrink-0 text-right text-[10px] tabular-nums ${c.text}`}>{formatter(val)}</span>
       </div>

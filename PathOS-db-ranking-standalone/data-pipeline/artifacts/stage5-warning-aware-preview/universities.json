@@ -1,0 +1,6641 @@
+[
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9019,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Arizona State University",
+      "W. P. Carey School of Business"
+    ],
+    "chineseName": "亚利桑那州立大学",
+    "city": "Tempe",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$12,051–$32,193",
+      "maximumUsd": 32193.0,
+      "minimumUsd": 12051.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:arizona-state-university",
+    "latitude": 33.417721,
+    "longitude": -111.934383,
+    "name": "Arizona State University",
+    "nameZh": "亚利桑那州立大学",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Southwest",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "AZ",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Supply Chain Management/Logistics",
+      "Analytics",
+      "Management Information Systems",
+      "Production/Operations Management",
+      "Management"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 64398,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 7,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1565,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Boston College",
+      "Carroll School of Management",
+      "Connell School of Nursing"
+    ],
+    "chineseName": "波士顿学院",
+    "city": "Chestnut Hill",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$67,680",
+      "maximumUsd": 67680.0,
+      "minimumUsd": 67680.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:boston-college",
+    "latitude": 42.336213,
+    "longitude": -71.169242,
+    "name": "Boston College",
+    "nameZh": "波士顿学院",
+    "nationalRanking": 36,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 36,
+      "rankingLabel": "#36",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MA",
+    "studentFacultyRatio": 13.0,
+    "topPrograms": [
+      "Finance",
+      "Accounting",
+      "Analytics",
+      "Marketing",
+      "Entrepreneurship"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 9865,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1085,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Boston University"
+    ],
+    "chineseName": "波士顿大学",
+    "city": "Boston",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$65,168",
+      "maximumUsd": 65168.0,
+      "minimumUsd": 65168.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:boston-university",
+    "latitude": 42.351118,
+    "longitude": -71.107942,
+    "name": "Boston University",
+    "nameZh": "波士顿大学",
+    "nationalRanking": 42,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 42,
+      "rankingLabel": "#42",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MA",
+    "studentFacultyRatio": 10.0,
+    "topPrograms": [
+      "Business Administration and Management, General",
+      "Economics, General",
+      "Computer Science",
+      "Psychology, General",
+      "Radio and Television"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 17850,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0523,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Brown University"
+    ],
+    "chineseName": "布朗大学",
+    "city": "Providence",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$68,230",
+      "maximumUsd": 68230.0,
+      "minimumUsd": 68230.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:brown-university",
+    "latitude": 41.82617,
+    "longitude": -71.40385,
+    "name": "Brown University",
+    "nameZh": "布朗大学",
+    "nationalRanking": 13,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 13,
+      "rankingLabel": "#13",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "RI",
+    "studentFacultyRatio": 6.0,
+    "topPrograms": [
+      "Computer Science",
+      "Econometrics and Quantitative Economics",
+      "Applied Mathematics, General",
+      "International Relations and Affairs",
+      "Biology/Biological Sciences, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7273,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.3201,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Bucknell University"
+    ],
+    "chineseName": "巴克内尔大学",
+    "city": "Lewisburg",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$64,772",
+      "maximumUsd": 64772.0,
+      "minimumUsd": 64772.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:bucknell-university",
+    "latitude": 40.954317,
+    "longitude": -76.882616,
+    "name": "Bucknell University",
+    "nameZh": "巴克内尔大学",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "PA",
+    "studentFacultyRatio": 9.0,
+    "topPrograms": [
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Computer Engineering",
+      "Undergraduate Engineering Programs (No Doctorate)"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 3818,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0314,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "California Institute of Technology"
+    ],
+    "chineseName": "加州理工学院",
+    "city": "Pasadena",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$63,255",
+      "maximumUsd": 63255.0,
+      "minimumUsd": 63255.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:california-institute-of-technology",
+    "latitude": 34.137349,
+    "longitude": -118.125878,
+    "name": "California Institute of Technology",
+    "nameZh": "加州理工学院",
+    "nationalRanking": 11,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 11,
+      "rankingLabel": "#11",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 3.0,
+    "topPrograms": [
+      "Computer Science",
+      "Mechanical Engineering",
+      "Physics, General",
+      "Bioengineering and Biomedical Engineering",
+      "Electrical and Electronics Engineering"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 1023,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.114,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Carnegie Mellon University"
+    ],
+    "chineseName": "卡内基梅隆大学",
+    "city": "Pittsburgh",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$63,274",
+      "maximumUsd": 63274.0,
+      "minimumUsd": 63274.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:carnegie-mellon-university",
+    "latitude": 40.44357,
+    "longitude": -79.941993,
+    "name": "Carnegie Mellon University",
+    "nameZh": "卡内基梅隆大学",
+    "nationalRanking": 20,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 20,
+      "rankingLabel": "#20",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "PA",
+    "studentFacultyRatio": 5.0,
+    "topPrograms": [
+      "Computer Science",
+      "Statistics, General",
+      "Electrical and Electronics Engineering",
+      "Business Administration and Management, General",
+      "Systems Science and Theory"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7187,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0423,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Columbia University"
+    ],
+    "chineseName": "哥伦比亚大学",
+    "city": "New York",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$68,171",
+      "maximumUsd": 68171.0,
+      "minimumUsd": 68171.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:columbia-university",
+    "latitude": 40.808286,
+    "longitude": -73.961885,
+    "name": "Columbia University",
+    "nameZh": "哥伦比亚大学",
+    "nationalRanking": 15,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 15,
+      "rankingLabel": "#15",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NY",
+    "studentFacultyRatio": 6.0,
+    "topPrograms": [
+      "Computer Science",
+      "Computer Engineering",
+      "Electrical Engineering",
+      "Biomedical Engineering",
+      "Mechanical Engineering"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 8899,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0816,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Cornell University"
+    ],
+    "chineseName": "康奈尔大学",
+    "city": "Ithaca",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$66,014",
+      "maximumUsd": 66014.0,
+      "minimumUsd": 66014.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:cornell-university",
+    "latitude": 42.4472,
+    "longitude": -76.483084,
+    "name": "Cornell University",
+    "nameZh": "康奈尔大学",
+    "nationalRanking": 12,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 12,
+      "rankingLabel": "#12",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NY",
+    "studentFacultyRatio": 9.0,
+    "topPrograms": [
+      "Computer Science",
+      "Hotel/Motel Administration/Management",
+      "Labor and Industrial Relations",
+      "Agricultural Economics",
+      "Biology/Biological Sciences, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 15935,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0623,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Dartmouth College"
+    ],
+    "chineseName": "达特茅斯学院",
+    "city": "Hanover",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$65,511",
+      "maximumUsd": 65511.0,
+      "minimumUsd": 65511.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:dartmouth-college",
+    "latitude": 43.704115,
+    "longitude": -72.289949,
+    "name": "Dartmouth College",
+    "nameZh": "达特茅斯学院",
+    "nationalRanking": 13,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 13,
+      "rankingLabel": "#13",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NH",
+    "studentFacultyRatio": 7.0,
+    "topPrograms": [
+      "Econometrics and Quantitative Economics",
+      "Political Science and Government, General",
+      "Computer Science",
+      "Biology/Biological Sciences, General",
+      "Engineering Science"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 4367,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0678,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Duke University"
+    ],
+    "chineseName": "杜克大学",
+    "city": "Durham",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$65,805",
+      "maximumUsd": 65805.0,
+      "minimumUsd": 65805.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:duke-university",
+    "latitude": 36.001135,
+    "longitude": -78.937624,
+    "name": "Duke University",
+    "nameZh": "杜克大学",
+    "nationalRanking": 7,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 7,
+      "rankingLabel": "#7",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NC",
+    "studentFacultyRatio": 6.0,
+    "topPrograms": [
+      "Computer Science",
+      "Multi-/Interdisciplinary Studies, Other",
+      "Registered Nursing/Registered Nurse",
+      "Econometrics and Quantitative Economics",
+      "Biology/Biological Sciences, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 6417,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.111,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Emory University"
+    ],
+    "chineseName": "埃默里大学",
+    "city": "Atlanta",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$60,774",
+      "maximumUsd": 60774.0,
+      "minimumUsd": 60774.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:emory-university",
+    "latitude": 33.790183,
+    "longitude": -84.325512,
+    "name": "Emory University",
+    "nameZh": "埃默里大学",
+    "nationalRanking": 24,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 24,
+      "rankingLabel": "#24",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "GA",
+    "studentFacultyRatio": 9.0,
+    "topPrograms": [
+      "Business Administration and Management, General",
+      "Biology/Biological Sciences, General",
+      "Psychology, General",
+      "Econometrics and Quantitative Economics",
+      "Neuroscience"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7275,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1308,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Georgetown University"
+    ],
+    "chineseName": "乔治城大学",
+    "city": "Washington",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$65,081",
+      "maximumUsd": 65081.0,
+      "minimumUsd": 65081.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:georgetown-university",
+    "latitude": 38.908809,
+    "longitude": -77.073463,
+    "name": "Georgetown University",
+    "nameZh": "乔治城大学",
+    "nationalRanking": 24,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 24,
+      "rankingLabel": "#24",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "DC",
+    "studentFacultyRatio": 11.0,
+    "topPrograms": [
+      "International Relations and Affairs",
+      "Finance, General",
+      "Political Science and Government, General",
+      "Econometrics and Quantitative Economics",
+      "Psychology, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7462,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1646,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Daniel Guggenheim School of Aerospace Engineering",
+      "Georgia Institute of Technology",
+      "Georgia Tech",
+      "Georgia Tech College of Engineering",
+      "Georgia Tech Scheller College of Business"
+    ],
+    "chineseName": "佐治亚理工学院",
+    "city": "Atlanta",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$11,764–$32,876",
+      "maximumUsd": 32876.0,
+      "minimumUsd": 11764.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:georgia-institute-of-technology",
+    "latitude": 33.77242,
+    "longitude": -84.394832,
+    "name": "Georgia Institute of Technology",
+    "nameZh": "佐治亚理工学院",
+    "nationalRanking": 32,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 32,
+      "rankingLabel": "#32",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "GA",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Biomedical Engineering",
+      "Environmental Engineering",
+      "Industrial Engineering",
+      "Aerospace Engineering",
+      "Chemical Engineering"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 18260,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0345,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Harvard University"
+    ],
+    "chineseName": "哈佛大学",
+    "city": "Cambridge",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$59,076",
+      "maximumUsd": 59076.0,
+      "minimumUsd": 59076.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:harvard-university",
+    "latitude": 42.374471,
+    "longitude": -71.118313,
+    "name": "Harvard University",
+    "nameZh": "哈佛大学",
+    "nationalRanking": 3,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 3,
+      "rankingLabel": "#3",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "usn-2026-best-colleges-press-release"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MA",
+    "studentFacultyRatio": 7.0,
+    "topPrograms": [
+      "Econometrics and Quantitative Economics",
+      "Social Sciences, General",
+      "Computer Science",
+      "Political Science and Government, General",
+      "Applied Mathematics, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7755,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1306,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Harvey Mudd College"
+    ],
+    "chineseName": "哈维穆德学院",
+    "city": "Claremont",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$66,255",
+      "maximumUsd": 66255.0,
+      "minimumUsd": 66255.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:harvey-mudd-college",
+    "latitude": 34.106515,
+    "longitude": -117.709837,
+    "name": "Harvey Mudd College",
+    "nameZh": "哈维穆德学院",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "graduate_enrollment_not_reported",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access",
+        "total_enrollment_not_reported"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 8.0,
+    "topPrograms": [
+      "Undergraduate Engineering Programs (No Doctorate)",
+      "Mechanical Engineering",
+      "Computer Engineering",
+      "Electrical Engineering",
+      "Computer Science"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 915,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "graduate_enrollment_not_reported",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access",
+        "total_enrollment_not_reported"
+      ],
+      "count": 7,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.8037,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "IU Kelley School of Business",
+      "IU School of Nursing"
+    ],
+    "chineseName": "印第安纳大学伯明顿分校",
+    "city": "Bloomington",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$11,790–$40,482",
+      "maximumUsd": 40482.0,
+      "minimumUsd": 11790.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:indiana-university-bloomington",
+    "latitude": 39.16609,
+    "longitude": -86.526559,
+    "name": "Indiana University Bloomington",
+    "nameZh": "印第安纳大学伯明顿分校",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IN",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Accounting",
+      "Management",
+      "Marketing",
+      "Management Information Systems",
+      "Entrepreneurship"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 36571,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0756,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Johns Hopkins University"
+    ],
+    "chineseName": "约翰斯·霍普金斯大学",
+    "city": "Baltimore",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$62,840",
+      "maximumUsd": 62840.0,
+      "minimumUsd": 62840.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:johns-hopkins-university",
+    "latitude": 39.328977,
+    "longitude": -76.621595,
+    "name": "Johns Hopkins University",
+    "nameZh": "约翰斯·霍普金斯大学",
+    "nationalRanking": 7,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 7,
+      "rankingLabel": "#7",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MD",
+    "studentFacultyRatio": 6.0,
+    "topPrograms": [
+      "Cell/Cellular and Molecular Biology",
+      "Public Health, General",
+      "Computer and Information Sciences, General",
+      "Econometrics and Quantitative Economics",
+      "Neuroscience"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 5617,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2926,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Lehigh University"
+    ],
+    "chineseName": "理海大学",
+    "city": "Bethlehem",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$62,180",
+      "maximumUsd": 62180.0,
+      "minimumUsd": 62180.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:lehigh-university",
+    "latitude": 40.606822,
+    "longitude": -75.380236,
+    "name": "Lehigh University",
+    "nameZh": "理海大学",
+    "nationalRanking": 46,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 46,
+      "rankingLabel": "#46",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "PA",
+    "studentFacultyRatio": 10.0,
+    "topPrograms": [
+      "Finance, General",
+      "Computer Science",
+      "Mechanical Engineering",
+      "Psychology, General",
+      "Marketing/Marketing Management, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 5803,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.8139,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Quinlan School of Business"
+    ],
+    "chineseName": "芝加哥洛约拉大学",
+    "city": "Chicago",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$51,716",
+      "maximumUsd": 51716.0,
+      "minimumUsd": 51716.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:loyola-university-chicago",
+    "latitude": 42.000765,
+    "longitude": -87.656872,
+    "name": "Loyola University Chicago",
+    "nameZh": "芝加哥洛约拉大学",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IL",
+    "studentFacultyRatio": 13.0,
+    "topPrograms": [
+      "International Business",
+      "Registered Nursing/Registered Nurse",
+      "Psychology, General",
+      "Biology/Biological Sciences, General",
+      "Finance, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 11576,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 6,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0474,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Massachusetts Institute of Technology"
+    ],
+    "chineseName": "麻省理工学院",
+    "city": "Cambridge",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$60,156",
+      "maximumUsd": 60156.0,
+      "minimumUsd": 60156.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:massachusetts-institute-of-technology",
+    "latitude": 42.359243,
+    "longitude": -71.093226,
+    "name": "Massachusetts Institute of Technology",
+    "nameZh": "麻省理工学院",
+    "nationalRanking": 2,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 2,
+      "rankingLabel": "#2",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "usn-2026-best-colleges-press-release"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MA",
+    "studentFacultyRatio": 3.0,
+    "topPrograms": [
+      "Computer Science",
+      "Mechanical Engineering",
+      "Mathematics, General",
+      "Electrical and Electronics Engineering",
+      "Physics, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 4571,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0941,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "New York University"
+    ],
+    "chineseName": "纽约大学",
+    "city": "New York",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$60,438",
+      "maximumUsd": 60438.0,
+      "minimumUsd": 60438.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:new-york-university",
+    "latitude": 40.729452,
+    "longitude": -73.997264,
+    "name": "New York University",
+    "nameZh": "纽约大学",
+    "nationalRanking": 32,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 32,
+      "rankingLabel": "#32",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NY",
+    "studentFacultyRatio": 8.0,
+    "topPrograms": [
+      "Liberal Arts and Sciences/Liberal Studies",
+      "Econometrics and Quantitative Economics",
+      "Research and Experimental Psychology, Other",
+      "Computer and Information Sciences, General",
+      "Digital Communication and Media/Multimedia"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 29430,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0565,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Northeastern University"
+    ],
+    "chineseName": "东北大学",
+    "city": "Boston",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$63,141",
+      "maximumUsd": 63141.0,
+      "minimumUsd": 63141.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:northeastern-university",
+    "latitude": 42.339992,
+    "longitude": -71.088782,
+    "name": "Northeastern University",
+    "nameZh": "东北大学",
+    "nationalRanking": 46,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 46,
+      "rankingLabel": "#46",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MA",
+    "studentFacultyRatio": 16.0,
+    "topPrograms": [
+      "Business/Commerce, General",
+      "Computer and Information Sciences, General",
+      "Mechanical Engineering",
+      "Engineering, Other",
+      "Econometrics and Quantitative Economics"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 15719,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0715,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Northwestern University"
+    ],
+    "chineseName": "西北大学",
+    "city": "Evanston",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$65,997",
+      "maximumUsd": 65997.0,
+      "minimumUsd": 65997.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:northwestern-university",
+    "latitude": 42.050356,
+    "longitude": -87.679858,
+    "name": "Northwestern University",
+    "nameZh": "西北大学",
+    "nationalRanking": 7,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 7,
+      "rankingLabel": "#7",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IL",
+    "studentFacultyRatio": 6.0,
+    "topPrograms": [
+      "Econometrics and Quantitative Economics",
+      "Psychology, General",
+      "Digital Communication and Media/Multimedia",
+      "Biology/Biological Sciences, General",
+      "Computer Science"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 8960,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.5082,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Fisher College of Business",
+      "The Ohio State University"
+    ],
+    "chineseName": "俄亥俄州立大学",
+    "city": "Columbus",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$12,859–$38,365",
+      "maximumUsd": 38365.0,
+      "minimumUsd": 12859.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:ohio-state-university",
+    "latitude": 39.999803,
+    "longitude": -83.007525,
+    "name": "The Ohio State University",
+    "nameZh": "俄亥俄州立大学",
+    "nationalRanking": 41,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 41,
+      "rankingLabel": "#41",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "OH",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Undergraduate Business Programs",
+      "Computer and Information Science",
+      "Data Analytics",
+      "Psychology",
+      "Economics"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 44617,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2166,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Olin College"
+    ],
+    "chineseName": "欧林工程学院",
+    "city": "Needham",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$61,802",
+      "maximumUsd": 61802.0,
+      "minimumUsd": 61802.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:olin-college-of-engineering",
+    "latitude": 42.293527,
+    "longitude": -71.263378,
+    "name": "Olin College of Engineering",
+    "nameZh": "欧林工程学院",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "graduate_enrollment_not_reported",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access",
+        "total_enrollment_not_reported"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MA",
+    "studentFacultyRatio": 9.0,
+    "topPrograms": [
+      "Undergraduate Engineering Programs (No Doctorate)",
+      "Mechanical Engineering",
+      "Electrical and Computer Engineering",
+      "Bioengineering Concentration",
+      "Engineering Computing Concentration"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 373,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "graduate_enrollment_not_reported",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access",
+        "total_enrollment_not_reported"
+      ],
+      "count": 7,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.045,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Princeton University"
+    ],
+    "chineseName": "普林斯顿大学",
+    "city": "Princeton",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$59,710",
+      "maximumUsd": 59710.0,
+      "minimumUsd": 59710.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:princeton-university",
+    "latitude": 40.348732,
+    "longitude": -74.659365,
+    "name": "Princeton University",
+    "nameZh": "普林斯顿大学",
+    "nationalRanking": 1,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 1,
+      "rankingLabel": "#1",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "usn-2026-best-colleges-press-release"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NJ",
+    "studentFacultyRatio": 5.0,
+    "topPrograms": [
+      "Computer Science",
+      "Econometrics and Quantitative Economics",
+      "Public Policy Analysis, General",
+      "Operations Research",
+      "History, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 5579,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.503,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Purdue University—Main Campus"
+    ],
+    "chineseName": "普渡大学主校区",
+    "city": "West Lafayette",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$9,992–$28,794",
+      "maximumUsd": 28794.0,
+      "minimumUsd": 9992.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:purdue-university-main-campus",
+    "latitude": 40.428206,
+    "longitude": -86.914435,
+    "name": "Purdue University—Main Campus",
+    "nameZh": "普渡大学主校区",
+    "nationalRanking": 46,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 46,
+      "rankingLabel": "#46",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IN",
+    "studentFacultyRatio": 14.0,
+    "topPrograms": [
+      "Computer Science",
+      "Mechanical Engineering",
+      "Computer Engineering, General",
+      "Experimental Psychology",
+      "Aerospace, Aeronautical, and Astronautical/Space Engineering, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 39637,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0788,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Rice University"
+    ],
+    "chineseName": "莱斯大学",
+    "city": "Houston",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$58,128",
+      "maximumUsd": 58128.0,
+      "minimumUsd": 58128.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:rice-university",
+    "latitude": 29.717897,
+    "longitude": -95.402035,
+    "name": "Rice University",
+    "nameZh": "莱斯大学",
+    "nationalRanking": 17,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 17,
+      "rankingLabel": "#17",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southwest",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "TX",
+    "studentFacultyRatio": 6.0,
+    "topPrograms": [
+      "Computer and Information Sciences, General",
+      "Biology/Biological Sciences, General",
+      "Economics, General",
+      "Psychology, General",
+      "Mechanical Engineering"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 4562,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.7281,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Rose-Hulman Institute of Technology"
+    ],
+    "chineseName": "罗斯-霍曼理工学院",
+    "city": "Terre Haute",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$54,174",
+      "maximumUsd": 54174.0,
+      "minimumUsd": 54174.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:rose-hulman-institute-of-technology",
+    "latitude": 39.483602,
+    "longitude": -87.326749,
+    "name": "Rose-Hulman Institute of Technology",
+    "nameZh": "罗斯-霍曼理工学院",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IN",
+    "studentFacultyRatio": 11.0,
+    "topPrograms": [
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Undergraduate Engineering Programs (No Doctorate)",
+      "Computer Engineering"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 2224,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.6535,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Rutgers University—New Brunswick"
+    ],
+    "chineseName": "罗格斯大学新布朗斯维克分校",
+    "city": "New Brunswick",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$17,239–$36,001",
+      "maximumUsd": 36001.0,
+      "minimumUsd": 17239.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:rutgers-university-new-brunswick",
+    "latitude": 40.498769,
+    "longitude": -74.446251,
+    "name": "Rutgers University—New Brunswick",
+    "nameZh": "罗格斯大学新布朗斯维克分校",
+    "nationalRanking": 42,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 42,
+      "rankingLabel": "#42",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NJ",
+    "studentFacultyRatio": 15.0,
+    "topPrograms": [
+      "Computer and Information Sciences, General",
+      "Psychology, General",
+      "Finance, General",
+      "Biology/Biological Sciences, General",
+      "Registered Nursing/Registered Nurse"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 36357,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0391,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Stanford University"
+    ],
+    "chineseName": "斯坦福大学",
+    "city": "Stanford",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$62,484",
+      "maximumUsd": 62484.0,
+      "minimumUsd": 62484.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:stanford-university",
+    "latitude": 37.429434,
+    "longitude": -122.167359,
+    "name": "Stanford University",
+    "nameZh": "斯坦福大学",
+    "nationalRanking": 4,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 4,
+      "rankingLabel": "#4",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 6.0,
+    "topPrograms": [
+      "Computer Science",
+      "Human Biology",
+      "Econometrics and Quantitative Economics",
+      "Engineering, Other",
+      "Cognitive Science, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7841,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.6325,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Texas A&M University College of Engineering"
+    ],
+    "chineseName": "德州农工大学",
+    "city": "College Station",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$12,841–$40,328",
+      "maximumUsd": 40328.0,
+      "minimumUsd": 12841.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:texas-a-and-m-university",
+    "latitude": 30.618726,
+    "longitude": -96.336475,
+    "name": "Texas A&M University",
+    "nameZh": "德州农工大学",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Southwest",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "TX",
+    "studentFacultyRatio": 19.0,
+    "topPrograms": [
+      "Industrial Engineering",
+      "Aerospace Engineering",
+      "Mechanical Engineering",
+      "Materials Engineering",
+      "Electrical Engineering"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 59099,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1013,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Tufts University"
+    ],
+    "chineseName": "塔夫茨大学",
+    "city": "Medford",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$67,844",
+      "maximumUsd": 67844.0,
+      "minimumUsd": 67844.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:tufts-university",
+    "latitude": 42.40855,
+    "longitude": -71.118293,
+    "name": "Tufts University",
+    "nameZh": "塔夫茨大学",
+    "nationalRanking": 36,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 36,
+      "rankingLabel": "#36",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MA",
+    "studentFacultyRatio": 10.0,
+    "topPrograms": [
+      "Econometrics and Quantitative Economics",
+      "Computer Science",
+      "International Relations and Affairs",
+      "Biology/Biological Sciences, General",
+      "Experimental Psychology"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 6804,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1166,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Haas Undergraduate Program",
+      "UC Berkeley",
+      "University of California, Berkeley"
+    ],
+    "chineseName": "加州大学伯克利分校",
+    "city": "Berkeley",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$14,850–$45,627",
+      "maximumUsd": 45627.0,
+      "minimumUsd": 14850.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-california-berkeley",
+    "latitude": 37.871918,
+    "longitude": -122.260463,
+    "name": "University of California, Berkeley",
+    "nameZh": "加州大学伯克利分校",
+    "nationalRanking": 15,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 15,
+      "rankingLabel": "#15",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Real Estate",
+      "Supply Chain Management/Logistics",
+      "Undergraduate Computer Science Programs",
+      "Undergraduate Business Programs",
+      "Entrepreneurship"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 33073,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.4163,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of California, Davis"
+    ],
+    "chineseName": "加州大学戴维斯分校",
+    "city": "Davis",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$15,247–$46,024",
+      "maximumUsd": 46024.0,
+      "minimumUsd": 15247.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-california-davis",
+    "latitude": 38.539667,
+    "longitude": -121.749567,
+    "name": "University of California, Davis",
+    "nameZh": "加州大学戴维斯分校",
+    "nationalRanking": 32,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 32,
+      "rankingLabel": "#32",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 21.0,
+    "topPrograms": [
+      "Research and Experimental Psychology, Other",
+      "Management Sciences and Quantitative Methods, Other",
+      "Econometrics and Quantitative Economics",
+      "Computer Science",
+      "Neurobiology and Anatomy"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 31777,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2557,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of California, Irvine"
+    ],
+    "chineseName": "加州大学欧文分校",
+    "city": "Irvine",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$14,237–$45,014",
+      "maximumUsd": 45014.0,
+      "minimumUsd": 14237.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-california-irvine",
+    "latitude": 33.648434,
+    "longitude": -117.841248,
+    "name": "University of California, Irvine",
+    "nameZh": "加州大学欧文分校",
+    "nationalRanking": 32,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 32,
+      "rankingLabel": "#32",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Biology/Biological Sciences, General",
+      "Business/Managerial Economics",
+      "Research and Experimental Psychology, Other",
+      "Computer Science",
+      "Criminology"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 29494,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0873,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of California, Los Angeles"
+    ],
+    "chineseName": "加州大学洛杉矶分校",
+    "city": "Los Angeles",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$13,747–$44,524",
+      "maximumUsd": 44524.0,
+      "minimumUsd": 13747.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-california-los-angeles",
+    "latitude": 34.07178,
+    "longitude": -118.442179,
+    "name": "University of California, Los Angeles",
+    "nameZh": "加州大学洛杉矶分校",
+    "nationalRanking": 17,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 17,
+      "rankingLabel": "#17",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Econometrics and Quantitative Economics",
+      "Psychology, General",
+      "Sociology, General",
+      "Political Science and Government, General",
+      "Behavioral Neuroscience"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 33040,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2452,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of California, San Diego"
+    ],
+    "chineseName": "加州大学圣地亚哥分校",
+    "city": "La Jolla",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$15,265–$46,042",
+      "maximumUsd": 46042.0,
+      "minimumUsd": 15265.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-california-san-diego",
+    "latitude": 32.877749,
+    "longitude": -117.235866,
+    "name": "University of California, San Diego",
+    "nameZh": "加州大学圣地亚哥分校",
+    "nationalRanking": 29,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 29,
+      "rankingLabel": "#29",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 19.0,
+    "topPrograms": [
+      "Cognitive Science, General",
+      "Anatomy",
+      "Computer Science",
+      "International/Globalization Studies",
+      "Econometrics and Quantitative Economics"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 33787,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 6,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2778,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of California, Santa Barbara"
+    ],
+    "chineseName": "加州大学圣塔芭芭拉分校",
+    "city": "Santa Barbara",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$14,965–$45,742",
+      "maximumUsd": 45742.0,
+      "minimumUsd": 14965.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-california-santa-barbara",
+    "latitude": 34.416297,
+    "longitude": -119.846426,
+    "name": "University of California, Santa Barbara",
+    "nameZh": "加州大学圣塔芭芭拉分校",
+    "nationalRanking": 40,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 40,
+      "rankingLabel": "#40",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 17.0,
+    "topPrograms": [
+      "Econometrics and Quantitative Economics",
+      "Sociology, General",
+      "Communication, General",
+      "Experimental Psychology",
+      "Biology/Biological Sciences, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 23205,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 6,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0479,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Chicago"
+    ],
+    "chineseName": "芝加哥大学",
+    "city": "Chicago",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$65,619",
+      "maximumUsd": 65619.0,
+      "minimumUsd": 65619.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-chicago",
+    "latitude": 41.787994,
+    "longitude": -87.599539,
+    "name": "University of Chicago",
+    "nameZh": "芝加哥大学",
+    "nationalRanking": 6,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 6,
+      "rankingLabel": "#6",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IL",
+    "studentFacultyRatio": 5.0,
+    "topPrograms": [
+      "Econometrics and Quantitative Economics",
+      "Mathematics, General",
+      "Computer Science",
+      "Biology/Biological Sciences, General",
+      "Political Science and Government, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7540,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.8328,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "CU Boulder Psychology and Neuroscience"
+    ],
+    "chineseName": "科罗拉多大学博尔德分校",
+    "city": "Boulder",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$15,556–$41,943",
+      "maximumUsd": 41943.0,
+      "minimumUsd": 15556.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-colorado-boulder",
+    "latitude": 40.008781,
+    "longitude": -105.270823,
+    "name": "University of Colorado Boulder",
+    "nameZh": "科罗拉多大学博尔德分校",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Rocky Mountains",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CO",
+    "studentFacultyRatio": 19.0,
+    "topPrograms": [
+      "Undergraduate Psychology Programs",
+      "Business Administration and Management, General",
+      "Psychology, General",
+      "Computer Science",
+      "Public Relations, Advertising, and Applied Communication"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 31578,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2403,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Heavener School of Business",
+      "University of Florida"
+    ],
+    "chineseName": "佛罗里达大学",
+    "city": "Gainesville",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$6,381–$28,659",
+      "maximumUsd": 28659.0,
+      "minimumUsd": 6381.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-florida",
+    "latitude": 29.64629,
+    "longitude": -82.347911,
+    "name": "University of Florida",
+    "nameZh": "佛罗里达大学",
+    "nationalRanking": 30,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 30,
+      "rankingLabel": "#30",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "FL",
+    "studentFacultyRatio": 16.0,
+    "topPrograms": [
+      "Real Estate",
+      "Marketing",
+      "Psychology, General",
+      "Biology/Biological Sciences, General",
+      "Business Administration and Management, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 34102,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.372,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Georgia"
+    ],
+    "chineseName": "佐治亚大学",
+    "city": "Athens",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$11,180–$30,220",
+      "maximumUsd": 30220.0,
+      "minimumUsd": 11180.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-georgia",
+    "latitude": 33.956262,
+    "longitude": -83.374039,
+    "name": "University of Georgia",
+    "nameZh": "佐治亚大学",
+    "nationalRanking": 46,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 46,
+      "rankingLabel": "#46",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "GA",
+    "studentFacultyRatio": 17.0,
+    "topPrograms": [
+      "Psychology, General",
+      "Biology/Biological Sciences, General",
+      "Finance, General",
+      "Marketing/Marketing Management, General",
+      "Management Information Systems, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 31310,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.4369,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Illinois Urbana-Champaign"
+    ],
+    "chineseName": "伊利诺伊大学厄巴纳-香槟分校",
+    "city": "Champaign",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$18,060–$39,192",
+      "maximumUsd": 39192.0,
+      "minimumUsd": 18060.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-illinois-urbana-champaign",
+    "latitude": 40.104718,
+    "longitude": -88.229114,
+    "name": "University of Illinois Urbana-Champaign",
+    "nameZh": "伊利诺伊大学厄巴纳-香槟分校",
+    "nationalRanking": 36,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 36,
+      "rankingLabel": "#36",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IL",
+    "studentFacultyRatio": 20.0,
+    "topPrograms": [
+      "Research and Experimental Psychology, Other",
+      "Computer Engineering, General",
+      "Accounting",
+      "Finance, General",
+      "Computer Science"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 34623,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.8467,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Iowa College of Nursing"
+    ],
+    "chineseName": "爱荷华大学",
+    "city": "Iowa City",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$10,964–$32,927",
+      "maximumUsd": 32927.0,
+      "minimumUsd": 10964.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-iowa",
+    "latitude": 41.661935,
+    "longitude": -91.536425,
+    "name": "University of Iowa",
+    "nameZh": "爱荷华大学",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Plains",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IA",
+    "studentFacultyRatio": 15.0,
+    "topPrograms": [
+      "Undergraduate Nursing Programs",
+      "Exercise Science and Kinesiology",
+      "Finance, General",
+      "Behavioral Sciences",
+      "Marketing/Marketing Management, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 21691,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.4484,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Maryland, College Park"
+    ],
+    "chineseName": "马里兰大学帕克分校",
+    "city": "College Park",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$11,505–$40,306",
+      "maximumUsd": 40306.0,
+      "minimumUsd": 11505.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-maryland-college-park",
+    "latitude": 38.988178,
+    "longitude": -76.944721,
+    "name": "University of Maryland, College Park",
+    "nameZh": "马里兰大学帕克分校",
+    "nationalRanking": 42,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 42,
+      "rankingLabel": "#42",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MD",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Computer Science",
+      "Information Science/Studies",
+      "Biology/Biological Sciences, General",
+      "Psychology, General",
+      "Finance, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 30246,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1794,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Michigan—Ann Arbor"
+    ],
+    "chineseName": "密歇根大学安娜堡分校",
+    "city": "Ann Arbor",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$18,309–$60,107",
+      "maximumUsd": 60107.0,
+      "minimumUsd": 18309.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-michigan-ann-arbor",
+    "latitude": 42.278374,
+    "longitude": -83.73481,
+    "name": "University of Michigan—Ann Arbor",
+    "nameZh": "密歇根大学安娜堡分校",
+    "nationalRanking": 20,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 20,
+      "rankingLabel": "#20",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MI",
+    "studentFacultyRatio": 11.0,
+    "topPrograms": [
+      "Computer and Information Sciences, General",
+      "Business Administration and Management, General",
+      "Economics, General",
+      "Behavioral Neuroscience",
+      "Experimental Psychology"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 33488,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.7703,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Carlson School of Management"
+    ],
+    "chineseName": "明尼苏达大学双城分校",
+    "city": "Minneapolis",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$16,488–$36,402",
+      "maximumUsd": 36402.0,
+      "minimumUsd": 16488.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-minnesota-twin-cities",
+    "latitude": 44.972851,
+    "longitude": -93.235464,
+    "name": "University of Minnesota Twin Cities",
+    "nameZh": "明尼苏达大学双城分校",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Plains",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MN",
+    "studentFacultyRatio": 16.0,
+    "topPrograms": [
+      "Management Information Systems",
+      "Supply Chain Management/Logistics",
+      "Analytics",
+      "Undergraduate Business Programs",
+      "Computer Science"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 30469,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1874,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of North Carolina—Chapel Hill"
+    ],
+    "chineseName": "北卡罗来纳大学教堂山分校",
+    "city": "Chapel Hill",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$8,989–$39,330",
+      "maximumUsd": 39330.0,
+      "minimumUsd": 8989.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-north-carolina-chapel-hill",
+    "latitude": 35.911769,
+    "longitude": -79.050969,
+    "name": "University of North Carolina—Chapel Hill",
+    "nameZh": "北卡罗来纳大学教堂山分校",
+    "nationalRanking": 26,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 26,
+      "rankingLabel": "#26",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NC",
+    "studentFacultyRatio": 15.0,
+    "topPrograms": [
+      "Asian Studies, B.A. — Japanese Concentration",
+      "Asian Studies, B.A. — Korean Studies Concentration",
+      "Asian Studies, B.A. — South Asian Studies Concentration"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 20556,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1238,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Notre Dame"
+    ],
+    "chineseName": "圣母大学",
+    "city": "Notre Dame",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$62,693",
+      "maximumUsd": 62693.0,
+      "minimumUsd": 62693.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-notre-dame",
+    "latitude": 41.703058,
+    "longitude": -86.238959,
+    "name": "University of Notre Dame",
+    "nameZh": "圣母大学",
+    "nationalRanking": 20,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 20,
+      "rankingLabel": "#20",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "IN",
+    "studentFacultyRatio": 9.0,
+    "topPrograms": [
+      "Finance, General",
+      "Econometrics and Quantitative Economics",
+      "Political Science and Government, General",
+      "Computer and Information Sciences, General",
+      "Neuroscience"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 8923,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0587,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Pennsylvania"
+    ],
+    "chineseName": "宾夕法尼亚大学",
+    "city": "Philadelphia",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$66,104",
+      "maximumUsd": 66104.0,
+      "minimumUsd": 66104.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-pennsylvania",
+    "latitude": 39.950929,
+    "longitude": -75.19391,
+    "name": "University of Pennsylvania",
+    "nameZh": "宾夕法尼亚大学",
+    "nationalRanking": 7,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 7,
+      "rankingLabel": "#7",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "PA",
+    "studentFacultyRatio": 8.0,
+    "topPrograms": [
+      "Financial Analytics",
+      "Econometrics and Quantitative Economics",
+      "Computer and Information Sciences, General",
+      "Registered Nursing/Registered Nurse",
+      "Biology/Biological Sciences, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 10768,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.3585,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Rochester"
+    ],
+    "chineseName": "罗切斯特大学",
+    "city": "Rochester",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$64,348",
+      "maximumUsd": 64348.0,
+      "minimumUsd": 64348.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-rochester",
+    "latitude": 43.126397,
+    "longitude": -77.631202,
+    "name": "University of Rochester",
+    "nameZh": "罗切斯特大学",
+    "nationalRanking": 46,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 46,
+      "rankingLabel": "#46",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Mid East",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "NY",
+    "studentFacultyRatio": 9.0,
+    "topPrograms": [
+      "Biology/Biological Sciences, General",
+      "Registered Nursing/Registered Nurse",
+      "Management Sciences and Quantitative Methods, Other",
+      "Computer Science",
+      "Research and Experimental Psychology, Other"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 6488,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.6149,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Darla Moore School of Business"
+    ],
+    "chineseName": "南卡罗来纳大学哥伦比亚分校",
+    "city": "Columbia",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$12,688–$34,943",
+      "maximumUsd": 34943.0,
+      "minimumUsd": 12688.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-south-carolina-columbia",
+    "latitude": 33.996788,
+    "longitude": -81.026935,
+    "name": "University of South Carolina",
+    "nameZh": "南卡罗来纳大学哥伦比亚分校",
+    "nationalRanking": null,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "outside_numeric_scope",
+    "rankingSummary": {
+      "filterBehavior": "exclude_from_numeric_range",
+      "nationalRank": null,
+      "rankingLabel": "Not in selected national ranking scope",
+      "rankingTier": "outside_numeric_scope",
+      "sourceIds": [],
+      "status": "not_in_current_national_scope"
+    },
+    "rankingTier": "outside_numeric_scope",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "SC",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "International Business",
+      "Data Analytics",
+      "Economics",
+      "Management",
+      "Marketing"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 28113,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "not_in_current_national_scope",
+        "not_in_verified_national_top50_scope",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 6,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1002,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Southern California"
+    ],
+    "chineseName": "南加州大学",
+    "city": "Los Angeles",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$68,237",
+      "maximumUsd": 68237.0,
+      "minimumUsd": 68237.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-southern-california",
+    "latitude": 34.021281,
+    "longitude": -118.284169,
+    "name": "University of Southern California",
+    "nameZh": "南加州大学",
+    "nationalRanking": 28,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 28,
+      "rankingLabel": "#28",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CA",
+    "studentFacultyRatio": 9.0,
+    "topPrograms": [
+      "Management Science",
+      "Computer Science",
+      "Speech Communication and Rhetoric",
+      "Human Biology",
+      "Psychology, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 20817,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2912,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Texas—Austin"
+    ],
+    "chineseName": "德克萨斯大学奥斯汀分校",
+    "city": "Austin",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$11,678–$42,778",
+      "maximumUsd": 42778.0,
+      "minimumUsd": 11678.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-texas-austin",
+    "latitude": 30.282825,
+    "longitude": -97.738273,
+    "name": "University of Texas—Austin",
+    "nameZh": "德克萨斯大学奥斯汀分校",
+    "nationalRanking": 30,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 30,
+      "rankingLabel": "#30",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southwest",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "TX",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Business Administration",
+      "Computer Science",
+      "Aerospace Engineering",
+      "Finance",
+      "Management Information Systems"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 42100,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1686,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Virginia"
+    ],
+    "chineseName": "弗吉尼亚大学",
+    "city": "Charlottesville",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$22,323–$59,633",
+      "maximumUsd": 59633.0,
+      "minimumUsd": 22323.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-virginia",
+    "latitude": 38.035665,
+    "longitude": -78.503428,
+    "name": "University of Virginia",
+    "nameZh": "弗吉尼亚大学",
+    "nationalRanking": 26,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 26,
+      "rankingLabel": "#26",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "VA",
+    "studentFacultyRatio": 15.0,
+    "topPrograms": [
+      "Computer Science",
+      "Data Science",
+      "Economics",
+      "Biomedical Engineering",
+      "Commerce"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 17315,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.4253,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Washington"
+    ],
+    "chineseName": "华盛顿大学",
+    "city": "Seattle",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$12,643–$41,997",
+      "maximumUsd": 41997.0,
+      "minimumUsd": 12643.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-washington",
+    "latitude": 47.65538,
+    "longitude": -122.30514,
+    "name": "University of Washington",
+    "nameZh": "华盛顿大学",
+    "nationalRanking": 42,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 42,
+      "rankingLabel": "#42",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Far West",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "WA",
+    "studentFacultyRatio": 20.0,
+    "topPrograms": [
+      "Aeronautics and Astronautics",
+      "Chemical Engineering",
+      "Civil and Environmental Engineering",
+      "Computer Science and Engineering",
+      "Mechanical Engineering"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 31588,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "act_not_reported",
+        "english_policy_pending_external_access",
+        "sat_not_reported",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 5,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.4335,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "University of Wisconsin—Madison"
+    ],
+    "chineseName": "威斯康星大学麦迪逊分校",
+    "city": "Madison",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": false,
+      "currency": "USD",
+      "displayLabel": "$11,205–$40,603",
+      "maximumUsd": 40603.0,
+      "minimumUsd": 11205.0,
+      "scopes": [
+        "in_state",
+        "out_of_state"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": [
+        "Public in-state and out-of-state tuition are separate scopes."
+      ]
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:university-of-wisconsin-madison",
+    "latitude": 43.075409,
+    "longitude": -89.404098,
+    "name": "University of Wisconsin—Madison",
+    "nameZh": "威斯康星大学麦迪逊分校",
+    "nationalRanking": 36,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 36,
+      "rankingLabel": "#36",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Great Lakes",
+    "schoolType": "public",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "WI",
+    "studentFacultyRatio": 18.0,
+    "topPrograms": [
+      "Computer and Information Sciences, General",
+      "Psychology, General",
+      "Economics, General",
+      "Biology/Biological Sciences, General",
+      "Political Science and Government, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 35665,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0628,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Vanderbilt University"
+    ],
+    "chineseName": "范德堡大学",
+    "city": "Nashville",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$63,946",
+      "maximumUsd": 63946.0,
+      "minimumUsd": 63946.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:vanderbilt-university",
+    "latitude": 36.14659,
+    "longitude": -86.803369,
+    "name": "Vanderbilt University",
+    "nameZh": "范德堡大学",
+    "nationalRanking": 17,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 17,
+      "rankingLabel": "#17",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Southeast",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "TN",
+    "studentFacultyRatio": 7.0,
+    "topPrograms": [
+      "Social Sciences, General",
+      "Econometrics and Quantitative Economics",
+      "Multi-/Interdisciplinary Studies, Other",
+      "Computer Science",
+      "Mathematics, General"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7143,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.1196,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Washington University in St. Louis"
+    ],
+    "chineseName": "圣路易斯华盛顿大学",
+    "city": "St. Louis",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$62,982",
+      "maximumUsd": 62982.0,
+      "minimumUsd": 62982.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:washington-university-in-st-louis",
+    "latitude": 38.647929,
+    "longitude": -90.310604,
+    "name": "Washington University in St. Louis",
+    "nameZh": "圣路易斯华盛顿大学",
+    "nationalRanking": 20,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 20,
+      "rankingLabel": "#20",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "Plains",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "MO",
+    "studentFacultyRatio": 7.0,
+    "topPrograms": [
+      "Computer Science",
+      "Finance, General",
+      "Experimental Psychology",
+      "Econometrics and Quantitative Economics",
+      "Mechanical Engineering"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 7897,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "county_scope_only",
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 4,
+      "hasWarnings": true
+    }
+  },
+  {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.045,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "aliases": [
+      "Yale University"
+    ],
+    "chineseName": "耶鲁大学",
+    "city": "New Haven",
+    "costSummary": {
+      "academicYear": "2023-24",
+      "comparisonSafe": true,
+      "currency": "USD",
+      "displayLabel": "$64,700",
+      "maximumUsd": 64700.0,
+      "minimumUsd": 64700.0,
+      "scopes": [
+        "private_single_rate"
+      ],
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ],
+      "warnings": []
+    },
+    "country": "US",
+    "datasetVersion": "stage5-preview-ec8c66e",
+    "displayTier": "preview",
+    "id": "candidate-v2:yale-university",
+    "latitude": 41.311158,
+    "longitude": -72.926688,
+    "name": "Yale University",
+    "nameZh": "耶鲁大学",
+    "nationalRanking": 4,
+    "previewOnly": true,
+    "qualitySummary": {
+      "sourceLimited": true,
+      "status": "warning",
+      "warningCodes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ]
+    },
+    "rankingBand": "national_top_50",
+    "rankingSummary": {
+      "filterBehavior": "include_as_ranked",
+      "nationalRank": 4,
+      "rankingLabel": "#4",
+      "rankingTier": "national_top_50",
+      "sourceIds": [
+        "source_think_academy_top100_2026_pdf"
+      ],
+      "status": "ranked_in_selected_national_family"
+    },
+    "rankingTier": "national_top_50",
+    "rankingYear": null,
+    "region": "New England",
+    "schoolType": "private_nonprofit",
+    "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+    "sourceStatus": "verified_frozen_with_warnings",
+    "state": "CT",
+    "studentFacultyRatio": 6.0,
+    "topPrograms": [
+      "Econometrics and Quantitative Economics",
+      "Computer and Information Sciences, General",
+      "Political Science and Government, General",
+      "History, General",
+      "Cell/Cellular and Molecular Biology"
+    ],
+    "undergraduateEnrollment": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 6811,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "warningSummary": {
+      "codes": [
+        "english_policy_pending_external_access",
+        "stale_reference_year",
+        "test_policy_pending_external_access"
+      ],
+      "count": 3,
+      "hasWarnings": true
+    }
+  }
+]

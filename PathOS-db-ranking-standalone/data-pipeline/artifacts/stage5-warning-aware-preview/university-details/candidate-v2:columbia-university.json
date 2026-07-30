@@ -1,0 +1,419 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.0423,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0423,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "composite": {
+          "percentile_25": 34,
+          "percentile_75": 35
+        },
+        "evidence_type": "middle_50_percent_range",
+        "null_reason": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score"
+      },
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9496,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9718,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "average": 1547,
+        "evidence_type": "middle_50_percent_range",
+        "math": {
+          "percentile_25": 760,
+          "percentile_75": 800
+        },
+        "null_reason": null,
+        "reading_writing": {
+          "percentile_25": 730,
+          "percentile_75": 770
+        },
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score",
+        "warnings": [
+          "score reporting does not establish a current test-optional policy"
+        ]
+      },
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "Columbia University"
+  ],
+  "allMajors": [],
+  "allMajorsStatus": {
+    "nullReason": "identity_ipeds_match_not_resolved",
+    "status": "not_reported"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_bulk_v2_columbia_anecdote"
+      ],
+      "text": "Columbia’s timeline records the opening of its medical school under Samuel Bard in 1767.",
+      "type": "academic_milestone"
+    }
+  ],
+  "chineseName": "哥伦比亚大学",
+  "city": "New York",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": true,
+    "currency": "USD",
+    "displayLabel": "$68,171",
+    "maximumUsd": 68171.0,
+    "minimumUsd": 68171.0,
+    "scopes": [
+      "private_single_rate"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": []
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 26168,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_derived_same_scope",
+      "unit": null,
+      "value": 35067,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 8899,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "35620",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "New York County",
+      "warnings": []
+    },
+    "geographyScope": "county",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [],
+      "status": "county_only_valid",
+      "unit": "name",
+      "value": null,
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_bulk_v2_columbia_history"
+    ],
+    "status": "verified",
+    "value": "Columbia began as King’s College in 1754 under a royal charter from King George II."
+  },
+  "id": "candidate-v2:columbia-university",
+  "latitude": 40.808286,
+  "longitude": -73.961885,
+  "name": "Columbia University",
+  "nameZh": "哥伦比亚大学",
+  "nationalRanking": 15,
+  "nearbyTowns": [
+    {
+      "distance": 2.08,
+      "name": "Edgewater"
+    },
+    {
+      "distance": 2.67,
+      "name": "Cliffside Park"
+    },
+    {
+      "distance": 3.74,
+      "name": "Fairview"
+    }
+  ],
+  "notableAttendance": [],
+  "people": [],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Computer Engineering",
+      "slotId": "candidate-v2:columbia-university:slot-2",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:columbia-university:program:1",
+      "name": "Computer Science",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_columbia_engineering_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:columbia-university:program:2",
+      "name": "Computer Engineering",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_columbia_engineering_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:columbia-university:program:3",
+      "name": "Electrical Engineering",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_columbia_engineering_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:columbia-university:program:4",
+      "name": "Biomedical Engineering",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_columbia_engineering_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:columbia-university:program:5",
+      "name": "Mechanical Engineering",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_columbia_engineering_undergraduate_catalog"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "county_scope_only",
+      "english_policy_pending_external_access",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ]
+  },
+  "rankingBand": "national_top_50",
+  "rankingSummary": {
+    "filterBehavior": "include_as_ranked",
+    "nationalRank": 15,
+    "rankingLabel": "#15",
+    "rankingTier": "national_top_50",
+    "sourceIds": [
+      "source_think_academy_top100_2026_pdf"
+    ],
+    "status": "ranked_in_selected_national_family"
+  },
+  "rankingTier": "national_top_50",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 68171.0,
+      "currency": "USD",
+      "scope": "private_single_rate",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "Mid East",
+  "schoolType": "private_nonprofit",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "NY",
+  "studentFacultyRatio": 6.0,
+  "topPrograms": [
+    "Computer Science",
+    "Computer Engineering",
+    "Electrical Engineering",
+    "Biomedical Engineering",
+    "Mechanical Engineering"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 8899,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "county_scope_only",
+      "english_policy_pending_external_access",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ],
+    "count": 4,
+    "hasWarnings": true
+  }
+}

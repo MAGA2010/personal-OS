@@ -1,0 +1,234 @@
+{
+  "manifest_version": "1.1",
+  "stage": "Stage 7B-A.2 Phase 0 (true baseline of v3)",
+  "version": "Phase-0-corrected",
+  "date": "2026-07-26",
+  "purpose": "Re-pinned after Stage 7B-A.1 v3 conditional Re-Gate PASS. Distinguishes (a) files touched in v3 vs (b) cumulative checkpoint-to-live drift. Includes the deletion of the orphan MapToolbarClient.tsx and re-pinning of RegionalLayerControl.tsx / RegionalLegend.tsx / tailwind.config.ts which were missing from the original v3 manifest.",
+  "baseline_checkpoint": "stage7b-a-pass-2026-07-25",
+  "baseline_checksum_file": "CHECKSUMS.sha256 (158 files)",
+  "prior_stage": "Stage 7B-A.1 Closing Patch v3 (V3-G final; CONDITIONAL PASS accepted by Re-Gate as Stage 7B-A.2 baseline)",
+
+  "summary": {
+    "modified_since_checkpoint": 8,
+    "verified_unchanged_since_checkpoint": 1,
+    "added_since_checkpoint": 5,
+    "deleted_since_v3": 1,
+    "v3_test_files": 1,
+    "v3_doc_files": 4,
+    "v3_modified_files": 1,
+    "v3_orphan_deleted_in_phase_0_1": 1,
+    "total_touched_files": 18
+  },
+
+  "modified_since_checkpoint": [
+    {
+      "path": "src/components/map/MapShell.tsx",
+      "sha256_live": "868697adc4a5fcda8a2ce74278ba1c3cd03a73c38389a9e35eae8d1aa830a150",
+      "sha256_checkpoint": "8154cb0fe764cba4c13c847b43d652a95876c210b2a6bfe216f27040aa6d88e4",
+      "first_modified_in": "Stage 7R (regional heatmap + choropleth layer orchestration)",
+      "v3_round": "V3-F",
+      "rationale": "Cumulative changes from Stage 7R + Stage 7B-A + Stage 7B-A.1 (v2 + v3). V3 added comment block documenting V3-A/V3-F/V3-G round-trip; MapCanvas remains dynamic({ssr:false}) because MapLibre GL JS requires `window`."
+    },
+    {
+      "path": "src/components/map/MapCanvas.tsx",
+      "sha256_live": "3532a3e524d060857f1d56d13cfb7d44f0f433cf76679a54ca66998367179f8f",
+      "sha256_checkpoint": "092104930b3f495581f1fddb8cb56f564fe635394e9af42a7ac8361fdb36f41d",
+      "first_modified_in": "Stage 7R (basemap + style install)",
+      "v3_round": "V3-D",
+      "rationale": "Stage 7R basemap install; Stage 7B-A removed `glyphs:undefined` warning (lines 91/120); Stage 7B-A.1 v2 removed console.warn monkey-patch leak (V3-D) at lines 474-484."
+    },
+    {
+      "path": "src/components/map/regional/RegionalStateLayer.tsx",
+      "sha256_live": "c79bc682b76f6b2939b17b68feb19e21abf7e0a14d74c27ec22dcba10413d791",
+      "sha256_checkpoint": "b27e5703c0a5cc03615c61fee62386f5293b15539dd364f8555ac5751ce2e4df",
+      "first_modified_in": "Stage 7R (choropleth fill layer + legend wiring)",
+      "v3_round": "(unchanged in v3; carried from v2)",
+      "rationale": "Stage 7R established the choropleth fill layer; Stage 7B-A.1 v2 added source-install mapReady gate (F3); verified unchanged in v3 (H/K series)."
+    },
+    {
+      "path": "src/components/map/regional/RegionalLayerControl.tsx",
+      "sha256_live": "a178dabe6783d79f3498c0a8ccb615de7528fa28ad4e884b751b281985b658b9",
+      "sha256_checkpoint": "d66cae30ff50f1d8febda5ec5fb726f49688f6933de855f6f2cf9852ea59da5d",
+      "first_modified_in": "Stage 7B-A.1 v2 (legend deduplication + metric tabs unification)",
+      "v3_round": "(unchanged in v3)",
+      "rationale": "Was missing from the original v3 manifest. Stage 7B-A.1 v2 changed the metric selector to emit null via the EyeOff toggle, plus a styled select; Stage 7B-A.1 v2 marked it verified-unchanged. Included in this corrected manifest per Re-Gate directive."
+    },
+    {
+      "path": "src/components/map/regional/RegionalLegend.tsx",
+      "sha256_live": "176395bb2800722094c4d0af07c01b3eaee1c20a77579b4864d26b895c9cb93d",
+      "sha256_checkpoint": "5fbe17091cb23a721786d3a0867f4e0d55f98dfdc8e09c782514dd1775a49c13",
+      "first_modified_in": "Stage 7B-A (single authoritative legend)",
+      "v3_round": "(unchanged in v3)",
+      "rationale": "Was missing from the original v3 manifest. Stage 7B-A introduced this file as the single authoritative legend (deduplicating a duplicate), then it was kept through 7B-A.1 v2/v3 unchanged. Included in this corrected manifest per Re-Gate directive."
+    },
+    {
+      "path": "src/hooks/use-view-state-bridge.ts",
+      "sha256_live": "f915421f4730414969f913dfd3d238ce69882fffe3c55642f09dfa88be0ef4d5",
+      "sha256_checkpoint": "54051be6b9bde64f61c05778665a6959ac29f181edf5ec42db5cbc77079f4477",
+      "first_modified_in": "Stage 7R (URL external store)",
+      "v3_round": "(unchanged in v3)",
+      "rationale": "Stage 7R established the URL external store; Stage 7B-A.1 v2 added viewModeExplicit gate + first-write skip (F4); v3 audited purity (I series) without code change."
+    },
+    {
+      "path": "src/app/map/page.tsx",
+      "sha256_live": "6aafb7e03111bcda06b0dce41cceecbb151c041de6b5542076604f724cea9400",
+      "sha256_checkpoint": "3c8ab21cff58268ac8e260c61250b260829a9f273835a3244018fa65b0293edb",
+      "first_modified_in": "Stage 7R (basic route) → Stage 7B-A.1 v2 (dynamic wrapper) → Stage 7B-A.1 v3 (Server Component shell)",
+      "v3_round": "V3-A",
+      "rationale": "Stage 7B-A.1 v2 added dynamic({ssr:false}) wrapper; Stage 7B-A.1 v3 replaced it with Server Component shell rendering <MapPageShell />. Phase 0.1 of Stage 7B-A.2 removed the orphan MapToolbarClient reference from the JSDoc comment (no behavioral change)."
+    },
+    {
+      "path": "tailwind.config.ts",
+      "sha256_live": "caa03a414ee6b4e22e4d788179ee8912ef687fae1427c3c6e8608fc1e46a0cf1",
+      "sha256_checkpoint": "3f63f821dccd8d015d76a6ad07a9d314ffdebdac48c78678adfa2acf5c79e5f0",
+      "first_modified_in": "Stage 7B-A (dark mode + design tokens)",
+      "v3_round": "(unchanged in v3)",
+      "rationale": "Was missing from the original v3 manifest. Stage 7B-A introduced dark-mode design tokens (ink/paper/panel/line/jade/persimmon/cobalt) used by MapShell + sidebar. Included in this corrected manifest per Re-Gate directive."
+    }
+  ],
+
+  "verified_unchanged_since_checkpoint": [
+    {
+      "path": "src/components/map/regional/RegionalHoverTooltip.tsx",
+      "sha256_live": "514d49f4e49f80ecbf2377d06d64c4e4f4b4df61b22227f8d2c7c2fa068b62ab",
+      "sha256_checkpoint": "514d49f4e49f80ecbf2377d06d64c4e4f4b4df61b22227f8d2c7c2fa068b62ab",
+      "verified_unchanged_from": "checkpoint",
+      "reason": "byte-identical SHA-256 vs checkpoint — has not been modified since Stage 7R; v2/v3 audits confirmed no need to touch."
+    }
+  ],
+
+  "added_since_checkpoint": [
+    {
+      "path": "src/regional/useRegionalMetric.ts",
+      "sha256_live": "036ef3eb17c18cfa5dd6ba1f81245335c48e6d9ab3b00377a3124ab135a0c686",
+      "first_added_in": "Stage 7R (URL-bound regional metric hook)",
+      "v3_round": "(unchanged in v3)",
+      "rationale": "Stage 7R added the useRegionalMetric useSyncExternalStore hook binding `region` URL param ↔ RegionalMetricId. V3 audit (I4-I7) verified purity without modification."
+    },
+    {
+      "path": "src/lib/url-params.ts",
+      "sha256_live": "332f8873928072fb47192a4492c7f0ee80b66f696dc5adccc963c70028954a33",
+      "first_added_in": "Stage 7R (URL parameter helpers)",
+      "v3_round": "(unchanged in v3)",
+      "rationale": "Stage 7R added BRIDGE_OWNED_KEYS whitelist + readSearchParam + updateSearchParam + readAllSearchParams. V3 audit (I4-I8) verified purity + updateSearchParam ordering."
+    },
+    {
+      "path": "src/components/map/shell/MapPageShell.tsx",
+      "sha256_live": "673bda63eed729337a41d3c337ab93dbd213421c10b89b59d3e62fcbcda7d97f",
+      "first_added_in": "Stage 7B-A.1 v3 (V3-A)",
+      "v3_round": "V3-A",
+      "rationale": "Server Component shell. Statically renders <main aria-label=\"留学地图\"> + a host div containing <MapRuntimeClient />. SSR-stable across all server renders."
+    },
+    {
+      "path": "src/components/map/shell/MapRuntimeClient.tsx",
+      "sha256_live": "fb94de8279609a0ec42ad2e9e6eebbfb4ef2b2895084337602cacf822a99fdab",
+      "first_added_in": "Stage 7B-A.1 v3 (V3-A + V3-F + V3-G final)",
+      "v3_round": "V3-G final",
+      "rationale": "Client Component mounted-gate. useState(false) → useEffect(()=>setMounted(true)) renders structural placeholder on SSR + first client render; swaps in <MapShell /> on the second render after hydration."
+    }
+  ],
+
+  "deleted_since_v3": [
+    {
+      "path": "src/components/map/shell/MapToolbarClient.tsx",
+      "deleted_in": "Stage 7B-A.2 Phase 0.1 (orphan cleanup)",
+      "original_sha256_v3": "f0e678b4bd0de20ddc9d0de7ea2fa0955588393566e7a126d3d2b1ed33ec8ba9",
+      "rationale": "The file was retained in Stage 7B-A.1 v3 as an 'unused SSR-stable component kept for test coverage' but never wired into the live component tree. Its floating ③ 留学地图 / 留学资讯 buttons duplicated widgets already rendered by MapShell's own toolbar + the news sidebar. Phase 0.1 deleted the file and updated H5/H6 tests to pin its absence. page.tsx JSDoc was also updated to reflect the removal. No other source imported the file (verified via grep)."
+    }
+  ],
+
+  "v3_modified_files": [
+    {
+      "path": "src/test/unit/stage7b-a1-closing-patch-v3.test.ts",
+      "sha256_pre_phase_0_1": "5c0c5cd50cf95b53067df79d569de3497e8caf475e491aa6ecfa9400b4281c08",
+      "sha256_post_phase_0_1": "55c4a301c8d8841a6abc190f8384759610fb1e0a62237c72d37d22dab67f84f9",
+      "phase_0_1_change": "H5/H6 tests re-pinned to verify MapToolbarClient.tsx is absent (not to verify it has zero hooks). New H6 also asserts no live source (page.tsx / MapPageShell.tsx / MapRuntimeClient.tsx) imports MapToolbarClient. Tests H7-H9 (MapRuntimeClient mounted gate), I series (URL purity), J series (console.warn leak), K series (choropleth), L series (hook order) are unchanged in coverage but the test now requires existsSync to be `false` for the orphan path."
+    }
+  ],
+
+  "test_files": [
+    {
+      "path": "src/test/unit/stage7b-a1-closing-patch-v3.test.ts",
+      "sha256": "55c4a301c8d8841a6abc190f8384759610fb1e0a62237c72d37d22dab67f84f9",
+      "test_count": 29,
+      "sections": [
+        "H. SSR-stable page shell (V3-A) — 9 tests, including H5 (orphan deleted) and H6 (no stale import)",
+        "I. URL store render-time purity (V3-C) — 8 tests",
+        "J. console.warn monkey-patch leak removed (V3-D) — 4 tests",
+        "K. Choropleth retention invariants — 4 tests",
+        "L. Strict-Mode-safe hook order — 4 tests"
+      ],
+      "phase_0_1_modifications": "H5/H6 rewritten to assert orphan absence; H1-H4 + H7-H9 unchanged"
+    },
+    {
+      "path": "src/test/unit/stage7b-a1-closing-patch-v2.test.ts",
+      "sha256": "4f82094c29ff8d15862f5db3b56bec9c9bd1140faf1c664e22bf66bcd466ef49",
+      "test_count": 41,
+      "sections": ["F1-F8 closing patch coverage"],
+      "phase_0_1_modifications": "none — file not touched in Phase 0.1"
+    }
+  ],
+
+  "doc_files": [
+    {
+      "path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V3-PLAN.md",
+      "sha256": "3ab0541845277c366560eeb5aa6b5a93147b602dd09a75b2b600b25ab13eb6c7",
+      "phase_0_1_modifications": "Re-Gate flagged the MapToolbarClient entry as orphan-keeping. Phase 0.1 deleted the file; the v3 doc still mentions MapToolbarClient in the V3-A architecture list. The doc remains accurate as a historical record of V3-G final architecture (where MapToolbarClient was retained-but-unused). Phase 13 of Stage 7B-A.2 will write a new doc that supersedes this one and explicitly notes the Phase 0.1 cleanup."
+    },
+    {
+      "path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V3-DEVLOG.md",
+      "sha256": "45225262429789e8fb10a130b88d85d9844679cfbf66778abee807261f9b0726",
+      "phase_0_1_modifications": "none — file not touched in Phase 0.1"
+    },
+    {
+      "path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V3-REPORT.md",
+      "sha256": "e8e338aef5d31c9994e77dc2644405bbf78c142b8bff3d0733854017b5e038a0",
+      "phase_0_1_modifications": "none — file not touched in Phase 0.1"
+    },
+    {
+      "path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V3-CHANGE-MANIFEST.json",
+      "sha256": "(this file, pre-Phase 0.1 rewrite)",
+      "phase_0_1_modifications": "Superseded by this v1.1 manifest. Original v1.0 is archived; this v1.1 is the authoritative corrected version."
+    }
+  ],
+
+  "out_of_scope_changes": "无 — 未修改 .env.local / backend tracked files / Preview Bundle / 原始工作簿 / 大学数据事实 / Match 算法 / Stage 6 tag / 端口 3000 或 3010 / 真实 AK",
+
+  "invariants_verified": {
+    "stage7b_a_checkpoint_unchanged": "Stage 7B-A checkpoint at /Users/jiayihuang/Downloads/PathOS-checkpoints/stage7b-a-pass-2026-07-25/ is read-only; no modifications made. Verified via sha256sum diff: 8 source files differ from checkpoint (all justified above), 1 byte-identical (RegionalHoverTooltip), 4 added (useRegionalMetric / url-params / MapPageShell / MapRuntimeClient), 1 deleted (MapToolbarClient, post-v3 only).",
+    "no_orphan_files": "After Phase 0.1 deletion, only intentional files remain in src/components/map/shell/: MapPageShell.tsx (used) and MapRuntimeClient.tsx (used). Verified via grep — no live source imports MapToolbarClient.",
+    "test_regression_post_phase_0_1": "tsc --noEmit: clean. next lint --max-warnings 0: clean. vitest run: 11 files / 347 tests / all pass (including the rewritten H5/H6 which now assert orphan absence). next build: 15 routes generated, /map = 317 KB.",
+    "production_mode_console_clean": "Production server (next start -p 3003) was verified zero console errors and zero console warnings in Stage 7B-A.1 v3 (preview_eval instrumentation). Phase 0.1 made no source change that could affect runtime console output.",
+    "four_choropleth_metrics_intact": "income (green), safety (blue diverging), employment (purple), chinese_population (orange). All four metrics route through useRegionalMetric → RegionalStateLayer → RegionalLegend. No source changed these paths in Phase 0.1."
+  },
+
+  "phase_0_1_orphan_cleanup_invariants": {
+    "deleted_file": "src/components/map/shell/MapToolbarClient.tsx",
+    "tests_pinned_against_reintroduction": [
+      "stage7b-a1-closing-patch-v3.test.ts H5: asserts existsSync returns false for MapToolbarClient.tsx",
+      "stage7b-a1-closing-patch-v3.test.ts H6: asserts pageSrc / pageShellSrc / runtimeClientSrc do not contain the string 'MapToolbarClient'"
+    ],
+    "comment_updated": "src/app/map/page.tsx JSDoc now states MapToolbarClient was deleted in Stage 7B-A.2 Phase 0.1 as an unused orphan",
+    "rationale_documented": "The deleted file's floating ③ 留学地图 + 留学资讯 buttons were redundant with widgets already rendered by MapShell's own toolbar (news button) and the news sidebar (留学资讯 panel). Retaining the file as 'kept for test coverage' violated the user's 'no orphan files' directive."
+  },
+
+  "user_constraints_preserved": [
+    "未修改 .env.local",
+    "未 push / reset / clean / rebase / force",
+    "未修改 backend tracked files / Preview Bundle / 原始工作簿 / 大学数据事实 / Match 算法 / Stage 6 tag",
+    "未抢占外部 3000 或 3010（仅占用 3002 / 3003）",
+    "真实 AK 未写入源码 / Git / 文档 / 日志 / 截图 / Change Manifest / 测试 fixture / checkpoint",
+    "未自行宣布最终 PASS（仅报告 READY FOR INDEPENDENT RE-GATE）",
+    "未创建 Git tag",
+    "未 push",
+    "未开始 Stage 7B-B，未接入 BMapGL.Map，未实现百度 Polygon，未改变默认地图 Provider",
+    "Stage 7B-A checkpoint 不可修改（保持原状）",
+    "新 checkpoint stage7b-a2-pass-2026-07-26/ 仅在 Re-Gate 通过后创建（未创建）",
+    "未使用 skip / only / ignoreBuildErrors / ignoreDuringBuilds / 无理由 eslint-disable",
+    "未关闭 Strict Mode（reactStrictMode 保持 true）",
+    "所有计划、日志和报告使用中文",
+    "路径、字段名、命令、Hash 和错误信息保持原文"
+  ],
+
+  "manifest_self_sha256": "(computed after Re-Gate PASS)"
+}

@@ -1,0 +1,812 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.0314,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.0314,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": "official_act_range_not_available",
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "not_reported",
+      "unit": null,
+      "value": null,
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9316,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9777,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": "official_sat_range_not_available",
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "not_reported",
+      "unit": null,
+      "value": null,
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "California Institute of Technology"
+  ],
+  "allMajors": [
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Computer Science",
+      "listType": "areas_of_study",
+      "name": "Computer Science",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Mechanical Engineering",
+      "listType": "areas_of_study",
+      "name": "Mechanical Engineering",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Physics, General",
+      "listType": "areas_of_study",
+      "name": "Physics, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Bioengineering and Biomedical Engineering",
+      "listType": "areas_of_study",
+      "name": "Bioengineering and Biomedical Engineering",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Electrical and Electronics Engineering",
+      "listType": "areas_of_study",
+      "name": "Electrical and Electronics Engineering",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Computational Mathematics",
+      "listType": "areas_of_study",
+      "name": "Computational Mathematics",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Mathematics, General",
+      "listType": "areas_of_study",
+      "name": "Mathematics, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Neuroscience",
+      "listType": "areas_of_study",
+      "name": "Neuroscience",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Chemical Engineering",
+      "listType": "areas_of_study",
+      "name": "Chemical Engineering",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Chemistry, General",
+      "listType": "areas_of_study",
+      "name": "Chemistry, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Materials Engineering",
+      "listType": "areas_of_study",
+      "name": "Materials Engineering",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Biology/Biological Sciences, General",
+      "listType": "areas_of_study",
+      "name": "Biology/Biological Sciences, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Information Science/Studies",
+      "listType": "areas_of_study",
+      "name": "Information Science/Studies",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Astrophysics",
+      "listType": "areas_of_study",
+      "name": "Astrophysics",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Engineering, General",
+      "listType": "areas_of_study",
+      "name": "Engineering, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Geophysics and Seismology",
+      "listType": "areas_of_study",
+      "name": "Geophysics and Seismology",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "History, General",
+      "listType": "areas_of_study",
+      "name": "History, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Engineering Physics/Applied Physics",
+      "listType": "areas_of_study",
+      "name": "Engineering Physics/Applied Physics",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Environmental/Environmental Health Engineering",
+      "listType": "areas_of_study",
+      "name": "Environmental/Environmental Health Engineering",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "English Language and Literature, General",
+      "listType": "areas_of_study",
+      "name": "English Language and Literature, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Multi-/Interdisciplinary Studies, Other",
+      "listType": "areas_of_study",
+      "name": "Multi-/Interdisciplinary Studies, Other",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Philosophy",
+      "listType": "areas_of_study",
+      "name": "Philosophy",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Planetary Astronomy and Science",
+      "listType": "areas_of_study",
+      "name": "Planetary Astronomy and Science",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Geology/Earth Science, General",
+      "listType": "areas_of_study",
+      "name": "Geology/Earth Science, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Geochemistry",
+      "listType": "areas_of_study",
+      "name": "Geochemistry",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Economics, General",
+      "listType": "areas_of_study",
+      "name": "Economics, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Political Science and Government, General",
+      "listType": "areas_of_study",
+      "name": "Political Science and Government, General",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "Business/Managerial Economics",
+      "listType": "areas_of_study",
+      "name": "Business/Managerial Economics",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    },
+    {
+      "degreeType": "bachelor_degree_award_area",
+      "displayName": "History and Philosophy of Science and Technology",
+      "listType": "areas_of_study",
+      "name": "History and Philosophy of Science and Technology",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ],
+      "status": "source_limited",
+      "warnings": [
+        "IPEDS reported bachelor-degree award area for 2022-23; not a current official catalog assertion."
+      ]
+    }
+  ],
+  "allMajorsStatus": {
+    "nullReason": null,
+    "status": "source_limited"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_bulk_v2_caltech_anecdote"
+      ],
+      "text": "Caltech says it founded JPL in the 1930s; NASA has managed the laboratory since 1958.",
+      "type": "academic_milestone"
+    }
+  ],
+  "chineseName": "加州理工学院",
+  "city": "Pasadena",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": true,
+    "currency": "USD",
+    "displayLabel": "$63,255",
+    "maximumUsd": 63255.0,
+    "minimumUsd": 63255.0,
+    "scopes": [
+      "private_single_rate"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": []
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 1440,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_derived_same_scope",
+      "unit": null,
+      "value": 2463,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 1023,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "31080",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "Los Angeles County",
+      "warnings": []
+    },
+    "geographyScope": "place",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [
+        "source_stage4b_census_2024_places_gazetteer"
+      ],
+      "status": "verified_place",
+      "unit": "name",
+      "value": "Pasadena",
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_bulk_v2_caltech_history"
+    ],
+    "status": "verified",
+    "value": "Caltech began as Throop University in Pasadena in 1891 and adopted its current name in 1920."
+  },
+  "id": "candidate-v2:california-institute-of-technology",
+  "latitude": 34.137349,
+  "longitude": -118.125878,
+  "name": "California Institute of Technology",
+  "nameZh": "加州理工学院",
+  "nationalRanking": 11,
+  "nearbyTowns": [
+    {
+      "distance": 2.02,
+      "name": "San Marino"
+    },
+    {
+      "distance": 2.16,
+      "name": "San Pasqual"
+    },
+    {
+      "distance": 2.81,
+      "name": "Pasadena"
+    }
+  ],
+  "notableAttendance": [],
+  "people": [
+    {
+      "displayTier": "verified",
+      "id": "person:joe-zadeh:california-institute-of-technology:wave10-source-caltech-joe-zadeh",
+      "name": "Joe Zadeh",
+      "programName": "Bioengineering and Biomedical Engineering",
+      "quarantined": false,
+      "relationshipType": "alumnus_unspecified",
+      "sourceIds": [
+        "wave10-source-caltech-joe-zadeh"
+      ],
+      "verificationStatus": "live_verified_exact"
+    },
+    {
+      "displayTier": "verified",
+      "id": "person:niv-karthikeyan:california-institute-of-technology:wave6-caltech-niv-karthikeyan-cs",
+      "name": "Niv Karthikeyan",
+      "programName": "Computer Science",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave6-caltech-niv-karthikeyan-cs"
+      ],
+      "verificationStatus": "live_verified_exact"
+    },
+    {
+      "displayTier": "verified",
+      "id": "person:sabeer-bhatia:california-institute-of-technology:wave9-source-caltech-sabeer-bhatia",
+      "name": "Sabeer Bhatia",
+      "programName": "Electrical and Electronics Engineering",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave9-source-caltech-sabeer-bhatia"
+      ],
+      "verificationStatus": "live_verified_exact"
+    },
+    {
+      "displayTier": "verified",
+      "id": "person:james-jim-l-adams:california-institute-of-technology:wave7-caltech-jim-adams-me",
+      "name": "James “Jim” L. Adams",
+      "programName": "Mechanical Engineering",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave7-caltech-jim-adams-me"
+      ],
+      "verificationStatus": "live_verified_normalized"
+    }
+  ],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Physics, General",
+      "slotId": "candidate-v2:california-institute-of-technology:slot-3",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:california-institute-of-technology:program:1",
+      "name": "Computer Science",
+      "rank": null,
+      "rankingFamily": "ipeds_reported_award_area",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ]
+    },
+    {
+      "id": "candidate-v2:california-institute-of-technology:program:2",
+      "name": "Mechanical Engineering",
+      "rank": null,
+      "rankingFamily": "ipeds_reported_award_area",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ]
+    },
+    {
+      "id": "candidate-v2:california-institute-of-technology:program:3",
+      "name": "Physics, General",
+      "rank": null,
+      "rankingFamily": "ipeds_reported_award_area",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ]
+    },
+    {
+      "id": "candidate-v2:california-institute-of-technology:program:4",
+      "name": "Bioengineering and Biomedical Engineering",
+      "rank": null,
+      "rankingFamily": "ipeds_reported_award_area",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ]
+    },
+    {
+      "id": "candidate-v2:california-institute-of-technology:program:5",
+      "name": "Electrical and Electronics Engineering",
+      "rank": null,
+      "rankingFamily": "ipeds_reported_award_area",
+      "sourceIds": [
+        "source_ipeds_c2023_completions"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "act_not_reported",
+      "english_policy_pending_external_access",
+      "sat_not_reported",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ]
+  },
+  "rankingBand": "national_top_50",
+  "rankingSummary": {
+    "filterBehavior": "include_as_ranked",
+    "nationalRank": 11,
+    "rankingLabel": "#11",
+    "rankingTier": "national_top_50",
+    "sourceIds": [
+      "source_think_academy_top100_2026_pdf"
+    ],
+    "status": "ranked_in_selected_national_family"
+  },
+  "rankingTier": "national_top_50",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 63255.0,
+      "currency": "USD",
+      "scope": "private_single_rate",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "Far West",
+  "schoolType": "private_nonprofit",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "CA",
+  "studentFacultyRatio": 3.0,
+  "topPrograms": [
+    "Computer Science",
+    "Mechanical Engineering",
+    "Physics, General",
+    "Bioengineering and Biomedical Engineering",
+    "Electrical and Electronics Engineering"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 1023,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "act_not_reported",
+      "english_policy_pending_external_access",
+      "sat_not_reported",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ],
+    "count": 5,
+    "hasWarnings": true
+  }
+}

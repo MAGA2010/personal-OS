@@ -1,0 +1,168 @@
+{
+  "record_type": "stage3d_fill_program_people_wave7_cache_manifest_input",
+  "cache_is_gitignored": true,
+  "entries": [
+    {
+      "source_id": "wave7-bucknell-michelle-lesh-me",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/bucknell-michelle-lesh.txt",
+      "sha256": "44ddb6958e9d0c2d550fe29b0120f2272d6f18facca79ca57efb17c063915e48",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-caltech-jim-adams-me",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/caltech-jim-adams.txt",
+      "sha256": "89133b9d4857af129c1d84c9df1471718a0b5ea89c45e6eb4f1febe97bf4ea9c",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-columbia-sandrine-rutayisire-cs",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/columbia-sandrine-rutayisire.txt",
+      "sha256": "cbe7e6383eff9854c12a7fb5c99cf6004f3ae4235f86cf56edf46a0a1c02b577",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-cornell-james-wang-biology",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/cornell-james-wang.txt",
+      "sha256": "9e8aa3bf9efa686721a72cabf13816ba90d22962994b974a434a62bf04b9bf38",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-dartmouth-tim-geithner-government",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/dartmouth-tim-geithner.txt",
+      "sha256": "79f99062f03eb53184c1f88df2fdf41e9c5ed22a78e4e14c6fe3554c5eda3907",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-duke-stuart-dupuy-economics",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/duke-stuart-dupuy.txt",
+      "sha256": "2208d257c6ac19a7ef764ef3b4c752f814aaee3cea757fe78461e0d64916852a",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-emory-ahmed-aljohani-biology",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/emory-ahmed-aljohani.txt",
+      "sha256": "0d300a3f6187dbaf2a4c8f1bda873925356bf18a30faa6fbde0974ebd4b3b5e3",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-georgetown-amelia-fattore-finance",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/georgetown-amelia-fattore.txt",
+      "sha256": "39b7de317138687507241f8cef713035afe6c02722de5d304bd60baf865106f4",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-harvard-max-kuhelj-bugaric-government",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/harvard-max-kuhelj-bugaric.txt",
+      "sha256": "f76fc304744d07baa9e79867d914af65bed35803438acd0f17cf720bf9eea9ac",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-lehigh-leeza-khalif-csb",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/lehigh-leeza-khalif.txt",
+      "sha256": "accba4606e6263a50a25e219a1786b8380cb868cb820813b69da1a77f3be359c",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-uva-eliza-haverstock-economics",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/uva-eliza-haverstock-economics.txt",
+      "sha256": "a72792cec4e0cdc3c28be829a4f7194b594e3dea8d56c45b784b754978362114",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-northwestern-chandana-sooranahalli-econ",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/northwestern-chandana-sooranahalli.txt",
+      "sha256": "8a60b35b31dda28afc3aad6f7bdb26a49d187af6d2f912b631c5ed65f6a51101",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-ohio-state-ben-gilbert-cse",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/ohio-state-ben-gilbert.txt",
+      "sha256": "2600ddc2fbddd897dee28170f9cbc3f3678147d6c0a2fecd0f34a6b48743a5f4",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-tamu-lesley-weitz-aerospace",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/tamu-lesley-weitz.txt",
+      "sha256": "cd12ae080c2636abbdd6fc98757d49dfca9ac8a833a103af769ec6c7eb0e799b",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-notre-dame-alessandro-disanto-econ",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/notre-dame-alessandro-disanto.txt",
+      "sha256": "12baf85103136d541b94be8f8f97e1bef71f3d9d720912c59357f9defd3be5c9",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-uci-christina-phan-biology",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/uci-christina-phan.txt",
+      "sha256": "da394588a51efa562eeb153bfc320bd74a4fb6a6e7d94ceba4a20b2ed31f5439",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-uchicago-carla-garcia-cs",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/uchicago-carla-garcia.txt",
+      "sha256": "a64ea530d64abb6ae07817ab74f1c2e4c3793394a69db51c97f69bf08fa2426e",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-ucsd-vania-bailon-economics",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/ucsd-vania-bailon.txt",
+      "sha256": "16d60b2c0d1522fe178502681b84282e611bc7e5fd1665ae4a890a43adaeccdc",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-uga-neal-quirk-finance",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/uga-neal-quirk.txt",
+      "sha256": "122e1816b0d1d6e0047e8f85d56003f0a62d7f9812f92a6af5b03a4c2e6a406c",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-wisconsin-carlton-highsmith-economics",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/wisconsin-carlton-highsmith.txt",
+      "sha256": "7bc94e35d943f864e0c7af344d3471e050089c2836eb67ce14d0797e716d2fee",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-ut-austin-dheeraj-pandey-cs",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/ut-austin-dheeraj-pandey.txt",
+      "sha256": "45b505eafd6fe2c5c0389f5665e55be12ccb6df2c5181f6fdb9cf3db691cd291",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-berkeley-frank-cooper-business",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/berkeley-frank-cooper.txt",
+      "sha256": "a64faeb6348393135311d834f0bab5da3c4cb75d6937ffb1b2bd54bf36f6a680",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-stanford-victoria-parikh-human-biology",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/stanford-victoria-parikh.txt",
+      "sha256": "873d405c6b2f06cfb7b22b22ade1eaed31c23443c55bb69bf59c042423e5833b",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-usc-param-patel-cs",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/usc-param-patel.txt",
+      "sha256": "d35710c44ed7706a8dc573911b8d1d74780ad447e1ef53cc226b2147184c039e",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-uva-rory-black-data-science",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/uva-rory-black.txt",
+      "sha256": "6e1b96d756304061b3f1005721136bb75f181ef0bbf99c1dee33f489243afdfa",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-ut-austin-sunil-jaini-business",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/ut-austin-sunil-jaini.txt",
+      "sha256": "695b6699b3775a77df1e223e3baddae3ceb9179c37e808260925a432efc24753",
+      "quote_verification_method": "local_cache_substring_check"
+    },
+    {
+      "source_id": "wave7-washington-paul-forquera-aero",
+      "cache_path": "cache/stage3d-fill-program-people-wave7/washington-paul-forquera-aero.txt",
+      "sha256": "752fad8ee0f0411b444d506cd674b07ea6594bf115d82e610f98c67a35c90b59",
+      "quote_verification_method": "local_cache_substring_check"
+    }
+  ]
+}

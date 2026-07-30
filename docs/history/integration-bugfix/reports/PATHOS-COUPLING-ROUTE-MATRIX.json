@@ -1,0 +1,357 @@
+{
+  "generatedAt": "2026-07-25T22:31:40+00:00",
+  "routes": [
+    {
+      "route": "/",
+      "sources": [
+        {
+          "route": "/",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/page.tsx"
+        },
+        {
+          "route": "/",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/page.tsx"
+        },
+        {
+          "route": "/",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/",
+      "currentCanonicalExists": true,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/assessment",
+      "sources": [
+        {
+          "route": "/assessment",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/assessment/page.tsx"
+        },
+        {
+          "route": "/assessment",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/assessment/page.tsx"
+        },
+        {
+          "route": "/assessment",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/assessment/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/assessment",
+      "currentCanonicalExists": true,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/calculator",
+      "sources": [
+        {
+          "route": "/calculator",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/calculator/page.tsx"
+        },
+        {
+          "route": "/calculator",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/calculator/page.tsx"
+        },
+        {
+          "route": "/calculator",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/calculator/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/calculator",
+      "currentCanonicalExists": true,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/map",
+      "sources": [
+        {
+          "route": "/map",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/map/page.tsx"
+        },
+        {
+          "route": "/map",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/map/page.tsx"
+        },
+        {
+          "route": "/map",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/map/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/map",
+      "currentCanonicalExists": true,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/map/explore",
+      "sources": [
+        {
+          "route": "/map/explore",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/map/explore/page.tsx"
+        }
+      ],
+      "status": "unique",
+      "duplicateOf": null,
+      "currentCanonicalExists": false,
+      "visualQuality": "unreviewed",
+      "functionalQuality": "unverified",
+      "dataCompatibility": "candidate static/mock risk",
+      "backendDependency": "unknown",
+      "recommendedAction": "ARCHIVE",
+      "candidateOnly": true
+    },
+    {
+      "route": "/map/rankings",
+      "sources": [
+        {
+          "route": "/map/rankings",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/map/rankings/page.tsx"
+        },
+        {
+          "route": "/map/rankings",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/map/rankings/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/map/rankings",
+      "currentCanonicalExists": false,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "unverified",
+      "dataCompatibility": "candidate static/mock risk",
+      "backendDependency": "unknown",
+      "recommendedAction": "NEEDS_USER_DECISION",
+      "candidateOnly": true
+    },
+    {
+      "route": "/match",
+      "sources": [
+        {
+          "route": "/match",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/match/page.tsx"
+        },
+        {
+          "route": "/match",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/match/page.tsx"
+        },
+        {
+          "route": "/match",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/match/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/match",
+      "currentCanonicalExists": true,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/match/explore",
+      "sources": [
+        {
+          "route": "/match/explore",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/match/explore/page.tsx"
+        }
+      ],
+      "status": "unique",
+      "duplicateOf": null,
+      "currentCanonicalExists": false,
+      "visualQuality": "unreviewed",
+      "functionalQuality": "unverified",
+      "dataCompatibility": "candidate static/mock risk",
+      "backendDependency": "unknown",
+      "recommendedAction": "ARCHIVE",
+      "candidateOnly": true
+    },
+    {
+      "route": "/news",
+      "sources": [
+        {
+          "route": "/news",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/news/page.tsx"
+        },
+        {
+          "route": "/news",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/news/page.tsx"
+        },
+        {
+          "route": "/news",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/news/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/news",
+      "currentCanonicalExists": true,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/news/credits",
+      "sources": [
+        {
+          "route": "/news/credits",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/news/credits/page.tsx"
+        }
+      ],
+      "status": "unique",
+      "duplicateOf": null,
+      "currentCanonicalExists": true,
+      "visualQuality": "unreviewed",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/portfolio",
+      "sources": [
+        {
+          "route": "/portfolio",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/portfolio/page.tsx"
+        },
+        {
+          "route": "/portfolio",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/portfolio/page.tsx"
+        },
+        {
+          "route": "/portfolio",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/portfolio/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/portfolio",
+      "currentCanonicalExists": true,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/portfolio/explore",
+      "sources": [
+        {
+          "route": "/portfolio/explore",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/portfolio/explore/page.tsx"
+        }
+      ],
+      "status": "unique",
+      "duplicateOf": null,
+      "currentCanonicalExists": false,
+      "visualQuality": "unreviewed",
+      "functionalQuality": "unverified",
+      "dataCompatibility": "candidate static/mock risk",
+      "backendDependency": "unknown",
+      "recommendedAction": "ARCHIVE",
+      "candidateOnly": true
+    },
+    {
+      "route": "/university/[id]",
+      "sources": [
+        {
+          "route": "/university/[id]",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/university/[id]/page.tsx"
+        }
+      ],
+      "status": "unique",
+      "duplicateOf": null,
+      "currentCanonicalExists": true,
+      "visualQuality": "unreviewed",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    },
+    {
+      "route": "/xuanxiao",
+      "sources": [
+        {
+          "route": "/xuanxiao",
+          "sourceProject": "canonical",
+          "sourcePath": "src/app/xuanxiao/page.tsx"
+        },
+        {
+          "route": "/xuanxiao",
+          "sourceProject": "candidateWorktree",
+          "sourcePath": "src/app/xuanxiao/page.tsx"
+        },
+        {
+          "route": "/xuanxiao",
+          "sourceProject": "candidateGitHead",
+          "sourcePath": "src/app/xuanxiao/page.tsx"
+        }
+      ],
+      "status": "duplicate",
+      "duplicateOf": "/xuanxiao",
+      "currentCanonicalExists": true,
+      "visualQuality": "requires browser comparison",
+      "functionalQuality": "canonical verified",
+      "dataCompatibility": "Preview BFF",
+      "backendDependency": "canonical BFF",
+      "recommendedAction": "KEEP_CANONICAL",
+      "candidateOnly": false
+    }
+  ],
+  "routeCount": 14
+}

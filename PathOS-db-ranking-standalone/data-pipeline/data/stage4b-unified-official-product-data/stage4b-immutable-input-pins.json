@@ -1,0 +1,330 @@
+{
+  "expected_counts": {
+    "duplicate_people": 0,
+    "national_ranking_memberships": 50,
+    "program_people_gaps": 130,
+    "program_people_identified": 180,
+    "program_people_no_qualifying": 0,
+    "program_slots": 310,
+    "schools": 62,
+    "stage4a_verified_contributions": 0
+  },
+  "incomplete": true,
+  "inputs": [
+    {
+      "expected_role": "candidate_scope",
+      "git_blob_sha": "c09efd8e6271416782d79f99f5cd2706be31e801",
+      "path": "data-pipeline/data/university-universe-candidates/v2-source-limited/candidate-memberships.json",
+      "record_count": 67,
+      "sha256": "47a67867568a6a45f615cc86910aaaec3f0769420bc31667758b8684ff8e25f5",
+      "source_stage": "candidate_v2"
+    },
+    {
+      "expected_role": "ranking_membership_read_only",
+      "git_blob_sha": "801146415d178406be5266faeb91dfc9ad4c0310",
+      "path": "data-pipeline/data/ranking-seeds/2026-best-colleges/completion-national/national-universities-top-50.json",
+      "record_count": 50,
+      "sha256": "31a6bea75a6bc426a206be1024a5340daf88a82688f5e5099770f908a0068223",
+      "source_stage": "stage2_ranking"
+    },
+    {
+      "expected_role": "official_identity_programs_and_unitid",
+      "git_blob_sha": "7861043c307545a0c0385155c6ca2d93af043d93",
+      "path": "data-pipeline/artifacts/stage3b-demo-critical-gap-fill/stage3b-mvp-universities.json",
+      "record_count": 62,
+      "sha256": "1ab99915516b6e075ee75d585f633dc99818c6cdaa050d13855f11a4a154fc6b",
+      "source_stage": "stage3b"
+    },
+    {
+      "expected_role": "canonical_coordinates_and_region",
+      "git_blob_sha": "e2ab04c3fefb6e6e1129e44788d85119d6295e65",
+      "path": "data-pipeline/artifacts/stage3c-academic-geo-enrichment/stage3c-universities.json",
+      "record_count": 62,
+      "sha256": "a64f0defe4e6fce6c863c5a3f2690c885d5c27664a679b9381931bf77733ebdb",
+      "source_stage": "stage3c"
+    },
+    {
+      "expected_role": "nearest_towns_and_reviewed_place_links",
+      "git_blob_sha": "e313ac1053364461e7e0ac40ed23c54e546a3a56",
+      "path": "data-pipeline/artifacts/stage3c2-nearest-towns-gap-repair/stage3c2-nearest-towns.json",
+      "record_count": 62,
+      "sha256": "53ce49fb8ef4eb01a9f12966e7db9fddeee5294b2942466e6b9277f47868ebb0",
+      "source_stage": "stage3c2"
+    },
+    {
+      "expected_role": "people_narrative_closing_counts",
+      "git_blob_sha": "8fbf363f7bcd0c1e6c8861a6f64729cdd43803bf",
+      "path": "data-pipeline/artifacts/stage3d-closing-hardening/stage3d-closing-hardening-cumulative-summary.json",
+      "record_count": 1,
+      "sha256": "c5fb6cc5c58bc906d2e1ec11f67f8698cae892d5ae13c1ed46e48cc0c3d5c25c",
+      "source_stage": "stage3d_closing"
+    },
+    {
+      "expected_role": "reconciliation_counts",
+      "git_blob_sha": "8711213e2bd6210967de6ca205a4bd75c33636e0",
+      "path": "data-pipeline/artifacts/stage4a-frontend-handoff-reconciliation/stage4a-integration-summary.json",
+      "record_count": 1,
+      "sha256": "15c94e43346937180faff3ddb081365500ca9b5799a295c4bf810c747921ac2a",
+      "source_stage": "stage4a"
+    },
+    {
+      "expected_role": "product_coverage_baseline",
+      "git_blob_sha": "a248e5806b5d2cdac67f6cb170d939e92e610b71",
+      "path": "data-pipeline/artifacts/stage4a-frontend-handoff-reconciliation/stage4a-product-data-coverage-matrix.json",
+      "record_count": 56,
+      "sha256": "cf01582120be4bad4090a2537d3ac4bc12b1c358b8f00119ff5b7b7e51fa89c6",
+      "source_stage": "stage4a"
+    },
+    {
+      "expected_role": "data_collection_backlog",
+      "git_blob_sha": "2a4fa4833ce9233ae15ae4e1041386cda91c56cb",
+      "path": "data-pipeline/artifacts/stage4a-frontend-handoff-reconciliation/stage4a-data-collection-backlog.json",
+      "record_count": 27,
+      "sha256": "27ef4c413783aa29c1dc31e9d82396c91e539902e98c062cdb5898107be25a33",
+      "source_stage": "stage4a"
+    },
+    {
+      "expected_role": "external_handoff_integrity",
+      "git_blob_sha": "4e8a6a3c860c7f78aa5a580a68b74541651ee977",
+      "path": "data-pipeline/data/stage4a-frontend-handoff-reconciliation/stage4a-handoff-manifest-pin.json",
+      "record_count": 1,
+      "sha256": "d6835d7ce15978c17938e4a1326bb14d8bb0777b38e3beaa387b00d397a76fa6",
+      "source_stage": "stage4a"
+    },
+    {
+      "expected_role": "college_scorecard_institution_release",
+      "git_blob_sha": "988c829442a4febb463d6c178de461c7f6fc120e",
+      "path": "data-pipeline/cache/stage3b-official/Most-Recent-Cohorts-Institution_05192025.zip",
+      "record_count": 1,
+      "sha256": "74d464963c2948b7b6e97df6864345055b177466325a2b06c54f0e50e910b8e4",
+      "source_stage": "official_federal_cache"
+    },
+    {
+      "expected_role": "college_scorecard_dictionary",
+      "git_blob_sha": "b1df8a430c884419c6201985ca8283b1502b64d6",
+      "path": "data-pipeline/cache/stage3b-official/CollegeScorecardDataDictionary.xlsx",
+      "record_count": 1,
+      "sha256": "dce6a86c2b16ba5f767035079dc0d465cf1852d6bb71decceba12a4ff8d9cb53",
+      "source_stage": "official_federal_cache"
+    },
+    {
+      "expected_role": "ipeds_institutional_characteristics",
+      "git_blob_sha": "f52b3a3a5b2208ecf7ee51b09525e0b883de774b",
+      "path": "data-pipeline/cache/stage3-ipeds/HD2024.zip",
+      "record_count": 1,
+      "sha256": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+      "source_stage": "official_federal_cache"
+    },
+    {
+      "expected_role": "census_places_gazetteer",
+      "git_blob_sha": "913b23372c6c42f95cb23359779b135262a01354",
+      "path": "data-pipeline/cache/stage3c2-geography/2024_Gaz_place_national.zip",
+      "record_count": 1,
+      "sha256": "cf262fc92b2326f7a8c62a89d156a60eb17d64d6d35f7a62310c43bb08972c06",
+      "source_stage": "official_federal_cache"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "2f2e38a4ebd8454b16bc7b48ffc122ba0aaf56c5",
+      "path": "data-pipeline/schemas/v1/canonical-university.json",
+      "record_count": 1,
+      "sha256": "00bd80def5553726a1e0775466016cd5c6f0ce3fed7f590f9892a1f1f556e412",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "36935a85d102e3ae52eddaad3c7bd2421e9b0ab0",
+      "path": "data-pipeline/schemas/v1/frontend-fields.json",
+      "record_count": 1,
+      "sha256": "05fa0cc8f3ecbd52fb6895618cf00421ac46c2b001d0475b856a8c52f0e7b15c",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "bb6a3d9d3223136e2b77e5803cc44342edcb2bfc",
+      "path": "data-pipeline/schemas/v1/frontend-universities.json",
+      "record_count": 1,
+      "sha256": "304216043dc40e11d1a1b29cdce0ed0db25bca968ad1d6d526190c4dd0e57397",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "ab89e6daead0c764067886b1c43b55b48dcb81a8",
+      "path": "data-pipeline/schemas/v1/manual-ranking-seed-batch.json",
+      "record_count": 1,
+      "sha256": "1e0709b30540fa3c493b6f167106d9fa40cac2e856fbeb22e9eed8769117e79a",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "2ba2a8a8f9080d06b4199c8d220c6ff8a89e9057",
+      "path": "data-pipeline/schemas/v1/national-completion-source-manifest.json",
+      "record_count": 1,
+      "sha256": "0c11ecfa0c37f30e16909e22c43f0757a9eba9f7797af89c8b74b81af84c3310",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "e62b8e900995168779a402a8177b060aebbc6497",
+      "path": "data-pipeline/schemas/v1/national-completion-validation-result.json",
+      "record_count": 1,
+      "sha256": "21980f1139b0599f1497ff2d7b1d4c1532470ed6b4411e525938bc9f20228305",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "bf01ed96ea8da0c64ec0393fb2e4e10eb8b92e9f",
+      "path": "data-pipeline/schemas/v1/national-manual-seed-input.json",
+      "record_count": 1,
+      "sha256": "58c9eb7912c25a273a91810945992f83cf334366cd3d6cac651fc0f9ea39e863",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "eba2f0457f14f06d2619fdca386d31a0e1f223ca",
+      "path": "data-pipeline/schemas/v1/ranking-category-inventory.json",
+      "record_count": 1,
+      "sha256": "bd1e2c7cee29898164944aeb0e9cab56f3a3acfe961c591cb3d3d1b2084a023d",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "27308da5ad7a9640f82e690e5f091e0a67a6b37b",
+      "path": "data-pipeline/schemas/v1/ranking-family-inventory.json",
+      "record_count": 1,
+      "sha256": "e3c565068b0f6b2374bb8bd072b0fb0664492b8740115e5f71728f50386484f4",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "3f11bafdb92ccf12032f86cbd812f65ce35d596a",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-candidate-observations.json",
+      "record_count": 1,
+      "sha256": "ee011c0c8a97136ef44755d18d8c27cf527f3992ce5349180c4b834129aa4b30",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "627185dc20a2fd3143bf68a542a6e233ffa35e3c",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-coverage-matrix.json",
+      "record_count": 1,
+      "sha256": "046fe14df51c887c66e63c82c7f94046f17a17caf9a0d8506195365dba8d6551",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "13950bb1e77e8c386a2bc4e9c6676a5a28ba97cb",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-identity-mappings.json",
+      "record_count": 1,
+      "sha256": "323ca307cf3440bf00de71b532f3d39f40460e587215265c69b2c167e27e81e2",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "58d36fb98d4aebe02f5870813b3bfc5603d5e7b7",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-source-manifest.json",
+      "record_count": 1,
+      "sha256": "86c52f80e7a837fb62c20f445ab738f889dcf441ea5a3f3e94605905abea4dfd",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "92975ec13923a3ba50cc11486578eb290e8e572f",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-validation-result.json",
+      "record_count": 1,
+      "sha256": "04dc139c5b6d638e954073a3cbdba6b65ad9fd0425146b637785f58ee6b330d2",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "600c890ac919fd38bf3a0f9964dfe0c59003a550",
+      "path": "data-pipeline/schemas/v1/ranking-scope.json",
+      "record_count": 1,
+      "sha256": "63c0420dfe26650017b72e4f8161283b06e56b10492fe2294130eca2f66d85e7",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "73e837faa10eb72770fceab5441bb7ac35eba843",
+      "path": "data-pipeline/schemas/v1/raw-university.json",
+      "record_count": 1,
+      "sha256": "c425f1150b960138a95275ff23f4421b7d8e6bfd6db440d3c7056abf89b848eb",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "79c662cbedbd35eb1d9146b0aa6f68ac8f9d84e0",
+      "path": "data-pipeline/schemas/v1/source.json",
+      "record_count": 1,
+      "sha256": "353582f089926f1be78168ac3a45cbe44976fe348b9aa5c3545e9404514d7b1c",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "07d55449fd6d3662d84432f13fcdf9f8fc7889ce",
+      "path": "data-pipeline/schemas/v1/stage3d-fill-bulk-people-v2-slot.json",
+      "record_count": 1,
+      "sha256": "4f09068996690040e56d7b47712d7648b0e627055042fb2a75192e71dd6e109e",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "651696ad22fccc61a560b880ead8fb47449a8822",
+      "path": "data-pipeline/schemas/v1/staging-university.json",
+      "record_count": 1,
+      "sha256": "8544979891822feb11da83403b1ea50b51c88aa566b70fb2727843474dbc0188",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "e8bf45aa0dd0f02de91819f38670ec5143a1a145",
+      "path": "data-pipeline/schemas/v1/universe-completion-plan.json",
+      "record_count": 1,
+      "sha256": "3251bfc8db59e616f729f54f414333b76dc26632c267afe6aa4608dcd57035b7",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "521b939536f73a89673092797a5293e92e47ea16",
+      "path": "data-pipeline/schemas/v1/university-core.json",
+      "record_count": 1,
+      "sha256": "adef66cc8b75d0190f85cfb8dcb111c999caf1b5c7b177af8cab767048bfebaf",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "b5024a7379b8e4802ea465500ff1bfa0d43bfa1f",
+      "path": "data-pipeline/migrations/001_core.sql",
+      "record_count": 1,
+      "sha256": "8b769de5937e3b210e2aca4019538f2b54a8dd079b4701f196c1dc377e742fc2",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "b821498443cddf8edd4baf00ba4d9701677124b8",
+      "path": "data-pipeline/migrations/002_rankings_and_programs.sql",
+      "record_count": 1,
+      "sha256": "53decd4c9c66dc26b4e99cf94511faf11c1956a30533b110bf5091a237a7c131",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "25978e98045f3ed5caca4fc095773cc442770205",
+      "path": "data-pipeline/migrations/003_enrichment_and_quality.sql",
+      "record_count": 1,
+      "sha256": "e0634a36307e3cca1402b0da6c2e1013265ab99f44d98c885238e13c75433e89",
+      "source_stage": "schema_or_migration"
+    },
+    {
+      "expected_role": "validation_contract",
+      "git_blob_sha": "e6e9f68e2e5c11d999de4ddd4d856562cc29e24c",
+      "path": "data-pipeline/migrations/004_gate1_hardening.sql",
+      "record_count": 1,
+      "sha256": "bc03e9413e41a0e27d96195481de8265b6d768e25da68f2397f874474aa2dbda",
+      "source_stage": "schema_or_migration"
+    }
+  ],
+  "not_final": true,
+  "record_type": "stage4b_immutable_input_pins",
+  "source_limited": true
+}

@@ -1,0 +1,382 @@
+{
+  "schemaVersion": "pathos-stage6-demo-change-manifest-v1",
+  "workspaceRoot": "/Users/jiayihuang/Downloads/PathOS合并",
+  "stage5BackendHead": "b73e61ec4fda11b7c72e74c14e414fbe2c74300f",
+  "stage6Branch": "feature/stage6-demo-freeze-operational-readiness",
+  "stage5ClosingManifest": "PathOS-main/frontend/docs/STAGE5-CLOSING-UI-CHANGE-MANIFEST.json",
+  "counts": {
+    "workspaceFilesAdded": 35,
+    "workspaceFilesModified": 0,
+    "workspaceFilesDeleted": 0,
+    "externalFreezeFilesAdded": 4,
+    "frontendSourceFilesModified": 0,
+    "backendTrackedFilesModified": 0,
+    "dataSemanticsChanges": 0
+  },
+  "files": [
+    {
+      "relativePath": "pathos-demo",
+      "beforeSha256": null,
+      "afterSha256": "a6879280e8d437d69675fb19a04b91263f64e244fdbab80e6211d6ffde6b3aa6",
+      "change": "added",
+      "role": "public_demo_controller",
+      "reason": "Expose the nine required one-command operational interfaces.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-lib.sh",
+      "beforeSha256": null,
+      "afterSha256": "44cab72688c32679b10c01101082e47205b50359640d019a9a960abe30ce954e",
+      "change": "added",
+      "role": "strict_shell_runtime",
+      "reason": "Resolve the workspace independently of the caller cwd and force backend mode.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-doctor.sh",
+      "beforeSha256": null,
+      "afterSha256": "caa61689e7263006041b83e833cfa866f7dfbbc5a7556b9d8adc578eecdc576e",
+      "change": "added",
+      "role": "doctor_entrypoint",
+      "reason": "Provide read-only human and JSON diagnostics.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-start.sh",
+      "beforeSha256": null,
+      "afterSha256": "c75a6c072043493e8e7d21278fe1779c892d1ccdd765b2f50f0d4b47c8bff34f",
+      "change": "added",
+      "role": "start_entrypoint",
+      "reason": "Start the managed production Next.js server with the real Preview Bundle.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-stop.sh",
+      "beforeSha256": null,
+      "afterSha256": "438844628991e19a723a8509efa69114f53b49852a7de0aed16b2f84e80c4299",
+      "change": "added",
+      "role": "stop_entrypoint",
+      "reason": "Stop only the verified managed listener.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-status.sh",
+      "beforeSha256": null,
+      "afterSha256": "c2a21dbbda877961dd4d3eeea0d429e28d4297f99609cf64b38758c56e9c51a0",
+      "change": "added",
+      "role": "status_entrypoint",
+      "reason": "Report PID, URL, mode and Preview health.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-smoke.sh",
+      "beforeSha256": null,
+      "afterSha256": "e16231e83cda2173f197da7387de23c0172f922db271dbb72351b66a08fb91f5",
+      "change": "added",
+      "role": "smoke_entrypoint",
+      "reason": "Run deterministic API and route smoke checks.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-freeze-check.sh",
+      "beforeSha256": null,
+      "afterSha256": "f677cef4eefeb3a394375e3a168b1e37b476c1602361008f0de09062e70ba7e9",
+      "change": "added",
+      "role": "freeze_validation_entrypoint",
+      "reason": "Validate the external Stage 5 PASS snapshot against source and archive.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-archive.mjs",
+      "beforeSha256": null,
+      "afterSha256": "a346d8c670fc1d6dd558cddbada065092b0920a50ca8cc3aa626388ee8998a7f",
+      "change": "added",
+      "role": "archive_integrity_validator",
+      "reason": "Bind every deterministic archive entry, size and SHA-256 value to the freeze manifest.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-ops.mjs",
+      "beforeSha256": null,
+      "afterSha256": "814a8fa577e7ad458a245565d5b13c12f1cc796955545ade70a470ba82277a2e",
+      "change": "added",
+      "role": "operational_core",
+      "reason": "Implement diagnostics, lifecycle, fail-closed backend mode and Smoke.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-process.mjs",
+      "beforeSha256": null,
+      "afterSha256": "9aee35dfc46d8c08ffb800db244dee4a4221785886075fffd17a6f04be1c9632",
+      "change": "added",
+      "role": "process_identity_helpers",
+      "reason": "Handle early exit and bind PID, PGID, start time, command, cwd and listener identity.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/pathos-freeze-stage5.mjs",
+      "beforeSha256": null,
+      "afterSha256": "fc9305f3f544393cf765bf2f453d3b3ecbf29ebfd7a2d3f74dc72e70ffa42b14",
+      "change": "added",
+      "role": "deterministic_freeze_builder",
+      "reason": "Create or safely reuse the Stage 5 PASS frontend recovery point.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/stage6-demo-tests.sh",
+      "beforeSha256": null,
+      "afterSha256": "59dfcdd70e8cd5881cb7dd352578b59dfade5a7cfe11d962879e80b6f778d664",
+      "change": "added",
+      "role": "stage6_contract_test",
+      "reason": "Test CLI, strict mode, backend-only operation, doctor JSON, Bundle identity and both freeze manifests without rg.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/runtime-lifecycle.test.mjs",
+      "beforeSha256": null,
+      "afterSha256": "4b11d9d9c12b872f819355143eea62b7bf7fa8d90b693118ca594a6366f0fc26",
+      "change": "added",
+      "role": "runtime_identity_regression_test",
+      "reason": "Test Gate PGID topology, npm identity transitions, EPERM and a real detached process group.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/runtime-lifecycle-integration.sh",
+      "beforeSha256": null,
+      "afterSha256": "2b6f7b1127128b8e53213344faafa4c111363f6e47bff01fdcc53114a6de85c0",
+      "change": "added",
+      "role": "runtime_lifecycle_integration_test",
+      "reason": "Run three complete lifecycles plus foreign-port, PID-reuse, failed-start and verified-SIGKILL cases.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/no-rg-portability.test.sh",
+      "beforeSha256": null,
+      "afterSha256": "76f6c138ac7815d92e7cae5ab07437602c39b0fe608a79dc4e3397cbfbb76ff4",
+      "change": "added",
+      "role": "runtime_test_portability",
+      "reason": "Prove the Stage 6 suite runs when ripgrep is absent from PATH.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/prestate-cleanup.test.sh",
+      "beforeSha256": null,
+      "afterSha256": "64223816509d2dd12fd193af5c993e84f3bf22f7969eec46cadfee0f925e497d",
+      "change": "added",
+      "role": "prestate_process_group_cleanup_test",
+      "reason": "Verify missing identity tooling blocks before spawn and post-preflight identity failure cleans only the exact detached launch group.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/process-health.test.mjs",
+      "beforeSha256": null,
+      "afterSha256": "d6af43b391390df7d440e58421a9236288ade62fc293d7a325aeba2e28d430a6",
+      "change": "added",
+      "role": "process_regression_test",
+      "reason": "Test early process exit, exact managed process identity and EPERM semantics.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/freeze-reuse.test.sh",
+      "beforeSha256": null,
+      "afterSha256": "6983853b9018dd2efbb68eb32de35c7ab1c4529c7b6ae26dee44bf7bf2dfc0f1",
+      "change": "added",
+      "role": "freeze_recovery_regression_test",
+      "reason": "Ensure incomplete and wrong-content archives fail closed while preserving the prior freeze.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/freeze-manifest-binding.test.mjs",
+      "beforeSha256": null,
+      "afterSha256": "28dc7be463bd3431f67b6f157b2307ba226c4c62e51938d24834a36b6f3f0883",
+      "change": "added",
+      "role": "manifest_binding_regression_test",
+      "reason": "Verify post-closing Root bindings and explicit recursive-hash exclusions.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/unicode-path.test.mjs",
+      "beforeSha256": null,
+      "afterSha256": "6d9455f03d8c93a82b906344ceee08dae216196c69ab84bf552213e8e517a224",
+      "change": "added",
+      "role": "unicode_identity_unit_test",
+      "reason": "Cover byte decoding, strict UTF-8 failure, NFC/NFD, realpath and exact cwd comparison.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/unicode-lsof-integration.test.mjs",
+      "beforeSha256": null,
+      "afterSha256": "15cde9c782ac1e3a499c2618c0c56498bec0c58f35cf2c8eb3cffa730154f41e",
+      "change": "added",
+      "role": "real_lsof_unicode_test",
+      "reason": "Parse a real macOS lsof cwd from a controlled process in a Chinese path.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/unicode-cwd-failure-integration.mjs",
+      "beforeSha256": null,
+      "afterSha256": "8cfa27492950d854cda189fd92e5d2abc78bf072abf4f023345d77ea3ca58afb",
+      "change": "added",
+      "role": "unicode_failure_cleanup_test",
+      "reason": "Inject malformed cwd identities and prove fail-closed cleanup without external-process kills.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/unicode-workspace-lifecycle.mjs",
+      "beforeSha256": null,
+      "afterSha256": "eaea5f576c82beabb4c74f8b9a64386af36fecaa3c05ca3151cc1ede3c7aad56",
+      "change": "added",
+      "role": "unicode_workspace_lifecycle_test",
+      "reason": "Run three lifecycle rounds in the real Chinese workspace and capture raw/canonical identity evidence.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEMO-FREEZE-IMPLEMENTATION-PLAN.md",
+      "beforeSha256": null,
+      "afterSha256": "b202b787683ed6a20abad2a18470b9717bf4234a0f01ab8317397780eddb88e1",
+      "change": "added",
+      "role": "implementation_plan",
+      "reason": "Record scope, TDD sequence and verification criteria.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEMO-RUNBOOK.md",
+      "beforeSha256": null,
+      "afterSha256": "195f300fb99271f5c74d05b071e48b81f917ebd4cadc8f173039640b5a1e954c",
+      "change": "added",
+      "role": "demo_runbook",
+      "reason": "Document startup, routes, expected output and shutdown.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEMO-RECOVERY-RUNBOOK.md",
+      "beforeSha256": null,
+      "afterSha256": "f57e7dddb1470858d5db9e577abe11f26e1ee8c77454550139b53c5cf5983199",
+      "change": "added",
+      "role": "recovery_runbook",
+      "reason": "Document non-destructive recovery without fixture or old repositories.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEMO-FREEZE-REPORT.md",
+      "beforeSha256": null,
+      "afterSha256": "b164491ce182852e88694f2363395988a67aed16b28d25febf69a63920b5f93c",
+      "change": "added",
+      "role": "gate_report",
+      "reason": "Record automated, browser and data-boundary evidence.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEVELOPMENT-LOG.md",
+      "beforeSha256": null,
+      "afterSha256": "835b7d50d1140c0a354ef43698e6814d0f3dc4b2903c559f12465cf7d5fbfa5e",
+      "change": "added",
+      "role": "development_evidence_log",
+      "reason": "Record pre-change hashes, Gate process evidence, root cause and lifecycle verification.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "STAGE6-DEMO-FREEZE-MANIFEST.json",
+      "beforeSha256": null,
+      "afterSha256": null,
+      "change": "added",
+      "role": "root_demo_freeze_manifest",
+      "reason": "Root binds this final cumulative manifest, so its own changing hash is excluded from this authoritative inventory.",
+      "dataSemanticsChange": false,
+      "selfDescribing": true,
+      "hashParticipation": "excluded_to_avoid_recursive_binding"
+    },
+    {
+      "relativePath": "docs/STAGE6-DEMO-CHANGE-MANIFEST.json",
+      "beforeSha256": null,
+      "afterSha256": null,
+      "change": "added",
+      "role": "self_describing_change_manifest",
+      "reason": "Self hash intentionally omitted from its own authoritative inventory.",
+      "dataSemanticsChange": false,
+      "selfDescribing": true,
+      "hashParticipation": "excluded_to_avoid_recursive_binding"
+    },
+    {
+      "relativePath": "docs/STAGE6-CLOSING-RUNTIME-PATCH-REPORT.md",
+      "beforeSha256": null,
+      "afterSha256": "1f39f8120949b9b953cb8dfb7a3a999270c43bc798e17e066425a1c0faa6c774",
+      "change": "added",
+      "role": "closing_runtime_report",
+      "reason": "Record the first Stage 6 runtime lifecycle closing patch.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-CLOSING-RUNTIME-CHANGE-MANIFEST.json",
+      "beforeSha256": null,
+      "afterSha256": "3976b5f2547f5e77bcc8c6cdf4fa767cc79c12dd7773fade8f399588d470b8d0",
+      "change": "added",
+      "role": "closing_runtime_change_manifest",
+      "reason": "Bind the first Stage 6 closing runtime patch inventory.",
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-UNICODE-PATH-CLOSING-PATCH-REPORT.md",
+      "beforeSha256": null,
+      "afterSha256": null,
+      "change": "added",
+      "role": "unicode_closing_report",
+      "reason": "Final report records inventory hashes and therefore is excluded from the canonical inventory to prevent recursion.",
+      "dataSemanticsChange": false,
+      "selfDescribing": true,
+      "hashParticipation": "excluded_to_avoid_recursive_binding"
+    },
+    {
+      "relativePath": "docs/STAGE6-UNICODE-PATH-CLOSING-CHANGE-MANIFEST.json",
+      "beforeSha256": null,
+      "afterSha256": null,
+      "change": "added",
+      "role": "unicode_closing_change_manifest",
+      "reason": "Root binds this manifest and this manifest binds the cumulative inventory; its entry is excluded to prevent a hash cycle.",
+      "dataSemanticsChange": false,
+      "selfDescribing": true,
+      "hashParticipation": "excluded_to_avoid_recursive_binding"
+    }
+  ],
+  "externalFreezeArtifacts": [
+    {
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并-integration-baseline/stage5-pass-freeze/stage5-pass-frontend-manifest.json",
+      "beforeSha256": null,
+      "afterSha256": "c90a4fc992e6d3522711575a72120f2650b2f89387ef77c481cabedda9eeb3d4"
+    },
+    {
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并-integration-baseline/stage5-pass-freeze/stage5-pass-frontend-files.sha256",
+      "beforeSha256": null,
+      "afterSha256": "12f2fcd82f6c7bc35a340cccbb645baec3381097a961ffa137ddcbbe2d0c15cf"
+    },
+    {
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并-integration-baseline/stage5-pass-freeze/stage5-pass-frontend-snapshot.tar.gz",
+      "beforeSha256": null,
+      "afterSha256": "67b7ab7df6b8638dff56a39120402bea2e718ef95fc010f5229aad207ca86b2b"
+    },
+    {
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并-integration-baseline/stage5-pass-freeze/stage5-pass-freeze-report.md",
+      "beforeSha256": null,
+      "afterSha256": "40e3903b372c8a15ca2873eb5b0bcc32813b5ea0614519ccb5823e54b8b91ed4"
+    }
+  ],
+  "retainedHarness": {
+    "relativePath": ".claude/launch.json",
+    "sha256": "0e45bc5a225109107080c2710ad983d45741261c7769e4b3f192f23f9ddec65f",
+    "classification": "local_test_harness",
+    "runtimeDataAuthority": false,
+    "changedInStage6": false
+  },
+  "frozenSurfaces": {
+    "frontendSourceModified": false,
+    "backendAdapterModified": false,
+    "previewBundleModified": false,
+    "stage4bArtifactsModified": false,
+    "stage4cArtifactsModified": false,
+    "candidateV2Modified": false,
+    "rankingMembershipsModified": false,
+    "stage3dPeopleModified": false,
+    "fixtureModified": false,
+    "productionExportGenerated": false
+  }
+}

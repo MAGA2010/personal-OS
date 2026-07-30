@@ -1,7 +1,7 @@
 "use client";
 
 import type { MetricId } from "@/lib/types";
-import { METRIC_DEFINITIONS, METRIC_ORDER } from "@/lib/metrics";
+import { METRIC_DEFINITIONS, METRIC_ORDER } from "@/config/metrics.config";
 
 // ── MetricTabs Props ──
 

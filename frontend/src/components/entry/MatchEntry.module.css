@@ -1,0 +1,214 @@
+.environment {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 66%, rgba(39, 116, 132, 0.24), transparent 42%),
+    linear-gradient(145deg, #071219, #050b11 56%, #081612);
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.19;
+  background-image:
+    linear-gradient(rgba(166, 205, 196, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(166, 205, 196, 0.1) 1px, transparent 1px);
+  background-size: min(9vw, 110px) min(9vw, 110px);
+  mask-image: radial-gradient(circle at 50% 52%, black, transparent 74%);
+}
+
+.waves {
+  position: absolute;
+  right: -5%;
+  bottom: 4%;
+  width: 110%;
+  height: min(58vh, 520px);
+  overflow: visible;
+}
+
+.wave {
+  fill: none;
+  stroke: rgba(117, 188, 193, 0.58);
+  stroke-width: 1.2;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  vector-effect: non-scaling-stroke;
+  animation:
+    wave-draw 1.8s ease forwards,
+    wave-breathe 11s 2s ease-in-out infinite alternate;
+}
+
+.node {
+  fill: #9cc8b2;
+  opacity: 0;
+  animation: node-arrive 700ms ease forwards;
+}
+
+.stage {
+  display: flex;
+  min-height: 100svh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 24px 170px;
+  text-align: center;
+}
+
+.kicker {
+  margin: 0 0 18px;
+  color: #91bba9;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.34em;
+  animation: copy-arrive 850ms 260ms ease both;
+}
+
+.stage h1 {
+  max-width: 980px;
+  margin: 0;
+  font-family: Georgia, "Songti SC", serif;
+  font-size: clamp(3rem, 8vw, 7.8rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.045em;
+  animation: copy-arrive 1s 380ms ease both;
+}
+
+.summary {
+  max-width: 620px;
+  margin: 28px 0 0;
+  color: rgba(235, 243, 239, 0.62);
+  font-size: clamp(13px, 1.5vw, 17px);
+  line-height: 1.8;
+  animation: copy-arrive 1s 520ms ease both;
+}
+
+.metrics {
+  display: grid;
+  width: min(100%, 620px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 54px 0 0;
+  border-top: 1px solid rgba(210, 230, 219, 0.2);
+  border-bottom: 1px solid rgba(210, 230, 219, 0.2);
+  animation: copy-arrive 1s 650ms ease both;
+}
+
+.metrics div {
+  display: grid;
+  gap: 8px;
+  padding: 17px 12px;
+  border-right: 1px solid rgba(210, 230, 219, 0.16);
+}
+
+.metrics div:last-child {
+  border-right: 0;
+}
+
+.metrics dt {
+  color: rgba(235, 243, 239, 0.32);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 9px;
+}
+
+.metrics dd {
+  margin: 0;
+  color: rgba(235, 243, 239, 0.78);
+  font-size: 12px;
+}
+
+.cta {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgba(213, 233, 222, 0.42);
+  padding: 11px 17px;
+  color: #eff4f1;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  background: rgba(14, 28, 27, 0.38);
+  transition: border-color 180ms ease, background-color 180ms ease;
+}
+
+.cta:hover {
+  border-color: rgba(213, 233, 222, 0.82);
+  background: rgba(27, 57, 52, 0.58);
+}
+
+@keyframes wave-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes wave-breathe {
+  from {
+    opacity: 0.42;
+    transform: translate3d(-1%, 1%, 0) scale3d(1, 0.96, 1);
+  }
+  to {
+    opacity: 0.82;
+    transform: translate3d(1%, -1%, 0) scale3d(1, 1.04, 1);
+  }
+}
+
+@keyframes node-arrive {
+  from {
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 1);
+  }
+  to {
+    opacity: 0.8;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes copy-arrive {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 600px) {
+  .stage {
+    padding-inline: 20px;
+  }
+
+  .metrics {
+    margin-top: 38px;
+  }
+
+  .metrics dd {
+    font-size: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wave,
+  .node,
+  .kicker,
+  .stage h1,
+  .summary,
+  .metrics {
+    animation: none;
+  }
+
+  .wave {
+    stroke-dashoffset: 0;
+  }
+
+  .node {
+    opacity: 0.8;
+  }
+}

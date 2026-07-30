@@ -1,0 +1,15 @@
+{
+  "all_pins_match": true,
+  "expected_counts": {
+    "duplicate_people": 0,
+    "national_ranking_memberships": 50,
+    "program_people_gaps": 130,
+    "program_people_identified": 180,
+    "program_people_no_qualifying": 0,
+    "program_slots": 310,
+    "schools": 62,
+    "stage4a_verified_contributions": 0
+  },
+  "input_count": 39,
+  "record_type": "stage4b_input_pin_report"
+}

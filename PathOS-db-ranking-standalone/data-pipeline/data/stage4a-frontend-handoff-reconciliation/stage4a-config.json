@@ -1,0 +1,429 @@
+{
+  "baseline_commit": "7561760c2b1b5bf1bbfd5e4ef6a585e2c69b46a8",
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "frontend_hardcoded_authoritative": false,
+  "immutable_backend_inputs": [
+    {
+      "path": "artifacts/stage3b-demo-critical-gap-fill/stage3b-summary.json",
+      "sha256": "e73d0e6e4083b8d63908da283ab71f25028116ad395ed922a7be54c4b375a72c"
+    },
+    {
+      "path": "artifacts/stage3c-academic-geo-enrichment/stage3c-summary.json",
+      "sha256": "e649626bca7ac2a489d1abeb95dc060fb111434a8fad8d3639d545f6538b4346"
+    },
+    {
+      "path": "artifacts/stage3c2-nearest-towns-gap-repair/stage3c2-summary.json",
+      "sha256": "ead2c0a8406fbb00f2fb4818930aa4ef74868752ab805ba0900766e1ad8da06e"
+    },
+    {
+      "path": "artifacts/stage3d-closing-hardening/stage3d-closing-hardening-cumulative-summary.json",
+      "sha256": "c5fb6cc5c58bc906d2e1ec11f67f8698cae892d5ae13c1ed46e48cc0c3d5c25c"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-cache-manifest.json",
+      "sha256": "a36f7fb472028bd60385d21c73d2b3676e56de788e50b11c189f8f7f1b230d7f"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-cumulative-program-people.json",
+      "sha256": "139722efb32966a3c25edf77fa6ce0d669e42f542a7e40dfc9b10d58e232d242"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-duplicate-records.json",
+      "sha256": "c234123aa17ff67e1ef91032b33708e57dd833a2f9da9c7fe8ed91142d279d91"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-exclusions.json",
+      "sha256": "65a3ee5f845a9720b03a1a190b7bfefb1df4c29fe0d8fece23376992ce9e9eb8"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-gap-disclosure.json",
+      "sha256": "3554048a7a5e7e0961223f5d965cd177ea2353a09e1e301199046833b366267f"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-plan.json",
+      "sha256": "c66314994fa670c1c348256bba0dab6736ff62fdaa0c8c562fb8c3a2bc04529b"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-program-people.json",
+      "sha256": "7a2f0b8f4b0efe300ae02c235bf2734e9959570e569db8fcf42d8a977b512af0"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-slot-inventory.json",
+      "sha256": "c5db01d0b74414fb3d88d713ba1ef1bc01b8d866fdd81626cc6a518d191aacdd"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-source-manifest.json",
+      "sha256": "a591910a450defeebc675d98ace855deef090c9fc0ffb8c3cd2b8fe81e02f590"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-summary.json",
+      "sha256": "42b66839183a45470088af376e2960fe325e797ad9e2c129e38835bf73fc0719"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-validation-result.json",
+      "sha256": "cf085a15c695927cfb554c259361f5b429e9ff0d66ceb812d4fa367c20ad404a"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-cache-manifest.json",
+      "sha256": "0451816ff55e1a6c73bc77521e8e380e68d656d625f13f4ac4b99f23a9a72bdf"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-cumulative-program-people.json",
+      "sha256": "ad21d43452d67a039c484bcdeeb53bbf87d49d00d4de8fb926125d7779bcc919"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-duplicate-records.json",
+      "sha256": "7f682bc480391b8af5029c0c253f4b22ad76421012d4d93a3f83f1cebe8259d5"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-exclusions.json",
+      "sha256": "852963c2ab78feddb22c7451b51d1d2574937e86a4e398e76c91cfda3f915ec5"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-gap-disclosure.json",
+      "sha256": "23212a528cfef09883a0137c10f36bdc98cef4207b257a69777213fedffc7391"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-plan.json",
+      "sha256": "5e358b2a3b03cc8f9ed7cf1af42907791c44408b7f38ddd75b69bddb980c0d16"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-program-people.json",
+      "sha256": "8f966a3dae9b24255b3bdded03c08a92e31d5b2e218dc41607002834e8a1dd93"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-slot-inventory.json",
+      "sha256": "07583972d2b0b5a593249ea8bca5d77bd8be6febaf075b25477f5309f908d6d9"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-source-manifest.json",
+      "sha256": "85e910b343d15c042337887992cba6b896e83802505559b57fb1fbdae6393554"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-summary.json",
+      "sha256": "584ca134a215f1d069f7b946b9a23649b3d5e5557feb6b210dd73e3e54eb449a"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-validation-result.json",
+      "sha256": "cea7c6cd47e43f861157a56a148e8bdb678102aa2c21f89a57da500072301dbd"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-cache-manifest.json",
+      "sha256": "a5e0e5c0e5346e07a98c23afe305edf2a2199eab8a267d31074303d8836178a7"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-cumulative-dedup.json",
+      "sha256": "061c877ccc35db1fffbb7036a0b0953c13c2a64f6197d8f187a2dc2e554efd14"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-exclusions.json",
+      "sha256": "ccfaf4749e072e46c7c444c7df15a7268882e317078586beb2d1b3023e9b8cee"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-gap-disclosure.json",
+      "sha256": "190bfd56e9542a8616641600fe4d90be2aefba3216ea825adc0a092fe4c82d9c"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-plan.json",
+      "sha256": "8ea741f866c99d2d9dadfa12666322a251b2314288a6edc0488cadb8a3bd8ed8"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-program-people.json",
+      "sha256": "d2e35ee7c1d001ce2fb865eef655e4ced659fce482cb09dbdd67bc2653f5ee88"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-source-manifest.json",
+      "sha256": "1199ae526459a8f5d121dde7feddeee96e1d42067c3824b77855d285c29ca8a5"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-summary.json",
+      "sha256": "55464d3c5d7b2cc676f44a098ee7e032b39d2da8101996edb03795523b5cf3f3"
+    },
+    {
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-validation-result.json",
+      "sha256": "a35c2f6654636e1f2be3e9adc047fe3ec8d100c8bd542aebf02d0b8387e55233"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-cache-manifest.json",
+      "sha256": "0415eea05698a1b65f37ddacf17fc772195f6a2f71f530066795265f9d89b54b"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-cumulative-dedup.json",
+      "sha256": "df5bfaf674d030244e5dbf423558b832db168103d6ff9fcba5d48031375110cd"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-dedup-report.json",
+      "sha256": "b33e9ec7e9481b26bd370904ee8beccb27c0ff8ebb6f5465b71f7bf4f67751a9"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-exclusions.json",
+      "sha256": "a2238352461c35c836454d3154f76883263387318250276482633974db1cb7d1"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-gap-disclosure.json",
+      "sha256": "e5e091d4cfd5beea44f0d81df53062c013cfbdfd86c71e1d07ffd33e24e24cf6"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-plan.json",
+      "sha256": "519c40eb645322a6fd7bbb77ddd40376f86434f9c17cdaadb981f10335c02f42"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-program-people.json",
+      "sha256": "ab80e71c79f23313a693fdcc25ea6f59dd42b74a113e0d65d55e903cc5b6fef4"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-source-manifest.json",
+      "sha256": "fc38ba80da9a66cc47317da018375f91c0ea3a872f5a6383f967f654bfd4b9c4"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-summary.json",
+      "sha256": "267666601840df3f7f67a3ba4e0bceb1836517a3a9cb3664035bc2c0803e0d44"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-validation-result.json",
+      "sha256": "c3b1914e14f4408874e4c02bb40d77e2002acb2b075bc9117a4e58e05b5063cb"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-cache-manifest.json",
+      "sha256": "f3578410d860a1c812d6be517fe6c3c054dde4d2d328caa6d620016639db48e5"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-cumulative-dedup.json",
+      "sha256": "56152a97d3187d4128f6cb03233f7b3c149b4f48ec37f0a24ca09e9dad6c649a"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-exclusions.json",
+      "sha256": "6827b35784b226acf19d99c07a41aa211d1e5b06a90051bd34ed9b43f255eee3"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-gap-disclosure.json",
+      "sha256": "2818e3c491b9c3e318a340266e449ff75f01cd991ae7b7beac1ee1b59c447fca"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-plan.json",
+      "sha256": "027f1b4889d20d7899c601598a32e730f5eafa128889e3f7e2b26be596ed5b9f"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-program-people.json",
+      "sha256": "6ec567db4476822348cc0d492b7d7d1c2bf15ebfe1b76bb3449afe14718c698b"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-source-manifest.json",
+      "sha256": "281038fa2eed4986e622c255b1e41f9cfb69f6641e7f4984d6b3bfd17dc9ae86"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-summary.json",
+      "sha256": "ae035b3e71e8847cd29ddda452d6db4e735a17f1e819c61dd0625402e277215a"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-validation-result.json",
+      "sha256": "733bf296fbf62c58a722dc808189014d8447dabd4ce225e30591d9b47c775822"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-cache-manifest.json",
+      "sha256": "48d1392d393b1aa786b80c064c4ac554ad8a7c236a65687091bdb167e1f96514"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-dedup-report.json",
+      "sha256": "e1e4ca88dcf85ad5654e29e1ffa9b8ad818e5c45848c3be8856868374def2136"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-exclusions.json",
+      "sha256": "ac3b2dd2d9b4c866d0c2f63fe26605e4cd7057b0ea7c8214ed0e532e5a1ccb24"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-gap-disclosure.json",
+      "sha256": "24011d6e90176d4459e9101fe60f0b302a69d96dcc30165f9bdfe9e23ff8dce2"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-plan.json",
+      "sha256": "54187e925d8dedecce917598fe92933f4e9a576aaf51af037ba90293f692ec70"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-program-people.json",
+      "sha256": "95d39949f150fdc0aefadc718cf13f75c8683d51eac04e4e7bd70f53753160de"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-source-manifest.json",
+      "sha256": "90bb1f5010ad4f788a3581993ea82a63c8d7111b0555a2ed97c21b00a555ffec"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-summary.json",
+      "sha256": "a7d3070b82e13d4140b912eac6e5cdb688a34000d9ebe4b48df8c016c58af208"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-validation-result.json",
+      "sha256": "88c5009a9635250574c00fbd1163f61bd937e87e53f9d263be752408174cc793"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-cache-manifest.json",
+      "sha256": "c9e2ec52d5e14528429bd9fa4839361c4b7199799b7ac3dc40e53e9d0efe6bd4"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-dedup-report.json",
+      "sha256": "ed352d26cf9bc4e7e84a033034b910812d848883939beb165eb27a8f2f2aeb9e"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-exclusions.json",
+      "sha256": "4504b180928a3c83be4f402baff216f04a3925d53a0dac58ae2f984590c786eb"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-gap-disclosure.json",
+      "sha256": "b07361f0111a4cc0a5bea306c356d0cbcc44c5a75104576763a0289ccea57a7f"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-plan.json",
+      "sha256": "227721fbaa2070897a4db1562eb796a94e849335d513dbba16fa19475c8a45d8"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-program-people.json",
+      "sha256": "81b60f2fc1c84c0e103b7a35f62ef02bf1dc03d586219247935cc43ac2968d48"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-source-manifest.json",
+      "sha256": "9e208bee167bb44761f0279ffea0187400345ed8edacbe98286741be77cc4b84"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-summary.json",
+      "sha256": "d241483fbb3dc248fb9278a0eb0f736ed94f2184f59e740023e7dd19482e4b96"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-validation-result.json",
+      "sha256": "0b30a6796b827b3fce6b2b9fde319d2c115208cd9dbfc9d758233c410c907266"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-cache-manifest.json",
+      "sha256": "0aab3dbf7f77485b6dae49304ed8ce1df500febe2a571c6bb6f323a01167b770"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-cumulative-dedup.json",
+      "sha256": "599c2fd639d6b6326abd450aee72258b8da62c77af51f7e914a1a86c0d820a09"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-dedup-report.json",
+      "sha256": "ff7f22b1aea1739fba7e4b16262b5c3eba38c90c300df2709db25dc168d98708"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-exclusions.json",
+      "sha256": "0c1701d1ae425f2084f1f0d864ea9034c9f1365e54e3b7a9b1483c41dab866d2"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-gap-disclosure.json",
+      "sha256": "8ce13d9a7bf1010c1172dc040c05587cd7443681e1aa020593f322462696833f"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-plan.json",
+      "sha256": "ae39ab37effff0ad622c3514ad0977c84db6c1cd0e41b239e19ccabed646e773"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-program-people.json",
+      "sha256": "32cbe1431bbf171aeb90031645890d552ac732b24f7c210df7beb9d253f86c0b"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-source-manifest.json",
+      "sha256": "1e4b862f798b199af53410a85c7528e6d5804607b99fc07ec619ec734d028daa"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-summary.json",
+      "sha256": "841da6b9406f2e7c7cd6530af1fae3de63905a4eea78aeb32d16166424c744fc"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-validation-result.json",
+      "sha256": "1f8863df82e01789f09c7540d43326158396a4b0b4242c3c9e682b3fc0c6cc2c"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-cache-manifest.json",
+      "sha256": "75b5a39dfac28470e9ebfd2308065e02f05d01d317504c3a76fd93b4e6ceb5ca"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-cumulative-dedup.json",
+      "sha256": "bf47ded7d468b675e32e336314c5a070ca145d1821d646372f2b112f9ff1a15a"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-dedup-report.json",
+      "sha256": "eaa5784f0a249a9370489c308bc2e3b92d6e806b6747d6e4ea966c744af6165f"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-exclusions.json",
+      "sha256": "f56e21a6a7723decb423c6be22cd643860c73b39545778997e9b05e0bc932002"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-gap-disclosure.json",
+      "sha256": "3abfb35b8c676dbc28ede19faa229e49fc97ed7d1e04291a058389ba22226161"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-plan.json",
+      "sha256": "fc3ef5dff7a63a975d2fe29bb58f947c9a9e042805e8d1c4c60bfe018299192a"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-program-people.json",
+      "sha256": "d81fe997b5b9419a9f2a50782449bacd44e2fbefc15537c2cf78c29e7704e431"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-source-manifest.json",
+      "sha256": "d99efdef19b58943579a63f79577177865b4d2d48cf77d028a912ad3c97647a8"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-summary.json",
+      "sha256": "9de5967b3629e3b8414151463e70bf2e7a4407b0162d4813d773aabad1f57111"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-validation-result.json",
+      "sha256": "298a9936c2c5650fcec96b6e6c2cfb01db871368954deb0665deb7e30ba16606"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-cache-manifest.json",
+      "sha256": "33457bee1469a6e2ef67db02d1cf1cb09195fb2a138f10281b9c4a88d44f461a"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-cumulative-dedup.json",
+      "sha256": "b913dd154dc56b8cbfc7bbf05de4d0f19ea3af1a4eb70957a45cc3cc8567543d"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-dedup-report.json",
+      "sha256": "474a27b4496dd01d42eb8d74c4cc8c1d769c41fa078d35ad5ef94f7b4c8879fe"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-exclusions.json",
+      "sha256": "abeb868aef21db410431391eef7e54d6b112a477917e93050151e2230ad608b7"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-gap-disclosure.json",
+      "sha256": "adaee7ec6cef78e03d3906e70b716cb6d25e6ac6ebfa1883558805ee71a065a9"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-plan.json",
+      "sha256": "b083d7478cd17fcc16fc8b050bd54122eb261a820839076c97740f0e6dc97fe5"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-program-people.json",
+      "sha256": "216ba3e01eb4c39434dee42e9019252c838a66fcd1a29315ed0e788a16a312f9"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-source-manifest.json",
+      "sha256": "4a74bc06875fb78c8f3c6e7371238c687f1e29f11e974f493cb9b92ef86d14b2"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-summary.json",
+      "sha256": "433b3cee0e886f0dfeb1670f1025c8d20eeda979195129429a29493d6ca5c153"
+    },
+    {
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-validation-result.json",
+      "sha256": "5b06faa37d866b3ecacc54965ec98042652122aceae0d6f5b56f159a09e5799a"
+    },
+    {
+      "path": "data/university-universe-candidates/v2-source-limited/candidate-universities.json",
+      "sha256": "8f940aa6d336402ff9c3c76a43d2efacdf2c887dc983afeb344937db9eadb18d"
+    }
+  ],
+  "incomplete": true,
+  "network_required_for_generation": false,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "raw_snapshot_path": "raw/frontend-handoff/stage4a-handoff-snapshot.json",
+  "record_type": "stage4a_config",
+  "source_handoff_path": "/Users/jiayihuang/PathOS-db-ranking/handoff/frontend-data-extraction",
+  "source_limited": true,
+  "stage": "stage4a-frontend-handoff-reconciliation"
+}

@@ -1,0 +1,8 @@
+{
+  "network_verification_attempted": false,
+  "network_verification_skip_reason": "No frontend-only candidate supplied a primary source with explicit field scope and reference year; hardcoded values cannot bootstrap trust.",
+  "reason_empty": "All MVP-useful handoff facts are either already covered by verified backend data or lack source/scope/year required for promotion.",
+  "record_count": 0,
+  "record_type": "stage4a_frontend_handoff_verified_enrichment",
+  "records": []
+}

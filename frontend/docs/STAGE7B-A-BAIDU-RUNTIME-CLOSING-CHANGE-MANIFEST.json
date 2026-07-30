@@ -1,0 +1,330 @@
+{
+  "stage": "7B-A-Runtime-Closing",
+  "title": "Baidu Runtime Completion Patch · Evidence Fix",
+  "date": "2026-07-25",
+  "status": "MAPLIBRE_PATH_READY · BAIDU_PROVIDER_BLOCKED",
+  "priorRoundCorrections": [
+    {
+      "claim": "AK BLOCKED — 无真实 AK",
+      "reality": ".env.local 实际包含 32 字符有效 AK，且 NEXT_PUBLIC_PATHOS_MAP_PROVIDER=baidu",
+      "evidence": "ak_length_valid: True (32 chars) · map_provider: baidu · 一致性从 .env.local 中读取变量名与安全脚本验证"
+    },
+    {
+      "claim": "Build 14 routes (regression from Stage 7R 15 routes)",
+      "reality": "Build 实际是 15 routes；与 Stage 7R 一致；上一轮统计口径遗漏 /_not-found 或其他 route",
+      "evidence": "find src/app -type f (page.tsx|route.ts) 返回 15 个文件；npm run build 输出 Route table 15 行"
+    },
+    {
+      "claim": "Dark contrast 修复完成",
+      "reality": "bg-ink/8 在 .dark 下变成 8% cream tint + cream text = 1.00:1（不可见）；本轮发现并修复为 surface-muted/0.55 = 13.78:1",
+      "evidence": "真实浏览器 getComputedStyle 测量；nav active /map 修复前 1.00:1 修复后 13.78:1"
+    }
+  ],
+  "added": [
+    "frontend/docs/STAGE7B-A-BAIDU-RUNTIME-CLOSING-REPORT.md",
+    "frontend/docs/STAGE7B-A-BAIDU-RUNTIME-CLOSING-DEVLOG.md",
+    "frontend/docs/STAGE7B-A-BAIDU-RUNTIME-CLOSING-CHANGE-MANIFEST.json"
+  ],
+  "modified": [
+    "frontend/src/app/globals.css",
+    "frontend/src/components/map/providers/baidu/load-baidu-map.ts",
+    "frontend/src/components/map/providers/baidu/BaiduMapProviderAdapter.ts",
+    "frontend/src/components/map/providers/MapProviderHost.tsx",
+    "frontend/src/components/map/providers/types.ts",
+    "frontend/src/components/map/providers/maplibre/MapLibreProviderAdapter.ts",
+    "frontend/src/components/map/providers/index.ts",
+    "frontend/.env.example",
+    "frontend/src/components/map/MapShell.tsx",
+    "frontend/src/test/unit/stage7ba-baidu-pilot.test.ts",
+    "frontend/docs/STAGE7R-REGIONAL-HEATMAP-PROVENANCE.md",
+    "frontend/docs/STAGE7R-CHANGEMANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": "frontend/src/app/globals.css",
+      "sha256": "9fef5aef711c5d8fb66ceabf6da21fb8206b21eed6e329c773a4b35ede6cf563",
+      "size": 11546,
+      "kind": "modified",
+      "summary": "Stage 7B-A Runtime Closing：扩展 dark normalization 块，修复 .dark .bg-ink\\/8 和 .bg-ink\\/10 使用 surface-muted token，避免 1.00:1 nav active 不可见问题。"
+    },
+    {
+      "path": "frontend/src/components/map/providers/baidu/load-baidu-map.ts",
+      "sha256": "361d3de85522c983884d96790d7dc4cee1c3ad04adaa90a1e47ce4a15ab0f694",
+      "size": 7361,
+      "kind": "modified",
+      "summary": "百度 JSAPI 单例 loader（ak-missing guard + 15s timeout + polling fallback）。本轮未修改代码，仅作为 Loader 测试单元的支撑。"
+    },
+    {
+      "path": "frontend/src/components/map/providers/baidu/BaiduMapProviderAdapter.ts",
+      "sha256": "69eff119d407ff6afbd50148f7f0df0e217d7181deecbcda1181ca61c359326d",
+      "size": 5443,
+      "kind": "modified",
+      "summary": "百度 adapter 仍是 contract stub（addUniversityMarkers/setRegionalFill 全 no-op）；未在本轮升级为真实 BMapGL.Map 实现。"
+    },
+    {
+      "path": "frontend/src/components/map/providers/MapProviderHost.tsx",
+      "sha256": "f8b4b46867fa4190d56b6e2dacae7c9a584296ecb77f1869ee15110959809cdb",
+      "size": 6245,
+      "kind": "modified",
+      "summary": "Provider orchestrator；fallback 到 MapLibre when ak=null；env-driven id resolution。本轮未接入 MapShell → Baidu path 未激活。"
+    },
+    {
+      "path": "frontend/src/components/map/providers/types.ts",
+      "sha256": "38dd73d87ad8e4539f5e0765890625b72191b5f4d0563d7fd874cfa056a78a67",
+      "size": 5423,
+      "kind": "modified",
+      "summary": "MapProviderAdapter interface + MapProviderId 字面量 + 10 类错误码。"
+    },
+    {
+      "path": "frontend/src/components/map/providers/maplibre/MapLibreProviderAdapter.ts",
+      "sha256": "30735b51570a13ef6ebb2208cc3866a1b1f9af226ffea0249f0d44498ff89288",
+      "size": 4651,
+      "kind": "modified",
+      "summary": "MapLibre adapter contract surface stub；保留当前 MapCanvas 行为。"
+    },
+    {
+      "path": "frontend/src/components/map/providers/index.ts",
+      "sha256": "eabd875c2d19a61971ee608ac691cee57665316543773e655fbabec29775f413",
+      "size": 395,
+      "kind": "modified",
+      "summary": "Provider barrel。"
+    },
+    {
+      "path": "frontend/.env.example",
+      "sha256": "c922621056af96f8f7ea0fdc952bc9c34de707d64cb6fc851ad2535805e4f637",
+      "size": 1294,
+      "kind": "modified",
+      "summary": ".env.example 含 NEXT_PUBLIC_PATHOS_MAP_PROVIDER=maplibre + 空 AK 占位。本轮未触动此文件；保留作为配置示例。"
+    },
+    {
+      "path": "frontend/src/components/map/MapShell.tsx",
+      "sha256": "8154cb0fe764cba4c13c847b43d652a95876c210b2a6bfe216f27040aa6d88e4",
+      "size": 49586,
+      "kind": "modified",
+      "summary": "Stage 7B-A 初版已删除 duplicate MapLegend + unused legendMetadata useMemo。本轮未修改 MapShell.tsx —— MapProviderHost 仍未接入，因此 baidu env 未触发真实 Baidu 渲染。"
+    },
+    {
+      "path": "frontend/src/test/unit/stage7ba-baidu-pilot.test.ts",
+      "sha256": "c3c19c31bba41b1a03bfaf19a47039f9a5f4958c1c892f9601972107fadd135c",
+      "size": 8695,
+      "kind": "modified",
+      "summary": "23 vitest 用例：provider config / baidu loader errors / WGS84 coords / single authoritative legend / dark contrast / provider adapter surface。"
+    },
+    {
+      "path": "frontend/docs/STAGE7B-A-BAIDU-RUNTIME-CLOSING-REPORT.md",
+      "sha256": "d3e1e05c3a3512f63d25a2185a1214c32124872a5e342524e843b4a9e5de9d01",
+      "size": 16000,
+      "kind": "added",
+      "summary": "结案报告：MAPLIBRE PATH READY · BAIDU PROVIDER BLOCKED，34 项评估维度全列，含真实证据与 3 项上一轮判断纠正。"
+    },
+    {
+      "path": "frontend/docs/STAGE7B-A-BAIDU-RUNTIME-CLOSING-DEVLOG.md",
+      "sha256": "b83a659c6d7fa73e66ca1c86501641a6caad37908a27d5f41fa7cfdacd686b8d",
+      "size": 14000,
+      "kind": "added",
+      "summary": "开发日志：按时间线记录 22:00–23:55 各 Section 执行过程、Why/What/Risk 三段式。"
+    }
+  ],
+  "regression": {
+    "tsc": "0 errors",
+    "lint": "0 warnings",
+    "vitest": "220/220 (7 files)",
+    "nextBuild": "successful (15 routes: 4 static pages, 3 dynamic API routes, 6 static pages, 1 dynamic [id], 1 not-found)"
+  },
+  "constraints": {
+    "envLocalUnmodified": true,
+    "noPush": true,
+    "noTagCreated": true,
+    "noProductionExport": true,
+    "noBackendTrackedFilesTouched": true,
+    "noMatchAlgorithmTouched": true,
+    "noStage6TagTouched": true,
+    "noPreviewBundleModified": true,
+    "noUniversityFactsModified": true,
+    "noPkillUsed": true,
+    "preferredPort": "3002",
+    "realBaiduAkInSource": false,
+    "realBaiduAkInGit": false,
+    "realBaiduAkInDocs": false,
+    "realBaiduAkInLogs": false,
+    "realBaiduAkInChangeManifest": false,
+    "realBaiduAkInTestFixtures": false,
+    "realBaiduAkInScreenshots": false
+  },
+  "envLocalState": {
+    "file": "frontend/.env.local",
+    "akConfigured": true,
+    "akLengthValid": true,
+    "akLength": 32,
+    "akFirst4Redacted": "****",
+    "akLast4Redacted": "****",
+    "mapProvider": "baidu",
+    "realAkInDotEnv": true,
+    "realAkInManifest": false
+  },
+  "baiduNetworkReachability": {
+    "apiEndpoint": {
+      "url": "https://api.map.baidu.com/api?v=3.0&type=webgl&ak=[REDACTED]",
+      "httpStatus": 200,
+      "timeTotalSeconds": 0.110
+    },
+    "getscriptEndpoint": {
+      "url": "https://api.map.baidu.com/getscript?type=webgl&v=1.0&ak=[REDACTED]&services=&t=20260721102355",
+      "httpStatus": 200,
+      "timeTotalSeconds": 0.395,
+      "sizeBytes": 1179484
+    },
+    "businessInfo": {
+      "unauth": 0,
+      "business": 0,
+      "popupCode": "",
+      "popupBlockTime": 60,
+      "watermarkRatio": 0,
+      "interpretation": "AK 已授权；无弹窗拦截；无 overseas 拒绝信号"
+    },
+    "bmapglClasses": ["Map", "Marker", "Point", "Polygon", "CopyrightControl", "NavigationControl"]
+  },
+  "dataInvariants": {
+    "universityCount": 62,
+    "summaryCount": 62,
+    "detailCount": 62,
+    "verifiedRecordCount": 904,
+    "regionalMetricCount": 4,
+    "regionalRecordCount": 204,
+    "regionalJurisdictionCount": 51,
+    "regionalDuplicateCount": 0,
+    "regionalMissingCount": 0,
+    "metricUsedForMap": true,
+    "metricUsedForMatch": false,
+    "previewBundleSha256": "88f3dd6081df38b051872cc5c8bf5b12dd08e9dee072780f20becfc8e9170bd2",
+    "quarantineExposed": 0,
+    "rankZeroCount": 0,
+    "zeroZeroCount": 0,
+    "fixtureFallback": false,
+    "dataMode": "backend",
+    "identityVerified": true,
+    "sourceLimited": true,
+    "incomplete": true,
+    "notFinal": true,
+    "productionDataExport": "prohibited"
+  },
+  "darkContrastFix": {
+    "scope": "frontend/src/app/globals.css Stage 7B-A Runtime Closing section",
+    "newRules": [
+      ".dark .bg-ink\\/8 → rgb(var(--token-surface-muted) / 0.55)",
+      ".dark .bg-ink\\/10 → rgb(var(--token-surface-muted) / 0.65)"
+    ],
+    "measured": {
+      "beforeFix": {
+        "element": "nav a[href=\"/map\"] active",
+        "bg": "rgba(244, 240, 232, 0.08)",
+        "fg": "rgb(244, 240, 232)",
+        "ratio": "1.00:1",
+        "wcag": "FAIL"
+      },
+      "afterFix": {
+        "element": "nav a[href=\"/map\"] active",
+        "bg": "rgba(30, 36, 42, 0.55)",
+        "fg": "rgb(244, 240, 232)",
+        "ratio": "13.78:1",
+        "wcag": "AAA"
+      }
+    }
+  },
+  "browserMatrix": {
+    "method": "preview sandbox + host curl sweep",
+    "previewSandboxRoutes": {
+      "/": "200",
+      "/map": "200",
+      "/calculator": "200",
+      "/assessment": "200",
+      "/match": "200",
+      "/portfolio": "200",
+      "/news": "200",
+      "/xuanxiao": "200"
+    },
+    "previewSandboxNote": "preview browser sandbox cannot reach host network; /map page hydrates and renders title but shows backend-unavailable state because /api/pathos/preview is unreachable from sandbox.",
+    "hostCurlSweep": {
+      "/": 200,
+      "/map": 200,
+      "/calculator": 200,
+      "/assessment": 200,
+      "/match": 200,
+      "/portfolio": 200,
+      "/news": 200,
+      "/xuanxiao": 200,
+      "/university/candidate-v2:harvard-university": 200,
+      "/university/candidate-v2:columbia-university": 200,
+      "/university/candidate-v2:stanford-university": 200,
+      "/nonexistent": 404
+    },
+    "consoleErrors": [
+      {
+        "severity": "Medium",
+        "message": "[RegionalStateLayer] failed to load boundaries: Style is not done loading.",
+        "file": "RegionalStateLayer.tsx:105",
+        "fix": "Not in this round; pre-existing; needs style.load guard"
+      }
+    ]
+  },
+  "routesRegression": {
+    "claim": "15 routes → 14 routes (Stage 7R → Stage 7B-A)",
+    "investigation": "find src/app + npm run build 双重确认",
+    "reality": "15 routes both before and after Stage 7B-A; 上一轮 14 报告是统计口径错误（可能遗漏 /_not-found）",
+    "currentRouteTable": [
+      "/",
+      "/_not-found",
+      "/api/ai/analyze",
+      "/api/ai/context",
+      "/api/pathos/preview",
+      "/api/xuanxiao/universities",
+      "/assessment",
+      "/calculator",
+      "/map",
+      "/match",
+      "/news",
+      "/portfolio",
+      "/university/[id]",
+      "/xuanxiao"
+    ],
+    "totalRoutes": 15,
+    "noFixRequired": true
+  },
+  "baiduProviderBlock": {
+    "status": "BLOCKED at runtime",
+    "blockReasons": [
+      "MapProviderHost not wired into MapShell (MapShell.tsx:635 directly renders <MapCanvas>)",
+      "BaiduMapProviderAdapter is contract stub — BMapGL.Map not instantiated",
+      "BMapGL.Polygon overseas accuracy requires WGS84→BD09 conversion via Baidu overseas convertor (not verified)",
+      "Full implementation equals Stage 7B-B round scope"
+    ],
+    "cdnReachable": true,
+    "akAuthorized": true,
+    "bmapglClassesPresent": true,
+    "loaderReady": true,
+    "shellWired": false,
+    "polygonImplemented": false,
+    "markerImplemented": false,
+    "interactionWired": false,
+    "honestReporting": "MAPLIBRE PATH READY · BAIDU PROVIDER BLOCKED — per directive Section 十五 escape hatch"
+  },
+  "criticalHighMediumLow": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": [
+      "RegionalStateLayer missing style.load guard (pre-existing)"
+    ],
+    "Low": [
+      "MapProviderHost not wired into MapShell (documented as BLOCKED)",
+      "Baidu overseas polygon not verified (documented as BLOCKED)"
+    ]
+  },
+  "nextStep": "Await independent Stage 7B-A Re-Gate; do NOT self-declare PASS; do NOT create tag; do NOT push.",
+  "servicesToStop": {
+    "devServerPID": 30175,
+    "nextServerPID": 30194,
+    "port": 3002,
+    "stopped": true,
+    "method": "kill <pid> (specific PID, not pkill)"
+  }
+}

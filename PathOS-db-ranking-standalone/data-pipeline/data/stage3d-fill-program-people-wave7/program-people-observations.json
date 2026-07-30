@@ -1,0 +1,599 @@
+{
+  "record_type": "stage3d_fill_program_people_wave7_program_people_observations",
+  "observations": [
+    {
+      "slot_id": "candidate-v2:bucknell-university:slot-3",
+      "candidate_id": "candidate-v2:bucknell-university",
+      "program_slot": 3,
+      "slot_status": "identified_person",
+      "person_id": "person:michelle-lesh:bucknell-university:wave7-bucknell-michelle-lesh-me",
+      "person_name": "Michelle Lesh",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-bucknell-michelle-lesh-me"
+      ],
+      "attendance_source_id": "wave7-bucknell-michelle-lesh-me",
+      "program_source_id": "wave7-bucknell-michelle-lesh-me",
+      "attendance_quote": "Michelle Lesh graduated from Bucknell in 2000 with a mechanical engineering degree.",
+      "program_quote": "Michelle Lesh graduated from Bucknell in 2000 with a mechanical engineering degree.",
+      "match_notes": "Bucknell states Lesh graduated with a Mechanical Engineering degree.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:california-institute-of-technology:slot-2",
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:james-jim-l-adams:california-institute-of-technology:wave7-caltech-jim-adams-me",
+      "person_name": "James “Jim” L. Adams",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-caltech-jim-adams-me"
+      ],
+      "attendance_source_id": "wave7-caltech-jim-adams-me",
+      "program_source_id": "wave7-caltech-jim-adams-me",
+      "attendance_quote": "As an undergraduate at Caltech, he finished top in his engineering class in 1955, was elected student body president, and played on the basketball team.",
+      "program_quote": "BS ’ 55 · Mechanical Engineering",
+      "match_notes": "Caltech Alumni identifies Adams as a 1955 Mechanical Engineering BS alumnus.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:columbia-university:slot-1",
+      "candidate_id": "candidate-v2:columbia-university",
+      "program_slot": 1,
+      "slot_status": "identified_person",
+      "person_id": "person:sandrine-amahoro-rutayisire:columbia-university:wave7-columbia-sandrine-rutayisire-cs",
+      "person_name": "Sandrine Amahoro Rutayisire",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-columbia-sandrine-rutayisire-cs"
+      ],
+      "attendance_source_id": "wave7-columbia-sandrine-rutayisire-cs",
+      "program_source_id": "wave7-columbia-sandrine-rutayisire-cs",
+      "attendance_quote": "I graduated in Computer Science and Visual Arts.",
+      "program_quote": "I graduated in Computer Science and Visual Arts.",
+      "match_notes": "Columbia's alumna profile states Rutayisire graduated in Computer Science and Visual Arts.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:cornell-university:slot-5",
+      "candidate_id": "candidate-v2:cornell-university",
+      "program_slot": 5,
+      "slot_status": "identified_person",
+      "person_id": "person:james-wang:cornell-university:wave7-cornell-james-wang-biology",
+      "person_name": "James Wang",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-cornell-james-wang-biology"
+      ],
+      "attendance_source_id": "wave7-cornell-james-wang-biology",
+      "program_source_id": "wave7-cornell-james-wang-biology",
+      "attendance_quote": "James Wang ’12, a third-year student at Weill Cornell, graduated from Cornell with a degree in biological sciences but said he felt a little lost exploring health care careers as an undergrad in Ithaca.",
+      "program_quote": "James Wang ’12, a third-year student at Weill Cornell, graduated from Cornell with a degree in biological sciences but said he felt a little lost exploring health care careers as an undergrad in Ithaca.",
+      "match_notes": "Cornell states Wang graduated with a Biological Sciences degree.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:dartmouth-college:slot-2",
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:tim-geithner:dartmouth-college:wave7-dartmouth-tim-geithner-government",
+      "person_name": "Tim Geithner",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-dartmouth-tim-geithner-government"
+      ],
+      "attendance_source_id": "wave7-dartmouth-tim-geithner-government",
+      "program_source_id": "wave7-dartmouth-tim-geithner-government",
+      "attendance_quote": "Geithner graduated from Dartmouth with a degree in government and Asian studies in 1983 and from the Johns Hopkins School of Advanced International Studies with a master’s degree in international economics and East Asian studies in 1985.",
+      "program_quote": "Geithner graduated from Dartmouth with a degree in government and Asian studies in 1983 and from the Johns Hopkins School of Advanced International Studies with a master’s degree in international economics and East Asian studies in 1985.",
+      "match_notes": "Dartmouth's Government degree directly relates to the Political Science and Government slot.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:duke-university:slot-4",
+      "candidate_id": "candidate-v2:duke-university",
+      "program_slot": 4,
+      "slot_status": "identified_person",
+      "person_id": "person:stuart-dupuy:duke-university:wave7-duke-stuart-dupuy-economics",
+      "person_name": "Stuart Dupuy",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-duke-stuart-dupuy-economics"
+      ],
+      "attendance_source_id": "wave7-duke-stuart-dupuy-economics",
+      "program_source_id": "wave7-duke-stuart-dupuy-economics",
+      "attendance_quote": "I graduated from Duke in 1992 and immediately went to the University of Texas School of Law.",
+      "program_quote": "1992 Major: Economics",
+      "match_notes": "Duke identifies Dupuy as a 1992 Economics graduate, directly related to Econometrics.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:emory-university:slot-2",
+      "candidate_id": "candidate-v2:emory-university",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:ahmed-aljohani:emory-university:wave7-emory-ahmed-aljohani-biology",
+      "person_name": "Ahmed Aljohani",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-emory-ahmed-aljohani-biology"
+      ],
+      "attendance_source_id": "wave7-emory-ahmed-aljohani-biology",
+      "program_source_id": "wave7-emory-ahmed-aljohani-biology",
+      "attendance_quote": "Ahmed Aljohani, a native of Saudi Arabia, graduated from Emory with highest honors in Biology.",
+      "program_quote": "Ahmed Aljohani, a native of Saudi Arabia, graduated from Emory with highest honors in Biology.",
+      "match_notes": "Emory states Aljohani graduated with highest honors in Biology.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:georgetown-university:slot-2",
+      "candidate_id": "candidate-v2:georgetown-university",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:amelia-fattore:georgetown-university:wave7-georgetown-amelia-fattore-finance",
+      "person_name": "Amelia Fattore",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-georgetown-amelia-fattore-finance"
+      ],
+      "attendance_source_id": "wave7-georgetown-amelia-fattore-finance",
+      "program_source_id": "wave7-georgetown-amelia-fattore-finance",
+      "attendance_quote": "Amelia Fattore graduated from Georgetown University’s McDonough School of Business (MSB) with a Finance and Accounting Degree.",
+      "program_quote": "Amelia Fattore graduated from Georgetown University’s McDonough School of Business (MSB) with a Finance and Accounting Degree.",
+      "match_notes": "Georgetown states Fattore graduated with a Finance and Accounting degree.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:harvard-university:slot-4",
+      "candidate_id": "candidate-v2:harvard-university",
+      "program_slot": 4,
+      "slot_status": "identified_person",
+      "person_id": "person:max-kuhelj-bugaric:harvard-university:wave7-harvard-max-kuhelj-bugaric-government",
+      "person_name": "Max Kuhelj Bugaric",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-harvard-max-kuhelj-bugaric-government"
+      ],
+      "attendance_source_id": "wave7-harvard-max-kuhelj-bugaric-government",
+      "program_source_id": "wave7-harvard-max-kuhelj-bugaric-government",
+      "attendance_quote": "I graduated from Harvard College in 2019 with an A.B. in Government (summa cum laude); my thesis “Ahead of Their Time: Temporal Orientation and Organizational Technological Invention” was awarded the James Gordon Bennett Prize.",
+      "program_quote": "I graduated from Harvard College in 2019 with an A.B. in Government (summa cum laude); my thesis “Ahead of Their Time: Temporal Orientation and Organizational Technological Invention” was awarded the James Gordon Bennett Prize.",
+      "match_notes": "Harvard's Government AB directly relates to Political Science and Government.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:lehigh-university:slot-2",
+      "candidate_id": "candidate-v2:lehigh-university",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:leeza-khalif:lehigh-university:wave7-lehigh-leeza-khalif-csb",
+      "person_name": "Leeza Khalif",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-lehigh-leeza-khalif-csb"
+      ],
+      "attendance_source_id": "wave7-lehigh-leeza-khalif-csb",
+      "program_source_id": "wave7-lehigh-leeza-khalif-csb",
+      "attendance_quote": "Leeza Khalif graduated from Lehigh University in 2023 with a Bachelor of Science in Computer Science and Business.",
+      "program_quote": "Leeza Khalif graduated from Lehigh University in 2023 with a Bachelor of Science in Computer Science and Business.",
+      "match_notes": "Lehigh's combined Computer Science and Business BS directly relates to Computer Science.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-virginia:slot-3",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "program_slot": 3,
+      "slot_status": "identified_person",
+      "person_id": "person:eliza-haverstock:university-of-virginia:wave7-uva-eliza-haverstock-economics",
+      "person_name": "Eliza Haverstock",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-uva-eliza-haverstock-economics"
+      ],
+      "attendance_source_id": "wave7-uva-eliza-haverstock-economics",
+      "program_source_id": "wave7-uva-eliza-haverstock-economics",
+      "attendance_quote": "Eliza graduated from UVA in the spring of 2019.",
+      "program_quote": "She majored in Economics and History.",
+      "match_notes": "UVA states Haverstock graduated and majored in Economics, directly related to the Econometrics slot.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:northwestern-university:slot-1",
+      "candidate_id": "candidate-v2:northwestern-university",
+      "program_slot": 1,
+      "slot_status": "identified_person",
+      "person_id": "person:chandana-sooranahalli:northwestern-university:wave7-northwestern-chandana-sooranahalli-econ",
+      "person_name": "Chandana Sooranahalli",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-northwestern-chandana-sooranahalli-econ"
+      ],
+      "attendance_source_id": "wave7-northwestern-chandana-sooranahalli-econ",
+      "program_source_id": "wave7-northwestern-chandana-sooranahalli-econ",
+      "attendance_quote": "Chandana Sooranahalli graduated from Weinberg College in 2020, studying Economics with a minor in cognitive science.",
+      "program_quote": "Chandana Sooranahalli graduated from Weinberg College in 2020, studying Economics with a minor in cognitive science.",
+      "match_notes": "Northwestern states Sooranahalli graduated after studying Economics, directly related to Econometrics.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:ohio-state-university:slot-2",
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:ben-gilbert:ohio-state-university:wave7-ohio-state-ben-gilbert-cse",
+      "person_name": "Ben Gilbert",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-ohio-state-ben-gilbert-cse"
+      ],
+      "attendance_source_id": "wave7-ohio-state-ben-gilbert-cse",
+      "program_source_id": "wave7-ohio-state-ben-gilbert-cse",
+      "attendance_quote": "After earning his computer science and engineering degree in 2011, he had a clear career path in mind: work at a big company for a few years, launch a tech startup as CEO, raise capital and build it into a big company.",
+      "program_quote": "After earning his computer science and engineering degree in 2011, he had a clear career path in mind: work at a big company for a few years, launch a tech startup as CEO, raise capital and build it into a big company.",
+      "match_notes": "Ohio State's Computer Science and Engineering degree directly relates to Computer and Information Science.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:texas-a-and-m-university:slot-2",
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:lesley-a-weitz:texas-a-and-m-university:wave7-tamu-lesley-weitz-aerospace",
+      "person_name": "Lesley A. Weitz",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-tamu-lesley-weitz-aerospace"
+      ],
+      "attendance_source_id": "wave7-tamu-lesley-weitz-aerospace",
+      "program_source_id": "wave7-tamu-lesley-weitz-aerospace",
+      "attendance_quote": "Weitz received her bachelor’s degree in mechanical engineering from the University at Buffalo in 2002 and her master’s and Ph.D. in aerospace engineering from Texas A&M in 2005 and 2009, respectively.",
+      "program_quote": "Weitz received her bachelor’s degree in mechanical engineering from the University at Buffalo in 2002 and her master’s and Ph.D. in aerospace engineering from Texas A&M in 2005 and 2009, respectively.",
+      "match_notes": "Texas A&M states Weitz earned its MS and PhD in Aerospace Engineering.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-2",
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:alessandro-disanto:university-of-notre-dame:wave7-notre-dame-alessandro-disanto-econ",
+      "person_name": "Alessandro DiSanto",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-notre-dame-alessandro-disanto-econ"
+      ],
+      "attendance_source_id": "wave7-notre-dame-alessandro-disanto-econ",
+      "program_source_id": "wave7-notre-dame-alessandro-disanto-econ",
+      "attendance_quote": "Alessandro graduated summa cum laude from Notre Dame with a double major in finance and economics, as well as a minor in Italian.",
+      "program_quote": "Alessandro graduated summa cum laude from Notre Dame with a double major in finance and economics, as well as a minor in Italian.",
+      "match_notes": "Notre Dame's Economics major directly relates to Econometrics and Quantitative Economics.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-california-irvine:slot-1",
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "program_slot": 1,
+      "slot_status": "identified_person",
+      "person_id": "person:christina-phan:university-of-california-irvine:wave7-uci-christina-phan-biology",
+      "person_name": "Christina Phan",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-uci-christina-phan-biology"
+      ],
+      "attendance_source_id": "wave7-uci-christina-phan-biology",
+      "program_source_id": "wave7-uci-christina-phan-biology",
+      "attendance_quote": "A 2014 graduate with her bachelor’s degree in biological sciences in under three years and a recipient of the Chancellor’s Award of Distinction, Christina recently began an internship at the White House.",
+      "program_quote": "A 2014 graduate with her bachelor’s degree in biological sciences in under three years and a recipient of the Chancellor’s Award of Distinction, Christina recently began an internship at the White House.",
+      "match_notes": "UCI states Phan graduated with a bachelor's degree in Biological Sciences.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-chicago:slot-3",
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "program_slot": 3,
+      "slot_status": "identified_person",
+      "person_id": "person:carla-garcia:university-of-chicago:wave7-uchicago-carla-garcia-cs",
+      "person_name": "Carla Garcia",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-uchicago-carla-garcia-cs"
+      ],
+      "attendance_source_id": "wave7-uchicago-carla-garcia-cs",
+      "program_source_id": "wave7-uchicago-carla-garcia-cs",
+      "attendance_quote": "Carla Garcia graduated from the MPCS in 2020.",
+      "program_quote": "Masters Program in Computer Science",
+      "match_notes": "UChicago's official MPCS alumni profile identifies Garcia as a 2020 graduate.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-california-san-diego:slot-5",
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "program_slot": 5,
+      "slot_status": "identified_person",
+      "person_id": "person:vania-bailon:university-of-california-san-diego:wave7-ucsd-vania-bailon-economics",
+      "person_name": "Vania Bailon",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-ucsd-vania-bailon-economics"
+      ],
+      "attendance_source_id": "wave7-ucsd-vania-bailon-economics",
+      "program_source_id": "wave7-ucsd-vania-bailon-economics",
+      "attendance_quote": "Vania is a UCSD Muir College alumna, having graduated in 2018 with a bachelor’s degree in economics.",
+      "program_quote": "Vania is a UCSD Muir College alumna, having graduated in 2018 with a bachelor’s degree in economics.",
+      "match_notes": "UCSD states Bailon graduated with an Economics bachelor's degree, directly related to Econometrics.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-georgia:slot-3",
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "program_slot": 3,
+      "slot_status": "identified_person",
+      "person_id": "person:neal-j-quirk-sr:university-of-georgia:wave7-uga-neal-quirk-finance",
+      "person_name": "Neal J. Quirk Sr.",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-uga-neal-quirk-finance"
+      ],
+      "attendance_source_id": "wave7-uga-neal-quirk-finance",
+      "program_source_id": "wave7-uga-neal-quirk-finance",
+      "attendance_quote": "Quirk graduated from UGA with a Bachelor of Business Administration in finance in 1982.",
+      "program_quote": "Quirk graduated from UGA with a Bachelor of Business Administration in finance in 1982.",
+      "match_notes": "UGA states Quirk graduated with a BBA in Finance.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-wisconsin-madison:slot-3",
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "program_slot": 3,
+      "slot_status": "identified_person",
+      "person_id": "person:carlton-highsmith:university-of-wisconsin-madison:wave7-wisconsin-carlton-highsmith-economics",
+      "person_name": "Carlton Highsmith",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-wisconsin-carlton-highsmith-economics"
+      ],
+      "attendance_source_id": "wave7-wisconsin-carlton-highsmith-economics",
+      "program_source_id": "wave7-wisconsin-carlton-highsmith-economics",
+      "attendance_quote": "Carlton Highsmith earned a Bachelor’s degree in Economics from the University of Wisconsin-Madison in 1973.",
+      "program_quote": "Carlton Highsmith earned a Bachelor’s degree in Economics from the University of Wisconsin-Madison in 1973.",
+      "match_notes": "UW–Madison states Highsmith earned its bachelor's degree in Economics.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-texas-austin:slot-2",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:dheeraj-pandey:university-of-texas-austin:wave7-ut-austin-dheeraj-pandey-cs",
+      "person_name": "Dheeraj Pandey",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-ut-austin-dheeraj-pandey-cs"
+      ],
+      "attendance_source_id": "wave7-ut-austin-dheeraj-pandey-cs",
+      "program_source_id": "wave7-ut-austin-dheeraj-pandey-cs",
+      "attendance_quote": "Dheeraj holds a Bachelor of Technology in Computer Science from the Indian Institute of Technology (IIT), Kanpur, and a M.S. in Computer Science from the University of Texas at Austin.",
+      "program_quote": "Dheeraj holds a Bachelor of Technology in Computer Science from the Indian Institute of Technology (IIT), Kanpur, and a M.S. in Computer Science from the University of Texas at Austin.",
+      "match_notes": "UT Austin states Pandey holds its MS in Computer Science.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-4",
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "program_slot": 4,
+      "slot_status": "identified_person",
+      "person_id": "person:frank-cooper-iii:university-of-california-berkeley:wave7-berkeley-frank-cooper-business",
+      "person_name": "Frank Cooper III",
+      "relationship_type": "graduated",
+      "match_type": "direct_related_program_match",
+      "program_match_basis": "source_stated_related_program",
+      "source_ids": [
+        "wave7-berkeley-frank-cooper-business"
+      ],
+      "attendance_source_id": "wave7-berkeley-frank-cooper-business",
+      "program_source_id": "wave7-berkeley-frank-cooper-business",
+      "attendance_quote": "Visa’s Chief Marketing Officer Frank Cooper III, BS 86, and Toast’s Chief Financial Officer Elena Gomez, BS 91, will serve as Berkeley Haas commencement speakers this May.",
+      "program_quote": "He earned an undergraduate degree in business administration at UC Berkeley, and a JD from Harvard Law School, where he served as the Supreme Court Editor of The Harvard Law Review.",
+      "match_notes": "Berkeley Haas identifies Cooper as a BS 1986 alumnus with an undergraduate Business Administration degree.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:stanford-university:slot-2",
+      "candidate_id": "candidate-v2:stanford-university",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:victoria-parikh:stanford-university:wave7-stanford-victoria-parikh-human-biology",
+      "person_name": "Victoria Parikh",
+      "relationship_type": "alumnus_unspecified",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-stanford-victoria-parikh-human-biology"
+      ],
+      "attendance_source_id": "wave7-stanford-victoria-parikh-human-biology",
+      "program_source_id": "wave7-stanford-victoria-parikh-human-biology",
+      "attendance_quote": "Meet Victoria Parikh, a clinician scientist in cardiovascular medicine at Stanford Medicine and a HumBio alumna from the class of 2005.",
+      "program_quote": "Realizing she could learn about disease and also study the disparities and gaps in available services for treating those diseases, Parikh’s interest in studying Human Biology was solidified and she officially declared HumBio.",
+      "match_notes": "Stanford identifies Parikh as a 2005 HumBio alumna and explicitly states she declared Human Biology.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-southern-california:slot-2",
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:param-patel:university-of-southern-california:wave7-usc-param-patel-cs",
+      "person_name": "Param Patel",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-usc-param-patel-cs"
+      ],
+      "attendance_source_id": "wave7-usc-param-patel-cs",
+      "program_source_id": "wave7-usc-param-patel-cs",
+      "attendance_quote": "Param Patel earned a B.S. and M.S. in Computer Science and a B.A. in Applied and Computational Mathematics from the University of Southern California (USC).",
+      "program_quote": "Param Patel earned a B.S. and M.S. in Computer Science and a B.A. in Applied and Computational Mathematics from the University of Southern California (USC).",
+      "match_notes": "USC states Patel earned its BS and MS in Computer Science.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-virginia:slot-2",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "program_slot": 2,
+      "slot_status": "identified_person",
+      "person_id": "person:rory-black:university-of-virginia:wave7-uva-rory-black-data-science",
+      "person_name": "Rory Black",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-uva-rory-black-data-science"
+      ],
+      "attendance_source_id": "wave7-uva-rory-black-data-science",
+      "program_source_id": "wave7-uva-rory-black-data-science",
+      "attendance_quote": "Alumnus",
+      "program_quote": "M.S in Data Science 2023, University of Virginia",
+      "match_notes": "UVA labels Black an alumnus and states a 2023 UVA MS in Data Science.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-texas-austin:slot-1",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "program_slot": 1,
+      "slot_status": "identified_person",
+      "person_id": "person:sunil-jaini:university-of-texas-austin:wave7-ut-austin-sunil-jaini-business",
+      "person_name": "Sunil Jaini",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-ut-austin-sunil-jaini-business"
+      ],
+      "attendance_source_id": "wave7-ut-austin-sunil-jaini-business",
+      "program_source_id": "wave7-ut-austin-sunil-jaini-business",
+      "attendance_quote": "Sunil graduated in 2010 and holds a Bachelor of Business Administration degree in Finance from the Canfield Business Honors Program at The University of Texas in Austin, Texas and an MBA from London Business School in London, UK.",
+      "program_quote": "Sunil graduated in 2010 and holds a Bachelor of Business Administration degree in Finance from the Canfield Business Honors Program at The University of Texas in Austin, Texas and an MBA from London Business School in London, UK.",
+      "match_notes": "UT McCombs states Jaini graduated and holds its BBA in Finance.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    },
+    {
+      "slot_id": "candidate-v2:university-of-washington:slot-1",
+      "candidate_id": "candidate-v2:university-of-washington",
+      "program_slot": 1,
+      "slot_status": "identified_person",
+      "person_id": "person:paul-forquera:university-of-washington:wave7-washington-paul-forquera-aero",
+      "person_name": "Paul Forquera",
+      "relationship_type": "graduated",
+      "match_type": "direct_program_match",
+      "program_match_basis": "source_stated_exact_program",
+      "source_ids": [
+        "wave7-washington-paul-forquera-aero"
+      ],
+      "attendance_source_id": "wave7-washington-paul-forquera-aero",
+      "program_source_id": "wave7-washington-paul-forquera-aero",
+      "attendance_quote": "Alumnus Paul Forquera (BS 02)",
+      "program_quote": "Paul holds a Masters Degree in Aeronautics and Astronautics from Stanford, and a Bachelors of Aeronautical and Astronautical Engineering from the University of Washington.",
+      "match_notes": "UW identifies Forquera as a BS 2002 alumnus and holder of its bachelor's in Aeronautical and Astronautical Engineering.",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ]
+    }
+  ]
+}

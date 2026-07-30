@@ -1,0 +1,259 @@
+.environment {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: #03080d;
+}
+
+.earth {
+  object-fit: cover;
+  object-position: 53% 48%;
+  opacity: 0.9;
+  animation:
+    earth-arrive 3.2s cubic-bezier(0.2, 0.74, 0.2, 1) both,
+    earth-drift 18s 3.2s ease-in-out infinite alternate;
+}
+
+.wash {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 46%, transparent 0 25%, rgba(3, 8, 13, 0.12) 48%, rgba(3, 8, 13, 0.76) 100%),
+    linear-gradient(180deg, rgba(2, 7, 11, 0.52), transparent 32%, rgba(2, 7, 11, 0.52));
+}
+
+.scan {
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.035) 0,
+    rgba(255, 255, 255, 0.035) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+}
+
+.stage {
+  display: grid;
+  min-height: 100svh;
+  grid-template-columns: minmax(150px, 1fr) minmax(300px, 760px) minmax(150px, 1fr);
+  align-items: center;
+  gap: clamp(24px, 5vw, 92px);
+  padding: 130px clamp(30px, 7vw, 112px);
+}
+
+.title {
+  text-align: center;
+  animation: title-arrive 1.2s 380ms cubic-bezier(0.2, 0.72, 0.2, 1) both;
+}
+
+.title > p:first-child {
+  margin: 0 0 10px;
+  color: rgba(244, 248, 246, 0.72);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: clamp(10px, 1vw, 13px);
+  letter-spacing: 0.42em;
+}
+
+.title h1 {
+  margin: 8px 0 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(6.5rem, 18vw, 17rem);
+  font-weight: 800;
+  line-height: 0.8;
+  letter-spacing: -0.09em;
+  text-indent: -0.08em;
+  text-shadow: 0 12px 80px rgba(0, 0, 0, 0.46);
+}
+
+.rule {
+  display: block;
+  width: min(100%, 620px);
+  height: 1px;
+  margin-inline: auto;
+  background: linear-gradient(90deg, transparent, rgba(244, 248, 246, 0.65), transparent);
+}
+
+.title .subtitle {
+  margin: 15px 0 0;
+  color: rgba(244, 248, 246, 0.74);
+  font-family: Georgia, "Songti SC", serif;
+  font-size: clamp(13px, 1.4vw, 18px);
+  letter-spacing: 0.12em;
+}
+
+.stat {
+  display: grid;
+  gap: 7px;
+  color: rgba(244, 248, 246, 0.5);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 9px;
+  letter-spacing: 0.17em;
+  animation: stat-arrive 1s 850ms ease both;
+}
+
+.stat > span {
+  color: rgba(244, 248, 246, 0.3);
+}
+
+.stat strong {
+  color: rgba(244, 248, 246, 0.84);
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.stat small {
+  font-size: 8px;
+}
+
+.statRight {
+  text-align: right;
+}
+
+.cta {
+  display: inline-flex;
+  min-width: 230px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  border: 1px solid rgba(238, 244, 240, 0.42);
+  padding: 13px 15px 13px 18px;
+  color: #f4f5f1;
+  text-decoration: none;
+  background: rgba(5, 11, 16, 0.28);
+  backdrop-filter: blur(10px);
+  transition: border-color 180ms ease, background-color 180ms ease;
+}
+
+.cta:hover {
+  border-color: rgba(238, 244, 240, 0.82);
+  background: rgba(5, 11, 16, 0.58);
+}
+
+.cta span {
+  display: grid;
+  gap: 3px;
+  text-align: left;
+}
+
+.cta strong {
+  font-size: 13px;
+}
+
+.cta small {
+  color: rgba(244, 248, 246, 0.5);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 8px;
+  letter-spacing: 0.16em;
+}
+
+.credit {
+  position: absolute;
+  bottom: clamp(82px, 12vh, 112px);
+  left: clamp(24px, 4vw, 60px);
+  z-index: 25;
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  color: rgba(244, 248, 246, 0.46);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 8px;
+  letter-spacing: 0.15em;
+}
+
+.credit span {
+  color: rgba(244, 248, 246, 0.28);
+}
+
+@keyframes earth-arrive {
+  from {
+    opacity: 0;
+    transform: scale3d(1.08, 1.08, 1);
+  }
+  to {
+    opacity: 0.9;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes earth-drift {
+  from {
+    transform: scale3d(1, 1, 1) translate3d(-0.7%, 0, 0);
+  }
+  to {
+    transform: scale3d(1.035, 1.035, 1) translate3d(0.7%, -0.5%, 0);
+  }
+}
+
+@keyframes title-arrive {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0) scale3d(0.96, 0.96, 1);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+}
+
+@keyframes stat-arrive {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 880px) {
+  .stage {
+    grid-template-columns: 1fr;
+    padding-inline: 24px;
+  }
+
+  .stat {
+    position: absolute;
+    bottom: 114px;
+  }
+
+  .statLeft {
+    left: 24px;
+  }
+
+  .statRight {
+    right: 24px;
+  }
+
+  .title h1 {
+    font-size: clamp(6rem, 28vw, 12rem);
+  }
+}
+
+@media (max-width: 560px) {
+  .stat {
+    display: none;
+  }
+
+  .credit {
+    display: none;
+  }
+
+  .cta {
+    min-width: min(68vw, 250px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .earth,
+  .title,
+  .stat {
+    animation: none;
+  }
+}

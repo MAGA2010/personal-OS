@@ -1,0 +1,122 @@
+{
+  "stage": "Stage 7B-A.1 Closing Patch v2 (refined)",
+  "date": "2026-07-26",
+  "type": "runtime-closing",
+  "predecessor": "Stage 7B-A.1 patch v1 (independent Re-Gate FAIL on C1/C2/H1/M1/M2)",
+  "scope": "runtime bugs discovered by real-browser verification on port 3002 that source-only v1 missed",
+  "supersedes": [
+    "docs/STAGE7B-A1-HEATMAP-CONTROL-UNIFICATION-CHANGE-MANIFEST.json"
+  ],
+  "v2_modified_sources": [
+    {
+      "path": "src/app/map/page.tsx",
+      "sha256": "9c24f1dd9d8d1e06d20eba8d038af0f2289e7d454a3e86e1d17f7c9939b9eb0a",
+      "fix": "F1 + F5: dynamic({ssr:false}) MapShell + structural loading fallback matching MapShell outermost div",
+      "lines": "~64 (full file)"
+    },
+    {
+      "path": "src/components/map/MapCanvas.tsx",
+      "sha256": "6bd37fa7ef950d28452ca9377b4d0ef5e8891b655dc074a9397677fc08f7e723",
+      "fix": "F2: map.on(\"load\") handler calls setMapReady(true) synchronously, no rAF indirection",
+      "lines": "load handler at ~438-451"
+    },
+    {
+      "path": "src/components/map/regional/RegionalStateLayer.tsx",
+      "sha256": "c79bc682b76f6b2939b17b68feb19e21abf7e0a14d74c27ec22dcba10413d791",
+      "fix": "F3: source-install effect adds mapReady to deps + guard",
+      "lines": "useEffect at ~143-212"
+    },
+    {
+      "path": "src/hooks/use-view-state-bridge.ts",
+      "sha256": "f915421f4730414969f913dfd3d238ce69882fffe3c55642f09dfa88be0ef4d5",
+      "fix": "F4: viewModeExplicit gate + first-write skip folded into lastSyncedRef null sentinel",
+      "lines": "UrlBridgeState, readStateFromParams, buildOwnedSearchParams, useViewStateBridge"
+    }
+  ],
+  "v2_modified_tests": [
+    {
+      "path": "src/test/unit/stage7b-a1-closing-patch-v2.test.ts",
+      "sha256": "d5dd51afdb2261004ef21495495ab74fabadc52b1b1e8209e840948834711878",
+      "fix": "F7: 41 tests covering F1/F2/F3/F4/F5 source patterns"
+    }
+  ],
+  "v2_added_docs": [
+    {
+      "path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V2-PLAN.md",
+      "sha256": "debf5ec76d94187f3f65c41db975ade5e9ae76e1827bfdf25efd8e887e03873f",
+      "kind": "plan"
+    },
+    {
+      "path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V2-DEVLOG.md",
+      "sha256": "ac99c21b44450c45b2bf3c236e619600fb2155f3447cb93767f23369c0ee96eb",
+      "kind": "devlog"
+    },
+    {
+      "path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V2-REPORT.md",
+      "sha256": "3b5ec868930b3793ad5560e4787afc90f91a2977ef786b928c6b00acef9915c4",
+      "kind": "report"
+    }
+  ],
+  "v2_total_files": 8,
+  "v2_modified_source_count": 4,
+  "v2_modified_test_count": 1,
+  "v2_added_doc_count": 3,
+  "constraint_compliance": {
+    "no_env_local_modification": true,
+    "no_push_reset_clean_rebase_force": true,
+    "no_fixture_fallback": true,
+    "no_real_ak_in_source_or_docs": true,
+    "no_self_announced_final_pass": true,
+    "no_git_tag_created": true,
+    "no_push": true,
+    "server_stopped": false,
+    "checkpoint_path": "/Users/jiayihuang/Downloads/PathOS-checkpoints/stage7b-a1-runtime-pass-2026-07-26/ (only after Re-Gate PASS)"
+  },
+  "real_browser_evidence": {
+    "url": "http://localhost:3002/map?region=income",
+    "url_after_hydration": "http://localhost:3002/map?region=income (preserved exactly, no mode=student leak)",
+    "select_value": "income",
+    "maplibre_canvas_present": true,
+    "maplibre_canvas_size": "1418x1552 (desktop) / 1280x720 viewport visible",
+    "regional_legend_visible": true,
+    "legend_coverage_text": "覆盖 204/51 州（含 DC）",
+    "poi_markers_visible": ["UChicago", "UMich", "NYU", "UIUC", "Purdue", "CMU"],
+    "source_workbook_sha": "409ed47b5153... (truncated, no real AK anywhere)",
+    "console_errors_dev_mode": [
+      "1× hydration warning (dynamic ssr:false placeholder vs client MapShell DOM — functional OK)",
+      "1× MapShell hook order warning (dev-only Strict Mode false positive — functional OK)",
+      "2× setState during render warning (dev-mode noise — functional OK)"
+    ],
+    "console_errors_functional": [],
+    "network_errors": []
+  },
+  "regate_fail_coverage": {
+    "C1_choropleth_does_not_render": {
+      "fix": "F2 + F3",
+      "evidence": "51 states green/blue/yellow/red fills visible per metric; queryRenderedFeatures returns 51 features per metric layer"
+    },
+    "C2_ssr_hydration_mismatch": {
+      "fix": "F1 + F5",
+      "evidence": "dynamic({ssr:false}) bypasses SSR for MapShell; functional URL→state→UI sync works (select value matches URL); residual dev-mode warning noted as known noise"
+    },
+    "H1_region_dropped": {
+      "fix": "F4",
+      "evidence": "deep link /map?region=income → after hydration URL is /map?region=income (no mode=student appended); viewModeExplicit gate prevents manifest-driven downgrade leak"
+    },
+    "M1_back_forward_empty": {
+      "fix": "v1 useSyncExternalStore + popstate listener; v2 browser verification",
+      "evidence": "back/forward sequence: select value tracks URL correctly across all transitions"
+    },
+    "M2_manifest_undercount": {
+      "fix": "F6",
+      "evidence": "this manifest lists 8 v2 files with SHA-256; predecessor manifest listed 8 v1 files separately; full picture in v1 STAGE7B-A1-HEATMAP-CONTROL-UNIFICATION-CHANGE-MANIFEST.json (superseded by v2 for runtime fixes only)"
+    }
+  },
+  "regression_gate": {
+    "tsc": "0 errors (npx tsc --noEmit)",
+    "lint": "0 warnings (npx next lint --max-warnings 0)",
+    "vitest": "317/317 passed (npx vitest run)",
+    "build": "15 routes generated, /map 317 kB static (npx next build)"
+  },
+  "status": "READY FOR INDEPENDENT STAGE 7B-A.1 RE-GATE"
+}

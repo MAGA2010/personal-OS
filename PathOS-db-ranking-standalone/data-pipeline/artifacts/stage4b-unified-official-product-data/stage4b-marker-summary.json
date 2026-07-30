@@ -1,0 +1,4399 @@
+{
+  "record_type": "stage4b_marker_summary",
+  "universities": [
+    {
+      "acceptance_rate": 0.9019,
+      "city": "Tempe",
+      "coordinates": {
+        "latitude": 33.417721,
+        "longitude": -111.934383
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Arizona State University",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "AZ",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 32193.0,
+        "minimum": 12051.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          12051.0,
+          32193.0
+        ]
+      },
+      "undergraduate_enrollment": 64398,
+      "university_id": "candidate-v2:arizona-state-university",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.1565,
+      "city": "Chestnut Hill",
+      "coordinates": {
+        "latitude": 42.336213,
+        "longitude": -71.169242
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Boston College",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 36
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MA",
+      "student_faculty_ratio": 13.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 67680.0,
+        "minimum": 67680.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          67680.0
+        ]
+      },
+      "undergraduate_enrollment": 9865,
+      "university_id": "candidate-v2:boston-college",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1085,
+      "city": "Boston",
+      "coordinates": {
+        "latitude": 42.351118,
+        "longitude": -71.107942
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Boston University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 42
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MA",
+      "student_faculty_ratio": 10.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 65168.0,
+        "minimum": 65168.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          65168.0
+        ]
+      },
+      "undergraduate_enrollment": 17850,
+      "university_id": "candidate-v2:boston-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0523,
+      "city": "Providence",
+      "coordinates": {
+        "latitude": 41.82617,
+        "longitude": -71.40385
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Brown University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 13
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "RI",
+      "student_faculty_ratio": 6.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 68230.0,
+        "minimum": 68230.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          68230.0
+        ]
+      },
+      "undergraduate_enrollment": 7273,
+      "university_id": "candidate-v2:brown-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.3201,
+      "city": "Lewisburg",
+      "coordinates": {
+        "latitude": 40.954317,
+        "longitude": -76.882616
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "small",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Bucknell University",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "PA",
+      "student_faculty_ratio": 9.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 64772.0,
+        "minimum": 64772.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          64772.0
+        ]
+      },
+      "undergraduate_enrollment": 3818,
+      "university_id": "candidate-v2:bucknell-university",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.0314,
+      "city": "Pasadena",
+      "coordinates": {
+        "latitude": 34.137349,
+        "longitude": -118.125878
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "small",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "California Institute of Technology",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 11
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 3.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 63255.0,
+        "minimum": 63255.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          63255.0
+        ]
+      },
+      "undergraduate_enrollment": 1023,
+      "university_id": "candidate-v2:california-institute-of-technology",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.114,
+      "city": "Pittsburgh",
+      "coordinates": {
+        "latitude": 40.44357,
+        "longitude": -79.941993
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Carnegie Mellon University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 20
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "PA",
+      "student_faculty_ratio": 5.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 63274.0,
+        "minimum": 63274.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          63274.0
+        ]
+      },
+      "undergraduate_enrollment": 7187,
+      "university_id": "candidate-v2:carnegie-mellon-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0423,
+      "city": "New York",
+      "coordinates": {
+        "latitude": 40.808286,
+        "longitude": -73.961885
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Columbia University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 15
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "NY",
+      "student_faculty_ratio": 6.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 68171.0,
+        "minimum": 68171.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          68171.0
+        ]
+      },
+      "undergraduate_enrollment": 8899,
+      "university_id": "candidate-v2:columbia-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0816,
+      "city": "Ithaca",
+      "coordinates": {
+        "latitude": 42.4472,
+        "longitude": -76.483084
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Cornell University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 12
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "NY",
+      "student_faculty_ratio": 9.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 66014.0,
+        "minimum": 66014.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          66014.0
+        ]
+      },
+      "undergraduate_enrollment": 15935,
+      "university_id": "candidate-v2:cornell-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0623,
+      "city": "Hanover",
+      "coordinates": {
+        "latitude": 43.704115,
+        "longitude": -72.289949
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "small",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Dartmouth College",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 13
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "NH",
+      "student_faculty_ratio": 7.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 65511.0,
+        "minimum": 65511.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          65511.0
+        ]
+      },
+      "undergraduate_enrollment": 4367,
+      "university_id": "candidate-v2:dartmouth-college",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0678,
+      "city": "Durham",
+      "coordinates": {
+        "latitude": 36.001135,
+        "longitude": -78.937624
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Duke University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 7
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "NC",
+      "student_faculty_ratio": 6.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 65805.0,
+        "minimum": 65805.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          65805.0
+        ]
+      },
+      "undergraduate_enrollment": 6417,
+      "university_id": "candidate-v2:duke-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.111,
+      "city": "Atlanta",
+      "coordinates": {
+        "latitude": 33.790183,
+        "longitude": -84.325512
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Emory University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 24
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "GA",
+      "student_faculty_ratio": 9.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 60774.0,
+        "minimum": 60774.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          60774.0
+        ]
+      },
+      "undergraduate_enrollment": 7275,
+      "university_id": "candidate-v2:emory-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1308,
+      "city": "Washington",
+      "coordinates": {
+        "latitude": 38.908809,
+        "longitude": -77.073463
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Georgetown University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 24
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "DC",
+      "student_faculty_ratio": 11.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 65081.0,
+        "minimum": 65081.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          65081.0
+        ]
+      },
+      "undergraduate_enrollment": 7462,
+      "university_id": "candidate-v2:georgetown-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1646,
+      "city": "Atlanta",
+      "coordinates": {
+        "latitude": 33.77242,
+        "longitude": -84.394832
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Georgia Institute of Technology",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 32
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "GA",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 32876.0,
+        "minimum": 11764.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          11764.0,
+          32876.0
+        ]
+      },
+      "undergraduate_enrollment": 18260,
+      "university_id": "candidate-v2:georgia-institute-of-technology",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0345,
+      "city": "Cambridge",
+      "coordinates": {
+        "latitude": 42.374471,
+        "longitude": -71.118313
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Harvard University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "usn-2026-best-colleges-press-release"
+        ],
+        "status": "verified",
+        "value": 3
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MA",
+      "student_faculty_ratio": 7.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 59076.0,
+        "minimum": 59076.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          59076.0
+        ]
+      },
+      "undergraduate_enrollment": 7755,
+      "university_id": "candidate-v2:harvard-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1306,
+      "city": "Claremont",
+      "coordinates": {
+        "latitude": 34.106515,
+        "longitude": -117.709837
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "small",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Harvey Mudd College",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 8.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 66255.0,
+        "minimum": 66255.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          66255.0
+        ]
+      },
+      "undergraduate_enrollment": 915,
+      "university_id": "candidate-v2:harvey-mudd-college",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.8037,
+      "city": "Bloomington",
+      "coordinates": {
+        "latitude": 39.16609,
+        "longitude": -86.526559
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Indiana University Bloomington",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "IN",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 40482.0,
+        "minimum": 11790.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          11790.0,
+          40482.0
+        ]
+      },
+      "undergraduate_enrollment": 36571,
+      "university_id": "candidate-v2:indiana-university-bloomington",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.0756,
+      "city": "Baltimore",
+      "coordinates": {
+        "latitude": 39.328977,
+        "longitude": -76.621595
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Johns Hopkins University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 7
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MD",
+      "student_faculty_ratio": 6.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 62840.0,
+        "minimum": 62840.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          62840.0
+        ]
+      },
+      "undergraduate_enrollment": 5617,
+      "university_id": "candidate-v2:johns-hopkins-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.2926,
+      "city": "Bethlehem",
+      "coordinates": {
+        "latitude": 40.606822,
+        "longitude": -75.380236
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Lehigh University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 46
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "PA",
+      "student_faculty_ratio": 10.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 62180.0,
+        "minimum": 62180.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          62180.0
+        ]
+      },
+      "undergraduate_enrollment": 5803,
+      "university_id": "candidate-v2:lehigh-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.8139,
+      "city": "Chicago",
+      "coordinates": {
+        "latitude": 42.000765,
+        "longitude": -87.656872
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Loyola University Chicago",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "IL",
+      "student_faculty_ratio": 13.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 51716.0,
+        "minimum": 51716.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          51716.0
+        ]
+      },
+      "undergraduate_enrollment": 11576,
+      "university_id": "candidate-v2:loyola-university-chicago",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.0474,
+      "city": "Cambridge",
+      "coordinates": {
+        "latitude": 42.359243,
+        "longitude": -71.093226
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "small",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Massachusetts Institute of Technology",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "usn-2026-best-colleges-press-release"
+        ],
+        "status": "verified",
+        "value": 2
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MA",
+      "student_faculty_ratio": 3.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 60156.0,
+        "minimum": 60156.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          60156.0
+        ]
+      },
+      "undergraduate_enrollment": 4571,
+      "university_id": "candidate-v2:massachusetts-institute-of-technology",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0941,
+      "city": "New York",
+      "coordinates": {
+        "latitude": 40.729452,
+        "longitude": -73.997264
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "New York University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 32
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "NY",
+      "student_faculty_ratio": 8.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 60438.0,
+        "minimum": 60438.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          60438.0
+        ]
+      },
+      "undergraduate_enrollment": 29430,
+      "university_id": "candidate-v2:new-york-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0565,
+      "city": "Boston",
+      "coordinates": {
+        "latitude": 42.339992,
+        "longitude": -71.088782
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Northeastern University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 46
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MA",
+      "student_faculty_ratio": 16.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 63141.0,
+        "minimum": 63141.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          63141.0
+        ]
+      },
+      "undergraduate_enrollment": 15719,
+      "university_id": "candidate-v2:northeastern-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0715,
+      "city": "Evanston",
+      "coordinates": {
+        "latitude": 42.050356,
+        "longitude": -87.679858
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Northwestern University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 7
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "IL",
+      "student_faculty_ratio": 6.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 65997.0,
+        "minimum": 65997.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          65997.0
+        ]
+      },
+      "undergraduate_enrollment": 8960,
+      "university_id": "candidate-v2:northwestern-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.5082,
+      "city": "Columbus",
+      "coordinates": {
+        "latitude": 39.999803,
+        "longitude": -83.007525
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "The Ohio State University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 41
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "OH",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 38365.0,
+        "minimum": 12859.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          12859.0,
+          38365.0
+        ]
+      },
+      "undergraduate_enrollment": 44617,
+      "university_id": "candidate-v2:ohio-state-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.2166,
+      "city": "Needham",
+      "coordinates": {
+        "latitude": 42.293527,
+        "longitude": -71.263378
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "small",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Olin College of Engineering",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MA",
+      "student_faculty_ratio": 9.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 61802.0,
+        "minimum": 61802.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          61802.0
+        ]
+      },
+      "undergraduate_enrollment": 373,
+      "university_id": "candidate-v2:olin-college-of-engineering",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.045,
+      "city": "Princeton",
+      "coordinates": {
+        "latitude": 40.348732,
+        "longitude": -74.659365
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Princeton University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "usn-2026-best-colleges-press-release"
+        ],
+        "status": "verified",
+        "value": 1
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "NJ",
+      "student_faculty_ratio": 5.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 59710.0,
+        "minimum": 59710.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          59710.0
+        ]
+      },
+      "undergraduate_enrollment": 5579,
+      "university_id": "candidate-v2:princeton-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.503,
+      "city": "West Lafayette",
+      "coordinates": {
+        "latitude": 40.428206,
+        "longitude": -86.914435
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Purdue University—Main Campus",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 46
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "IN",
+      "student_faculty_ratio": 14.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 28794.0,
+        "minimum": 9992.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          9992.0,
+          28794.0
+        ]
+      },
+      "undergraduate_enrollment": 39637,
+      "university_id": "candidate-v2:purdue-university-main-campus",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0788,
+      "city": "Houston",
+      "coordinates": {
+        "latitude": 29.717897,
+        "longitude": -95.402035
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "small",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Rice University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 17
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "TX",
+      "student_faculty_ratio": 6.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 58128.0,
+        "minimum": 58128.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          58128.0
+        ]
+      },
+      "undergraduate_enrollment": 4562,
+      "university_id": "candidate-v2:rice-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.7281,
+      "city": "Terre Haute",
+      "coordinates": {
+        "latitude": 39.483602,
+        "longitude": -87.326749
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "small",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Rose-Hulman Institute of Technology",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "IN",
+      "student_faculty_ratio": 11.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 54174.0,
+        "minimum": 54174.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          54174.0
+        ]
+      },
+      "undergraduate_enrollment": 2224,
+      "university_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.6535,
+      "city": "New Brunswick",
+      "coordinates": {
+        "latitude": 40.498769,
+        "longitude": -74.446251
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Rutgers University—New Brunswick",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 42
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "NJ",
+      "student_faculty_ratio": 15.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 36001.0,
+        "minimum": 17239.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          17239.0,
+          36001.0
+        ]
+      },
+      "undergraduate_enrollment": 36357,
+      "university_id": "candidate-v2:rutgers-university-new-brunswick",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0391,
+      "city": "Stanford",
+      "coordinates": {
+        "latitude": 37.429434,
+        "longitude": -122.167359
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Stanford University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 4
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 6.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 62484.0,
+        "minimum": 62484.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          62484.0
+        ]
+      },
+      "undergraduate_enrollment": 7841,
+      "university_id": "candidate-v2:stanford-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.6325,
+      "city": "College Station",
+      "coordinates": {
+        "latitude": 30.618726,
+        "longitude": -96.336475
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Texas A&M University",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "TX",
+      "student_faculty_ratio": 19.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 40328.0,
+        "minimum": 12841.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          12841.0,
+          40328.0
+        ]
+      },
+      "undergraduate_enrollment": 59099,
+      "university_id": "candidate-v2:texas-a-and-m-university",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.1013,
+      "city": "Medford",
+      "coordinates": {
+        "latitude": 42.40855,
+        "longitude": -71.118293
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Tufts University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 36
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MA",
+      "student_faculty_ratio": 10.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 67844.0,
+        "minimum": 67844.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          67844.0
+        ]
+      },
+      "undergraduate_enrollment": 6804,
+      "university_id": "candidate-v2:tufts-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1166,
+      "city": "Berkeley",
+      "coordinates": {
+        "latitude": 37.871918,
+        "longitude": -122.260463
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of California, Berkeley",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 15
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 45627.0,
+        "minimum": 14850.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          14850.0,
+          45627.0
+        ]
+      },
+      "undergraduate_enrollment": 33073,
+      "university_id": "candidate-v2:university-of-california-berkeley",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.4163,
+      "city": "Davis",
+      "coordinates": {
+        "latitude": 38.539667,
+        "longitude": -121.749567
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of California, Davis",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 32
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 21.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 46024.0,
+        "minimum": 15247.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          15247.0,
+          46024.0
+        ]
+      },
+      "undergraduate_enrollment": 31777,
+      "university_id": "candidate-v2:university-of-california-davis",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.2557,
+      "city": "Irvine",
+      "coordinates": {
+        "latitude": 33.648434,
+        "longitude": -117.841248
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of California, Irvine",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 32
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 45014.0,
+        "minimum": 14237.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          14237.0,
+          45014.0
+        ]
+      },
+      "undergraduate_enrollment": 29494,
+      "university_id": "candidate-v2:university-of-california-irvine",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0873,
+      "city": "Los Angeles",
+      "coordinates": {
+        "latitude": 34.07178,
+        "longitude": -118.442179
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of California, Los Angeles",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 17
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 44524.0,
+        "minimum": 13747.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          13747.0,
+          44524.0
+        ]
+      },
+      "undergraduate_enrollment": 33040,
+      "university_id": "candidate-v2:university-of-california-los-angeles",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.2452,
+      "city": "La Jolla",
+      "coordinates": {
+        "latitude": 32.877749,
+        "longitude": -117.235866
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of California, San Diego",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 29
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 19.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 46042.0,
+        "minimum": 15265.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          15265.0,
+          46042.0
+        ]
+      },
+      "undergraduate_enrollment": 33787,
+      "university_id": "candidate-v2:university-of-california-san-diego",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.2778,
+      "city": "Santa Barbara",
+      "coordinates": {
+        "latitude": 34.416297,
+        "longitude": -119.846426
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of California, Santa Barbara",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 40
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 17.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 45742.0,
+        "minimum": 14965.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          14965.0,
+          45742.0
+        ]
+      },
+      "undergraduate_enrollment": 23205,
+      "university_id": "candidate-v2:university-of-california-santa-barbara",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0479,
+      "city": "Chicago",
+      "coordinates": {
+        "latitude": 41.787994,
+        "longitude": -87.599539
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Chicago",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 6
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "IL",
+      "student_faculty_ratio": 5.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 65619.0,
+        "minimum": 65619.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          65619.0
+        ]
+      },
+      "undergraduate_enrollment": 7540,
+      "university_id": "candidate-v2:university-of-chicago",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.8328,
+      "city": "Boulder",
+      "coordinates": {
+        "latitude": 40.008781,
+        "longitude": -105.270823
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Colorado Boulder",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "CO",
+      "student_faculty_ratio": 19.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 41943.0,
+        "minimum": 15556.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          15556.0,
+          41943.0
+        ]
+      },
+      "undergraduate_enrollment": 31578,
+      "university_id": "candidate-v2:university-of-colorado-boulder",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.2403,
+      "city": "Gainesville",
+      "coordinates": {
+        "latitude": 29.64629,
+        "longitude": -82.347911
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Florida",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 30
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "FL",
+      "student_faculty_ratio": 16.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 28659.0,
+        "minimum": 6381.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          6381.0,
+          28659.0
+        ]
+      },
+      "undergraduate_enrollment": 34102,
+      "university_id": "candidate-v2:university-of-florida",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.372,
+      "city": "Athens",
+      "coordinates": {
+        "latitude": 33.956262,
+        "longitude": -83.374039
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Georgia",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 46
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "GA",
+      "student_faculty_ratio": 17.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 30220.0,
+        "minimum": 11180.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          11180.0,
+          30220.0
+        ]
+      },
+      "undergraduate_enrollment": 31310,
+      "university_id": "candidate-v2:university-of-georgia",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.4369,
+      "city": "Champaign",
+      "coordinates": {
+        "latitude": 40.104718,
+        "longitude": -88.229114
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Illinois Urbana-Champaign",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 36
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "IL",
+      "student_faculty_ratio": 20.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 39192.0,
+        "minimum": 18060.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          18060.0,
+          39192.0
+        ]
+      },
+      "undergraduate_enrollment": 34623,
+      "university_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.8467,
+      "city": "Iowa City",
+      "coordinates": {
+        "latitude": 41.661935,
+        "longitude": -91.536425
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Iowa",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "IA",
+      "student_faculty_ratio": 15.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 32927.0,
+        "minimum": 10964.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          10964.0,
+          32927.0
+        ]
+      },
+      "undergraduate_enrollment": 21691,
+      "university_id": "candidate-v2:university-of-iowa",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.4484,
+      "city": "College Park",
+      "coordinates": {
+        "latitude": 38.988178,
+        "longitude": -76.944721
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Maryland, College Park",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 42
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "MD",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 40306.0,
+        "minimum": 11505.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          11505.0,
+          40306.0
+        ]
+      },
+      "undergraduate_enrollment": 30246,
+      "university_id": "candidate-v2:university-of-maryland-college-park",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1794,
+      "city": "Ann Arbor",
+      "coordinates": {
+        "latitude": 42.278374,
+        "longitude": -83.73481
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Michigan—Ann Arbor",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 20
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "MI",
+      "student_faculty_ratio": 11.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 60107.0,
+        "minimum": 18309.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          18309.0,
+          60107.0
+        ]
+      },
+      "undergraduate_enrollment": 33488,
+      "university_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.7703,
+      "city": "Minneapolis",
+      "coordinates": {
+        "latitude": 44.972851,
+        "longitude": -93.235464
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Minnesota Twin Cities",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "MN",
+      "student_faculty_ratio": 16.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 36402.0,
+        "minimum": 16488.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          16488.0,
+          36402.0
+        ]
+      },
+      "undergraduate_enrollment": 30469,
+      "university_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.1874,
+      "city": "Chapel Hill",
+      "coordinates": {
+        "latitude": 35.911769,
+        "longitude": -79.050969
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of North Carolina—Chapel Hill",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 26
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "NC",
+      "student_faculty_ratio": 15.0,
+      "top_program_count": 3,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 39330.0,
+        "minimum": 8989.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          8989.0,
+          39330.0
+        ]
+      },
+      "undergraduate_enrollment": 20556,
+      "university_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1238,
+      "city": "Notre Dame",
+      "coordinates": {
+        "latitude": 41.703058,
+        "longitude": -86.238959
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Notre Dame",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 20
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "IN",
+      "student_faculty_ratio": 9.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 62693.0,
+        "minimum": 62693.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          62693.0
+        ]
+      },
+      "undergraduate_enrollment": 8923,
+      "university_id": "candidate-v2:university-of-notre-dame",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0587,
+      "city": "Philadelphia",
+      "coordinates": {
+        "latitude": 39.950929,
+        "longitude": -75.19391
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Pennsylvania",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 7
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "PA",
+      "student_faculty_ratio": 8.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 66104.0,
+        "minimum": 66104.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          66104.0
+        ]
+      },
+      "undergraduate_enrollment": 10768,
+      "university_id": "candidate-v2:university-of-pennsylvania",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.3585,
+      "city": "Rochester",
+      "coordinates": {
+        "latitude": 43.126397,
+        "longitude": -77.631202
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Rochester",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 46
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "NY",
+      "student_faculty_ratio": 9.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 64348.0,
+        "minimum": 64348.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          64348.0
+        ]
+      },
+      "undergraduate_enrollment": 6488,
+      "university_id": "candidate-v2:university-of-rochester",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.6149,
+      "city": "Columbia",
+      "coordinates": {
+        "latitude": 33.996788,
+        "longitude": -81.026935
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of South Carolina",
+      "national_rank": {
+        "edition": null,
+        "source_ids": [],
+        "status": "explicit_not_applicable_or_not_in_national_scope",
+        "value": null
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "SC",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 34943.0,
+        "minimum": 12688.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          12688.0,
+          34943.0
+        ]
+      },
+      "undergraduate_enrollment": 28113,
+      "university_id": "candidate-v2:university-of-south-carolina-columbia",
+      "warning_count": 1,
+      "warnings": [
+        "not_in_verified_national_top50_scope"
+      ]
+    },
+    {
+      "acceptance_rate": 0.1002,
+      "city": "Los Angeles",
+      "coordinates": {
+        "latitude": 34.021281,
+        "longitude": -118.284169
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Southern California",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 28
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "CA",
+      "student_faculty_ratio": 9.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 68237.0,
+        "minimum": 68237.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          68237.0
+        ]
+      },
+      "undergraduate_enrollment": 20817,
+      "university_id": "candidate-v2:university-of-southern-california",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.2912,
+      "city": "Austin",
+      "coordinates": {
+        "latitude": 30.282825,
+        "longitude": -97.738273
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Texas—Austin",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 30
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "TX",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 42778.0,
+        "minimum": 11678.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          11678.0,
+          42778.0
+        ]
+      },
+      "undergraduate_enrollment": 42100,
+      "university_id": "candidate-v2:university-of-texas-austin",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1686,
+      "city": "Charlottesville",
+      "coordinates": {
+        "latitude": 38.035665,
+        "longitude": -78.503428
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Virginia",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 26
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "VA",
+      "student_faculty_ratio": 15.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 59633.0,
+        "minimum": 22323.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          22323.0,
+          59633.0
+        ]
+      },
+      "undergraduate_enrollment": 17315,
+      "university_id": "candidate-v2:university-of-virginia",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.4253,
+      "city": "Seattle",
+      "coordinates": {
+        "latitude": 47.65538,
+        "longitude": -122.30514
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Washington",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 42
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "WA",
+      "student_faculty_ratio": 20.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 41997.0,
+        "minimum": 12643.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          12643.0,
+          41997.0
+        ]
+      },
+      "undergraduate_enrollment": 31588,
+      "university_id": "candidate-v2:university-of-washington",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.4335,
+      "city": "Madison",
+      "coordinates": {
+        "latitude": 43.075409,
+        "longitude": -89.404098
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "very_large",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "University of Wisconsin—Madison",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 36
+      },
+      "school_type": "public",
+      "source_coverage": 3,
+      "state": "WI",
+      "student_faculty_ratio": 18.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": "Public in-state and out-of-state tuition are separate scopes.",
+        "currency": "USD",
+        "maximum": 40603.0,
+        "minimum": 11205.0,
+        "scopes": [
+          "in_state",
+          "out_of_state"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          11205.0,
+          40603.0
+        ]
+      },
+      "undergraduate_enrollment": 35665,
+      "university_id": "candidate-v2:university-of-wisconsin-madison",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.0628,
+      "city": "Nashville",
+      "coordinates": {
+        "latitude": 36.14659,
+        "longitude": -86.803369
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Vanderbilt University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 17
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "TN",
+      "student_faculty_ratio": 7.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 63946.0,
+        "minimum": 63946.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          63946.0
+        ]
+      },
+      "undergraduate_enrollment": 7143,
+      "university_id": "candidate-v2:vanderbilt-university",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.1196,
+      "city": "St. Louis",
+      "coordinates": {
+        "latitude": 38.647929,
+        "longitude": -90.310604
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Washington University in St. Louis",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 20
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "MO",
+      "student_faculty_ratio": 7.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 62982.0,
+        "minimum": 62982.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          62982.0
+        ]
+      },
+      "undergraduate_enrollment": 7897,
+      "university_id": "candidate-v2:washington-university-in-st-louis",
+      "warning_count": 0,
+      "warnings": []
+    },
+    {
+      "acceptance_rate": 0.045,
+      "city": "New Haven",
+      "coordinates": {
+        "latitude": 41.311158,
+        "longitude": -72.926688
+      },
+      "data_completeness": 1.0,
+      "derivation_version": "stage4b-marker-v1",
+      "derived": true,
+      "enrollment_size_band": "medium",
+      "input_fields": [
+        "stage3c.coordinates",
+        "stage2.national_ranking",
+        "stage3b.top_5_programs",
+        "stage3b.tuition",
+        "stage3b.student_faculty_ratio",
+        "stage4b.school_type",
+        "stage4b.undergraduate_enrollment",
+        "stage4b.acceptance_rate"
+      ],
+      "marker_channels": {
+        "border": {
+          "metric": "data_quality_status",
+          "null_fallback": "warning_border"
+        },
+        "color": {
+          "metric": "acceptance_rate",
+          "null_fallback": "not_encoded"
+        },
+        "size": {
+          "metric": "undergraduate_enrollment",
+          "null_fallback": "default_neutral_size"
+        }
+      },
+      "name": "Yale University",
+      "national_rank": {
+        "edition": "2026 Best Colleges",
+        "source_ids": [
+          "source_think_academy_top100_2026_pdf"
+        ],
+        "status": "verified",
+        "value": 4
+      },
+      "school_type": "private_nonprofit",
+      "source_coverage": 3,
+      "state": "CT",
+      "student_faculty_ratio": 6.0,
+      "top_program_count": 5,
+      "tuition_summary": {
+        "academic_year": "2023-24",
+        "comparison_warning": null,
+        "currency": "USD",
+        "maximum": 64700.0,
+        "minimum": 64700.0,
+        "scopes": [
+          "private_single_rate"
+        ],
+        "source_ids": [
+          "source_ipeds_ic2023_ay"
+        ],
+        "values": [
+          64700.0
+        ]
+      },
+      "undergraduate_enrollment": 6811,
+      "university_id": "candidate-v2:yale-university",
+      "warning_count": 0,
+      "warnings": []
+    }
+  ]
+}

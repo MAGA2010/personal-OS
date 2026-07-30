@@ -1,0 +1,330 @@
+.stage {
+  min-height: 100svh;
+  padding: clamp(118px, 15vh, 164px) clamp(24px, 5vw, 72px) 150px;
+  background:
+    radial-gradient(circle at 83% 24%, rgba(38, 120, 107, 0.18), transparent 35%),
+    linear-gradient(150deg, #061019, #0a1720 62%, #08130f);
+}
+
+.copy {
+  width: min(100%, 1320px);
+  margin-inline: auto;
+  animation: copy-arrive 1s 180ms ease both;
+}
+
+.kicker {
+  margin: 0 0 20px;
+  color: #5ba494;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+}
+
+.copy h1 {
+  max-width: 1050px;
+  margin: 0;
+  font-family: Georgia, "Songti SC", serif;
+  font-size: clamp(3.2rem, 7vw, 7.3rem);
+  font-weight: 500;
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.copy h1 em {
+  color: #e7e2d8;
+  font-weight: 400;
+}
+
+.summary {
+  max-width: 660px;
+  margin: 27px 0 34px;
+  color: rgba(238, 241, 236, 0.62);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.carousel {
+  position: relative;
+  isolation: isolate;
+  width: min(100%, 1320px);
+  min-height: 360px;
+  aspect-ratio: 16 / 6.8;
+  margin-inline: auto;
+  overflow: hidden;
+  border: 1px solid rgba(236, 242, 238, 0.12);
+  background: #0d1b25;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.48);
+  animation: carousel-arrive 1.2s 360ms ease both;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slideActive {
+  opacity: 1;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(0.92) contrast(1.04) brightness(0.74);
+  transform: scale3d(1.02, 1.02, 1);
+  transition: transform 7000ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.slideActive .image {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.vignette,
+.scan,
+.glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.vignette {
+  z-index: 2;
+  background:
+    linear-gradient(180deg, rgba(6, 16, 25, 0.58), transparent 26%, transparent 50%, rgba(6, 16, 25, 0.9)),
+    linear-gradient(90deg, rgba(6, 16, 25, 0.52), transparent 42%, rgba(6, 16, 25, 0.3));
+}
+
+.scan {
+  z-index: 3;
+  opacity: 0.45;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.025) 0,
+    rgba(255, 255, 255, 0.025) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+.glow {
+  z-index: 3;
+  background:
+    radial-gradient(circle at 18% 80%, rgba(35, 118, 107, 0.28), transparent 46%),
+    radial-gradient(circle at 82% 18%, rgba(196, 95, 54, 0.15), transparent 40%);
+  animation: glow-shift 12s ease-in-out infinite alternate;
+}
+
+.badge,
+.counter,
+.meta,
+.dots {
+  position: absolute;
+  z-index: 5;
+}
+
+.badge {
+  top: 20px;
+  left: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(95, 173, 155, 0.32);
+  padding: 7px 11px;
+  color: rgba(242, 245, 241, 0.76);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 8px;
+  letter-spacing: 0.16em;
+  background: rgba(6, 16, 25, 0.72);
+}
+
+.badge span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #55a493;
+  box-shadow: 0 0 12px rgba(85, 164, 147, 0.8);
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+.counter {
+  top: 18px;
+  right: 22px;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.counter strong {
+  font-size: 30px;
+}
+
+.counter span,
+.counter small {
+  color: rgba(242, 245, 241, 0.45);
+}
+
+.meta {
+  right: 28px;
+  bottom: 24px;
+  left: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px 15px;
+}
+
+.meta p {
+  flex-basis: 100%;
+  margin: 0;
+  font-family: Georgia, "Songti SC", serif;
+  font-size: clamp(2rem, 4.7vw, 4rem);
+}
+
+.meta span {
+  color: rgba(242, 245, 241, 0.64);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.dots {
+  right: 28px;
+  bottom: 28px;
+  display: flex;
+  gap: 8px;
+}
+
+.dot,
+.dotActive {
+  width: 25px;
+  height: 4px;
+  border: 0;
+  border-radius: 99px;
+  padding: 0;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.25);
+  transition: width 180ms ease, background-color 180ms ease;
+}
+
+.dotActive {
+  width: 42px;
+  background: #5ba494;
+}
+
+.dot:focus-visible,
+.dotActive:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 5px;
+}
+
+.cta {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgba(224, 235, 229, 0.4);
+  padding: 11px 17px;
+  color: #f0f2ed;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  background: rgba(12, 28, 30, 0.55);
+}
+
+@keyframes copy-arrive {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes carousel-arrive {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0) scale3d(0.98, 0.98, 1);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+}
+
+@keyframes glow-shift {
+  from {
+    opacity: 0.8;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(-3%, 2%, 0);
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+    transform: scale3d(1.24, 1.24, 1);
+  }
+}
+
+@media (max-width: 720px) {
+  .stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 18px;
+  }
+
+  .carousel {
+    min-height: 340px;
+    aspect-ratio: 4 / 5;
+  }
+
+  .copy h1 {
+    font-size: clamp(2.7rem, 13vw, 4.5rem);
+  }
+
+  .badge {
+    max-width: 220px;
+    line-height: 1.5;
+  }
+
+  .meta {
+    bottom: 56px;
+  }
+
+  .meta span {
+    flex-basis: 100%;
+  }
+
+  .dots {
+    right: 20px;
+    bottom: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .copy,
+  .carousel,
+  .glow,
+  .badge span {
+    animation: none;
+  }
+
+  .slide,
+  .image {
+    transition: none;
+  }
+
+  .slideActive .image {
+    transform: scale3d(1.02, 1.02, 1);
+  }
+}

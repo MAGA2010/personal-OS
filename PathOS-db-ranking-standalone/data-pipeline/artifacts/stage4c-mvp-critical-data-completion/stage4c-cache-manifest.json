@@ -1,0 +1,23 @@
+{
+  "caches": [
+    {
+      "cache_path": "data-pipeline/cache/stage3b-official/Most-Recent-Cohorts-Institution_05192025.zip",
+      "exists": true,
+      "sha256": "74d464963c2948b7b6e97df6864345055b177466325a2b06c54f0e50e910b8e4",
+      "source_id": "source_stage4b_college_scorecard_2025_05_19"
+    },
+    {
+      "cache_path": "data-pipeline/data/stage4c-mvp-critical-data-completion/stage4c-reviewed-chinese-name-mapping.json",
+      "exists": true,
+      "sha256": "0abf05f7d1c920ff4061815f044ca753bafc13be3938a82819136f7199f0de81",
+      "source_id": "source_stage4c_reviewed_localization"
+    },
+    {
+      "cache_path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-marker-summary.json",
+      "exists": true,
+      "sha256": "e489733ca8c2aead4b5745ebd7aed24456f45c06ea6765f44c68ae4e084e4ddd",
+      "source_id": "source_stage4b_ranking_scope"
+    }
+  ],
+  "record_type": "stage4c_cache_manifest"
+}

@@ -1,0 +1,1282 @@
+{
+  "fields": [
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "acceptance_rate",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 62,
+      "backend_paths": [
+        "stage3/stage3b.majors"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "all_majors",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 62,
+      "backend_paths": [
+        "stage3d.anecdotes"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "anecdotes",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "chinese_name",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 62,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 62,
+      "data_domain": "regional_metric",
+      "field_id": "chinese_population_ratio",
+      "frontend_classification": "stale_or_invalid_candidate",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "city_or_county",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "stage3c.city"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "city",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 62,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "stage3c.latitude_longitude"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "coordinates",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 62,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "enrollment",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 16,
+      "backend_paths": [
+        "stage3d.history"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "history",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 46,
+      "matching_value_count": 46,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "candidate_v2"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "identity",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 62,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 62,
+      "data_domain": "regional_metric",
+      "field_id": "median_rent",
+      "frontend_classification": "stale_or_invalid_candidate",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "city_or_county",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 50,
+      "backend_paths": [
+        "ranking_records"
+      ],
+      "backend_value_count": 50,
+      "conflict_count": 50,
+      "data_domain": "university",
+      "field_id": "national_ranking",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 50,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 62,
+      "backend_paths": [
+        "stage3c2.nearest_towns"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 62,
+      "data_domain": "university",
+      "field_id": "nearest_towns",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 62,
+      "backend_paths": [
+        "stage3d.notable_attendance"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "notable_attendance",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 180,
+      "backend_paths": [
+        "stage3d_closing.program_people"
+      ],
+      "backend_value_count": 180,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "program_people",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "program",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 62,
+      "data_domain": "regional_metric",
+      "field_id": "safety_index",
+      "frontend_classification": "stale_or_invalid_candidate",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "city_or_county",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "sat",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "school_type",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "stage3c.state"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "state",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 62,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 62,
+      "backend_paths": [
+        "stage3b.student_faculty"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "student_faculty_ratio",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "toefl_policy",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 310,
+      "backend_paths": [
+        "stage3c.top_5_programs"
+      ],
+      "backend_value_count": 310,
+      "conflict_count": 62,
+      "data_domain": "university",
+      "field_id": "top_five_programs",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "program",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 62,
+      "backend_paths": [
+        "stage3/stage3b.tuition"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 62,
+      "data_domain": "university",
+      "field_id": "tuition",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 62,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 62,
+      "backend_paths": [
+        "stage3c.tuition_deepening"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "tuition_range",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 0,
+      "matching_value_count": 0,
+      "notes": [
+        "Counts use university/program records, not raw extracted scalar count.",
+        "A matching count means compatible backend coverage, not frontend authority."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "university_or_program_field",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "config",
+      "field_id": "config.cost_level",
+      "frontend_classification": "stale_or_invalid_candidate",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/app/calculator/page.tsx"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_do_not_promote",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "config",
+      "field_id": "config.default_filters",
+      "frontend_classification": "frontend_ui_only",
+      "frontend_only_count": 2,
+      "frontend_paths": [
+        "frontend/src/components/map/MapShell.tsx"
+      ],
+      "frontend_value_count": 2,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_in_frontend_only",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "ui",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "config",
+      "field_id": "config.exchange_rate",
+      "frontend_classification": "stale_or_invalid_candidate",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/app/calculator/page.tsx"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_do_not_promote",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "config",
+      "field_id": "config.storage_key",
+      "frontend_classification": "frontend_ui_only",
+      "frontend_only_count": 5,
+      "frontend_paths": [
+        "frontend/src/app/assessment/page.tsx",
+        "frontend/src/app/match/page.tsx",
+        "frontend/src/app/portfolio/page.tsx"
+      ],
+      "frontend_value_count": 5,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_in_frontend_only",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "ui",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "geo",
+      "field_id": "geo.city_boundary",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 448,
+      "frontend_paths": [
+        "frontend/src/data/city-boundaries.json"
+      ],
+      "frontend_value_count": 448,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "geo",
+      "field_id": "geo.city_zh",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/lib/city-utils.ts"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "geo",
+      "field_id": "geo.embedded_boundary",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/components/map/CityChoroplethLayer.tsx"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "geo",
+      "field_id": "geo.state_center",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/lib/city-utils.ts"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "geo",
+      "field_id": "geo.state_meta",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/lib/city-utils.ts"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "hardcoded",
+      "field_id": "hardcoded.legend_ranges",
+      "frontend_classification": "derived_display_value",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/components/map/MapLegend.tsx"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "future_export_adapter_rule_only",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "hardcoded",
+      "field_id": "hardcoded.metric_state_values",
+      "frontend_classification": "mock_demo_placeholder",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/lib/metrics.ts"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "exclude_from_backend",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "hardcoded",
+      "field_id": "hardcoded.mock_registry",
+      "frontend_classification": "mock_demo_placeholder",
+      "frontend_only_count": 4,
+      "frontend_paths": [
+        "frontend/src/components/map/MapLegend.tsx",
+        "frontend/src/components/map/MapShell.tsx",
+        "frontend/src/components/map/UniversityMarkers.tsx",
+        "frontend/src/lib/metrics.ts"
+      ],
+      "frontend_value_count": 4,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "exclude_from_backend",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "hardcoded",
+      "field_id": "hardcoded.region_detail",
+      "frontend_classification": "mock_demo_placeholder",
+      "frontend_only_count": 1,
+      "frontend_paths": [
+        "frontend/src/components/map/MapShell.tsx"
+      ],
+      "frontend_value_count": 1,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "exclude_from_backend",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "news",
+      "field_id": "news.article",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 1010,
+      "frontend_paths": [
+        "frontend/src/data/news.json"
+      ],
+      "frontend_value_count": 1010,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "ranking_records[]"
+      ],
+      "backend_value_count": 0,
+      "conflict_count": 259,
+      "data_domain": "ranking",
+      "field_id": "ranking.system",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 259,
+      "frontend_paths": [
+        "frontend/src/data/university-rankings.json"
+      ],
+      "frontend_value_count": 259,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "region",
+      "field_id": "region.metric",
+      "frontend_classification": "stale_or_invalid_candidate",
+      "frontend_only_count": 3390,
+      "frontend_paths": [
+        "frontend/src/data/region-metrics.json"
+      ],
+      "frontend_value_count": 3390,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_do_not_promote",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "city",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "region",
+      "field_id": "region.state",
+      "frontend_classification": "frontend_candidate_requires_verification",
+      "frontend_only_count": 153,
+      "frontend_paths": [
+        "frontend/src/data/state-options.json"
+      ],
+      "frontend_value_count": 153,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "quarantine_pending_primary_source",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "city",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "test",
+      "field_id": "test.demo_portfolio.profile",
+      "frontend_classification": "mock_demo_placeholder",
+      "frontend_only_count": 8,
+      "frontend_paths": [
+        "frontend/src/data/demo-portfolio.json"
+      ],
+      "frontend_value_count": 8,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "exclude_from_backend",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 0,
+      "data_domain": "test",
+      "field_id": "test.demo_portfolio.school_id",
+      "frontend_classification": "mock_demo_placeholder",
+      "frontend_only_count": 10,
+      "frontend_paths": [
+        "frontend/src/data/demo-portfolio.json"
+      ],
+      "frontend_value_count": 10,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "exclude_from_backend",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "stage3/stage3b.tuition[]"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 186,
+      "data_domain": "university",
+      "field_id": "university.cost",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 124,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 186,
+      "matching_value_count": 62,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 16,
+      "backend_paths": [
+        "stage3d_fill_bulk_v2.history[]"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "university.history",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 46,
+      "matching_value_count": 46,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "candidate_v2.universities[]",
+        "stage3c.universities[]"
+      ],
+      "backend_value_count": 565,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "university.identity",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/components/map/UniversityMarkers.tsx",
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 565,
+      "matching_value_count": 565,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "stage3c.universities[]"
+      ],
+      "backend_value_count": 62,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "university.meta",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 62,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 124,
+      "matching_value_count": 62,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "stage3c2.nearest_towns[]"
+      ],
+      "backend_value_count": 186,
+      "conflict_count": 248,
+      "data_domain": "university",
+      "field_id": "university.nearby",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 62,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 248,
+      "matching_value_count": 186,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 5,
+      "backend_paths": [
+        "stage3c.top_5_programs_for_demo[]"
+      ],
+      "backend_value_count": 310,
+      "conflict_count": 0,
+      "data_domain": "university",
+      "field_id": "university.program",
+      "frontend_classification": "verified_backend_existing",
+      "frontend_only_count": 0,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 305,
+      "matching_value_count": 305,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_backend_record_frontend_compatibility_only",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "program",
+      "verification_required": false
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [],
+      "backend_value_count": 0,
+      "conflict_count": 186,
+      "data_domain": "university",
+      "field_id": "university.quality",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 186,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 186,
+      "matching_value_count": 0,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    },
+    {
+      "backend_authority": true,
+      "backend_only_count": 0,
+      "backend_paths": [
+        "ranking_records[]"
+      ],
+      "backend_value_count": 50,
+      "conflict_count": 174,
+      "data_domain": "university",
+      "field_id": "university.ranking",
+      "frontend_classification": "frontend_backend_conflict",
+      "frontend_only_count": 124,
+      "frontend_paths": [
+        "frontend/src/data/universities.json"
+      ],
+      "frontend_value_count": 174,
+      "matching_value_count": 50,
+      "notes": [
+        "Frontend hardcoded values are not authoritative.",
+        "No unverified frontend value overwrites verified backend data."
+      ],
+      "recommended_action": "retain_verified_backend_quarantine_frontend_value",
+      "reconciliation_granularity": "extracted_inventory_category",
+      "scope": "school",
+      "verification_required": true
+    }
+  ],
+  "record_type": "stage4a_field_reconciliation"
+}

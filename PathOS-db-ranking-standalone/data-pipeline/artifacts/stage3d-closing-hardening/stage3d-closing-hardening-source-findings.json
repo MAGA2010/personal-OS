@@ -1,0 +1,521 @@
+{
+  "automatic_original_data_changes": 0,
+  "findings": [
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:boston-university:slot-4",
+      "severity": "Medium",
+      "source_id": "wave10-source-bu-rachel-mcguire"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:columbia-university:slot-5",
+      "severity": "Low/Medium",
+      "source_id": "wave10-source-columbia-angeliki-frangou"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:purdue-university-main-campus:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "wave10-source-purdue-zihan-wang"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:tufts-university:slot-4",
+      "severity": "Medium",
+      "source_id": "wave10-source-tufts-faith-blake"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:university-of-chicago:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave10-source-uchicago-sara-kalantari"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:university-of-maryland-college-park:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "wave10-source-umd-evan-newman"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:university-of-minnesota-twin-cities:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave10-source-minnesota-bruce-beckman"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:university-of-north-carolina-chapel-hill:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave10-source-unc-mark-mine"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave10:candidate-v2:university-of-wisconsin-madison:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave10-source-wisconsin-pranav-karra"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave1:candidate-v2:boston-university:slot-2",
+      "severity": "Low/Medium",
+      "source_id": "source_wave1_bu_alexandria_ocasio_cortez"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave1:candidate-v2:purdue-university-main-campus:slot-5",
+      "severity": "Low/Medium",
+      "source_id": "source_bulk_people_purdue_neil_armstrong"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave1:candidate-v2:rice-university:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "source_batch_b_rice_mohit_aron"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave1:candidate-v2:university-of-michigan-ann-arbor:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "source_batch_b_michigan_larry_page"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave2:candidate-v2:university-of-minnesota-twin-cities:slot-5",
+      "severity": "Low/Medium",
+      "source_id": "source_wave2_umn_jeff_dean"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave3:candidate-v2:lehigh-university:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "source_wave3_lehigh_terry_hart"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave3:candidate-v2:university-of-california-davis:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "source_wave3_uc_davis_gerald_hayden"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave3:candidate-v2:university-of-california-irvine:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "source_wave3_uc_irvine_maya_lee"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave4:candidate-v2:bucknell-university:slot-2",
+      "severity": "Medium",
+      "source_id": "wave4-bucknell-sam-roy-ee"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave4:candidate-v2:columbia-university:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "wave4-columbia-jennifer-lee-ee"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave4:candidate-v2:dartmouth-college:slot-3",
+      "severity": "Medium",
+      "source_id": "wave4-dartmouth-owen-astrachan-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave4:candidate-v2:northwestern-university:slot-5",
+      "severity": "Medium",
+      "source_id": "wave4-northwestern-antonio-daniels-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave4:candidate-v2:rutgers-university-new-brunswick:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "wave4-rutgers-maxine-deines-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave5:candidate-v2:boston-university:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "wave5-bu-rebecca-norlander-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave5:candidate-v2:brown-university:slot-1",
+      "severity": "Medium",
+      "source_id": "wave5-brown-danah-boyd-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave5:candidate-v2:carnegie-mellon-university:slot-3",
+      "severity": "Medium",
+      "source_id": "wave5-cmu-joy-bretthauer-ee"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave5:candidate-v2:cornell-university:slot-1",
+      "severity": "Medium",
+      "source_id": "wave5-cornell-allan-borodin-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave5:candidate-v2:johns-hopkins-university:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "wave5-jhu-sallie-permar-mmi"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave6:candidate-v2:university-of-california-davis:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave6-ucdavis-deb-frincke-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave6:candidate-v2:university-of-michigan-ann-arbor:slot-2",
+      "severity": "Low/Medium",
+      "source_id": "wave6-michigan-alex-cater-business"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave7:candidate-v2:columbia-university:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "wave7-columbia-sandrine-rutayisire-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave7:candidate-v2:emory-university:slot-2",
+      "severity": "Medium",
+      "source_id": "wave7-emory-ahmed-aljohani-biology"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave7:candidate-v2:georgetown-university:slot-2",
+      "severity": "Medium",
+      "source_id": "wave7-georgetown-amelia-fattore-finance"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_not_found",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave7:candidate-v2:harvard-university:slot-4",
+      "severity": "Medium",
+      "source_id": "wave7-harvard-max-kuhelj-bugaric-government"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave7:candidate-v2:university-of-california-san-diego:slot-5",
+      "severity": "Low/Medium",
+      "source_id": "wave7-ucsd-vania-bailon-economics"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave7:candidate-v2:university-of-georgia:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "wave7-uga-neal-quirk-finance"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave7:candidate-v2:university-of-texas-austin:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "wave7-ut-austin-sunil-jaini-business"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:bucknell-university:slot-1",
+      "severity": "Medium",
+      "source_id": "wave8-bucknell-helen-reetz-civil"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:duke-university:slot-5",
+      "severity": "Medium",
+      "source_id": "wave8-duke-louis-damico-biology"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:georgetown-university:slot-3",
+      "severity": "Medium",
+      "source_id": "wave8-georgetown-yamiche-alcindor-government"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_page_changed_review_required",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:georgia-institute-of-technology:slot-3",
+      "severity": "Medium",
+      "source_id": "wave8-georgia-tech-gennadiy-gurevich-industrial"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:rice-university:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "wave8-rice-michael-maher-economics"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:tufts-university:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "wave8-tufts-john-baronian-economics"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:university-of-michigan-ann-arbor:slot-3",
+      "severity": "Low/Medium",
+      "source_id": "wave8-michigan-corina-mommaerts-economics"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:university-of-minnesota-twin-cities:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "wave8-minnesota-nick-alm-mis"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:university-of-virginia:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave8-uva-brittany-taylor-bme"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave8:candidate-v2:university-of-wisconsin-madison:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "wave8-wisconsin-adi-murali-cs"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:brown-university:slot-5",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-brown-jessica-meir"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:carnegie-mellon-university:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-cmu-ted-decker"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:columbia-university:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-columbia-indrias-bekerie"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:rice-university:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-rice-deborah-williams"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:university-of-florida:slot-5",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-uf-ronald-canakaris"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:university-of-georgia:slot-4",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-uga-mai-lise-nguyen"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:university-of-michigan-ann-arbor:slot-5",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-michigan-brian-schiff"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:university-of-minnesota-twin-cities:slot-2",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-minnesota-ryan-rosenthal"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": true,
+      "live_status": "live_not_found",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:university-of-texas-austin:slot-3",
+      "severity": "Medium",
+      "source_id": "wave9-source-ut-austin-jill-meyers"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:university-of-wisconsin-madison:slot-5",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-wisconsin-linda-thomas-greenfield"
+    },
+    {
+      "automatic_data_change": false,
+      "human_review_required": false,
+      "live_status": "live_unavailable",
+      "notes": "Original Wave record remains immutable; this finding requires explicit review.",
+      "record_id": "wave9:candidate-v2:washington-university-in-st-louis:slot-1",
+      "severity": "Low/Medium",
+      "source_id": "wave9-source-washu-tej-seelamsetty"
+    }
+  ],
+  "high_issue_count": 0,
+  "medium_issue_count": 16,
+  "record_type": "stage3d_closing_hardening_source_findings"
+}

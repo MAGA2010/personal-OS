@@ -1,0 +1,138 @@
+{
+  "record_type": "stage4b_source_manifest",
+  "sources": [
+    {
+      "accessed_date": "2026-07-24",
+      "availability_status": "deferred",
+      "cache_id": null,
+      "failure_category": "api_key_required",
+      "field_scope": [
+        "demographics",
+        "housing",
+        "income"
+      ],
+      "license_or_usage_notes": "Official public data or frozen verified PathOS input",
+      "publisher": "United States Census Bureau",
+      "query_parameters": {},
+      "reference_year": 2023,
+      "source_id": "source_stage4b_acs5_2023_intake_deferred",
+      "source_type": "official_federal_api",
+      "source_url": "https://api.census.gov/data/2023/acs/acs5"
+    },
+    {
+      "accessed_date": "2026-07-24",
+      "availability_status": "verified",
+      "cache_id": "cache_stage4b_census_2024_places_gazetteer",
+      "field_scope": [
+        "census_place",
+        "nearest_towns"
+      ],
+      "license_or_usage_notes": "Official public data or frozen verified PathOS input",
+      "publisher": "United States Census Bureau",
+      "query_parameters": {},
+      "reference_year": 2024,
+      "source_id": "source_stage4b_census_2024_places_gazetteer",
+      "source_type": "official_federal_dataset",
+      "source_url": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2024.html"
+    },
+    {
+      "accessed_date": "2026-07-24",
+      "availability_status": "verified",
+      "cache_id": "cache_stage4b_college_scorecard_2025_05_19",
+      "field_scope": [
+        "undergraduate_enrollment",
+        "acceptance_rate",
+        "graduation_rate",
+        "retention_rate",
+        "sat",
+        "act"
+      ],
+      "license_or_usage_notes": "Official public data or frozen verified PathOS input",
+      "publisher": "United States Department of Education",
+      "query_parameters": {},
+      "reference_year": 2025,
+      "source_id": "source_stage4b_college_scorecard_2025_05_19",
+      "source_type": "official_federal_dataset",
+      "source_url": "https://ed-public-download.scorecard.network/downloads/Most-Recent-Cohorts-Institution_05192025.zip"
+    },
+    {
+      "accessed_date": "2026-07-24",
+      "availability_status": "verified",
+      "cache_id": "cache_stage4b_ipeds_hd2024",
+      "field_scope": [
+        "institution",
+        "county",
+        "cbsa",
+        "campus_setting"
+      ],
+      "license_or_usage_notes": "Official public data or frozen verified PathOS input",
+      "publisher": "National Center for Education Statistics",
+      "query_parameters": {},
+      "reference_year": 2024,
+      "source_id": "source_stage4b_ipeds_hd2024",
+      "source_type": "official_federal_dataset",
+      "source_url": "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx"
+    },
+    {
+      "accessed_date": "2026-07-24",
+      "availability_status": "verified",
+      "cache_id": "input_stage4b_national_ranking_top50",
+      "field_scope": [
+        "national_ranking"
+      ],
+      "license_or_usage_notes": "Official public data or frozen verified PathOS input",
+      "publisher": "PathOS verified Stage 2 ranking layer",
+      "query_parameters": {},
+      "reference_year": 2026,
+      "source_id": "source_stage4b_national_ranking_existing",
+      "source_type": "verified_existing_backend_artifact",
+      "source_url": "input://stage2-national-top50"
+    },
+    {
+      "accessed_date": "2026-07-24",
+      "availability_status": "verified",
+      "cache_id": "input_stage4b_stage3b_ratio",
+      "field_scope": [
+        "student_faculty_ratio"
+      ],
+      "license_or_usage_notes": "Official public data or frozen verified PathOS input",
+      "publisher": "PathOS verified Stage 3B College Scorecard overlay",
+      "query_parameters": {},
+      "reference_year": 2025,
+      "source_id": "source_stage4b_ratio_existing",
+      "source_type": "verified_existing_backend_artifact",
+      "source_url": "input://stage3b-student-faculty"
+    },
+    {
+      "accessed_date": "2026-07-24",
+      "availability_status": "verified",
+      "cache_id": "input_stage4b_stage3c2_nearest_towns",
+      "field_scope": [
+        "nearest_towns",
+        "transport_context"
+      ],
+      "license_or_usage_notes": "Official public data or frozen verified PathOS input",
+      "publisher": "PathOS verified Stage 3C2 Census Gazetteer overlay",
+      "query_parameters": {},
+      "reference_year": 2024,
+      "source_id": "source_stage4b_stage3c2_nearest_towns",
+      "source_type": "verified_existing_backend_artifact",
+      "source_url": "input://stage3c2-nearest-towns"
+    },
+    {
+      "accessed_date": "2026-07-24",
+      "availability_status": "verified",
+      "cache_id": "input_stage4b_stage3b_tuition",
+      "field_scope": [
+        "tuition"
+      ],
+      "license_or_usage_notes": "Official public data or frozen verified PathOS input",
+      "publisher": "PathOS verified Stage 3B IPEDS overlay",
+      "query_parameters": {},
+      "reference_year": 2023,
+      "source_id": "source_stage4b_tuition_existing",
+      "source_type": "verified_existing_backend_artifact",
+      "source_url": "input://stage3b-tuition-gap-fill"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "artifacts": [
+    {
+      "bytes": 1307,
+      "path": "regional-data-validation.json",
+      "sha256": "f524f3e71da1ef5aeb0c4c7da815e1ba79774e5908f4aef12c2bbe23de65c8f3"
+    },
+    {
+      "bytes": 977,
+      "path": "regional-datasets.json",
+      "sha256": "08475e7f690e6f3caeb68b0ba570b48180ff727658eef8406416fee888b227cb"
+    },
+    {
+      "bytes": 4201,
+      "path": "regional-metrics.json",
+      "sha256": "6ae7b3ca84792342aca9b367d1319c07b3f8aa0b079ba7b49792f253f6aea713"
+    },
+    {
+      "bytes": 30252,
+      "path": "regional-record-chinese_population.json",
+      "sha256": "337a6746472ae74dfb363936a207f2422f4d7fc5846faf351ff05abbdc79e56f"
+    },
+    {
+      "bytes": 29781,
+      "path": "regional-record-employment.json",
+      "sha256": "2447a7849a549a76b98d3d2edb35f5e04d51e227603b273adc6bf7853a7f8d8d"
+    },
+    {
+      "bytes": 29632,
+      "path": "regional-record-income.json",
+      "sha256": "5e7a9545dd60777dbfa980ed2dd4fb2889ba2ecbc1d97a81545b1eaebace0a06"
+    },
+    {
+      "bytes": 29871,
+      "path": "regional-record-safety.json",
+      "sha256": "72a2e9412c95602fdea9d29ac0aff936d52e7ba012003e46565d5751fc1c28c2"
+    },
+    {
+      "bytes": 119232,
+      "path": "regional-records.json",
+      "sha256": "9229fb80570a41271c21779adc316b3cbadc27c3e20f8fde5e726fadd33cbf5c"
+    }
+  ],
+  "datasetId": "pathos-regional-state-v1",
+  "generatedAt": "2026-07-25",
+  "manifestVersion": "1.0.0",
+  "sourceWorkbook": {
+    "path": "/Users/jiayihuang/Downloads/PathOS合并/resource/PathOS_美国各州留学数据矩阵.xlsx",
+    "sha256": "409ed47b5153725914b463ae3421ad51e5d3d34e5918144f001f341b9894b096"
+  },
+  "totals": {
+    "blockedMetricCount": 1,
+    "metricCount": 4,
+    "outOfScopeMetricCount": 1,
+    "readyMetricCount": 4,
+    "recordCount": 204
+  }
+}

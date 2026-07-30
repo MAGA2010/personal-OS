@@ -1,0 +1,38 @@
+{
+  "allowed_fact_statuses": [
+    "verified",
+    "normalized_verified",
+    "cache_verified_pending",
+    "derived",
+    "partial",
+    "missing"
+  ],
+  "excluded_fact_classes": [
+    "quarantined",
+    "frontend_demonstration_estimates",
+    "unresolved_handoff_conflicts",
+    "quarantined_people",
+    "source_review_not_completed_program_people",
+    "unsourced_recommendation_facts"
+  ],
+  "fact_groups": [
+    "verified_school_facts",
+    "verified_regional_facts",
+    "derived_metrics",
+    "source_ids",
+    "warnings",
+    "missing_fields",
+    "reference_years",
+    "geography_scopes"
+  ],
+  "missing_field_disclosure_required": true,
+  "record_type": "stage4b_ai_context_contract",
+  "request_context_fields": [
+    "selected_university_ids",
+    "comparison_university_ids",
+    "active_filters",
+    "map_metric",
+    "mode"
+  ],
+  "source_id_required_for_verified_facts": true
+}

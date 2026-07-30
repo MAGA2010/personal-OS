@@ -1,0 +1,30 @@
+{
+  "record_type": "stage3d_fill_program_people_wave6_immutable_input_pin_manifest",
+  "manifest_version": 1,
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true,
+  "pins": [
+    {"pin_id": "candidate_v2", "role": "candidate_scope", "path": "data/university-universe-candidates/v2-source-limited/candidate-universities.json", "sha256": "8f940aa6d336402ff9c3c76a43d2efacdf2c887dc983afeb344937db9eadb18d", "immutable": true},
+    {"pin_id": "stage3c_demo_programs", "role": "demo_program_scope", "path": "artifacts/stage3c-academic-geo-enrichment/stage3c-demo-programs-overlay.json", "sha256": "11ac883fcef31d00cd57610c17c848feca479c8d5c2b7030f7f07d69540a5491", "immutable": true},
+    {"pin_id": "wave1_program_people", "role": "prior_slot_status", "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-program-people.json", "sha256": "7a2f0b8f4b0efe300ae02c235bf2734e9959570e569db8fcf42d8a977b512af0", "immutable": true},
+    {"pin_id": "wave1_summary", "role": "prior_wave_summary", "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-summary.json", "sha256": "42b66839183a45470088af376e2960fe325e797ad9e2c129e38835bf73fc0719", "immutable": true},
+    {"pin_id": "wave2_program_people", "role": "prior_slot_status", "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-program-people.json", "sha256": "8f966a3dae9b24255b3bdded03c08a92e31d5b2e218dc41607002834e8a1dd93", "immutable": true},
+    {"pin_id": "wave2_summary", "role": "prior_wave_summary", "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-summary.json", "sha256": "584ca134a215f1d069f7b946b9a23649b3d5e5557feb6b210dd73e3e54eb449a", "immutable": true},
+    {"pin_id": "wave3_program_people", "role": "prior_slot_status", "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-program-people.json", "sha256": "d2e35ee7c1d001ce2fb865eef655e4ced659fce482cb09dbdd67bc2653f5ee88", "immutable": true},
+    {"pin_id": "wave3_summary", "role": "prior_wave_summary", "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-summary.json", "sha256": "55464d3c5d7b2cc676f44a098ee7e032b39d2da8101996edb03795523b5cf3f3", "immutable": true},
+    {"pin_id": "wave4_program_people", "role": "prior_slot_overlay", "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-program-people.json", "sha256": "6ec567db4476822348cc0d492b7d7d1c2bf15ebfe1b76bb3449afe14718c698b", "immutable": true},
+    {"pin_id": "wave4_summary", "role": "prior_wave_summary", "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-summary.json", "sha256": "ae035b3e71e8847cd29ddda452d6db4e735a17f1e819c61dd0625402e277215a", "immutable": true},
+    {"pin_id": "wave5_program_people", "role": "prior_slot_overlay", "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-program-people.json", "sha256": "95d39949f150fdc0aefadc718cf13f75c8683d51eac04e4e7bd70f53753160de", "immutable": true},
+    {"pin_id": "wave5_summary", "role": "prior_wave_summary", "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-summary.json", "sha256": "a7d3070b82e13d4140b912eac6e5cdb688a34000d9ebe4b48df8c016c58af208", "immutable": true},
+    {"pin_id": "wave5_cumulative_program_people", "role": "prior_cumulative_program_people", "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-dedup-report.json", "sha256": "e1e4ca88dcf85ad5654e29e1ffa9b8ad818e5c45848c3be8856868374def2136", "immutable": true}
+  ],
+  "prior_wave_inputs": [
+    {"wave_id": "wave1", "program_people_pin_id": "wave1_program_people", "summary_pin_id": "wave1_summary", "collection_field": "slots"},
+    {"wave_id": "wave2", "program_people_pin_id": "wave2_program_people", "summary_pin_id": "wave2_summary", "collection_field": "slots"},
+    {"wave_id": "wave3", "program_people_pin_id": "wave3_program_people", "summary_pin_id": "wave3_summary", "collection_field": "slots"},
+    {"wave_id": "wave4", "program_people_pin_id": "wave4_program_people", "summary_pin_id": "wave4_summary", "collection_field": "slots"},
+    {"wave_id": "wave5", "program_people_pin_id": "wave5_program_people", "summary_pin_id": "wave5_summary", "collection_field": "slots"}
+  ],
+  "prior_cumulative_pin_id": "wave5_cumulative_program_people"
+}

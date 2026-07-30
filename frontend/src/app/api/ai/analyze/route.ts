@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
-import universityData from "@/data/universities.json";
 import { assessPortfolio, type StudentProfile } from "@/lib/assessment";
+import { loadUniversities } from "@/server/pathos-preview";
+import { resolveDataMode } from "@/server/pathos-preview";
 
 type AnalyzeMode = "school_assessment" | "portfolio_review";
 type AiProvider = "deepseek" | "custom";
@@ -12,9 +13,17 @@ interface AnalyzeRequest {
   notes?: string;
 }
 
-const universities = (universityData as { universities: any[] }).universities;
+async function loadAllUniversities() {
+  return loadUniversities();
+}
 
-function selectedSchoolSnapshot(schools: ReturnType<typeof resolveSchools>) {
+function selectedSchoolSnapshot(schools: ReturnType<typeof resolveSchoolsSync>) {
+  // Gate-bloker repair #RG-P0-I: never coerce missing numeric fields
+  // into 0. Downstream AI must see `null` plus the per-field
+  // availability flag so it doesn't fabricate ¥0 schools or 0/100
+  // safety scores into its recommendation. We also pass the
+  // canonical `displayTier` so the LLM can decide whether to talk
+  // about a record or to mark it "数据补充中".
   return schools.map((school) => ({
     id: school.id,
     name: school.name,
@@ -22,13 +31,24 @@ function selectedSchoolSnapshot(schools: ReturnType<typeof resolveSchools>) {
     city: school.city,
     state: school.state,
     rankingTier: school.rankingTier,
-    annualCostRmb: school.annualCostRmb,
-    safetyScore: school.safetyScore,
-    recognitionScore: school.recognitionScore,
-    chineseCommunity: school.chineseCommunity,
+    annualCostRmb:
+      typeof school.annualCostRmb === "number" && Number.isFinite(school.annualCostRmb)
+        ? school.annualCostRmb
+        : null,
+    safetyScore:
+      typeof school.safetyScore === "number" && Number.isFinite(school.safetyScore)
+        ? school.safetyScore
+        : null,
+    recognitionScore:
+      typeof school.recognitionScore === "number" && Number.isFinite(school.recognitionScore)
+        ? school.recognitionScore
+        : null,
+    chineseCommunity: school.chineseCommunity ?? null,
     programs: school.programs,
     parentHighlights: school.parentHighlights,
     studentHighlights: school.studentHighlights,
+    displayTier: school.displayTier ?? "preview",
+    nullableFields: Array.isArray(school.nullableFields) ? school.nullableFields : [],
   }));
 }
 
@@ -50,7 +70,10 @@ function toProfile(input: AnalyzeRequest["profile"]): StudentProfile {
   };
 }
 
-function resolveSchools(schools: AnalyzeRequest["schools"] = []) {
+function resolveSchoolsSync(
+  universities: any[],
+  schools: AnalyzeRequest["schools"] = [],
+) {
   const ids = new Set(schools.map((school) => school.id).filter(Boolean));
   const names = new Set(
     schools
@@ -66,9 +89,10 @@ function resolveSchools(schools: AnalyzeRequest["schools"] = []) {
   return matched.length > 0 ? matched : universities.slice(0, 8);
 }
 
-function buildDeterministicAnalysis(payload: AnalyzeRequest) {
+async function buildDeterministicAnalysis(payload: AnalyzeRequest) {
   const profile = toProfile(payload.profile);
-  const schools = resolveSchools(payload.schools);
+  const universities = await loadAllUniversities();
+  const schools = resolveSchoolsSync(universities, payload.schools);
   const portfolio = assessPortfolio(profile, schools);
   const sorted = portfolio.schools
     .map((assessment) => ({
@@ -111,12 +135,17 @@ function buildDeterministicAnalysis(payload: AnalyzeRequest) {
   };
 }
 
-function buildDeepSeekPrompt(payload: AnalyzeRequest, deterministic: ReturnType<typeof buildDeterministicAnalysis>) {
+async function buildDeepSeekPrompt(payload: AnalyzeRequest, deterministic: Awaited<ReturnType<typeof buildDeterministicAnalysis>>) {
+  const universities = await loadAllUniversities();
+  const schools = resolveSchoolsSync(universities, payload.schools);
   return JSON.stringify({
     role: "PathOS 留学选校 AI 分析师",
     instruction: [
       "面向中国家庭，用简洁、克制、可执行的中文输出。",
       "只能基于输入的学生画像、学校数据和 localBaseline 推理；不要编造未提供的数据、录取案例或政策细节。",
+      "任何字段缺失（值为 null 或不在 nullableFields 之外缺失）一律视为“数据补充中”，不要推断为 0、不要把 null 当作 0。",
+      "不要把 annualCostRmb 为 null 的学校说成“免费”或“免学费”；这是缺失数据。",
+      "不要把 safetyScore / recognitionScore 为 null 的学校说成“0/100 安全”或“0/100 认可度”；这是缺失数据。",
       "必须返回合法 JSON，不要使用 Markdown，不要包裹代码块。",
       "JSON 字段必须包含 summary、majorRisks、parentQuestions、recommended、nextActions、unknowns。",
       "recommended 中每项包含 id、chineseName、fitScore、tier、reasons、warnings。",
@@ -124,7 +153,7 @@ function buildDeepSeekPrompt(payload: AnalyzeRequest, deterministic: ReturnType<
     ],
     mode: payload.mode,
     profile: deterministic.profile,
-    schools: selectedSchoolSnapshot(resolveSchools(payload.schools)),
+    schools: selectedSchoolSnapshot(schools),
     localBaseline: deterministic,
     notes: payload.notes,
   });
@@ -135,7 +164,7 @@ function parseAiJson(content: string) {
   return JSON.parse(cleaned) as Record<string, any>;
 }
 
-async function callDeepSeek(payload: AnalyzeRequest, deterministic: ReturnType<typeof buildDeterministicAnalysis>) {
+async function callDeepSeek(payload: AnalyzeRequest, deterministic: Awaited<ReturnType<typeof buildDeterministicAnalysis>>) {
   const apiKey = process.env.DEEPSEEK_API_KEY ?? process.env.PATHOS_AI_API_KEY;
   if (!apiKey) return deterministic;
 
@@ -195,11 +224,14 @@ async function callDeepSeek(payload: AnalyzeRequest, deterministic: ReturnType<t
   };
 }
 
-async function callCustomEndpoint(payload: AnalyzeRequest, deterministic: ReturnType<typeof buildDeterministicAnalysis>) {
+async function callCustomEndpoint(payload: AnalyzeRequest, deterministic: Awaited<ReturnType<typeof buildDeterministicAnalysis>>) {
   const endpoint = process.env.PATHOS_AI_ENDPOINT;
   const apiKey = process.env.PATHOS_AI_API_KEY;
 
   if (!endpoint) return deterministic;
+
+  const universities = await loadAllUniversities();
+  const schools = resolveSchoolsSync(universities, payload.schools);
 
   const response = await fetch(endpoint, {
     method: "POST",
@@ -210,7 +242,7 @@ async function callCustomEndpoint(payload: AnalyzeRequest, deterministic: Return
     body: JSON.stringify({
       task: payload.mode,
       profile: deterministic.profile,
-      schools: selectedSchoolSnapshot(resolveSchools(payload.schools)),
+      schools: selectedSchoolSnapshot(schools),
       localBaseline: deterministic,
       notes: payload.notes,
     }),
@@ -227,20 +259,31 @@ async function callCustomEndpoint(payload: AnalyzeRequest, deterministic: Return
   };
 }
 
-async function callExternalAi(payload: AnalyzeRequest, deterministic: ReturnType<typeof buildDeterministicAnalysis>) {
+async function callExternalAi(payload: AnalyzeRequest, deterministic: Awaited<ReturnType<typeof buildDeterministicAnalysis>>) {
   const provider = (process.env.AI_PROVIDER ?? "deepseek") as AiProvider;
   if (provider === "custom") return callCustomEndpoint(payload, deterministic);
   return callDeepSeek(payload, deterministic);
 }
 
 export async function POST(request: Request) {
+  if (resolveDataMode() === "backend") {
+    return NextResponse.json(
+      {
+        error: "ai_context_disabled",
+        code: "AI_CONTEXT_DISABLED",
+        featureStatus: "disabled",
+        retryable: false,
+      },
+      { status: 503 },
+    );
+  }
   try {
     const payload = (await request.json()) as AnalyzeRequest;
     if (payload.mode !== "school_assessment" && payload.mode !== "portfolio_review") {
       return NextResponse.json({ error: "Unsupported analysis mode" }, { status: 400 });
     }
 
-    const deterministic = buildDeterministicAnalysis(payload);
+    const deterministic = await buildDeterministicAnalysis(payload);
     const result = await callExternalAi(payload, deterministic);
 
     return NextResponse.json(result);

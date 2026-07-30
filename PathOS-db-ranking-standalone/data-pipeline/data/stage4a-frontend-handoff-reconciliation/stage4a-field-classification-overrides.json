@@ -1,0 +1,19 @@
+{
+  "record_type": "stage4a_field_classification_overrides",
+  "rules": [
+    {
+      "classification": "stale_or_invalid_candidate",
+      "match": {
+        "category": "region.metric"
+      },
+      "reason": "Frontend region metrics are demonstration estimates without canonical provenance."
+    },
+    {
+      "classification": "derived_display_value",
+      "match": {
+        "category": "hardcoded.legend_ranges"
+      },
+      "reason": "Legend ranges are export-adapter/UI policy, not source facts."
+    }
+  ]
+}

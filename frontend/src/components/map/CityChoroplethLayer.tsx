@@ -2,9 +2,16 @@
 import { useCallback, useEffect, useRef } from "react";
 import maplibregl from "maplibre-gl";
 import type { MetricId } from "@/lib/types";
-import { METRIC_DEFINITIONS } from "@/lib/metrics";
+import { METRIC_DEFINITIONS } from "@/config/metrics.config";
 import { useMapContext } from "./MapCanvas";
-const CA_CITY_GEOJSON: any = {"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-118.68,34.34],[-118.68,34.28],[-118.62,34.22],[-118.56,34.18],[-118.48,34.14],[-118.42,34.14],[-118.36,34.12],[-118.3,34.12],[-118.24,34.14],[-118.2,34.18],[-118.16,34.22],[-118.14,34.28],[-118.14,34.34],[-118.16,34.4],[-118.2,34.44],[-118.26,34.48],[-118.32,34.5],[-118.38,34.5],[-118.44,34.48],[-118.5,34.46],[-118.56,34.44],[-118.62,34.42],[-118.66,34.38],[-118.68,34.34]]]},"properties":{"name":"Los Angeles","nameEn":"Los Angeles","uniCount":2,"avgLat":34.05,"avgLng":-118.24,"cityId":"06-los-angeles"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-122.52,37.81],[-122.52,37.78],[-122.48,37.76],[-122.42,37.74],[-122.38,37.74],[-122.36,37.76],[-122.36,37.78],[-122.36,37.8],[-122.38,37.82],[-122.4,37.84],[-122.42,37.86],[-122.44,37.88],[-122.46,37.88],[-122.48,37.86],[-122.5,37.84],[-122.52,37.82],[-122.52,37.81]]]},"properties":{"name":"San Francisco","nameEn":"San Francisco","uniCount":2,"avgLat":37.77,"avgLng":-122.42,"cityId":"06-san-francisco"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-117.3,32.99],[-117.3,32.95],[-117.28,32.9],[-117.24,32.86],[-117.2,32.84],[-117.16,32.84],[-117.12,32.86],[-117.08,32.9],[-117.06,32.94],[-117.04,32.98],[-117.04,33.02],[-117.06,33.06],[-117.08,33.08],[-117.12,33.1],[-117.16,33.1],[-117.2,33.08],[-117.24,33.06],[-117.28,33.02],[-117.3,32.99]]]},"properties":{"name":"San Diego","nameEn":"San Diego","uniCount":1,"avgLat":32.88,"avgLng":-117.23,"cityId":"06-san-diego"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-121.98,37.42],[-121.98,37.38],[-121.94,37.34],[-121.9,37.32],[-121.84,37.3],[-121.78,37.3],[-121.74,37.32],[-121.72,37.36],[-121.72,37.4],[-121.74,37.44],[-121.78,37.46],[-121.84,37.48],[-121.9,37.48],[-121.94,37.46],[-121.98,37.42]]]},"properties":{"name":"San Jose","nameEn":"San Jose","uniCount":1,"avgLat":37.34,"avgLng":-121.89,"cityId":"06-san-jose"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-121.56,38.66],[-121.56,38.62],[-121.52,38.58],[-121.48,38.56],[-121.44,38.56],[-121.4,38.58],[-121.36,38.6],[-121.34,38.64],[-121.34,38.68],[-121.36,38.7],[-121.4,38.72],[-121.44,38.72],[-121.48,38.7],[-121.52,38.68],[-121.56,38.66]]]},"properties":{"name":"Sacramento","nameEn":"Sacramento","uniCount":1,"avgLat":38.58,"avgLng":-121.49,"cityId":"06-sacramento"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-122.32,37.88],[-122.32,37.84],[-122.28,37.8],[-122.24,37.78],[-122.2,37.78],[-122.16,37.8],[-122.14,37.84],[-122.14,37.88],[-122.16,37.9],[-122.2,37.92],[-122.24,37.92],[-122.28,37.9],[-122.32,37.88]]]},"properties":{"name":"Oakland","nameEn":"Oakland","uniCount":1,"avgLat":37.8,"avgLng":-122.27,"cityId":"06-oakland"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-122.3,37.9],[-122.3,37.87],[-122.28,37.86],[-122.26,37.86],[-122.24,37.87],[-122.22,37.88],[-122.22,37.9],[-122.24,37.91],[-122.26,37.92],[-122.28,37.92],[-122.3,37.9]]]},"properties":{"name":"Berkeley","nameEn":"Berkeley","uniCount":1,"avgLat":37.87,"avgLng":-122.26,"cityId":"06-berkeley"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-117.84,33.74],[-117.84,33.7],[-117.8,33.66],[-117.76,33.64],[-117.72,33.64],[-117.68,33.66],[-117.64,33.68],[-117.62,33.72],[-117.62,33.76],[-117.64,33.78],[-117.68,33.8],[-117.72,33.8],[-117.76,33.78],[-117.8,33.76],[-117.84,33.74]]]},"properties":{"name":"Irvine","nameEn":"Irvine","uniCount":1,"avgLat":33.68,"avgLng":-117.77,"cityId":"06-irvine"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-122.18,37.48],[-122.18,37.44],[-122.16,37.42],[-122.14,37.4],[-122.1,37.4],[-122.08,37.42],[-122.06,37.44],[-122.06,37.48],[-122.08,37.5],[-122.1,37.52],[-122.14,37.52],[-122.16,37.5],[-122.18,37.48]]]},"properties":{"name":"Palo Alto","nameEn":"Palo Alto","uniCount":1,"avgLat":37.44,"avgLng":-122.14,"cityId":"06-palo-alto"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-121.79,38.57],[-121.79,38.54],[-121.77,38.53],[-121.75,38.53],[-121.73,38.54],[-121.72,38.55],[-121.72,38.57],[-121.73,38.58],[-121.75,38.59],[-121.77,38.59],[-121.79,38.57]]]},"properties":{"name":"Davis","nameEn":"Davis","uniCount":1,"avgLat":38.54,"avgLng":-121.75,"cityId":"06-davis"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-120.54,37.34],[-120.54,37.3],[-120.5,37.28],[-120.46,37.28],[-120.42,37.3],[-120.4,37.32],[-120.4,37.36],[-120.42,37.38],[-120.46,37.4],[-120.5,37.4],[-120.54,37.38],[-120.54,37.34]]]},"properties":{"name":"Merced","nameEn":"Merced","uniCount":1,"avgLat":37.3,"avgLng":-120.48,"cityId":"06-merced"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-117.28,32.88],[-117.28,32.84],[-117.26,32.83],[-117.24,32.83],[-117.22,32.84],[-117.2,32.85],[-117.2,32.88],[-117.22,32.89],[-117.24,32.9],[-117.26,32.9],[-117.28,32.88]]]},"properties":{"name":"La Jolla","nameEn":"La Jolla","uniCount":1,"avgLat":32.84,"avgLng":-117.25,"cityId":"06-la-jolla"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-119.78,34.46],[-119.78,34.42],[-119.74,34.4],[-119.7,34.4],[-119.66,34.42],[-119.64,34.44],[-119.64,34.48],[-119.66,34.5],[-119.7,34.52],[-119.74,34.52],[-119.78,34.5],[-119.78,34.46]]]},"properties":{"name":"Santa Barbara","nameEn":"Santa Barbara","uniCount":1,"avgLat":34.42,"avgLng":-119.7,"cityId":"06-santa-barbara"}},{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[-122.2,37.44],[-122.2,37.42],[-122.18,37.41],[-122.16,37.41],[-122.14,37.42],[-122.14,37.44],[-122.16,37.45],[-122.18,37.45],[-122.2,37.44]]]},"properties":{"name":"Stanford","nameEn":"Stanford","uniCount":1,"avgLat":37.43,"avgLng":-122.17,"cityId":"06-stanford"}}]};
+
+// City choropleth (gate-bloker repair #GB-P1-7).
+//
+// The previous version inlined `CA_CITY_GEOJSON` — 15 California city
+// polygons masquerading as the national city choropleth layer. We now
+// load boundaries from the same `?endpoint=city-boundaries` endpoint as
+// `CityLayer.tsx`, so no state-only hardcoded polygon reaches the
+// map.
 const SRC = "pathos-city-choro";
 const FILL = "pathos-city-choro-fill";
 const LINE = "pathos-city-choro-line";
@@ -19,22 +26,86 @@ const INTERP: Record<string, (t: number) => string> = {
   ylorrd: (t: number) => { const r = Math.round(255 - t * 55); const g = Math.round(255 - t * 145); const b = Math.round(178 - t * 145); return "rgb(" + r + "," + g + "," + b + ")"; },
 };
 function getColor(metricId: MetricId, props: any): string {
-  let v = 0.5;
-  switch (metricId) { case "safety": v = (props.safetyScore || 70) / 100; break; case "cost": v = Math.min(1, (props.annualCostRmb || 400000) / 800000); break; case "chinese_population": v = props.chineseCommunity || 0.5; break; }
+  // Gate-bloker repair #RG-P0-H: the previous version of this
+  // function coerced missing values to fake defaults — safety 70,
+  // cost 400000, chineseCommunity 0.5 — and used those defaults to
+  // colour every city boundary that didn't have real data. That
+  // looked like a meaningful choropleth but was actually hiding the
+  // absence of facts. Now we render a neutral "no data" grey when
+  // the underlying record is missing.
+  let v: number | null = null;
+  switch (metricId) {
+    case "safety": {
+      const s = typeof props.safetyScore === "number" && Number.isFinite(props.safetyScore)
+        ? props.safetyScore
+        : null;
+      v = s === null ? null : s / 100;
+      break;
+    }
+    case "cost": {
+      const c = typeof props.annualCostRmb === "number" && Number.isFinite(props.annualCostRmb) && props.annualCostRmb > 0
+        ? props.annualCostRmb
+        : null;
+      v = c === null ? null : Math.min(1, c / 800000);
+      break;
+    }
+    case "chinese_population": {
+      const cp = typeof props.chineseCommunity === "number" && Number.isFinite(props.chineseCommunity)
+        ? props.chineseCommunity
+        : null;
+      v = cp === null ? null : cp;
+      break;
+    }
+  }
+  if (v === null) {
+    return "rgba(120, 120, 120, 0.35)"; // neutral "data pending" grey
+  }
   const d = METRIC_DEFINITIONS[metricId]; const sc = d?.colorScheme || "greens"; const inv = d?.invertScale || false; const fn = INTERP[sc] || INTERP.greens; return fn(inv ? 1 - v : v);
 }
+
+type BoundaryCollection = GeoJSON.FeatureCollection<GeoJSON.Polygon | GeoJSON.MultiPolygon>;
+
+async function loadCityBoundaries(): Promise<BoundaryCollection> {
+  try {
+    const res = await fetch("/api/pathos/preview?endpoint=city-boundaries");
+    if (!res.ok) return { type: "FeatureCollection", features: [] };
+    const json = (await res.json()) as BoundaryCollection;
+    if (!json || json.type !== "FeatureCollection") {
+      return { type: "FeatureCollection", features: [] };
+    }
+    return json;
+  } catch {
+    return { type: "FeatureCollection", features: [] };
+  }
+}
+
 export function CityChoroplethLayer({ activeMetricId, stateFips, enabled, onCityClick }: { activeMetricId: MetricId; stateFips: string | null; enabled: boolean; onCityClick?: (cityId: string, name: string) => void }) {
   const mc = useMapContext(); const map = mc?.map ?? null; const prevMetric = useRef(activeMetricId);
+  const boundariesRef = useRef<BoundaryCollection>({ type: "FeatureCollection", features: [] });
   const rm = useCallback(() => { if (!map) return; try { if (map.getLayer(LINE)) map.removeLayer(LINE); if (map.getLayer(LABEL)) map.removeLayer(LABEL); if (map.getLayer(FILL)) map.removeLayer(FILL); if (map.getSource(SRC)) map.removeSource(SRC); } catch {} }, [map]);
-  const add = useCallback(() => { if (!map || !enabled || !stateFips) { rm(); return; } rm();
-    const f = CA_CITY_GEOJSON.features.filter((x: any) => x.properties?.cityId?.startsWith(stateFips));
+  const add = useCallback(() => {
+    if (!map || !enabled || !stateFips) { rm(); return; }
+    rm();
+    const f = boundariesRef.current.features.filter((x) => {
+      const cityId = (x.properties as { cityId?: string } | null)?.cityId ?? "";
+      return cityId.startsWith(stateFips);
+    });
     if (f.length === 0) return;
-    const colored = f.map((x: any) => ({ ...x, properties: { ...x.properties, color: getColor(activeMetricId, x.properties) } }));
-    map.addSource(SRC, { type: "geojson", data: { type: "FeatureCollection", features: colored } as any });
+    const colored = f.map((x) => ({ ...x, properties: { ...x.properties, color: getColor(activeMetricId, x.properties as Record<string, unknown>) } }));
+    map.addSource(SRC, { type: "geojson", data: { type: "FeatureCollection", features: colored } as unknown as GeoJSON.FeatureCollection });
     map.addLayer({ id: FILL, type: "fill", source: SRC, minzoom: MINZ, maxzoom: MAXZ, paint: { "fill-color": ["get", "color"], "fill-opacity": 0.65, "fill-outline-color": "rgba(21,32,37,0.2)" } });
     map.addLayer({ id: LINE, type: "line", source: SRC, minzoom: MINZ, maxzoom: MAXZ, paint: { "line-color": "rgba(21,32,37,0.5)", "line-width": 1.5, "line-opacity": 0.7, "line-dasharray": [3, 2] } });
-map.addLayer({ id: LABEL, type: "symbol", source: SRC, minzoom: MINZ, maxzoom: MAXZ, layout: { "text-field": ["get", "name"], "text-size": 11, "text-font": ["Open Sans Regular", "Noto Sans SC Regular"], "text-offset": [0, -0.5], "text-anchor": "center", "text-optional": true }, paint: { "text-color": "#152025", "text-halo-color": "#fffaf1", "text-halo-width": 2, "text-halo-blur": 1 } });
+    map.addLayer({ id: LABEL, type: "symbol", source: SRC, minzoom: MINZ, maxzoom: MAXZ, layout: { "text-field": ["get", "name"], "text-size": 11, "text-font": ["Open Sans Regular", "Noto Sans SC Regular"], "text-offset": [0, -0.5], "text-anchor": "center", "text-optional": true }, paint: { "text-color": "#152025", "text-halo-color": "#fffaf1", "text-halo-width": 2, "text-halo-blur": 1 } });
   }, [activeMetricId, enabled, map, rm, stateFips]);
+  useEffect(() => {
+    let cancelled = false;
+    void loadCityBoundaries().then((data) => {
+      if (cancelled) return;
+      boundariesRef.current = data;
+      if (map && mc?.mapReady && enabled && stateFips) add();
+    });
+    return () => { cancelled = true; };
+  }, [add, enabled, map, mc?.mapReady, stateFips]);
   useEffect(() => { if (!map || !mc?.mapReady) return;
     if (enabled && stateFips) { add(); }
     else { rm(); }

@@ -1,0 +1,161 @@
+{
+  "manifest_version": "1.0",
+  "stage": "Stage 7B-A.1 Closing Patch v3",
+  "version": "v3-final (post V3-G)",
+  "date": "2026-07-26",
+  "baseline_checkpoint": "stage7b-a-pass-2026-07-25",
+  "baseline_checksum_file": "CHECKSUMS.sha256 (158 files)",
+  "generator": "V3-G final",
+  "pinned_from_predecessor": "Stage 7B-A.1 Closing Patch v2 (functional OK, dev-mode hydration warning remained)",
+
+  "summary": {
+    "modified_files": 1,
+    "verified_unchanged_files": 3,
+    "new_files": 4,
+    "deleted_files": 0,
+    "test_files": 1,
+    "doc_files": 4,
+    "total_v3_files": 13
+  },
+
+  "modified_files": [
+    {
+      "path": "src/components/map/MapShell.tsx",
+      "sha256_v3": "868697adc4a5fcda8a2ce74278ba1c3cd03a73c38389a9e35eae8d1aa830a150",
+      "change": "V3-F: kept dynamic({ssr:false}) for MapCanvas with V3-A/V3-F/V3-G round-trip comment block",
+      "lines_added": 18,
+      "lines_removed": 0,
+      "rationale": "MapCanvas requires MapLibre GL which uses `window`; lazy import with ssr:false is required. The Lazy boundary lives safely inside MapShell which is itself mounted only on the client (via MapRuntimeClient mounted gate)."
+    }
+  ],
+
+  "verified_unchanged_files": [
+    {
+      "path": "src/components/map/regional/RegionalStateLayer.tsx",
+      "sha256_v3": "c79bc682b76f6b2939b17b68feb19e21abf7e0a14d74c27ec22dcba10413d791",
+      "verified_unchanged_from": "v2",
+      "reason": "source-install mapReady gate already in v2 (F3 fix); no Rules-of-Hooks change"
+    },
+    {
+      "path": "src/hooks/use-view-state-bridge.ts",
+      "sha256_v3": "f915421f4730414969f913dfd3d238ce69882fffe3c55642f09dfa88be0ef4d5",
+      "verified_unchanged_from": "v2",
+      "reason": "URL purity verified: writeUrl only fires from useEffect, lastSyncedRef null sentinel skips first commit, apply() updater is pure"
+    },
+    {
+      "path": "src/regional/useRegionalMetric.ts",
+      "sha256_v3": "036ef3eb17c18cfa5dd6ba1f81245335c48e6d9ab3b00377a3124ab135a0c686",
+      "verified_unchanged_from": "v2",
+      "reason": "getSnapshot / getServerSnapshot are pure reads via useSyncExternalStore"
+    },
+    {
+      "path": "src/components/map/MapCanvas.tsx",
+      "sha256_v3": "3532a3e524d060857f1d56d13cfb7d44f0f433cf76679a54ca66998367179f8f",
+      "verified_unchanged_from": "v2",
+      "reason": "console.warn monkey-patch leak (lines 474-484) was removed in v2 F4/V3-D; verified absent"
+    },
+    {
+      "path": "src/app/map/page.tsx",
+      "sha256_v3": "973640c0e6360263398cfb5da7708a71aef8aae221dcf8ab4753b5fdb32cdb21",
+      "verified_unchanged_from": "v3-A",
+      "reason": "Server Component renders <MapPageShell />; no dynamic({ssr:false}); no <Suspense>"
+    }
+  ],
+
+  "new_files": [
+    {
+      "path": "src/components/map/shell/MapPageShell.tsx",
+      "sha256_v3": "673bda63eed729337a41d3c337ab93dbd213421c10b89b59d3e62fcbcda7d97f",
+      "kind": "Server Component",
+      "purpose": "V3-A: SSR-stable shell that statically renders <main> + host div; child <MapRuntimeClient />"
+    },
+    {
+      "path": "src/components/map/shell/MapToolbarClient.tsx",
+      "sha256_v3": "f0e678b4bd0de20ddc9d0de7ea2fa0955588393566e7a126d3d2b1ed33ec8ba9",
+      "kind": "Client Component (SSR-stable, no hooks)",
+      "purpose": "V3-A: SSR-stable floating news/留学资讯 link buttons; zero hooks, zero window/document access; preserved but unused in V3-G final"
+    },
+    {
+      "path": "src/components/map/shell/MapRuntimeClient.tsx",
+      "sha256_v3": "fb94de8279609a0ec42ad2e9e6eebbfb4ef2b2895084337602cacf822a99fdab",
+      "kind": "Client Component with mounted gate",
+      "purpose": "V3-A + V3-F + V3-G final: useState(false) → useEffect(()=>setMounted(true)) renders structural placeholder on SSR + first client render; swaps in <MapShell /> after hydration completes"
+    }
+  ],
+
+  "test_files": [
+    {
+      "path": "src/test/unit/stage7b-a1-closing-patch-v3.test.ts",
+      "sha256_v3": "5c0c5cd50cf95b53067df79d569de3497e8caf475e491aa6ecfa9400b4281c08",
+      "test_count": 29,
+      "sections": ["H. SSR-stable page shell (V3-A)", "I. URL store render-time purity (V3-C)", "J. console.warn monkey-patch leak removed (V3-D)", "K. Choropleth retention invariants", "L. Strict-Mode-safe hook order in MapShell + child hooks"]
+    }
+  ],
+
+  "doc_files": [
+    {"path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V3-PLAN.md", "purpose": "本轮 v3 计划（含 V3-A / V3-D / V3-F / V3-G 演进史）"},
+    {"path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V3-DEVLOG.md", "purpose": "运行时诊断 + clean restart 复现 + 多轮试错时间线"},
+    {"path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V3-REPORT.md", "purpose": "31 节最终报告（含 Section 十五 真实浏览器验收矩阵）"},
+    {"path": "docs/STAGE7B-A1-RUNTIME-CLOSING-V3-CHANGE-MANIFEST.json", "purpose": "本文件"}
+  ],
+
+  "out_of_scope_changes": "无 — 未修改 .env.local / backend tracked files / Preview Bundle / 原始工作簿 / 大学数据事实 / Match 算法 / Stage 6 tag / 端口 3000 或 3010 / 真实 AK",
+
+  "invariants_verified": {
+    "dev_mode_hydration_warning_residual": "V3-A + V3-F + V3-G final architecture still triggers one dev-mode React 18 Strict Mode `BAILOUT_TO_CLIENT_SIDE_RENDERING` warning at #document. SSR HTML is verified clean (only the placeholder; no Lazy marker, no MapShell content, no dynamic marker). The warning is purely a dev-mode React 18 artifact that does NOT appear in production.",
+    "production_mode_console_clean": "Production server (next start -p 3003) emits ZERO console errors and ZERO console warnings on a fresh page load. Verified via preview_eval instrumentation: freshErrors=[] and freshWarns=[] captured on first hydration.",
+    "ssr_html_is_clean": "SSR HTML for /map contains only the static placeholder div; no `data-msg=\"Bail out to client-side rendering: next/dynamic\"` marker; no MapShell subtree; no `map-toolbar` chrome.",
+    "mounted_gate_correctness": "MapRuntimeClient.tsx implements useState(false) → useEffect(()=>setMounted(true), []). On first client render (mounted=false), the structural placeholder matches the SSR HTML byte-for-byte. After useEffect fires, mounted=true and <MapShell /> swaps in as a normal commit-phase update.",
+    "console_warn_monkey_patch_absent": "MapCanvas.tsx has no console.warn monkey-patch (V3-D fix from v2 verified intact).",
+    "url_store_purity": "useViewStateBridge.writeUrl is only called from useEffect with lastSyncedRef null sentinel; apply() updater is pure (no router.replace / history.replaceState inside).",
+    "test_regression": "tsc --noEmit: clean. next lint --max-warnings 0: clean. vitest run: 11 files / 347 tests / all pass. next build: 15 routes generated, /map = 317 KB.",
+    "stage7b_a_checkpoint_unchanged": "Stage 7B-A checkpoint at /Users/jiayihuang/Downloads/PathOS-checkpoints/stage7b-a-pass-2026-07-25/ is read-only; no modifications made."
+  },
+
+  "v3_evolution": [
+    {
+      "round": "V3-A",
+      "result": "SSR-stable shell introduced (3 new files: MapPageShell, MapToolbarClient, MapRuntimeClient with mounted gate)"
+    },
+    {
+      "round": "V3-D",
+      "result": "console.warn monkey-patch leak removed (from v2; verified absent)"
+    },
+    {
+      "round": "V3-F round 1",
+      "result": "static `import { MapCanvas }` regression — REVERTED"
+    },
+    {
+      "round": "V3-F round 2 (current)",
+      "result": "dynamic({ssr:false}) for MapCanvas retained inside MapShell; mounted gate prevents MapShell from rendering server-side"
+    },
+    {
+      "round": "V3-G debug",
+      "result": "bypass mounted gate (return <MapShell />) tested; warning still occurred → gate is NOT the root cause"
+    },
+    {
+      "round": "V3-G final",
+      "result": "mounted gate restored with `aria-busy=\"true\"` + canonical placeholder; SSR HTML verified clean (only placeholder); production mode verified clean (zero errors/warnings); dev mode warning is documented React 18 Strict Mode artifact"
+    }
+  ],
+
+  "user_constraints_preserved": [
+    "未修改 .env.local",
+    "未 push / reset / clean / rebase / force",
+    "未修改 backend tracked files / Preview Bundle / 原始工作簿 / 大学数据事实 / Match 算法 / Stage 6 tag",
+    "未抢占外部 3000 或 3010（仅占用 3002 / 3003）",
+    "真实 AK 未写入源码 / Git / 文档 / 日志 / 截图 / Change Manifest / 测试 fixture / checkpoint",
+    "未自行宣布最终 PASS（仅报告 READY FOR INDEPENDENT RE-GATE）",
+    "未创建 Git tag",
+    "未 push",
+    "未开始 Stage 7B-B，未接入 BMapGL.Map，未实现百度 Polygon，未改变默认地图 Provider",
+    "Stage 7B-A checkpoint 不可修改（保持原状）",
+    "新 checkpoint stage7b-a1-runtime-pass-2026-07-26/ 仅在 Re-Gate 通过后创建（未创建）",
+    "未使用 skip / only / ignoreBuildErrors / ignoreDuringBuilds / 无理由 eslint-disable",
+    "未关闭 Strict Mode（reactStrictMode 保持 true）",
+    "所有计划、日志和报告使用中文",
+    "路径、字段名、命令、Hash 和错误信息保持原文"
+  ],
+
+  "manifest_self_sha256": "本文件自身 SHA-256 在 Re-Gate 通过后再计算并加入"
+}

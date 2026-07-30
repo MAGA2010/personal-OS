@@ -1,0 +1,885 @@
+{
+  "fields": [
+    {
+      "backend_path": "stage4b.identity",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "identity",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "map",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.coordinates",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "coordinates",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "map",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.school_type",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "school_type",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.undergraduate_enrollment",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "undergraduate_enrollment",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.graduate_enrollment",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "graduate_enrollment",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.total_enrollment",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "total_enrollment",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.chinese_display_name",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "chinese_display_name",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.acceptance_rate",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "acceptance_rate",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.graduation_rate",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "graduation_rate",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.retention_rate",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "retention_rate",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.sat",
+      "coverage": {
+        "available_records": 53,
+        "coverage_percent": 85.48,
+        "expected_records": 62,
+        "missing_records": 9,
+        "pending_records": 0,
+        "verified_records": 53
+      },
+      "field": "sat",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "partial"
+    },
+    {
+      "backend_path": "stage4b.act",
+      "coverage": {
+        "available_records": 53,
+        "coverage_percent": 85.48,
+        "expected_records": 62,
+        "missing_records": 9,
+        "pending_records": 0,
+        "verified_records": 53
+      },
+      "field": "act",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P2",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "partial"
+    },
+    {
+      "backend_path": "stage4b.test_optional_policy",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "test_optional_policy",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.toefl_policy",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "toefl_policy",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.national_ranking",
+      "coverage": {
+        "available_records": 50,
+        "coverage_percent": 80.65,
+        "expected_records": 62,
+        "missing_records": 12,
+        "pending_records": 0,
+        "verified_records": 50
+      },
+      "field": "national_ranking",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P0",
+      "product_area": "filter",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "partial"
+    },
+    {
+      "backend_path": "stage4b.top_five_programs",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "top_five_programs",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.tuition",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "tuition",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "comparison",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.student_faculty_ratio",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "student_faculty_ratio",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "comparison",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.nearest_towns",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "nearest_towns",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.county_geoid",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "county_geoid",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "map",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.census_place_geoid",
+      "coverage": {
+        "available_records": 46,
+        "coverage_percent": 74.19,
+        "expected_records": 62,
+        "missing_records": 16,
+        "pending_records": 0,
+        "verified_records": 46
+      },
+      "field": "census_place_geoid",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "partial"
+    },
+    {
+      "backend_path": "stage4b.cbsa_geoid",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "cbsa_geoid",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.median_household_income",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "median_household_income",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.median_gross_rent",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "median_gross_rent",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "comparison",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.population_density",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "population_density",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.asian_population_ratio",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "asian_population_ratio",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.chinese_population_ratio",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "chinese_population_ratio",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.crime_rate",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "crime_rate",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.safety_index",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "safety_index",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.cost_of_living_index",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "cost_of_living_index",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "comparison",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "missing"
+    },
+    {
+      "backend_path": "stage4b.transport_accessibility",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 62,
+        "verified_records": 0
+      },
+      "field": "transport_accessibility",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P2",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "partial"
+    },
+    {
+      "backend_path": "stage4b.history",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "history",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.anecdotes",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "anecdotes",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.notable_attendance",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "notable_attendance",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.program_people",
+      "coverage": {
+        "available_records": 180,
+        "coverage_percent": 58.06,
+        "expected_records": 310,
+        "missing_records": 130,
+        "pending_records": 0,
+        "verified_records": 180
+      },
+      "field": "program_people",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P2",
+      "product_area": "detail",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "partial"
+    },
+    {
+      "backend_path": "stage4b.marker_summary_readiness",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "marker_summary_readiness",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "map",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.search_readiness",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "search_readiness",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "filter",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.filter_readiness",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "filter_readiness",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "filter",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.comparison_readiness",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "comparison_readiness",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "comparison",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.parent_mode_readiness",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "parent_mode_readiness",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "mode",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "blocked"
+    },
+    {
+      "backend_path": "stage4b.student_mode_readiness",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "student_mode_readiness",
+      "next_collection_action": "none",
+      "priority": "P1",
+      "product_area": "mode",
+      "remaining_gap_reason": null,
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.ai_context_readiness",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 62,
+        "verified_records": 0
+      },
+      "field": "ai_context_readiness",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "ai",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "partial"
+    },
+    {
+      "backend_path": "stage4b.source_panel_readiness",
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0,
+        "pending_records": 0,
+        "verified_records": 62
+      },
+      "field": "source_panel_readiness",
+      "next_collection_action": "none",
+      "priority": "P0",
+      "product_area": "detail",
+      "remaining_gap_reason": null,
+      "required_for_mvp": true,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "ready"
+    },
+    {
+      "backend_path": "stage4b.map_choropleth_readiness",
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62,
+        "pending_records": 0,
+        "verified_records": 0
+      },
+      "field": "map_choropleth_readiness",
+      "next_collection_action": "credentialed_official_source_intake_or_review",
+      "priority": "P1",
+      "product_area": "map",
+      "remaining_gap_reason": "official_uniform_data_incomplete",
+      "required_for_mvp": false,
+      "scope": "school",
+      "source_quality": "official_or_verified_backend",
+      "status": "blocked"
+    }
+  ],
+  "record_type": "stage4b_product_data_coverage_matrix"
+}

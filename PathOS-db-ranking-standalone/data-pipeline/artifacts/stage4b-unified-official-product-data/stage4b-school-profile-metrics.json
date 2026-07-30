@@ -1,0 +1,6023 @@
+{
+  "incomplete": true,
+  "not_final": true,
+  "record_type": "stage4b_school_profile_metrics",
+  "school_count": 62,
+  "source_limited": true,
+  "universities": [
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 64398,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=104151; LOCALE=12",
+        "school_type": "UNITID=104151; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=104151; UGDS=64398"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "104151",
+      "university_display_name": "Arizona State University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:boston-college",
+      "canonical_id": "institution:boston-college",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 9865,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=164924; LOCALE=13",
+        "school_type": "UNITID=164924; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=164924; UGDS=9865"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "164924",
+      "university_display_name": "Boston College"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 17850,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=164988; LOCALE=11",
+        "school_type": "UNITID=164988; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=164988; UGDS=17850"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "164988",
+      "university_display_name": "Boston University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7273,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=217156; LOCALE=12",
+        "school_type": "UNITID=217156; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=217156; UGDS=7273"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "217156",
+      "university_display_name": "Brown University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "town_distant",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 3818,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=211291; LOCALE=32",
+        "school_type": "UNITID=211291; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=211291; UGDS=3818"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "211291",
+      "university_display_name": "Bucknell University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 1023,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=110404; LOCALE=12",
+        "school_type": "UNITID=110404; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=110404; UGDS=1023"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "110404",
+      "university_display_name": "California Institute of Technology"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7187,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=211440; LOCALE=11",
+        "school_type": "UNITID=211440; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=211440; UGDS=7187"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "211440",
+      "university_display_name": "Carnegie Mellon University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 8899,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=190150; LOCALE=11",
+        "school_type": "UNITID=190150; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=190150; UGDS=8899"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "190150",
+      "university_display_name": "Columbia University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 15935,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=190415; LOCALE=13",
+        "school_type": "UNITID=190415; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=190415; UGDS=15935"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "190415",
+      "university_display_name": "Cornell University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "town_remote",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 4367,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=182670; LOCALE=33",
+        "school_type": "UNITID=182670; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=182670; UGDS=4367"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "182670",
+      "university_display_name": "Dartmouth College"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 6417,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=198419; LOCALE=11",
+        "school_type": "UNITID=198419; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=198419; UGDS=6417"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "198419",
+      "university_display_name": "Duke University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7275,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=139658; LOCALE=11",
+        "school_type": "UNITID=139658; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=139658; UGDS=7275"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "139658",
+      "university_display_name": "Emory University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7462,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=131496; LOCALE=11",
+        "school_type": "UNITID=131496; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=131496; UGDS=7462"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "131496",
+      "university_display_name": "Georgetown University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 18260,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=139755; LOCALE=11",
+        "school_type": "UNITID=139755; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=139755; UGDS=18260"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "139755",
+      "university_display_name": "Georgia Institute of Technology"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7755,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=166027; LOCALE=12",
+        "school_type": "UNITID=166027; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=166027; UGDS=7755"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "166027",
+      "university_display_name": "Harvard University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 915,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=115409; LOCALE=21",
+        "school_type": "UNITID=115409; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=115409; UGDS=915"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "115409",
+      "university_display_name": "Harvey Mudd College"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 36571,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=151351; LOCALE=13",
+        "school_type": "UNITID=151351; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=151351; UGDS=36571"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "151351",
+      "university_display_name": "Indiana University Bloomington"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 5617,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=162928; LOCALE=11",
+        "school_type": "UNITID=162928; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=162928; UGDS=5617"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "162928",
+      "university_display_name": "Johns Hopkins University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 5803,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=213543; LOCALE=13",
+        "school_type": "UNITID=213543; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=213543; UGDS=5803"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "213543",
+      "university_display_name": "Lehigh University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 11576,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=146719; LOCALE=11",
+        "school_type": "UNITID=146719; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=146719; UGDS=11576"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "146719",
+      "university_display_name": "Loyola University Chicago"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 4571,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=166683; LOCALE=12",
+        "school_type": "UNITID=166683; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=166683; UGDS=4571"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "166683",
+      "university_display_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 29430,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=193900; LOCALE=11",
+        "school_type": "UNITID=193900; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=193900; UGDS=29430"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "193900",
+      "university_display_name": "New York University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 15719,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=167358; LOCALE=11",
+        "school_type": "UNITID=167358; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=167358; UGDS=15719"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "167358",
+      "university_display_name": "Northeastern University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 8960,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=147767; LOCALE=13",
+        "school_type": "UNITID=147767; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=147767; UGDS=8960"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "147767",
+      "university_display_name": "Northwestern University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 44617,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=204796; LOCALE=11",
+        "school_type": "UNITID=204796; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=204796; UGDS=44617"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "204796",
+      "university_display_name": "The Ohio State University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 373,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=441982; LOCALE=21",
+        "school_type": "UNITID=441982; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=441982; UGDS=373"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "441982",
+      "university_display_name": "Olin College of Engineering"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 5579,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=186131; LOCALE=13",
+        "school_type": "UNITID=186131; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=186131; UGDS=5579"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "186131",
+      "university_display_name": "Princeton University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 39637,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=243780; LOCALE=13",
+        "school_type": "UNITID=243780; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=243780; UGDS=39637"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "243780",
+      "university_display_name": "Purdue University—Main Campus"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 4562,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=227757; LOCALE=11",
+        "school_type": "UNITID=227757; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=227757; UGDS=4562"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "227757",
+      "university_display_name": "Rice University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 2224,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=152318; LOCALE=13",
+        "school_type": "UNITID=152318; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=152318; UGDS=2224"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "152318",
+      "university_display_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 36357,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=186380; LOCALE=13",
+        "school_type": "UNITID=186380; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=186380; UGDS=36357"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "186380",
+      "university_display_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7841,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=243744; LOCALE=21",
+        "school_type": "UNITID=243744; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=243744; UGDS=7841"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "243744",
+      "university_display_name": "Stanford University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 59099,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=228723; LOCALE=12",
+        "school_type": "UNITID=228723; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=228723; UGDS=59099"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "228723",
+      "university_display_name": "Texas A&M University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 6804,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=168148; LOCALE=21",
+        "school_type": "UNITID=168148; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=168148; UGDS=6804"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "168148",
+      "university_display_name": "Tufts University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 33073,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=110635; LOCALE=12",
+        "school_type": "UNITID=110635; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=110635; UGDS=33073"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "110635",
+      "university_display_name": "University of California, Berkeley"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 31777,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=110644; LOCALE=23",
+        "school_type": "UNITID=110644; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=110644; UGDS=31777"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "110644",
+      "university_display_name": "University of California, Davis"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 29494,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=110653; LOCALE=11",
+        "school_type": "UNITID=110653; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=110653; UGDS=29494"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "110653",
+      "university_display_name": "University of California, Irvine"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 33040,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=110662; LOCALE=11",
+        "school_type": "UNITID=110662; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=110662; UGDS=33040"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "110662",
+      "university_display_name": "University of California, Los Angeles"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "canonical_id": "institution:university-of-california-san-diego",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 33787,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=110680; LOCALE=11",
+        "school_type": "UNITID=110680; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=110680; UGDS=33787"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "110680",
+      "university_display_name": "University of California, San Diego"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 23205,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=110705; LOCALE=22",
+        "school_type": "UNITID=110705; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=110705; UGDS=23205"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "110705",
+      "university_display_name": "University of California, Santa Barbara"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7540,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=144050; LOCALE=11",
+        "school_type": "UNITID=144050; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=144050; UGDS=7540"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "144050",
+      "university_display_name": "University of Chicago"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 31578,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=126614; LOCALE=12",
+        "school_type": "UNITID=126614; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=126614; UGDS=31578"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "126614",
+      "university_display_name": "University of Colorado Boulder"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 34102,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=134130; LOCALE=12",
+        "school_type": "UNITID=134130; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=134130; UGDS=34102"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "134130",
+      "university_display_name": "University of Florida"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 31310,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=139959; LOCALE=12",
+        "school_type": "UNITID=139959; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=139959; UGDS=31310"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "139959",
+      "university_display_name": "University of Georgia"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 34623,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=145637; LOCALE=13",
+        "school_type": "UNITID=145637; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=145637; UGDS=34623"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "145637",
+      "university_display_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 21691,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=153658; LOCALE=13",
+        "school_type": "UNITID=153658; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=153658; UGDS=21691"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "153658",
+      "university_display_name": "University of Iowa"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 30246,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=163286; LOCALE=21",
+        "school_type": "UNITID=163286; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=163286; UGDS=30246"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "163286",
+      "university_display_name": "University of Maryland, College Park"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 33488,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=170976; LOCALE=12",
+        "school_type": "UNITID=170976; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=170976; UGDS=33488"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "170976",
+      "university_display_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 30469,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=174066; LOCALE=11",
+        "school_type": "UNITID=174066; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=174066; UGDS=30469"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "174066",
+      "university_display_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_small",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 20556,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=199120; LOCALE=13",
+        "school_type": "UNITID=199120; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=199120; UGDS=20556"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "199120",
+      "university_display_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 8923,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=152080; LOCALE=21",
+        "school_type": "UNITID=152080; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=152080; UGDS=8923"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "152080",
+      "university_display_name": "University of Notre Dame"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 10768,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=215062; LOCALE=11",
+        "school_type": "UNITID=215062; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=215062; UGDS=10768"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "215062",
+      "university_display_name": "University of Pennsylvania"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 6488,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=195030; LOCALE=12",
+        "school_type": "UNITID=195030; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=195030; UGDS=6488"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "195030",
+      "university_display_name": "University of Rochester"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 28113,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=218663; LOCALE=12",
+        "school_type": "UNITID=218663; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=218663; UGDS=28113"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "218663",
+      "university_display_name": "University of South Carolina"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 20817,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=123961; LOCALE=11",
+        "school_type": "UNITID=123961; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=123961; UGDS=20817"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "123961",
+      "university_display_name": "University of Southern California"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 42100,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=228778; LOCALE=11",
+        "school_type": "UNITID=228778; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=228778; UGDS=42100"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "228778",
+      "university_display_name": "University of Texas—Austin"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 17315,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=234076; LOCALE=22",
+        "school_type": "UNITID=234076; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=234076; UGDS=17315"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "234076",
+      "university_display_name": "University of Virginia"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 31588,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=236948; LOCALE=11",
+        "school_type": "UNITID=236948; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=236948; UGDS=31588"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "236948",
+      "university_display_name": "University of Washington"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 35665,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=240444; LOCALE=11",
+        "school_type": "UNITID=240444; CONTROL=1",
+        "undergraduate_enrollment": "UNITID=240444; UGDS=35665"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 1,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "public",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "240444",
+      "university_display_name": "University of Wisconsin—Madison"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7143,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=221999; LOCALE=11",
+        "school_type": "UNITID=221999; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=221999; UGDS=7143"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "221999",
+      "university_display_name": "Vanderbilt University"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "suburb_large",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 7897,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=179867; LOCALE=21",
+        "school_type": "UNITID=179867; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=179867; UGDS=7897"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "179867",
+      "university_display_name": "Washington University in St. Louis"
+    },
+    {
+      "campus_setting": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_locale_category",
+        "value": "city_midsize",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "chinese_display_name": {
+        "null_reason": "no_reviewed_official_chinese_name_source",
+        "reference_year": 2024,
+        "scope": "display_alias",
+        "source_ids": [],
+        "unit": "text",
+        "value": null,
+        "verification_status": "deferred",
+        "warnings": []
+      },
+      "enrollment": {
+        "graduate": {
+          "null_reason": "official_graduate_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "graduate",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "total": {
+          "null_reason": "official_total_enrollment_not_in_frozen_inputs",
+          "reference_year": 2024,
+          "scope": "institution_total",
+          "source_ids": [
+            "source_stage4b_ipeds_hd2024"
+          ],
+          "unit": "students",
+          "value": null,
+          "verification_status": "deferred",
+          "warnings": []
+        },
+        "undergraduate": {
+          "null_reason": null,
+          "reference_year": 2025,
+          "scope": "undergraduate_degree_seeking",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "students",
+          "value": 6811,
+          "verification_status": "verified",
+          "warnings": [
+            "reference_year_is_dataset_release_year; uniform cohort year is not published in the frozen release"
+          ]
+        }
+      },
+      "evidence_anchors": {
+        "campus_setting": "UNITID=130794; LOCALE=12",
+        "school_type": "UNITID=130794; CONTROL=2",
+        "undergraduate_enrollment": "UNITID=130794; UGDS=6811"
+      },
+      "public_private_control": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "ipeds_control_code",
+        "value": 2,
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "school_type": {
+        "null_reason": null,
+        "reference_year": 2024,
+        "scope": "institution",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ],
+        "unit": "enum",
+        "value": "private_nonprofit",
+        "verification_status": "verified",
+        "warnings": []
+      },
+      "unitid": "130794",
+      "university_display_name": "Yale University"
+    }
+  ]
+}

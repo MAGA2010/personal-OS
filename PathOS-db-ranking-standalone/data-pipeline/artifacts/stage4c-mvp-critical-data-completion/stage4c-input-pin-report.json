@@ -1,0 +1,14 @@
+{
+  "expected_counts": {
+    "duplicates": 0,
+    "identified_people": 180,
+    "national_ranking_memberships": 50,
+    "program_people_gaps": 130,
+    "program_slots": 310,
+    "schools": 62,
+    "stage4b_overlay_records": 710
+  },
+  "pin_count": 69,
+  "record_type": "stage4c_input_pin_report",
+  "status": "pass"
+}

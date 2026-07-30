@@ -1,0 +1,625 @@
+{
+  "matches": [
+    {
+      "backend_candidate_id": "candidate-v2:arizona-state-university",
+      "backend_canonical_id": "institution:arizona-state-university",
+      "frontend_record_id": "arizona-state-university",
+      "frontend_school_id": "arizona-state-university",
+      "frontend_school_name": "Arizona State University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:boston-college",
+      "backend_canonical_id": "institution:boston-college",
+      "frontend_record_id": "boston-college",
+      "frontend_school_id": "boston-college",
+      "frontend_school_name": "Boston College",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:boston-university",
+      "backend_canonical_id": "institution:boston-university",
+      "frontend_record_id": "boston-university",
+      "frontend_school_id": "boston-university",
+      "frontend_school_name": "Boston University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:brown-university",
+      "backend_canonical_id": "institution:brown-university",
+      "frontend_record_id": "brown-university",
+      "frontend_school_id": "brown-university",
+      "frontend_school_name": "Brown University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:bucknell-university",
+      "backend_canonical_id": "institution:bucknell-university",
+      "frontend_record_id": "bucknell-university",
+      "frontend_school_id": "bucknell-university",
+      "frontend_school_name": "Bucknell University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:california-institute-of-technology",
+      "backend_canonical_id": "institution:california-institute-of-technology",
+      "frontend_record_id": "california-institute-of-technology",
+      "frontend_school_id": "california-institute-of-technology",
+      "frontend_school_name": "California Institute of Technology",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:carnegie-mellon-university",
+      "backend_canonical_id": "institution:carnegie-mellon-university",
+      "frontend_record_id": "carnegie-mellon-university",
+      "frontend_school_id": "carnegie-mellon-university",
+      "frontend_school_name": "Carnegie Mellon University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:columbia-university",
+      "backend_canonical_id": "institution:columbia-university",
+      "frontend_record_id": "columbia-university",
+      "frontend_school_id": "columbia-university",
+      "frontend_school_name": "Columbia University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:cornell-university",
+      "backend_canonical_id": "institution:cornell-university",
+      "frontend_record_id": "cornell-university",
+      "frontend_school_id": "cornell-university",
+      "frontend_school_name": "Cornell University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:dartmouth-college",
+      "backend_canonical_id": "institution:dartmouth-college",
+      "frontend_record_id": "dartmouth-college",
+      "frontend_school_id": "dartmouth-college",
+      "frontend_school_name": "Dartmouth College",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:duke-university",
+      "backend_canonical_id": "institution:duke-university",
+      "frontend_record_id": "duke-university",
+      "frontend_school_id": "duke-university",
+      "frontend_school_name": "Duke University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:emory-university",
+      "backend_canonical_id": "institution:emory-university",
+      "frontend_record_id": "emory-university",
+      "frontend_school_id": "emory-university",
+      "frontend_school_name": "Emory University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:georgetown-university",
+      "backend_canonical_id": "institution:georgetown-university",
+      "frontend_record_id": "georgetown-university",
+      "frontend_school_id": "georgetown-university",
+      "frontend_school_name": "Georgetown University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "backend_canonical_id": "institution:georgia-institute-of-technology",
+      "frontend_record_id": "georgia-institute-of-technology",
+      "frontend_school_id": "georgia-institute-of-technology",
+      "frontend_school_name": "Georgia Institute of Technology",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:harvard-university",
+      "backend_canonical_id": "institution:harvard-university",
+      "frontend_record_id": "harvard-university",
+      "frontend_school_id": "harvard-university",
+      "frontend_school_name": "Harvard University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:harvey-mudd-college",
+      "backend_canonical_id": "institution:harvey-mudd-college",
+      "frontend_record_id": "harvey-mudd-college",
+      "frontend_school_id": "harvey-mudd-college",
+      "frontend_school_name": "Harvey Mudd College",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:indiana-university-bloomington",
+      "backend_canonical_id": "institution:indiana-university-bloomington",
+      "frontend_record_id": "indiana-university-bloomington",
+      "frontend_school_id": "indiana-university-bloomington",
+      "frontend_school_name": "Indiana University Bloomington",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:johns-hopkins-university",
+      "backend_canonical_id": "institution:johns-hopkins-university",
+      "frontend_record_id": "johns-hopkins-university",
+      "frontend_school_id": "johns-hopkins-university",
+      "frontend_school_name": "Johns Hopkins University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:lehigh-university",
+      "backend_canonical_id": "institution:lehigh-university",
+      "frontend_record_id": "lehigh-university",
+      "frontend_school_id": "lehigh-university",
+      "frontend_school_name": "Lehigh University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:loyola-university-chicago",
+      "backend_canonical_id": "institution:loyola-university-chicago",
+      "frontend_record_id": "loyola-university-chicago",
+      "frontend_school_id": "loyola-university-chicago",
+      "frontend_school_name": "Loyola University Chicago",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "backend_canonical_id": "institution:massachusetts-institute-of-technology",
+      "frontend_record_id": "massachusetts-institute-of-technology",
+      "frontend_school_id": "massachusetts-institute-of-technology",
+      "frontend_school_name": "Massachusetts Institute of Technology",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:new-york-university",
+      "backend_canonical_id": "institution:new-york-university",
+      "frontend_record_id": "new-york-university",
+      "frontend_school_id": "new-york-university",
+      "frontend_school_name": "New York University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:northeastern-university",
+      "backend_canonical_id": "institution:northeastern-university",
+      "frontend_record_id": "northeastern-university",
+      "frontend_school_id": "northeastern-university",
+      "frontend_school_name": "Northeastern University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:northwestern-university",
+      "backend_canonical_id": "institution:northwestern-university",
+      "frontend_record_id": "northwestern-university",
+      "frontend_school_id": "northwestern-university",
+      "frontend_school_name": "Northwestern University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:olin-college-of-engineering",
+      "backend_canonical_id": "institution:olin-college-of-engineering",
+      "frontend_record_id": "olin-college-of-engineering",
+      "frontend_school_id": "olin-college-of-engineering",
+      "frontend_school_name": "Olin College of Engineering",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:princeton-university",
+      "backend_canonical_id": "institution:princeton-university",
+      "frontend_record_id": "princeton-university",
+      "frontend_school_id": "princeton-university",
+      "frontend_school_name": "Princeton University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:purdue-university-main-campus",
+      "backend_canonical_id": "institution:purdue-university-main-campus",
+      "frontend_record_id": "purdue-university-main-campus",
+      "frontend_school_id": "purdue-university-main-campus",
+      "frontend_school_name": "Purdue University—Main Campus",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:rice-university",
+      "backend_canonical_id": "institution:rice-university",
+      "frontend_record_id": "rice-university",
+      "frontend_school_id": "rice-university",
+      "frontend_school_name": "Rice University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "backend_canonical_id": "institution:rose-hulman-institute-of-technology",
+      "frontend_record_id": "rose-hulman-institute-of-technology",
+      "frontend_school_id": "rose-hulman-institute-of-technology",
+      "frontend_school_name": "Rose-Hulman Institute of Technology",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "backend_canonical_id": "institution:rutgers-university-new-brunswick",
+      "frontend_record_id": "rutgers-university-new-brunswick",
+      "frontend_school_id": "rutgers-university-new-brunswick",
+      "frontend_school_name": "Rutgers University—New Brunswick",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:stanford-university",
+      "backend_canonical_id": "institution:stanford-university",
+      "frontend_record_id": "stanford-university",
+      "frontend_school_id": "stanford-university",
+      "frontend_school_name": "Stanford University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:texas-a-and-m-university",
+      "backend_canonical_id": "institution:texas-a-and-m-university",
+      "frontend_record_id": "texas-a-and-m-university",
+      "frontend_school_id": "texas-a-and-m-university",
+      "frontend_school_name": "Texas A&M University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:ohio-state-university",
+      "backend_canonical_id": "institution:ohio-state-university",
+      "frontend_record_id": "ohio-state-university",
+      "frontend_school_id": "ohio-state-university",
+      "frontend_school_name": "The Ohio State University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:tufts-university",
+      "backend_canonical_id": "institution:tufts-university",
+      "frontend_record_id": "tufts-university",
+      "frontend_school_id": "tufts-university",
+      "frontend_school_name": "Tufts University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-california-berkeley",
+      "backend_canonical_id": "institution:university-of-california-berkeley",
+      "frontend_record_id": "university-of-california-berkeley",
+      "frontend_school_id": "university-of-california-berkeley",
+      "frontend_school_name": "University of California, Berkeley",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-california-davis",
+      "backend_canonical_id": "institution:university-of-california-davis",
+      "frontend_record_id": "university-of-california-davis",
+      "frontend_school_id": "university-of-california-davis",
+      "frontend_school_name": "University of California, Davis",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-california-irvine",
+      "backend_canonical_id": "institution:university-of-california-irvine",
+      "frontend_record_id": "university-of-california-irvine",
+      "frontend_school_id": "university-of-california-irvine",
+      "frontend_school_name": "University of California, Irvine",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "backend_canonical_id": "institution:university-of-california-los-angeles",
+      "frontend_record_id": "university-of-california-los-angeles",
+      "frontend_school_id": "university-of-california-los-angeles",
+      "frontend_school_name": "University of California, Los Angeles",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-california-san-diego",
+      "backend_canonical_id": "institution:university-of-california-san-diego",
+      "frontend_record_id": "university-of-california-san-diego",
+      "frontend_school_id": "university-of-california-san-diego",
+      "frontend_school_name": "University of California, San Diego",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "backend_canonical_id": "institution:university-of-california-santa-barbara",
+      "frontend_record_id": "university-of-california-santa-barbara",
+      "frontend_school_id": "university-of-california-santa-barbara",
+      "frontend_school_name": "University of California, Santa Barbara",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-chicago",
+      "backend_canonical_id": "institution:university-of-chicago",
+      "frontend_record_id": "university-of-chicago",
+      "frontend_school_id": "university-of-chicago",
+      "frontend_school_name": "University of Chicago",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "backend_canonical_id": "institution:university-of-colorado-boulder",
+      "frontend_record_id": "university-of-colorado-boulder",
+      "frontend_school_id": "university-of-colorado-boulder",
+      "frontend_school_name": "University of Colorado Boulder",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-florida",
+      "backend_canonical_id": "institution:university-of-florida",
+      "frontend_record_id": "university-of-florida",
+      "frontend_school_id": "university-of-florida",
+      "frontend_school_name": "University of Florida",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-georgia",
+      "backend_canonical_id": "institution:university-of-georgia",
+      "frontend_record_id": "university-of-georgia",
+      "frontend_school_id": "university-of-georgia",
+      "frontend_school_name": "University of Georgia",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "backend_canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "frontend_record_id": "university-of-illinois-urbana-champaign",
+      "frontend_school_id": "university-of-illinois-urbana-champaign",
+      "frontend_school_name": "University of Illinois Urbana-Champaign",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-iowa",
+      "backend_canonical_id": "institution:university-of-iowa",
+      "frontend_record_id": "university-of-iowa",
+      "frontend_school_id": "university-of-iowa",
+      "frontend_school_name": "University of Iowa",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "backend_canonical_id": "institution:university-of-maryland-college-park",
+      "frontend_record_id": "university-of-maryland-college-park",
+      "frontend_school_id": "university-of-maryland-college-park",
+      "frontend_school_name": "University of Maryland, College Park",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "backend_canonical_id": "institution:university-of-michigan-ann-arbor",
+      "frontend_record_id": "university-of-michigan-ann-arbor",
+      "frontend_school_id": "university-of-michigan-ann-arbor",
+      "frontend_school_name": "University of Michigan—Ann Arbor",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "backend_canonical_id": "institution:university-of-minnesota-twin-cities",
+      "frontend_record_id": "university-of-minnesota-twin-cities",
+      "frontend_school_id": "university-of-minnesota-twin-cities",
+      "frontend_school_name": "University of Minnesota Twin Cities",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "backend_canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "frontend_record_id": "university-of-north-carolina-chapel-hill",
+      "frontend_school_id": "university-of-north-carolina-chapel-hill",
+      "frontend_school_name": "University of North Carolina—Chapel Hill",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-notre-dame",
+      "backend_canonical_id": "institution:university-of-notre-dame",
+      "frontend_record_id": "university-of-notre-dame",
+      "frontend_school_id": "university-of-notre-dame",
+      "frontend_school_name": "University of Notre Dame",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-pennsylvania",
+      "backend_canonical_id": "institution:university-of-pennsylvania",
+      "frontend_record_id": "university-of-pennsylvania",
+      "frontend_school_id": "university-of-pennsylvania",
+      "frontend_school_name": "University of Pennsylvania",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-rochester",
+      "backend_canonical_id": "institution:university-of-rochester",
+      "frontend_record_id": "university-of-rochester",
+      "frontend_school_id": "university-of-rochester",
+      "frontend_school_name": "University of Rochester",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "backend_canonical_id": "institution:university-of-south-carolina-columbia",
+      "frontend_record_id": "university-of-south-carolina-columbia",
+      "frontend_school_id": "university-of-south-carolina-columbia",
+      "frontend_school_name": "University of South Carolina",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-southern-california",
+      "backend_canonical_id": "institution:university-of-southern-california",
+      "frontend_record_id": "university-of-southern-california",
+      "frontend_school_id": "university-of-southern-california",
+      "frontend_school_name": "University of Southern California",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-texas-austin",
+      "backend_canonical_id": "institution:university-of-texas-austin",
+      "frontend_record_id": "university-of-texas-austin",
+      "frontend_school_id": "university-of-texas-austin",
+      "frontend_school_name": "University of Texas—Austin",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-virginia",
+      "backend_canonical_id": "institution:university-of-virginia",
+      "frontend_record_id": "university-of-virginia",
+      "frontend_school_id": "university-of-virginia",
+      "frontend_school_name": "University of Virginia",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-washington",
+      "backend_canonical_id": "institution:university-of-washington",
+      "frontend_record_id": "university-of-washington",
+      "frontend_school_id": "university-of-washington",
+      "frontend_school_name": "University of Washington",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "backend_canonical_id": "institution:university-of-wisconsin-madison",
+      "frontend_record_id": "university-of-wisconsin-madison",
+      "frontend_school_id": "university-of-wisconsin-madison",
+      "frontend_school_name": "University of Wisconsin—Madison",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:vanderbilt-university",
+      "backend_canonical_id": "institution:vanderbilt-university",
+      "frontend_record_id": "vanderbilt-university",
+      "frontend_school_id": "vanderbilt-university",
+      "frontend_school_name": "Vanderbilt University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "backend_canonical_id": "institution:washington-university-in-st-louis",
+      "frontend_record_id": "washington-university-in-st-louis",
+      "frontend_school_id": "washington-university-in-st-louis",
+      "frontend_school_name": "Washington University in St. Louis",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    },
+    {
+      "backend_candidate_id": "candidate-v2:yale-university",
+      "backend_canonical_id": "institution:yale-university",
+      "frontend_record_id": "yale-university",
+      "frontend_school_id": "yale-university",
+      "frontend_school_name": "Yale University",
+      "manual_review_required": false,
+      "match_confidence": "high",
+      "match_method": "exact_name"
+    }
+  ],
+  "record_type": "stage4a_reviewed_identity_matches"
+}

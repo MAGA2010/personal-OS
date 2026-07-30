@@ -1,0 +1,33 @@
+{
+  "attempts": [
+    {
+      "cache_body_persisted": false,
+      "failure_category": "gateway_request_rejected",
+      "final_url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates",
+      "publisher": "United States Census Bureau",
+      "response_status": "request_rejected",
+      "retrieval_timestamp": "2026-07-24T18:51:58+08:00",
+      "source_id": "source_stage4b_census_geocoder_intake_deferred",
+      "source_type": "official_federal_api"
+    },
+    {
+      "cache_body_persisted": false,
+      "failure_category": "api_key_required",
+      "final_url": "https://api.census.gov/data/2023/acs/acs5",
+      "publisher": "United States Census Bureau",
+      "query_fields": [
+        "B01003_001E",
+        "B19013_001E",
+        "B25064_001E",
+        "B02001_005E"
+      ],
+      "response_status": "credential_required",
+      "retrieval_timestamp": "2026-07-24T18:51:58+08:00",
+      "source_id": "source_stage4b_acs5_2023_intake_deferred",
+      "source_type": "official_federal_api"
+    }
+  ],
+  "deterministic_generation_reads_network": false,
+  "not_authoritative_without_successful_intake": true,
+  "record_type": "stage4b_network_intake_metadata"
+}

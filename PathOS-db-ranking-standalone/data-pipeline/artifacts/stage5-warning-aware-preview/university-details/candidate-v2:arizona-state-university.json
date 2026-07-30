@@ -1,0 +1,427 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.9019,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9019,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": "official_act_range_not_available",
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "not_reported",
+      "unit": null,
+      "value": null,
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.6785,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.8532,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": "official_sat_range_not_available",
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "not_reported",
+      "unit": null,
+      "value": null,
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "Arizona State University",
+    "W. P. Carey School of Business"
+  ],
+  "allMajors": [],
+  "allMajorsStatus": {
+    "nullReason": "identity_ipeds_match_not_resolved",
+    "status": "not_reported"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_bulk_v2_asu_anecdote"
+      ],
+      "text": "ASU’s Old Main was the first Tempe building wired for electricity.",
+      "type": "campus_tradition"
+    }
+  ],
+  "chineseName": "亚利桑那州立大学",
+  "city": "Tempe",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": false,
+    "currency": "USD",
+    "displayLabel": "$12,051–$32,193",
+    "maximumUsd": 32193.0,
+    "minimumUsd": 12051.0,
+    "scopes": [
+      "in_state",
+      "out_of_state"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": [
+      "Public in-state and out-of-state tuition are separate scopes."
+    ]
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 14419,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_derived_same_scope",
+      "unit": null,
+      "value": 78817,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 64398,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "38060",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "Maricopa County",
+      "warnings": []
+    },
+    "geographyScope": "place",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [
+        "source_stage4b_census_2024_places_gazetteer"
+      ],
+      "status": "verified_place",
+      "unit": "name",
+      "value": "Tempe",
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_bulk_v2_asu_history"
+    ],
+    "status": "verified",
+    "value": "ASU traces its origins to the Territorial Normal School, which opened in Tempe in 1886."
+  },
+  "id": "candidate-v2:arizona-state-university",
+  "latitude": 33.417721,
+  "longitude": -111.934383,
+  "name": "Arizona State University",
+  "nameZh": "亚利桑那州立大学",
+  "nationalRanking": null,
+  "nearbyTowns": [
+    {
+      "distance": 3.27,
+      "name": "Tempe"
+    },
+    {
+      "distance": 6.3,
+      "name": "Guadalupe"
+    },
+    {
+      "distance": 15.16,
+      "name": "Paradise Valley"
+    }
+  ],
+  "notableAttendance": [],
+  "people": [
+    {
+      "displayTier": "verified",
+      "id": "person:alex-swartz:arizona-state-university:wave4-asu-alex-swartz-supply-chain",
+      "name": "Alex Swartz",
+      "programName": "Supply Chain Management/Logistics",
+      "quarantined": false,
+      "relationshipType": "alumnus_unspecified",
+      "sourceIds": [
+        "wave4-asu-alex-swartz-supply-chain"
+      ],
+      "verificationStatus": "live_verified_exact"
+    }
+  ],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Analytics",
+      "slotId": "candidate-v2:arizona-state-university:slot-2",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Management Information Systems",
+      "slotId": "candidate-v2:arizona-state-university:slot-3",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Production/Operations Management",
+      "slotId": "candidate-v2:arizona-state-university:slot-4",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:arizona-state-university:program:1",
+      "name": "Supply Chain Management/Logistics",
+      "rank": 2,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "asu-2026-business-batch01"
+      ]
+    },
+    {
+      "id": "candidate-v2:arizona-state-university:program:2",
+      "name": "Analytics",
+      "rank": 11,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "asu-2026-business-batch01"
+      ]
+    },
+    {
+      "id": "candidate-v2:arizona-state-university:program:3",
+      "name": "Management Information Systems",
+      "rank": 11,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "asu-2026-business-batch01"
+      ]
+    },
+    {
+      "id": "candidate-v2:arizona-state-university:program:4",
+      "name": "Production/Operations Management",
+      "rank": 11,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "asu-2026-business-batch01"
+      ]
+    },
+    {
+      "id": "candidate-v2:arizona-state-university:program:5",
+      "name": "Management",
+      "rank": 13,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "asu-2026-business-batch01"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "act_not_reported",
+      "english_policy_pending_external_access",
+      "not_in_current_national_scope",
+      "not_in_verified_national_top50_scope",
+      "sat_not_reported",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ]
+  },
+  "rankingBand": "outside_numeric_scope",
+  "rankingSummary": {
+    "filterBehavior": "exclude_from_numeric_range",
+    "nationalRank": null,
+    "rankingLabel": "Not in selected national ranking scope",
+    "rankingTier": "outside_numeric_scope",
+    "sourceIds": [],
+    "status": "not_in_current_national_scope"
+  },
+  "rankingTier": "outside_numeric_scope",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 12051.0,
+      "currency": "USD",
+      "scope": "in_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    },
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 32193.0,
+      "currency": "USD",
+      "scope": "out_of_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "Southwest",
+  "schoolType": "public",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "AZ",
+  "studentFacultyRatio": 18.0,
+  "topPrograms": [
+    "Supply Chain Management/Logistics",
+    "Analytics",
+    "Management Information Systems",
+    "Production/Operations Management",
+    "Management"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 64398,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "act_not_reported",
+      "english_policy_pending_external_access",
+      "not_in_current_national_scope",
+      "not_in_verified_national_top50_scope",
+      "sat_not_reported",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ],
+    "count": 7,
+    "hasWarnings": true
+  }
+}

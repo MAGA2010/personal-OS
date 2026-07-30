@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import newsData from "@/data/news.json";
-import { ProductJourney } from "@/components/ProductJourney";
+import { useDataSource } from "@/services/data-source-provider";
+import { useNews } from "@/hooks/use-data-source";
 import { Newspaper, ExternalLink, ChevronDown, ChevronUp, Clock, Tag } from "lucide-react";
+import { DataLoadingState, DataUnavailableState, DataEmptyState } from "@/components/shared/data-states";
+import { NewsEntryHero } from "@/components/news/NewsEntryHero";
 
 const CATEGORY_LABELS: Record<string, string> = {
   admissions: "录取申请", visa: "签证",
@@ -25,9 +27,13 @@ function fmtDate(iso: string) {
 }
 
 export default function NewsPage() {
-  var articles = ((newsData as any).articles || []) as any[];
   var [expandedId, setExpandedId] = useState<string | null>(null);
   var [activeCategory, setActiveCategory] = useState("");
+
+  var dataSource = useDataSource();
+  var newsState = useNews(dataSource);
+  var loading = newsState.state.status === "loading";
+  var articles = newsState.state.status === "ready" ? newsState.state.data : [];
 
   var catSet: string[] = [];
   articles.forEach(function(a: any) {
@@ -37,15 +43,20 @@ export default function NewsPage() {
   var filtered = activeCategory ? articles.filter(function(a: any) { return a.category === activeCategory; }) : articles;
 
   return (
-    <div>
-      <header className="border-b border-line bg-panel px-5 py-3">
-        <div className="mx-auto flex max-w-6xl items-center gap-3">
-          <div className="grid h-8 w-8 shrink-0 place-items-center rounded-md bg-cobalt text-panel"><Newspaper size={18} /></div>
-          <div><h1 className="text-base font-semibold text-ink">留学资讯</h1><p className="text-xs text-ink/52">来自 QS 和选校的最新留学动态</p></div>
+    <div className="min-h-screen bg-surface-base">
+      <NewsEntryHero />
+      <div id="news-list" className="mx-auto max-w-page">
+      <header className="border-b border-border-soft bg-surface-1/70 backdrop-blur">
+        <div className="mx-auto flex max-w-page items-center gap-3 px-4 py-3 sm:px-6">
+          <div className="grid h-8 w-8 shrink-0 place-items-center rounded-control bg-cobalt text-paper"><Newspaper size={16} aria-hidden="true" /></div>
+          <div className="min-w-0 flex-1">
+            <p className="text-label uppercase tracking-[0.12em] text-cobalt">留学资讯</p>
+            <h1 className="text-page text-text-primary">最新动态</h1>
+          </div>
+          <p className="text-caption text-text-secondary">来自 QS 与启德教育的整理</p>
         </div>
       </header>
-      <div className="mx-auto max-w-6xl px-4 pt-4"><ProductJourney compact /></div>
-      <main className="mx-auto max-w-4xl px-4 py-6">
+      <main className="mx-auto max-w-4xl px-4 py-5 sm:px-6">
         <div className="mb-6 flex flex-wrap gap-2">
           <button onClick={function() { setActiveCategory(""); }}
             className={"rounded-lg px-3 py-1.5 text-xs font-medium transition-colors " + (!activeCategory ? "bg-ink text-panel" : "bg-white/80 text-ink/60 border border-line/50 hover:bg-white")}>全部</button>
@@ -55,6 +66,21 @@ export default function NewsPage() {
           })}
         </div>
         <p className="mb-4 text-xs text-ink/40">共 {filtered.length} 篇文章</p>
+        {loading && (
+          <DataLoadingState message="正在加载留学资讯…" />
+        )}
+        {newsState.state.status === "error" && (
+          <DataUnavailableState
+            reason="资讯后端暂不可用,后端准备就绪后将自动恢复。"
+            onRetry={() => newsState.reload()}
+          />
+        )}
+        {!loading && newsState.state.status === "ready" && articles.length === 0 && (
+          <DataEmptyState
+            title="数据补充中"
+            description="当前暂无留学资讯,后端持续补充中。"
+          />
+        )}
         <div className="space-y-3">
           {filtered.map(function(article: any) {
             var isExpanded = expandedId === article.id;
@@ -91,6 +117,7 @@ export default function NewsPage() {
           })}
         </div>
       </main>
+      </div>
     </div>
   );
 }

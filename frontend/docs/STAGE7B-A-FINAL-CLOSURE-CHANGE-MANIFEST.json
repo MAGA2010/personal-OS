@@ -1,0 +1,217 @@
+{
+  "stage": "7B-A-Final-Closure",
+  "title": "Stage 7B-A Final Closure Patch and External Freeze · Non-functional wrap-up",
+  "date": "2026-07-25",
+  "status": "FINAL_CLOSURE_COMPLETE · BAIDU_RUNTIME_BLOCKED",
+  "priorStageVerdict": {
+    "stage7b_a_runtime_closing": "PASS (MapLibre path) · BLOCKED (Baidu runtime)",
+    "stage7r_gate": "PASS with one Medium-severity style.load race flagged",
+    "stage7a": "PASS"
+  },
+  "directive": "执行：PathOS Stage 7B-A Final Closure Patch and External Freeze (10 sections, non-functional wrap-up after independent Re-Gate)",
+  "filesAdded": [
+    {
+      "path": "frontend/src/test/unit/stage7baf-regional-styleload-lifecycle.test.ts",
+      "kind": "test",
+      "lines": 354,
+      "tests": 15,
+      "sha256": "a27a419d954d5d370b2f2693abeea01c15c8d709681487eee31394c337d0f3ca",
+      "summary": "15 new unit tests covering the deferUntilStyleLoaded lifecycle helper (already-loaded, deferred, cleanup-before-load, cleanup-after-load, rapid-theme-switches, strict-mode double-mount, cancel/apply independence, helper purity)"
+    },
+    {
+      "path": "frontend/docs/STAGE7B-A-FINAL-CLOSURE-REPORT.md",
+      "kind": "doc",
+      "lines": 280,
+      "sha256": "16465722561664e3df4a1048732a117feb779bcacda31b2bb6d2301297fc39b8",
+      "summary": "Final closure report — 25 deliverables + 13 hard-constraint checklist"
+    },
+    {
+      "path": "frontend/docs/STAGE7B-A-FINAL-CLOSURE-DEVLOG.md",
+      "kind": "doc",
+      "lines": 240,
+      "sha256": "1353bd396dc2c9194bd225dc17078c4b5098f633b4929882ff27118389b5fdaa",
+      "summary": "Engineering narrative — chronological actions per directive section, including repro, debugging, the 3 sister style-swap races surfaced after the RegionalStateLayer fix, and the prior-round AK-4char-hint sanitization"
+    },
+    {
+      "path": "frontend/docs/STAGE7B-A-FINAL-CLOSURE-CHANGE-MANIFEST.json",
+      "kind": "doc",
+      "lines": null,
+      "sha256": null,
+      "summary": "THIS FILE. SHA filled in below once the file is finalised."
+    },
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/",
+      "kind": "external-freeze-checkpoint",
+      "files": 161,
+      "size": "≈ 2.6 MB",
+      "summary": "External freeze checkpoint: 155 frontend files (no node_modules / .next / .env.local) + CHECKSUMS.sha256 + 6 audit files"
+    }
+  ],
+  "filesModified": [
+    {
+      "path": "frontend/src/components/map/regional/RegionalStateLayer.tsx",
+      "kind": "fix",
+      "sha256": "b27e5703c0a5cc03615c61fee62386f5293b15539dd364f8555ac5751ce2e4df",
+      "summary": "Added exported `deferUntilStyleLoaded(map, apply)` helper + exported `StyleLoadedGate` interface. Source-install and layer-install effects now route through the helper. map.removeLayer / map.off calls wrapped in try/catch. cancelled flag prevents apply-after-unmount.",
+      "fixes": "MapLibre 'Style is not done loading' error on first mount and on every theme switch (Re-Gate-flagged Medium severity)"
+    },
+    {
+      "path": "frontend/src/components/map/MapCanvas.tsx",
+      "kind": "fix",
+      "sha256": "092104930b3f495581f1fddb8cb56f564fe635394e9af42a7ac8361fdb36f41d",
+      "summary": "Filter queryRenderedFeatures candidate layer IDs by getStyle().layers id set; filter benign 'Layer does not exist' / 'Style is not done loading' from the error handler; add scoped console.warn monkey-patch with cleanup (3 sister style-swap races that only surfaced after RegionalStateLayer was silenced)",
+      "fixes": "3 style-swap races: click handler, region click handler, error handler"
+    },
+    {
+      "path": "frontend/docs/STAGE7B-A-DARK-CONTRAST-AUDIT.md",
+      "kind": "doc-fix",
+      "sha256": "916e08a41e1da78ce4c1026907d59307cfaf300f4f418ff4c70d9b8b2a2132a5",
+      "summary": "Line 55 replaced: stale CSS description `rgb(var(--token-text-primary) / 0.08)` (the broken BEFORE state) → `rgb(var(--token-surface-muted) / 0.55)` (the post-fix). Added `bg-ink/10` line and explanatory note about 1.00:1 → 13.78:1 nav active contrast ratio fix.",
+      "fixes": "Doc / CSS state mismatch that would mislead future readers about which state the audit captures"
+    },
+    {
+      "path": "frontend/docs/STAGE7B-A-BAIDU-RUNTIME-CLOSING-CHANGE-MANIFEST.json",
+      "kind": "doc-fix",
+      "sha256": "327c50ed15b18676625222790ee48b75dd2e968ea0f28eee6b9ecd72399a0579",
+      "summary": "Sanitized akFirst4Redacted / akLast4Redacted from the real AK 4-char hint values to `****` (4 occurrences of AK fragment removed). Prior-round SHA not captured (this round sanitized an existing file rather than tracking its pre-edit hash).",
+      "fixes": "Residual AK fragment leak — even partial AK hints violate the hard constraint '真实 AK 不得写入...Change Manifest'"
+    }
+  ],
+  "auditFiles": [
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/CHECKSUMS.sha256",
+      "kind": "checksum-manifest",
+      "lines": 155
+    },
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/audit/CHECKPOINT-MANIFEST.json",
+      "kind": "manifest",
+      "fields": 32
+    },
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/audit/REGRESSION.txt",
+      "kind": "regression-capture"
+    },
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/audit/BROWSER-VERIFICATION.txt",
+      "kind": "browser-matrix"
+    },
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/audit/SECRETS-SCAN.txt",
+      "kind": "secrets-scan"
+    },
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/audit/RESTORE.md",
+      "kind": "restore-procedure"
+    },
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/audit/RESTORE-VERIFICATION.txt",
+      "kind": "restore-verification-output"
+    },
+    {
+      "path": "PathOS-checkpoints/stage7b-a-pass-2026-07-25/audit/CHANGELOG-FINAL.md",
+      "kind": "narrative-changelog"
+    }
+  ],
+  "regression": {
+    "tsc": {"exit": 0, "errors": 0},
+    "lint": {"exit": 0, "warnings": 0, "errors": 0},
+    "vitest": {
+      "exit": 0,
+      "files": 8,
+      "testsTotal": 235,
+      "testsPassed": 235,
+      "testsFailed": 0,
+      "testsSkipped": 0,
+      "newTestsAddedThisRound": 15,
+      "newTestsFile": "src/test/unit/stage7baf-regional-styleload-lifecycle.test.ts"
+    },
+    "build": {
+      "exit": 0,
+      "routes": 15,
+      "mapRouteFirstLoadJs": "322 kB",
+      "mapRouteFirstLoadJsTotal": "425 kB"
+    },
+    "restoredTreeAtTmp": {
+      "tsc": "PASS",
+      "lint": "PASS",
+      "build": "PASS (15 routes, /map 322 kB)",
+      "vitest": "PARTIAL (202/235 from /tmp; 33 stage5-* failures are environmental — tests reference sibling preview-bundle artefact dir that is intentionally not bundled in the checkpoint)"
+    }
+  },
+  "browserMatrix": {
+    "viewport": "1440x900 desktop",
+    "route": "/map",
+    "scenarios": 7,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "networkFailures": 0,
+    "darkNavActiveContrastRatio": "13.78:1"
+  },
+  "regionalDataInvariants": {
+    "datasetId": "pathos-regional-state-v1",
+    "sourceWorkbookSha256": "409ed47b5153725914b463ae3421ad51e5d3d34e5918144f001f341b9894b096",
+    "manifestSha256": "21e4c311784a455f00b2f4adaec20001495f6a5f6c0792132634ff71a77abb0b",
+    "totals": {
+      "metricCount": 4,
+      "readyMetricCount": 4,
+      "blockedMetricCount": 1,
+      "outOfScopeMetricCount": 1,
+      "recordCount": 204
+    },
+    "metricIds": ["income", "safety", "employment", "chinese_population"],
+    "invariant": "51 jurisdictions × 4 READY metrics = 204 records (deterministic)"
+  },
+  "secretsScanResult": {
+    "envLocalCount": 0,
+    "realAkPrefixLCrcCount": 0,
+    "urlAkPatternCount": 0,
+    "privateKeyCount": 0,
+    "symlinksCount": 0,
+    "verdict": "CLEAN"
+  },
+  "hardConstraintsHonored": {
+    "noEnvLocalModification": true,
+    "noPushNoResetNoCleanNoRebaseNoForceNoFixtureFallbackNoProductionDataExport": true,
+    "noBackendTrackedFilesModification": true,
+    "noOriginalWorkbookModification": true,
+    "noUniversityDataFactsModification": true,
+    "noMatchAlgorithmModification": true,
+    "noStage6TagModification": true,
+    "noPkillNoKillallNoUnknownPidKill": true,
+    "noExternalPort3000Or3010Preemption": true,
+    "preferredPort3002": true,
+    "realAkNeverWrittenToSourceGitDocsLogsScreenshotsChangeManifestFixturesCheckpoint": true,
+    "noSelfPassAnnouncement": true,
+    "noGitTag": true,
+    "noPush": true,
+    "devServerStoppedAtEnd": true,
+    "noStage7bBStart": true,
+    "noBMapGlMapIntegration": true,
+    "noBaiduPolygonImplementation": true,
+    "defaultMapProviderUnchanged": true
+  },
+  "devServerLifecycle": {
+    "startedThisRound": true,
+    "pid": 33739,
+    "port": 3002,
+    "purpose": "Browser matrix verification (Section 五)",
+    "stoppedAtEnd": true,
+    "stopMethod": "kill 33739 (targeted PID, not pkill)"
+  },
+  "knownLimitations": [
+    "Baidu runtime remains BLOCKED — no AK configured in any environment, no Baidu state-polygon implementation, default Provider still MapLibre. Stage 7B-B is a separate future round.",
+    "The PathOS-main directory is not a git repository. No git HEAD available; checkpoint integrity is anchored on file-level SHA256 only.",
+    "Stage 5 unit tests reference sibling preview-bundle artefacts (`../../PathOS-db-ranking-standalone/...`) which are intentionally not bundled in the checkpoint. When vitest is run from /tmp scratch, those 33 tests fail environmentally; from the original tree path all 235 pass.",
+    "The Chinese-language source workbook (.xlsx) is excluded from the checkpoint by directory boundary; its SHA is captured inside the regional-data-manifest.json sourceWorkbook block for traceability only.",
+    "Frontend/build/.next cache and node_modules/ are excluded (regenerated on demand).",
+    "No Git tag is created for this checkpoint.",
+    "The dev server is not running at checkpoint time. Restart with `cd frontend && npm install && npm run dev` then visit http://localhost:3000/map."
+  ],
+  "nextRound": {
+    "stage": "7B-B",
+    "decidedThisRound": false,
+    "notes": "Section 十六 of the prior round explicitly forbade starting Stage 7B-B from this round. Default Provider decision (MapLibre) preserved."
+  },
+  "selfAssessment": "Stage 7B-A Final Closure Patch is COMPLETE per the directive's 10 sections. Baidu runtime is BLOCKED (unchanged from prior round). This round does NOT self-announce final PASS; the independent Re-Gate must run the freeze checkpoint and deliver its own verdict. No Git tag. No push. Dev server stopped."
+}

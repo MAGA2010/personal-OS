@@ -1,0 +1,186 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_program_people_wave6_source_manifest",
+  "source_limited": true,
+  "sources": [
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/boston-college-mian-azmy.txt",
+      "candidate_id": "candidate-v2:boston-college",
+      "publisher": "Boston College Alumni Association",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Boston College alumni networking profile; reviewed excerpt cached locally.",
+      "sha256": "921083c8545f9fe7f917cac4f36f7ecdb7c2b2050c6b4b9cd617f8a800e9fed2",
+      "source_id": "wave6-bc-mian-azmy-finance",
+      "source_type": "official_institutional",
+      "source_url": "https://www.bc.edu/bc-web/offices/alumni/sites/wall-street-council/programs-and-events/2025-nyc-student-networking-night-table-hosts.html",
+      "verified_direct_quotes": [
+        "Mian Azmy ’02",
+        "Mian Azmy graduated from the Carroll School of Management with a major in finance."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/bu-hector-meneses.txt",
+      "candidate_id": "candidate-v2:boston-university",
+      "publisher": "Boston University Questrom School of Business",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official BU Questrom alumni profile; reviewed excerpt cached locally.",
+      "sha256": "b058f42433f9a26c818a274752ca6212f3f1c77238c8301c80151cbace6751ac",
+      "source_id": "wave6-bu-hector-meneses-business",
+      "source_type": "official_institutional",
+      "source_url": "https://www.bu.edu/questrom/profiles/hector-meneses-jr/",
+      "verified_direct_quotes": [
+        "Hector Meneses, Jr.",
+        "Hector holds a Bachelor of Science in Business Administration, concentrating in Accounting and Finance from Boston University."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/caltech-niv-karthikeyan.txt",
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "publisher": "Caltech Alumni Association",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Caltech alumni profile; reviewed excerpt cached locally.",
+      "sha256": "3c4c0e55f367099f9728ebfc1d893e95e14bc189f00155a040bd54b52d1a32db",
+      "source_id": "wave6-caltech-niv-karthikeyan-cs",
+      "source_type": "official_institutional",
+      "source_url": "https://www.alumni.caltech.edu/niv-karthikeyan/",
+      "verified_direct_quotes": [
+        "BS ’20 | Computer Science, History",
+        "Niv Karthikeyan"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/colorado-christian-dokken.txt",
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "publisher": "University of Colorado Boulder Leeds School of Business",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Leeds alumni spotlight; reviewed excerpt cached locally.",
+      "sha256": "09ec6b6851be9d2a18cf729f19715d3db09a64c2e71a27e2066e53a2f622c1c6",
+      "source_id": "wave6-colorado-christian-dokken-business",
+      "source_type": "official_institutional",
+      "source_url": "https://www.colorado.edu/business/deming/news/2022/09/14/alumni-spotlight-christian-dokken-nigh",
+      "verified_direct_quotes": [
+        "Alumni Spotlight: Christian Dokken - Nigh",
+        "Christian graduated from the University of Colorado Boulder in December of 2021 with a Bachelor of Science in Business Administration and a double emphasis in finance and marketing."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/cornell-peter-orthwein.txt",
+      "candidate_id": "candidate-v2:cornell-university",
+      "publisher": "Cornell SC Johnson College of Business",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Cornell alumni award profile; reviewed excerpt cached locally.",
+      "sha256": "0c5e8cf15d461610ff770d31f5f08fdfb2639126b30bd35427db54e6e118fa3f",
+      "source_id": "wave6-cornell-peter-orthwein-ag-econ",
+      "source_type": "official_institutional",
+      "source_url": "https://business.cornell.edu/hub/2019/03/25/2019-alumni-award-recipients/",
+      "verified_direct_quotes": [
+        "Peter B. Orthwein ’68, MBA ’69",
+        "A double Cornellian, Peter Orthwein earned a degree in agricultural economics in 1968 and an MBA in 1969."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/michigan-alex-cater.txt",
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "publisher": "University of Michigan Ross School of Business",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Michigan Ross alumni profile; reviewed excerpt cached locally.",
+      "sha256": "b7f50b412b833fb17a312034eb93f04662ae8cf7310c5ca0dbe5207f85d1fa8f",
+      "source_id": "wave6-michigan-alex-cater-business",
+      "source_type": "official_institutional",
+      "source_url": "https://michiganross.umich.edu/profiles/alex-cater-bba-09",
+      "verified_direct_quotes": [
+        "Alex Cater, BBA '09",
+        "Alex has a Bachelor of Business Administration from the Ross School at University of Michigan and a Master of Business Administration from the Wharton School at the University of Pennsylvania."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/notre-dame-trent-grocock.txt",
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "publisher": "University of Notre Dame",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Notre Dame leadership biography; reviewed excerpt cached locally.",
+      "sha256": "a817c63211311fbce807c6bdb7a06078ac1684d3eae29f88334d3a8c9392e54d",
+      "source_id": "wave6-notre-dame-trent-grocock-finance",
+      "source_type": "official_institutional",
+      "source_url": "https://www.nd.edu/about/leadership/presidents-leadership-council-and-deans/trent-grocock/",
+      "verified_direct_quotes": [
+        "Trent A. Grocock",
+        "Trent graduated from Notre Dame in 1989 with a bachelor’s degree in Business Administration in Finance."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/princeton-shruti-venkat.txt",
+      "candidate_id": "candidate-v2:princeton-university",
+      "publisher": "Princeton University Department of Economics",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Princeton Economics alumni spotlight; reviewed excerpt cached locally.",
+      "sha256": "ac142f9b23858c19915a85f32316c2bf8c0d5c0b956520c582d032bfb0e24f9c",
+      "source_id": "wave6-princeton-shruti-venkat-econ",
+      "source_type": "official_institutional",
+      "source_url": "https://economics.princeton.edu/news/undergrad-alumni-spotlight-with-shruti-venkat/",
+      "verified_direct_quotes": [
+        "Venkat majored in Economics and completed certificates in finance and statistics and machine learning to develop her skills in these areas.",
+        "Graduating Summa Cum Laude from Princeton in 2023 and winning awards for her junior and senior theses, Venkat is now an investor at Insight Partners, a software venture capital and private equity company."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/ucdavis-deb-frincke.txt",
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "publisher": "UC Davis Department of Computer Science",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official UC Davis CS alumni page; reviewed excerpt cached locally.",
+      "sha256": "a598cdce0f5bcee28ac7c1c47bbabf0d0594c49549efde4af9cc04ca2b3fd06e",
+      "source_id": "wave6-ucdavis-deb-frincke-cs",
+      "source_type": "official_institutional",
+      "source_url": "https://cs.ucdavis.edu/news/alumni",
+      "verified_direct_quotes": [
+        "Since her time as a computer science student at UC Davis, Deb Frincke, B.S. ’85, M.S. ’89, Ph.D. ’92 has been at the forefront of cybersecurity as it has become an increasingly important part of modern life."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/ucla-michael-waterstone.txt",
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "publisher": "UCLA Department of Political Science",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official UCLA Political Science notable alumni page; reviewed excerpt cached locally.",
+      "sha256": "31d0cbd9da5363df6e622cbf3a4e9e549227e275495db89bd71fc46d1e977054",
+      "source_id": "wave6-ucla-michael-waterstone-poli-sci",
+      "source_type": "official_institutional",
+      "source_url": "https://polisci.ucla.edu/alumni/notable-alumni/",
+      "verified_direct_quotes": [
+        "Michael Waterstone, a nationally recognized expert in disability and civil rights law, has been named dean of UCLA School of Law.",
+        "The appointment brings Waterstone back to his alma mater: He earned his bachelor’s degree in political science from UCLA."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-20",
+      "cache_path": "cache/stage3d-fill-program-people-wave6/uva-burhan-chaudhry.txt",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "publisher": "University of Virginia Alumni Association",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Reviewed UVA Alumni Association scholarship biography; excerpt cached locally.",
+      "sha256": "9b9fb7aa3921f32c5a0c3da430c2f24c88561879c52718ff43e3921ce25be3e6",
+      "source_id": "wave6-uva-burhan-chaudhry-cs",
+      "source_type": "official_institutional",
+      "source_url": "https://alumni.virginia.edu/scholarships/alumni-association-awards/burhan-chaudhry-scholarship/",
+      "verified_direct_quotes": [
+        "The Burhan Chaudhry Scholarship was established in 2021 to honor Burhan Muhammad Chaudhry’s graduation from the University of Virginia.",
+        "Burhan graduated from UVA with a Bachelor’s in Computer Science in 2 years."
+      ]
+    }
+  ]
+}

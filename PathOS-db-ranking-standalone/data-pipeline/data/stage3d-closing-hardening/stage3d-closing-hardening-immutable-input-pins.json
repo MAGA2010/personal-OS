@@ -1,0 +1,508 @@
+{
+  "baseline_commit": "e4b3dcf5621dcaa498c4e3e7cd714004fedcbd9f",
+  "expected_cumulative_counts": {
+    "duplicate_person_count": 0,
+    "identified_person_count": 180,
+    "no_qualifying_person_found_count": 0,
+    "post_merge_duplicate_count": 0,
+    "raw_person_occurrence_count": 180,
+    "source_review_not_completed_count": 130,
+    "total_program_slots": 310,
+    "unique_person_count": 180,
+    "unique_source_id_count": 180
+  },
+  "frozen_date": "2026-07-22",
+  "manifest_version": 1,
+  "pins": [
+    {
+      "git_blob_sha": "4377d21d3248e3552b9493530051e487181a8476",
+      "immutable": true,
+      "path": "artifacts/stage3c-academic-geo-enrichment/stage3c-demo-programs-overlay.json",
+      "record_count": 62,
+      "role": "program_slot_scope",
+      "sha256": "11ac883fcef31d00cd57610c17c848feca479c8d5c2b7030f7f07d69540a5491",
+      "source_wave": "stage3c"
+    },
+    {
+      "git_blob_sha": "e3281eafd4aeb528b76134d7a07d15ee1dc59a58",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-v2/stage3d-fill-bulk-v2-summary.json",
+      "record_count": 1,
+      "role": "narrative_coverage",
+      "sha256": "e9ba079d3819a8fe589b6d5281a58d005e3230a2a6434d24b622dd3b03c4091f",
+      "source_wave": "stage3d_fill_bulk_v2"
+    },
+    {
+      "git_blob_sha": "710cee11f7d0a179b842a231ca654a2dfbeb5e8c",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-cache-manifest.json",
+      "record_count": 20,
+      "role": "cache_manifest",
+      "sha256": "a36f7fb472028bd60385d21c73d2b3676e56de788e50b11c189f8f7f1b230d7f",
+      "source_wave": "wave1"
+    },
+    {
+      "git_blob_sha": "767ed22bfe4a83845b5174a39332763638622775",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "3554048a7a5e7e0961223f5d965cd177ea2353a09e1e301199046833b366267f",
+      "source_wave": "wave1"
+    },
+    {
+      "git_blob_sha": "1cabc5e9d84410a2426e59ec8bc696a430abaf76",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-program-people.json",
+      "record_count": 100,
+      "role": "program_people",
+      "sha256": "7a2f0b8f4b0efe300ae02c235bf2734e9959570e569db8fcf42d8a977b512af0",
+      "source_wave": "wave1"
+    },
+    {
+      "git_blob_sha": "376ecc558707a58ee7fc84b00420904d28708c2d",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-source-manifest.json",
+      "record_count": 20,
+      "role": "source_manifest",
+      "sha256": "a591910a450defeebc675d98ace855deef090c9fc0ffb8c3cd2b8fe81e02f590",
+      "source_wave": "wave1"
+    },
+    {
+      "git_blob_sha": "d26df4866bc37f9eba5581c41ce08955bfa5cd81",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "42b66839183a45470088af376e2960fe325e797ad9e2c129e38835bf73fc0719",
+      "source_wave": "wave1"
+    },
+    {
+      "git_blob_sha": "3c1d2b2a884ac45f15fbb4f81097e38e1ec4ff07",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-cache-manifest.json",
+      "record_count": 8,
+      "role": "cache_manifest",
+      "sha256": "0451816ff55e1a6c73bc77521e8e380e68d656d625f13f4ac4b99f23a9a72bdf",
+      "source_wave": "wave2"
+    },
+    {
+      "git_blob_sha": "95c722d14bf80d049308aefdee62265f7c97fc49",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "23212a528cfef09883a0137c10f36bdc98cef4207b257a69777213fedffc7391",
+      "source_wave": "wave2"
+    },
+    {
+      "git_blob_sha": "27dcdd07a7c023b081c18f8ca0808eca119b16d8",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-program-people.json",
+      "record_count": 100,
+      "role": "program_people",
+      "sha256": "8f966a3dae9b24255b3bdded03c08a92e31d5b2e218dc41607002834e8a1dd93",
+      "source_wave": "wave2"
+    },
+    {
+      "git_blob_sha": "f96e6baf603521c47e59b2dcc8e98a54bf3d95eb",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-source-manifest.json",
+      "record_count": 8,
+      "role": "source_manifest",
+      "sha256": "85e910b343d15c042337887992cba6b896e83802505559b57fb1fbdae6393554",
+      "source_wave": "wave2"
+    },
+    {
+      "git_blob_sha": "48136985b824f4d866f5f8771010d03846bad4d0",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "584ca134a215f1d069f7b946b9a23649b3d5e5557feb6b210dd73e3e54eb449a",
+      "source_wave": "wave2"
+    },
+    {
+      "git_blob_sha": "25ca637c28af82fb5dc2bdaa14b6cf72726202d4",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-cache-manifest.json",
+      "record_count": 10,
+      "role": "cache_manifest",
+      "sha256": "a5e0e5c0e5346e07a98c23afe305edf2a2199eab8a267d31074303d8836178a7",
+      "source_wave": "wave3"
+    },
+    {
+      "git_blob_sha": "2cc06ae61ab973d80ee83e993c58ee4b75e3a9af",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "190bfd56e9542a8616641600fe4d90be2aefba3216ea825adc0a092fe4c82d9c",
+      "source_wave": "wave3"
+    },
+    {
+      "git_blob_sha": "48283494f528d5f17b014dc6807f21dd0c7963ea",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-program-people.json",
+      "record_count": 110,
+      "role": "program_people",
+      "sha256": "d2e35ee7c1d001ce2fb865eef655e4ced659fce482cb09dbdd67bc2653f5ee88",
+      "source_wave": "wave3"
+    },
+    {
+      "git_blob_sha": "28046d783eec6dc01ef1e277d4ef42fb3399581b",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-source-manifest.json",
+      "record_count": 10,
+      "role": "source_manifest",
+      "sha256": "1199ae526459a8f5d121dde7feddeee96e1d42067c3824b77855d285c29ca8a5",
+      "source_wave": "wave3"
+    },
+    {
+      "git_blob_sha": "d91bc112cd385b258daab97d8e5c998f78fa7049",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "55464d3c5d7b2cc676f44a098ee7e032b39d2da8101996edb03795523b5cf3f3",
+      "source_wave": "wave3"
+    },
+    {
+      "git_blob_sha": "f225b51591f06953ae3508524c703fa33f7df89d",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-people-completion-v1/stage3d-fill-bulk-people-v1-summary.json",
+      "record_count": 1,
+      "role": "attendance_coverage",
+      "sha256": "780d45fea48e8e3f55141a9abb10e947c4c005762251ca34a389449107eef1e3",
+      "source_wave": "stage3d_fill_bulk_people_v1"
+    },
+    {
+      "git_blob_sha": "d470b70333f5ef3b328c7259c124bda9453210ec",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-cache-manifest.json",
+      "record_count": 30,
+      "role": "cache_manifest",
+      "sha256": "0415eea05698a1b65f37ddacf17fc772195f6a2f71f530066795265f9d89b54b",
+      "source_wave": "wave10"
+    },
+    {
+      "git_blob_sha": "03ccdacd3f670130ada62aa4bd15be626736ce47",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "e5e091d4cfd5beea44f0d81df53062c013cfbdfd86c71e1d07ffd33e24e24cf6",
+      "source_wave": "wave10"
+    },
+    {
+      "git_blob_sha": "f6046a1536968046da3b1cd48ab7f37d4e42389e",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-program-people.json",
+      "record_count": 160,
+      "role": "program_people",
+      "sha256": "ab80e71c79f23313a693fdcc25ea6f59dd42b74a113e0d65d55e903cc5b6fef4",
+      "source_wave": "wave10"
+    },
+    {
+      "git_blob_sha": "66ee276319ac3adf37e59a13545c35cbb80b187b",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-source-manifest.json",
+      "record_count": 30,
+      "role": "source_manifest",
+      "sha256": "fc38ba80da9a66cc47317da018375f91c0ea3a872f5a6383f967f654bfd4b9c4",
+      "source_wave": "wave10"
+    },
+    {
+      "git_blob_sha": "6e354fe5cd81fbf5dd4640cff6d25a491a9071e4",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave10/stage3d-fill-program-people-wave10-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "267666601840df3f7f67a3ba4e0bceb1836517a3a9cb3664035bc2c0803e0d44",
+      "source_wave": "wave10"
+    },
+    {
+      "git_blob_sha": "50ad32a72a13d91358cdb2a9d05b6332061049f3",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-cache-manifest.json",
+      "record_count": 14,
+      "role": "cache_manifest",
+      "sha256": "f3578410d860a1c812d6be517fe6c3c054dde4d2d328caa6d620016639db48e5",
+      "source_wave": "wave4"
+    },
+    {
+      "git_blob_sha": "5c4bb56a502963d75946c905aa081b6789cc5b12",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "2818e3c491b9c3e318a340266e449ff75f01cd991ae7b7beac1ee1b59c447fca",
+      "source_wave": "wave4"
+    },
+    {
+      "git_blob_sha": "ece7bd0b871fe501c1339071d39d53f78c312351",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-program-people.json",
+      "record_count": 100,
+      "role": "program_people",
+      "sha256": "6ec567db4476822348cc0d492b7d7d1c2bf15ebfe1b76bb3449afe14718c698b",
+      "source_wave": "wave4"
+    },
+    {
+      "git_blob_sha": "e864e87625b5d9100025f6bd981fcb9a6459934d",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-source-manifest.json",
+      "record_count": 14,
+      "role": "source_manifest",
+      "sha256": "281038fa2eed4986e622c255b1e41f9cfb69f6641e7f4984d6b3bfd17dc9ae86",
+      "source_wave": "wave4"
+    },
+    {
+      "git_blob_sha": "a62f8d25612a60cb99803a99236b8118bfd3ac2e",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "ae035b3e71e8847cd29ddda452d6db4e735a17f1e819c61dd0625402e277215a",
+      "source_wave": "wave4"
+    },
+    {
+      "git_blob_sha": "b64219a0aa86ebfa9399e001728fd5125af535e8",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-cache-manifest.json",
+      "record_count": 10,
+      "role": "cache_manifest",
+      "sha256": "48d1392d393b1aa786b80c064c4ac554ad8a7c236a65687091bdb167e1f96514",
+      "source_wave": "wave5"
+    },
+    {
+      "git_blob_sha": "6cb8d48a039ea5c49a45de832c10ed0c744e9f71",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "24011d6e90176d4459e9101fe60f0b302a69d96dcc30165f9bdfe9e23ff8dce2",
+      "source_wave": "wave5"
+    },
+    {
+      "git_blob_sha": "fc5f148ac2d952471114ea2fb8c221f94a7c40dc",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-program-people.json",
+      "record_count": 100,
+      "role": "program_people",
+      "sha256": "95d39949f150fdc0aefadc718cf13f75c8683d51eac04e4e7bd70f53753160de",
+      "source_wave": "wave5"
+    },
+    {
+      "git_blob_sha": "abfe88f5de448321858de93b5b3489b8197ba0cf",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-source-manifest.json",
+      "record_count": 10,
+      "role": "source_manifest",
+      "sha256": "90bb1f5010ad4f788a3581993ea82a63c8d7111b0555a2ed97c21b00a555ffec",
+      "source_wave": "wave5"
+    },
+    {
+      "git_blob_sha": "187ff6d9595e2686f72160219657f6c62d748574",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "a7d3070b82e13d4140b912eac6e5cdb688a34000d9ebe4b48df8c016c58af208",
+      "source_wave": "wave5"
+    },
+    {
+      "git_blob_sha": "37245e39f6679b9e1d7d096fb730c7dbb5e6e0ad",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-cache-manifest.json",
+      "record_count": 11,
+      "role": "cache_manifest",
+      "sha256": "c9e2ec52d5e14528429bd9fa4839361c4b7199799b7ac3dc40e53e9d0efe6bd4",
+      "source_wave": "wave6"
+    },
+    {
+      "git_blob_sha": "b2b99d0fa56ded7048e6f66ddcdc584d98bfde56",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "b07361f0111a4cc0a5bea306c356d0cbcc44c5a75104576763a0289ccea57a7f",
+      "source_wave": "wave6"
+    },
+    {
+      "git_blob_sha": "0d405993d5cd91af5bd62e021d005011fabc1a76",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-program-people.json",
+      "record_count": 100,
+      "role": "program_people",
+      "sha256": "81b60f2fc1c84c0e103b7a35f62ef02bf1dc03d586219247935cc43ac2968d48",
+      "source_wave": "wave6"
+    },
+    {
+      "git_blob_sha": "85fe3d948dffa3b8aceb1d8a33308a9cb2a23fd4",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-source-manifest.json",
+      "record_count": 11,
+      "role": "source_manifest",
+      "sha256": "9e208bee167bb44761f0279ffea0187400345ed8edacbe98286741be77cc4b84",
+      "source_wave": "wave6"
+    },
+    {
+      "git_blob_sha": "53d710642641790192bf33511d7b08abdcfe094d",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "d241483fbb3dc248fb9278a0eb0f736ed94f2184f59e740023e7dd19482e4b96",
+      "source_wave": "wave6"
+    },
+    {
+      "git_blob_sha": "6937b34056f7934c4c09666f02891e27fb465184",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-cache-manifest.json",
+      "record_count": 27,
+      "role": "cache_manifest",
+      "sha256": "0aab3dbf7f77485b6dae49304ed8ce1df500febe2a571c6bb6f323a01167b770",
+      "source_wave": "wave7"
+    },
+    {
+      "git_blob_sha": "52b325b12da567a8ff8f003df6dc9146fb55abdc",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "8ce13d9a7bf1010c1172dc040c05587cd7443681e1aa020593f322462696833f",
+      "source_wave": "wave7"
+    },
+    {
+      "git_blob_sha": "8f48e56d64fece5417062d112ddb20e85f186dec",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-program-people.json",
+      "record_count": 100,
+      "role": "program_people",
+      "sha256": "32cbe1431bbf171aeb90031645890d552ac732b24f7c210df7beb9d253f86c0b",
+      "source_wave": "wave7"
+    },
+    {
+      "git_blob_sha": "a653b9185464ef21a82b7b0aba91c72027d87c16",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-source-manifest.json",
+      "record_count": 27,
+      "role": "source_manifest",
+      "sha256": "1e4b862f798b199af53410a85c7528e6d5804607b99fc07ec619ec734d028daa",
+      "source_wave": "wave7"
+    },
+    {
+      "git_blob_sha": "cac5afef436088f5fb2b9cde7a3064be67ebbfd5",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "841da6b9406f2e7c7cd6530af1fae3de63905a4eea78aeb32d16166424c744fc",
+      "source_wave": "wave7"
+    },
+    {
+      "git_blob_sha": "5e8b27f11dc81cbc555e675a4f7ea79751f2d4f8",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-cache-manifest.json",
+      "record_count": 25,
+      "role": "cache_manifest",
+      "sha256": "75b5a39dfac28470e9ebfd2308065e02f05d01d317504c3a76fd93b4e6ceb5ca",
+      "source_wave": "wave8"
+    },
+    {
+      "git_blob_sha": "c3970388632789fe380a7d7afdced3d88e16f015",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "3abfb35b8c676dbc28ede19faa229e49fc97ed7d1e04291a058389ba22226161",
+      "source_wave": "wave8"
+    },
+    {
+      "git_blob_sha": "d5e2180584bf4565949558ca9f66ca6c66bf7dee",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-program-people.json",
+      "record_count": 100,
+      "role": "program_people",
+      "sha256": "d81fe997b5b9419a9f2a50782449bacd44e2fbefc15537c2cf78c29e7704e431",
+      "source_wave": "wave8"
+    },
+    {
+      "git_blob_sha": "d3c3984afbea7666f635f4692b64b8a76f7fb373",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-source-manifest.json",
+      "record_count": 25,
+      "role": "source_manifest",
+      "sha256": "d99efdef19b58943579a63f79577177865b4d2d48cf77d028a912ad3c97647a8",
+      "source_wave": "wave8"
+    },
+    {
+      "git_blob_sha": "deb01d74943406090ccc7c67cad8ac1433decbd9",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "9de5967b3629e3b8414151463e70bf2e7a4407b0162d4813d773aabad1f57111",
+      "source_wave": "wave8"
+    },
+    {
+      "git_blob_sha": "193bd5d55a8df80cc967066d8a77c72b95f5215a",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-cache-manifest.json",
+      "record_count": 25,
+      "role": "cache_manifest",
+      "sha256": "33457bee1469a6e2ef67db02d1cf1cb09195fb2a138f10281b9c4a88d44f461a",
+      "source_wave": "wave9"
+    },
+    {
+      "git_blob_sha": "f912b62e195b8e317fec3f9fcd669f34a9d80eb0",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-gap-disclosure.json",
+      "record_count": 1,
+      "role": "gap_disclosure",
+      "sha256": "adaee7ec6cef78e03d3906e70b716cb6d25e6ac6ebfa1883558805ee71a065a9",
+      "source_wave": "wave9"
+    },
+    {
+      "git_blob_sha": "4c46975abf911f7b351ad9ab1ff96283b5a7dd99",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-program-people.json",
+      "record_count": 150,
+      "role": "program_people",
+      "sha256": "216ba3e01eb4c39434dee42e9019252c838a66fcd1a29315ed0e788a16a312f9",
+      "source_wave": "wave9"
+    },
+    {
+      "git_blob_sha": "10e9ea81b06023c7e21d06fe79fcc2554568e927",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-source-manifest.json",
+      "record_count": 25,
+      "role": "source_manifest",
+      "sha256": "4a74bc06875fb78c8f3c6e7371238c687f1e29f11e974f493cb9b92ef86d14b2",
+      "source_wave": "wave9"
+    },
+    {
+      "git_blob_sha": "30a3b548d7690ec1e1752249d43f64d163a4d18b",
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave9/stage3d-fill-program-people-wave9-summary.json",
+      "record_count": 1,
+      "role": "summary",
+      "sha256": "433b3cee0e886f0dfeb1670f1025c8d20eeda979195129429a29493d6ca5c153",
+      "source_wave": "wave9"
+    },
+    {
+      "git_blob_sha": "46411aa2a0dce0664977e018b344cde8940f41a1",
+      "immutable": true,
+      "path": "data/university-universe-candidates/v2-source-limited/candidate-universities.json",
+      "record_count": 62,
+      "role": "candidate_scope",
+      "sha256": "8f940aa6d336402ff9c3c76a43d2efacdf2c887dc983afeb344937db9eadb18d",
+      "source_wave": "candidate_v2"
+    }
+  ],
+  "push_performed_by_stage": false,
+  "record_type": "stage3d_closing_hardening_immutable_input_pins",
+  "stage3a_stash_untouched": true,
+  "tag_created_by_stage": false
+}

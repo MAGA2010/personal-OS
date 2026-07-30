@@ -1,0 +1,432 @@
+{
+  "generatedAt": "2026-07-25T22:31:40+00:00",
+  "groups": [
+    {
+      "sha256": "0605fc8faf06a56013e417a09ad81907cbeb1c4490078348bd0e7b7a74b4c06f",
+      "occurrences": [
+        {
+          "project": "canonical",
+          "relativePath": "src/components/map/GranularityBadge.tsx"
+        },
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/GranularityBadge.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/GranularityBadge.tsx"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "091da7c4cf712b5619e1d53fe2defa719c93c06e95aa3965335ddca6efe68925",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/data/demo-portfolio.json"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/data/demo-portfolio.json"
+        },
+        {
+          "project": "canonical",
+          "relativePath": "src/test/fixtures/demo-portfolio.fixture.json"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "10133bc40822497cca20e4e64d3a0b39d938e315e6fef3e41bfe581e488dc161",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/data/state-options.json"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/data/state-options.json"
+        },
+        {
+          "project": "canonical",
+          "relativePath": "src/test/fixtures/state-options.fixture.json"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "1eab4a711f0a30c45d248719cbc66689ea5dbaed6c7f2f1551bded7fdb6ea640",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/CityDetailPanel.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/CityDetailPanel.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "259e072d6f0bd8e1f869c9b46f89feac3e8f4dbeda29318f8d153314ef76a211",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/app/api/ai/analyze/route.ts"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/app/api/ai/analyze/route.ts"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "29813680257623a9d21da3c0e208260088d10b3a35bc32fbb6e2548a6f937790",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/data/region-metrics.json"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/data/region-metrics.json"
+        },
+        {
+          "project": "canonical",
+          "relativePath": "src/test/fixtures/region-metrics.fixture.json"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "42f869fdb833e90699b68c50bfc4f383ec367f04cd19a7812be1b915d049f8c5",
+      "occurrences": [
+        {
+          "project": "canonical",
+          "relativePath": "src/app/api/xuanxiao/universities/route.ts"
+        },
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/app/api/xuanxiao/universities/route.ts"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/app/api/xuanxiao/universities/route.ts"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "4ada2205352c01fbdb5f145e39498d1b1ede4fa21e89fafcd82f8aff9da1b17e",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/data/university-rankings.json"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/data/university-rankings.json"
+        },
+        {
+          "project": "canonical",
+          "relativePath": "src/test/fixtures/university-rankings.fixture.json"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "6df51fe86e50389a59cb925ef201f2ff59ae5e24a83c0cad562b936470d304b3",
+      "occurrences": [
+        {
+          "project": "canonical",
+          "relativePath": "src/lib/assessment.ts"
+        },
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/lib/assessment.ts"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/lib/assessment.ts"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "79e3ef78bd082a260c883404fce5b5374311170eb63a74b5d6254e4be732472b",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/data/city-boundaries.json"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/data/city-boundaries.json"
+        },
+        {
+          "project": "canonical",
+          "relativePath": "src/test/fixtures/city-boundaries.fixture.json"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "802fff175f42f46b6e38d39f89266167343d54b35ab85eb7d324049df79ddd39",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/MetricTabs.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/MetricTabs.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "82458b6bde40a74459aad4c813a2e7f5f598bc016b7ed0d50c8d6299e83170e5",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/data/news.json"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/data/news.json"
+        },
+        {
+          "project": "canonical",
+          "relativePath": "src/test/fixtures/news.fixture.json"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "84d125e4e530acdacbcf2422051a1b2a1fdf6b1b19ad3f0d56cd6beaaab49c33",
+      "occurrences": [
+        {
+          "project": "canonical",
+          "relativePath": "src/app/map/layout.tsx"
+        },
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/app/map/layout.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/app/map/layout.tsx"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "8d3d275874722d3d053b3a5ac37a328ba64ce1e54d084630de0b2658d8f90814",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/lib/city-utils.ts"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/lib/city-utils.ts"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "a0441f5a7542c30b4bca1f7733652ad1acc74afb6b1b0fd64a46ef9e38e38576",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/data/universities.json"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/data/universities.json"
+        },
+        {
+          "project": "canonical",
+          "relativePath": "src/test/fixtures/universities.fixture.json"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "a3b8c1178f340cc19571b7c9f8392f58bf1ebb88f8193f2e28ed0bd44e896d8b",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/lib/metrics.ts"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/lib/metrics.ts"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "ac3483eeae529df739c665c92768e3ea168e6c17010c3ceb4792a56514fb64d9",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/app/news/page.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/app/news/page.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "b297875a795c2d3a4a77ec05a668a81c8a4d3cf304c20f98b45f3f428dc8a17f",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/CitySelector.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/CitySelector.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "c802c34eb99e10e128a1eb0fe3889b081013b4840ced53b16f42e1c42a1d2380",
+      "occurrences": [
+        {
+          "project": "canonical",
+          "relativePath": "src/components/map/CaliforniaRoadLayer.tsx"
+        },
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/CaliforniaRoadLayer.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/CaliforniaRoadLayer.tsx"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "cc92745ccf2870bda239a03e1d736582ddc070bb5cb543ad18831f89edb43cb9",
+      "occurrences": [
+        {
+          "project": "canonical",
+          "relativePath": "src/components/Footer.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/Footer.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "d25ae739d70410a44b912746d6a3296fd50f976bd4c160882f0d98c92134de90",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/CityLayer.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/CityLayer.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "d2da85664c1159d1448d655f47b4a145609422b12bc00c44c3a30d3000b61bb5",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/UniversityMarkers.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/UniversityMarkers.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "d2e5ba54de62c8166b15d8c9b0a707230fcf927f1580faf4b0f53388bb2bf32e",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/ComparePanel.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/ComparePanel.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "da35def2d3600ac2d424b5c502ddb669a05329fd6b7399de92a787e351a525ac",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/ProductJourney.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/ProductJourney.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "da81e0fbe26804bf7d560dce8b03985f3faa392355c6d0eb71355a7a35199396",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/lib/types.ts"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/lib/types.ts"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "eba0c7448a30b98f860e6403a9becc3e9f00780bc608011b88b0689c36efd78e",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/UniversityCard.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/UniversityCard.tsx"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "f200cafdf7890b1d82af8914944b2567c5cfb5d872952639204815c7b76e6815",
+      "occurrences": [
+        {
+          "project": "candidateWorktree",
+          "relativePath": "src/components/map/MapFilterPanel.tsx"
+        },
+        {
+          "project": "candidateGitHead",
+          "relativePath": "src/components/map/MapFilterPanel.tsx"
+        }
+      ],
+      "count": 2
+    }
+  ],
+  "groupCount": 27
+}

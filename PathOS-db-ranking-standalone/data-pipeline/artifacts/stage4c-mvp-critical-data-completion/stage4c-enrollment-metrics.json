@@ -1,0 +1,3283 @@
+{
+  "record_type": "stage4c_enrollment_metrics",
+  "universities": [
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 14419
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 78817
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 64398
+      },
+      "unitid": "104151",
+      "university_display_name": "Arizona State University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "canonical_id": "institution:boston-college",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 5197
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 15062
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 9865
+      },
+      "unitid": "164924",
+      "university_display_name": "Boston College",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 17968
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 35818
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 17850
+      },
+      "unitid": "164988",
+      "university_display_name": "Boston University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 3775
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 11048
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7273
+      },
+      "unitid": "217156",
+      "university_display_name": "Brown University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 46
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 3864
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 3818
+      },
+      "unitid": "211291",
+      "university_display_name": "Bucknell University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 1440
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 2463
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 1023
+      },
+      "unitid": "110404",
+      "university_display_name": "California Institute of Technology",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 8307
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 15494
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7187
+      },
+      "unitid": "211440",
+      "university_display_name": "Carnegie Mellon University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 26168
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 35067
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 8899
+      },
+      "unitid": "190150",
+      "university_display_name": "Columbia University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 10213
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 26148
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 15935
+      },
+      "unitid": "190415",
+      "university_display_name": "Cornell University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 2299
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 6666
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 4367
+      },
+      "unitid": "182670",
+      "university_display_name": "Dartmouth College",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 10624
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 17041
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 6417
+      },
+      "unitid": "198419",
+      "university_display_name": "Duke University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 7687
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 14962
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7275
+      },
+      "unitid": "139658",
+      "university_display_name": "Emory University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 12424
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 19886
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7462
+      },
+      "unitid": "131496",
+      "university_display_name": "Georgetown University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 28441
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 46701
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 18260
+      },
+      "unitid": "139755",
+      "university_display_name": "Georgia Institute of Technology",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 21291
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 29046
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7755
+      },
+      "unitid": "166027",
+      "university_display_name": "Harvard University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "graduate": {
+        "null_reason": "official_grads_not_reported",
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [],
+        "status": "not_reported",
+        "value": null
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": false,
+        "formula": null,
+        "null_reason": "graduate_component_not_reported",
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [],
+        "status": "partial",
+        "value": null
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 915
+      },
+      "unitid": "115409",
+      "university_display_name": "Harvey Mudd College",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 10694
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 47265
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 36571
+      },
+      "unitid": "151351",
+      "university_display_name": "Indiana University Bloomington",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 24273
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 29890
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 5617
+      },
+      "unitid": "162928",
+      "university_display_name": "Johns Hopkins University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 1779
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 7582
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 5803
+      },
+      "unitid": "213543",
+      "university_display_name": "Lehigh University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 4910
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 16486
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 11576
+      },
+      "unitid": "146719",
+      "university_display_name": "Loyola University Chicago",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 7344
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 11915
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 4571
+      },
+      "unitid": "166683",
+      "university_display_name": "Massachusetts Institute of Technology",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 27575
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 57005
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 29430
+      },
+      "unitid": "193900",
+      "university_display_name": "New York University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 15268
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 30987
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 15719
+      },
+      "unitid": "167358",
+      "university_display_name": "Northeastern University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 14046
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 23006
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 8960
+      },
+      "unitid": "147767",
+      "university_display_name": "Northwestern University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 14318
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 58935
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 44617
+      },
+      "unitid": "204796",
+      "university_display_name": "The Ohio State University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "graduate": {
+        "null_reason": "official_grads_not_reported",
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [],
+        "status": "not_reported",
+        "value": null
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": false,
+        "formula": null,
+        "null_reason": "graduate_component_not_reported",
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [],
+        "status": "partial",
+        "value": null
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 373
+      },
+      "unitid": "441982",
+      "university_display_name": "Olin College of Engineering",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 3251
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 8830
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 5579
+      },
+      "unitid": "186131",
+      "university_display_name": "Princeton University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 13041
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 52678
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 39637
+      },
+      "unitid": "243780",
+      "university_display_name": "Purdue University—Main Campus",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 3982
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 8544
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 4562
+      },
+      "unitid": "227757",
+      "university_display_name": "Rice University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 15
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 2239
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 2224
+      },
+      "unitid": "152318",
+      "university_display_name": "Rose-Hulman Institute of Technology",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 14029
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 50386
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 36357
+      },
+      "unitid": "186380",
+      "university_display_name": "Rutgers University—New Brunswick",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 10392
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 18233
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7841
+      },
+      "unitid": "243744",
+      "university_display_name": "Stanford University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 16700
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 75799
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 59099
+      },
+      "unitid": "228723",
+      "university_display_name": "Texas A&M University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 6397
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 13201
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 6804
+      },
+      "unitid": "168148",
+      "university_display_name": "Tufts University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 12621
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 45694
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 33073
+      },
+      "unitid": "110635",
+      "university_display_name": "University of California, Berkeley",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 7910
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 39687
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 31777
+      },
+      "unitid": "110644",
+      "university_display_name": "University of California, Davis",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 7079
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 36573
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 29494
+      },
+      "unitid": "110653",
+      "university_display_name": "University of California, Irvine",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 13638
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 46678
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 33040
+      },
+      "unitid": "110662",
+      "university_display_name": "University of California, Los Angeles",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "canonical_id": "institution:university-of-california-san-diego",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 8584
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 42371
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 33787
+      },
+      "unitid": "110680",
+      "university_display_name": "University of California, San Diego",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 2836
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 26041
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 23205
+      },
+      "unitid": "110705",
+      "university_display_name": "University of California, Santa Barbara",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 10696
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 18236
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7540
+      },
+      "unitid": "144050",
+      "university_display_name": "University of Chicago",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 9327
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 40905
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 31578
+      },
+      "unitid": "126614",
+      "university_display_name": "University of Colorado Boulder",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 19890
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 53992
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 34102
+      },
+      "unitid": "134130",
+      "university_display_name": "University of Florida",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 10101
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 41411
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 31310
+      },
+      "unitid": "139959",
+      "university_display_name": "University of Georgia",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 20999
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 55622
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 34623
+      },
+      "unitid": "145637",
+      "university_display_name": "University of Illinois Urbana-Champaign",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 7912
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 29603
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 21691
+      },
+      "unitid": "153658",
+      "university_display_name": "University of Iowa",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 10205
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 40451
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 30246
+      },
+      "unitid": "163286",
+      "university_display_name": "University of Maryland, College Park",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 18335
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 51823
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 33488
+      },
+      "unitid": "170976",
+      "university_display_name": "University of Michigan—Ann Arbor",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 15334
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 45803
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 30469
+      },
+      "unitid": "174066",
+      "university_display_name": "University of Minnesota Twin Cities",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 11553
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 32109
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 20556
+      },
+      "unitid": "199120",
+      "university_display_name": "University of North Carolina—Chapel Hill",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 4206
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 13129
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 8923
+      },
+      "unitid": "152080",
+      "university_display_name": "University of Notre Dame",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 17100
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 27868
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 10768
+      },
+      "unitid": "215062",
+      "university_display_name": "University of Pennsylvania",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 5396
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 11884
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 6488
+      },
+      "unitid": "195030",
+      "university_display_name": "University of Rochester",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 8109
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 36222
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 28113
+      },
+      "unitid": "218663",
+      "university_display_name": "University of South Carolina",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 26124
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 46941
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 20817
+      },
+      "unitid": "123961",
+      "university_display_name": "University of Southern California",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 10638
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 52738
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 42100
+      },
+      "unitid": "228778",
+      "university_display_name": "University of Texas—Austin",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 8312
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 25627
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 17315
+      },
+      "unitid": "234076",
+      "university_display_name": "University of Virginia",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 16105
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 47693
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 31588
+      },
+      "unitid": "236948",
+      "university_display_name": "University of Washington",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 12808
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 48473
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 35665
+      },
+      "unitid": "240444",
+      "university_display_name": "University of Wisconsin—Madison",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 6304
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 13447
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7143
+      },
+      "unitid": "221999",
+      "university_display_name": "Vanderbilt University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 8233
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 16130
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 7897
+      },
+      "unitid": "179867",
+      "university_display_name": "Washington University in St. Louis",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "graduate": {
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "value": 8263
+      },
+      "total": {
+        "derivation": {
+          "graduate_reference_year": 2019,
+          "inputs": [
+            "UGDS",
+            "GRADS"
+          ],
+          "same_dataset_release": true,
+          "undergraduate_reference_year": 2019
+        },
+        "derived": true,
+        "formula": "UGDS + GRADS",
+        "null_reason": null,
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_degree_seeking_plus_graduate_students",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_derived_same_scope",
+        "value": 15074
+      },
+      "undergraduate": {
+        "reference_year": 2019,
+        "reporting_period": "fall",
+        "scope": "undergraduate_certificate_or_degree_seeking",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified",
+        "supersedes_stage4b": false,
+        "value": 6811
+      },
+      "unitid": "130794",
+      "university_display_name": "Yale University",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    }
+  ]
+}

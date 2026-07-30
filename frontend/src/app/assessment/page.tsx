@@ -2,9 +2,10 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { AlertTriangle, Brain, CheckCircle2, ClipboardCheck, Loader2, Plus, Search, Sparkles, Trash2 } from "lucide-react";
-import { ProductJourney } from "@/components/ProductJourney";
-import universityData from "@/data/universities.json";
+import { AlertTriangle, Brain, CheckCircle2, ClipboardCheck, Plus, Sparkles, Trash2 } from "lucide-react";
+import { SearchInput } from "@/components/shared/SearchInput";
+import { useDataSource } from "@/services/data-source-provider";
+import { useUniversitySummaries } from "@/hooks/use-data-source";
 
 const PROFILE_KEY = "pathos_student_profile";
 
@@ -25,10 +26,10 @@ type AnalysisResult = {
   source: string;
   summary: string;
   portfolio: {
-    reachCount: number;
-    targetCount: number;
-    safetyCount: number;
-    averageFitScore: number;
+    reachCount: number | null;
+    targetCount: number | null;
+    safetyCount: number | null;
+    averageFitScore: number | null;
     majorRisks: string[];
     parentQuestions: string[];
   };
@@ -61,14 +62,36 @@ const PRIORITIES = [
 const tierLabel: Record<string, string> = { reach: "冲刺", target: "匹配", safety: "保底" };
 const tierTone: Record<string, string> = { reach: "bg-persimmon/10 text-persimmon", target: "bg-cobalt/10 text-cobalt", safety: "bg-jade/10 text-jade" };
 
+const LOCAL_AI_ASSESSMENT_DEMO: AnalysisResult = {
+  source: "本地 Demo 示例",
+  summary: "这是本地交互示例，用于展示 AI 学校评估的输出结构。它不会连接外部 AI，也不会生成录取结论或学校适配分数。",
+  portfolio: {
+    reachCount: null,
+    targetCount: null,
+    safetyCount: null,
+    averageFitScore: null,
+    majorRisks: [],
+    parentQuestions: [],
+  },
+  recommended: [],
+  nextActions: [
+    "先核对目标专业、预算与申请年份是否完整。",
+    "逐校确认语言、标化与专业要求；未核实字段继续显示为数据补充中。",
+    "将最终学校组合交给顾问或家庭成员进行第二轮人工复核。",
+  ],
+};
+
 export default function AssessmentPage() {
-  const all = (universityData as any).universities as any[];
+  const dataSource = useDataSource();
+  const summariesState = useUniversitySummaries(dataSource);
+  const all = useMemo(
+    () => (summariesState.state.status === "ready" ? (summariesState.state.data as unknown as any[]) : []),
+    [summariesState.state],
+  );
   const [profile, setProfile] = useState<Profile>(DEFAULT_PROFILE);
   const [query, setQuery] = useState("");
   const [selectedIds, setSelectedIds] = useState<string[]>(() => all.slice(0, 5).map((school) => school.id));
   const [result, setResult] = useState<AnalysisResult | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
   const [saved, setSaved] = useState(false);
 
   const selectedSchools = useMemo(() => selectedIds.map((id) => all.find((school) => school.id === id)).filter(Boolean), [all, selectedIds]);
@@ -91,47 +114,43 @@ export default function AssessmentPage() {
     } catch {}
   };
 
-  const runAiAssessment = async () => {
-    setLoading(true);
-    setError(null);
-    try {
-      const response = await fetch("/api/ai/analyze", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ mode: "school_assessment", profile, schools: selectedSchools.map((school: any) => ({ id: school.id, name: school.name, chineseName: school.chineseName })) }),
-      });
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.error || "AI 分析失败");
-      setResult(data);
-      saveProfile();
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "AI 分析失败");
-    } finally {
-      setLoading(false);
-    }
+  const runAiAssessment = () => {
+    setResult(LOCAL_AI_ASSESSMENT_DEMO);
+    saveProfile();
   };
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top_right,rgba(49,93,159,0.13),transparent_32%),linear-gradient(180deg,#fffaf1_0%,#f6f3ed_100%)]">
-      <header className="border-b border-line/50 bg-panel/85 px-5 py-5 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-4">
-          <div className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-cobalt text-white shadow-lg shadow-cobalt/15"><Brain size={22} /></div>
-          <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-cobalt/70">AI school assessment</p>
-            <h1 className="text-xl font-semibold tracking-tight text-ink">AI 测验：学校评估</h1>
-            <p className="mt-1 text-sm text-ink/55">接入 /api/ai/analyze，对学生画像与目标学校做 AI 风险体检。</p>
+    <div className="min-h-screen bg-surface-base">
+      <header className="border-b border-border-soft bg-surface-1/70 backdrop-blur">
+        <div className="mx-auto flex max-w-page flex-wrap items-center gap-3 px-4 py-3 sm:gap-4 sm:px-6">
+          <div className="grid h-9 w-9 shrink-0 place-items-center rounded-control bg-cobalt text-paper"><Brain size={18} aria-hidden="true" /></div>
+          <div className="min-w-0 flex-1">
+            <p className="text-label uppercase tracking-[0.12em] text-cobalt">AI 学校评估</p>
+            <h1 className="text-page text-text-primary">画像与目标校风险体检</h1>
+            <p className="mt-0.5 text-caption text-text-secondary">本地 Demo 示例：点击即可查看输出结构，不连接外部 AI。</p>
           </div>
-          <Link href="/match" className="ml-auto inline-flex items-center gap-2 rounded-full border border-line/60 bg-white/70 px-4 py-2 text-xs font-semibold text-ink/65 transition hover:border-cobalt/35 hover:text-cobalt"><Sparkles size={14} /> 返回自主测验</Link>
+          <Link href="/match" className="ml-auto inline-flex h-control items-center gap-1.5 rounded-control border border-border-soft bg-surface-1 px-3 text-[12px] font-semibold text-text-primary transition hover:border-cobalt/40 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus-ring"><Sparkles size={13} aria-hidden="true" /> 返回自主测验</Link>
         </div>
       </header>
 
-      <div className="mx-auto max-w-6xl px-4 pt-5"><ProductJourney active="assessment" compact /></div>
-
       <main className="mx-auto grid max-w-6xl gap-6 px-4 py-6 lg:grid-cols-[390px_1fr]">
+        <div className="lg:col-span-2">
+          <div
+            role="note"
+            className="flex items-start gap-2 rounded-control border border-persimmon/30 bg-persimmon/8 px-3 py-2 text-caption text-persimmon"
+          >
+            <AlertTriangle size={13} aria-hidden="true" className="mt-0.5 shrink-0" />
+            <p>
+              区域指标（安全 / 就业 / 华人社区）当前仅在地图上作环境参考，
+              未进入 AI 评估与自主匹配分数；区域数据接入完整数据源后会再次校准评分口径。
+            </p>
+          </div>
+        </div>
+
         <section className="space-y-4">
           <div className="rounded-[1.6rem] border border-white/70 bg-white/85 p-5 shadow-xl shadow-ink/5">
             <div className="mb-5">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-jade/80">Student profile</p>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-jade/80">学生画像</p>
               <h2 className="mt-1 text-base font-semibold text-ink">AI 输入画像</h2>
               <p className="mt-1 text-xs text-ink/48">这里是 AI 测验的输入，不再与自主权重匹配混在一起。</p>
             </div>
@@ -159,7 +178,7 @@ export default function AssessmentPage() {
 
           <div className="rounded-[1.6rem] border border-white/70 bg-white/85 p-5 shadow-xl shadow-ink/5">
             <div className="mb-4 flex items-center justify-between"><h2 className="text-base font-semibold text-ink">目标学校</h2><span className="rounded-full bg-ink/5 px-2.5 py-1 text-xs font-semibold text-ink/50">{selectedSchools.length} 所</span></div>
-            <div className="relative"><Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink/30" /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索学校 / 城市" className="w-full rounded-xl border border-line/60 bg-panel py-2 pl-9 pr-3 text-sm outline-none focus:border-cobalt/45" /></div>
+            <div className="relative"><SearchInput value={query} onChange={setQuery} /></div>
             <div className="mt-3 grid gap-2">
               {filtered.map((school: any) => <button key={school.id} onClick={() => addSchool(school.id)} className="flex items-center justify-between rounded-xl border border-line/45 bg-panel/70 px-3 py-2 text-left text-xs transition hover:border-cobalt/30 hover:bg-cobalt/5"><span><span className="font-semibold text-ink">{school.chineseName}</span><span className="ml-2 text-ink/38">{school.name}</span></span><Plus size={14} className="text-cobalt" /></button>)}
             </div>
@@ -169,22 +188,28 @@ export default function AssessmentPage() {
         <section className="space-y-4">
           <div className="rounded-[1.7rem] border border-white/70 bg-white/85 p-5 shadow-xl shadow-ink/5">
             <div className="flex flex-wrap items-center justify-between gap-3">
-              <div><p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-persimmon/75">AI test input</p><h2 className="mt-1 text-xl font-semibold text-ink">待评估学校</h2><p className="mt-1 text-sm text-ink/50">AI 会基于画像、学校数据和本地基准算法输出风险判断。</p></div>
-              <button disabled={loading || selectedSchools.length === 0} onClick={runAiAssessment} className="inline-flex items-center gap-2 rounded-full bg-cobalt px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-cobalt/15 transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-50">{loading ? <Loader2 size={16} className="animate-spin" /> : <Brain size={16} />} 开始 AI 分析</button>
+              <div><p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-persimmon/75">AI 示例输入</p><h2 className="mt-1 text-xl font-semibold text-ink">待评估学校</h2><p className="mt-1 text-sm text-ink/50">点击查看本地硬编码 Demo；非真实 AI 结论。</p></div>
+              <button onClick={runAiAssessment} className="inline-flex items-center gap-2 rounded-full bg-cobalt px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-cobalt/15 transition hover:-translate-y-0.5"><Brain size={16} /> 查看 AI Demo</button>
             </div>
-            {error && <div className="mt-4 rounded-2xl border border-persimmon/25 bg-persimmon/8 p-3 text-sm text-persimmon"><AlertTriangle size={15} className="mr-1 inline" />{error}</div>}
             <div className="mt-5 grid gap-3 md:grid-cols-2">
-              {selectedSchools.map((school: any) => <article key={school.id} className="rounded-2xl border border-line/45 bg-panel/70 p-3"><div className="flex items-start justify-between gap-3"><div><h3 className="text-sm font-semibold text-ink">{school.chineseName}</h3><p className="text-xs text-ink/40">{school.name}</p><p className="mt-1 text-xs text-ink/45">{school.city}, {school.state} · ¥{Math.round((school.annualCostRmb || 0) / 10000)}万/年</p></div><button onClick={() => removeSchool(school.id)} className="rounded-full p-1.5 text-ink/30 transition hover:bg-red-50 hover:text-red-500"><Trash2 size={14} /></button></div></article>)}
+              {selectedSchools.map((school: any) => <article key={school.id} className="rounded-2xl border border-line/45 bg-panel/70 p-3"><div className="flex items-start justify-between gap-3"><div><h3 className="text-sm font-semibold text-ink">{school.chineseName}</h3><p className="text-xs text-ink/40">{school.name}</p><p className="mt-1 text-xs text-ink/45">
+                        {school.city}, {school.state} ·{" "}
+                        {typeof school.annualCostRmb === "number" &&
+                        Number.isFinite(school.annualCostRmb) &&
+                        school.annualCostRmb > 0
+                          ? `¥${Math.round(school.annualCostRmb / 10000)}万/年`
+                          : "学费数据补充中"}
+                      </p></div><button onClick={() => removeSchool(school.id)} className="rounded-full p-1.5 text-ink/30 transition hover:bg-red-50 hover:text-red-500"><Trash2 size={14} /></button></div></article>)}
             </div>
           </div>
 
           {result && <div className="rounded-[1.7rem] border border-white/70 bg-ink p-5 text-panel shadow-xl shadow-ink/10">
-            <div className="flex flex-wrap items-start justify-between gap-3"><div><p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-panel/45">AI output · {result.source}</p><h2 className="mt-1 text-xl font-semibold">学校评估结果</h2></div><div className="rounded-full bg-panel/10 px-3 py-1.5 text-xs font-semibold text-panel/70">平均适配 {result.portfolio.averageFitScore}%</div></div>
+            <div className="flex flex-wrap items-start justify-between gap-3"><div><p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-panel/45">本地示例 · {result.source}</p><h2 className="mt-1 text-xl font-semibold">学校评估 Demo</h2></div><div className="rounded-full bg-panel/10 px-3 py-1.5 text-xs font-semibold text-panel/70">示例不评分</div></div>
             <p className="mt-4 rounded-2xl bg-panel/10 p-4 text-sm leading-relaxed text-panel/76">{result.summary}</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-3"><Metric label="冲刺" value={result.portfolio.reachCount} /><Metric label="匹配" value={result.portfolio.targetCount} /><Metric label="保底" value={result.portfolio.safetyCount} /></div>
             <div className="mt-5 grid gap-3 lg:grid-cols-2">
               <Panel title="推荐优先关注">
-                {result.recommended.map((school) => <div key={school.id} className="rounded-2xl bg-panel/10 p-3"><div className="flex items-center justify-between gap-2"><span className="font-semibold text-panel">{school.chineseName}</span><span className={(tierTone[school.tier] || "bg-panel/10 text-panel/70") + " rounded-full px-2 py-0.5 text-[11px]"}>{tierLabel[school.tier] || school.tier}</span></div><p className="mt-1 text-xs text-panel/55">适配 {school.fitScore}% · {school.reasons[0]}</p></div>)}
+                <div className="rounded-2xl bg-panel/10 p-3 text-sm text-panel/70">Demo 不生成学校排序或录取判断。</div>
               </Panel>
               <Panel title="下一步动作">
                 {result.nextActions.map((action) => <div key={action} className="rounded-2xl bg-panel/10 p-3 text-sm text-panel/70">{action}</div>)}
@@ -197,8 +222,8 @@ export default function AssessmentPage() {
   );
 }
 
-function Metric({ label, value }: { label: string; value: number }) {
-  return <div className="rounded-2xl bg-panel/10 p-3 text-center"><div className="text-2xl font-black text-panel">{value}</div><div className="text-xs text-panel/45">{label}</div></div>;
+function Metric({ label, value }: { label: string; value: number | null }) {
+  return <div className="rounded-2xl bg-panel/10 p-3 text-center"><div className="text-2xl font-black text-panel">{value ?? "—"}</div><div className="text-xs text-panel/45">{label}</div></div>;
 }
 
 function Panel({ title, children }: { title: string; children: React.ReactNode }) {

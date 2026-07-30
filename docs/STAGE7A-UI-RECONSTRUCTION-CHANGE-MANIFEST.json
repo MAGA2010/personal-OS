@@ -1,0 +1,137 @@
+{
+  "stage": "Stage 7A — Closing Patch · Frontend UX Reconstruction",
+  "branch": "feature/stage7-post-demo-development",
+  "starting_head": "b73e61ec4fda11b7c72e74c14e414fbe2c74300f",
+  "closed_at_local": "2026-07-25T18:50:00+08:00",
+  "scope_satisfied": {
+    "critical_fix_university_profile_lint": {
+      "file": "PathOS-main/frontend/src/components/map/UniversityProfile.tsx",
+      "old_text_fragment": "以\"未报告\"标识为准",
+      "new_text_fragment": "以「未报告」标识为准",
+      "rule_violated": "react/no-unescaped-entities",
+      "status": "fixed"
+    },
+    "critical_fix_mapshell_backdrop": {
+      "file": "PathOS-main/frontend/src/components/map/MapShell.tsx",
+      "removed_selector": "<div className=\"absolute inset-0 z-20 hidden md:block\" onClick={() => setSelectedUniversityId(null)} />",
+      "replacement": "MapCanvas receives onMapEmptyClick prop and uses MapLibre click event with queryRenderedFeatures; map drag/wheel/touch no longer intercepted",
+      "status": "fixed"
+    },
+    "high_fix_light_dark_system_theme": {
+      "files": [
+        "PathOS-main/frontend/src/lib/theme.ts (NEW)",
+        "PathOS-main/frontend/src/components/ThemeToggle.tsx (NEW)",
+        "PathOS-main/frontend/src/app/layout.tsx (modified — inline THEME_INIT_SCRIPT in <head>, suppressHydrationWarning on <html>, dual theme-color)",
+        "PathOS-main/frontend/tailwind.config.ts (rewritten — darkMode:'class', rgb(var(--token-X) / <alpha-value>) colors)",
+        "PathOS-main/frontend/src/app/globals.css (rewritten — :root and .dark CSS variables for every token)"
+      ],
+      "no_flash": "Inline <script> reads localStorage[\"pathos:theme\"] and toggles .dark before React mounts",
+      "persistence": "localStorage key pathos:theme (light/dark/system). Invalid JSON falls back to system",
+      "system_listener": "useTheme() attaches matchMedia('prefers-color-scheme: dark').addEventListener('change', ...)",
+      "status": "fixed"
+    },
+    "high_fix_unified_navigation": {
+      "files": [
+        "PathOS-main/frontend/src/components/NavBar.tsx (rewritten — single authoritative global nav)",
+        "PathOS-main/frontend/src/components/ProductJourney.tsx (DELETED)",
+        "PathOS-main/frontend/src/app/match/page.tsx, assessment/page.tsx, portfolio/page.tsx, news/page.tsx, xuanxiao/page.tsx (each: removed ProductJourney import + usage)"
+      ],
+      "verification": "curl on 6 routes shows aria-label=\"主导航\" exactly once per page; no \"PIOT\"/\"STUDENT PULL\"/\"AI-A SELF MAP AI-B\" strings",
+      "status": "fixed"
+    },
+    "high_fix_design_tokens_unified": {
+      "file": "PathOS-main/frontend/tailwind.config.ts",
+      "tokens_added": [
+        "surface-base / surface-1 / surface-2 / surface-muted",
+        "text-primary / text-secondary / text-muted",
+        "border-soft / border-strong",
+        "accent / success / warning / danger / focus-ring",
+        "borderRadius: control (6px), card (12px), overlay (16px)",
+        "boxShadow: pop / panel / overlay / ring",
+        "spacing: control-sm (28px), control (36px), control-lg (44px), nav (56px)",
+        "fontSize: display / page / section / body / caption / label with lineHeight + letterSpacing",
+        "maxWidth: page (72rem), prose (42rem)"
+      ],
+      "convention": "rgb(var(--token-X) / <alpha-value>) so Tailwind alpha utilities (e.g. bg-persimmon/30) still work",
+      "status": "fixed"
+    },
+    "high_fix_desktop_nav_overflow": {
+      "file": "PathOS-main/frontend/src/components/NavBar.tsx",
+      "fix": "All 6 nav items in a single max-w-page row; right cluster collapses '开始自主测验' CTA on <sm; nav height locked to h-nav (56px); logo shrinks to size shrink-0",
+      "status": "fixed"
+    },
+    "high_fix_first_screen_redesign": {
+      "files": [
+        "PathOS-main/frontend/src/app/match/page.tsx",
+        "PathOS-main/frontend/src/app/assessment/page.tsx",
+        "PathOS-main/frontend/src/app/portfolio/page.tsx",
+        "PathOS-main/frontend/src/app/news/page.tsx",
+        "PathOS-main/frontend/src/app/calculator/page.tsx",
+        "PathOS-main/frontend/src/app/xuanxiao/page.tsx"
+      ],
+      "approach": "Removed giant radial-gradient hero blocks. Each page now uses a compact header (h-9 icon, text-page h1, text-caption subtitle, text-label uppercase eyebrow) inside max-w-page. Removed all 2xl/3xl rounded pills, excessive shadow-xl, and gradient backgrounds.",
+      "status": "fixed"
+    },
+    "fix_calculator_copy": {
+      "file": "PathOS-main/frontend/src/app/calculator/page.tsx",
+      "changes": [
+        "'添加大学（最多 3 所）' → '添加大学（还可选择 {3 - selectedIds.length} 所）'",
+        "Dashed slot CTA '添加更多大学对比 / 点击此处选择（剩余 N 个名额）' → '添加大学 / 还可选择 N 所'",
+        "Comparison bars: missing-cost row uses 'border border-persimmon/30 bg-persimmon/8' with explanation '该校费用数据未纳入最高费用比较'"
+      ],
+      "status": "fixed"
+    },
+    "fix_match_region_blocked_callout": {
+      "file": "PathOS-main/frontend/src/app/match/page.tsx",
+      "callout_text": "3 项区域维度（安全 / 就业 / 华人社区）因数据源尚未验证，暂未计入匹配。综合分仅基于「费用 + 排名」两个真实维度。",
+      "status": "fixed"
+    },
+    "fix_maplibre_dark_basemap": {
+      "file": "PathOS-main/frontend/src/components/map/MapCanvas.tsx",
+      "approach": "Initial style chosen by document.documentElement.classList.contains('dark') at mount; MutationObserver on <html> (attributes: class, data-theme) calls map.setStyle(target) on theme change; MapLibre preserves runtime-added choropleth + POI layers across style swaps",
+      "status": "fixed"
+    },
+    "fix_university_profile_lint_final": {
+      "status": "fixed",
+      "details": "UniversityProfile line 163 quote characters replaced (Chinese 「」 brackets)"
+    }
+  },
+  "lint_warnings_fixed": [
+    {"file": "src/app/match/page.tsx", "rule": "react-hooks/exhaustive-deps", "fix": "Wrap universities in useMemo with [summariesState.state] deps"},
+    {"file": "src/app/assessment/page.tsx", "rule": "react-hooks/exhaustive-deps", "fix": "Wrap all in useMemo with [summariesState.state] deps"},
+    {"file": "src/app/portfolio/page.tsx", "rule": "react-hooks/exhaustive-deps", "fix": "Wrap all in useMemo with [summariesState.state] deps"},
+    {"file": "src/app/calculator/page.tsx", "rule": "react-hooks/exhaustive-deps", "fix": "Convert getCostMult to useCallback, update totalsById and handleCopy dependency arrays"},
+    {"file": "src/app/xuanxiao/page.tsx", "rule": "@next/next/no-img-element", "fix": "Replace <img> with next/image (unoptimized: true in next.config.mjs)"}
+  ],
+  "forbidden_actions_taken": "NONE — no forbidden writes to /Users/jiayihuang/PathOS, /Users/jiayihuang/Downloads/PathOS合并/PathOS-db-ranking, /Users/jiayihuang/Downloads/PathOS合并-integration-baseline, /Users/jiayihuang/Downloads/PathOS-checkpoints/stage6-demo-pass-2026-07-25-2; no pkill/killall/force/reset/clean/rebase; no Preview Bundle / backend tracked files / data-pipeline / school data facts modified; no Production Data Export enabled; no tag/push.",
+  "verification_results": {
+    "tsc": "PASS — npx tsc --noEmit exit 0",
+    "lint": "PASS — next lint: 0 errors, 0 warnings",
+    "test": "PASS — vitest: 76/76 tests passed across 3 files",
+    "build": "PASS — next build: 15 static routes generated, exit 0",
+    "single_navbar": "PASS — each of 6 routes (match/calculator/assessment/portfolio/news/xuanxiao) contains exactly 1 NavBar with aria-label=\"主导航\"",
+    "no_product_journey": "PASS — ProductJourney.tsx removed from disk; no rendered HTML contains \"PIOT\", \"STUDENT PULL\", or AI-A/SELF/MAP/AI-B pill row",
+    "theme_bootstrap": "PASS — Inline <script> in <head> reads pathos:theme from localStorage and toggles .dark class before React mounts; <html> has suppressHydrationWarning; meta theme-color dual light/dark",
+    "design_tokens": "PASS — generated layout.css contains --token-surface-base, --token-surface-1, --token-surface-muted, --token-text-primary, --token-text-secondary, --token-border-soft, --token-border-strong, --token-cobalt, --token-ink, --token-paper, --token-jade, --token-persimmon, --token-line, --token-focus, --token-danger",
+    "maplibre_dark": "PASS — MapCanvas initial style branches on document.documentElement.classList.contains('dark'); MutationObserver wired to swap style URL",
+    "match_callout": "PASS — match/page.tsx line 302 contains the region-blocked callout (rendered after hydration since match page is use-client)"
+  },
+  "files_changed": [
+    "PathOS-main/frontend/src/components/map/UniversityProfile.tsx",
+    "PathOS-main/frontend/src/components/map/MapShell.tsx",
+    "PathOS-main/frontend/src/components/map/MapCanvas.tsx",
+    "PathOS-main/frontend/src/components/NavBar.tsx",
+    "PathOS-main/frontend/src/components/ProductJourney.tsx (DELETED)",
+    "PathOS-main/frontend/src/components/ThemeToggle.tsx (NEW)",
+    "PathOS-main/frontend/src/lib/theme.ts (NEW)",
+    "PathOS-main/frontend/tailwind.config.ts",
+    "PathOS-main/frontend/src/app/globals.css",
+    "PathOS-main/frontend/src/app/layout.tsx",
+    "PathOS-main/frontend/src/app/match/page.tsx",
+    "PathOS-main/frontend/src/app/calculator/page.tsx",
+    "PathOS-main/frontend/src/app/assessment/page.tsx",
+    "PathOS-main/frontend/src/app/portfolio/page.tsx",
+    "PathOS-main/frontend/src/app/news/page.tsx",
+    "PathOS-main/frontend/src/app/xuanxiao/page.tsx"
+  ]
+}

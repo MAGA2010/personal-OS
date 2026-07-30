@@ -1,182 +1,199 @@
-﻿import Link from "next/link";
 import type { Metadata } from "next";
-import { Compass, Map, Sparkles, ClipboardCheck, Bookmark, Newspaper, TrendingUp, ArrowRight, BarChart3, Globe2, GraduationCap } from "lucide-react";
+import Link from "next/link";
+import {
+  ArrowUpRight,
+  BookmarkCheck,
+  Calculator,
+  ClipboardCheck,
+  Map,
+  Newspaper,
+  SlidersHorizontal,
+} from "lucide-react";
+import { FlipModuleCard } from "@/components/home/FlipModuleCard";
+import styles from "./home.module.css";
 
 export const metadata: Metadata = {
   title: "PathOS — 面向中国家庭的留学选校数据平台",
-  description: "交互式留学地图、自主测验、AI 学校评估与 AI 清单分析。数据驱动，让选校更理性。",
+  description:
+    "以可追溯的院校与州级数据，连接留学地图、测评、预算和申请规划。",
 };
 
-const FEATURES = [
+const CORE_MODULES = [
   {
+    index: "01",
     title: "留学地图",
-    desc: "安全系数 · 就业指数 · 留学成本 · 华人水平 · 收入水平 · 录取率，六大指标交互式可视化",
-    href: "/map",
+    eyebrow: "EXPLORE",
+    description: "在真实 Preview 数据上查看院校与四项州级区域指标。",
+    reveal: "打开地图章节，在真实 Preview 数据上探索院校与四项州级区域指标。",
+    href: "/entry/map",
     icon: Map,
-    tags: ["可视化", "六大指标"],
-    color: "from-emerald-500 to-teal-600",
   },
   {
-    title: "自主测验",
-    desc: "学生自主拉取六维百分比和权重，再匹配学校的数据百分比",
-    href: "/match",
-    icon: Sparkles,
-    tags: ["自主权重", "百分比匹配"],
-    color: "from-violet-500 to-purple-600",
+    index: "02",
+    title: "费用计算",
+    eyebrow: "BUDGET",
+    description: "比较院校费用信息，未报告字段保持缺失语义。",
+    reveal: "核对院校费用信息与预算区间，未报告内容始终保持缺失语义。",
+    href: "/calculator",
+    icon: Calculator,
   },
   {
-    title: "AI 学校评估",
-    desc: "融入 AI 分析接口，对学生画像与目标学校做风险体检",
-    href: "/assessment",
+    index: "03",
+    title: "自主匹配",
+    eyebrow: "MATCH",
+    description: "用可调整的个人偏好，建立清晰、可解释的选校参考。",
+    reveal: "调整你的偏好与权重，建立清晰、可解释的自主匹配参考。",
+    href: "/entry/match",
+    icon: SlidersHorizontal,
+  },
+  {
+    index: "04",
+    title: "学校评估",
+    eyebrow: "ASSESS",
+    description: "整理学生画像与目标院校之间需要进一步核实的问题。",
+    reveal: "输入学生画像与目标院校，让 AI 梳理风险和需要继续核实的问题。",
+    href: "/entry/assessment",
     icon: ClipboardCheck,
-    tags: ["AI 测验", "风险体检"],
-    color: "from-amber-500 to-orange-600",
   },
   {
-    title: "AI 清单分析",
-    desc: "把候选学校清单交给 AI，分析冲刺、匹配、保底比例和家长追问点",
-    href: "/portfolio",
-    icon: Bookmark,
-    tags: ["清单分析", "家庭讨论"],
-    color: "from-blue-500 to-indigo-600",
+    index: "05",
+    title: "申请清单",
+    eyebrow: "PORTFOLIO",
+    description: "从冲刺、匹配与保底结构审视候选院校组合。",
+    reveal: "让 AI 从冲刺、匹配与保底结构审视你的候选院校组合。",
+    href: "/entry/portfolio",
+    icon: BookmarkCheck,
   },
   {
-    title: "排名对比",
-    desc: "综合 US News、QS、THE 等排名体系，多维度交叉对比院校实力",
-    href: "/match",
-    icon: BarChart3,
-    tags: ["交叉对比", "排名分析"],
-    color: "from-rose-500 to-pink-600",
-  },
-  {
+    index: "06",
     title: "留学资讯",
-    desc: "最新签证政策、申请动态、留学生活指南，一站式留学信息聚合",
+    eyebrow: "JOURNAL",
+    description: "进入 PathOS 的编辑式资讯入口，追踪申请与校园动态。",
+    reveal: "翻开 PathOS Journal，追踪申请趋势、院校动态与真实校园影像。",
     href: "/news",
     icon: Newspaper,
-    tags: ["政策动态", "申请攻略"],
-    color: "from-cyan-500 to-sky-600",
   },
-];
+] as const;
+
+const VERIFIED_BOUNDARY = [
+  ["62", "所院校"],
+  ["904", "条已验证记录"],
+  ["51", "个州级辖区"],
+  ["4", "项州级区域指标"],
+] as const;
+
+function WaveField() {
+  const paths = Array.from({ length: 15 }, (_, index) => {
+    const y = 58 + index * 14;
+    const amplitude = 20 + index * 1.8;
+    return `M -30 ${y} C 130 ${y - amplitude}, 245 ${y + amplitude}, 410 ${y} S 685 ${
+      y - amplitude * 0.72
+    }, 850 ${y} S 1120 ${y + amplitude}, 1470 ${y}`;
+  });
+
+  return (
+    <svg
+      className={styles.waveField}
+      viewBox="0 0 1440 310"
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+      {paths.map((path, index) => (
+        <path key={index} d={path} />
+      ))}
+    </svg>
+  );
+}
 
 export default function HomePage() {
   return (
-    <div className="flex-1 bg-paper">
-      {/* Hero */}
-      <section className="relative overflow-hidden border-b border-line/30">
-        <div className="absolute inset-0 bg-gradient-to-br from-ink/3 via-transparent to-cobalt/5 pointer-events-none" />
-        <div className="relative mx-auto max-w-5xl px-4 py-20 sm:py-28 text-center">
-          <div className="mx-auto mb-6 grid h-16 w-16 place-items-center rounded-2xl bg-ink text-panel shadow-lg ring-1 ring-ink/10">
-            <Compass size={30} />
-          </div>
-          <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-5xl">
-            PathOS
-          </h1>
-          <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-ink/50 sm:text-lg">
-            面向中国家庭的美国留学选校数据平台。<br />
-            交互式地图 · 自主测验 · AI 测验
-          </p>
-          
-          {/* Stats bar */}
-          <div className="mt-8 flex flex-wrap justify-center gap-x-10 gap-y-3">
-            <div className="text-center">
-              <div className="text-2xl font-bold text-ink">40+</div>
-              <div className="text-xs text-ink/40 mt-0.5">所美国大学</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-ink">18</div>
-              <div className="text-xs text-ink/40 mt-0.5">个州覆盖</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-ink">6</div>
-              <div className="text-xs text-ink/40 mt-0.5">大核心指标</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-ink">3</div>
-              <div className="text-xs text-ink/40 mt-0.5">种评估维度</div>
-            </div>
+    <main className={styles.root} data-integration-source="hybrid-visual-extraction">
+      <section className={styles.hero} aria-labelledby="home-title">
+        <div className={styles.heroEarth} aria-hidden="true" />
+        <div className={styles.heroGrid} aria-hidden="true" />
+        <WaveField />
+
+        <div className={styles.heroFrame}>
+          <div className={styles.heroRail}>
+            <span>STUDY ABROAD DECISION SYSTEM</span>
+            <span>PREVIEW / 2026</span>
           </div>
 
-          {/* Search / CTA */}
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link
-              href="/map"
-              className="inline-flex items-center gap-2 rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-panel shadow transition hover:bg-ink/90 active:scale-[0.97]"
-            >
-              <Map size={18} />
-              探索留学地图
-            </Link>
-            <Link
-              href="/match"
-              className="inline-flex items-center gap-2 rounded-lg border border-line/60 bg-white px-6 py-3 text-sm font-semibold text-ink/70 shadow-sm transition hover:border-ink/30 active:scale-[0.97]"
-            >
-              <Sparkles size={18} />
-              开始自主测验
-            </Link>
+          <div className={styles.heroBody}>
+            <div className={styles.bracketLeft} aria-hidden="true" />
+            <p className={styles.kicker}>PATHOS / 路径与选择</p>
+            <h1 id="home-title" className={styles.wordmark}>
+              PathOS
+            </h1>
+            <p className={styles.heroStatement}>
+              为中国留学家庭建立一条
+              <br />
+              <span>更清晰、更可信的决策路径。</span>
+            </p>
+            <div className={styles.heroActions}>
+              <Link href="/entry/map" className={styles.primaryAction}>
+                探索留学地图 <ArrowUpRight aria-hidden="true" size={17} />
+              </Link>
+              <Link href="/entry/match" className={styles.secondaryAction}>
+                开始自主匹配
+              </Link>
+            </div>
+            <div className={styles.bracketRight} aria-hidden="true" />
           </div>
+
+          <p className={styles.heroNote}>
+            数据不是答案，而是让每一次家庭讨论更接近事实。
+          </p>
         </div>
       </section>
 
-      {/* Features Grid - Parallel tools */}
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:py-20">
-        <div className="text-center mb-10">
-          <h2 className="text-xl font-semibold text-ink">选校工具箱</h2>
-          <p className="mt-1.5 text-sm text-ink/40">所有工具平行开放，按需使用</p>
+      <section className={styles.boundary} aria-labelledby="boundary-title">
+        <div className={styles.sectionHeading}>
+          <p>VERIFIED PREVIEW</p>
+          <h2 id="boundary-title">从可信边界开始，而不是从承诺开始。</h2>
+          <p className={styles.sectionLead}>
+            PathOS 将已验证事实、待补充信息与暂未开放能力明确区分。
+          </p>
         </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {FEATURES.map((f) => {
-            const Icon = f.icon;
+
+        <dl className={styles.statGrid}>
+          {VERIFIED_BOUNDARY.map(([value, label]) => (
+            <div key={label} className={styles.statItem}>
+              <dt>{label}</dt>
+              <dd>{value}</dd>
+            </div>
+          ))}
+        </dl>
+
+        <p className={styles.previewNotice}>
+          Preview · 数据来源可追溯 · 结果不构成录取保证
+        </p>
+      </section>
+
+      <section className={styles.modules} aria-labelledby="modules-title">
+        <div className={styles.sectionHeading}>
+          <p>ONE SYSTEM / DISTINCT CHAPTERS</p>
+          <h2 id="modules-title">把复杂选择拆成可以行动的六个章节。</h2>
+        </div>
+
+        <div className={styles.moduleGrid}>
+          {CORE_MODULES.map((module) => {
+            const Icon = module.icon;
             return (
-              <Link
-                key={f.href}
-                href={f.href}
-                className="group block rounded-xl border border-line/40 bg-white/90 p-5 shadow-sm transition hover:shadow-md hover:border-line/80 active:scale-[0.98]"
-              >
-                <div className="flex items-start gap-4">
-                  <div className={"flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br text-white shadow-sm " + f.color}>
-                    <Icon size={18} />
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <h3 className="text-sm font-semibold text-ink group-hover:text-ink/90 transition-colors">
-                      {f.title}
-                      <ArrowRight size={14} className="inline ml-1 opacity-0 group-hover:opacity-60 transition-all" />
-                    </h3>
-                    <p className="mt-1 text-xs leading-relaxed text-ink/50">{f.desc}</p>
-                    <div className="mt-2 flex flex-wrap gap-1.5">
-                      {f.tags.map((t) => (
-                        <span key={t} className="rounded-full bg-ink/5 px-2 py-0.5 text-[10px] font-medium text-ink/40">
-                          {t}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </Link>
+              <FlipModuleCard
+                key={module.href}
+                index={module.index}
+                eyebrow={module.eyebrow}
+                title={module.title}
+                description={module.description}
+                reveal={module.reveal}
+                href={module.href}
+                icon={<Icon aria-hidden="true" size={24} />}
+              />
             );
           })}
         </div>
       </section>
-
-      {/* Bottom CTA */}
-      <section className="border-t border-line/30 bg-ink/5">
-        <div className="mx-auto max-w-2xl px-4 py-14 text-center">
-          <GraduationCap size={28} className="mx-auto text-ink/30" />
-          <h2 className="mt-3 text-lg font-semibold text-ink">不确定从哪里开始？</h2>
-          <p className="mt-1 text-sm text-ink/50">先做自主测验，再用 AI 测验校验学校与清单风险</p>
-          <div className="mt-5 flex justify-center gap-3">
-            <Link
-              href="/match"
-              className="inline-flex items-center gap-2 rounded-lg bg-ink px-5 py-2.5 text-sm font-semibold text-panel shadow transition hover:bg-ink/90"
-            >
-              <ClipboardCheck size={16} />
-              开始自主测验
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <footer className="py-8 text-center text-xs text-ink/25">
-        PathOS — 面向中国家庭的留学选校决策平台 · MVP
-      </footer>
-    </div>
+    </main>
   );
 }

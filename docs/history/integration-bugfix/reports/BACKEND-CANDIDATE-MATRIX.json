@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-07-25T22:31:40+00:00",
+  "candidates": [
+    {
+      "candidateId": "canonical-standalone-backend",
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并/PathOS-db-ranking-standalone",
+      "technology": "Python data pipeline + Stage 5 preview artifacts + Next.js BFF consumer contract",
+      "api": "Preview Bundle consumed by canonical Next.js BFF",
+      "schema": "pathos-preview-v1",
+      "migrations": "present; not run",
+      "dataSource": "verified Stage 4B/4C and Stage 5 Preview Bundle",
+      "mock": false,
+      "productionExport": false,
+      "previewCompatible": true,
+      "status": "CANONICAL_READ_ONLY",
+      "head": "b73e61ec4fda11b7c72e74c14e414fbe2c74300f",
+      "branch": "feature/stage7-post-demo-development",
+      "worktree": ""
+    },
+    {
+      "candidateId": "candidate-worktree-data-pipeline",
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并/PathOS所有合并/pathos/data-pipeline",
+      "technology": "Python data pipeline",
+      "api": "none identified as canonical runtime API",
+      "schema": "older candidate artifacts",
+      "migrations": "present in archive lineage",
+      "dataSource": "candidate and older artifacts; provenance mixed",
+      "mock": "candidate frontend imports static JSON",
+      "productionExport": "not triggered",
+      "previewCompatible": false,
+      "status": "ARCHIVE_ONLY"
+    },
+    {
+      "candidateId": "candidate-backend-zip",
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并/PathOS所有合并/pathos/PathOS-db-ranking.zip",
+      "technology": "archived Next.js + Python pipeline",
+      "api": "historical",
+      "schema": "pre-Stage-5 / unknown",
+      "migrations": "present; prohibited from execution",
+      "dataSource": "old linked-worktree-era copy",
+      "mock": "contains static frontend data",
+      "productionExport": "not triggered",
+      "previewCompatible": false,
+      "status": "ARCHIVE_ONLY"
+    }
+  ],
+  "candidateCount": 3
+}

@@ -1,0 +1,3263 @@
+{
+  "accelerated_mode": true,
+  "accelerated_slot_cap": 150,
+  "attempted_remaining_slots": 150,
+  "derivation": "Waves 1-8 cumulative source_review_not_completed slots joined to immutable Candidate v2 and Stage 3C demo-program inventory",
+  "evidence_standard": "unchanged_fail_closed_dual_source_stated_cache_verified",
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "immutable_input_pins": [
+    {
+      "immutable": true,
+      "path": "data/university-universe-candidates/v2-source-limited/candidate-universities.json",
+      "pin_id": "candidate_v2",
+      "role": "candidate_scope",
+      "sha256": "8f940aa6d336402ff9c3c76a43d2efacdf2c887dc983afeb344937db9eadb18d"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3c-academic-geo-enrichment/stage3c-demo-programs-overlay.json",
+      "pin_id": "stage3c_demo_programs",
+      "role": "demo_program_scope",
+      "sha256": "11ac883fcef31d00cd57610c17c848feca479c8d5c2b7030f7f07d69540a5491"
+    },
+    {
+      "immutable": true,
+      "path": "data/stage3d-fill-program-people-wave9/source-manifest.json",
+      "pin_id": "wave9_source_manifest_input",
+      "role": "reviewed_source_input",
+      "sha256": "2db7211881fbc1dfd43e48faa2d011ba25234bd7ce202614e13fd0384b754107"
+    },
+    {
+      "immutable": true,
+      "path": "data/stage3d-fill-program-people-wave9/cache-manifest.json",
+      "pin_id": "wave9_cache_manifest_input",
+      "role": "reviewed_cache_manifest_input",
+      "sha256": "c5caa2c1983641f8e57ec8158d575c65fbfc76d7b7228f2fab0f716256daf0bd"
+    },
+    {
+      "immutable": true,
+      "path": "data/stage3d-fill-program-people-wave9/program-people-observations.json",
+      "pin_id": "wave9_observations_input",
+      "role": "reviewed_program_person_observations",
+      "sha256": "dd4797c75e8cfe8dcb63749dc96de95c16004374a4372141ff5ac0b4796e5f7b"
+    },
+    {
+      "immutable": true,
+      "path": "data/stage3d-fill-program-people-wave9/exclusions.json",
+      "pin_id": "wave9_exclusions_input",
+      "role": "reviewed_exclusions_input",
+      "sha256": "11c3c17a73890f5f349cbd97b00f211094c22391cfda944548c845a3d9c7ae3c"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-program-people.json",
+      "pin_id": "wave1_program_people",
+      "role": "prior_slot_status",
+      "sha256": "7a2f0b8f4b0efe300ae02c235bf2734e9959570e569db8fcf42d8a977b512af0"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave1/stage3d-fill-bulk-completion-wave1-summary.json",
+      "pin_id": "wave1_summary",
+      "role": "prior_wave_summary",
+      "sha256": "42b66839183a45470088af376e2960fe325e797ad9e2c129e38835bf73fc0719"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-program-people.json",
+      "pin_id": "wave2_program_people",
+      "role": "prior_slot_status",
+      "sha256": "8f966a3dae9b24255b3bdded03c08a92e31d5b2e218dc41607002834e8a1dd93"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave2/stage3d-fill-bulk-completion-wave2-summary.json",
+      "pin_id": "wave2_summary",
+      "role": "prior_wave_summary",
+      "sha256": "584ca134a215f1d069f7b946b9a23649b3d5e5557feb6b210dd73e3e54eb449a"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-program-people.json",
+      "pin_id": "wave3_program_people",
+      "role": "prior_slot_status",
+      "sha256": "d2e35ee7c1d001ce2fb865eef655e4ced659fce482cb09dbdd67bc2653f5ee88"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-bulk-completion-wave3/stage3d-fill-bulk-completion-wave3-summary.json",
+      "pin_id": "wave3_summary",
+      "role": "prior_wave_summary",
+      "sha256": "55464d3c5d7b2cc676f44a098ee7e032b39d2da8101996edb03795523b5cf3f3"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-program-people.json",
+      "pin_id": "wave4_program_people",
+      "role": "prior_slot_overlay",
+      "sha256": "6ec567db4476822348cc0d492b7d7d1c2bf15ebfe1b76bb3449afe14718c698b"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave4/stage3d-fill-program-people-wave4-summary.json",
+      "pin_id": "wave4_summary",
+      "role": "prior_wave_summary",
+      "sha256": "ae035b3e71e8847cd29ddda452d6db4e735a17f1e819c61dd0625402e277215a"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-program-people.json",
+      "pin_id": "wave5_program_people",
+      "role": "prior_slot_overlay",
+      "sha256": "95d39949f150fdc0aefadc718cf13f75c8683d51eac04e4e7bd70f53753160de"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave5/stage3d-fill-program-people-wave5-summary.json",
+      "pin_id": "wave5_summary",
+      "role": "prior_wave_summary",
+      "sha256": "a7d3070b82e13d4140b912eac6e5cdb688a34000d9ebe4b48df8c016c58af208"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-program-people.json",
+      "pin_id": "wave6_program_people",
+      "role": "prior_slot_overlay",
+      "sha256": "81b60f2fc1c84c0e103b7a35f62ef02bf1dc03d586219247935cc43ac2968d48"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-summary.json",
+      "pin_id": "wave6_summary",
+      "role": "prior_wave_summary",
+      "sha256": "d241483fbb3dc248fb9278a0eb0f736ed94f2184f59e740023e7dd19482e4b96"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave6/stage3d-fill-program-people-wave6-dedup-report.json",
+      "pin_id": "wave6_cumulative_program_people",
+      "role": "prior_cumulative_program_people",
+      "sha256": "ed352d26cf9bc4e7e84a033034b910812d848883939beb165eb27a8f2f2aeb9e"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-program-people.json",
+      "pin_id": "wave7_program_people",
+      "role": "prior_slot_overlay",
+      "sha256": "32cbe1431bbf171aeb90031645890d552ac732b24f7c210df7beb9d253f86c0b"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-summary.json",
+      "pin_id": "wave7_summary",
+      "role": "prior_wave_summary",
+      "sha256": "841da6b9406f2e7c7cd6530af1fae3de63905a4eea78aeb32d16166424c744fc"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave7/stage3d-fill-program-people-wave7-dedup-report.json",
+      "pin_id": "wave7_cumulative_program_people",
+      "role": "prior_cumulative_program_people",
+      "sha256": "ff7f22b1aea1739fba7e4b16262b5c3eba38c90c300df2709db25dc168d98708"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-program-people.json",
+      "pin_id": "wave8_program_people",
+      "role": "prior_slot_overlay",
+      "sha256": "d81fe997b5b9419a9f2a50782449bacd44e2fbefc15537c2cf78c29e7704e431"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-summary.json",
+      "pin_id": "wave8_summary",
+      "role": "prior_wave_summary",
+      "sha256": "9de5967b3629e3b8414151463e70bf2e7a4407b0162d4813d773aabad1f57111"
+    },
+    {
+      "immutable": true,
+      "path": "artifacts/stage3d-fill-program-people-wave8/stage3d-fill-program-people-wave8-dedup-report.json",
+      "pin_id": "wave8_cumulative_program_people",
+      "role": "prior_cumulative_program_people",
+      "sha256": "eaa5784f0a249a9370489c308bc2e3b92d6e806b6747d6e4ea966c744af6165f"
+    }
+  ],
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "priority_tier_counts": {
+    "1": 93,
+    "2": 41,
+    "3": 16
+  },
+  "record_type": "stage3d_fill_program_people_wave9_plan",
+  "remaining_slots_before_wave9": 185,
+  "selected_slots": [
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "normalized_program_name": "Management Information Systems",
+      "priority_tier": 1,
+      "program_name": "Management Information Systems",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 11, management information systems",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-mis-asu"
+      },
+      "slot_id": "candidate-v2:arizona-state-university:slot-3",
+      "university_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=110",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:brown-university:slot-5",
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "normalized_program_name": "Computer Engineering",
+      "priority_tier": 1,
+      "program_name": "Computer Engineering",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 4 in computer engineering",
+          "source_id": "bucknell-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "bucknell-2026-engineering",
+        "source_record_id": "repair-bucknell-computer"
+      },
+      "slot_id": "candidate-v2:bucknell-university:slot-4",
+      "university_name": "Bucknell University"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "normalized_program_name": "Bioengineering and Biomedical Engineering",
+      "priority_tier": 1,
+      "program_name": "Bioengineering and Biomedical Engineering",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110404; CIPCODE=14.0501; AWLEVEL=5; CTOTALT=18",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:california-institute-of-technology:slot-4",
+      "university_name": "California Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "normalized_program_name": "Business Administration and Management, General",
+      "priority_tier": 1,
+      "program_name": "Business Administration and Management, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=52.0201; AWLEVEL=5; CTOTALT=151",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-4",
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "normalized_program_name": "Computer Engineering",
+      "priority_tier": 1,
+      "program_name": "Computer Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer Engineering (BS)",
+          "source_id": "source_columbia_engineering_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_columbia_engineering_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:columbia-university:slot-2",
+      "university_name": "Columbia University"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "normalized_program_name": "Engineering Science",
+      "priority_tier": 1,
+      "program_name": "Engineering Science",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=182670; CIPCODE=14.1301; AWLEVEL=5; CTOTALT=79",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:dartmouth-college:slot-5",
+      "university_name": "Dartmouth College"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "priority_tier": 1,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=184",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:georgetown-university:slot-4",
+      "university_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "normalized_program_name": "Chemical Engineering",
+      "priority_tier": 1,
+      "program_name": "Chemical Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Chemical Engineering 2nd",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "gatech-2026-engineering-batch02",
+        "source_record_id": "batch02-engineering-chemical-gatech"
+      },
+      "slot_id": "candidate-v2:georgia-institute-of-technology:slot-5",
+      "university_name": "Georgia Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "normalized_program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "priority_tier": 1,
+      "program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "ranked No. 2 among non-doctorate granting institutions",
+          "source_id": "harvey-mudd-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "harvey-mudd-2026-engineering",
+        "source_record_id": "sweep-harvey-mudd-engineering"
+      },
+      "slot_id": "candidate-v2:harvey-mudd-college:slot-1",
+      "university_name": "Harvey Mudd College"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "normalized_program_name": "Management Information Systems",
+      "priority_tier": 1,
+      "program_name": "Management Information Systems",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Management information systems, No. 6.",
+          "source_id": "indiana-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "indiana-2026-business-sweep",
+        "source_record_id": "sweep-indiana-mis"
+      },
+      "slot_id": "candidate-v2:indiana-university-bloomington:slot-4",
+      "university_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "priority_tier": 1,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=162928; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=136",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:johns-hopkins-university:slot-4",
+      "university_name": "Johns Hopkins University"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "normalized_program_name": "Marketing/Marketing Management, General",
+      "priority_tier": 1,
+      "program_name": "Marketing/Marketing Management, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=213543; CIPCODE=52.1401; AWLEVEL=5; CTOTALT=60",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:lehigh-university:slot-5",
+      "university_name": "Lehigh University"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "normalized_program_name": "International Business",
+      "priority_tier": 1,
+      "program_name": "International Business",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "#10 in the nation",
+          "source_id": "loyola-quinlan-2026-business"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "loyola-quinlan-2026-business",
+        "source_record_id": "priority01-loyola-international-business"
+      },
+      "slot_id": "candidate-v2:loyola-university-chicago:slot-1",
+      "university_name": "Loyola University Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "normalized_program_name": "Business/Commerce, General",
+      "priority_tier": 1,
+      "program_name": "Business/Commerce, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=167358; CIPCODE=52.0101; AWLEVEL=5; CTOTALT=958",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:northeastern-university:slot-1",
+      "university_name": "Northeastern University"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=147767; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=135",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:northwestern-university:slot-4",
+      "university_name": "Northwestern University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "normalized_program_name": "Data Analytics",
+      "priority_tier": 1,
+      "program_name": "Data Analytics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Data Analytics",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:ohio-state-university:slot-3",
+      "university_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "normalized_program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "priority_tier": 1,
+      "program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 3 Undergraduate Engineering",
+          "source_id": "olin-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "olin-2026-engineering",
+        "source_record_id": "priority01-olin-engineering"
+      },
+      "slot_id": "candidate-v2:olin-college-of-engineering:slot-1",
+      "university_name": "Olin College of Engineering"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "normalized_program_name": "Computer Engineering, General",
+      "priority_tier": 1,
+      "program_name": "Computer Engineering, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=14.0901; AWLEVEL=5; CTOTALT=319",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-3",
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "normalized_program_name": "Mechanical Engineering",
+      "priority_tier": 1,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=65",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:rice-university:slot-5",
+      "university_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "normalized_program_name": "Civil Engineering",
+      "priority_tier": 1,
+      "program_name": "Civil Engineering",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 1 Civil Engineering",
+          "source_id": "rose-hulman-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "rose-hulman-2026-engineering",
+        "source_record_id": "repair-rose-civil"
+      },
+      "slot_id": "candidate-v2:rose-hulman-institute-of-technology:slot-1",
+      "university_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186380; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=432",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:rutgers-university-new-brunswick:slot-4",
+      "university_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "priority_tier": 1,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=112",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:stanford-university:slot-3",
+      "university_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "normalized_program_name": "Materials Engineering",
+      "priority_tier": 1,
+      "program_name": "Materials Engineering",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 16",
+          "source_id": "texas-am-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "texas-am-2026-engineering",
+        "source_record_id": "repair-tamu-materials"
+      },
+      "slot_id": "candidate-v2:texas-a-and-m-university:slot-4",
+      "university_name": "Texas A&M University"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=168148; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=147",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:tufts-university:slot-4",
+      "university_name": "Tufts University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "normalized_program_name": "Supply Chain Management/Logistics",
+      "priority_tier": 1,
+      "program_name": "Supply Chain Management/Logistics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "#2 in Supply Chain/Logistics (tie)",
+          "source_id": "berkeley-haas-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "berkeley-haas-2026-business-sweep",
+        "source_record_id": "sweep-berkeley-supply-chain"
+      },
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-2",
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "normalized_program_name": "Management Sciences and Quantitative Methods, Other",
+      "priority_tier": 1,
+      "program_name": "Management Sciences and Quantitative Methods, Other",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110644; CIPCODE=52.1399; AWLEVEL=5; CTOTALT=502",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-davis:slot-2",
+      "university_name": "University of California, Davis"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "normalized_program_name": "Business/Managerial Economics",
+      "priority_tier": 1,
+      "program_name": "Business/Managerial Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110653; CIPCODE=52.0601; AWLEVEL=5; CTOTALT=576",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-irvine:slot-2",
+      "university_name": "University of California, Irvine"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110705; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=391",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-santa-barbara:slot-5",
+      "university_name": "University of California, Santa Barbara"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=127",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-chicago:slot-4",
+      "university_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "normalized_program_name": "Business Administration and Management, General",
+      "priority_tier": 1,
+      "program_name": "Business Administration and Management, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=134130; CIPCODE=52.0201; AWLEVEL=5; CTOTALT=556",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-florida:slot-5",
+      "university_name": "University of Florida"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "normalized_program_name": "Marketing/Marketing Management, General",
+      "priority_tier": 1,
+      "program_name": "Marketing/Marketing Management, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139959; CIPCODE=52.1401; AWLEVEL=5; CTOTALT=398",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-georgia:slot-4",
+      "university_name": "University of Georgia"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "normalized_program_name": "Computer Engineering, General",
+      "priority_tier": 1,
+      "program_name": "Computer Engineering, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=14.0901; AWLEVEL=5; CTOTALT=396",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-2",
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "normalized_program_name": "Finance, General",
+      "priority_tier": 1,
+      "program_name": "Finance, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=153658; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=391",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-iowa:slot-3",
+      "university_name": "University of Iowa"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=163286; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=490",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-maryland-college-park:slot-3",
+      "university_name": "University of Maryland, College Park"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "normalized_program_name": "Supply Chain Management/Logistics",
+      "priority_tier": 1,
+      "program_name": "Supply Chain Management/Logistics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "13th U.S.",
+          "source_id": "carlson-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "carlson-2026-business-sweep",
+        "source_record_id": "sweep-carlson-supply-chain"
+      },
+      "slot_id": "candidate-v2:university-of-minnesota-twin-cities:slot-2",
+      "university_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "normalized_program_name": "Computer Science",
+      "priority_tier": 1,
+      "program_name": "Computer Science",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer Science Major, B.S.",
+          "source_id": "source_unc_2026_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_unc_2026_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-north-carolina-chapel-hill:slot-4",
+      "university_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=215062; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=177",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-pennsylvania:slot-3",
+      "university_name": "University of Pennsylvania"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=195030; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=230",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-rochester:slot-1",
+      "university_name": "University of Rochester"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "normalized_program_name": "Data Analytics",
+      "priority_tier": 1,
+      "program_name": "Data Analytics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Bachelor's Data Analytics, B.S.",
+          "source_id": "source_usc_majors_degrees"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_usc_majors_degrees",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-south-carolina-columbia:slot-2",
+      "university_name": "University of South Carolina"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "normalized_program_name": "Management Science",
+      "priority_tier": 1,
+      "program_name": "Management Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=123961; CIPCODE=52.1301; AWLEVEL=5; CTOTALT=1221",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-southern-california:slot-1",
+      "university_name": "University of Southern California"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "normalized_program_name": "Aerospace Engineering",
+      "priority_tier": 1,
+      "program_name": "Aerospace Engineering",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Aerospace engineering BSAsE",
+          "source_id": "source_ut_austin_undergraduate_catalog"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ut_austin_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-texas-austin:slot-3",
+      "university_name": "University of Texas—Austin"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "normalized_program_name": "Chemical Engineering",
+      "priority_tier": 1,
+      "program_name": "Chemical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Chemical Engineering",
+          "source_id": "source_uw_undergraduate_degree_programs"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_uw_undergraduate_degree_programs",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-washington:slot-2",
+      "university_name": "University of Washington"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=240444; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=440",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-wisconsin-madison:slot-4",
+      "university_name": "University of Wisconsin—Madison"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "priority_tier": 1,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=221999; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=286",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:vanderbilt-university:slot-2",
+      "university_name": "Vanderbilt University"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "normalized_program_name": "Computer Science",
+      "priority_tier": 1,
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=179867; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=181",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:washington-university-in-st-louis:slot-1",
+      "university_name": "Washington University in St. Louis"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "priority_tier": 1,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=182",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:yale-university:slot-1",
+      "university_name": "Yale University"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "normalized_program_name": "Production/Operations Management",
+      "priority_tier": 1,
+      "program_name": "Production/Operations Management",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 11, production/operations management",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-operations-asu"
+      },
+      "slot_id": "candidate-v2:arizona-state-university:slot-4",
+      "university_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "normalized_program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "priority_tier": 1,
+      "program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "tying for No. 7",
+          "source_id": "bucknell-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "bucknell-2026-engineering",
+        "source_record_id": "repair-bucknell-engineering"
+      },
+      "slot_id": "candidate-v2:bucknell-university:slot-5",
+      "university_name": "Bucknell University"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "normalized_program_name": "Electrical and Electronics Engineering",
+      "priority_tier": 1,
+      "program_name": "Electrical and Electronics Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110404; CIPCODE=14.1001; AWLEVEL=5; CTOTALT=16",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:california-institute-of-technology:slot-5",
+      "university_name": "California Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "normalized_program_name": "Biomedical Engineering",
+      "priority_tier": 1,
+      "program_name": "Biomedical Engineering",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "undergraduate programs ... biomedical engineering",
+          "source_id": "source_columbia_engineering_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_columbia_engineering_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:columbia-university:slot-4",
+      "university_name": "Columbia University"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "normalized_program_name": "Mechanical Engineering",
+      "priority_tier": 1,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 3 in mechanical engineering",
+          "source_id": "harvey-mudd-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "harvey-mudd-2026-engineering",
+        "source_record_id": "sweep-harvey-mudd-mechanical"
+      },
+      "slot_id": "candidate-v2:harvey-mudd-college:slot-2",
+      "university_name": "Harvey Mudd College"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=146719; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=261",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:loyola-university-chicago:slot-4",
+      "university_name": "Loyola University Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=167358; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=558",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:northeastern-university:slot-2",
+      "university_name": "Northeastern University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "normalized_program_name": "Economics",
+      "priority_tier": 1,
+      "program_name": "Economics",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Economics",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:ohio-state-university:slot-5",
+      "university_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "normalized_program_name": "Mechanical Engineering",
+      "priority_tier": 1,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Mechanical Engineering (ME)",
+          "source_id": "source_olin_majors_concentrations"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_olin_majors_concentrations",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:olin-college-of-engineering:slot-2",
+      "university_name": "Olin College of Engineering"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "normalized_program_name": "Electrical Engineering",
+      "priority_tier": 1,
+      "program_name": "Electrical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 1 Electrical Engineering",
+          "source_id": "rose-hulman-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "rose-hulman-2026-engineering",
+        "source_record_id": "repair-rose-electrical"
+      },
+      "slot_id": "candidate-v2:rose-hulman-institute-of-technology:slot-2",
+      "university_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "normalized_program_name": "Engineering, Other",
+      "priority_tier": 1,
+      "program_name": "Engineering, Other",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=14.9999; AWLEVEL=5; CTOTALT=89",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:stanford-university:slot-4",
+      "university_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "normalized_program_name": "Electrical Engineering",
+      "priority_tier": 1,
+      "program_name": "Electrical Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 17",
+          "source_id": "texas-am-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "texas-am-2026-engineering",
+        "source_record_id": "repair-tamu-electrical"
+      },
+      "slot_id": "candidate-v2:texas-a-and-m-university:slot-5",
+      "university_name": "Texas A&M University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "normalized_program_name": "Neurobiology and Anatomy",
+      "priority_tier": 1,
+      "program_name": "Neurobiology and Anatomy",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110644; CIPCODE=26.1503; AWLEVEL=5; CTOTALT=394",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-davis:slot-5",
+      "university_name": "University of California, Davis"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "normalized_program_name": "Management Information Systems, General",
+      "priority_tier": 1,
+      "program_name": "Management Information Systems, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139959; CIPCODE=52.1201; AWLEVEL=5; CTOTALT=369",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-georgia:slot-5",
+      "university_name": "University of Georgia"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "normalized_program_name": "Finance, General",
+      "priority_tier": 1,
+      "program_name": "Finance, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=323",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-4",
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "normalized_program_name": "Marketing/Marketing Management, General",
+      "priority_tier": 1,
+      "program_name": "Marketing/Marketing Management, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=153658; CIPCODE=52.1401; AWLEVEL=5; CTOTALT=301",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-iowa:slot-5",
+      "university_name": "University of Iowa"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "normalized_program_name": "Finance, General",
+      "priority_tier": 1,
+      "program_name": "Finance, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=163286; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=415",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-maryland-college-park:slot-5",
+      "university_name": "University of Maryland, College Park"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "normalized_program_name": "Undergraduate Business Programs",
+      "priority_tier": 1,
+      "program_name": "Undergraduate Business Programs",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "19th U.S.",
+          "source_id": "carlson-2026-business"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "carlson-2026-business",
+        "source_record_id": "priority01-carlson-business"
+      },
+      "slot_id": "candidate-v2:university-of-minnesota-twin-cities:slot-4",
+      "university_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "normalized_program_name": "Economics",
+      "priority_tier": 1,
+      "program_name": "Economics",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Economics Major, B.A.",
+          "source_id": "source_unc_2026_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_unc_2026_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-north-carolina-chapel-hill:slot-5",
+      "university_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "priority_tier": 1,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=215062; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=164",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-pennsylvania:slot-5",
+      "university_name": "University of Pennsylvania"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "normalized_program_name": "Management Sciences and Quantitative Methods, Other",
+      "priority_tier": 1,
+      "program_name": "Management Sciences and Quantitative Methods, Other",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=195030; CIPCODE=52.1399; AWLEVEL=5; CTOTALT=201",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-rochester:slot-3",
+      "university_name": "University of Rochester"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "normalized_program_name": "Economics",
+      "priority_tier": 1,
+      "program_name": "Economics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Bachelor's Economics, B.A. / B.S.",
+          "source_id": "source_usc_majors_degrees"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_usc_majors_degrees",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-south-carolina-columbia:slot-3",
+      "university_name": "University of South Carolina"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "normalized_program_name": "Finance",
+      "priority_tier": 1,
+      "program_name": "Finance",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Finance BBA",
+          "source_id": "source_ut_austin_undergraduate_catalog"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ut_austin_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-texas-austin:slot-4",
+      "university_name": "University of Texas—Austin"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "normalized_program_name": "Civil and Environmental Engineering",
+      "priority_tier": 1,
+      "program_name": "Civil and Environmental Engineering",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Civil and Environmental Engineering",
+          "source_id": "source_uw_undergraduate_degree_programs"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_uw_undergraduate_degree_programs",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-washington:slot-3",
+      "university_name": "University of Washington"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "normalized_program_name": "Political Science and Government, General",
+      "priority_tier": 1,
+      "program_name": "Political Science and Government, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=240444; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=384",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-wisconsin-madison:slot-5",
+      "university_name": "University of Wisconsin—Madison"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "normalized_program_name": "Finance, General",
+      "priority_tier": 1,
+      "program_name": "Finance, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=179867; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=150",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:washington-university-in-st-louis:slot-2",
+      "university_name": "Washington University in St. Louis"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "normalized_program_name": "Cell/Cellular and Molecular Biology",
+      "priority_tier": 1,
+      "program_name": "Cell/Cellular and Molecular Biology",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=26.0406; AWLEVEL=5; CTOTALT=86",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:yale-university:slot-5",
+      "university_name": "Yale University"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "normalized_program_name": "Mechanical Engineering",
+      "priority_tier": 1,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "undergraduate programs ... mechanical engineering",
+          "source_id": "source_columbia_engineering_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_columbia_engineering_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:columbia-university:slot-5",
+      "university_name": "Columbia University"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "normalized_program_name": "Computer Engineering",
+      "priority_tier": 1,
+      "program_name": "Computer Engineering",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "tied for No. 4 in computer engineering",
+          "source_id": "harvey-mudd-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "harvey-mudd-2026-engineering",
+        "source_record_id": "sweep-harvey-mudd-computer"
+      },
+      "slot_id": "candidate-v2:harvey-mudd-college:slot-3",
+      "university_name": "Harvey Mudd College"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "normalized_program_name": "Finance, General",
+      "priority_tier": 1,
+      "program_name": "Finance, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=146719; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=149",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:loyola-university-chicago:slot-5",
+      "university_name": "Loyola University Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "normalized_program_name": "Mechanical Engineering",
+      "priority_tier": 1,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=167358; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=231",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:northeastern-university:slot-3",
+      "university_name": "Northeastern University"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "normalized_program_name": "Electrical and Computer Engineering",
+      "priority_tier": 1,
+      "program_name": "Electrical and Computer Engineering",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Electrical and Computer Engineering (ECE)",
+          "source_id": "source_olin_majors_concentrations"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_olin_majors_concentrations",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:olin-college-of-engineering:slot-3",
+      "university_name": "Olin College of Engineering"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "normalized_program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "priority_tier": 1,
+      "program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 1 Undergraduate Engineering Program",
+          "source_id": "rose-hulman-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "rose-hulman-2026-engineering",
+        "source_record_id": "repair-rose-engineering"
+      },
+      "slot_id": "candidate-v2:rose-hulman-institute-of-technology:slot-4",
+      "university_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "normalized_program_name": "Computer Science",
+      "priority_tier": 1,
+      "program_name": "Computer Science",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=195030; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=141",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-rochester:slot-4",
+      "university_name": "University of Rochester"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "normalized_program_name": "Management",
+      "priority_tier": 1,
+      "program_name": "Management",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Bachelor's Management, B.S.B.A.",
+          "source_id": "source_usc_majors_degrees"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_usc_majors_degrees",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-south-carolina-columbia:slot-4",
+      "university_name": "University of South Carolina"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "normalized_program_name": "Management Information Systems",
+      "priority_tier": 1,
+      "program_name": "Management Information Systems",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Management information systems BBA",
+          "source_id": "source_ut_austin_undergraduate_catalog"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ut_austin_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-texas-austin:slot-5",
+      "university_name": "University of Texas—Austin"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "normalized_program_name": "Computer Science and Engineering",
+      "priority_tier": 1,
+      "program_name": "Computer Science and Engineering",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer Science and Engineering",
+          "source_id": "source_uw_undergraduate_degree_programs"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_uw_undergraduate_degree_programs",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-washington:slot-4",
+      "university_name": "University of Washington"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "priority_tier": 1,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=179867; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=115",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:washington-university-in-st-louis:slot-4",
+      "university_name": "Washington University in St. Louis"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "normalized_program_name": "Electrical Engineering",
+      "priority_tier": 1,
+      "program_name": "Electrical Engineering",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 4 in electrical engineering",
+          "source_id": "harvey-mudd-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "harvey-mudd-2026-engineering",
+        "source_record_id": "sweep-harvey-mudd-electrical"
+      },
+      "slot_id": "candidate-v2:harvey-mudd-college:slot-4",
+      "university_name": "Harvey Mudd College"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "normalized_program_name": "Engineering, Other",
+      "priority_tier": 1,
+      "program_name": "Engineering, Other",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=167358; CIPCODE=14.9999; AWLEVEL=5; CTOTALT=157",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:northeastern-university:slot-4",
+      "university_name": "Northeastern University"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "normalized_program_name": "Bioengineering Concentration",
+      "priority_tier": 1,
+      "program_name": "Bioengineering Concentration",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Bioengineering Concentration (E:Bio)",
+          "source_id": "source_olin_majors_concentrations"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_olin_majors_concentrations",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:olin-college-of-engineering:slot-4",
+      "university_name": "Olin College of Engineering"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "normalized_program_name": "Computer Engineering",
+      "priority_tier": 1,
+      "program_name": "Computer Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 2 Computer Engineering",
+          "source_id": "rose-hulman-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "rose-hulman-2026-engineering",
+        "source_record_id": "repair-rose-computer"
+      },
+      "slot_id": "candidate-v2:rose-hulman-institute-of-technology:slot-5",
+      "university_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "normalized_program_name": "Mechanical Engineering",
+      "priority_tier": 1,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=179867; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=103",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:washington-university-in-st-louis:slot-5",
+      "university_name": "Washington University in St. Louis"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "normalized_program_name": "Computer Science",
+      "priority_tier": 1,
+      "program_name": "Computer Science",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=115409; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=55",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:harvey-mudd-college:slot-5",
+      "university_name": "Harvey Mudd College"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "priority_tier": 1,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=167358; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=157",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:northeastern-university:slot-5",
+      "university_name": "Northeastern University"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "normalized_program_name": "Engineering Computing Concentration",
+      "priority_tier": 1,
+      "program_name": "Engineering Computing Concentration",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Engineering Computing (E:C)",
+          "source_id": "source_olin_majors_concentrations"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_olin_majors_concentrations",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:olin-college-of-engineering:slot-5",
+      "university_name": "Olin College of Engineering"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=164988; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=305",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:boston-university:slot-4",
+      "university_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "normalized_program_name": "Applied Mathematics, General",
+      "priority_tier": 2,
+      "program_name": "Applied Mathematics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=27.0301; AWLEVEL=5; CTOTALT=156",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:brown-university:slot-3",
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "normalized_program_name": "Statistics, General",
+      "priority_tier": 2,
+      "program_name": "Statistics, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=27.0501; AWLEVEL=5; CTOTALT=161",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-2",
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139658; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=168",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:emory-university:slot-3",
+      "university_name": "Emory University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=100",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:georgetown-university:slot-5",
+      "university_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "normalized_program_name": "Applied Mathematics, General",
+      "priority_tier": 2,
+      "program_name": "Applied Mathematics, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166027; CIPCODE=27.0301; AWLEVEL=5; CTOTALT=120",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:harvard-university:slot-5",
+      "university_name": "Harvard University"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=213543; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=63",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:lehigh-university:slot-4",
+      "university_name": "Lehigh University"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=146719; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=280",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:loyola-university-chicago:slot-3",
+      "university_name": "Loyola University Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "normalized_program_name": "Mathematics, General",
+      "priority_tier": 2,
+      "program_name": "Mathematics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166683; CIPCODE=27.0101; AWLEVEL=5; CTOTALT=139",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:massachusetts-institute-of-technology:slot-3",
+      "university_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "normalized_program_name": "Research and Experimental Psychology, Other",
+      "priority_tier": 2,
+      "program_name": "Research and Experimental Psychology, Other",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=193900; CIPCODE=42.2799; AWLEVEL=5; CTOTALT=499",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:new-york-university:slot-3",
+      "university_name": "New York University"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=147767; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=211",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:northwestern-university:slot-2",
+      "university_name": "Northwestern University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "normalized_program_name": "Psychology",
+      "priority_tier": 2,
+      "program_name": "Psychology",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Psychology",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:ohio-state-university:slot-4",
+      "university_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "normalized_program_name": "Public Policy Analysis, General",
+      "priority_tier": 2,
+      "program_name": "Public Policy Analysis, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186131; CIPCODE=44.0501; AWLEVEL=5; CTOTALT=114",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:princeton-university:slot-3",
+      "university_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "normalized_program_name": "Experimental Psychology",
+      "priority_tier": 2,
+      "program_name": "Experimental Psychology",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=42.2704; AWLEVEL=5; CTOTALT=318",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-4",
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=66",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:rice-university:slot-4",
+      "university_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186380; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=585",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:rutgers-university-new-brunswick:slot-2",
+      "university_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "normalized_program_name": "International Relations and Affairs",
+      "priority_tier": 2,
+      "program_name": "International Relations and Affairs",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=168148; CIPCODE=45.0901; AWLEVEL=5; CTOTALT=153",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:tufts-university:slot-3",
+      "university_name": "Tufts University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "normalized_program_name": "Research and Experimental Psychology, Other",
+      "priority_tier": 2,
+      "program_name": "Research and Experimental Psychology, Other",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110644; CIPCODE=42.2799; AWLEVEL=5; CTOTALT=958",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-davis:slot-1",
+      "university_name": "University of California, Davis"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "normalized_program_name": "Research and Experimental Psychology, Other",
+      "priority_tier": 2,
+      "program_name": "Research and Experimental Psychology, Other",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110653; CIPCODE=42.2799; AWLEVEL=5; CTOTALT=566",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-irvine:slot-3",
+      "university_name": "University of California, Irvine"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110662; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=685",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-los-angeles:slot-2",
+      "university_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "normalized_program_name": "Communication, General",
+      "priority_tier": 2,
+      "program_name": "Communication, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110705; CIPCODE=09.0100; AWLEVEL=5; CTOTALT=620",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-santa-barbara:slot-3",
+      "university_name": "University of California, Santa Barbara"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "normalized_program_name": "Mathematics, General",
+      "priority_tier": 2,
+      "program_name": "Mathematics, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=27.0101; AWLEVEL=5; CTOTALT=181",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-chicago:slot-2",
+      "university_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "normalized_program_name": "Undergraduate Psychology Programs",
+      "priority_tier": 2,
+      "program_name": "Undergraduate Psychology Programs",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "ranked No. 15 among undergraduate psychology programs nationwide",
+          "source_id": "cu-boulder-2026-psychology"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "cu-boulder-2026-psychology",
+        "source_record_id": "repair-cu-boulder-psychology"
+      },
+      "slot_id": "candidate-v2:university-of-colorado-boulder:slot-1",
+      "university_name": "University of Colorado Boulder"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=134130; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=635",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-florida:slot-3",
+      "university_name": "University of Florida"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139959; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=591",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-georgia:slot-1",
+      "university_name": "University of Georgia"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "normalized_program_name": "Research and Experimental Psychology, Other",
+      "priority_tier": 2,
+      "program_name": "Research and Experimental Psychology, Other",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=42.2799; AWLEVEL=5; CTOTALT=573",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-1",
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=163286; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=478",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-maryland-college-park:slot-4",
+      "university_name": "University of Maryland, College Park"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "normalized_program_name": "Experimental Psychology",
+      "priority_tier": 2,
+      "program_name": "Experimental Psychology",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=170976; CIPCODE=42.2704; AWLEVEL=5; CTOTALT=380",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-michigan-ann-arbor:slot-5",
+      "university_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "normalized_program_name": "Research and Experimental Psychology, Other",
+      "priority_tier": 2,
+      "program_name": "Research and Experimental Psychology, Other",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=195030; CIPCODE=42.2799; AWLEVEL=5; CTOTALT=131",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-rochester:slot-5",
+      "university_name": "University of Rochester"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "normalized_program_name": "Speech Communication and Rhetoric",
+      "priority_tier": 2,
+      "program_name": "Speech Communication and Rhetoric",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=123961; CIPCODE=09.0101; AWLEVEL=5; CTOTALT=269",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-southern-california:slot-3",
+      "university_name": "University of Southern California"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=240444; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=589",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-wisconsin-madison:slot-2",
+      "university_name": "University of Wisconsin—Madison"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "normalized_program_name": "Experimental Psychology",
+      "priority_tier": 2,
+      "program_name": "Experimental Psychology",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=179867; CIPCODE=42.2704; AWLEVEL=5; CTOTALT=135",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:washington-university-in-st-louis:slot-3",
+      "university_name": "Washington University in St. Louis"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "normalized_program_name": "History, General",
+      "priority_tier": 2,
+      "program_name": "History, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=54.0101; AWLEVEL=5; CTOTALT=96",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:yale-university:slot-4",
+      "university_name": "Yale University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "normalized_program_name": "International Relations and Affairs",
+      "priority_tier": 2,
+      "program_name": "International Relations and Affairs",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=45.0901; AWLEVEL=5; CTOTALT=137",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:brown-university:slot-4",
+      "university_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "normalized_program_name": "Digital Communication and Media/Multimedia",
+      "priority_tier": 2,
+      "program_name": "Digital Communication and Media/Multimedia",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=193900; CIPCODE=09.0702; AWLEVEL=5; CTOTALT=438",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:new-york-university:slot-5",
+      "university_name": "New York University"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "normalized_program_name": "History, General",
+      "priority_tier": 2,
+      "program_name": "History, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186131; CIPCODE=54.0101; AWLEVEL=5; CTOTALT=72",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:princeton-university:slot-5",
+      "university_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "normalized_program_name": "Experimental Psychology",
+      "priority_tier": 2,
+      "program_name": "Experimental Psychology",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=168148; CIPCODE=42.2704; AWLEVEL=5; CTOTALT=97",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:tufts-university:slot-5",
+      "university_name": "Tufts University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "normalized_program_name": "Experimental Psychology",
+      "priority_tier": 2,
+      "program_name": "Experimental Psychology",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110705; CIPCODE=42.2704; AWLEVEL=5; CTOTALT=478",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-california-santa-barbara:slot-4",
+      "university_name": "University of California, Santa Barbara"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=126614; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=585",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-colorado-boulder:slot-3",
+      "university_name": "University of Colorado Boulder"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "normalized_program_name": "Psychology, General",
+      "priority_tier": 2,
+      "program_name": "Psychology, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=123961; CIPCODE=42.0101; AWLEVEL=5; CTOTALT=189",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-southern-california:slot-5",
+      "university_name": "University of Southern California"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "normalized_program_name": "Public Relations, Advertising, and Applied Communication",
+      "priority_tier": 2,
+      "program_name": "Public Relations, Advertising, and Applied Communication",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=126614; CIPCODE=09.0900; AWLEVEL=5; CTOTALT=411",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:university-of-colorado-boulder:slot-5",
+      "university_name": "University of Colorado Boulder"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "normalized_program_name": "Analytics",
+      "priority_tier": 3,
+      "program_name": "Analytics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 11, analytics",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-analytics-asu"
+      },
+      "slot_id": "candidate-v2:arizona-state-university:slot-2",
+      "university_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "canonical_id": "institution:boston-college",
+      "normalized_program_name": "Accounting",
+      "priority_tier": 3,
+      "program_name": "Accounting",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "eighth in Accounting",
+          "source_id": "boston-college-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "boston-college-2026-business-sweep",
+        "source_record_id": "sweep-boston-accounting"
+      },
+      "slot_id": "candidate-v2:boston-college:slot-2",
+      "university_name": "Boston College"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "normalized_program_name": "Radio and Television",
+      "priority_tier": 3,
+      "program_name": "Radio and Television",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=164988; CIPCODE=09.0701; AWLEVEL=5; CTOTALT=195",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:boston-university:slot-5",
+      "university_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "normalized_program_name": "Physics, General",
+      "priority_tier": 3,
+      "program_name": "Physics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110404; CIPCODE=40.0801; AWLEVEL=5; CTOTALT=26",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:california-institute-of-technology:slot-3",
+      "university_name": "California Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "normalized_program_name": "Systems Science and Theory",
+      "priority_tier": 3,
+      "program_name": "Systems Science and Theory",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=30.0601; AWLEVEL=5; CTOTALT=118",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-5",
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "normalized_program_name": "Labor and Industrial Relations",
+      "priority_tier": 3,
+      "program_name": "Labor and Industrial Relations",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=190415; CIPCODE=52.1002; AWLEVEL=5; CTOTALT=273",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:cornell-university:slot-3",
+      "university_name": "Cornell University"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "normalized_program_name": "Multi-/Interdisciplinary Studies, Other",
+      "priority_tier": 3,
+      "program_name": "Multi-/Interdisciplinary Studies, Other",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=198419; CIPCODE=30.9999; AWLEVEL=5; CTOTALT=281",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:duke-university:slot-2",
+      "university_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "normalized_program_name": "Neuroscience",
+      "priority_tier": 3,
+      "program_name": "Neuroscience",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139658; CIPCODE=26.1501; AWLEVEL=5; CTOTALT=153",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:emory-university:slot-5",
+      "university_name": "Emory University"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "normalized_program_name": "Social Sciences, General",
+      "priority_tier": 3,
+      "program_name": "Social Sciences, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166027; CIPCODE=45.0101; AWLEVEL=5; CTOTALT=189",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:harvard-university:slot-2",
+      "university_name": "Harvard University"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "normalized_program_name": "Accounting",
+      "priority_tier": 3,
+      "program_name": "Accounting",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Accounting, No. 4.",
+          "source_id": "indiana-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "indiana-2026-business-sweep",
+        "source_record_id": "sweep-indiana-accounting"
+      },
+      "slot_id": "candidate-v2:indiana-university-bloomington:slot-1",
+      "university_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "normalized_program_name": "Public Health, General",
+      "priority_tier": 3,
+      "program_name": "Public Health, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=162928; CIPCODE=51.2201; AWLEVEL=5; CTOTALT=177",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:johns-hopkins-university:slot-2",
+      "university_name": "Johns Hopkins University"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "normalized_program_name": "Registered Nursing/Registered Nurse",
+      "priority_tier": 3,
+      "program_name": "Registered Nursing/Registered Nurse",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=146719; CIPCODE=51.3801; AWLEVEL=5; CTOTALT=424",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:loyola-university-chicago:slot-2",
+      "university_name": "Loyola University Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "normalized_program_name": "Physics, General",
+      "priority_tier": 3,
+      "program_name": "Physics, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166683; CIPCODE=40.0801; AWLEVEL=5; CTOTALT=79",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:massachusetts-institute-of-technology:slot-5",
+      "university_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "normalized_program_name": "Liberal Arts and Sciences/Liberal Studies",
+      "priority_tier": 3,
+      "program_name": "Liberal Arts and Sciences/Liberal Studies",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=193900; CIPCODE=24.0101; AWLEVEL=5; CTOTALT=524",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:new-york-university:slot-1",
+      "university_name": "New York University"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "normalized_program_name": "Operations Research",
+      "priority_tier": 3,
+      "program_name": "Operations Research",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186131; CIPCODE=14.3701; AWLEVEL=5; CTOTALT=77",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:princeton-university:slot-4",
+      "university_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "normalized_program_name": "Registered Nursing/Registered Nurse",
+      "priority_tier": 3,
+      "program_name": "Registered Nursing/Registered Nurse",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186380; CIPCODE=51.3801; AWLEVEL=5; CTOTALT=333",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "slot_id": "candidate-v2:rutgers-university-new-brunswick:slot-5",
+      "university_name": "Rutgers University—New Brunswick"
+    }
+  ],
+  "selection_order": "priority_tier_then_school_round_robin_then_program_slot",
+  "source_limited": true,
+  "tier1_program_terms": [
+    "computer science",
+    "computer and information",
+    "computer engineering",
+    "artificial intelligence",
+    "data science",
+    "data analytics",
+    "electrical",
+    "engineering",
+    "mechanical",
+    "aerospace",
+    "aeronaut",
+    "biomedical",
+    "bioengineering",
+    "business",
+    "management",
+    "econom",
+    "finance",
+    "biology",
+    "biological",
+    "political science",
+    "government"
+  ],
+  "tier1_remaining_slots_before_wave9": 93,
+  "tier2_program_terms": [
+    "psychology",
+    "journalism",
+    "communication",
+    "public policy",
+    "international relations",
+    "international studies",
+    "history",
+    "architecture",
+    "design",
+    "mathematics",
+    "statistics",
+    "environmental science"
+  ]
+}

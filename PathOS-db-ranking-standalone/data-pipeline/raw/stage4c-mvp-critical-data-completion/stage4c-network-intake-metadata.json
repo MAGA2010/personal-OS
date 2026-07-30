@@ -1,0 +1,14 @@
+{
+  "record_type": "stage4c_network_intake_metadata",
+  "retrieval_date": "2026-07-24",
+  "attempts": [
+    {"source":"Census ACS 2023 5-year API","status":"missing_api_key","cache_committed":false,"notes":"HTTP 200 Missing Key response; no credential fabricated"},
+    {"source":"Census 2023 table-based summary-file bulk","status":"http_403_gateway","cache_committed":false,"notes":"Official .dat request rejected; no third-party substitute"},
+    {"source":"IPEDS ADM2024 bulk","status":"network_timeout","cache_committed":false,"notes":"Bounded official download attempt timed out"}
+  ],
+  "deterministic_generation_reads_network": false,
+  "credentials_stored": false,
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true
+}

@@ -1,0 +1,23 @@
+{
+  "allowed_verified_source_types": [
+    "official_federal_dataset",
+    "official_state_or_local_dataset",
+    "official_university_page",
+    "official_university_dataset",
+    "verified_existing_ranking_artifact"
+  ],
+  "disallowed_canonical_sources": [
+    "frontend_hardcoded",
+    "wikipedia",
+    "reddit",
+    "quora",
+    "random_blog",
+    "search_snippet",
+    "ai_memory",
+    "demonstration_estimate",
+    "unsourced_intermediary"
+  ],
+  "frontend_hardcoded_is_authoritative": false,
+  "record_type": "stage4b_source_policy",
+  "search_results_are_clues_only": true
+}

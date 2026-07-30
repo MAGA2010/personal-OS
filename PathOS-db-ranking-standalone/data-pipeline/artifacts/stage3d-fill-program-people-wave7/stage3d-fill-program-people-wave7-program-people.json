@@ -1,0 +1,4651 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_program_people_wave7_program_people",
+  "slots": [
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Management Information Systems",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Management Information Systems",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 11, management information systems",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-mis-asu"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:arizona-state-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Arizona State University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=217156; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=110",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:brown-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Brown University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Civil Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Civil Engineering",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 3 in civil",
+          "source_id": "bucknell-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "bucknell-2026-engineering",
+        "source_record_id": "repair-bucknell-civil"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:bucknell-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Bucknell University"
+    },
+    {
+      "cache_sha256": "89133b9d4857af129c1d84c9df1471718a0b5ea89c45e6eb4f1febe97bf4ea9c",
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "canonical_person_id": "person:james-jim-l-adams:california-institute-of-technology:wave7-caltech-jim-adams-me",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "As an undergraduate at Caltech, he finished top in his engineering class in 1955, was elected student body president, and played on the basketball team.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-caltech-jim-adams-me"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "BS ’ 55 · Mechanical Engineering",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-caltech-jim-adams-me"
+        }
+      },
+      "match_notes": "Caltech Alumni identifies Adams as a 1955 Mechanical Engineering BS alumnus.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": null,
+      "person_id": "person:james-jim-l-adams:california-institute-of-technology:wave7-caltech-jim-adams-me",
+      "person_name": "James “Jim” L. Adams",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Mechanical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110404; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=36",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-caltech-jim-adams-me"
+      ],
+      "slot_id": "candidate-v2:california-institute-of-technology:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-caltech-jim-adams-me",
+      "source_ids": [
+        "wave7-caltech-jim-adams-me"
+      ],
+      "source_sha256": {
+        "wave7-caltech-jim-adams-me": "89133b9d4857af129c1d84c9df1471718a0b5ea89c45e6eb4f1febe97bf4ea9c"
+      },
+      "source_url": "https://www.alumni.caltech.edu/james-jim-l-adams/",
+      "source_urls": {
+        "wave7-caltech-jim-adams-me": "https://www.alumni.caltech.edu/james-jim-l-adams/"
+      },
+      "university_name": "California Institute of Technology"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Business Administration and Management, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Business Administration and Management, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=211440; CIPCODE=52.0201; AWLEVEL=5; CTOTALT=151",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:carnegie-mellon-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Carnegie Mellon University"
+    },
+    {
+      "cache_sha256": "cbe7e6383eff9854c12a7fb5c99cf6004f3ae4235f86cf56edf46a0a1c02b577",
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "canonical_person_id": "person:sandrine-amahoro-rutayisire:columbia-university:wave7-columbia-sandrine-rutayisire-cs",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "I graduated in Computer Science and Visual Arts.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-columbia-sandrine-rutayisire-cs"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "I graduated in Computer Science and Visual Arts.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-columbia-sandrine-rutayisire-cs"
+        }
+      },
+      "match_notes": "Columbia's alumna profile states Rutayisire graduated in Computer Science and Visual Arts.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:sandrine-amahoro-rutayisire:columbia-university:wave7-columbia-sandrine-rutayisire-cs",
+      "person_name": "Sandrine Amahoro Rutayisire",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer Science (BS)",
+          "source_id": "source_columbia_engineering_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_columbia_engineering_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-columbia-sandrine-rutayisire-cs"
+      ],
+      "slot_id": "candidate-v2:columbia-university:slot-1",
+      "slot_status": "identified_person",
+      "source_id": "wave7-columbia-sandrine-rutayisire-cs",
+      "source_ids": [
+        "wave7-columbia-sandrine-rutayisire-cs"
+      ],
+      "source_sha256": {
+        "wave7-columbia-sandrine-rutayisire-cs": "cbe7e6383eff9854c12a7fb5c99cf6004f3ae4235f86cf56edf46a0a1c02b577"
+      },
+      "source_url": "https://isso.columbia.edu/content/sandrine",
+      "source_urls": {
+        "wave7-columbia-sandrine-rutayisire-cs": "https://isso.columbia.edu/content/sandrine"
+      },
+      "university_name": "Columbia University"
+    },
+    {
+      "cache_sha256": "9e8aa3bf9efa686721a72cabf13816ba90d22962994b974a434a62bf04b9bf38",
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "canonical_person_id": "person:james-wang:cornell-university:wave7-cornell-james-wang-biology",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "James Wang ’12, a third-year student at Weill Cornell, graduated from Cornell with a degree in biological sciences but said he felt a little lost exploring health care careers as an undergrad in Ithaca.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-cornell-james-wang-biology"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "James Wang ’12, a third-year student at Weill Cornell, graduated from Cornell with a degree in biological sciences but said he felt a little lost exploring health care careers as an undergrad in Ithaca.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-cornell-james-wang-biology"
+        }
+      },
+      "match_notes": "Cornell states Wang graduated with a Biological Sciences degree.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": null,
+      "person_id": "person:james-wang:cornell-university:wave7-cornell-james-wang-biology",
+      "person_name": "James Wang",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=190415; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=254",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-cornell-james-wang-biology"
+      ],
+      "slot_id": "candidate-v2:cornell-university:slot-5",
+      "slot_status": "identified_person",
+      "source_id": "wave7-cornell-james-wang-biology",
+      "source_ids": [
+        "wave7-cornell-james-wang-biology"
+      ],
+      "source_sha256": {
+        "wave7-cornell-james-wang-biology": "9e8aa3bf9efa686721a72cabf13816ba90d22962994b974a434a62bf04b9bf38"
+      },
+      "source_url": "https://news.cornell.edu/stories/2014/12/weill-cornell-students-advise-pre-med-undergrads",
+      "source_urls": {
+        "wave7-cornell-james-wang-biology": "https://news.cornell.edu/stories/2014/12/weill-cornell-students-advise-pre-med-undergrads"
+      },
+      "university_name": "Cornell University"
+    },
+    {
+      "cache_sha256": "79f99062f03eb53184c1f88df2fdf41e9c5ed22a78e4e14c6fe3554c5eda3907",
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "canonical_person_id": "person:tim-geithner:dartmouth-college:wave7-dartmouth-tim-geithner-government",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Geithner graduated from Dartmouth with a degree in government and Asian studies in 1983 and from the Johns Hopkins School of Advanced International Studies with a master’s degree in international economics and East Asian studies in 1985.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-dartmouth-tim-geithner-government"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Geithner graduated from Dartmouth with a degree in government and Asian studies in 1983 and from the Johns Hopkins School of Advanced International Studies with a master’s degree in international economics and East Asian studies in 1985.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-dartmouth-tim-geithner-government"
+        }
+      },
+      "match_notes": "Dartmouth's Government degree directly relates to the Political Science and Government slot.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Political Science and Government, General",
+      "null_reason": null,
+      "person_id": "person:tim-geithner:dartmouth-college:wave7-dartmouth-tim-geithner-government",
+      "person_name": "Tim Geithner",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Political Science and Government, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=182670; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=182",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-dartmouth-tim-geithner-government"
+      ],
+      "slot_id": "candidate-v2:dartmouth-college:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-dartmouth-tim-geithner-government",
+      "source_ids": [
+        "wave7-dartmouth-tim-geithner-government"
+      ],
+      "source_sha256": {
+        "wave7-dartmouth-tim-geithner-government": "79f99062f03eb53184c1f88df2fdf41e9c5ed22a78e4e14c6fe3554c5eda3907"
+      },
+      "source_url": "https://home.dartmouth.edu/news/2011/06/leading-voices-lecturer-tim-geithner-83",
+      "source_urls": {
+        "wave7-dartmouth-tim-geithner-government": "https://home.dartmouth.edu/news/2011/06/leading-voices-lecturer-tim-geithner-83"
+      },
+      "university_name": "Dartmouth College"
+    },
+    {
+      "cache_sha256": "2208d257c6ac19a7ef764ef3b4c752f814aaee3cea757fe78461e0d64916852a",
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "canonical_person_id": "person:stuart-dupuy:duke-university:wave7-duke-stuart-dupuy-economics",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "I graduated from Duke in 1992 and immediately went to the University of Texas School of Law.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-duke-stuart-dupuy-economics"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "1992 Major: Economics",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-duke-stuart-dupuy-economics"
+        }
+      },
+      "match_notes": "Duke identifies Dupuy as a 1992 Economics graduate, directly related to Econometrics.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": null,
+      "person_id": "person:stuart-dupuy:duke-university:wave7-duke-stuart-dupuy-economics",
+      "person_name": "Stuart Dupuy",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=198419; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=199",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-duke-stuart-dupuy-economics"
+      ],
+      "slot_id": "candidate-v2:duke-university:slot-4",
+      "slot_status": "identified_person",
+      "source_id": "wave7-duke-stuart-dupuy-economics",
+      "source_ids": [
+        "wave7-duke-stuart-dupuy-economics"
+      ],
+      "source_sha256": {
+        "wave7-duke-stuart-dupuy-economics": "2208d257c6ac19a7ef764ef3b4c752f814aaee3cea757fe78461e0d64916852a"
+      },
+      "source_url": "https://econ.duke.edu/alumni/stuart-dupuy-ba-1992",
+      "source_urls": {
+        "wave7-duke-stuart-dupuy-economics": "https://econ.duke.edu/alumni/stuart-dupuy-ba-1992"
+      },
+      "university_name": "Duke University"
+    },
+    {
+      "cache_sha256": "0d300a3f6187dbaf2a4c8f1bda873925356bf18a30faa6fbde0974ebd4b3b5e3",
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "canonical_person_id": "person:ahmed-aljohani:emory-university:wave7-emory-ahmed-aljohani-biology",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Ahmed Aljohani, a native of Saudi Arabia, graduated from Emory with highest honors in Biology.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-emory-ahmed-aljohani-biology"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Ahmed Aljohani, a native of Saudi Arabia, graduated from Emory with highest honors in Biology.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-emory-ahmed-aljohani-biology"
+        }
+      },
+      "match_notes": "Emory states Aljohani graduated with highest honors in Biology.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": null,
+      "person_id": "person:ahmed-aljohani:emory-university:wave7-emory-ahmed-aljohani-biology",
+      "person_name": "Ahmed Aljohani",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139658; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=211",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-emory-ahmed-aljohani-biology"
+      ],
+      "slot_id": "candidate-v2:emory-university:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-emory-ahmed-aljohani-biology",
+      "source_ids": [
+        "wave7-emory-ahmed-aljohani-biology"
+      ],
+      "source_sha256": {
+        "wave7-emory-ahmed-aljohani-biology": "0d300a3f6187dbaf2a4c8f1bda873925356bf18a30faa6fbde0974ebd4b3b5e3"
+      },
+      "source_url": "https://college.emory.edu/national-awards/scholar-profiles/aljohani-ahmed.html",
+      "source_urls": {
+        "wave7-emory-ahmed-aljohani-biology": "https://college.emory.edu/national-awards/scholar-profiles/aljohani-ahmed.html"
+      },
+      "university_name": "Emory University"
+    },
+    {
+      "cache_sha256": "39b7de317138687507241f8cef713035afe6c02722de5d304bd60baf865106f4",
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "canonical_person_id": "person:amelia-fattore:georgetown-university:wave7-georgetown-amelia-fattore-finance",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Amelia Fattore graduated from Georgetown University’s McDonough School of Business (MSB) with a Finance and Accounting Degree.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-georgetown-amelia-fattore-finance"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Amelia Fattore graduated from Georgetown University’s McDonough School of Business (MSB) with a Finance and Accounting Degree.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-georgetown-amelia-fattore-finance"
+        }
+      },
+      "match_notes": "Georgetown states Fattore graduated with a Finance and Accounting degree.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Finance, General",
+      "null_reason": null,
+      "person_id": "person:amelia-fattore:georgetown-university:wave7-georgetown-amelia-fattore-finance",
+      "person_name": "Amelia Fattore",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Finance, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=236",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-georgetown-amelia-fattore-finance"
+      ],
+      "slot_id": "candidate-v2:georgetown-university:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-georgetown-amelia-fattore-finance",
+      "source_ids": [
+        "wave7-georgetown-amelia-fattore-finance"
+      ],
+      "source_sha256": {
+        "wave7-georgetown-amelia-fattore-finance": "39b7de317138687507241f8cef713035afe6c02722de5d304bd60baf865106f4"
+      },
+      "source_url": "https://careercenter.georgetown.edu/alumni-stories/how-i-got-there-amelia-fattore-msb-2018-vp-private-credit-financing-at-citigroup/",
+      "source_urls": {
+        "wave7-georgetown-amelia-fattore-finance": "https://careercenter.georgetown.edu/alumni-stories/how-i-got-there-amelia-fattore-msb-2018-vp-private-credit-financing-at-citigroup/"
+      },
+      "university_name": "Georgetown University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Environmental Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Environmental Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Environmental Engineering 1st",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "gatech-2026-engineering-batch02",
+        "source_record_id": "batch02-engineering-environmental-gatech"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:georgia-institute-of-technology:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Georgia Institute of Technology"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166027; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=258",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:harvard-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Harvard University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "ranked No. 2 among non-doctorate granting institutions",
+          "source_id": "harvey-mudd-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "harvey-mudd-2026-engineering",
+        "source_record_id": "sweep-harvey-mudd-engineering"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:harvey-mudd-college:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Harvey Mudd College"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Management Information Systems",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Management Information Systems",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Management information systems, No. 6.",
+          "source_id": "indiana-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "indiana-2026-business-sweep",
+        "source_record_id": "sweep-indiana-mis"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:indiana-university-bloomington:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Indiana University Bloomington"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=162928; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=136",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:johns-hopkins-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Johns Hopkins University"
+    },
+    {
+      "cache_sha256": "accba4606e6263a50a25e219a1786b8380cb868cb820813b69da1a77f3be359c",
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "canonical_person_id": "person:leeza-khalif:lehigh-university:wave7-lehigh-leeza-khalif-csb",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Leeza Khalif graduated from Lehigh University in 2023 with a Bachelor of Science in Computer Science and Business.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-lehigh-leeza-khalif-csb"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Leeza Khalif graduated from Lehigh University in 2023 with a Bachelor of Science in Computer Science and Business.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-lehigh-leeza-khalif-csb"
+        }
+      },
+      "match_notes": "Lehigh's combined Computer Science and Business BS directly relates to Computer Science.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:leeza-khalif:lehigh-university:wave7-lehigh-leeza-khalif-csb",
+      "person_name": "Leeza Khalif",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Computer Science",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=213543; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=147",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-lehigh-leeza-khalif-csb"
+      ],
+      "slot_id": "candidate-v2:lehigh-university:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-lehigh-leeza-khalif-csb",
+      "source_ids": [
+        "wave7-lehigh-leeza-khalif-csb"
+      ],
+      "source_sha256": {
+        "wave7-lehigh-leeza-khalif-csb": "accba4606e6263a50a25e219a1786b8380cb868cb820813b69da1a77f3be359c"
+      },
+      "source_url": "https://alumni.lehigh.edu/young-alumni-council",
+      "source_urls": {
+        "wave7-lehigh-leeza-khalif-csb": "https://alumni.lehigh.edu/young-alumni-council"
+      },
+      "university_name": "Lehigh University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "International Business",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "International Business",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "#10 in the nation",
+          "source_id": "loyola-quinlan-2026-business"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "loyola-quinlan-2026-business",
+        "source_record_id": "priority01-loyola-international-business"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:loyola-university-chicago:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Loyola University Chicago"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=193900; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=513",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:new-york-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "New York University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Business/Commerce, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Business/Commerce, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=167358; CIPCODE=52.0101; AWLEVEL=5; CTOTALT=958",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:northeastern-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Northeastern University"
+    },
+    {
+      "cache_sha256": "8a60b35b31dda28afc3aad6f7bdb26a49d187af6d2f912b631c5ed65f6a51101",
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "canonical_person_id": "person:chandana-sooranahalli:northwestern-university:wave7-northwestern-chandana-sooranahalli-econ",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Chandana Sooranahalli graduated from Weinberg College in 2020, studying Economics with a minor in cognitive science.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-northwestern-chandana-sooranahalli-econ"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Chandana Sooranahalli graduated from Weinberg College in 2020, studying Economics with a minor in cognitive science.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-northwestern-chandana-sooranahalli-econ"
+        }
+      },
+      "match_notes": "Northwestern states Sooranahalli graduated after studying Economics, directly related to Econometrics.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": null,
+      "person_id": "person:chandana-sooranahalli:northwestern-university:wave7-northwestern-chandana-sooranahalli-econ",
+      "person_name": "Chandana Sooranahalli",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=147767; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=370",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-northwestern-chandana-sooranahalli-econ"
+      ],
+      "slot_id": "candidate-v2:northwestern-university:slot-1",
+      "slot_status": "identified_person",
+      "source_id": "wave7-northwestern-chandana-sooranahalli-econ",
+      "source_ids": [
+        "wave7-northwestern-chandana-sooranahalli-econ"
+      ],
+      "source_sha256": {
+        "wave7-northwestern-chandana-sooranahalli-econ": "8a60b35b31dda28afc3aad6f7bdb26a49d187af6d2f912b631c5ed65f6a51101"
+      },
+      "source_url": "https://economics.northwestern.edu/people/alumni/alumni-spotlights.html",
+      "source_urls": {
+        "wave7-northwestern-chandana-sooranahalli-econ": "https://economics.northwestern.edu/people/alumni/alumni-spotlights.html"
+      },
+      "university_name": "Northwestern University"
+    },
+    {
+      "cache_sha256": "2600ddc2fbddd897dee28170f9cbc3f3678147d6c0a2fecd0f34a6b48743a5f4",
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "canonical_person_id": "person:ben-gilbert:ohio-state-university:wave7-ohio-state-ben-gilbert-cse",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "After earning his computer science and engineering degree in 2011, he had a clear career path in mind: work at a big company for a few years, launch a tech startup as CEO, raise capital and build it into a big company.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-ohio-state-ben-gilbert-cse"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "After earning his computer science and engineering degree in 2011, he had a clear career path in mind: work at a big company for a few years, launch a tech startup as CEO, raise capital and build it into a big company.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-ohio-state-ben-gilbert-cse"
+        }
+      },
+      "match_notes": "Ohio State's Computer Science and Engineering degree directly relates to Computer and Information Science.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Computer and Information Science",
+      "null_reason": null,
+      "person_id": "person:ben-gilbert:ohio-state-university:wave7-ohio-state-ben-gilbert-cse",
+      "person_name": "Ben Gilbert",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Computer and Information Science",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer and Information Science",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-ohio-state-ben-gilbert-cse"
+      ],
+      "slot_id": "candidate-v2:ohio-state-university:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-ohio-state-ben-gilbert-cse",
+      "source_ids": [
+        "wave7-ohio-state-ben-gilbert-cse"
+      ],
+      "source_sha256": {
+        "wave7-ohio-state-ben-gilbert-cse": "2600ddc2fbddd897dee28170f9cbc3f3678147d6c0a2fecd0f34a6b48743a5f4"
+      },
+      "source_url": "https://engineering.osu.edu/notable-alumni",
+      "source_urls": {
+        "wave7-ohio-state-ben-gilbert-cse": "https://engineering.osu.edu/notable-alumni"
+      },
+      "university_name": "The Ohio State University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Undergraduate Engineering Programs (No Doctorate)",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 3 Undergraduate Engineering",
+          "source_id": "olin-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "olin-2026-engineering",
+        "source_record_id": "priority01-olin-engineering"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:olin-college-of-engineering:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Olin College of Engineering"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=478",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Economics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Economics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=45.0601; AWLEVEL=5; CTOTALT=69",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rice-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Rice University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Civil Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Civil Engineering",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 1 Civil Engineering",
+          "source_id": "rose-hulman-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "rose-hulman-2026-engineering",
+        "source_record_id": "repair-rose-civil"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rose-hulman-institute-of-technology:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Finance, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Finance, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186380; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=468",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rutgers-university-new-brunswick:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "cache_sha256": "873d405c6b2f06cfb7b22b22ade1eaed31c23443c55bb69bf59c042423e5833b",
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "canonical_person_id": "person:victoria-parikh:stanford-university:wave7-stanford-victoria-parikh-human-biology",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Meet Victoria Parikh, a clinician scientist in cardiovascular medicine at Stanford Medicine and a HumBio alumna from the class of 2005.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-stanford-victoria-parikh-human-biology"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Realizing she could learn about disease and also study the disparities and gaps in available services for treating those diseases, Parikh’s interest in studying Human Biology was solidified and she officially declared HumBio.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-stanford-victoria-parikh-human-biology"
+        }
+      },
+      "match_notes": "Stanford identifies Parikh as a 2005 HumBio alumna and explicitly states she declared Human Biology.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Human Biology",
+      "null_reason": null,
+      "person_id": "person:victoria-parikh:stanford-university:wave7-stanford-victoria-parikh-human-biology",
+      "person_name": "Victoria Parikh",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Human Biology",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=30.2701; AWLEVEL=5; CTOTALT=140",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "alumnus_unspecified",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-stanford-victoria-parikh-human-biology"
+      ],
+      "slot_id": "candidate-v2:stanford-university:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-stanford-victoria-parikh-human-biology",
+      "source_ids": [
+        "wave7-stanford-victoria-parikh-human-biology"
+      ],
+      "source_sha256": {
+        "wave7-stanford-victoria-parikh-human-biology": "873d405c6b2f06cfb7b22b22ade1eaed31c23443c55bb69bf59c042423e5833b"
+      },
+      "source_url": "https://humanbiology.stanford.edu/news/humbio-and-heartbeats",
+      "source_urls": {
+        "wave7-stanford-victoria-parikh-human-biology": "https://humanbiology.stanford.edu/news/humbio-and-heartbeats"
+      },
+      "university_name": "Stanford University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Industrial Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Industrial Engineering",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 8",
+          "source_id": "texas-am-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "texas-am-2026-engineering",
+        "source_record_id": "repair-tamu-industrial"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:texas-a-and-m-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Texas A&M University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=168148; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=217",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:tufts-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Tufts University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Supply Chain Management/Logistics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Supply Chain Management/Logistics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "#2 in Supply Chain/Logistics (tie)",
+          "source_id": "berkeley-haas-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "berkeley-haas-2026-business-sweep",
+        "source_record_id": "sweep-berkeley-supply-chain"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Management Sciences and Quantitative Methods, Other",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Management Sciences and Quantitative Methods, Other",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110644; CIPCODE=52.1399; AWLEVEL=5; CTOTALT=502",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-davis:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of California, Davis"
+    },
+    {
+      "cache_sha256": "da394588a51efa562eeb153bfc320bd74a4fb6a6e7d94ceba4a20b2ed31f5439",
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "canonical_person_id": "person:christina-phan:university-of-california-irvine:wave7-uci-christina-phan-biology",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "A 2014 graduate with her bachelor’s degree in biological sciences in under three years and a recipient of the Chancellor’s Award of Distinction, Christina recently began an internship at the White House.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uci-christina-phan-biology"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "A 2014 graduate with her bachelor’s degree in biological sciences in under three years and a recipient of the Chancellor’s Award of Distinction, Christina recently began an internship at the White House.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uci-christina-phan-biology"
+        }
+      },
+      "match_notes": "UCI states Phan graduated with a bachelor's degree in Biological Sciences.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": null,
+      "person_id": "person:christina-phan:university-of-california-irvine:wave7-uci-christina-phan-biology",
+      "person_name": "Christina Phan",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110653; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=766",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-uci-christina-phan-biology"
+      ],
+      "slot_id": "candidate-v2:university-of-california-irvine:slot-1",
+      "slot_status": "identified_person",
+      "source_id": "wave7-uci-christina-phan-biology",
+      "source_ids": [
+        "wave7-uci-christina-phan-biology"
+      ],
+      "source_sha256": {
+        "wave7-uci-christina-phan-biology": "da394588a51efa562eeb153bfc320bd74a4fb6a6e7d94ceba4a20b2ed31f5439"
+      },
+      "source_url": "https://www.bio.uci.edu/ayala-school-alumni-is-a-current-white-house-intern/",
+      "source_urls": {
+        "wave7-uci-christina-phan-biology": "https://www.bio.uci.edu/ayala-school-alumni-is-a-current-white-house-intern/"
+      },
+      "university_name": "University of California, Irvine"
+    },
+    {
+      "cache_sha256": "16d60b2c0d1522fe178502681b84282e611bc7e5fd1665ae4a890a43adaeccdc",
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "canonical_id": "institution:university-of-california-san-diego",
+      "canonical_person_id": "person:vania-bailon:university-of-california-san-diego:wave7-ucsd-vania-bailon-economics",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Vania is a UCSD Muir College alumna, having graduated in 2018 with a bachelor’s degree in economics.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-ucsd-vania-bailon-economics"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Vania is a UCSD Muir College alumna, having graduated in 2018 with a bachelor’s degree in economics.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-ucsd-vania-bailon-economics"
+        }
+      },
+      "match_notes": "UCSD states Bailon graduated with an Economics bachelor's degree, directly related to Econometrics.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": null,
+      "person_id": "person:vania-bailon:university-of-california-san-diego:wave7-ucsd-vania-bailon-economics",
+      "person_name": "Vania Bailon",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110680; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=358",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-ucsd-vania-bailon-economics"
+      ],
+      "slot_id": "candidate-v2:university-of-california-san-diego:slot-5",
+      "slot_status": "identified_person",
+      "source_id": "wave7-ucsd-vania-bailon-economics",
+      "source_ids": [
+        "wave7-ucsd-vania-bailon-economics"
+      ],
+      "source_sha256": {
+        "wave7-ucsd-vania-bailon-economics": "16d60b2c0d1522fe178502681b84282e611bc7e5fd1665ae4a890a43adaeccdc"
+      },
+      "source_url": "https://emeriti.ucsd.edu/_files/CS_Journal/CSP_Journal_Vol_3_No_1.pdf",
+      "source_urls": {
+        "wave7-ucsd-vania-bailon-economics": "https://emeriti.ucsd.edu/_files/CS_Journal/CSP_Journal_Vol_3_No_1.pdf"
+      },
+      "university_name": "University of California, San Diego"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110705; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=391",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-santa-barbara:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of California, Santa Barbara"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=622",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-chicago:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Chicago"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=134130; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=630",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-florida:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Florida"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139959; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=572",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-georgia:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Georgia"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Engineering, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer Engineering, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=14.0901; AWLEVEL=5; CTOTALT=396",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Finance, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Finance, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=153658; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=391",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-iowa:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Iowa"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=163286; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=490",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-maryland-college-park:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Maryland, College Park"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Economics, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Economics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=170976; CIPCODE=45.0601; AWLEVEL=5; CTOTALT=608",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-michigan-ann-arbor:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Management Information Systems",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Management Information Systems",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "5th U.S.",
+          "source_id": "carlson-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "carlson-2026-business-sweep",
+        "source_record_id": "sweep-carlson-mis"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-minnesota-twin-cities:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer Science",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer Science Major, B.S.",
+          "source_id": "source_unc_2026_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_unc_2026_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-north-carolina-chapel-hill:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "cache_sha256": "12baf85103136d541b94be8f8f97e1bef71f3d9d720912c59357f9defd3be5c9",
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "canonical_person_id": "person:alessandro-disanto:university-of-notre-dame:wave7-notre-dame-alessandro-disanto-econ",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Alessandro graduated summa cum laude from Notre Dame with a double major in finance and economics, as well as a minor in Italian.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-notre-dame-alessandro-disanto-econ"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Alessandro graduated summa cum laude from Notre Dame with a double major in finance and economics, as well as a minor in Italian.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-notre-dame-alessandro-disanto-econ"
+        }
+      },
+      "match_notes": "Notre Dame's Economics major directly relates to Econometrics and Quantitative Economics.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": null,
+      "person_id": "person:alessandro-disanto:university-of-notre-dame:wave7-notre-dame-alessandro-disanto-econ",
+      "person_name": "Alessandro DiSanto",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=152080; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=256",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-notre-dame-alessandro-disanto-econ"
+      ],
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-notre-dame-alessandro-disanto-econ",
+      "source_ids": [
+        "wave7-notre-dame-alessandro-disanto-econ"
+      ],
+      "source_sha256": {
+        "wave7-notre-dame-alessandro-disanto-econ": "12baf85103136d541b94be8f8f97e1bef71f3d9d720912c59357f9defd3be5c9"
+      },
+      "source_url": "https://economics.nd.edu/about/alumni-board/",
+      "source_urls": {
+        "wave7-notre-dame-alessandro-disanto-econ": "https://economics.nd.edu/about/alumni-board/"
+      },
+      "university_name": "University of Notre Dame"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=215062; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=177",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-pennsylvania:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Pennsylvania"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=195030; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=230",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-rochester:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Rochester"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Data Analytics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Data Analytics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Bachelor's Data Analytics, B.S.",
+          "source_id": "source_usc_majors_degrees"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_usc_majors_degrees",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-south-carolina-columbia:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of South Carolina"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Management Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Management Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=123961; CIPCODE=52.1301; AWLEVEL=5; CTOTALT=1221",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-southern-california:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Southern California"
+    },
+    {
+      "cache_sha256": "695b6699b3775a77df1e223e3baddae3ceb9179c37e808260925a432efc24753",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "canonical_person_id": "person:sunil-jaini:university-of-texas-austin:wave7-ut-austin-sunil-jaini-business",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Sunil graduated in 2010 and holds a Bachelor of Business Administration degree in Finance from the Canfield Business Honors Program at The University of Texas in Austin, Texas and an MBA from London Business School in London, UK.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-ut-austin-sunil-jaini-business"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Sunil graduated in 2010 and holds a Bachelor of Business Administration degree in Finance from the Canfield Business Honors Program at The University of Texas in Austin, Texas and an MBA from London Business School in London, UK.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-ut-austin-sunil-jaini-business"
+        }
+      },
+      "match_notes": "UT McCombs states Jaini graduated and holds its BBA in Finance.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Business Administration",
+      "null_reason": null,
+      "person_id": "person:sunil-jaini:university-of-texas-austin:wave7-ut-austin-sunil-jaini-business",
+      "person_name": "Sunil Jaini",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Business Administration",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Business administration BBA",
+          "source_id": "source_ut_austin_undergraduate_catalog"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ut_austin_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-ut-austin-sunil-jaini-business"
+      ],
+      "slot_id": "candidate-v2:university-of-texas-austin:slot-1",
+      "slot_status": "identified_person",
+      "source_id": "wave7-ut-austin-sunil-jaini-business",
+      "source_ids": [
+        "wave7-ut-austin-sunil-jaini-business"
+      ],
+      "source_sha256": {
+        "wave7-ut-austin-sunil-jaini-business": "695b6699b3775a77df1e223e3baddae3ceb9179c37e808260925a432efc24753"
+      },
+      "source_url": "https://blogs.mccombs.utexas.edu/bhp-news/2023/10/18/canfield-bhp-alumni-advisory-board-welcomes-new-members-3/",
+      "source_urls": {
+        "wave7-ut-austin-sunil-jaini-business": "https://blogs.mccombs.utexas.edu/bhp-news/2023/10/18/canfield-bhp-alumni-advisory-board-welcomes-new-members-3/"
+      },
+      "university_name": "University of Texas—Austin"
+    },
+    {
+      "cache_sha256": "6e1b96d756304061b3f1005721136bb75f181ef0bbf99c1dee33f489243afdfa",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "canonical_person_id": "person:rory-black:university-of-virginia:wave7-uva-rory-black-data-science",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Alumnus",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uva-rory-black-data-science"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "M.S in Data Science 2023, University of Virginia",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uva-rory-black-data-science"
+        }
+      },
+      "match_notes": "UVA labels Black an alumnus and states a 2023 UVA MS in Data Science.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Data Science",
+      "null_reason": null,
+      "person_id": "person:rory-black:university-of-virginia:wave7-uva-rory-black-data-science",
+      "person_name": "Rory Black",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Data Science",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Data Science, B.S.",
+          "source_id": "source_uva_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_uva_undergraduate_majors",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-uva-rory-black-data-science"
+      ],
+      "slot_id": "candidate-v2:university-of-virginia:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-uva-rory-black-data-science",
+      "source_ids": [
+        "wave7-uva-rory-black-data-science"
+      ],
+      "source_sha256": {
+        "wave7-uva-rory-black-data-science": "6e1b96d756304061b3f1005721136bb75f181ef0bbf99c1dee33f489243afdfa"
+      },
+      "source_url": "https://datascience.virginia.edu/people/rory-black",
+      "source_urls": {
+        "wave7-uva-rory-black-data-science": "https://datascience.virginia.edu/people/rory-black"
+      },
+      "university_name": "University of Virginia"
+    },
+    {
+      "cache_sha256": "752fad8ee0f0411b444d506cd674b07ea6594bf115d82e610f98c67a35c90b59",
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "canonical_person_id": "person:paul-forquera:university-of-washington:wave7-washington-paul-forquera-aero",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Alumnus Paul Forquera (BS 02)",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-washington-paul-forquera-aero"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Paul holds a Masters Degree in Aeronautics and Astronautics from Stanford, and a Bachelors of Aeronautical and Astronautical Engineering from the University of Washington.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-washington-paul-forquera-aero"
+        }
+      },
+      "match_notes": "UW identifies Forquera as a BS 2002 alumnus and holder of its bachelor's in Aeronautical and Astronautical Engineering.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Aeronautics and Astronautics",
+      "null_reason": null,
+      "person_id": "person:paul-forquera:university-of-washington:wave7-washington-paul-forquera-aero",
+      "person_name": "Paul Forquera",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Aeronautics and Astronautics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Aeronautics and Astronautics",
+          "source_id": "source_uw_undergraduate_degree_programs"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_uw_undergraduate_degree_programs",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-washington-paul-forquera-aero"
+      ],
+      "slot_id": "candidate-v2:university-of-washington:slot-1",
+      "slot_status": "identified_person",
+      "source_id": "wave7-washington-paul-forquera-aero",
+      "source_ids": [
+        "wave7-washington-paul-forquera-aero"
+      ],
+      "source_sha256": {
+        "wave7-washington-paul-forquera-aero": "752fad8ee0f0411b444d506cd674b07ea6594bf115d82e610f98c67a35c90b59"
+      },
+      "source_url": "https://www.aa.washington.edu/alumni/luncheon",
+      "source_urls": {
+        "wave7-washington-paul-forquera-aero": "https://www.aa.washington.edu/alumni/luncheon"
+      },
+      "university_name": "University of Washington"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=240444; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=864",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-wisconsin-madison:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Wisconsin—Madison"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=221999; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=286",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:vanderbilt-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Vanderbilt University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Science",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer Science",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=179867; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=181",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:washington-university-in-st-louis:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Washington University in St. Louis"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 1,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=130794; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=182",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:yale-university:slot-1",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Yale University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Production/Operations Management",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Production/Operations Management",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 11, production/operations management",
+          "source_id": "asu-2026-business-batch01"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "asu-2026-business-batch01",
+        "source_record_id": "batch01-operations-asu"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:arizona-state-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Arizona State University"
+    },
+    {
+      "cache_sha256": "44ddb6958e9d0c2d550fe29b0120f2272d6f18facca79ca57efb17c063915e48",
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "canonical_person_id": "person:michelle-lesh:bucknell-university:wave7-bucknell-michelle-lesh-me",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Michelle Lesh graduated from Bucknell in 2000 with a mechanical engineering degree.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-bucknell-michelle-lesh-me"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Michelle Lesh graduated from Bucknell in 2000 with a mechanical engineering degree.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-bucknell-michelle-lesh-me"
+        }
+      },
+      "match_notes": "Bucknell states Lesh graduated with a Mechanical Engineering degree.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": null,
+      "person_id": "person:michelle-lesh:bucknell-university:wave7-bucknell-michelle-lesh-me",
+      "person_name": "Michelle Lesh",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Mechanical Engineering",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 3 in mechanical",
+          "source_id": "bucknell-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "bucknell-2026-engineering",
+        "source_record_id": "repair-bucknell-mechanical"
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-bucknell-michelle-lesh-me"
+      ],
+      "slot_id": "candidate-v2:bucknell-university:slot-3",
+      "slot_status": "identified_person",
+      "source_id": "wave7-bucknell-michelle-lesh-me",
+      "source_ids": [
+        "wave7-bucknell-michelle-lesh-me"
+      ],
+      "source_sha256": {
+        "wave7-bucknell-michelle-lesh-me": "44ddb6958e9d0c2d550fe29b0120f2272d6f18facca79ca57efb17c063915e48"
+      },
+      "source_url": "https://engineeringnews.blogs.bucknell.edu/2026/03/27/alumni-spotlight-qa-with-michelle-lesh-00/",
+      "source_urls": {
+        "wave7-bucknell-michelle-lesh-me": "https://engineeringnews.blogs.bucknell.edu/2026/03/27/alumni-spotlight-qa-with-michelle-lesh-00/"
+      },
+      "university_name": "Bucknell University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Bioengineering and Biomedical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Bioengineering and Biomedical Engineering",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110404; CIPCODE=14.0501; AWLEVEL=5; CTOTALT=18",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:california-institute-of-technology:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "California Institute of Technology"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer Engineering (BS)",
+          "source_id": "source_columbia_engineering_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_columbia_engineering_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:columbia-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Columbia University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=182670; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=86",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:dartmouth-college:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Dartmouth College"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=198419; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=169",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:duke-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Duke University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139658; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=158",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:emory-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Emory University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Political Science and Government, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Political Science and Government, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=131496; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=203",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:georgetown-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Georgetown University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Industrial Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Industrial Engineering",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "Industrial Engineering 1st",
+          "source_id": "gatech-2026-engineering-batch02"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "gatech-2026-engineering-batch02",
+        "source_record_id": "batch02-engineering-industrial-gatech"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:georgia-institute-of-technology:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Georgia Institute of Technology"
+    },
+    {
+      "cache_sha256": "f76fc304744d07baa9e79867d914af65bed35803438acd0f17cf720bf9eea9ac",
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "canonical_person_id": "person:max-kuhelj-bugaric:harvard-university:wave7-harvard-max-kuhelj-bugaric-government",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "I graduated from Harvard College in 2019 with an A.B. in Government (summa cum laude); my thesis “Ahead of Their Time: Temporal Orientation and Organizational Technological Invention” was awarded the James Gordon Bennett Prize.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-harvard-max-kuhelj-bugaric-government"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "I graduated from Harvard College in 2019 with an A.B. in Government (summa cum laude); my thesis “Ahead of Their Time: Temporal Orientation and Organizational Technological Invention” was awarded the James Gordon Bennett Prize.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-harvard-max-kuhelj-bugaric-government"
+        }
+      },
+      "match_notes": "Harvard's Government AB directly relates to Political Science and Government.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Political Science and Government, General",
+      "null_reason": null,
+      "person_id": "person:max-kuhelj-bugaric:harvard-university:wave7-harvard-max-kuhelj-bugaric-government",
+      "person_name": "Max Kuhelj Bugaric",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Political Science and Government, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=166027; CIPCODE=45.1001; AWLEVEL=5; CTOTALT=164",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-harvard-max-kuhelj-bugaric-government"
+      ],
+      "slot_id": "candidate-v2:harvard-university:slot-4",
+      "slot_status": "identified_person",
+      "source_id": "wave7-harvard-max-kuhelj-bugaric-government",
+      "source_ids": [
+        "wave7-harvard-max-kuhelj-bugaric-government"
+      ],
+      "source_sha256": {
+        "wave7-harvard-max-kuhelj-bugaric-government": "f76fc304744d07baa9e79867d914af65bed35803438acd0f17cf720bf9eea9ac"
+      },
+      "source_url": "https://www.gov.harvard.edu/directory/max-kuhelj-bugaric/",
+      "source_urls": {
+        "wave7-harvard-max-kuhelj-bugaric-government": "https://www.gov.harvard.edu/directory/max-kuhelj-bugaric/"
+      },
+      "university_name": "Harvard University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 3 in mechanical engineering",
+          "source_id": "harvey-mudd-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "harvey-mudd-2026-engineering",
+        "source_record_id": "sweep-harvey-mudd-mechanical"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:harvey-mudd-college:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Harvey Mudd College"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Marketing/Marketing Management, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Marketing/Marketing Management, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=213543; CIPCODE=52.1401; AWLEVEL=5; CTOTALT=60",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:lehigh-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Lehigh University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=146719; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=261",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:loyola-university-chicago:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Loyola University Chicago"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=167358; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=558",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:northeastern-university:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Northeastern University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=147767; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=135",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:northwestern-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Northwestern University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Data Analytics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Data Analytics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Data Analytics",
+          "source_id": "source_ohio_state_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ohio_state_undergraduate_majors",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:ohio-state-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "The Ohio State University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Mechanical Engineering (ME)",
+          "source_id": "source_olin_majors_concentrations"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_olin_majors_concentrations",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:olin-college-of-engineering:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Olin College of Engineering"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer Engineering, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer Engineering, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243780; CIPCODE=14.0901; AWLEVEL=5; CTOTALT=319",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:purdue-university-main-campus:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Purdue University—Main Campus"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Mechanical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Mechanical Engineering",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=227757; CIPCODE=14.1901; AWLEVEL=5; CTOTALT=65",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rice-university:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Rice University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Electrical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Electrical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 1 Electrical Engineering",
+          "source_id": "rose-hulman-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "rose-hulman-2026-engineering",
+        "source_record_id": "repair-rose-electrical"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rose-hulman-institute-of-technology:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=186380; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=432",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:rutgers-university-new-brunswick:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Econometrics and Quantitative Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Econometrics and Quantitative Economics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=243744; CIPCODE=45.0603; AWLEVEL=5; CTOTALT=112",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:stanford-university:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Stanford University"
+    },
+    {
+      "cache_sha256": "cd12ae080c2636abbdd6fc98757d49dfca9ac8a833a103af769ec6c7eb0e799b",
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "canonical_person_id": "person:lesley-a-weitz:texas-a-and-m-university:wave7-tamu-lesley-weitz-aerospace",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Weitz received her bachelor’s degree in mechanical engineering from the University at Buffalo in 2002 and her master’s and Ph.D. in aerospace engineering from Texas A&M in 2005 and 2009, respectively.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-tamu-lesley-weitz-aerospace"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Weitz received her bachelor’s degree in mechanical engineering from the University at Buffalo in 2002 and her master’s and Ph.D. in aerospace engineering from Texas A&M in 2005 and 2009, respectively.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-tamu-lesley-weitz-aerospace"
+        }
+      },
+      "match_notes": "Texas A&M states Weitz earned its MS and PhD in Aerospace Engineering.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Aerospace Engineering",
+      "null_reason": null,
+      "person_id": "person:lesley-a-weitz:texas-a-and-m-university:wave7-tamu-lesley-weitz-aerospace",
+      "person_name": "Lesley A. Weitz",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Aerospace Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 10",
+          "source_id": "texas-am-2026-engineering"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "texas-am-2026-engineering",
+        "source_record_id": "repair-tamu-aerospace"
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-tamu-lesley-weitz-aerospace"
+      ],
+      "slot_id": "candidate-v2:texas-a-and-m-university:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-tamu-lesley-weitz-aerospace",
+      "source_ids": [
+        "wave7-tamu-lesley-weitz-aerospace"
+      ],
+      "source_sha256": {
+        "wave7-tamu-lesley-weitz-aerospace": "cd12ae080c2636abbdd6fc98757d49dfca9ac8a833a103af769ec6c7eb0e799b"
+      },
+      "source_url": "https://engineering.tamu.edu/news/2024/02/distinguished-alum-awarded-high-distinction-in-aerospace-engineering-community.html",
+      "source_urls": {
+        "wave7-tamu-lesley-weitz-aerospace": "https://engineering.tamu.edu/news/2024/02/distinguished-alum-awarded-high-distinction-in-aerospace-engineering-community.html"
+      },
+      "university_name": "Texas A&M University"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=168148; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=147",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:tufts-university:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "Tufts University"
+    },
+    {
+      "cache_sha256": "a64faeb6348393135311d834f0bab5da3c4cb75d6937ffb1b2bd54bf36f6a680",
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "canonical_person_id": "person:frank-cooper-iii:university-of-california-berkeley:wave7-berkeley-frank-cooper-business",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Visa’s Chief Marketing Officer Frank Cooper III, BS 86, and Toast’s Chief Financial Officer Elena Gomez, BS 91, will serve as Berkeley Haas commencement speakers this May.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-berkeley-frank-cooper-business"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "He earned an undergraduate degree in business administration at UC Berkeley, and a JD from Harvard Law School, where he served as the Supreme Court Editor of The Harvard Law Review.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-berkeley-frank-cooper-business"
+        }
+      },
+      "match_notes": "Berkeley Haas identifies Cooper as a BS 1986 alumnus with an undergraduate Business Administration degree.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Undergraduate Business Programs",
+      "null_reason": null,
+      "person_id": "person:frank-cooper-iii:university-of-california-berkeley:wave7-berkeley-frank-cooper-business",
+      "person_name": "Frank Cooper III",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Undergraduate Business Programs",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "No. 3",
+          "source_id": "berkeley-haas-2026-business"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "berkeley-haas-2026-business",
+        "source_record_id": "priority01-berkeley-business"
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-berkeley-frank-cooper-business"
+      ],
+      "slot_id": "candidate-v2:university-of-california-berkeley:slot-4",
+      "slot_status": "identified_person",
+      "source_id": "wave7-berkeley-frank-cooper-business",
+      "source_ids": [
+        "wave7-berkeley-frank-cooper-business"
+      ],
+      "source_sha256": {
+        "wave7-berkeley-frank-cooper-business": "a64faeb6348393135311d834f0bab5da3c4cb75d6937ffb1b2bd54bf36f6a680"
+      },
+      "source_url": "https://newsroom.haas.berkeley.edu/haas-names-alumni-business-leaders-as-2023-commencement-speakers/",
+      "source_urls": {
+        "wave7-berkeley-frank-cooper-business": "https://newsroom.haas.berkeley.edu/haas-names-alumni-business-leaders-as-2023-commencement-speakers/"
+      },
+      "university_name": "University of California, Berkeley"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Neurobiology and Anatomy",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Neurobiology and Anatomy",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110644; CIPCODE=26.1503; AWLEVEL=5; CTOTALT=394",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-davis:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of California, Davis"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Business/Managerial Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Business/Managerial Economics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=110653; CIPCODE=52.0601; AWLEVEL=5; CTOTALT=576",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-california-irvine:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of California, Irvine"
+    },
+    {
+      "cache_sha256": "a64ea530d64abb6ae07817ab74f1c2e4c3793394a69db51c97f69bf08fa2426e",
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "canonical_person_id": "person:carla-garcia:university-of-chicago:wave7-uchicago-carla-garcia-cs",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Carla Garcia graduated from the MPCS in 2020.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uchicago-carla-garcia-cs"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Masters Program in Computer Science",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uchicago-carla-garcia-cs"
+        }
+      },
+      "match_notes": "UChicago's official MPCS alumni profile identifies Garcia as a 2020 graduate.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:carla-garcia:university-of-chicago:wave7-uchicago-carla-garcia-cs",
+      "person_name": "Carla Garcia",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Computer Science",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=144050; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=156",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-uchicago-carla-garcia-cs"
+      ],
+      "slot_id": "candidate-v2:university-of-chicago:slot-3",
+      "slot_status": "identified_person",
+      "source_id": "wave7-uchicago-carla-garcia-cs",
+      "source_ids": [
+        "wave7-uchicago-carla-garcia-cs"
+      ],
+      "source_sha256": {
+        "wave7-uchicago-carla-garcia-cs": "a64ea530d64abb6ae07817ab74f1c2e4c3793394a69db51c97f69bf08fa2426e"
+      },
+      "source_url": "https://masters.cs.uchicago.edu/career-services/alumni-profiles/carlagarcia/",
+      "source_urls": {
+        "wave7-uchicago-carla-garcia-cs": "https://masters.cs.uchicago.edu/career-services/alumni-profiles/carlagarcia/"
+      },
+      "university_name": "University of Chicago"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Business Administration and Management, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Business Administration and Management, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=134130; CIPCODE=52.0201; AWLEVEL=5; CTOTALT=556",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-florida:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Florida"
+    },
+    {
+      "cache_sha256": "122e1816b0d1d6e0047e8f85d56003f0a62d7f9812f92a6af5b03a4c2e6a406c",
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "canonical_person_id": "person:neal-j-quirk-sr:university-of-georgia:wave7-uga-neal-quirk-finance",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Quirk graduated from UGA with a Bachelor of Business Administration in finance in 1982.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uga-neal-quirk-finance"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Quirk graduated from UGA with a Bachelor of Business Administration in finance in 1982.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uga-neal-quirk-finance"
+        }
+      },
+      "match_notes": "UGA states Quirk graduated with a BBA in Finance.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Finance, General",
+      "null_reason": null,
+      "person_id": "person:neal-j-quirk-sr:university-of-georgia:wave7-uga-neal-quirk-finance",
+      "person_name": "Neal J. Quirk Sr.",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Finance, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=139959; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=545",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-uga-neal-quirk-finance"
+      ],
+      "slot_id": "candidate-v2:university-of-georgia:slot-3",
+      "slot_status": "identified_person",
+      "source_id": "wave7-uga-neal-quirk-finance",
+      "source_ids": [
+        "wave7-uga-neal-quirk-finance"
+      ],
+      "source_sha256": {
+        "wave7-uga-neal-quirk-finance": "122e1816b0d1d6e0047e8f85d56003f0a62d7f9812f92a6af5b03a4c2e6a406c"
+      },
+      "source_url": "https://news.uga.edu/uga-alumni-faculty-and-friends-to-receive-alumni-awards/",
+      "source_urls": {
+        "wave7-uga-neal-quirk-finance": "https://news.uga.edu/uga-alumni-faculty-and-friends-to-receive-alumni-awards/"
+      },
+      "university_name": "University of Georgia"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Finance, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Finance, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=145637; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=323",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-illinois-urbana-champaign:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Marketing/Marketing Management, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Marketing/Marketing Management, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=153658; CIPCODE=52.1401; AWLEVEL=5; CTOTALT=301",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-iowa:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Iowa"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Finance, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Finance, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=163286; CIPCODE=52.0801; AWLEVEL=5; CTOTALT=415",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-maryland-college-park:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Maryland, College Park"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Supply Chain Management/Logistics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Supply Chain Management/Logistics",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "field": "numeric_rank",
+          "quote": "13th U.S.",
+          "source_id": "carlson-2026-business-sweep"
+        },
+        "source_basis": "usnews_program_ranking",
+        "source_id": "carlson-2026-business-sweep",
+        "source_record_id": "sweep-carlson-supply-chain"
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-minnesota-twin-cities:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Economics",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Economics Major, B.A.",
+          "source_id": "source_unc_2026_undergraduate_catalog"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_unc_2026_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-north-carolina-chapel-hill:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Computer and Information Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Computer and Information Sciences, General",
+      "program_slot": 4,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=152080; CIPCODE=11.0101; AWLEVEL=5; CTOTALT=162",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-notre-dame:slot-4",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Notre Dame"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Biology/Biological Sciences, General",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Biology/Biological Sciences, General",
+      "program_slot": 5,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=215062; CIPCODE=26.0101; AWLEVEL=5; CTOTALT=164",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-pennsylvania:slot-5",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Pennsylvania"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Management Sciences and Quantitative Methods, Other",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Management Sciences and Quantitative Methods, Other",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=195030; CIPCODE=52.1399; AWLEVEL=5; CTOTALT=201",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-rochester:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Rochester"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Economics",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Economics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Bachelor's Economics, B.A. / B.S.",
+          "source_id": "source_usc_majors_degrees"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_usc_majors_degrees",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-south-carolina-columbia:slot-3",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of South Carolina"
+    },
+    {
+      "cache_sha256": "d35710c44ed7706a8dc573911b8d1d74780ad447e1ef53cc226b2147184c039e",
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "canonical_person_id": "person:param-patel:university-of-southern-california:wave7-usc-param-patel-cs",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Param Patel earned a B.S. and M.S. in Computer Science and a B.A. in Applied and Computational Mathematics from the University of Southern California (USC).",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-usc-param-patel-cs"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Param Patel earned a B.S. and M.S. in Computer Science and a B.A. in Applied and Computational Mathematics from the University of Southern California (USC).",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-usc-param-patel-cs"
+        }
+      },
+      "match_notes": "USC states Patel earned its BS and MS in Computer Science.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:param-patel:university-of-southern-california:wave7-usc-param-patel-cs",
+      "person_name": "Param Patel",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Computer Science",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=123961; CIPCODE=11.0701; AWLEVEL=5; CTOTALT=305",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-usc-param-patel-cs"
+      ],
+      "slot_id": "candidate-v2:university-of-southern-california:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-usc-param-patel-cs",
+      "source_ids": [
+        "wave7-usc-param-patel-cs"
+      ],
+      "source_sha256": {
+        "wave7-usc-param-patel-cs": "d35710c44ed7706a8dc573911b8d1d74780ad447e1ef53cc226b2147184c039e"
+      },
+      "source_url": "https://viterbiundergrad.usc.edu/gcsp/alumni/",
+      "source_urls": {
+        "wave7-usc-param-patel-cs": "https://viterbiundergrad.usc.edu/gcsp/alumni/"
+      },
+      "university_name": "University of Southern California"
+    },
+    {
+      "cache_sha256": "45b505eafd6fe2c5c0389f5665e55be12ccb6df2c5181f6fdb9cf3db691cd291",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "canonical_person_id": "person:dheeraj-pandey:university-of-texas-austin:wave7-ut-austin-dheeraj-pandey-cs",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Dheeraj holds a Bachelor of Technology in Computer Science from the Indian Institute of Technology (IIT), Kanpur, and a M.S. in Computer Science from the University of Texas at Austin.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-ut-austin-dheeraj-pandey-cs"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Dheeraj holds a Bachelor of Technology in Computer Science from the Indian Institute of Technology (IIT), Kanpur, and a M.S. in Computer Science from the University of Texas at Austin.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-ut-austin-dheeraj-pandey-cs"
+        }
+      },
+      "match_notes": "UT Austin states Pandey holds its MS in Computer Science.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Computer Science",
+      "null_reason": null,
+      "person_id": "person:dheeraj-pandey:university-of-texas-austin:wave7-ut-austin-dheeraj-pandey-cs",
+      "person_name": "Dheeraj Pandey",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Computer Science",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Computer science BSA, BSCompSci",
+          "source_id": "source_ut_austin_undergraduate_catalog"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_ut_austin_undergraduate_catalog",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-ut-austin-dheeraj-pandey-cs"
+      ],
+      "slot_id": "candidate-v2:university-of-texas-austin:slot-2",
+      "slot_status": "identified_person",
+      "source_id": "wave7-ut-austin-dheeraj-pandey-cs",
+      "source_ids": [
+        "wave7-ut-austin-dheeraj-pandey-cs"
+      ],
+      "source_sha256": {
+        "wave7-ut-austin-dheeraj-pandey-cs": "45b505eafd6fe2c5c0389f5665e55be12ccb6df2c5181f6fdb9cf3db691cd291"
+      },
+      "source_url": "https://www.cs.utexas.edu/advisory-council/dheeraj-pandey",
+      "source_urls": {
+        "wave7-ut-austin-dheeraj-pandey-cs": "https://www.cs.utexas.edu/advisory-council/dheeraj-pandey"
+      },
+      "university_name": "University of Texas—Austin"
+    },
+    {
+      "cache_sha256": "a72792cec4e0cdc3c28be829a4f7194b594e3dea8d56c45b784b754978362114",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "canonical_person_id": "person:eliza-haverstock:university-of-virginia:wave7-uva-eliza-haverstock-economics",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Eliza graduated from UVA in the spring of 2019.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uva-eliza-haverstock-economics"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "She majored in Economics and History.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-uva-eliza-haverstock-economics"
+        }
+      },
+      "match_notes": "UVA states Haverstock graduated and majored in Economics, directly related to the Econometrics slot.",
+      "match_type": "direct_related_program_match",
+      "normalized_program_name": "Economics",
+      "null_reason": null,
+      "person_id": "person:eliza-haverstock:university-of-virginia:wave7-uva-eliza-haverstock-economics",
+      "person_name": "Eliza Haverstock",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_related_program",
+      "program_name": "Economics",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Economics",
+          "source_id": "source_uva_undergraduate_majors"
+        },
+        "source_basis": "official_major_list",
+        "source_id": "source_uva_undergraduate_majors",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-uva-eliza-haverstock-economics"
+      ],
+      "slot_id": "candidate-v2:university-of-virginia:slot-3",
+      "slot_status": "identified_person",
+      "source_id": "wave7-uva-eliza-haverstock-economics",
+      "source_ids": [
+        "wave7-uva-eliza-haverstock-economics"
+      ],
+      "source_sha256": {
+        "wave7-uva-eliza-haverstock-economics": "a72792cec4e0cdc3c28be829a4f7194b594e3dea8d56c45b784b754978362114"
+      },
+      "source_url": "https://economics.virginia.edu/people/eliza-haverstock",
+      "source_urls": {
+        "wave7-uva-eliza-haverstock-economics": "https://economics.virginia.edu/people/eliza-haverstock"
+      },
+      "university_name": "University of Virginia"
+    },
+    {
+      "cache_sha256": null,
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "canonical_person_id": null,
+      "display_as_none": false,
+      "evidence_anchor": null,
+      "match_notes": null,
+      "match_type": null,
+      "normalized_program_name": "Chemical Engineering",
+      "null_reason": "source_review_not_completed",
+      "person_id": null,
+      "person_name": null,
+      "priority_tier": 1,
+      "program_match_basis": null,
+      "program_name": "Chemical Engineering",
+      "program_slot": 2,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "direct_quote",
+          "quote": "Chemical Engineering",
+          "source_id": "source_uw_undergraduate_degree_programs"
+        },
+        "source_basis": "official_school_program_page",
+        "source_id": "source_uw_undergraduate_degree_programs",
+        "source_record_id": null
+      },
+      "quote_verification_method": null,
+      "relationship_type": null,
+      "reviewed_scope": [],
+      "reviewed_source_ids": [],
+      "slot_id": "candidate-v2:university-of-washington:slot-2",
+      "slot_status": "source_review_not_completed",
+      "source_id": null,
+      "source_ids": [],
+      "source_sha256": {},
+      "source_url": null,
+      "source_urls": {},
+      "university_name": "University of Washington"
+    },
+    {
+      "cache_sha256": "7bc94e35d943f864e0c7af344d3471e050089c2836eb67ce14d0797e716d2fee",
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "canonical_person_id": "person:carlton-highsmith:university-of-wisconsin-madison:wave7-wisconsin-carlton-highsmith-economics",
+      "display_as_none": false,
+      "evidence_anchor": {
+        "attendance": {
+          "evidence_type": "direct_quote",
+          "quote": "Carlton Highsmith earned a Bachelor’s degree in Economics from the University of Wisconsin-Madison in 1973.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-wisconsin-carlton-highsmith-economics"
+        },
+        "program_match": {
+          "evidence_type": "direct_quote",
+          "quote": "Carlton Highsmith earned a Bachelor’s degree in Economics from the University of Wisconsin-Madison in 1973.",
+          "quote_verification_method": "local_cache_substring_check",
+          "source_id": "wave7-wisconsin-carlton-highsmith-economics"
+        }
+      },
+      "match_notes": "UW–Madison states Highsmith earned its bachelor's degree in Economics.",
+      "match_type": "direct_program_match",
+      "normalized_program_name": "Economics, General",
+      "null_reason": null,
+      "person_id": "person:carlton-highsmith:university-of-wisconsin-madison:wave7-wisconsin-carlton-highsmith-economics",
+      "person_name": "Carlton Highsmith",
+      "priority_tier": 1,
+      "program_match_basis": "source_stated_exact_program",
+      "program_name": "Economics, General",
+      "program_slot": 3,
+      "program_source_reference": {
+        "evidence_anchor": {
+          "evidence_type": "dataset_row",
+          "quote": "UNITID=240444; CIPCODE=45.0601; AWLEVEL=5; CTOTALT=587",
+          "source_id": "source_ipeds_c2023_completions"
+        },
+        "source_basis": "ipeds_reported_award_area",
+        "source_id": "source_ipeds_c2023_completions",
+        "source_record_id": null
+      },
+      "quote_verification_method": "local_cache_substring_check",
+      "relationship_type": "graduated",
+      "reviewed_scope": [
+        "official institutional alumni, department, archive, award, or profile page"
+      ],
+      "reviewed_source_ids": [
+        "wave7-wisconsin-carlton-highsmith-economics"
+      ],
+      "slot_id": "candidate-v2:university-of-wisconsin-madison:slot-3",
+      "slot_status": "identified_person",
+      "source_id": "wave7-wisconsin-carlton-highsmith-economics",
+      "source_ids": [
+        "wave7-wisconsin-carlton-highsmith-economics"
+      ],
+      "source_sha256": {
+        "wave7-wisconsin-carlton-highsmith-economics": "7bc94e35d943f864e0c7af344d3471e050089c2836eb67ce14d0797e716d2fee"
+      },
+      "source_url": "https://diversity.wisc.edu/2016/05/ddeea-honors-inaugural-outstanding-alumni-of-color-recipients-ray-allen-carlton-highsmith/",
+      "source_urls": {
+        "wave7-wisconsin-carlton-highsmith-economics": "https://diversity.wisc.edu/2016/05/ddeea-honors-inaugural-outstanding-alumni-of-color-recipients-ray-allen-carlton-highsmith/"
+      },
+      "university_name": "University of Wisconsin—Madison"
+    }
+  ],
+  "source_limited": true
+}

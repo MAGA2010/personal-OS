@@ -1,0 +1,316 @@
+{
+  "check_count": 60,
+  "checks": [
+    {
+      "check_id": "01_school_scope_62",
+      "detail": "62 schools preserved",
+      "status": "pass"
+    },
+    {
+      "check_id": "02_candidate_v2_unchanged",
+      "detail": "Candidate v2 and upstream Stage artifacts have no diff",
+      "status": "pass"
+    },
+    {
+      "check_id": "03_ranking_memberships_unchanged",
+      "detail": "National ranking membership remains 50",
+      "status": "pass"
+    },
+    {
+      "check_id": "04_people_180_of_310",
+      "detail": "Stage 3D people counts preserved",
+      "status": "pass"
+    },
+    {
+      "check_id": "05_stage4a_pins_match",
+      "detail": "Stage 4A frontend contributions remain zero",
+      "status": "pass"
+    },
+    {
+      "check_id": "06_frontend_untouched",
+      "detail": "Frontend has no diff",
+      "status": "pass"
+    },
+    {
+      "check_id": "07_handoff_untracked",
+      "detail": "External handoff remains untracked and byte-identical",
+      "status": "pass"
+    },
+    {
+      "check_id": "08_stage3a_stash_untouched",
+      "detail": "Stage 3A stash remains present",
+      "status": "pass"
+    },
+    {
+      "check_id": "09_verified_fields_have_sources",
+      "detail": "All verified overlay fields have sources",
+      "status": "pass"
+    },
+    {
+      "check_id": "10_source_type_policy",
+      "detail": "Source publishers/types are allowed",
+      "status": "pass"
+    },
+    {
+      "check_id": "11_cache_sha_matches",
+      "detail": "All referenced cache/input hashes match",
+      "status": "pass"
+    },
+    {
+      "check_id": "12_scope_present",
+      "detail": "Verified fields retain scope",
+      "status": "pass"
+    },
+    {
+      "check_id": "13_year_or_exemption",
+      "detail": "Verified fields retain reference year",
+      "status": "pass"
+    },
+    {
+      "check_id": "14_units_present",
+      "detail": "Verified fields retain units",
+      "status": "pass"
+    },
+    {
+      "check_id": "15_intake_generation_separated",
+      "detail": "Network intake and deterministic generation are separated",
+      "status": "pass"
+    },
+    {
+      "check_id": "16_regeneration_has_no_network_dependency",
+      "detail": "Offline regeneration reproduces integration summary",
+      "status": "pass"
+    },
+    {
+      "check_id": "17_frontend_cannot_self_verify",
+      "detail": "Frontend hardcoded values contribute zero verified facts",
+      "status": "pass"
+    },
+    {
+      "check_id": "18_mock_not_verified",
+      "detail": "Mock/demo data is excluded from verified overlay",
+      "status": "pass"
+    },
+    {
+      "check_id": "19_school_type_enum",
+      "detail": "School type enum validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "20_enrollment_scopes",
+      "detail": "Enrollment scopes are not conflated",
+      "status": "pass"
+    },
+    {
+      "check_id": "21_acceptance_scope",
+      "detail": "Acceptance scope validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "22_graduation_scope",
+      "detail": "Graduation cohort/time scope validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "23_sat_semantics",
+      "detail": "SAT middle-50 semantics preserved",
+      "status": "pass"
+    },
+    {
+      "check_id": "24_toefl_policy_model",
+      "detail": "TOEFL/English policy model validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "25_ranking_null_not_zero",
+      "detail": "Missing rank is never zero",
+      "status": "pass"
+    },
+    {
+      "check_id": "26_geography_ids",
+      "detail": "County/place/CBSA IDs validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "27_school_region_scope_isolation",
+      "detail": "School and region scopes remain separate",
+      "status": "pass"
+    },
+    {
+      "check_id": "28_state_not_city",
+      "detail": "State data is not presented as city/place",
+      "status": "pass"
+    },
+    {
+      "check_id": "29_join_confidence",
+      "detail": "Place/county joins retain confidence",
+      "status": "pass"
+    },
+    {
+      "check_id": "30_nearest_town_not_campus_geography",
+      "detail": "Nearest towns are not campus geographies",
+      "status": "pass"
+    },
+    {
+      "check_id": "31_asian_chinese_separated",
+      "detail": "Asian and Chinese definitions differ",
+      "status": "pass"
+    },
+    {
+      "check_id": "32_ratio_denominators",
+      "detail": "Verified ratio arithmetic validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "33_ratio_range",
+      "detail": "Population ratios have valid range",
+      "status": "pass"
+    },
+    {
+      "check_id": "34_rent_scope",
+      "detail": "Rent geography and definition validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "35_density_units",
+      "detail": "Density units are uniform",
+      "status": "pass"
+    },
+    {
+      "check_id": "36_moe_not_value",
+      "detail": "Margin of error is not used as value",
+      "status": "pass"
+    },
+    {
+      "check_id": "37_crime_scope",
+      "detail": "Crime jurisdiction scope validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "38_crime_safety_separated",
+      "detail": "Raw crime and safety index remain separate",
+      "status": "pass"
+    },
+    {
+      "check_id": "39_safety_formula",
+      "detail": "Any safety index must publish a formula",
+      "status": "pass"
+    },
+    {
+      "check_id": "40_missing_crime_not_safe",
+      "detail": "Missing crime is never treated as safety",
+      "status": "pass"
+    },
+    {
+      "check_id": "41_jurisdiction_not_silently_comparable",
+      "detail": "Incomparable jurisdictions remain deferred",
+      "status": "pass"
+    },
+    {
+      "check_id": "42_marker_allowed_fields",
+      "detail": "Marker summaries validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "43_search_excludes_quarantine",
+      "detail": "Search index provenance validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "44_filter_null_policy",
+      "detail": "Filter null policy validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "45_comparison_units",
+      "detail": "Comparison units are normalized",
+      "status": "pass"
+    },
+    {
+      "check_id": "46_mode_metadata_not_fact",
+      "detail": "Mode relevance metadata is not objective fact",
+      "status": "pass"
+    },
+    {
+      "check_id": "47_ai_excludes_quarantine",
+      "detail": "AI exclusions validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "48_completeness_arithmetic",
+      "detail": "Data completeness is bounded",
+      "status": "pass"
+    },
+    {
+      "check_id": "49_coverage_matrix_arithmetic",
+      "detail": "Coverage matrix arithmetic is consistent",
+      "status": "pass"
+    },
+    {
+      "check_id": "50_backlog_consistency",
+      "detail": "Backlog equals non-ready matrix fields",
+      "status": "pass"
+    },
+    {
+      "check_id": "51_overlay_unique",
+      "detail": "Overlay unique",
+      "status": "pass"
+    },
+    {
+      "check_id": "52_deterministic_bundle",
+      "detail": "Deterministic bundle is byte-equivalent",
+      "status": "pass"
+    },
+    {
+      "check_id": "53_validation_result_contract",
+      "detail": "Validation artifact has correct record type",
+      "status": "pass"
+    },
+    {
+      "check_id": "54_source_policy_zero",
+      "detail": "Source-policy violations are zero",
+      "status": "pass"
+    },
+    {
+      "check_id": "55_ranking_contamination_zero",
+      "detail": "Ranking contamination is zero",
+      "status": "pass"
+    },
+    {
+      "check_id": "56_no_final_universe",
+      "detail": "No final universe generated",
+      "status": "pass"
+    },
+    {
+      "check_id": "57_no_memberships",
+      "detail": "No official memberships generated",
+      "status": "pass"
+    },
+    {
+      "check_id": "58_no_frontend_export",
+      "detail": "No frontend export generated",
+      "status": "pass"
+    },
+    {
+      "check_id": "59_no_preview_or_production_export",
+      "detail": "No preview/production export generated",
+      "status": "pass"
+    },
+    {
+      "check_id": "60_no_tag_or_push",
+      "detail": "No Stage 4B tag or push recorded",
+      "status": "pass"
+    }
+  ],
+  "deterministic_regeneration": true,
+  "failed_check_count": 0,
+  "incomplete": true,
+  "network_disabled_generation": true,
+  "not_final": true,
+  "passed_check_count": 60,
+  "ranking_field_contamination": 0,
+  "record_type": "stage4b_validation_result",
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "status": "pass"
+}

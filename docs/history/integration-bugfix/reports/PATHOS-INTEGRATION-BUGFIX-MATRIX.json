@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-07-26T08:40:50+08:00",
+  "summaryBefore": { "critical": 0, "high": 3, "medium": 1, "low": 0 },
+  "summaryAfter": { "critical": 0, "high": 0, "medium": 0, "low": 0 },
+  "issues": [
+    {
+      "issueId": "H-UI-01",
+      "route": "/map",
+      "viewport": "1440x900 through 320x568",
+      "elementA": "MapToolbar",
+      "elementB": "MapLibre NavigationControl",
+      "symptom": "Both used the top-right anchor; mobile toolbar wrapped over the native controls.",
+      "severity": "High",
+      "rootCause": "Independent overlays shared an anchor and mobile CSS lacked sufficient specificity.",
+      "plannedFix": "Move native controls to top-left and add scoped 390/320 top safe areas.",
+      "files": ["src/components/map/MapCanvas.tsx", "src/app/globals.css"],
+      "status": "RESOLVED"
+    },
+    {
+      "issueId": "H-UI-02",
+      "route": "/ and /map",
+      "viewport": "768x1024",
+      "elementA": "Desktop navigation and map sidebar",
+      "elementB": "Tablet viewport",
+      "symptom": "Desktop navigation wrapped and a 360px desktop sidebar squeezed the tablet map.",
+      "severity": "High",
+      "rootCause": "Desktop UI began at md despite its measured minimum usable width.",
+      "plannedFix": "Move desktop gates to lg and use the existing BottomSheet through tablet width.",
+      "files": ["src/components/NavBar.tsx", "src/components/map/MapShell.tsx"],
+      "status": "RESOLVED"
+    },
+    {
+      "issueId": "H-UI-03",
+      "route": "/map",
+      "viewport": "320x568",
+      "elementA": "State selector dropdown",
+      "elementB": "Viewport and RegionalLegend",
+      "symptom": "Wrapped trigger placed the 240px menu partly outside the viewport and below a competing layer.",
+      "severity": "High",
+      "rootCause": "Right anchoring assumed a single-row toolbar and static z-index.",
+      "plannedFix": "Left-anchor at 320px and promote the open toolbar with an existing z-index token.",
+      "files": ["src/components/map/MapToolbar.tsx"],
+      "status": "RESOLVED"
+    },
+    {
+      "issueId": "M-UI-01",
+      "route": "/map",
+      "viewport": "all; most visible on 320/390",
+      "elementA": "RegionalLegend",
+      "elementB": "MapLibre attribution and native controls",
+      "symptom": "Legend overlapped attribution; on short 320px screens it also crossed the left control rail.",
+      "severity": "Medium",
+      "rootCause": "Legend used bottom-4 and a fixed maximum width without reserving system-control lanes.",
+      "plannedFix": "Use bottom-12, BottomSheet-aware vertical clearance, and a narrower 320px width.",
+      "files": ["src/components/map/MapShell.tsx"],
+      "status": "RESOLVED"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "deletion_performed": false,
+  "record_type": "stage3d_closing_hardening_cache_cleanup_plan",
+  "records": [
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave5/wave5-mit-rujul-gandhi-eecs.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "3b3d563a23f406480571eb36e01b15c64d8c2381c1866132ebd1b4c9dafa38f6"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/brown-shereen-kassam.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "b89f8c184788a3bedfd39817e64f86bb21c5c770459a701e4690f51243d4afeb"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/northeastern-cathy-bilotta.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "b236845e9f29c5a0d970262412facb0afb070d85f0f9ad3164e683accb115c01"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/princeton-stefanie-mavronis.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "84f76247253c9c9df2421137ebc94e82630a07116e6384128bb5ea046fcd88c7"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/rochester-peter-koo.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "4925eb1f3a3ba61a99d21e7c826be3fbb8ee763e1872d8e73284e6bc8f7cf39b"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/ucsb-lucas-villa.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "49deab14c31b458f05b870867cacbdd0843229986d9bc6172a6f8ef087a8b451"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/usc-patrick-becker.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "f19c5536cdaed85698e103f769187aaf1f41da606f8cb6f195289554e1ba707e"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/uva-brittany-taylor.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "29513cf5801719acbab4c5961f133b24efbb96e3290d0f1e46a8de5124a8035a"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/washington-patrick-jenny.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "7914583f1e5dcd7747468c8f942eb0b3560fcf4d273fcf3b87644d9b7840ee55"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave7/yale-danielle-zucker.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "412883edad867d64f1ff1cf29d180733d6b70ea2daf70cbe8cc672036c63a754"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave8/georgia-tech-blair-evanchec.txt",
+      "deletion_performed": false,
+      "manual_review_required": true,
+      "reason_considered_orphan": "file_not_referenced_by_any_wave_source_or_cache_manifest",
+      "references_found": [],
+      "safe_to_delete": false,
+      "sha256": "7bbc6602c56e6ea8628e7b2da19d91faab2d5442049579fb3b657fedb7cb9f90"
+    }
+  ]
+}

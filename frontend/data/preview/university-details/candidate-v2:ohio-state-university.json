@@ -1,0 +1,469 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.5082,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.5082,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "composite": {
+          "percentile_25": 29,
+          "percentile_75": 32
+        },
+        "evidence_type": "middle_50_percent_range",
+        "null_reason": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score"
+      },
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.8773,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9412,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "average": 1407,
+        "evidence_type": "middle_50_percent_range",
+        "math": {
+          "percentile_25": 680,
+          "percentile_75": 760
+        },
+        "null_reason": null,
+        "reading_writing": {
+          "percentile_25": 650,
+          "percentile_75": 720
+        },
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score",
+        "warnings": [
+          "score reporting does not establish a current test-optional policy"
+        ]
+      },
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "Fisher College of Business",
+    "The Ohio State University"
+  ],
+  "allMajors": [],
+  "allMajorsStatus": {
+    "nullReason": "identity_ipeds_match_not_resolved",
+    "status": "not_reported"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_bulk_v2_ohio_state_anecdote"
+      ],
+      "text": "The school took the official name The Ohio State University in 1878.",
+      "type": "academic_milestone"
+    }
+  ],
+  "chineseName": "俄亥俄州立大学",
+  "city": "Columbus",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": false,
+    "currency": "USD",
+    "displayLabel": "$12,859–$38,365",
+    "maximumUsd": 38365.0,
+    "minimumUsd": 12859.0,
+    "scopes": [
+      "in_state",
+      "out_of_state"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": [
+      "Public in-state and out-of-state tuition are separate scopes."
+    ]
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 14318,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_derived_same_scope",
+      "unit": null,
+      "value": 58935,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 44617,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "18140",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "Franklin County",
+      "warnings": []
+    },
+    "geographyScope": "place",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [
+        "source_stage4b_census_2024_places_gazetteer"
+      ],
+      "status": "verified_place",
+      "unit": "name",
+      "value": "Columbus",
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_bulk_v2_ohio_state_history"
+    ],
+    "status": "verified",
+    "value": "Ohio State began in 1870 as the Ohio Agricultural and Mechanical College under the Cannon Act."
+  },
+  "id": "candidate-v2:ohio-state-university",
+  "latitude": 39.999803,
+  "longitude": -83.007525,
+  "name": "The Ohio State University",
+  "nameZh": "俄亥俄州立大学",
+  "nationalRanking": 41,
+  "nearbyTowns": [
+    {
+      "distance": 2.61,
+      "name": "Columbus"
+    },
+    {
+      "distance": 3.59,
+      "name": "Grandview Heights"
+    },
+    {
+      "distance": 4.85,
+      "name": "Marble Cliff"
+    }
+  ],
+  "notableAttendance": [],
+  "people": [
+    {
+      "displayTier": "verified",
+      "id": "person:ben-gilbert:ohio-state-university:wave7-ohio-state-ben-gilbert-cse",
+      "name": "Ben Gilbert",
+      "programName": "Computer and Information Science",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave7-ohio-state-ben-gilbert-cse"
+      ],
+      "verificationStatus": "live_verified_exact"
+    },
+    {
+      "displayTier": "verified",
+      "id": "person:ryan-gifford:ohio-state-university:wave9-source-osu-ryan-gifford",
+      "name": "Ryan Gifford",
+      "programName": "Data Analytics",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave9-source-osu-ryan-gifford"
+      ],
+      "verificationStatus": "live_verified_exact"
+    },
+    {
+      "displayTier": "verified",
+      "id": "person:ali-wolf:ohio-state-university:wave10-source-osu-ali-wolf",
+      "name": "Ali Wolf",
+      "programName": "Economics",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave10-source-osu-ali-wolf"
+      ],
+      "verificationStatus": "live_verified_exact"
+    }
+  ],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Psychology",
+      "slotId": "candidate-v2:ohio-state-university:slot-4",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:ohio-state-university:program:1",
+      "name": "Undergraduate Business Programs",
+      "rank": 12,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "osu-fisher-2026-business"
+      ]
+    },
+    {
+      "id": "candidate-v2:ohio-state-university:program:2",
+      "name": "Computer and Information Science",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ohio_state_undergraduate_majors"
+      ]
+    },
+    {
+      "id": "candidate-v2:ohio-state-university:program:3",
+      "name": "Data Analytics",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ohio_state_undergraduate_majors"
+      ]
+    },
+    {
+      "id": "candidate-v2:ohio-state-university:program:4",
+      "name": "Psychology",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ohio_state_undergraduate_majors"
+      ]
+    },
+    {
+      "id": "candidate-v2:ohio-state-university:program:5",
+      "name": "Economics",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ohio_state_undergraduate_majors"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "english_policy_pending_external_access",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ]
+  },
+  "rankingBand": "national_top_50",
+  "rankingSummary": {
+    "filterBehavior": "include_as_ranked",
+    "nationalRank": 41,
+    "rankingLabel": "#41",
+    "rankingTier": "national_top_50",
+    "sourceIds": [
+      "source_think_academy_top100_2026_pdf"
+    ],
+    "status": "ranked_in_selected_national_family"
+  },
+  "rankingTier": "national_top_50",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 12859.0,
+      "currency": "USD",
+      "scope": "in_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    },
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 38365.0,
+      "currency": "USD",
+      "scope": "out_of_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "Great Lakes",
+  "schoolType": "public",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "OH",
+  "studentFacultyRatio": 18.0,
+  "topPrograms": [
+    "Undergraduate Business Programs",
+    "Computer and Information Science",
+    "Data Analytics",
+    "Psychology",
+    "Economics"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 44617,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "english_policy_pending_external_access",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ],
+    "count": 3,
+    "hasWarnings": true
+  }
+}

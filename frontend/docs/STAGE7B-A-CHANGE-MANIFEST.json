@@ -1,0 +1,105 @@
+{
+  "stage": "7B-A",
+  "title": "Baidu Map Provider Pilot · Dark Contrast Remediation · Map UI Consolidation",
+  "date": "2026-07-25",
+  "defaultProviderDecision": "maplibre",
+  "baiduAkStatus": "BLOCKED (not configured)",
+  "scope": {
+    "added": [
+      "frontend/src/components/map/providers/types.ts",
+      "frontend/src/components/map/providers/index.ts",
+      "frontend/src/components/map/providers/MapProviderHost.tsx",
+      "frontend/src/components/map/providers/maplibre/MapLibreProviderAdapter.ts",
+      "frontend/src/components/map/providers/baidu/load-baidu-map.ts",
+      "frontend/src/components/map/providers/baidu/BaiduMapProviderAdapter.ts",
+      "frontend/src/test/unit/stage7ba-baidu-pilot.test.ts",
+      "frontend/docs/STAGE7B-A-BAIDU-MAP-PILOT-PLAN.md",
+      "frontend/docs/STAGE7B-A-BAIDU-MAP-PILOT-DEVLOG.md",
+      "frontend/docs/STAGE7B-A-BAIDU-MAP-PILOT-REPORT.md",
+      "frontend/docs/STAGE7B-A-DARK-CONTRAST-AUDIT.md",
+      "frontend/docs/STAGE7B-A-MAP-PROVIDER-COMPARISON.md",
+      "frontend/docs/STAGE7B-A-CHANGE-MANIFEST.json"
+    ],
+    "modified": [
+      "frontend/src/app/globals.css",
+      "frontend/src/components/map/MapShell.tsx",
+      "frontend/.env.example",
+      "frontend/docs/STAGE7R-REGIONAL-HEATMAP-PROVENANCE.md",
+      "frontend/docs/STAGE7R-CHANGEMANIFEST.json"
+    ],
+    "removed": []
+  },
+  "files": [
+    { "path": "frontend/src/app/globals.css", "sha256": "bc8c3a00b10daabd31c83ace0ae6f7dc9ce04899f1967d567d7b1798b75c00a0", "size": 11090, "kind": "modified", "summary": "Added Stage 7B-A Dark Mode Contrast Normalization block (bg-white/N, bg-paper/N, bg-panel/N, bg-ink/8 → surface tokens under .dark)." },
+    { "path": "frontend/src/components/map/MapShell.tsx", "sha256": "8154cb0fe764cba4c13c847b43d652a95876c210b2a6bfe216f27040aa6d88e4", "size": 49586, "kind": "modified", "summary": "Removed duplicate MapLegend import + JSX element; removed unused legendMetadata useMemo. RegionalLegend remains the sole authoritative legend." },
+    { "path": "frontend/.env.example", "sha256": "c922621056af96f8f7ea0fdc952bc9c34de707d64cb6fc851ad2535805e4f637", "size": 1294, "kind": "modified", "summary": "Added NEXT_PUBLIC_PATHOS_MAP_PROVIDER=maplibre and empty NEXT_PUBLIC_BAIDU_MAP_AK placeholder." },
+    { "path": "frontend/docs/STAGE7R-REGIONAL-HEATMAP-PROVENANCE.md", "sha256": "2e9f663af93a1df9636b41daf6f6f5cdfaf11534adfbe4762cc9f961b8b7561a", "size": 5894, "kind": "modified", "summary": "M1 fix: refreshed regional-data-manifest SHA to 21e4c311784a455f00b2f4adaec20001495f6a5f6c0792132634ff71a77abb0b." },
+    { "path": "frontend/docs/STAGE7R-CHANGEMANIFEST.json", "sha256": "16f16ba9ef22fc2c7d54365ff806193c261b272d042dbb71d7214a9e6ab8aad6", "size": 7044, "kind": "modified", "summary": "L1 fix: chinese_population.rawUnit % → persons; employment.rawDirection inverse → direct." },
+    { "path": "frontend/src/components/map/providers/types.ts", "sha256": "38dd73d87ad8e4539f5e0765890625b72191b5f4d0563d7fd874cfa056a78a67", "size": 5423, "kind": "added", "summary": "MapProviderAdapter interface, MapProviderId literal type, MapProviderError union, resolveMapProviderId/config helpers." },
+    { "path": "frontend/src/components/map/providers/index.ts", "sha256": "eabd875c2d19a61971ee608ac691cee57665316543773e655fbabec29775f413", "size": 395, "kind": "added", "summary": "Barrel export for provider abstraction." },
+    { "path": "frontend/src/components/map/providers/MapProviderHost.tsx", "sha256": "f8b4b46867fa4190d56b6e2dacae7c9a584296ecb77f1869ee15110959809cdb", "size": 6245, "kind": "added", "summary": "Provider orchestrator: env-driven id resolution, MapLibre fallback on AK-missing, state surface via onFallback/onError." },
+    { "path": "frontend/src/components/map/providers/maplibre/MapLibreProviderAdapter.ts", "sha256": "30735b51570a13ef6ebb2208cc3866a1b1f9af226ffea0249f0d44498ff89288", "size": 4651, "kind": "added", "summary": "MapLibre adapter stub (contract surface only; MapCanvas continues to own visual + data layer)." },
+    { "path": "frontend/src/components/map/providers/baidu/load-baidu-map.ts", "sha256": "361d3de85522c983884d96790d7dc4cee1c3ad04adaa90a1e47ce4a15ab0f694", "size": 7361, "kind": "added", "summary": "Async singleton loader for Baidu JSAPI GL with 4-state lifecycle, 10 error codes, AK never echoed in messages, 15s timeout + polling fallback." },
+    { "path": "frontend/src/components/map/providers/baidu/BaiduMapProviderAdapter.ts", "sha256": "69eff119d407ff6afbd50148f7f0df0e217d7181deecbcda1181ca61c359326d", "size": 5443, "kind": "added", "summary": "Baidu adapter: surfaces ak-missing when ak=null; setRegionalFill is no-op until BMapGL.Polygon overseas support is verified." },
+    { "path": "frontend/src/test/unit/stage7ba-baidu-pilot.test.ts", "sha256": "c3c19c31bba41b1a03bfaf19a47039f9a5f4958c1c892f9601972107fadd135c", "size": 8695, "kind": "added", "summary": "23 vitest cases: provider config, baidu loader errors, WGS84 coordinates, single authoritative legend, dark mode contrast, provider adapter surface." }
+  ],
+  "regression": {
+    "tsc": "0 errors",
+    "lint": "0 warnings",
+    "vitest": "220/220 (197 prior + 23 new)",
+    "nextBuild": "successful (14 routes)"
+  },
+  "constraints": {
+    "envLocalUnmodified": true,
+    "noPush": true,
+    "noTagCreated": true,
+    "noProductionExport": true,
+    "noBackendTrackedFilesTouched": true,
+    "noMatchAlgorithmTouched": true,
+    "noStage6TagTouched": true,
+    "noPkillUsed": true,
+    "preferredPort": "3002",
+    "realBaiduAkInSource": false,
+    "realBaiduAkInGit": false,
+    "realBaiduAkInDocs": false,
+    "realBaiduAkInLogs": false,
+    "realBaiduAkInChangeManifest": false,
+    "realBaiduAkInTestFixtures": false
+  },
+  "providerEvaluation": {
+    "defaultProvider": "maplibre",
+    "rationale": "Baidu AK BLOCKED; maintain maplibre as default until AK + Referer whitelist + 海外 polygon verification complete.",
+    "dimensionsEvaluated": 16,
+    "maplibre": { "pass": 12, "n/a": 4 },
+    "baidu": { "pass": 3, "blocked": 8, "passArchitectural": 5 }
+  },
+  "pilotUniversities": {
+    "harvard-university": { "zh": "哈佛大学", "city": "Cambridge", "state": "MA", "lng": -71.118313, "lat": 42.374471 },
+    "columbia-university": { "zh": "哥伦比亚大学", "city": "New York", "state": "NY", "lng": -73.961885, "lat": 40.808286 },
+    "stanford-university": { "zh": "斯坦福大学", "city": "Stanford", "state": "CA", "lng": -122.167359, "lat": 37.429434 },
+    "university-of-chicago": { "zh": "芝加哥大学", "city": "Chicago", "state": "IL", "lng": -87.599539, "lat": 41.787994 },
+    "arizona-state-university": { "zh": "亚利桑那州立大学", "city": "Tempe", "state": "AZ", "lng": -111.934383, "lat": 33.417721 }
+  },
+  "stage7RGateCarryoverFixes": {
+    "M1": "STAGE7R-REGIONAL-HEATMAP-PROVENANCE.md manifest SHA refreshed",
+    "L1": "STAGE7R-CHANGEMANIFEST.json chinese_population.rawUnit % → persons; employment.rawDirection inverse → direct"
+  },
+  "browserMatrix": {
+    "method": "curl + host dev server (PID 28722, port 3002)",
+    "routes": {
+      "/": 200,
+      "/map": 200,
+      "/calculator": 200,
+      "/match": 200,
+      "/assessment": 200,
+      "/portfolio": 200,
+      "/news": 200,
+      "/university/harvard-university": 200,
+      "/university/columbia-university": 200,
+      "/university/candidate-v2:stanford-university": 200,
+      "/nonexistent": 404
+    },
+    "previewSandboxNote": "preview browser sandbox cannot reach host localhost:3002 (host network isolation); used curl sweep instead."
+  },
+  "nextStep": "Stop dev server PID 28722; await independent Re-Gate; do NOT self-declare PASS."
+}

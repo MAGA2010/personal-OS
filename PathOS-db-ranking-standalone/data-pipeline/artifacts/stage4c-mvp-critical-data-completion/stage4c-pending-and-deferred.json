@@ -1,0 +1,2485 @@
+{
+  "record_type": "stage4c_pending_and_deferred",
+  "records": [
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "field": "test_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "field": "english_policy",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "field": "median_household_income",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "field": "median_gross_rent",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "field": "total_population",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "field": "population_density",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "field": "asian_population_ratio",
+      "status": "pending_external_access"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "field": "chinese_specific_population_ratio",
+      "status": "pending_external_access"
+    }
+  ]
+}

@@ -1,0 +1,4379 @@
+{
+  "incomplete": true,
+  "not_final": true,
+  "record_type": "stage4b_campus_geography_crosswalk",
+  "school_count": 62,
+  "source_limited": true,
+  "universities": [
+    {
+      "campus_coordinates": {
+        "latitude": 33.417721,
+        "longitude": -111.934383,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "38060",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0473000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Tempe",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "04013",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Maricopa County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "04",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0473000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "AZ",
+        "availability_status": "verified",
+        "fips": "04",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Arizona State University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.336213,
+        "longitude": -71.169242,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:boston-college",
+      "canonical_id": "institution:boston-college",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "25017",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Middlesex County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "25",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "25017",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "MA",
+        "availability_status": "verified",
+        "fips": "25",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Boston College"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.351118,
+        "longitude": -71.107942,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "25025",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Suffolk County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "25",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "25025",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "MA",
+        "availability_status": "verified",
+        "fips": "25",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Boston University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 41.82617,
+        "longitude": -71.40385,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "39300",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "4459000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Providence",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "44007",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Providence County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "44",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "4459000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "RI",
+        "availability_status": "verified",
+        "fips": "44",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Brown University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.954317,
+        "longitude": -76.882616,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "30260",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "4242976",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Lewisburg",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "42119",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Union County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "42",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "4242976",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "PA",
+        "availability_status": "verified",
+        "fips": "42",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Bucknell University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 34.137349,
+        "longitude": -118.125878,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "31080",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0656000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Pasadena",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06037",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Los Angeles County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0656000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "California Institute of Technology"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.44357,
+        "longitude": -79.941993,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "38300",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "4261000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Pittsburgh",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "42003",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Allegheny County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "42",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "4261000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "PA",
+        "availability_status": "verified",
+        "fips": "42",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Carnegie Mellon University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.808286,
+        "longitude": -73.961885,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "35620",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "36061",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "New York County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "36",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "36061",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "NY",
+        "availability_status": "verified",
+        "fips": "36",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Columbia University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.4472,
+        "longitude": -76.483084,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "27060",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "3638077",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Ithaca",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "36109",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Tompkins County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "36",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "3638077",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "NY",
+        "availability_status": "verified",
+        "fips": "36",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Cornell University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 43.704115,
+        "longitude": -72.289949,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "30150",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "3333780",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Hanover",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "33009",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Grafton County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "33",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "3333780",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "NH",
+        "availability_status": "verified",
+        "fips": "33",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Dartmouth College"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 36.001135,
+        "longitude": -78.937624,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "20500",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "3719000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Durham",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "37063",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Durham County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "37",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "3719000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "NC",
+        "availability_status": "verified",
+        "fips": "37",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Duke University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 33.790183,
+        "longitude": -84.325512,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "12060",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "13089",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "DeKalb County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "13",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "13089",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "GA",
+        "availability_status": "verified",
+        "fips": "13",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Emory University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 38.908809,
+        "longitude": -77.073463,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "47900",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1150000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Washington",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "11001",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "District of Columbia",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "11",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1150000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "DC",
+        "availability_status": "verified",
+        "fips": "11",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Georgetown University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 33.77242,
+        "longitude": -84.394832,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "12060",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1304000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Atlanta",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "13121",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Fulton County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "13",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1304000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "GA",
+        "availability_status": "verified",
+        "fips": "13",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Georgia Institute of Technology"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.374471,
+        "longitude": -71.118313,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "2511000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Cambridge",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "25017",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Middlesex County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "25",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "2511000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "MA",
+        "availability_status": "verified",
+        "fips": "25",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Harvard University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 34.106515,
+        "longitude": -117.709837,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "31080",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0613756",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Claremont",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06037",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Los Angeles County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0613756",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Harvey Mudd College"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 39.16609,
+        "longitude": -86.526559,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14020",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1805860",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Bloomington",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "18105",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Monroe County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "18",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1805860",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "IN",
+        "availability_status": "verified",
+        "fips": "18",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Indiana University Bloomington"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 39.328977,
+        "longitude": -76.621595,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "12580",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "2404000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Baltimore",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "24510",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Baltimore City",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "24",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "2404000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "MD",
+        "availability_status": "verified",
+        "fips": "24",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Johns Hopkins University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.606822,
+        "longitude": -75.380236,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "10900",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "4206088",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Bethlehem",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "42095",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Northampton County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "42",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "4206088",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "PA",
+        "availability_status": "verified",
+        "fips": "42",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Lehigh University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.000765,
+        "longitude": -87.656872,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "16980",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "17031",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Cook County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "17",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "17031",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "IL",
+        "availability_status": "verified",
+        "fips": "17",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Loyola University Chicago"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.359243,
+        "longitude": -71.093226,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "2511000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Cambridge",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "25017",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Middlesex County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "25",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "2511000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "MA",
+        "availability_status": "verified",
+        "fips": "25",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.729452,
+        "longitude": -73.997264,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "35620",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "36061",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "New York County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "36",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "36061",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "NY",
+        "availability_status": "verified",
+        "fips": "36",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "New York University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.339992,
+        "longitude": -71.088782,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "25025",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Suffolk County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "25",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "25025",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "MA",
+        "availability_status": "verified",
+        "fips": "25",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Northeastern University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.050356,
+        "longitude": -87.679858,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "16980",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1724582",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Evanston",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "17031",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Cook County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "17",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1724582",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "IL",
+        "availability_status": "verified",
+        "fips": "17",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Northwestern University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 39.999803,
+        "longitude": -83.007525,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "18140",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "3918000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Columbus",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "39049",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Franklin County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "39",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "3918000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "OH",
+        "availability_status": "verified",
+        "fips": "39",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "The Ohio State University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.293527,
+        "longitude": -71.263378,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "2544140",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Needham",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "25021",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Norfolk County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "25",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "2544140",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "MA",
+        "availability_status": "verified",
+        "fips": "25",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Olin College of Engineering"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.348732,
+        "longitude": -74.659365,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "45940",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "3460900",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Princeton",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "34021",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Mercer County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "34",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "3460900",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "NJ",
+        "availability_status": "verified",
+        "fips": "34",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Princeton University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.428206,
+        "longitude": -86.914435,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "29200",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1882862",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "West Lafayette",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "18157",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Tippecanoe County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "18",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1882862",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "IN",
+        "availability_status": "verified",
+        "fips": "18",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Purdue University—Main Campus"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 29.717897,
+        "longitude": -95.402035,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "26420",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "48201",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Harris County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "48",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "48201",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "TX",
+        "availability_status": "verified",
+        "fips": "48",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Rice University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 39.483602,
+        "longitude": -87.326749,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "45460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1875428",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Terre Haute",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "18167",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Vigo County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "18",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1875428",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "IN",
+        "availability_status": "verified",
+        "fips": "18",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.498769,
+        "longitude": -74.446251,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "35620",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "3451210",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "New Brunswick",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "34023",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Middlesex County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "34",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "3451210",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "NJ",
+        "availability_status": "verified",
+        "fips": "34",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 37.429434,
+        "longitude": -122.167359,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "41940",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0673906",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Stanford",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06085",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Santa Clara County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0673906",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Stanford University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 30.618726,
+        "longitude": -96.336475,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "17780",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "4815976",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "College Station",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "48041",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Brazos County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "48",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "4815976",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "TX",
+        "availability_status": "verified",
+        "fips": "48",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Texas A&M University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.40855,
+        "longitude": -71.118293,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "2539835",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Medford",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "25017",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Middlesex County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "25",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "2539835",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "MA",
+        "availability_status": "verified",
+        "fips": "25",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Tufts University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 37.871918,
+        "longitude": -122.260463,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "41860",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0606000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Berkeley",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06001",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Alameda County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0606000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of California, Berkeley"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 38.539667,
+        "longitude": -121.749567,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "40900",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0618100",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Davis",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06113",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Yolo County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0618100",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of California, Davis"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 33.648434,
+        "longitude": -117.841248,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "31080",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0636770",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Irvine",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06059",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Orange County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0636770",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of California, Irvine"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 34.07178,
+        "longitude": -118.442179,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "31080",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0644000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Los Angeles",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06037",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Los Angeles County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0644000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of California, Los Angeles"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 32.877749,
+        "longitude": -117.235866,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "canonical_id": "institution:university-of-california-san-diego",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "41740",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06073",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "San Diego County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "06073",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of California, San Diego"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 34.416297,
+        "longitude": -119.846426,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "42200",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06083",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Santa Barbara County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "06083",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of California, Santa Barbara"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 41.787994,
+        "longitude": -87.599539,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "16980",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1714000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Chicago",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "17031",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Cook County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "17",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1714000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "IL",
+        "availability_status": "verified",
+        "fips": "17",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Chicago"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.008781,
+        "longitude": -105.270823,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "14500",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0807850",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Boulder",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "08013",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Boulder County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "08",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0807850",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CO",
+        "availability_status": "verified",
+        "fips": "08",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Colorado Boulder"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 29.64629,
+        "longitude": -82.347911,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "23540",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1225175",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Gainesville",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "12001",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Alachua County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "12",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1225175",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "FL",
+        "availability_status": "verified",
+        "fips": "12",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Florida"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 33.956262,
+        "longitude": -83.374039,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "12020",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "13059",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Clarke County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "13",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "13059",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "GA",
+        "availability_status": "verified",
+        "fips": "13",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Georgia"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 40.104718,
+        "longitude": -88.229114,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "16580",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1712385",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Champaign",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "17019",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Champaign County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "17",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1712385",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "IL",
+        "availability_status": "verified",
+        "fips": "17",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 41.661935,
+        "longitude": -91.536425,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "26980",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1938595",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Iowa City",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "19103",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Johnson County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "19",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1938595",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "IA",
+        "availability_status": "verified",
+        "fips": "19",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Iowa"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 38.988178,
+        "longitude": -76.944721,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "47900",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "2418750",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "College Park",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "24033",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Prince George's County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "24",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "2418750",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "MD",
+        "availability_status": "verified",
+        "fips": "24",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Maryland, College Park"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 42.278374,
+        "longitude": -83.73481,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "11460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "2603000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Ann Arbor",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "26161",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Washtenaw County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "26",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "2603000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "MI",
+        "availability_status": "verified",
+        "fips": "26",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 44.972851,
+        "longitude": -93.235464,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "33460",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "2743000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Minneapolis",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "27053",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Hennepin County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "27",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "2743000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "MN",
+        "availability_status": "verified",
+        "fips": "27",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 35.911769,
+        "longitude": -79.050969,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "20500",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "3711800",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Chapel Hill",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "37135",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Orange County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "37",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "3711800",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "NC",
+        "availability_status": "verified",
+        "fips": "37",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 41.703058,
+        "longitude": -86.238959,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "43780",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "1855386",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Notre Dame",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "18141",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "St. Joseph County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "18",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "1855386",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "IN",
+        "availability_status": "verified",
+        "fips": "18",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Notre Dame"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 39.950929,
+        "longitude": -75.19391,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "37980",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "42101",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Philadelphia County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "42",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "42101",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "PA",
+        "availability_status": "verified",
+        "fips": "42",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Pennsylvania"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 43.126397,
+        "longitude": -77.631202,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "40380",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "3663000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Rochester",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "36055",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Monroe County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "36",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "3663000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "NY",
+        "availability_status": "verified",
+        "fips": "36",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Rochester"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 33.996788,
+        "longitude": -81.026935,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "17900",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "45079",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Richland County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "45",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "45079",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "SC",
+        "availability_status": "verified",
+        "fips": "45",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of South Carolina"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 34.021281,
+        "longitude": -118.284169,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "31080",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "06037",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Los Angeles County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "06",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "06037",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "CA",
+        "availability_status": "verified",
+        "fips": "06",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Southern California"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 30.282825,
+        "longitude": -97.738273,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "12420",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "4805000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Austin",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "48453",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Travis County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "48",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "4805000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "TX",
+        "availability_status": "verified",
+        "fips": "48",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Texas—Austin"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 38.035665,
+        "longitude": -78.503428,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "16820",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "5114968",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Charlottesville",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "51003",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Albemarle County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "51",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "5114968",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "VA",
+        "availability_status": "verified",
+        "fips": "51",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Virginia"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 47.65538,
+        "longitude": -122.30514,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "42660",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "5363000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Seattle",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "53033",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "King County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "53",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "5363000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "WA",
+        "availability_status": "verified",
+        "fips": "53",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Washington"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 43.075409,
+        "longitude": -89.404098,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "31540",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "5548000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "Madison",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "55025",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Dane County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "55",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "5548000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "WI",
+        "availability_status": "verified",
+        "fips": "55",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "University of Wisconsin—Madison"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 36.14659,
+        "longitude": -86.803369,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "34980",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "47037",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "Davidson County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "47",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "47037",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "TN",
+        "availability_status": "verified",
+        "fips": "47",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Vanderbilt University"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 38.647929,
+        "longitude": -90.310604,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "41180",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "pending",
+        "geography_type": "place",
+        "geoid": null,
+        "join_confidence": "none",
+        "join_method": "not_resolved",
+        "name": null,
+        "null_reason": "campus_city_not_safely_linked_to_census_place",
+        "reference_year": null,
+        "source_ids": []
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "29189",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "St. Louis County",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "29",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "29189",
+        "geography_type": "county",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county"
+      },
+      "state": {
+        "abbreviation": "MO",
+        "availability_status": "verified",
+        "fips": "29",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Washington University in St. Louis"
+    },
+    {
+      "campus_coordinates": {
+        "latitude": 41.311158,
+        "longitude": -72.926688,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "cbsa": {
+        "availability_status": "verified",
+        "geography_type": "cbsa",
+        "geoid": "35300",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_cbsa",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "census_place": {
+        "availability_status": "verified",
+        "geography_type": "place",
+        "geoid": "0952000",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link",
+        "name": "New Haven",
+        "null_reason": null,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "county": {
+        "availability_status": "verified",
+        "geography_type": "county",
+        "geoid": "09170",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_county",
+        "name": "South Central Connecticut Plan",
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "fallback_region": {
+        "geography_id": "09",
+        "geography_type": "state",
+        "join_confidence": "high",
+        "join_method": "ipeds_reported_state"
+      },
+      "geography_scope_notes": "Primary region is a reviewed campus Census place when an exact campus-city link exists; otherwise the directly reported IPEDS county is used. Nearest non-campus towns are never substituted.",
+      "primary_region_for_map": {
+        "geography_id": "0952000",
+        "geography_type": "place",
+        "join_confidence": "high",
+        "join_method": "reviewed_campus_city_census_place_link"
+      },
+      "state": {
+        "abbreviation": "CT",
+        "availability_status": "verified",
+        "fips": "09",
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "university_display_name": "Yale University"
+    }
+  ]
+}

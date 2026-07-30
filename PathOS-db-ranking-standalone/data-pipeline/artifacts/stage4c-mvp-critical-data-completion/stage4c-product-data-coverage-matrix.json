@@ -1,0 +1,317 @@
+{
+  "fields": [
+    {
+      "coverage": {
+        "available_records": 60,
+        "coverage_percent": 96.77,
+        "expected_records": 62,
+        "missing_records": 2
+      },
+      "field": "graduate_enrollment",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "partial"
+    },
+    {
+      "coverage": {
+        "available_records": 60,
+        "coverage_percent": 96.77,
+        "expected_records": 62,
+        "missing_records": 2
+      },
+      "field": "total_enrollment",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "partial"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "chinese_display_name",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready"
+    },
+    {
+      "coverage": {
+        "available_records": 53,
+        "coverage_percent": 85.48,
+        "expected_records": 62,
+        "missing_records": 9
+      },
+      "field": "sat",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "partial"
+    },
+    {
+      "coverage": {
+        "available_records": 53,
+        "coverage_percent": 85.48,
+        "expected_records": 62,
+        "missing_records": 9
+      },
+      "field": "act",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P2",
+      "status": "partial"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "test_policy",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "missing"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "english_policy",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "missing"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "census_place_resolution",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready_with_warning"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "national_ranking_semantics",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "median_household_income",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "blocked"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "median_gross_rent",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "blocked"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "population_density",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "blocked"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "asian_population_ratio",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "blocked"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "chinese_specific_population_ratio",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P2",
+      "status": "blocked"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "core_map",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "school_detail",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready_with_warning"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "admissions_section",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready_with_warning"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "international_applicant_section",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "partial"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "search",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "filters",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready_with_warning"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "comparison",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "ready_with_warning"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "parent_mode",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "partial"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "student_mode",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "ready"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "ai_context",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "partial"
+    },
+    {
+      "coverage": {
+        "available_records": 62,
+        "coverage_percent": 100.0,
+        "expected_records": 62,
+        "missing_records": 0
+      },
+      "field": "source_panel",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P0",
+      "status": "ready"
+    },
+    {
+      "coverage": {
+        "available_records": 0,
+        "coverage_percent": 0.0,
+        "expected_records": 62,
+        "missing_records": 62
+      },
+      "field": "choropleth",
+      "null_strategy": "preserve_null_with_explicit_status",
+      "priority": "P1",
+      "status": "blocked"
+    }
+  ],
+  "record_type": "stage4c_product_data_coverage_matrix"
+}

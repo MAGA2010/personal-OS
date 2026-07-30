@@ -1,0 +1,186 @@
+{
+  "stage": "Stage 7R",
+  "title": "区域热力图审计 + 前端集成",
+  "status": "ready_for_independent_regate",
+  "completedAt": "2026-07-25",
+  "dataSource": {
+    "workbook": "resource/PathOS_美国各州留学数据矩阵.xlsx",
+    "workbookSha256": "409ed47b5153725914b463ae3421ad51e5d3d34e5918144f001f341b9894b096",
+    "workbookBytes": 18202
+  },
+  "importer": {
+    "script": "frontend/scripts/import-regional-data.py",
+    "engine": "openpyxl 3.1.5",
+    "deterministic": true,
+    "artifacts": 9
+  },
+  "metrics": [
+    {
+      "metricId": "income",
+      "status": "ready",
+      "recordCount": 51,
+      "rawUnit": "USD",
+      "rawDirection": "direct",
+      "paletteId": "palette-income-green",
+      "usedForMatch": false,
+      "usedForMap": true
+    },
+    {
+      "metricId": "safety",
+      "status": "ready",
+      "recordCount": 51,
+      "rawUnit": "per 100k",
+      "rawDirection": "inverse",
+      "rawNote": "raw is crime rate (not reciprocal); normalizedValue = 1 - workbook_norm",
+      "paletteId": "palette-safety-blue",
+      "usedForMatch": false,
+      "usedForMap": true
+    },
+    {
+      "metricId": "employment",
+      "status": "ready",
+      "recordCount": 51,
+      "rawUnit": "%",
+      "rawDirection": "direct",
+      "paletteId": "palette-employment-purple",
+      "usedForMatch": false,
+      "usedForMap": true
+    },
+    {
+      "metricId": "chinese_population",
+      "status": "ready",
+      "recordCount": 51,
+      "rawUnit": "persons",
+      "rawDirection": "direct",
+      "paletteId": "palette-chinese-orange",
+      "usedForMatch": false,
+      "usedForMap": true
+    },
+    {
+      "metricId": "admission_rate",
+      "status": "blocked",
+      "reason": "workbook does not contain admission_rate column"
+    },
+    {
+      "metricId": "toefl",
+      "status": "out_of_scope",
+      "reason": "not in Stage 7R scope; university-level metric"
+    },
+    {
+      "metricId": "sat",
+      "status": "out_of_scope",
+      "reason": "not in Stage 7R scope; university-level metric"
+    }
+  ],
+  "totals": {
+    "readyMetricCount": 4,
+    "blockedMetricCount": 1,
+    "outOfScopeMetricCount": 2,
+    "totalRecordCount": 204,
+    "verifiedRecordCount": 204,
+    "duplicateGeoIds": 0,
+    "missingRecords": 0
+  },
+  "paletteCompliance": {
+    "constraint": "WCAG-AA ΔL >= 8 between adjacent stops",
+    "pairsChecked": 32,
+    "pairsPassed": 32,
+    "families": [
+      {"id": "palette-income-green", "stopsPerTheme": 5, "themes": ["light", "dark"]},
+      {"id": "palette-safety-blue", "stopsPerTheme": 5, "themes": ["light", "dark"]},
+      {"id": "palette-employment-purple", "stopsPerTheme": 5, "themes": ["light", "dark"]},
+      {"id": "palette-chinese-orange", "stopsPerTheme": 5, "themes": ["light", "dark"]}
+    ]
+  },
+  "filesAdded": [
+    "frontend/scripts/import-regional-data.py",
+    "frontend/generated/regional-data/regional-datasets.json",
+    "frontend/generated/regional-data/regional-metrics.json",
+    "frontend/generated/regional-data/regional-records.json",
+    "frontend/generated/regional-data/regional-record-income.json",
+    "frontend/generated/regional-data/regional-record-safety.json",
+    "frontend/generated/regional-data/regional-record-employment.json",
+    "frontend/generated/regional-data/regional-record-chinese_population.json",
+    "frontend/generated/regional-data/regional-data-manifest.json",
+    "frontend/generated/regional-data/regional-data-validation.json",
+    "frontend/src/regional/types.ts",
+    "frontend/src/regional/palettes.ts",
+    "frontend/src/regional/load.ts",
+    "frontend/src/components/map/regional/RegionalStateLayer.tsx",
+    "frontend/src/components/map/regional/RegionalLayerControl.tsx",
+    "frontend/src/components/map/regional/RegionalLegend.tsx",
+    "frontend/src/components/map/regional/RegionalHoverTooltip.tsx",
+    "frontend/src/test/unit/stage7r-regional-heatmap.test.ts",
+    "frontend/docs/STAGE7R-REGIONAL-HEATMAP-PLAN.md",
+    "frontend/docs/STAGE7R-REGIONAL-HEATMAP-DEVLOG.md",
+    "frontend/docs/STAGE7R-REGIONAL-HEATMAP-REPORT.md",
+    "frontend/docs/STAGE7R-REGIONAL-HEATMAP-PROVENANCE.md",
+    "frontend/docs/STAGE7R-REGIONAL-DATA-AUDIT.md",
+    "frontend/docs/STAGE7R-CHANGEMANIFEST.json"
+  ],
+  "filesModified": [
+    "frontend/src/components/map/MapShell.tsx"
+  ],
+  "regression": {
+    "vitestTotal": 178,
+    "vitestPassed": 178,
+    "vitestNewTests": 27,
+    "tscErrors": 0,
+    "eslintWarnings": 0,
+    "nextBuildSuccess": true,
+    "nextBuildStaticPages": 15
+  },
+  "browserMatrix": {
+    "routesHttp200": ["/", "/match", "/assessment", "/calculator", "/news", "/portfolio", "/map"],
+    "boundaryCopyPresent": {
+      "/match": "区域指标…未计入自主匹配分数；综合分仅基于「费用 + 排名」两个真实维度",
+      "/assessment": "区域指标…未进入 AI 评估与自主匹配分数"
+    },
+    "hydrationConsistent": true,
+    "topojsonServed": true,
+    "devServerBackendNote": "Without Node backend, /api/pathos/preview returns 503; MapShell renders error state. This is dev-only; type contract and JS bundle are intact."
+  },
+  "stage7ACompatPreserved": {
+    "H1_hydration": true,
+    "M1_darkBasemap": true,
+    "M2_assessmentBoundary": true,
+    "M3_calculatorMissingCostBranch": true,
+    "L1_eslintDisables": true,
+    "dataInvariants": "schoolCount=62, verifiedRecordCount=904 unchanged"
+  },
+  "keyDecisions": [
+    {
+      "topic": "safety normalization direction",
+      "decision": "preserve rawValue as raw crime rate; recompute normalizedValue as 1 - workbook_norm",
+      "rationale": "metadata description '倒数' misleading; raw is real crime rate, not reciprocal. Inverting norm ensures low crime → high score → darker color = 'safer' visually."
+    },
+    {
+      "topic": "regional data vs match scores",
+      "decision": "usedForMatch = false for all 4 ready metrics",
+      "rationale": "state-level macro data does not linearly predict school-level micro experience. Region data is environmental context only."
+    },
+    {
+      "topic": "deterministic importer",
+      "decision": "Python script with sorted keys + trailing newline; verified two runs produce byte-identical output",
+      "rationale": "enables provenance SHA verification; reproducibility is part of acceptance gate"
+    },
+    {
+      "topic": "4 separate palettes instead of one",
+      "decision": "income=green, safety=blue, employment=purple, chinese=orange, each with light+dark stops",
+      "rationale": "color-coded metrics are easier to distinguish in legend; no shared stops prevents visual confusion when multiple metrics visible"
+    }
+  ],
+  "remainingWork": [
+    {
+      "metric": "admission_rate",
+      "next": "integrate IPEDS / College Scorecard as data source, re-audit, unblock"
+    },
+    {
+      "metric": "toefl / sat",
+      "next": "Stage 8 scope; university-level data not state-level"
+    },
+    {
+      "productionReady": "regional-datasets.json.productionReady = false (marked 'verified, prototype'); Stage 8 decision"
+    }
+  ]
+}

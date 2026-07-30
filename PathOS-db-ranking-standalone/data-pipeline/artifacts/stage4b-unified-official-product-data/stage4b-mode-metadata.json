@@ -1,0 +1,126 @@
+{
+  "fields": [
+    {
+      "availability": "ready",
+      "confidence": "high",
+      "field": "tuition",
+      "field_category": "financial",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "high",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "medium",
+      "warning_status": false
+    },
+    {
+      "availability": "missing",
+      "confidence": "high",
+      "field": "crime_safety",
+      "field_category": "living_environment",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "high",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "medium",
+      "warning_status": true
+    },
+    {
+      "availability": "missing",
+      "confidence": "high",
+      "field": "income_rent",
+      "field_category": "living_environment",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "high",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "medium",
+      "warning_status": true
+    },
+    {
+      "availability": "ready",
+      "confidence": "high",
+      "field": "source_trust",
+      "field_category": "data_quality",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "high",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "medium",
+      "warning_status": false
+    },
+    {
+      "availability": "ready",
+      "confidence": "high",
+      "field": "program_quality",
+      "field_category": "academic",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "high",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "high",
+      "warning_status": false
+    },
+    {
+      "availability": "partial",
+      "confidence": "high",
+      "field": "transport",
+      "field_category": "accessibility",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "medium",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "medium",
+      "warning_status": true
+    },
+    {
+      "availability": "missing",
+      "confidence": "high",
+      "field": "community_indicators",
+      "field_category": "community",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "high",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "medium",
+      "warning_status": true
+    },
+    {
+      "availability": "ready",
+      "confidence": "high",
+      "field": "school_stories",
+      "field_category": "narrative",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "low",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "high",
+      "warning_status": false
+    },
+    {
+      "availability": "ready",
+      "confidence": "high",
+      "field": "enrollment",
+      "field_category": "school_context",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "medium",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "high",
+      "warning_status": false
+    },
+    {
+      "availability": "ready",
+      "confidence": "high",
+      "field": "admissions",
+      "field_category": "admissions",
+      "metadata_type": "product_relevance_metadata",
+      "objective_fact": false,
+      "parent_relevance_tag": "medium",
+      "source_status": "verified_or_explicit_gap",
+      "student_relevance_tag": "high",
+      "warning_status": false
+    }
+  ],
+  "record_type": "stage4b_mode_metadata",
+  "weights_are_objective_facts": false
+}

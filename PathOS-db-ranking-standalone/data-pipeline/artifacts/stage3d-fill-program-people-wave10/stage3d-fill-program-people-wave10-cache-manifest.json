@@ -1,0 +1,192 @@
+{
+  "cache_is_gitignored": true,
+  "entries": [
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/brown-prudence-carter.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "f4bcc23b081c66ed18e845d66d3f98384c9d7d71618d19e51681648b3497033d",
+      "source_id": "wave10-source-brown-prudence-carter"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/bu-rachel-mcguire.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "41c01fed1a6c416cc39baffe97a7a3f6ed5480c855105026f6743232af978c34",
+      "source_id": "wave10-source-bu-rachel-mcguire"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/caltech-joe-zadeh.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "b4f92c6e1f9fa3be1fe2cae0d9a3611e20b4406927271b57b16bdd213fe54f1a",
+      "source_id": "wave10-source-caltech-joe-zadeh"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/colorado-angie-greenwald.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "a74448cd2cc624c4d6bc46b546b178f34a7b95789a3582799b67df2d15f82021",
+      "source_id": "wave10-source-colorado-angie-greenwald"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/columbia-angeliki-frangou.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "abf3c05d0f589eb9d306e4e9b9be6c53752b883b5ed966e006f8e9666093257f",
+      "source_id": "wave10-source-columbia-angeliki-frangou"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/emory-gabriel-marrero.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "956bffd9c0375a52e1d78653cf85140b0d3758b22718cc269bc3f42137b30e80",
+      "source_id": "wave10-source-emory-gabriel-marrero"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/gatech-andre-dickens.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "6d00504b2f59ebef85265055ad23ec684fddd1189407373c04f9ab34f624baa7",
+      "source_id": "wave10-source-gatech-andre-dickens"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/harvard-mayesha-soshi.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "3b4db3faef672deec0c36e7c74c96cc7fc8444ed894840f3f8ac6501e582c58e",
+      "source_id": "wave10-source-harvard-mayesha-soshi"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/hmc-gregory-rae.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "00fd34edee6b45d08fc8b77e664c520e5318158f78acb886ec8f4cadef2a6834",
+      "source_id": "wave10-source-hmc-gregory-rae"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/lehigh-janeya-allen.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "6110f8d3bd652ec85e8f0ec007e152fa1f8767a5f8b98c9e783767799710e267",
+      "source_id": "wave10-source-lehigh-janeya-allen"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/minnesota-bruce-beckman.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "62cd9662c50f80ca9a75077811449f20983f40447c840bd1014a278ab774c653",
+      "source_id": "wave10-source-minnesota-bruce-beckman"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/mit-jeremy-hahn.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "04deae47d251c52590956ec52813b3118bf1a824b85bdf110ed327d7e04abab0",
+      "source_id": "wave10-source-mit-jeremy-hahn"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/northeastern-alan-tobin.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "22ce9dd94b9ff2f2a17e25716c9f87a7b691f2b056759422aeb35daa1d760127",
+      "source_id": "wave10-source-northeastern-alan-tobin"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/osu-ali-wolf.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "52b7c1958dacf84ce7c7d5c9a1aeb0f870cb5aa0ceeb539b9e812d74d9ddbab1",
+      "source_id": "wave10-source-osu-ali-wolf"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/princeton-elena-kagan.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "a808f84d94867103fd4a8dc11b5e3338d333495ac2e0c90c84c60e18907ac003",
+      "source_id": "wave10-source-princeton-elena-kagan"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/purdue-zihan-wang.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "e4ef7c846cfeedf1e0dc511903a4c0078427edb439f433a313dfded2cf61ba3b",
+      "source_id": "wave10-source-purdue-zihan-wang"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/rochester-elizabeth-arendt.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "08d2fd4793a819ed9208a56c53fc640aa74b4878ff0cd7f6e174085c8d8b6db1",
+      "source_id": "wave10-source-rochester-elizabeth-arendt"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/rose-hulman-charles-clancy.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "fd56a887c477a34df32b8c54ea090dc567f8d5e3564a28023c9b352deb586ed6",
+      "source_id": "wave10-source-rose-hulman-charles-clancy"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/rutgers-maggie-albright-pierce.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "5235c19399c0915cddf3a56f0fb0e3bf819a29388866bcadf81add14615cb011",
+      "source_id": "wave10-source-rutgers-maggie-albright-pierce"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/tufts-faith-blake.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "949978013443bdc7c46049b90502a1fcfe1d404448640cd8e3675e20de5b35e2",
+      "source_id": "wave10-source-tufts-faith-blake"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/uchicago-sara-kalantari.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "0856cfad179ed702afd04596e3f86bc4c37b4174bb8e4ffe90e1f376d3a21f20",
+      "source_id": "wave10-source-uchicago-sara-kalantari"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/uci-andy-le.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "e7cd4559d2dd10ea51c68827e2fd447e28b21feaa154e0b5f2257b76650a165e",
+      "source_id": "wave10-source-uci-andy-le"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/ucla-jocelyn-meza.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "c2c5a8d4ddc0b225b8104e0ed44fdf2e955b7338e49a1b62f126828f4caa3f8c",
+      "source_id": "wave10-source-ucla-jocelyn-meza"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/ucsd-ankur-jalota.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "65a3a5451319b3495475ca3da5f09834299d1233aaee6a334892ac28f25a1688",
+      "source_id": "wave10-source-ucsd-ankur-jalota"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/uiuc-aaron-schumm.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "9fbd596954058ea654513d8e4703a1c60720c61bd92c326e460b2775e9b8a0a5",
+      "source_id": "wave10-source-uiuc-aaron-schumm"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/umd-evan-newman.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "17e1ec7c92d0c587d6e287b86fd5d601d28ffeb2c7337683d72370466bf2a77d",
+      "source_id": "wave10-source-umd-evan-newman"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/unc-mark-mine.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "b143fa52b3ea3c96af11755fdcdf29e363a4beb18b044aa83f4a9f06355d68f2",
+      "source_id": "wave10-source-unc-mark-mine"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/ut-austin-amy-wong.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "84b3f4b6e207a4f4bf42c90ab0c2d4c0590f3b506d104b05a9dc4cf32252e9a9",
+      "source_id": "wave10-source-ut-austin-amy-wong"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/wisconsin-pranav-karra.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "ede04c9b24dc19933f936abf42ac38a1b6154adfe00fbdcd9a13f9fac1e8fda6",
+      "source_id": "wave10-source-wisconsin-pranav-karra"
+    },
+    {
+      "cache_path": "cache/stage3d-fill-program-people-wave10/yale-kahlil-greene.txt",
+      "quote_verification_method": "local_cache_substring_check",
+      "sha256": "af978bc080636733c90769957849a2e0a51ec051c19fde5af2924fb143b98a2c",
+      "source_id": "wave10-source-yale-kahlil-greene"
+    }
+  ],
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_program_people_wave10_cache_manifest",
+  "source_limited": true
+}

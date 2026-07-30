@@ -1,0 +1,14 @@
+{
+  "cumulative_verified_record_count": 904,
+  "duplicate_count": 0,
+  "incomplete": true,
+  "not_final": true,
+  "program_people_changed": false,
+  "program_people_gaps": 130,
+  "program_people_identified": 180,
+  "program_slots": 310,
+  "record_type": "stage4c_cumulative_stage4b_stage4c_view",
+  "source_limited": true,
+  "stage4b_verified_record_count": 710,
+  "stage4c_verified_record_count": 194
+}

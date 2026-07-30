@@ -1,0 +1,569 @@
+{
+  "expected_counts": {
+    "duplicates": 0,
+    "identified_people": 180,
+    "national_ranking_memberships": 50,
+    "program_people_gaps": 130,
+    "program_slots": 310,
+    "schools": 62,
+    "stage4b_overlay_records": 710
+  },
+  "incomplete": true,
+  "inputs": [
+    {
+      "git_blob_sha": "c09efd8e6271416782d79f99f5cd2706be31e801",
+      "path": "data-pipeline/data/university-universe-candidates/v2-source-limited/candidate-memberships.json",
+      "record_count": 67,
+      "role": "scope_and_counts",
+      "sha256": "47a67867568a6a45f615cc86910aaaec3f0769420bc31667758b8684ff8e25f5",
+      "stage": "upstream_frozen"
+    },
+    {
+      "git_blob_sha": "801146415d178406be5266faeb91dfc9ad4c0310",
+      "path": "data-pipeline/data/ranking-seeds/2026-best-colleges/completion-national/national-universities-top-50.json",
+      "record_count": 50,
+      "role": "scope_and_counts",
+      "sha256": "31a6bea75a6bc426a206be1024a5340daf88a82688f5e5099770f908a0068223",
+      "stage": "upstream_frozen"
+    },
+    {
+      "git_blob_sha": "8fbf363f7bcd0c1e6c8861a6f64729cdd43803bf",
+      "path": "data-pipeline/artifacts/stage3d-closing-hardening/stage3d-closing-hardening-cumulative-summary.json",
+      "record_count": 1,
+      "role": "scope_and_counts",
+      "sha256": "c5fb6cc5c58bc906d2e1ec11f67f8698cae892d5ae13c1ed46e48cc0c3d5c25c",
+      "stage": "upstream_frozen"
+    },
+    {
+      "git_blob_sha": "16aa3c084ed7d48c5e7a111515a2bd1fba8cd346",
+      "path": "data-pipeline/data/stage4b-unified-official-product-data/stage4b-config.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "856e7a072667bb463106473b84d583cc49c98fe5180984f26f9c495887b5d4cd",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "bea6cab3e119a96c19f6fc00fda93c6a650a1213",
+      "path": "data-pipeline/data/stage4b-unified-official-product-data/stage4b-derived-metric-policy.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "9c666e3ddd2aa5a26bdd8834e1db30ba877ab63e4178c6a045e701a8d33c11c9",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "b03e4fce9e1bbb5f277d357237d25cd5bfa13646",
+      "path": "data-pipeline/data/stage4b-unified-official-product-data/stage4b-field-status-overrides.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "6b02563eb4a9280e1d919406a9a87e65a49a9e3af26d247ccd4b499f9a0989ad",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "866e9393f184a0fc5eb4812495f775101224fdcd",
+      "path": "data-pipeline/data/stage4b-unified-official-product-data/stage4b-immutable-input-pins.json",
+      "record_count": 39,
+      "role": "stage4b_read_only_input",
+      "sha256": "58eaea9385c5ab42336ed47d03ec1a65a644aff0ebe0da262ca0333566bcdefa",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "e300580fad7cef069fff255ca13564ee5fd94566",
+      "path": "data-pipeline/data/stage4b-unified-official-product-data/stage4b-reviewed-geography-exceptions.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "ca2a9a5cd0e19ec9c723a69fd14ef9e4bc5d83576bcb23f3418278199e1493eb",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "5712acaafc4630f98c1710a809804090050497d1",
+      "path": "data-pipeline/data/stage4b-unified-official-product-data/stage4b-reviewed-identity-exceptions.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "363d34f3346c00bac4565cba9ba5a9604ab5c788ce672326d70d7bccc908dbfe",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "48e987732d397baa3af6618d2d2ce42fc7a34e73",
+      "path": "data-pipeline/data/stage4b-unified-official-product-data/stage4b-reviewed-source-exceptions.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "e21fcc4c77047c9cfbfc77e24b2e857406081dc537a8f18d71e6f091b39f71a9",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "0e1da2898d2151f86059ddaa32d15701593ff761",
+      "path": "data-pipeline/data/stage4b-unified-official-product-data/stage4b-source-policy.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "cc06a4ce65c706bb40baedc18865871b6f6624454c36b51ee0b7fad663177386",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "fdb7743861c252e51310421e5d6d2a6b358681d0",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-admissions-metrics.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "6d6b8c03b90a3c2e8aa115580b3ec26d468b52b9b371c1e64a3b417b4204ebd5",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "8bf9d56c4a8474d92a4a85faf4ea9c7fb2cc643d",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-ai-context-contract.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "f313bfad5c61f62d4ca00c0d15e3a75b1121674ca44595836721dc53af261499",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "7817e6ab00a2b51eee93519c72a3aecacbb3e904",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-cache-manifest.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "ce91735ae3838a5e6a96bdcc815552f199e6ad7d53d76ea23acf234841302732",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "db6c634a72dd6780c27604784eb92a5f05e57cc4",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-campus-geography-crosswalk.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "f7858d5546caad4470c31fd6d77e0e4ba22e20140ca98c573f476b0c2f806649",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "92a4d292491e81992614aa9ed26a2f42996bcc02",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-comparison-records.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "5127d0ff98022988d6ffd0f2719b199778f8a5233375ea49e374193c0bf40bad",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "6ce6d98751f6ea140d60c69f78b23f69a9013957",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-cost-of-living-metrics.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "98375864c9a36c1ca32cd30448e2b3db08f2ecefff442e1a041aea2e4c518d0f",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "00d1b6f4b00c61fd1893c4a2e88667d83d576354",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-crime-safety-metrics.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "d6ce81f40a2fdd1d2df22278de8f8de4628b6aa7061c52701746893d58051155",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "84dc9462b9751b45c91c6b7cd7deffc13893e644",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-data-collection-backlog.json",
+      "record_count": 22,
+      "role": "stage4b_read_only_input",
+      "sha256": "9aadd739449cf9939c48a59e17c89309babecc1c3f47c4830750e92a8353fbd3",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "92a82fac1f2030257c484aaae621b9124519355f",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-demographic-metrics.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "915dc9d9f6fe8f390ee17166ba7380749f46e88ba413a8dab17bccf71f7cd88d",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "d0db9cbe5ea4785392a34149008bf690e4e6398f",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-field-provenance.json",
+      "record_count": 710,
+      "role": "stage4b_read_only_input",
+      "sha256": "85b9c06449356a241861440ecf07910bd3371aaacc30b29267b482b83569783e",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "0ba2ea3749223c9df7a4698a83d33d0b17fb0d6f",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-filter-contract.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "515dbd72519bfe76c8c0c98af81a817176a8d95f13fc3cca5eb4d42f406d00ce",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "75d949af3885c44c0b96c90059755a7779b3ba83",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-gap-disclosure.json",
+      "record_count": 22,
+      "role": "stage4b_read_only_input",
+      "sha256": "4d3b03ede1c585239f930634fb04e8e3335f5997b9a6c74ce147440a33b30091",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "377b41c4dbb7546052acfc55960494659bf9af06",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-housing-income-metrics.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "538fba11982dc28fb171c2a028c513093c01bffe4e5e2c8e7eab39c0be51fecf",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "c493bd33412b38296d7c8fe9f6038d00fd3ed159",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-input-pin-report.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "9b0953ec1b9fe617379fc608ed9978556c593dc8bfce3857f85342a15aef14b1",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "af829d6cbc64398487b80a3227d26a16be3275ae",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-integration-summary.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "01fc50a25736a9d6e017fadf2599a0fa91d7989204d89da61810abdddfd8d557",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "8e833c437725804511a02d899cb10ca5fdac0c27",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-marker-summary.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "e489733ca8c2aead4b5745ebd7aed24456f45c06ea6765f44c68ae4e084e4ddd",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "31f32dd6ee6164ea1291b08f37dcb7f28d7ba702",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-mode-metadata.json",
+      "record_count": 10,
+      "role": "stage4b_read_only_input",
+      "sha256": "2a6c89ba53702e8210357be40b8993302506393cb0ce3709441ece92911666fb",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "11c36ad68970ef0fa15c1ee8beac226764234492",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-product-data-coverage-matrix.json",
+      "record_count": 44,
+      "role": "stage4b_read_only_input",
+      "sha256": "4e35c6b253b597c6b100456d94c291c85eff35be0ad7525026235dbc80cef460",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "c909d601aa87a7346471bbb38eea224ea16d276e",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-quarantine.json",
+      "record_count": 0,
+      "role": "stage4b_read_only_input",
+      "sha256": "b468c0c0568a6f1a6c2f922798e828d0ab4267cc8671da5f019481c60841f468",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "4b0980ae0e1b38f4eaff61afec8926361d8378f6",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-school-profile-metrics.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "fd2abe7b9921b873bc3e732d8e28bb20032b31fea18f16260b53bee0bb3a1fb5",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "888a2c4020c7c4f8e16a5293e1549168b0e8b348",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-search-index.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "25c8075f5d9a749ec894c44c51949a674c52d063ec778235513545f455f10d85",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "ad28dc773fd1cf0a8f7d0456dc1c84bcea4d49aa",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-source-manifest.json",
+      "record_count": 8,
+      "role": "stage4b_read_only_input",
+      "sha256": "ca640a1d28c56dd585e9bddf461d71fe51a5bfac62abe6a82cabb5b346ad0292",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "0ed9183eb98cf073598fb9d8b646383254bf53d7",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-test-policy-metrics.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "75a3385740a1c434300048223a57599e2ca2fe0c93dcd40539107427b2931869",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "baba4566a50f11a30956bc75b76371569066288b",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-transport-accessibility-metrics.json",
+      "record_count": 62,
+      "role": "stage4b_read_only_input",
+      "sha256": "4074c3337795b22d533a743b680fb6c742e03b63059e5e6083d07f70096c3e27",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "b69b01f838d1027595a6b22f8795d234f7058fe3",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-validation-result.json",
+      "record_count": 1,
+      "role": "stage4b_read_only_input",
+      "sha256": "edb071015ebc0cdbd778de5593a94a0446f46cbf433fd597f3636151ad7df967",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "3a1acd502650c8d6e3ba3d710bb6327a39a1db17",
+      "path": "data-pipeline/artifacts/stage4b-unified-official-product-data/stage4b-verified-enrichment-overlay.json",
+      "record_count": 710,
+      "role": "stage4b_read_only_input",
+      "sha256": "42bce629183779b218e66c36bd0c54ebb6d8fa2d1f038a3a8b09a8bbd248fc33",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "5add7985c7dbd0e832c4c529c95f09fc5c10d2c9",
+      "path": "data-pipeline/reports/stage4b-product-readiness-report.md",
+      "record_count": 1,
+      "role": "stage4b_read_only_report",
+      "sha256": "b839c51b7a7b831f4c1a3e1c0a95a953420f2ee4321ca44a84877297de87ec60",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "cfc4f71c2e72a853790944de3aaa2e025e2a9877",
+      "path": "data-pipeline/reports/stage4b-source-and-gap-report.md",
+      "record_count": 1,
+      "role": "stage4b_read_only_report",
+      "sha256": "ef981820fe31727326b3a204f3ea9334f488d179d4e8b59ed92f40f4a59ee9c3",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "94b0f201f03c35c8cdab40053c5c1132503cfc9c",
+      "path": "data-pipeline/reports/stage4b-unified-official-product-data-report.md",
+      "record_count": 1,
+      "role": "stage4b_read_only_report",
+      "sha256": "073090ae3e4b91b2db6afe40473c846811e14659ef808677d49a7ae563f84230",
+      "stage": "stage4b"
+    },
+    {
+      "git_blob_sha": "988c829442a4febb463d6c178de461c7f6fc120e",
+      "path": "data-pipeline/cache/stage3b-official/Most-Recent-Cohorts-Institution_05192025.zip",
+      "record_count": 1,
+      "role": "official_frozen_source",
+      "sha256": "74d464963c2948b7b6e97df6864345055b177466325a2b06c54f0e50e910b8e4",
+      "stage": "official_federal_cache"
+    },
+    {
+      "git_blob_sha": "b1df8a430c884419c6201985ca8283b1502b64d6",
+      "path": "data-pipeline/cache/stage3b-official/CollegeScorecardDataDictionary.xlsx",
+      "record_count": 1,
+      "role": "official_frozen_source",
+      "sha256": "dce6a86c2b16ba5f767035079dc0d465cf1852d6bb71decceba12a4ff8d9cb53",
+      "stage": "official_federal_cache"
+    },
+    {
+      "git_blob_sha": "f52b3a3a5b2208ecf7ee51b09525e0b883de774b",
+      "path": "data-pipeline/cache/stage3-ipeds/HD2024.zip",
+      "record_count": 1,
+      "role": "official_frozen_source",
+      "sha256": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+      "stage": "official_federal_cache"
+    },
+    {
+      "git_blob_sha": "913b23372c6c42f95cb23359779b135262a01354",
+      "path": "data-pipeline/cache/stage3c2-geography/2024_Gaz_place_national.zip",
+      "record_count": 1,
+      "role": "official_frozen_source",
+      "sha256": "cf262fc92b2326f7a8c62a89d156a60eb17d64d6d35f7a62310c43bb08972c06",
+      "stage": "official_federal_cache"
+    },
+    {
+      "git_blob_sha": "2f2e38a4ebd8454b16bc7b48ffc122ba0aaf56c5",
+      "path": "data-pipeline/schemas/v1/canonical-university.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "00bd80def5553726a1e0775466016cd5c6f0ce3fed7f590f9892a1f1f556e412",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "36935a85d102e3ae52eddaad3c7bd2421e9b0ab0",
+      "path": "data-pipeline/schemas/v1/frontend-fields.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "05fa0cc8f3ecbd52fb6895618cf00421ac46c2b001d0475b856a8c52f0e7b15c",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "bb6a3d9d3223136e2b77e5803cc44342edcb2bfc",
+      "path": "data-pipeline/schemas/v1/frontend-universities.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "304216043dc40e11d1a1b29cdce0ed0db25bca968ad1d6d526190c4dd0e57397",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "ab89e6daead0c764067886b1c43b55b48dcb81a8",
+      "path": "data-pipeline/schemas/v1/manual-ranking-seed-batch.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "1e0709b30540fa3c493b6f167106d9fa40cac2e856fbeb22e9eed8769117e79a",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "2ba2a8a8f9080d06b4199c8d220c6ff8a89e9057",
+      "path": "data-pipeline/schemas/v1/national-completion-source-manifest.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "0c11ecfa0c37f30e16909e22c43f0757a9eba9f7797af89c8b74b81af84c3310",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "e62b8e900995168779a402a8177b060aebbc6497",
+      "path": "data-pipeline/schemas/v1/national-completion-validation-result.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "21980f1139b0599f1497ff2d7b1d4c1532470ed6b4411e525938bc9f20228305",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "bf01ed96ea8da0c64ec0393fb2e4e10eb8b92e9f",
+      "path": "data-pipeline/schemas/v1/national-manual-seed-input.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "58c9eb7912c25a273a91810945992f83cf334366cd3d6cac651fc0f9ea39e863",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "eba2f0457f14f06d2619fdca386d31a0e1f223ca",
+      "path": "data-pipeline/schemas/v1/ranking-category-inventory.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "bd1e2c7cee29898164944aeb0e9cab56f3a3acfe961c591cb3d3d1b2084a023d",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "27308da5ad7a9640f82e690e5f091e0a67a6b37b",
+      "path": "data-pipeline/schemas/v1/ranking-family-inventory.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "e3c565068b0f6b2374bb8bd072b0fb0664492b8740115e5f71728f50386484f4",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "3f11bafdb92ccf12032f86cbd812f65ce35d596a",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-candidate-observations.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "ee011c0c8a97136ef44755d18d8c27cf527f3992ce5349180c4b834129aa4b30",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "627185dc20a2fd3143bf68a542a6e233ffa35e3c",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-coverage-matrix.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "046fe14df51c887c66e63c82c7f94046f17a17caf9a0d8506195365dba8d6551",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "13950bb1e77e8c386a2bc4e9c6676a5a28ba97cb",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-identity-mappings.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "323ca307cf3440bf00de71b532f3d39f40460e587215265c69b2c167e27e81e2",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "58d36fb98d4aebe02f5870813b3bfc5603d5e7b7",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-source-manifest.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "86c52f80e7a837fb62c20f445ab738f889dcf441ea5a3f3e94605905abea4dfd",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "92975ec13923a3ba50cc11486578eb290e8e572f",
+      "path": "data-pipeline/schemas/v1/ranking-pilot-validation-result.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "04dc139c5b6d638e954073a3cbdba6b65ad9fd0425146b637785f58ee6b330d2",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "600c890ac919fd38bf3a0f9964dfe0c59003a550",
+      "path": "data-pipeline/schemas/v1/ranking-scope.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "63c0420dfe26650017b72e4f8161283b06e56b10492fe2294130eca2f66d85e7",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "73e837faa10eb72770fceab5441bb7ac35eba843",
+      "path": "data-pipeline/schemas/v1/raw-university.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "c425f1150b960138a95275ff23f4421b7d8e6bfd6db440d3c7056abf89b848eb",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "79c662cbedbd35eb1d9146b0aa6f68ac8f9d84e0",
+      "path": "data-pipeline/schemas/v1/source.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "353582f089926f1be78168ac3a45cbe44976fe348b9aa5c3545e9404514d7b1c",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "07d55449fd6d3662d84432f13fcdf9f8fc7889ce",
+      "path": "data-pipeline/schemas/v1/stage3d-fill-bulk-people-v2-slot.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "4f09068996690040e56d7b47712d7648b0e627055042fb2a75192e71dd6e109e",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "651696ad22fccc61a560b880ead8fb47449a8822",
+      "path": "data-pipeline/schemas/v1/staging-university.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "8544979891822feb11da83403b1ea50b51c88aa566b70fb2727843474dbc0188",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "e8bf45aa0dd0f02de91819f38670ec5143a1a145",
+      "path": "data-pipeline/schemas/v1/universe-completion-plan.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "3251bfc8db59e616f729f54f414333b76dc26632c267afe6aa4608dcd57035b7",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "521b939536f73a89673092797a5293e92e47ea16",
+      "path": "data-pipeline/schemas/v1/university-core.json",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "adef66cc8b75d0190f85cfb8dcb111c999caf1b5c7b177af8cab767048bfebaf",
+      "stage": "schema"
+    },
+    {
+      "git_blob_sha": "b5024a7379b8e4802ea465500ff1bfa0d43bfa1f",
+      "path": "data-pipeline/migrations/001_core.sql",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "8b769de5937e3b210e2aca4019538f2b54a8dd079b4701f196c1dc377e742fc2",
+      "stage": "migration"
+    },
+    {
+      "git_blob_sha": "b821498443cddf8edd4baf00ba4d9701677124b8",
+      "path": "data-pipeline/migrations/002_rankings_and_programs.sql",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "53decd4c9c66dc26b4e99cf94511faf11c1956a30533b110bf5091a237a7c131",
+      "stage": "migration"
+    },
+    {
+      "git_blob_sha": "25978e98045f3ed5caca4fc095773cc442770205",
+      "path": "data-pipeline/migrations/003_enrichment_and_quality.sql",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "e0634a36307e3cca1402b0da6c2e1013265ab99f44d98c885238e13c75433e89",
+      "stage": "migration"
+    },
+    {
+      "git_blob_sha": "e6e9f68e2e5c11d999de4ddd4d856562cc29e24c",
+      "path": "data-pipeline/migrations/004_gate1_hardening.sql",
+      "record_count": 1,
+      "role": "validation_contract",
+      "sha256": "bc03e9413e41a0e27d96195481de8265b6d768e25da68f2397f874474aa2dbda",
+      "stage": "migration"
+    }
+  ],
+  "not_final": true,
+  "record_type": "stage4c_immutable_input_pins",
+  "source_limited": true
+}

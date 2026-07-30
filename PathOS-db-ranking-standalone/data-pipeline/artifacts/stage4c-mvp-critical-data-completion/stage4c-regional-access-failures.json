@@ -1,0 +1,89 @@
+{
+  "failures": [
+    {
+      "affected_schools": 62,
+      "attempted_methods": [
+        "Census ACS API 2023 5-year",
+        "Census table-based summary-file bulk download"
+      ],
+      "failure_classifications": [
+        "missing_api_key",
+        "bulk_download_http_403"
+      ],
+      "metric": "median_household_income",
+      "retry_plan": "retry official bulk/API intake outside restricted gateway",
+      "status": "pending_external_access"
+    },
+    {
+      "affected_schools": 62,
+      "attempted_methods": [
+        "Census ACS API 2023 5-year",
+        "Census table-based summary-file bulk download"
+      ],
+      "failure_classifications": [
+        "missing_api_key",
+        "bulk_download_http_403"
+      ],
+      "metric": "median_gross_rent",
+      "retry_plan": "retry official bulk/API intake outside restricted gateway",
+      "status": "pending_external_access"
+    },
+    {
+      "affected_schools": 62,
+      "attempted_methods": [
+        "Census ACS API 2023 5-year",
+        "Census table-based summary-file bulk download"
+      ],
+      "failure_classifications": [
+        "missing_api_key",
+        "bulk_download_http_403"
+      ],
+      "metric": "total_population",
+      "retry_plan": "retry official bulk/API intake outside restricted gateway",
+      "status": "pending_external_access"
+    },
+    {
+      "affected_schools": 62,
+      "attempted_methods": [
+        "Census ACS API 2023 5-year",
+        "Census table-based summary-file bulk download"
+      ],
+      "failure_classifications": [
+        "missing_api_key",
+        "bulk_download_http_403"
+      ],
+      "metric": "population_density",
+      "retry_plan": "retry official bulk/API intake outside restricted gateway",
+      "status": "pending_external_access"
+    },
+    {
+      "affected_schools": 62,
+      "attempted_methods": [
+        "Census ACS API 2023 5-year",
+        "Census table-based summary-file bulk download"
+      ],
+      "failure_classifications": [
+        "missing_api_key",
+        "bulk_download_http_403"
+      ],
+      "metric": "asian_population_ratio",
+      "retry_plan": "retry official bulk/API intake outside restricted gateway",
+      "status": "pending_external_access"
+    },
+    {
+      "affected_schools": 62,
+      "attempted_methods": [
+        "Census ACS API 2023 5-year",
+        "Census table-based summary-file bulk download"
+      ],
+      "failure_classifications": [
+        "missing_api_key",
+        "bulk_download_http_403"
+      ],
+      "metric": "chinese_specific_population_ratio",
+      "retry_plan": "retry official bulk/API intake outside restricted gateway",
+      "status": "pending_external_access"
+    }
+  ],
+  "record_type": "stage4c_regional_access_failures"
+}

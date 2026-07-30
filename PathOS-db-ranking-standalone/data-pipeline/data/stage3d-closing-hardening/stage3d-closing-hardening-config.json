@@ -1,0 +1,49 @@
+{
+  "record_type": "stage3d_closing_hardening_config",
+  "config_version": 1,
+  "baseline_commit": "e4b3dcf5621dcaa498c4e3e7cd714004fedcbd9f",
+  "expected_checkpoint_tag": "pathos-stage3d-program-people-180-coverage-pass",
+  "expected_counts": {
+    "candidate_schools": 62,
+    "total_program_slots": 310,
+    "identified_person": 180,
+    "source_review_not_completed": 130,
+    "no_qualifying_person_found": 0,
+    "raw_person_occurrence_count": 180,
+    "unique_person_count": 180,
+    "duplicate_person_count": 0,
+    "post_merge_duplicate_count": 0
+  },
+  "live_intake": {
+    "timeout_seconds": 15,
+    "max_retries": 1,
+    "max_workers": 12,
+    "max_response_bytes": 10000000,
+    "user_agent": "PathOS-Stage3D-Provenance-Closure/1.0",
+    "cache_directory": "cache/stage3d-closing-hardening/live"
+  },
+  "allowed_live_statuses": [
+    "live_not_found",
+    "live_page_changed_review_required",
+    "live_source_mismatch",
+    "live_unavailable",
+    "live_verified_exact",
+    "live_verified_normalized"
+  ],
+  "allowed_normalization_methods": [
+    "html_entity_decode",
+    "unicode_nfkc",
+    "nonbreaking_space_to_space",
+    "whitespace_collapse"
+  ],
+  "artifact_generation_network_access": false,
+  "cache_bodies_gitignored": true,
+  "delete_cache_files": false,
+  "modify_old_wave_artifacts": false,
+  "generate_final_universe": false,
+  "generate_memberships": false,
+  "generate_frontend_export": false,
+  "source_limited": true,
+  "incomplete": true,
+  "not_final": true
+}

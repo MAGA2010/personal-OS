@@ -1,0 +1,141 @@
+{
+  "files": [
+    {
+      "relative_path": "README.md",
+      "sha256": "5fd0fb4db3b92179f4bd40f451647bfb86adc03788182d7262741bf44bb3ada6",
+      "size_bytes": 5176
+    },
+    {
+      "relative_path": "backend-import-candidates/narratives.raw.json",
+      "sha256": "06c499940fbc0215f1422b75be9dee78767cac58d00785015d667288643efaf8",
+      "size_bytes": 43629
+    },
+    {
+      "relative_path": "backend-import-candidates/news.raw.json",
+      "sha256": "ad5378d50065778e8828813d1b367423e42b2a9fb436144dfe5d71fe98139143",
+      "size_bytes": 897885
+    },
+    {
+      "relative_path": "backend-import-candidates/other.raw.json",
+      "sha256": "d24471e81efc5e2803ff10925b05310a3015cc74862b271db0be40e69c76e14c",
+      "size_bytes": 676353
+    },
+    {
+      "relative_path": "backend-import-candidates/people.raw.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size_bytes": 3
+    },
+    {
+      "relative_path": "backend-import-candidates/region-metrics.raw.json",
+      "sha256": "754d9f5a13fe3731424615d04674d07cc82c1357ccbf0e6f30950dd2c9c30fe1",
+      "size_bytes": 2676177
+    },
+    {
+      "relative_path": "backend-import-candidates/universities.raw.json",
+      "sha256": "631967e4d374b65a2fc3f2ac608b96f56524002ac3505bdd3000748f1392b9b3",
+      "size_bytes": 1456788
+    },
+    {
+      "relative_path": "data-inventory.csv",
+      "sha256": "91151d84ce061a88e35286373ef915854e3b13180d40688930da79b85036df01",
+      "size_bytes": 1962688
+    },
+    {
+      "relative_path": "data-inventory.json",
+      "sha256": "7a68a527b95411e83e24db19c2018ea27d9b18d729e38e8baf3c16983723feaa",
+      "size_bytes": 5634076
+    },
+    {
+      "relative_path": "duplicate-candidates.json",
+      "sha256": "a375b04c69451a1d8afaf5bf407fd6db0be1487644ea250c8094bdf442191782",
+      "size_bytes": 1712862
+    },
+    {
+      "relative_path": "extraction-manifest.json",
+      "sha256": "bd411a23527be443f2b5b5475ef083ba1a8376a936bbd61b65105c227038530c",
+      "size_bytes": 3260
+    },
+    {
+      "relative_path": "frontend-retention-list.json",
+      "sha256": "9ebfaff15716a8ecfca40002bc3f8cd83ec3813a0572b44e2645d53f6d70258b",
+      "size_bytes": 6170
+    },
+    {
+      "relative_path": "migration-map.json",
+      "sha256": "13a8184c8b2fbf322a7d34e2e8a231dde672f6b29e3ecf1384717ccc1730eb4b",
+      "size_bytes": 9385
+    },
+    {
+      "relative_path": "normalized-preview/news.candidate.json",
+      "sha256": "e862f8d952dbfd55ac4533447cc5c8ed13c4736f9bf7441ac041cb6b95dec41d",
+      "size_bytes": 167096
+    },
+    {
+      "relative_path": "normalized-preview/region-metrics.candidate.json",
+      "sha256": "cca4afa76354802b6ae97a850a7e9b04c29bf007c4b54c7d9356638fc0fbf1e1",
+      "size_bytes": 358523
+    },
+    {
+      "relative_path": "normalized-preview/source-index.candidate.json",
+      "sha256": "18f98d884ebe98c91f5eed99414bb1544e5c840faf307bc77dbf2c280c38ca1f",
+      "size_bytes": 1962
+    },
+    {
+      "relative_path": "normalized-preview/universities.candidate.json",
+      "sha256": "791e174e8a5909a8dc967a03f25c40581a16c28e9ce96fa238fcbb2f2dc7e750",
+      "size_bytes": 191535
+    },
+    {
+      "relative_path": "reports/BACKEND-HANDOFF.md",
+      "sha256": "758f6f252405e118cbd5adb6250bad56b3d0376eb5814566940bf62a048f950c",
+      "size_bytes": 5999
+    },
+    {
+      "relative_path": "reports/DATA-QUALITY-REPORT.md",
+      "sha256": "cc11d9a421349daf2707e839f47465d9510a70155a783ff2fd7e3adf5d0193b8",
+      "size_bytes": 5171
+    },
+    {
+      "relative_path": "reports/DEVELOPMENT-LOG.md",
+      "sha256": "aa626cadaf1b8e8f1c7deb73171cf6fde746f19a3d5af367ca2824de3c63d198",
+      "size_bytes": 5451
+    },
+    {
+      "relative_path": "reports/FRONTEND-REMOVAL-PLAN.md",
+      "sha256": "049cfa3b5a42a275655f00ca15e08525983117b4dabd065c49f7cfeb9641f6d0",
+      "size_bytes": 4813
+    },
+    {
+      "relative_path": "reports/HARDCODED-DATA-AUDIT.md",
+      "sha256": "c72faa53f61804b3059938383dfa62658f51e50705c84d290e79a987c5e76382",
+      "size_bytes": 21629
+    },
+    {
+      "relative_path": "schemas/extracted-record.schema.json",
+      "sha256": "bea927179e8fe9d2b4c3a857c5ecd11b742b33f95179454988c7898cd1352a00",
+      "size_bytes": 2138
+    },
+    {
+      "relative_path": "schemas/frontend-handoff.schema.json",
+      "sha256": "be85fa375bef81d69e8e9ce13912838955ab2fd54c3020433047754fdc94f192",
+      "size_bytes": 1121
+    },
+    {
+      "relative_path": "scripts/extract_frontend_data.py",
+      "sha256": "fe8afb2267760dcb0cedf22e0ecb013ba6192d6d180d6b5e2713edad6229ae03",
+      "size_bytes": 117476
+    },
+    {
+      "relative_path": "unresolved-items.json",
+      "sha256": "635f264cce58ed5c29144fae1c157789c70963ff017b18c55e97120d702ac6a2",
+      "size_bytes": 961
+    }
+  ],
+  "not_authoritative": true,
+  "record_type": "stage4a_handoff_manifest_pin",
+  "requires_backend_reconciliation": true,
+  "source_handoff_path": "/Users/jiayihuang/PathOS-db-ranking/handoff/frontend-data-extraction",
+  "source_root": "/Users/jiayihuang/PathOS-db-ranking/handoff/frontend-data-extraction",
+  "total_files": 26,
+  "total_size_bytes": 15968327
+}

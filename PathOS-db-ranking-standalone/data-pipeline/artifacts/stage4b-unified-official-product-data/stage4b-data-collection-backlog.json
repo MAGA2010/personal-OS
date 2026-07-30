@@ -1,0 +1,225 @@
+{
+  "items": [
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "graduate_enrollment",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "total_enrollment",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "chinese_display_name",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "sat",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 9,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "act",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P2",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 9,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "test_optional_policy",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "official university policy page",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "toefl_policy",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "official university policy page",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "medium",
+      "field": "national_ranking",
+      "frontend_feature_unlocked": "filter",
+      "priority": "P0",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 12,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "census_place_geoid",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 16,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "median_household_income",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "median_gross_rent",
+      "frontend_feature_unlocked": "comparison",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "population_density",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "asian_population_ratio",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "chinese_population_ratio",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "crime_rate",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "safety_index",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "cost_of_living_index",
+      "frontend_feature_unlocked": "comparison",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "transport_accessibility",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P2",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 0,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "program_people",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P2",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 130,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "parent_mode_readiness",
+      "frontend_feature_unlocked": "mode",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "ai_context_readiness",
+      "frontend_feature_unlocked": "ai",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 0,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    },
+    {
+      "dependency": "official_uniform_data_incomplete",
+      "estimated_difficulty": "high",
+      "field": "map_choropleth_readiness",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "credentialed federal/state/local official dataset",
+      "records_affected": 62,
+      "validation_rule": "scope, year, unit, source, and cache provenance required"
+    }
+  ],
+  "record_type": "stage4b_data_collection_backlog"
+}

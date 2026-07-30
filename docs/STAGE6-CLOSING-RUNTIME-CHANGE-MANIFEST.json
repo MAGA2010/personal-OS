@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "pathos-stage6-closing-runtime-change-manifest-v1",
+  "workspaceRoot": "/Users/jiayihuang/Downloads/PathOS合并",
+  "backendBranch": "feature/stage6-demo-freeze-operational-readiness",
+  "backendHead": "b73e61ec4fda11b7c72e74c14e414fbe2c74300f",
+  "issue": "H-1-process-group-identity-binding",
+  "counts": {
+    "added": 8,
+    "modified": 5,
+    "deleted": 0,
+    "uiFilesChanged": 0,
+    "frontendSourceFilesChanged": 0,
+    "backendTrackedFilesChanged": 0,
+    "previewBundleFilesChanged": 0,
+    "dataSemanticsChanges": 0
+  },
+  "files": [
+    {
+      "relativePath": "scripts/pathos-ops.mjs",
+      "change": "modified",
+      "beforeSha256": "7e3a996bed8548ba507421d5362e968a098a45215360a4357a3ac714adf0280d",
+      "afterSha256": "7279eb1f3a496667b706256babbc35575a20cb5a6e148a14ad7563cd3171c6e2",
+      "reason": "Bind controller and listener to the OS-reported PGID and safely manage the verified process group.",
+      "highIssue": "H-1",
+      "testCoverage": [
+        "Gate controller PID differs from PGID",
+        "real detached process group",
+        "three lifecycle rounds",
+        "PID reuse and foreign port rejection",
+        "failed-start cleanup",
+        "pre-state detached group cleanup",
+        "verified SIGKILL fallback"
+      ],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/stage6-demo-tests.sh",
+      "change": "modified",
+      "beforeSha256": "7b5f2bf9febc07adf7ae209c970ff8a0bb99d8e81629f1a459952aebe411852f",
+      "afterSha256": "236773038f9b4de2f138b481cedb0607854b23b76084fe76d50d9c9e917d104d",
+      "reason": "Replace the undeclared rg dependency with Node scanning and validate the root freeze manifest.",
+      "highIssue": "H-1-supporting-portability",
+      "testCoverage": [
+        "backend-only controller scan",
+        "root freeze manifest hashes",
+        "no-rg PATH"
+      ],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/runtime-lifecycle.test.mjs",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "44aa4879b3e53039628ace2c2d664a0c319a3ed55c581ae41d142ede9b305591",
+      "reason": "Exercise Gate PGID topology, identity transitions, EPERM and a real detached group.",
+      "highIssue": "H-1",
+      "testCoverage": [
+        "controller PID differs from PGID",
+        "listener PGID accepted/rejected",
+        "npm command title transition",
+        "controller reparenting",
+        "negative PGID probe",
+        "detached PGID"
+      ],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/runtime-lifecycle-integration.sh",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "2b6f7b1127128b8e53213344faafa4c111363f6e47bff01fdcc53114a6de85c0",
+      "reason": "Verify complete lifecycle behavior and destructive-action safety with isolated runtime state.",
+      "highIssue": "H-1",
+      "testCoverage": [
+        "three start/smoke/status/stop rounds",
+        "start twice and stop twice",
+        "foreign port preservation",
+        "alternate port",
+        "PID reuse protection",
+        "failed-start orphan cleanup",
+        "verified SIGKILL"
+      ],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/no-rg-portability.test.sh",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "76f6c138ac7815d92e7cae5ab07437602c39b0fe608a79dc4e3397cbfbb76ff4",
+      "reason": "Run the Stage 6 contract suite with rg absent from PATH.",
+      "highIssue": "non-blocking-portability",
+      "testCoverage": [
+        "Stage 6 8/8 without rg"
+      ],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "scripts/tests/prestate-cleanup.test.sh",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "64223816509d2dd12fd193af5c993e84f3bf22f7969eec46cadfee0f925e497d",
+      "reason": "Prove both pre-spawn and post-preflight identity failures leave no controller or child while preserving external processes.",
+      "highIssue": "H-1",
+      "testCoverage": [
+        "missing ps blocks before npm spawn",
+        "controller identity failure after preflight",
+        "TERM-resistant controller and child cleanup",
+        "external sentinel preservation",
+        "no runtime state residue"
+      ],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "STAGE6-DEMO-FREEZE-MANIFEST.json",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "e82e95b4b10d3725bf2ab2cc5207ca34447be04ed93535766dcfe0457d949aac",
+      "reason": "Provide the root local Demo checkpoint manifest requested by the Gate.",
+      "highIssue": "non-blocking-freeze-manifest",
+      "testCoverage": [
+        "checkpoint fields",
+        "pathos-demo hash",
+        "all script hashes",
+        "disabled features"
+      ],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEMO-RUNBOOK.md",
+      "change": "modified",
+      "beforeSha256": "fe6fe4149d50bd59f8188188f2f1370083da02d562ccaa8f4d1b47a649cc7276",
+      "afterSha256": "8927dabda2ec1ded09a34b0530b6bd61501a607a99fb597a0dd57052b5b80b39",
+      "reason": "Document actual PGID semantics, status states, safe stop and root freeze manifest.",
+      "highIssue": "H-1-documentation",
+      "testCoverage": [],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEMO-FREEZE-REPORT.md",
+      "change": "modified",
+      "beforeSha256": "2a69a820e6a949e4dfcd5f2e8973808c551cc95a2a1bb113d71805f1f2b88618",
+      "afterSha256": "577ed292fac8e2b3e189897c2daa44fd257050acb5d96bf3f62fa5b29561b50d",
+      "reason": "Record closing lifecycle evidence and focused Re-Gate readiness.",
+      "highIssue": "H-1-reporting",
+      "testCoverage": [],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEVELOPMENT-LOG.md",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "85052a555b43ed96ffb59b45caa54d133516b7be43dc9c5acdb8a407818ab32b",
+      "reason": "Record before hashes, root-cause evidence and lifecycle decisions.",
+      "highIssue": "H-1-audit",
+      "testCoverage": [],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-DEMO-CHANGE-MANIFEST.json",
+      "change": "modified",
+      "beforeSha256": "39784afc3d624cf7a19589ca3674e687534886795cb8b682ef4ca29ed657853c",
+      "afterSha256": "78d2e2c810b683d212485e732f4cef22dfb12ee1f803bf162316cf4a4d757819",
+      "reason": "Add the root freeze manifest, closing runtime tests and final hashes to the cumulative Stage 6 inventory.",
+      "highIssue": "closing-inventory",
+      "testCoverage": [
+        "26/26 cumulative workspace hashes"
+      ],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-CLOSING-RUNTIME-PATCH-REPORT.md",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "1f39f8120949b9b953cb8dfb7a3a999270c43bc798e17e066425a1c0faa6c774",
+      "reason": "Provide the focused Gate repair report and evidence.",
+      "highIssue": "H-1-reporting",
+      "testCoverage": [],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    },
+    {
+      "relativePath": "docs/STAGE6-CLOSING-RUNTIME-CHANGE-MANIFEST.json",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": null,
+      "reason": "Self hash intentionally omitted to avoid recursion.",
+      "highIssue": "closing-inventory",
+      "testCoverage": [],
+      "uiChange": false,
+      "dataSemanticsChange": false
+    }
+  ],
+  "lifecycleRuns": {
+    "completeRounds": 3,
+    "startPass": 3,
+    "smokePass": 3,
+    "smokeChecksPerRound": 12,
+    "statusRunning": 3,
+    "stopPass": 3,
+    "restartPass": true,
+    "demoPass": true,
+    "finalStatus": "STOPPED",
+    "residualListeners": 0,
+    "residualNpmOrNextServer": 0
+  },
+  "pidPgidEvidence": {
+    "gateExample": {
+      "controllerPid": 86016,
+      "controllerPgid": 86014,
+      "listenerPid": 86035,
+      "listenerPgid": 86014,
+      "acceptedByFixedRule": true
+    },
+    "localVerifiedExample": {
+      "controllerPid": 11730,
+      "controllerPgid": 11730,
+      "listenerPid": 11840,
+      "listenerPgid": 11730,
+      "identityVerified": true
+    }
+  },
+  "integrityAnchors": {
+    "previewManifestSha256Before": "88f3dd6081df38b051872cc5c8bf5b12dd08e9dee072780f20becfc8e9170bd2",
+    "previewManifestSha256After": "88f3dd6081df38b051872cc5c8bf5b12dd08e9dee072780f20becfc8e9170bd2",
+    "universitiesSha256Before": "b67e0da07525e5204a90c27fd2d8b31d301c66cd11b9df89e2da1be4efaa803f",
+    "universitiesSha256After": "b67e0da07525e5204a90c27fd2d8b31d301c66cd11b9df89e2da1be4efaa803f",
+    "backendHeadBefore": "b73e61ec4fda11b7c72e74c14e414fbe2c74300f",
+    "backendHeadAfter": "b73e61ec4fda11b7c72e74c14e414fbe2c74300f",
+    "backendWorktreeChanged": false,
+    "oldGitSourceModified": false,
+    "linkedBackendModified": false
+  },
+  "boundaries": {
+    "uiChanged": false,
+    "frontendSourceChanged": false,
+    "dataSemanticsChanged": false,
+    "previewAdapterChanged": false,
+    "previewBundleChanged": false,
+    "stage4bArtifactsChanged": false,
+    "stage4cArtifactsChanged": false,
+    "stage5ArtifactsChanged": false,
+    "fixtureChanged": false,
+    "productionDataExportGenerated": false,
+    "historicalCacheRestored": false,
+    "push": false,
+    "tag": false
+  }
+}

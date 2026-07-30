@@ -1,5 +1,4 @@
 import type { CityAggregate, ChineseCommunityLevel, MetricId, RankingTier, UniversityPOI } from "@/lib/types";
-import universityData from "@/data/universities.json";
 
 export const STATE_CENTERS: Record<string, [number, number]> = {
   "01": [-86.9023, 32.3542], "02": [-153.4937, 64.2008], "04": [-111.6704, 34.2744],
@@ -95,8 +94,10 @@ function slugify(value: string): string {
   return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "unknown";
 }
 
-function average(values: number[]): number {
-  const clean = values.filter((value) => Number.isFinite(value));
+function average(values: Array<number | null | undefined>): number {
+  const clean = values.filter((value): value is number => typeof value === "number" && Number.isFinite(value));
+  // Keep the legacy aggregate shape numeric for downstream paint math. Public
+  // labels must inspect the underlying schools before rendering this sentinel.
   if (clean.length === 0) return 0;
   return clean.reduce((sum, value) => sum + value, 0) / clean.length;
 }
@@ -112,8 +113,9 @@ function stateFipsForUniversity(university: UniversityPOI & { state?: string; st
   return "00";
 }
 
-function dominantCommunity(levels: ChineseCommunityLevel[]): ChineseCommunityLevel {
-  const avg = average(levels.map((level) => COMMUNITY_WEIGHT[level]));
+function dominantCommunity(levels: Array<ChineseCommunityLevel | null | undefined>): ChineseCommunityLevel {
+  const validLevels = levels.filter((l): l is ChineseCommunityLevel => l === "low" || l === "medium" || l === "high");
+  const avg = average(validLevels.map((level) => COMMUNITY_WEIGHT[level]));
   if (avg >= 2.5) return "high";
   if (avg >= 1.5) return "medium";
   return "low";
@@ -141,12 +143,18 @@ export function getStateCenter(fipsCode: string): [number, number] | undefined {
   return STATE_CENTERS[fipsCode];
 }
 
-export function buildCityAggregates(inputUniversities?: UniversityPOI[]): CityAggregate[] {
-  const universities = inputUniversities ?? (universityData.universities as unknown as UniversityPOI[]);
+export function buildCityAggregates(universities: UniversityPOI[]): CityAggregate[] {
+  if (!Array.isArray(universities)) {
+    throw new Error("buildCityAggregates requires a universities array (data-source hook output)");
+  }
   const groups = new Map<string, UniversityPOI[]>();
 
   universities.forEach((university) => {
-    if (!Number.isFinite(university.latitude) || !Number.isFinite(university.longitude)) return;
+    // Gate-bloker repair #RG-P0-A: lat / lng are nullable now, so
+    // we drop universities without coordinates rather than mapping
+    // them to Null Island.
+    if (typeof university.latitude !== "number" || !Number.isFinite(university.latitude)) return;
+    if (typeof university.longitude !== "number" || !Number.isFinite(university.longitude)) return;
     const stateFips = stateFipsForUniversity(university as UniversityPOI & { state?: string; stateFips?: string });
     const cityName = university.city?.trim() || "Unknown";
     const id = `${stateFips}-${slugify(cityName)}`;
@@ -190,11 +198,11 @@ export function buildCityAggregates(inputUniversities?: UniversityPOI[]): CityAg
     .sort((a, b) => b.universityCount - a.universityCount || a.name.localeCompare(b.name));
 }
 
-export function getCitiesByState(stateFips: string, cities = buildCityAggregates()): CityAggregate[] {
+export function getCitiesByState(stateFips: string, cities: CityAggregate[]): CityAggregate[] {
   return cities.filter((city) => city.stateFips === stateFips);
 }
 
-export function getCityById(cityId: string, cities = buildCityAggregates()): CityAggregate | undefined {
+export function getCityById(cityId: string, cities: CityAggregate[]): CityAggregate | undefined {
   return cities.find((city) => city.id === cityId);
 }
 
@@ -232,17 +240,28 @@ export function cityMetricColor(metricId: MetricId, value = 0.62): string {
 export function getCityMetricDisplay(city: CityAggregate, metricId: MetricId): string {
   switch (metricId) {
     case "safety":
+      if (!city.universities.some((u) => typeof u.safetyScore === "number" && Number.isFinite(u.safetyScore))) {
+        return "数据补充中";
+      }
       return `${Math.round(city.avgSafetyScore)}/100`;
     case "cost":
+      if (!city.universities.some((u) => typeof u.annualCostRmb === "number" && Number.isFinite(u.annualCostRmb) && u.annualCostRmb > 0)) {
+        return "数据补充中";
+      }
       return `¥${(city.avgAnnualCostRmb / 10000).toFixed(1)}万`;
     case "employment":
+      if (typeof city.avgEmploymentScore !== "number" && !city.universities.some((u) => typeof u.recognitionScore === "number" && Number.isFinite(u.recognitionScore))) {
+        return "数据补充中";
+      }
       return typeof city.avgEmploymentScore === "number" ? `${Math.round(city.avgEmploymentScore)}/100` : `${Math.round(city.avgRecognitionScore)}/100`;
     case "chinese_population":
+      if (!city.universities.some((u) => u.chineseCommunity === "low" || u.chineseCommunity === "medium" || u.chineseCommunity === "high")) {
+        return "数据补充中";
+      }
       return city.dominantChineseCommunity === "high" ? "高" : city.dominantChineseCommunity === "medium" ? "中" : "低";
     case "income":
     default:
       // Current project data does not yet include real ACS city income rows.
-      // Use an explicit index label rather than pretending this is real income.
-      return `指数 ${Math.round(getCityMetricValue(city, metricId) * 100)}`;
+      return "数据补充中";
   }
 }

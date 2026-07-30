@@ -1,0 +1,5 @@
+{
+  "record_type": "stage3d_closing_hardening_reviewed_exceptions",
+  "policy": "exceptions_may_document_fetch_conditions_but_cannot_promote_unverified_records",
+  "records": []
+}

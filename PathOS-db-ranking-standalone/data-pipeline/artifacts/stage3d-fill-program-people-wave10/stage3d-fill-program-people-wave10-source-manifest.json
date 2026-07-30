@@ -1,0 +1,470 @@
+{
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "incomplete": true,
+  "not_final": true,
+  "official_selection_memberships_generated": false,
+  "record_type": "stage3d_fill_program_people_wave10_source_manifest",
+  "source_limited": true,
+  "sources": [
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/brown-prudence-carter.txt",
+      "candidate_id": "candidate-v2:brown-university",
+      "publisher": "Brown University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Brown news biography; reviewed only the Brown degree sentence.",
+      "sha256": "f4bcc23b081c66ed18e845d66d3f98384c9d7d71618d19e51681648b3497033d",
+      "source_id": "wave10-source-brown-prudence-carter",
+      "source_type": "official_institutional",
+      "source_url": "https://www.brown.edu/news/2024-04-25/academy-arts-and-sciences",
+      "verified_direct_quotes": [
+        "A Brown alumna, Carter earned a bachelor’s degree in applied mathematics and economics from the University in 1991 and advanced degrees in sociology, philosophy and education from Columbia University."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/bu-rachel-mcguire.txt",
+      "candidate_id": "candidate-v2:boston-university",
+      "publisher": "Boston University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Boston University department commencement biography; reviewed the completed degree sentence.",
+      "sha256": "41c01fed1a6c416cc39baffe97a7a3f6ed5480c855105026f6743232af978c34",
+      "source_id": "wave10-source-bu-rachel-mcguire",
+      "source_type": "official_institutional",
+      "source_url": "https://www.bu.edu/sociology/2014/03/28/2004-sociology-graduate-officer-rachel-olanoff-mcguire-to-speak-at-2014-commencement/",
+      "verified_direct_quotes": [
+        "Police Officer Rachel O. McGuire graduated from Boston University’s College of Arts and Sciences in May 2004 with Bachelor of Arts Degrees in Psychology and Sociology."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/caltech-joe-zadeh.txt",
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "publisher": "California Institute of Technology",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Caltech CMS alumni feature; headline and source-stated graduate field reviewed together.",
+      "sha256": "b4f92c6e1f9fa3be1fe2cae0d9a3611e20b4406927271b57b16bdd213fe54f1a",
+      "source_id": "wave10-source-caltech-joe-zadeh",
+      "source_type": "official_institutional",
+      "source_url": "https://www.cms.caltech.edu/news-events/news/meet-caltech-alumnus-and-technologist-behind-airbnb-joebot",
+      "verified_direct_quotes": [
+        "Meet Caltech alumnus and Technologist Behind Airbnb \"Joebot\"",
+        "At Caltech, he pursued graduate work in bioengineering, designing biomolecules and created algorithms for self-assembling nucleic-acid structures."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/colorado-angie-greenwald.txt",
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "publisher": "University of Colorado Boulder",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official CU Boulder staff biography; reviewed the campus-specific undergraduate degree sentence.",
+      "sha256": "a74448cd2cc624c4d6bc46b546b178f34a7b95789a3582799b67df2d15f82021",
+      "source_id": "wave10-source-colorado-angie-greenwald",
+      "source_type": "official_institutional",
+      "source_url": "https://www.colorado.edu/linguistics/angie-greenwald",
+      "verified_direct_quotes": [
+        "Angie Greenwald graduated from CU-Boulder with a Bachelors degree in Psychology, and earned her Masters degree in Counseling Psychology on the CU-Denver campus."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/columbia-angeliki-frangou.txt",
+      "candidate_id": "candidate-v2:columbia-university",
+      "publisher": "Columbia University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Columbia Engineering Class Day biography; degree sentence directly supports attendance and program.",
+      "sha256": "abf3c05d0f589eb9d306e4e9b9be6c53752b883b5ed966e006f8e9666093257f",
+      "source_id": "wave10-source-columbia-angeliki-frangou",
+      "source_type": "official_institutional",
+      "source_url": "https://www.engineering.columbia.edu/about/news/navios-maritime-partners-ceo-angeliki-frangou-named-columbia-engineering-undergraduate-class-day",
+      "verified_direct_quotes": [
+        "Educated in the United States, Frangou graduated from Fairleigh Dickinson University with a bachelor's degree in mechanical engineering, summa cum laude, and earned her master's degree in mechanical engineering from Columbia University in 1988."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/emory-gabriel-marrero.txt",
+      "candidate_id": "candidate-v2:emory-university",
+      "publisher": "Emory University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Emory commencement feature; reviewed only the completed double-major sentence.",
+      "sha256": "956bffd9c0375a52e1d78653cf85140b0d3758b22718cc269bc3f42137b30e80",
+      "source_id": "wave10-source-emory-gabriel-marrero",
+      "source_type": "official_institutional",
+      "source_url": "https://news.emory.edu/features/2026/05/emory-universitys-class-2026",
+      "verified_direct_quotes": [
+        "Marrero, who grew up in the Bronx, New York, graduated from Emory College with a double major in psychology and philosophy."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/gatech-andre-dickens.txt",
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "publisher": "Georgia Institute of Technology",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Georgia Tech chemical engineering alumni news; reviewed the degree sentence.",
+      "sha256": "6d00504b2f59ebef85265055ad23ec684fddd1189407373c04f9ab34f624baa7",
+      "source_id": "wave10-source-gatech-andre-dickens",
+      "source_type": "official_institutional",
+      "source_url": "https://www.chbe.gatech.edu/news/2021/12/chbe-alumnus-elected-mayor-atlanta",
+      "verified_direct_quotes": [
+        "He holds a bachelor’s degree in chemical engineering from Georgia Tech and a Master’s of Public Administration from Georgia State University."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/harvard-mayesha-soshi.txt",
+      "candidate_id": "candidate-v2:harvard-university",
+      "publisher": "Harvard University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Harvard College alumni profile; reviewed only the short graduation and concentration sentences.",
+      "sha256": "3b4db3faef672deec0c36e7c74c96cc7fc8444ed894840f3f8ac6501e582c58e",
+      "source_id": "wave10-source-harvard-mayesha-soshi",
+      "source_type": "official_institutional",
+      "source_url": "https://college.harvard.edu/mayesha-soshi",
+      "verified_direct_quotes": [
+        "Hi! My name is Mayesha Soshi and I am a recent graduate from Harvard University.",
+        "I majored in Applied Mathematics with a focus on Computer Science and earned a concurrent master's in Computational Science and Engineering."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/hmc-gregory-rae.txt",
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "publisher": "Harvey Mudd College",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Harvey Mudd alumni award profile; reviewed the graduation and degree sentence.",
+      "sha256": "00fd34edee6b45d08fc8b77e664c520e5318158f78acb886ec8f4cadef2a6834",
+      "source_id": "wave10-source-hmc-gregory-rae",
+      "source_type": "official_institutional",
+      "source_url": "https://www.hmc.edu/about/2015/02/12/alumni-association-honors-mudd-alumni-friends/",
+      "verified_direct_quotes": [
+        "After graduating from Harvey Mudd with a degree in computer science and mathematics, Rae joined Google’s Log Analysis Group in 2000, helping to develop the Zeitgeist tool, which utilizes proprietary algorithms to garner critical information about top-trending global news."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/lehigh-janeya-allen.txt",
+      "candidate_id": "candidate-v2:lehigh-university",
+      "publisher": "Lehigh University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Lehigh alumni Class of 2025 profile; name/year, program field, and graduation sentence reviewed together.",
+      "sha256": "6110f8d3bd652ec85e8f0ec007e152fa1f8767a5f8b98c9e783767799710e267",
+      "source_id": "wave10-source-lehigh-janeya-allen",
+      "source_type": "official_institutional",
+      "source_url": "https://alumni.lehigh.edu/news-blog/2025-graduates-whats-next",
+      "verified_direct_quotes": [
+        "Janeya Allen ’25",
+        "Psychology",
+        "Balancing classes, a newborn, and a work schedule wasn’t easy, but Allen did it and graduated on time."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/minnesota-bruce-beckman.txt",
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "publisher": "University of Minnesota",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official University Awards alumni biography; reviewed the two Minnesota business degrees.",
+      "sha256": "62cd9662c50f80ca9a75077811449f20983f40447c840bd1014a278ab774c653",
+      "source_id": "wave10-source-minnesota-bruce-beckman",
+      "source_type": "official_institutional",
+      "source_url": "https://uawards.umn.edu/recipients-alumni-service-award/bruce-w-beckman",
+      "verified_direct_quotes": [
+        "Bruce W. Beckman received a bachelor of science degree in business (1990) and a master of business administration degree (1999) from the Carlson School of Management at the University of Minnesota."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/mit-jeremy-hahn.txt",
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "publisher": "Massachusetts Institute of Technology",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official MIT Mathematics faculty biography; reviewed only the education sentence.",
+      "sha256": "04deae47d251c52590956ec52813b3118bf1a824b85bdf110ed327d7e04abab0",
+      "source_id": "wave10-source-mit-jeremy-hahn",
+      "source_type": "official_institutional",
+      "source_url": "https://math.mit.edu/directory/profile.html?pid=2073",
+      "verified_direct_quotes": [
+        "He earned a bachelor's degree in mathematics from MIT in 2013 followed by a PhD from Harvard University in 2018."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/northeastern-alan-tobin.txt",
+      "candidate_id": "candidate-v2:northeastern-university",
+      "publisher": "Northeastern University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Northeastern alumni oral-history biography; reviewed the degree sentence.",
+      "sha256": "22ce9dd94b9ff2f2a17e25716c9f87a7b691f2b056759422aeb35daa1d760127",
+      "source_id": "wave10-source-northeastern-alan-tobin",
+      "source_type": "official_institutional",
+      "source_url": "https://voices.northeastern.edu/tobin/bio",
+      "verified_direct_quotes": [
+        "Graduating in 1952 with a degree in business administration was only the beginning of Alan Tobin’s lifetime involvement with Northeastern."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/osu-ali-wolf.txt",
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "publisher": "The Ohio State University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Ohio State economics alumni spotlight; reviewed the degree sentence.",
+      "sha256": "52b7c1958dacf84ce7c7d5c9a1aeb0f870cb5aa0ceeb539b9e812d74d9ddbab1",
+      "source_id": "wave10-source-osu-ali-wolf",
+      "source_type": "official_institutional",
+      "source_url": "https://economics.osu.edu/newsletter/2025/undergraduate-alumni-spotlight-ali-wolf",
+      "verified_direct_quotes": [
+        "Ali Wolf received her BS in Econ from Ohio State about 20 years ago and is now Chief Economist for Zonda, the largest data provider for the new home market in North America."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/princeton-elena-kagan.txt",
+      "candidate_id": "candidate-v2:princeton-university",
+      "publisher": "Princeton University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Princeton Alumni Day report; reviewed the graduation and history degree clause.",
+      "sha256": "a808f84d94867103fd4a8dc11b5e3338d333495ac2e0c90c84c60e18907ac003",
+      "source_id": "wave10-source-princeton-elena-kagan",
+      "source_type": "official_institutional",
+      "source_url": "https://www.princeton.edu/news/2025/02/25/us-supreme-court-justice-elena-kagan-nobel-laureate-david-card-recognized-princeton",
+      "verified_direct_quotes": [
+        "Kagan, who graduated in 1981 with a bachelor’s degree in history, received the Woodrow Wilson Award for undergraduate alumni."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/purdue-zihan-wang.txt",
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "publisher": "Purdue University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Purdue professional-practice annual report; reviewed only the alumni degree sentence.",
+      "sha256": "e4ef7c846cfeedf1e0dc511903a4c0078427edb439f433a313dfded2cf61ba3b",
+      "source_id": "wave10-source-purdue-zihan-wang",
+      "source_type": "official_institutional",
+      "source_url": "https://www.opp.purdue.edu/OPP/about/2020-2021-annual-report",
+      "verified_direct_quotes": [
+        "Zihan Wang graduated from Purdue University in 2020 with a Bachelor’s Degree in Computer Engineering and with a minor in Japanese and Global Engineering Studies."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/rochester-elizabeth-arendt.txt",
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "publisher": "University of Rochester",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Rochester Athletic Hall of Fame biography; reviewed the completed biology degree field.",
+      "sha256": "08d2fd4793a819ed9208a56c53fc640aa74b4878ff0cd7f6e174085c8d8b6db1",
+      "source_id": "wave10-source-rochester-elizabeth-arendt",
+      "source_type": "official_institutional",
+      "source_url": "https://www.rochester.edu/athletics/halloffame/bios/arendt_elizabeth.html",
+      "verified_direct_quotes": [
+        "Graduated Summa Cum Laude with a baccalaureate degree in Biology in 1975"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/rose-hulman-charles-clancy.txt",
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "publisher": "Rose-Hulman Institute of Technology",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Rose-Hulman alumni awards page; the graduation sentence and program/year field are reviewed together.",
+      "sha256": "fd56a887c477a34df32b8c54ea090dc567f8d5e3564a28023c9b352deb586ed6",
+      "source_id": "wave10-source-rose-hulman-charles-clancy",
+      "source_type": "official_institutional",
+      "source_url": "https://www.rose-hulman.edu/news/2025/alumni-recognized-for-career-achievements-institute-contributions.html",
+      "verified_direct_quotes": [
+        "After graduating from Rose-Hulman, Clancy earned a master’s degree in electrical engineering from the University of Illinois and a doctorate in computer science from the University of Maryland.",
+        "Computer Engineering , 2001"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/rutgers-maggie-albright-pierce.txt",
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "publisher": "Rutgers University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Rutgers Psychology graduate-alumni directory; directory heading, resolved name, and specialization reviewed together.",
+      "sha256": "5235c19399c0915cddf3a56f0fb0e3bf819a29388866bcadf81add14615cb011",
+      "source_id": "wave10-source-rutgers-maggie-albright-pierce",
+      "source_type": "official_institutional",
+      "source_url": "https://psych.rutgers.edu/people/gradalum",
+      "verified_direct_quotes": [
+        "Graduate Alumni",
+        "Maggie Albright-Pierce",
+        "Social Psychology"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/tufts-faith-blake.txt",
+      "candidate_id": "candidate-v2:tufts-university",
+      "publisher": "Tufts University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Tufts alumni feature; image caption directly states alumna identity and biology field.",
+      "sha256": "949978013443bdc7c46049b90502a1fcfe1d404448640cd8e3675e20de5b35e2",
+      "source_id": "wave10-source-tufts-faith-blake",
+      "source_type": "official_institutional",
+      "source_url": "https://alumniandfriends.tufts.edu/news/science-teaching-and-lifelong-learning-evolution-career",
+      "verified_direct_quotes": [
+        "Tufts biology alumna Faith Blake, A13."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/uchicago-sara-kalantari.txt",
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "publisher": "University of Chicago",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official University of Chicago publication; reviewed the education sentence.",
+      "sha256": "0856cfad179ed702afd04596e3f86bc4c37b4174bb8e4ffe90e1f376d3a21f20",
+      "source_id": "wave10-source-uchicago-sara-kalantari",
+      "source_type": "official_institutional",
+      "source_url": "https://wc.uchicago.edu/files/2018/01/UC_DOMW_News_March2017_02.pdf",
+      "verified_direct_quotes": [
+        "Dr. Sara Kalantari received her bachelor’s degree in Biology from the University of Chicago, and her medical degree from the Pritzker School of Medicine."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/uci-andy-le.txt",
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "publisher": "University of California, Irvine",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official UCI alumni page; reviewed the alumnus sentence and degree sentence.",
+      "sha256": "e7cd4559d2dd10ea51c68827e2fd447e28b21feaa154e0b5f2257b76650a165e",
+      "source_id": "wave10-source-uci-andy-le",
+      "source_type": "official_institutional",
+      "source_url": "https://www.humanities.uci.edu/aas/alumni",
+      "verified_direct_quotes": [
+        "Andy is a proud UCI alumnus from the Class of 2014.",
+        "Andy received his B.A. in Criminology, Law and Society with a minor in Asian American Studies."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/ucla-jocelyn-meza.txt",
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "publisher": "University of California, Los Angeles",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official UCLA Newsroom profile; retained the short degree clause verbatim.",
+      "sha256": "c2c5a8d4ddc0b225b8104e0ed44fdf2e955b7338e49a1b62f126828f4caa3f8c",
+      "source_id": "wave10-source-ucla-jocelyn-meza",
+      "source_type": "official_institutional",
+      "source_url": "https://newsroom.ucla.edu/stories/ucla-props-psychology-research-opportunity-programs",
+      "verified_direct_quotes": [
+        "after earning her bachelor’s degree in psychology from UCLA and a wealth of related research experience and guidance through PROPS"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/ucsd-ankur-jalota.txt",
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "publisher": "University of California San Diego",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official UC San Diego alumni-contributor profile; alumni name/year and major field reviewed together.",
+      "sha256": "65a3a5451319b3495475ca3da5f09834299d1233aaee6a334892ac28f25a1688",
+      "source_id": "wave10-source-ucsd-ankur-jalota",
+      "source_type": "official_institutional",
+      "source_url": "https://socialsciences.ucsd.edu/giving/profiles-in-giving.html",
+      "verified_direct_quotes": [
+        "Ankur Jalota ’04",
+        "Major:  Cognitive Science"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/uiuc-aaron-schumm.txt",
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "publisher": "University of Illinois Urbana-Champaign",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Gies College alumni feature; reviewed only the alumnus-and-degree sentence.",
+      "sha256": "9fbd596954058ea654513d8e4703a1c60720c61bd92c326e460b2775e9b8a0a5",
+      "source_id": "wave10-source-uiuc-aaron-schumm",
+      "source_type": "official_institutional",
+      "source_url": "https://giesbusiness.illinois.edu/news/2024/04/26/schumm-working-to-help-people--companies-close-savings-gap",
+      "verified_direct_quotes": [
+        "Schumm, a 2000 Gies College of Business alumnus with a degree in finance, described his company’s mission as solving the problem of the savings gap."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/umd-evan-newman.txt",
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "publisher": "University of Maryland",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official UMD lab team biography; reviewed only the completed biology degree sentence.",
+      "sha256": "17e1ec7c92d0c587d6e287b86fd5d601d28ffeb2c7337683d72370466bf2a77d",
+      "source_id": "wave10-source-umd-evan-newman",
+      "source_type": "official_institutional",
+      "source_url": "https://stroka.umd.edu/team.html",
+      "verified_direct_quotes": [
+        "Evan Newman graduated from the University of Maryland College Park with a Bachelor’s Degree in Biology in May 2025."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/unc-mark-mine.txt",
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "publisher": "University of North Carolina at Chapel Hill",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official UNC Computer Science alumni magazine; reviewed the short degree-and-name introduction only.",
+      "sha256": "b143fa52b3ea3c96af11755fdcdf29e363a4beb18b044aa83f4a9f06355d68f2",
+      "source_id": "wave10-source-unc-mark-mine",
+      "source_type": "official_institutional",
+      "source_url": "https://www.cs.unc.edu/NewsAndNotes/Issue53/issue53.pdf",
+      "verified_direct_quotes": [
+        "A degree from UNC Computer Science can lead to some magical careers. Just ask Mark Mine (PhD 1997),"
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/ut-austin-amy-wong.txt",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "publisher": "The University of Texas at Austin",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Texas Global staff biography; reviewed the completed degree sentence.",
+      "sha256": "84b3f4b6e207a4f4bf42c90ab0c2d4c0590f3b506d104b05a9dc4cf32252e9a9",
+      "source_id": "wave10-source-ut-austin-amy-wong",
+      "source_type": "official_institutional",
+      "source_url": "https://global.utexas.edu/about/staff/directory/wong",
+      "verified_direct_quotes": [
+        "Before that, though, she graduated from UT Austin with a degree in Finance and Mathematics."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/wisconsin-pranav-karra.txt",
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "publisher": "University of Wisconsin–Madison",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official CALS recent-alumni page; reviewed the completed-degree sentence.",
+      "sha256": "ede04c9b24dc19933f936abf42ac38a1b6154adfe00fbdcd9a13f9fac1e8fda6",
+      "source_id": "wave10-source-wisconsin-pranav-karra",
+      "source_type": "official_institutional",
+      "source_url": "https://cals.wisc.edu/alumni/recent-alumni/",
+      "verified_direct_quotes": [
+        "Pranav Karra, who grew up in Menomonee Falls, Wisconsin, graduated this winter with a bachelor’s in biology."
+      ]
+    },
+    {
+      "accessed_date": "2026-07-21",
+      "cache_path": "cache/stage3d-fill-program-people-wave10/yale-kahlil-greene.txt",
+      "candidate_id": "candidate-v2:yale-university",
+      "publisher": "Yale University",
+      "quote_verification_method": "local_cache_substring_check",
+      "retrieval_or_review_notes": "Official Yale Alumni Association spotlight; reviewed the degree sentence.",
+      "sha256": "af978bc080636733c90769957849a2e0a51ec051c19fde5af2924fb143b98a2c",
+      "source_id": "wave10-source-yale-kahlil-greene",
+      "source_type": "official_institutional",
+      "source_url": "https://alumni.yale.edu/news/black-history-month-alumni-identity-spotlight-kahlil-greene-22",
+      "verified_direct_quotes": [
+        "Kahlil graduated from Yale with a degree in History and served as the college’s first-ever Black student body president."
+      ]
+    }
+  ]
+}

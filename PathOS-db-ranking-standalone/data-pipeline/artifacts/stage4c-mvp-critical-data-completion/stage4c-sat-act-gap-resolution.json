@@ -1,0 +1,3817 @@
+{
+  "record_type": "stage4c_sat_act_gap_resolution",
+  "universities": [
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:boston-college",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1501,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 720,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 710,
+            "percentile_75": 760
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 32,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:boston-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1473,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 720,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 680,
+            "percentile_75": 740
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:brown-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1546,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 31,
+            "percentile_75": 33
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:bucknell-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1389,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 660,
+            "percentile_75": 740
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 640,
+            "percentile_75": 710
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1545,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 770,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 730,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:columbia-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1547,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 730,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:cornell-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1520,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 720,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1533,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 780
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:duke-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1539,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 770,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 32,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:emory-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1507,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 750,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 710,
+            "percentile_75": 760
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 32,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:georgetown-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1494,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 690,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 700,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 28,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1447,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 680,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 650,
+            "percentile_75": 740
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 36
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:harvard-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1553,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 780
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 36
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1537,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 720,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 27,
+            "percentile_75": 32
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1308,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 580,
+            "percentile_75": 710
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 590,
+            "percentile_75": 690
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1553,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 780,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 750,
+            "percentile_75": 780
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 31,
+            "percentile_75": 33
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:lehigh-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1432,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 680,
+            "percentile_75": 760
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 670,
+            "percentile_75": 730
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 27,
+            "percentile_75": 31
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1283,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 570,
+            "percentile_75": 660
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 590,
+            "percentile_75": 680
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 36
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1553,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 780,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 730,
+            "percentile_75": 780
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:new-york-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1527,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 720,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:northeastern-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1505,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 750,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 710,
+            "percentile_75": 760
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:northwestern-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1526,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 730,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 29,
+            "percentile_75": 32
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1407,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 680,
+            "percentile_75": 760
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 650,
+            "percentile_75": 720
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1540,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 720,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:princeton-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1535,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 780
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 27,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1342,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 600,
+            "percentile_75": 750
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 590,
+            "percentile_75": 710
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 36
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:rice-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1553,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 770,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 730,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 29,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1389,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 660,
+            "percentile_75": 760
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 620,
+            "percentile_75": 710
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 28,
+            "percentile_75": 33
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1383,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 640,
+            "percentile_75": 760
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 630,
+            "percentile_75": 720
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:stanford-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1553,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 770,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 780
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 25,
+            "percentile_75": 31
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1272,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 570,
+            "percentile_75": 700
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 570,
+            "percentile_75": 680
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:tufts-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1513,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 750,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 710,
+            "percentile_75": 760
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1554,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 770,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 28,
+            "percentile_75": 33
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1353,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 610,
+            "percentile_75": 720
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 620,
+            "percentile_75": 700
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 28,
+            "percentile_75": 33
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-florida",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1397,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 650,
+            "percentile_75": 750
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 650,
+            "percentile_75": 730
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 25,
+            "percentile_75": 32
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1301,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 570,
+            "percentile_75": 700
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 590,
+            "percentile_75": 690
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 29,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1418,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 640,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 630,
+            "percentile_75": 730
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 22,
+            "percentile_75": 28
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1220,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 560,
+            "percentile_75": 660
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 570,
+            "percentile_75": 660
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 32,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1463,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 700,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 670,
+            "percentile_75": 740
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 31,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1473,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 680,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 670,
+            "percentile_75": 750
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 27,
+            "percentile_75": 31
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1359,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 670,
+            "percentile_75": 760
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 640,
+            "percentile_75": 720
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 30,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1454,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 690,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 680,
+            "percentile_75": 750
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1510,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 730,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 710,
+            "percentile_75": 760
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1545,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 770,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 730,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 31,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1480,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 710,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 690,
+            "percentile_75": 750
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 26,
+            "percentile_75": 32
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1297,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 580,
+            "percentile_75": 690
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 600,
+            "percentile_75": 690
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 32,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1501,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 740,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 700,
+            "percentile_75": 760
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 27,
+            "percentile_75": 33
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1380,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 610,
+            "percentile_75": 760
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 620,
+            "percentile_75": 730
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 32,
+            "percentile_75": 34
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1488,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 710,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 700,
+            "percentile_75": 750
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": "Not reported",
+        "missing_reason": "official_act_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      },
+      "candidate_id": "candidate-v2:university-of-washington",
+      "sat": {
+        "display_label": "Not reported",
+        "missing_reason": "official_sat_range_not_available",
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "not_reported",
+        "value": null
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 28,
+            "percentile_75": 32
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1402,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 700,
+            "percentile_75": 780
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 660,
+            "percentile_75": 730
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 34,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1550,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 770,
+            "percentile_75": 790
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1530,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 770,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 730,
+            "percentile_75": 770
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    },
+    {
+      "act": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "composite": {
+            "percentile_25": 33,
+            "percentile_75": 35
+          },
+          "evidence_type": "middle_50_percent_range",
+          "null_reason": null,
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score"
+        }
+      },
+      "candidate_id": "candidate-v2:yale-university",
+      "sat": {
+        "display_label": null,
+        "missing_reason": null,
+        "percentage_submitting": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "status": "verified_middle_50",
+        "value": {
+          "availability_status": "verified",
+          "average": 1534,
+          "evidence_type": "middle_50_percent_range",
+          "math": {
+            "percentile_25": 760,
+            "percentile_75": 800
+          },
+          "null_reason": null,
+          "reading_writing": {
+            "percentile_25": 740,
+            "percentile_75": 780
+          },
+          "reference_year": 2025,
+          "reference_year_semantics": "dataset_release_year",
+          "reporting_population": "enrolled_students_who_submitted_scores",
+          "source_ids": [
+            "source_stage4b_college_scorecard_2025_05_19"
+          ],
+          "unit": "score",
+          "warnings": [
+            "score reporting does not establish a current test-optional policy"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "exceptions": [],
+  "geography_policy": "IPEDS county/CBSA codes and reviewed Census place links only",
+  "record_type": "stage4b_reviewed_geography_exceptions"
+}

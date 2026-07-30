@@ -249,14 +249,20 @@ export interface UniversityPOI {
   chineseName: string;
   country: string;
   city: string;
-  latitude: number;
-  longitude: number;
+  // Gate-bloker repair #RG-P0-B: legacy POI fields used to be
+  // non-nullable, so the legacy mapper had to zero-fill them and
+  // downstream components rendered Y NaN / 0/100 / "low" / (0,0).
+  // Making them nullable means consumers can no longer paper over
+  // missing values with `?? 0`; instead they render an empty-state
+  // label such as "学费数据补充中".
+  latitude: number | null;
+  longitude: number | null;
   rankingBand: string;
   rankingTier: RankingTier;
-  annualCostRmb: number;
-  safetyScore: number; // 0鈥?00
-  recognitionScore: number; // 0鈥?00
-  chineseCommunity: ChineseCommunityLevel;
+  annualCostRmb: number | null;
+  safetyScore: number | null; // 0-100
+  recognitionScore: number | null; // 0-100
+  chineseCommunity: ChineseCommunityLevel | null;
   directFlight: boolean;
   postStudyVisa: string;
   programs: string[];
@@ -264,6 +270,8 @@ export interface UniversityPOI {
   studentHighlights: string[];
   verifiedAt: string;
   sourceCount: number;
+  admissionRate: number | null;
+  studentFacultyRatio: number | null;
 
   // 鈹€鈹€ Campus Experience 鈹€鈹€
   /** Google / MapLibre Street View panorama ID for this campus. */

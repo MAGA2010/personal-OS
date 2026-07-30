@@ -1,0 +1,22 @@
+{
+  "binary_or_build_content_count": 0,
+  "derived_display_data_present": true,
+  "files_sha256_pinned": 26,
+  "frontend_commit": null,
+  "frontend_commit_null_reason": "not_provided_by_handoff",
+  "json_files_parsed": 18,
+  "manifest_contains_per_file_sha256": false,
+  "manifest_record_count": 7132,
+  "mock_or_demo_record_count": 35,
+  "not_authoritative": true,
+  "record_type": "stage4a_handoff_integrity_report",
+  "requires_backend_reconciliation": true,
+  "secret_findings_count": 0,
+  "source_handoff_path": "/Users/jiayihuang/PathOS-db-ranking/handoff/frontend-data-extraction",
+  "stage4a_pin_supplies_per_file_sha256": true,
+  "total_files": 26,
+  "total_size_bytes": 15968327,
+  "traceable_record_count": 7132,
+  "ui_only_record_count": 10,
+  "valid": true
+}

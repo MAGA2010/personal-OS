@@ -1,0 +1,3692 @@
+{
+  "frontend_hardcoded_contributions": 0,
+  "record_type": "stage4c_verified_enrichment_overlay",
+  "records": [
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:arizona-state-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:arizona-state-university",
+      "value": "亚利桑那州立大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:arizona-state-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:arizona-state-university",
+      "value": 14419,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:arizona-state-university:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:arizona-state-university",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:arizona-state-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:arizona-state-university",
+      "value": 78817,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:boston-college:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:boston-college",
+      "value": "波士顿学院",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:boston-college:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:boston-college",
+      "value": 5197,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:boston-college:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:boston-college",
+      "value": 15062,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:boston-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:boston-university",
+      "value": "波士顿大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:boston-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:boston-university",
+      "value": 17968,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:boston-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:boston-university",
+      "value": 35818,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:brown-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:brown-university",
+      "value": "布朗大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:brown-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:brown-university",
+      "value": 3775,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:brown-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:brown-university",
+      "value": 11048,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:bucknell-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:bucknell-university",
+      "value": "巴克内尔大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:bucknell-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:bucknell-university",
+      "value": 46,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:bucknell-university:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:bucknell-university",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:bucknell-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:bucknell-university",
+      "value": 3864,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:california-institute-of-technology:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:california-institute-of-technology",
+      "value": "加州理工学院",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:california-institute-of-technology:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:california-institute-of-technology",
+      "value": 1440,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:california-institute-of-technology:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:california-institute-of-technology",
+      "value": 2463,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:carnegie-mellon-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:carnegie-mellon-university",
+      "value": "卡内基梅隆大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:carnegie-mellon-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:carnegie-mellon-university",
+      "value": 8307,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:carnegie-mellon-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:carnegie-mellon-university",
+      "value": 15494,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:columbia-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:columbia-university",
+      "value": "哥伦比亚大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:columbia-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:columbia-university",
+      "value": 26168,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:columbia-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:columbia-university",
+      "value": 35067,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:cornell-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:cornell-university",
+      "value": "康奈尔大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:cornell-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:cornell-university",
+      "value": 10213,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:cornell-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:cornell-university",
+      "value": 26148,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:dartmouth-college:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:dartmouth-college",
+      "value": "达特茅斯学院",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:dartmouth-college:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:dartmouth-college",
+      "value": 2299,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:dartmouth-college:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:dartmouth-college",
+      "value": 6666,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:duke-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:duke-university",
+      "value": "杜克大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:duke-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:duke-university",
+      "value": 10624,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:duke-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:duke-university",
+      "value": 17041,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:emory-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:emory-university",
+      "value": "埃默里大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:emory-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:emory-university",
+      "value": 7687,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:emory-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:emory-university",
+      "value": 14962,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:georgetown-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:georgetown-university",
+      "value": "乔治城大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:georgetown-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:georgetown-university",
+      "value": 12424,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:georgetown-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:georgetown-university",
+      "value": 19886,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:georgia-institute-of-technology:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:georgia-institute-of-technology",
+      "value": "佐治亚理工学院",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:georgia-institute-of-technology:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:georgia-institute-of-technology",
+      "value": 28441,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:georgia-institute-of-technology:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:georgia-institute-of-technology",
+      "value": 46701,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:harvard-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:harvard-university",
+      "value": "哈佛大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:harvard-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:harvard-university",
+      "value": 21291,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:harvard-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:harvard-university",
+      "value": 29046,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:harvey-mudd-college:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:harvey-mudd-college",
+      "value": "哈维穆德学院",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:harvey-mudd-college:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:harvey-mudd-college",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:indiana-university-bloomington:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:indiana-university-bloomington",
+      "value": "印第安纳大学伯明顿分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:indiana-university-bloomington:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:indiana-university-bloomington",
+      "value": 10694,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:indiana-university-bloomington:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:indiana-university-bloomington",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:indiana-university-bloomington:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:indiana-university-bloomington",
+      "value": 47265,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:johns-hopkins-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:johns-hopkins-university",
+      "value": "约翰斯·霍普金斯大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:johns-hopkins-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:johns-hopkins-university",
+      "value": 24273,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:johns-hopkins-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:johns-hopkins-university",
+      "value": 29890,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:lehigh-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:lehigh-university",
+      "value": "理海大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:lehigh-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:lehigh-university",
+      "value": 1779,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:lehigh-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:lehigh-university",
+      "value": 7582,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:loyola-university-chicago:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:loyola-university-chicago",
+      "value": "芝加哥洛约拉大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:loyola-university-chicago:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:loyola-university-chicago",
+      "value": 4910,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:loyola-university-chicago:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:loyola-university-chicago",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:loyola-university-chicago:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:loyola-university-chicago",
+      "value": 16486,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:massachusetts-institute-of-technology:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:massachusetts-institute-of-technology",
+      "value": "麻省理工学院",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:massachusetts-institute-of-technology:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:massachusetts-institute-of-technology",
+      "value": 7344,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:massachusetts-institute-of-technology:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:massachusetts-institute-of-technology",
+      "value": 11915,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:new-york-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:new-york-university",
+      "value": "纽约大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:new-york-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:new-york-university",
+      "value": 27575,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:new-york-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:new-york-university",
+      "value": 57005,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:northeastern-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:northeastern-university",
+      "value": "东北大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:northeastern-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:northeastern-university",
+      "value": 15268,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:northeastern-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:northeastern-university",
+      "value": 30987,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:northwestern-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:northwestern-university",
+      "value": "西北大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:northwestern-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:northwestern-university",
+      "value": 14046,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:northwestern-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:northwestern-university",
+      "value": 23006,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:ohio-state-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:ohio-state-university",
+      "value": "俄亥俄州立大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:ohio-state-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:ohio-state-university",
+      "value": 14318,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:ohio-state-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:ohio-state-university",
+      "value": 58935,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:olin-college-of-engineering:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:olin-college-of-engineering",
+      "value": "欧林工程学院",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:olin-college-of-engineering:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:olin-college-of-engineering",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:princeton-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:princeton-university",
+      "value": "普林斯顿大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:princeton-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:princeton-university",
+      "value": 3251,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:princeton-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:princeton-university",
+      "value": 8830,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:purdue-university-main-campus:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:purdue-university-main-campus",
+      "value": "普渡大学主校区",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:purdue-university-main-campus:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:purdue-university-main-campus",
+      "value": 13041,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:purdue-university-main-campus:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:purdue-university-main-campus",
+      "value": 52678,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:rice-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:rice-university",
+      "value": "莱斯大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:rice-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:rice-university",
+      "value": 3982,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:rice-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:rice-university",
+      "value": 8544,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:rose-hulman-institute-of-technology:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "value": "罗斯-霍曼理工学院",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:rose-hulman-institute-of-technology:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "value": 15,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:rose-hulman-institute-of-technology:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:rose-hulman-institute-of-technology:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "value": 2239,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:rutgers-university-new-brunswick:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:rutgers-university-new-brunswick",
+      "value": "罗格斯大学新布朗斯维克分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:rutgers-university-new-brunswick:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:rutgers-university-new-brunswick",
+      "value": 14029,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:rutgers-university-new-brunswick:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:rutgers-university-new-brunswick",
+      "value": 50386,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:stanford-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:stanford-university",
+      "value": "斯坦福大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:stanford-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:stanford-university",
+      "value": 10392,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:stanford-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:stanford-university",
+      "value": 18233,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:texas-a-and-m-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:texas-a-and-m-university",
+      "value": "德州农工大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:texas-a-and-m-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:texas-a-and-m-university",
+      "value": 16700,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:texas-a-and-m-university:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:texas-a-and-m-university",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:texas-a-and-m-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:texas-a-and-m-university",
+      "value": 75799,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:tufts-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:tufts-university",
+      "value": "塔夫茨大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:tufts-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:tufts-university",
+      "value": 6397,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:tufts-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:tufts-university",
+      "value": 13201,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-california-berkeley:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-california-berkeley",
+      "value": "加州大学伯克利分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-berkeley:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-berkeley",
+      "value": 12621,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-berkeley:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-berkeley",
+      "value": 45694,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-california-davis:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-california-davis",
+      "value": "加州大学戴维斯分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-davis:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-davis",
+      "value": 7910,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-davis:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-davis",
+      "value": 39687,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-california-irvine:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-california-irvine",
+      "value": "加州大学欧文分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-irvine:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-irvine",
+      "value": 7079,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-irvine:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-irvine",
+      "value": 36573,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-california-los-angeles:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-california-los-angeles",
+      "value": "加州大学洛杉矶分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-los-angeles:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-los-angeles",
+      "value": 13638,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-los-angeles:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-los-angeles",
+      "value": 46678,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-california-san-diego:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-california-san-diego",
+      "value": "加州大学圣地亚哥分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-san-diego:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-san-diego",
+      "value": 8584,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-san-diego:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-san-diego",
+      "value": 42371,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-california-santa-barbara:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-california-santa-barbara",
+      "value": "加州大学圣塔芭芭拉分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-santa-barbara:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-santa-barbara",
+      "value": 2836,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-california-santa-barbara:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-california-santa-barbara",
+      "value": 26041,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-chicago:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-chicago",
+      "value": "芝加哥大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-chicago:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-chicago",
+      "value": 10696,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-chicago:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-chicago",
+      "value": 18236,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-colorado-boulder:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-colorado-boulder",
+      "value": "科罗拉多大学博尔德分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-colorado-boulder:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-colorado-boulder",
+      "value": 9327,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:university-of-colorado-boulder:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:university-of-colorado-boulder",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-colorado-boulder:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-colorado-boulder",
+      "value": 40905,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-florida:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-florida",
+      "value": "佛罗里达大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-florida:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-florida",
+      "value": 19890,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-florida:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-florida",
+      "value": 53992,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-georgia:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-georgia",
+      "value": "佐治亚大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-georgia:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-georgia",
+      "value": 10101,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-georgia:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-georgia",
+      "value": 41411,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-illinois-urbana-champaign:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "value": "伊利诺伊大学厄巴纳-香槟分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-illinois-urbana-champaign:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "value": 20999,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-illinois-urbana-champaign:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "value": 55622,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-iowa:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-iowa",
+      "value": "爱荷华大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-iowa:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-iowa",
+      "value": 7912,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:university-of-iowa:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:university-of-iowa",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-iowa:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-iowa",
+      "value": 29603,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-maryland-college-park:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-maryland-college-park",
+      "value": "马里兰大学帕克分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-maryland-college-park:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-maryland-college-park",
+      "value": 10205,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-maryland-college-park:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-maryland-college-park",
+      "value": 40451,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-michigan-ann-arbor:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "value": "密歇根大学安娜堡分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-michigan-ann-arbor:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "value": 18335,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-michigan-ann-arbor:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "value": 51823,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-minnesota-twin-cities:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "value": "明尼苏达大学双城分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-minnesota-twin-cities:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "value": 15334,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:university-of-minnesota-twin-cities:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-minnesota-twin-cities:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "value": 45803,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-north-carolina-chapel-hill:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "value": "北卡罗来纳大学教堂山分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-north-carolina-chapel-hill:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "value": 11553,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-north-carolina-chapel-hill:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "value": 32109,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-notre-dame:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-notre-dame",
+      "value": "圣母大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-notre-dame:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-notre-dame",
+      "value": 4206,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-notre-dame:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-notre-dame",
+      "value": 13129,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-pennsylvania:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-pennsylvania",
+      "value": "宾夕法尼亚大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-pennsylvania:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-pennsylvania",
+      "value": 17100,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-pennsylvania:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-pennsylvania",
+      "value": 27868,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-rochester:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-rochester",
+      "value": "罗切斯特大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-rochester:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-rochester",
+      "value": 5396,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-rochester:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-rochester",
+      "value": 11884,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-south-carolina-columbia:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-south-carolina-columbia",
+      "value": "南卡罗来纳大学哥伦比亚分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-south-carolina-columbia:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-south-carolina-columbia",
+      "value": 8109,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "national_ranking_status",
+      "record_id": "stage4c:candidate-v2:university-of-south-carolina-columbia:national_ranking_status",
+      "reference_year": 2026,
+      "scope": "selected_national_ranking_family",
+      "source_ids": [
+        "source_stage4b_ranking_scope"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "status",
+      "university_id": "candidate-v2:university-of-south-carolina-columbia",
+      "value": "not_in_current_national_scope",
+      "verification_status": "verified",
+      "warnings": [
+        "null rank is not zero"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-south-carolina-columbia:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-south-carolina-columbia",
+      "value": 36222,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-southern-california:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-southern-california",
+      "value": "南加州大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-southern-california:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-southern-california",
+      "value": 26124,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-southern-california:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-southern-california",
+      "value": 46941,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-texas-austin:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-texas-austin",
+      "value": "德克萨斯大学奥斯汀分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-texas-austin:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-texas-austin",
+      "value": 10638,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-texas-austin:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-texas-austin",
+      "value": 52738,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-virginia:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-virginia",
+      "value": "弗吉尼亚大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-virginia:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-virginia",
+      "value": 8312,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-virginia:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-virginia",
+      "value": 25627,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-washington:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-washington",
+      "value": "华盛顿大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-washington:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-washington",
+      "value": 16105,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-washington:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-washington",
+      "value": 47693,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:university-of-wisconsin-madison:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:university-of-wisconsin-madison",
+      "value": "威斯康星大学麦迪逊分校",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-wisconsin-madison:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-wisconsin-madison",
+      "value": 12808,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:university-of-wisconsin-madison:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:university-of-wisconsin-madison",
+      "value": 48473,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:vanderbilt-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:vanderbilt-university",
+      "value": "范德堡大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:vanderbilt-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:vanderbilt-university",
+      "value": 6304,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:vanderbilt-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:vanderbilt-university",
+      "value": 13447,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:washington-university-in-st-louis:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:washington-university-in-st-louis",
+      "value": "圣路易斯华盛顿大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:washington-university-in-st-louis:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:washington-university-in-st-louis",
+      "value": 8233,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:washington-university-in-st-louis:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:washington-university-in-st-louis",
+      "value": 16130,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "chinese_display_name",
+      "record_id": "stage4c:candidate-v2:yale-university:chinese_display_name",
+      "reference_year": 2026,
+      "scope": "reviewed_localization_alias",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "display_alias",
+      "university_id": "candidate-v2:yale-university",
+      "value": "耶鲁大学",
+      "verification_status": "verified",
+      "warnings": [
+        "display alias only; canonical English identity unchanged"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": false,
+      "field": "graduate_enrollment",
+      "record_id": "stage4c:candidate-v2:yale-university:graduate_enrollment",
+      "reference_year": 2019,
+      "scope": "graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:yale-university",
+      "value": 8263,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    },
+    {
+      "confidence": "high",
+      "derived": true,
+      "field": "total_enrollment",
+      "record_id": "stage4c:candidate-v2:yale-university:total_enrollment",
+      "reference_year": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "supersedes_stage4b_record_id": null,
+      "unit": "students",
+      "university_id": "candidate-v2:yale-university",
+      "value": 15074,
+      "verification_status": "verified",
+      "warnings": [
+        "reference year follows frozen Scorecard cohort map; values are not current-cycle counts"
+      ]
+    }
+  ]
+}

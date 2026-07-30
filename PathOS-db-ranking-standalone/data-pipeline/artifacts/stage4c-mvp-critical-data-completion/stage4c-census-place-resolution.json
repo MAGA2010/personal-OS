@@ -1,0 +1,1557 @@
+{
+  "record_type": "stage4c_census_place_resolution",
+  "universities": [
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 33.417721,
+        "longitude": -111.934383,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "confidence": "high",
+      "county_geoid": "04013",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0473000",
+      "place_name": "Tempe",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.336213,
+        "longitude": -71.169242,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:boston-college",
+      "confidence": "high",
+      "county_geoid": "25017",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "25017",
+        "name": "Middlesex County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.351118,
+        "longitude": -71.107942,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:boston-university",
+      "confidence": "high",
+      "county_geoid": "25025",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "25025",
+        "name": "Suffolk County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 41.82617,
+        "longitude": -71.40385,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:brown-university",
+      "confidence": "high",
+      "county_geoid": "44007",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "4459000",
+      "place_name": "Providence",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.954317,
+        "longitude": -76.882616,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:bucknell-university",
+      "confidence": "high",
+      "county_geoid": "42119",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "4242976",
+      "place_name": "Lewisburg",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 34.137349,
+        "longitude": -118.125878,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "confidence": "high",
+      "county_geoid": "06037",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0656000",
+      "place_name": "Pasadena",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.44357,
+        "longitude": -79.941993,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "confidence": "high",
+      "county_geoid": "42003",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "4261000",
+      "place_name": "Pittsburgh",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.808286,
+        "longitude": -73.961885,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:columbia-university",
+      "confidence": "high",
+      "county_geoid": "36061",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "36061",
+        "name": "New York County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.4472,
+        "longitude": -76.483084,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:cornell-university",
+      "confidence": "high",
+      "county_geoid": "36109",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "3638077",
+      "place_name": "Ithaca",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 43.704115,
+        "longitude": -72.289949,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "confidence": "high",
+      "county_geoid": "33009",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "3333780",
+      "place_name": "Hanover",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 36.001135,
+        "longitude": -78.937624,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:duke-university",
+      "confidence": "high",
+      "county_geoid": "37063",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "3719000",
+      "place_name": "Durham",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 33.790183,
+        "longitude": -84.325512,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:emory-university",
+      "confidence": "high",
+      "county_geoid": "13089",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "13089",
+        "name": "DeKalb County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 38.908809,
+        "longitude": -77.073463,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:georgetown-university",
+      "confidence": "high",
+      "county_geoid": "11001",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1150000",
+      "place_name": "Washington",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 33.77242,
+        "longitude": -84.394832,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "confidence": "high",
+      "county_geoid": "13121",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1304000",
+      "place_name": "Atlanta",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.374471,
+        "longitude": -71.118313,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:harvard-university",
+      "confidence": "high",
+      "county_geoid": "25017",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "2511000",
+      "place_name": "Cambridge",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 34.106515,
+        "longitude": -117.709837,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "confidence": "high",
+      "county_geoid": "06037",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0613756",
+      "place_name": "Claremont",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 39.16609,
+        "longitude": -86.526559,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "confidence": "high",
+      "county_geoid": "18105",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1805860",
+      "place_name": "Bloomington",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 39.328977,
+        "longitude": -76.621595,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "confidence": "high",
+      "county_geoid": "24510",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "2404000",
+      "place_name": "Baltimore",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.606822,
+        "longitude": -75.380236,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:lehigh-university",
+      "confidence": "high",
+      "county_geoid": "42095",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "4206088",
+      "place_name": "Bethlehem",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.000765,
+        "longitude": -87.656872,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "confidence": "high",
+      "county_geoid": "17031",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "17031",
+        "name": "Cook County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.359243,
+        "longitude": -71.093226,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "confidence": "high",
+      "county_geoid": "25017",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "2511000",
+      "place_name": "Cambridge",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.729452,
+        "longitude": -73.997264,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:new-york-university",
+      "confidence": "high",
+      "county_geoid": "36061",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "36061",
+        "name": "New York County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.339992,
+        "longitude": -71.088782,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:northeastern-university",
+      "confidence": "high",
+      "county_geoid": "25025",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "25025",
+        "name": "Suffolk County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.050356,
+        "longitude": -87.679858,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:northwestern-university",
+      "confidence": "high",
+      "county_geoid": "17031",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1724582",
+      "place_name": "Evanston",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 39.999803,
+        "longitude": -83.007525,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "confidence": "high",
+      "county_geoid": "39049",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "3918000",
+      "place_name": "Columbus",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.293527,
+        "longitude": -71.263378,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "confidence": "high",
+      "county_geoid": "25021",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "2544140",
+      "place_name": "Needham",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.348732,
+        "longitude": -74.659365,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:princeton-university",
+      "confidence": "high",
+      "county_geoid": "34021",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "3460900",
+      "place_name": "Princeton",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.428206,
+        "longitude": -86.914435,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "confidence": "high",
+      "county_geoid": "18157",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1882862",
+      "place_name": "West Lafayette",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 29.717897,
+        "longitude": -95.402035,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:rice-university",
+      "confidence": "high",
+      "county_geoid": "48201",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "48201",
+        "name": "Harris County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 39.483602,
+        "longitude": -87.326749,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "confidence": "high",
+      "county_geoid": "18167",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1875428",
+      "place_name": "Terre Haute",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.498769,
+        "longitude": -74.446251,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "confidence": "high",
+      "county_geoid": "34023",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "3451210",
+      "place_name": "New Brunswick",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 37.429434,
+        "longitude": -122.167359,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:stanford-university",
+      "confidence": "high",
+      "county_geoid": "06085",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0673906",
+      "place_name": "Stanford",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 30.618726,
+        "longitude": -96.336475,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "confidence": "high",
+      "county_geoid": "48041",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "4815976",
+      "place_name": "College Station",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.40855,
+        "longitude": -71.118293,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:tufts-university",
+      "confidence": "high",
+      "county_geoid": "25017",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "2539835",
+      "place_name": "Medford",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 37.871918,
+        "longitude": -122.260463,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "confidence": "high",
+      "county_geoid": "06001",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0606000",
+      "place_name": "Berkeley",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 38.539667,
+        "longitude": -121.749567,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "confidence": "high",
+      "county_geoid": "06113",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0618100",
+      "place_name": "Davis",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 33.648434,
+        "longitude": -117.841248,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "confidence": "high",
+      "county_geoid": "06059",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0636770",
+      "place_name": "Irvine",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 34.07178,
+        "longitude": -118.442179,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "confidence": "high",
+      "county_geoid": "06037",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0644000",
+      "place_name": "Los Angeles",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 32.877749,
+        "longitude": -117.235866,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "confidence": "high",
+      "county_geoid": "06073",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "06073",
+        "name": "San Diego County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 34.416297,
+        "longitude": -119.846426,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "confidence": "high",
+      "county_geoid": "06083",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "06083",
+        "name": "Santa Barbara County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 41.787994,
+        "longitude": -87.599539,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "confidence": "high",
+      "county_geoid": "17031",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1714000",
+      "place_name": "Chicago",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.008781,
+        "longitude": -105.270823,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "confidence": "high",
+      "county_geoid": "08013",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0807850",
+      "place_name": "Boulder",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 29.64629,
+        "longitude": -82.347911,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-florida",
+      "confidence": "high",
+      "county_geoid": "12001",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1225175",
+      "place_name": "Gainesville",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 33.956262,
+        "longitude": -83.374039,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "confidence": "high",
+      "county_geoid": "13059",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "13059",
+        "name": "Clarke County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 40.104718,
+        "longitude": -88.229114,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "confidence": "high",
+      "county_geoid": "17019",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1712385",
+      "place_name": "Champaign",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 41.661935,
+        "longitude": -91.536425,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "confidence": "high",
+      "county_geoid": "19103",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1938595",
+      "place_name": "Iowa City",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 38.988178,
+        "longitude": -76.944721,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "confidence": "high",
+      "county_geoid": "24033",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "2418750",
+      "place_name": "College Park",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 42.278374,
+        "longitude": -83.73481,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "confidence": "high",
+      "county_geoid": "26161",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "2603000",
+      "place_name": "Ann Arbor",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 44.972851,
+        "longitude": -93.235464,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "confidence": "high",
+      "county_geoid": "27053",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "2743000",
+      "place_name": "Minneapolis",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 35.911769,
+        "longitude": -79.050969,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "confidence": "high",
+      "county_geoid": "37135",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "3711800",
+      "place_name": "Chapel Hill",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 41.703058,
+        "longitude": -86.238959,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "confidence": "high",
+      "county_geoid": "18141",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "1855386",
+      "place_name": "Notre Dame",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 39.950929,
+        "longitude": -75.19391,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "confidence": "high",
+      "county_geoid": "42101",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "42101",
+        "name": "Philadelphia County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 43.126397,
+        "longitude": -77.631202,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "confidence": "high",
+      "county_geoid": "36055",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "3663000",
+      "place_name": "Rochester",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 33.996788,
+        "longitude": -81.026935,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "confidence": "high",
+      "county_geoid": "45079",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "45079",
+        "name": "Richland County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 34.021281,
+        "longitude": -118.284169,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "confidence": "high",
+      "county_geoid": "06037",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "06037",
+        "name": "Los Angeles County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 30.282825,
+        "longitude": -97.738273,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "confidence": "high",
+      "county_geoid": "48453",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "4805000",
+      "place_name": "Austin",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 38.035665,
+        "longitude": -78.503428,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "confidence": "high",
+      "county_geoid": "51003",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "5114968",
+      "place_name": "Charlottesville",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 47.65538,
+        "longitude": -122.30514,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-washington",
+      "confidence": "high",
+      "county_geoid": "53033",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "5363000",
+      "place_name": "Seattle",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 43.075409,
+        "longitude": -89.404098,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "confidence": "high",
+      "county_geoid": "55025",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "5548000",
+      "place_name": "Madison",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 36.14659,
+        "longitude": -86.803369,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "confidence": "high",
+      "county_geoid": "47037",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "47037",
+        "name": "Davidson County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 38.647929,
+        "longitude": -90.310604,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "confidence": "high",
+      "county_geoid": "29189",
+      "fallback_geography": {
+        "geography_type": "county",
+        "geoid": "29189",
+        "name": "St. Louis County"
+      },
+      "join_method": "reviewed_county_fallback",
+      "nearest_town_used": false,
+      "place_geoid": null,
+      "place_name": null,
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "no_safe_place_join_in_frozen_official_inputs",
+      "resolution_status": "county_only_valid",
+      "reviewed_exception": true
+    },
+    {
+      "address": null,
+      "campus_coordinates": {
+        "latitude": 41.311158,
+        "longitude": -72.926688,
+        "reference_year": 2024,
+        "source_ids": [
+          "source_stage4b_ipeds_hd2024"
+        ]
+      },
+      "candidate_id": "candidate-v2:yale-university",
+      "confidence": "high",
+      "county_geoid": "09170",
+      "fallback_geography": null,
+      "join_method": "reviewed_campus_city_census_place_link",
+      "nearest_town_used": false,
+      "place_geoid": "0952000",
+      "place_name": "New Haven",
+      "place_type": null,
+      "postal_city_assumed_place": false,
+      "reason": "reviewed_stage3c2_campus_place_link",
+      "resolution_status": "verified_place",
+      "reviewed_exception": false
+    }
+  ]
+}

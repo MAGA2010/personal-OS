@@ -1,0 +1,151 @@
+{
+  "directive": "Stage 7B-A.1 — Regional Heatmap Control Unification, Rendering Recovery and Map Toolbar Collision Fix",
+  "directiveDate": "2026-07-25",
+  "patchAuthor": "stage7b-a1-patch",
+  "rationale": "Eliminate the duplicate heatmap entry (top 5-button row + RegionalLayerControl dropdown), fix the 'select metric, map stays gray' bug, and consolidate the map toolbar collision.",
+  "previousSha256": "not tracked (this is the first edit; pre-edit SHAs were not snapshotted because no formal change-tracking was wired before this patch)",
+  "files": [
+    {
+      "path": "src/regional/useRegionalMetric.ts",
+      "status": "added",
+      "sha256": "a6b7c179f66ac7abcc843e603dc305800c4fdf82cadb128be63b12f74b9d381e",
+      "summary": "Single source-of-truth hook for active regional metric. URL query `?region=` is canonical; popstate listener handles back/forward; invalid values fall back to null."
+    },
+    {
+      "path": "src/components/map/MapToolbar.tsx",
+      "status": "added",
+      "sha256": "38a92a69980f314fbd825ae189538dfad4cbf6259500173593a39ec8bc091d1c",
+      "summary": "Unified top-right map toolbar. Replaces the legacy right-3 top-3 z-10 flex row that stacked RegionalLayerControl + StateSelector + visibility badge + drill-down helper. Single flex-wrap row with max-width and outside-click dropdown closure."
+    },
+    {
+      "path": "src/components/map/map-zindex.ts",
+      "status": "added",
+      "sha256": "78389b93a36f3c643341ce42265c114481091c7eb526ceb2b667d2f5377ff027",
+      "summary": "MAP_Z z-index token system (basemap 0 → modal 50) with paired CSS variable names. Single source of truth — literals like z-10/z-20/z-30 are forbidden inside src/components/map/."
+    },
+    {
+      "path": "src/test/unit/stage7ba1-heatmap-control-unification.test.ts",
+      "status": "added",
+      "sha256": "51113d3d6546d2028260c5effd94ac9c711a3b91984eef0072b577fcec04fc24",
+      "summary": "41 pure-logic / source-text assertions: URL parser, regional metric allow-list (cost is forbidden), z-index token system, MapToolbar contract, RegionalLayerControl options, MapShell source invariants, RegionalLegend visibility, Tailwind tokens, style.load preservation, Stage 7B-A checkpoint + data invariants."
+    },
+    {
+      "path": "src/components/map/MapShell.tsx",
+      "status": "modified",
+      "sha256": "49e2345bbd50e1ffddc35ebc41e2674b665ec072ead9997307a296f194903093",
+      "summary": "Removed legacy <MetricTabs> invocations (desktop + mobile sub-bar). Replaced useState<RegionalMetricId|null>(null) with useRegionalMetric() hook. Removed showStateDropdown local state (now owned by MapToolbar). Replaced z-10/z-20/z-30 literals with z-map-toolbar / z-map-legend / z-map-profile / z-map-control tokens. Mounted <MapToolbar> in place of the inline toolbar div."
+    },
+    {
+      "path": "src/components/map/regional/RegionalLayerControl.tsx",
+      "status": "modified",
+      "sha256": "a178dabe6783d79f3498c0a8ccb615de7528fa28ad4e884b751b281985b658b9",
+      "summary": "Added data-testid='regional-layer-control' on outer div and data-testid='regional-layer-control-select' on select element. Source option set is now sourced from REGIONAL_METRIC_IDS so the dropdown stays in sync with the hook's allow-list."
+    },
+    {
+      "path": "src/components/map/regional/RegionalLegend.tsx",
+      "status": "modified",
+      "sha256": "176395bb2800722094c4d0af07c01b3eaee1c20a77579b4864d26b895c9cb93d",
+      "summary": "Added data-testid='regional-legend' on outer div. Existing activeMetricId === null guard preserved (legend hidden when no heatmap)."
+    },
+    {
+      "path": "tailwind.config.ts",
+      "status": "modified",
+      "sha256": "caa03a414ee6b4e22e4d788179ee8912ef687fae1427c3c6e8608fc1e46a0cf1",
+      "summary": "Added zIndex extension with 11 named tokens (map-basemap / map-region / map-city / map-marker / map-hover / map-control / map-toolbar / map-legend / map-tooltip / map-profile / map-modal)."
+    }
+  ],
+  "docs": [
+    {
+      "path": "docs/STAGE7B-A1-HEATMAP-CONTROL-UNIFICATION-PLAN.md",
+      "kind": "plan",
+      "summary": "14-section Chinese plan covering problem statement, state design, toolbar layout, z-index tokens, 4-metric verification, legend uniqueness, style.load stress, dark mode, data invariants, automated tests, checkpoint rules."
+    },
+    {
+      "path": "docs/STAGE7B-A1-HEATMAP-CONTROL-UNIFICATION-DEVLOG.md",
+      "kind": "devlog",
+      "summary": "7-section developer log: reproduction, fix chain, automated tests, regression results, SSR/hydration notes, residual risks, file manifest."
+    },
+    {
+      "path": "docs/STAGE7B-A1-HEATMAP-CONTROL-UNIFICATION-REPORT.md",
+      "kind": "report",
+      "summary": "32-section Chinese report covering scope, single authoritative entry, single state source, fix chain, 4-metric rendering, cost exclusion, toolbar layout, z-index tokens, dark mode, legend uniqueness, style.load lifecycle, Baidu boundary, data invariants, automated tests, regression, runtime, curl matrix, console/network audit, documentation, checkpoint rules, file manifest, residual items, AK isolation, immutability confirmation, Re-Gate readiness, no-self-PASS declaration, port/process, next steps, no-Stage-7B-B confirmation, summary."
+    },
+    {
+      "path": "docs/STAGE7B-A1-HEATMAP-CONTROL-UNIFICATION-CHANGE-MANIFEST.json",
+      "kind": "change-manifest",
+      "summary": "This file. Per-file SHA256 + status (added/modified) + summary."
+    }
+  ],
+  "checkpoint": {
+    "previousStage": "stage7b-a-pass-2026-07-25",
+    "previousStagePath": "/Users/jiayihuang/Downloads/PathOS-checkpoints/stage7b-a-pass-2026-07-25/",
+    "previousStageImmutability": "preserved — not touched by Stage 7B-A.1 patch",
+    "nextCheckpointName": "stage7b-a1-heatmap-ui-pass-2026-07-25",
+    "nextCheckpointCreated": false,
+    "nextCheckpointRule": "Created only after independent Re-Gate PASS"
+  },
+  "regression": {
+    "tsc": "exit 0",
+    "lint": "0 warning / 0 error",
+    "vitest": "276 passed / 0 failed (235 prior + 41 new)",
+    "build": "15 routes compiled",
+    "devServerRuntime": "0 error / 0 warning",
+    "curlVariants": {
+      "/map": "200 — 区域图层 / 选择州 / 州级色块图 / map-toolbar",
+      "/map?region=chinese_population": "200 — 华人水平 / 区域图层 / 选择州",
+      "/map?region=safety": "200 — 安全系数 / 区域图层 / 选择州",
+      "/map?region=none": "200 — 区域图层 / 选择州 / 州级色块图 (no legend)",
+      "/map?region=cost": "200 — fall back to none (州级色块图)"
+    }
+  },
+  "dataInvariants": {
+    "regional-data-validation.json": {
+      "recordsTotal": 204,
+      "recordsVerified": 204,
+      "readyMetricCount": 4,
+      "duplicateGeoIds": 0,
+      "missingCount": 0,
+      "outlierCount": 0,
+      "perMetricCount": 51,
+      "perMetricMissingCount": 0,
+      "outOfScopeMetrics": ["cost"],
+      "blockedMetrics": ["admission_rate"]
+    },
+    "regional-data-manifest.json": {
+      "metricCount": 4,
+      "readyMetricCount": 4,
+      "blockedMetricCount": 1,
+      "outOfScopeMetricCount": 1,
+      "recordCount": 204
+    },
+    "previewBundleSha256": "88f3dd6081df38b051872cc5c8bf5b12dd08e9dee072780f20becfc8e9170bd2",
+    "previewBundleImmutability": "preserved — not modified by Stage 7B-A.1 patch",
+    "backendHeadSha": "b73e61ec4fda11b7c72e74c14e414fbe2c74300f",
+    "backendImmutability": "preserved — Stage 7B-A.1 patch only touches frontend/"
+  },
+  "isolationRules": {
+    "envLocalTouched": false,
+    "backendTrackedFilesTouched": false,
+    "previewBundleTouched": false,
+    "sourceWorkbookTouched": false,
+    "universityDataFactsTouched": false,
+    "matchAlgorithmTouched": false,
+    "stage6TagTouched": false,
+    "stage7baCheckpointTouched": false,
+    "gitPush": false,
+    "gitTag": false,
+    "productionDataExport": false
+  },
+  "akIsolation": {
+    "realAkInSource": false,
+    "realAkInGit": false,
+    "realAkInDocs": false,
+    "realAkInLogs": false,
+    "realAkInScreenshots": false,
+    "realAkInChangeManifest": false,
+    "realAkInTestFixtures": false,
+    "realAkInCheckpoints": false,
+    "akReference": "process.env.BAIDU_MAP_AK (runtime only)"
+  },
+  "declaration": "READY FOR INDEPENDENT RE-GATE — NOT SELF-PASS. No checkpoint / tag / push created."
+}

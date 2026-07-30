@@ -1,0 +1,849 @@
+{
+  "record_type": "stage4c_national_ranking_status",
+  "universities": [
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "display_label": "#36",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 36,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "display_label": "#42",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 42,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "display_label": "#13",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 13,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "display_label": "#11",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 11,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "display_label": "#20",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 20,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "display_label": "#15",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 15,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "display_label": "#12",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 12,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "display_label": "#13",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 13,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "display_label": "#7",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 7,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "display_label": "#24",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 24,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "display_label": "#24",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 24,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "display_label": "#32",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 32,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "display_label": "#3",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 3,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "usn-2026-best-colleges-press-release"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "display_label": "#7",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 7,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "display_label": "#46",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 46,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "display_label": "#2",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 2,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "usn-2026-best-colleges-press-release"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "display_label": "#32",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 32,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "display_label": "#46",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 46,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "display_label": "#7",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 7,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "display_label": "#41",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 41,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "display_label": "#1",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 1,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "usn-2026-best-colleges-press-release"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "display_label": "#46",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 46,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "display_label": "#17",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 17,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "display_label": "#42",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 42,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "display_label": "#4",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 4,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "display_label": "#36",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 36,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "display_label": "#15",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 15,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "display_label": "#32",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 32,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "display_label": "#32",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 32,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "display_label": "#17",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 17,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "display_label": "#29",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 29,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "display_label": "#40",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 40,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "display_label": "#6",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 6,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "display_label": "#30",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 30,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "display_label": "#46",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 46,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "display_label": "#36",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 36,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "display_label": "#42",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 42,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "display_label": "#20",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 20,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "display_label": "#26",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 26,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "display_label": "#20",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 20,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "display_label": "#7",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 7,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "display_label": "#46",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 46,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "display_label": "Not in selected national ranking scope",
+      "filter_behavior": "exclude_from_numeric_range",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": null,
+      "program_rank_used_as_national": false,
+      "ranking_status": "not_in_current_national_scope",
+      "reason": "no membership in selected national top-50 family",
+      "source_ids": []
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "display_label": "#28",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 28,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "display_label": "#30",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 30,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "display_label": "#26",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 26,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "display_label": "#42",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 42,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "display_label": "#36",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 36,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "display_label": "#17",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 17,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "display_label": "#20",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 20,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "display_label": "#4",
+      "filter_behavior": "include_as_ranked",
+      "membership_basis": "frozen_stage2_national_top50_membership",
+      "membership_modified": false,
+      "national_rank": 4,
+      "program_rank_used_as_national": false,
+      "ranking_status": "ranked_in_selected_national_family",
+      "reason": "verified frozen national rank",
+      "source_ids": [
+        "source_think_academy_top100_2026_pdf"
+      ]
+    }
+  ]
+}

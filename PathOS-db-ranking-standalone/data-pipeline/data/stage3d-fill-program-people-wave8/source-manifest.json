@@ -1,0 +1,255 @@
+{
+  "record_type": "stage3d_fill_program_people_wave8_source_manifest_input",
+  "sources": [
+    {
+      "source_id": "wave8-bucknell-helen-reetz-civil",
+      "candidate_id": "candidate-v2:bucknell-university",
+      "source_url": "https://engineeringnews.blogs.bucknell.edu/ec4-2025-program/",
+      "publisher": "Bucknell University College of Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Helen Reetz ’78, civil engineering (self employed — attorney)"],
+      "retrieval_or_review_notes": "Official Bucknell Engineering alumni panelist page; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-dartmouth-allison-lange-biology",
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "source_url": "https://admissions.dartmouth.edu/academics/areas-of-study/physical-life-sciences",
+      "publisher": "Dartmouth College Admissions",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Allison Lange ’01", "Major: Biology"],
+      "retrieval_or_review_notes": "Official Dartmouth alumni study profile; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-duke-louis-damico-biology",
+      "candidate_id": "candidate-v2:duke-university",
+      "source_url": "https://gradschool.duke.edu/professional-development/blog/alumni-profiles-series-louis-damico/",
+      "publisher": "Duke University Graduate School",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Louis D’Amico, who studied developmental biology and insect physiology with Dr. Fred Nijhout after receiving his B.A. in Biology from Kenyon College, graduated from Duke with a Ph.D. in Biology in 2004."],
+      "retrieval_or_review_notes": "Official Duke Graduate School alumni profile; only the reviewed short sentence is cached."
+    },
+    {
+      "source_id": "wave8-emory-alexander-adeseye-economics",
+      "candidate_id": "candidate-v2:emory-university",
+      "source_url": "https://economics.emory.edu/alumni/alumni-spotlight.html",
+      "publisher": "Emory University Department of Economics",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Alexander W. Adeseye 18C", "My current fascination with antitrust and consumer protection law directly stems from my study of economics at Emory."],
+      "retrieval_or_review_notes": "Official Economics alumni spotlight; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-georgetown-yamiche-alcindor-government",
+      "candidate_id": "candidate-v2:georgetown-university",
+      "source_url": "https://www.georgetown.edu/who-we-are/alumni-stories/",
+      "publisher": "Georgetown University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Yamiche Alcindor (C’09) studied government and English at Georgetown and has gone on to be a nationally recognized journalist."],
+      "retrieval_or_review_notes": "Official Georgetown alumni stories page; only the reviewed short sentence is cached."
+    },
+    {
+      "source_id": "wave8-georgia-tech-shannon-evanchec-environmental",
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "source_url": "https://ce.gatech.edu/news/2022/05/6-cee-alumni-honored-georgia-tech-college-engineering",
+      "publisher": "Georgia Tech School of Civil and Environmental Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Samantha Becker, CE 16, and Shannon Evanchec, EnvE 16", "After earning their bachelor’s degrees, Becker (civil engineering) and Evanchec (environmental engineering) participated in CREATE-X and incorporated TruePani."],
+      "retrieval_or_review_notes": "Official Georgia Tech alumni award page; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-georgia-tech-gennadiy-gurevich-industrial",
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "source_url": "https://www.scheller.gatech.edu/news/2025/gennadiy-gurevich-gives-back.html",
+      "publisher": "Georgia Tech Scheller College of Business",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Gennadiy Gurevich, B.S. Industrial Engineering ‘13 and Denning T&M ‘11"],
+      "retrieval_or_review_notes": "Official Georgia Tech alumni feature; only the reviewed short excerpt is cached."
+    },
+    {
+      "source_id": "wave8-harvard-will-ahmed-economics",
+      "candidate_id": "candidate-v2:harvard-university",
+      "source_url": "https://seas.harvard.edu/news/how-whoop-founder-will-ahmed-found-his-voice-entrepreneur",
+      "publisher": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Will Ahmed, A.B. '12", "Ahmed, who dual-concentrated in economics and government"],
+      "retrieval_or_review_notes": "Official Harvard alumni feature; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-michigan-corina-mommaerts-economics",
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "source_url": "https://lsa.umich.edu/econ/news-events/all-news/alumni-news/wolverine-pride-does-not-end-at-graduation-.html",
+      "publisher": "University of Michigan Department of Economics",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Corina Mommaerts graduated highest honors with a Bachelor of Arts in Economics in 2008."],
+      "retrieval_or_review_notes": "Official Michigan Economics alumni news; only the reviewed short sentence is cached."
+    },
+    {
+      "source_id": "wave8-minnesota-nick-alm-mis",
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "source_url": "https://carlsonschool.umn.edu/news/nick-alm-encourages-class-2018-find-their-truth",
+      "publisher": "University of Minnesota Carlson School of Management",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Nick Alm, '18 BSB, gave the student commencement address to his fellow graduating classmates.", "Alm graduated with a Management Information Systems major."],
+      "retrieval_or_review_notes": "Official Carlson School commencement profile; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-notre-dame-erich-kerekes-cs",
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "source_url": "https://domerdozen.nd.edu/previous-honorees-2024/",
+      "publisher": "Notre Dame Alumni Association",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Erich Kerekes ’15", "Kerekes graduated summa cum laude from Notre Dame with a degree in computer science in 2015."],
+      "retrieval_or_review_notes": "Official Notre Dame young alumni honors page; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-nyu-henry-kaufman-economics",
+      "candidate_id": "candidate-v2:new-york-university",
+      "source_url": "https://www.stern.nyu.edu/portal-partners/alumni/alumni-news-profiles/news/stern-pioneer-dr-henry-kaufman",
+      "publisher": "NYU Stern School of Business",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["After earning his BA in Economics from NYU, an MS in Finance from Columbia University, and a Ph.D. in Finance from NYU Stern"],
+      "retrieval_or_review_notes": "Official NYU Stern alumni profile; only the reviewed short excerpt is cached."
+    },
+    {
+      "source_id": "wave8-purdue-mac-cross-mechanical",
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "source_url": "https://engineering.purdue.edu/ME/News/alumni-profile-mac-cross",
+      "publisher": "Purdue University School of Mechanical Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Alumni Profile: Mac Cross", "Michael \"Mac\" Cross (MSME '11)"],
+      "retrieval_or_review_notes": "Official Purdue Mechanical Engineering alumni profile; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-rice-michael-maher-economics",
+      "candidate_id": "candidate-v2:rice-university",
+      "source_url": "https://alumni.rice.edu/2026-laureates-award-honorees",
+      "publisher": "Rice University Alumni",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Michael D. Maher, Ph. D., ’75, ’79, ’80", "After earning his B.A., M.A. and Ph.D. in economics from Rice, Maher"],
+      "retrieval_or_review_notes": "Official Rice Alumni Laureates profile; only the reviewed short excerpt is cached."
+    },
+    {
+      "source_id": "wave8-rutgers-neel-patel-finance",
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "source_url": "https://www.business.rutgers.edu/news/alumni-profile-investment-masters-program-pays-quickly",
+      "publisher": "Rutgers Business School",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Neel Patel earned a Bachelor of Science degree from Rutgers Business School in 2013 majoring in finance and a Master of Financial Analysis from RBS in 2016."],
+      "retrieval_or_review_notes": "Official Rutgers Business School alumni profile; only the reviewed short sentence is cached."
+    },
+    {
+      "source_id": "wave8-tamu-rick-wilkinson-industrial",
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "source_url": "https://engineering.tamu.edu/news/2023/04/wilkinson-wins-former-student-award-in-industrial-engineering.html",
+      "publisher": "Texas A&M University Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Rick Wilkinson '82 received the 2023 Distinguished Former Student Award", "Wilkinson received his bachelor's degree in industrial engineering"],
+      "retrieval_or_review_notes": "Official Texas A&M distinguished former student profile; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-tufts-john-baronian-economics",
+      "candidate_id": "candidate-v2:tufts-university",
+      "source_url": "https://dl.tufts.edu/downloads/ft8494057?filename=0k225q92k.pdf",
+      "publisher": "Tufts University Digital Library",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["John Baronian Annual Outstanding Football Lineman Award", "Known as \"Mr. Tufts,\" Baronian received an undergraduate degree in economics from Tufts in 1950"],
+      "retrieval_or_review_notes": "Official Tufts archival publication; the positive fact relies on the explicitly stated earned degree, not an honorary relationship."
+    },
+    {
+      "source_id": "wave8-uchicago-hassan-ali-economics",
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "source_url": "https://college.uchicago.edu/news/student-stories/alumni-spotlight-apples-and-onions",
+      "publisher": "The College at the University of Chicago",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Hassan S. Ali, AB’07", "As an undergraduate at UChicago, Ali majored in economics"],
+      "retrieval_or_review_notes": "Official College alumni spotlight; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-florida-aaron-sandoval-biology",
+      "candidate_id": "candidate-v2:university-of-florida",
+      "source_url": "https://biology.ufl.edu/spring-summer-2020-newsletter/2020/congratulations-to-biology-student-aaron-sandoval/",
+      "publisher": "University of Florida Department of Biology",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Aaron Sandoval graduated in spring 2020 with many honors and research accomplishments.", "Graduating this spring with a B.S. degree in Biology is Aaron Sandoval"],
+      "retrieval_or_review_notes": "Official UF Biology profile; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-uga-kaitlin-shumate-biology",
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "source_url": "https://cellbio.uga.edu/alumni",
+      "publisher": "University of Georgia Department of Cellular Biology",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Kaitlin Shumate majored in Cellular Biology and graduated in Spring 2012."],
+      "retrieval_or_review_notes": "Official UGA Cellular Biology alumni page; only the reviewed short sentence is cached."
+    },
+    {
+      "source_id": "wave8-usc-nadia-urke-human-biology",
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "source_url": "https://dornsife.usc.edu/news/stories/injury-derails-olympic-hopeful-but-shapes-her-advocacy-and-career-path/",
+      "publisher": "USC Dornsife",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Urke recovered and was accepted to USC Dornsife, where she studied human biology with minors in dance medicine and health care studies", "She graduated in 2016"],
+      "retrieval_or_review_notes": "Official USC Dornsife alumni story; only reviewed short excerpts are cached."
+    },
+    {
+      "source_id": "wave8-wisconsin-adi-murali-cs",
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "source_url": "https://www.cs.wisc.edu/2019/05/29/uw-changes-lives-galphacs-fosters-a-new-generation-of-entrepreneurs-at-uw-madison/",
+      "publisher": "UW–Madison Department of Computer Sciences",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Murali graduated from UW-Madison with a degree in Computer Science in the spring of 2019."],
+      "retrieval_or_review_notes": "Official UW–Madison Computer Sciences profile; only the reviewed short sentence is cached."
+    },
+    {
+      "source_id": "wave8-vanderbilt-ashwin-kumar-cs",
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "source_url": "https://engineering.vanderbilt.edu/2023/05/12/computer-science-alum-ashwin-kumar-named-2023-knight-hennessy-scholar/",
+      "publisher": "Vanderbilt University School of Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Kumar graduated from Vanderbilt University with a bachelor’s degree in computer science and neuroscience and a master’s degree in computer science."],
+      "retrieval_or_review_notes": "Official Vanderbilt Engineering alumni award profile; only the reviewed short sentence is cached."
+    },
+    {
+      "source_id": "wave8-uva-brittany-taylor-bme",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "source_url": "https://engineering.virginia.edu/department/biomedical-engineering/blogs/alumni-oped-conversation",
+      "publisher": "University of Virginia School of Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Brittany Taylor, who graduated with a bachelor of science degree in biomedical engineering from the Uiversity of Virginia"],
+      "retrieval_or_review_notes": "Official UVA Biomedical Engineering alumni article; source spelling is preserved verbatim in the quote."
+    },
+    {
+      "source_id": "wave8-yale-danielle-zucker-cs",
+      "candidate_id": "candidate-v2:yale-university",
+      "source_url": "https://law.yale.edu/meet-danielle-zucker-20",
+      "publisher": "Yale Law School",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Meet Danielle Zucker ’20", "Yale College; B.S. in Computer Science"],
+      "retrieval_or_review_notes": "Official Yale profile with explicit Yale College degree; only reviewed short excerpts are cached."
+    }
+  ]
+}

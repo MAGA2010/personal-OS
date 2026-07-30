@@ -22,20 +22,29 @@ interface CityDetailPanelProps {
   onAddToCompare?: (id: string) => void;
 }
 
-function formatCost(rmb: number): string {
-  if (!Number.isFinite(rmb) || rmb <= 0) return "暂无";
+function formatCost(rmb: number | null | undefined): string {
+  // Gate-bloker repair #RG-P0-H: cost is nullable now. A missing
+  // (null/undefined/<=0/non-finite) value renders the empty-state
+  // label, never "¥0.0万/年".
+  if (typeof rmb !== "number" || !Number.isFinite(rmb) || rmb <= 0) return "学费数据补充中";
   return `¥${(rmb / 10000).toFixed(1)}万/年`;
 }
 
-function formatAdmission(rate?: number): string {
-  if (typeof rate !== "number" || !Number.isFinite(rate)) return "暂无";
+function formatAdmission(rate?: number | null): string {
+  if (typeof rate !== "number" || !Number.isFinite(rate)) return "数据补充中";
   return `${rate.toFixed(rate < 10 ? 1 : 0)}%`;
 }
 
-function communityLabel(level: CityAggregate["dominantChineseCommunity"]): string {
+function communityLabel(level: CityAggregate["dominantChineseCommunity"] | null | undefined): string {
   if (level === "high") return "高";
   if (level === "medium") return "中";
-  return "低";
+  if (level === "low") return "低";
+  return "—";
+}
+
+function scoreLabel(score: number | null | undefined, unit = "/100"): string {
+  if (typeof score !== "number" || !Number.isFinite(score)) return "数据补充中";
+  return `${Math.round(score)}${unit}`;
 }
 
 /** Sidebar panel for the city stage of the state -> city -> university drill-down. */
@@ -75,9 +84,27 @@ export function CityDetailPanel({
         <div className="grid grid-cols-2 gap-2">
           <MetricCard icon={GraduationCap} label="大学数量" value={`${city.universityCount} 所`} />
           <MetricCard icon={DollarSign} label="平均费用" value={formatCost(city.avgAnnualCostRmb)} />
-          <MetricCard icon={Shield} label="平均安全" value={`${Math.round(city.avgSafetyScore)}/100`} />
-          <MetricCard icon={Users} label="华人社区" value={communityLabel(city.dominantChineseCommunity)} />
-          <MetricCard icon={Star} label="平均认可度" value={`${Math.round(city.avgRecognitionScore)}/100`} />
+          <MetricCard
+            icon={Shield}
+            label="平均安全"
+            value={city.universities.some((university) => typeof university.safetyScore === "number")
+              ? scoreLabel(city.avgSafetyScore)
+              : "数据补充中"}
+          />
+          <MetricCard
+            icon={Users}
+            label="华人社区"
+            value={city.universities.some((university) => university.chineseCommunity !== null)
+              ? communityLabel(city.dominantChineseCommunity)
+              : "数据补充中"}
+          />
+          <MetricCard
+            icon={Star}
+            label="平均认可度"
+            value={city.universities.some((university) => typeof university.recognitionScore === "number")
+              ? scoreLabel(city.avgRecognitionScore)
+              : "数据补充中"}
+          />
           <MetricCard icon={Plane} label="直飞覆盖" value={`${city.directFlightCount}/${city.universityCount}`} />
         </div>
       </div>
@@ -98,7 +125,7 @@ export function CityDetailPanel({
           <ul className="space-y-2" role="list">
             {city.universities.map((uni) => {
               const selected = uni.id === selectedUniversityId;
-              const admissionRate = (uni as typeof uni & { admissionRate?: number }).admissionRate;
+              const admissionRate = (uni as typeof uni & { admissionRate?: number | null }).admissionRate;
               return (
                 <li key={uni.id}>
                   <button
@@ -126,7 +153,7 @@ export function CityDetailPanel({
                       </span>
                       <span className="inline-flex items-center gap-1">
                         <Shield size={10} />
-                        {uni.safetyScore}/100
+                        {scoreLabel(uni.safetyScore)}
                       </span>
                       <span className="inline-flex items-center gap-1">
                         <GraduationCap size={10} />

@@ -1,0 +1,6 @@
+{
+  "automatic_frontend_overwrite_allowed": false,
+  "default_resolution": "verified_backend_wins",
+  "record_type": "stage4a_reviewed_conflict_resolutions",
+  "resolutions": []
+}

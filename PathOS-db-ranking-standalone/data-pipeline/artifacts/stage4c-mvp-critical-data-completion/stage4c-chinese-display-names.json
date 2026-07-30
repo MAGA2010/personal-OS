@@ -1,0 +1,951 @@
+{
+  "record_type": "stage4c_chinese_display_names",
+  "universities": [
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Arizona State University",
+      "display_name_zh": "亚利桑那州立大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:boston-college",
+      "canonical_id": "institution:boston-college",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Boston College",
+      "display_name_zh": "波士顿学院",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Boston University",
+      "display_name_zh": "波士顿大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Brown University",
+      "display_name_zh": "布朗大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Bucknell University",
+      "display_name_zh": "巴克内尔大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "California Institute of Technology",
+      "display_name_zh": "加州理工学院",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [
+        "Not Carnegie Mellon College"
+      ],
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Carnegie Mellon University",
+      "display_name_zh": "卡内基梅隆大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Columbia University",
+      "display_name_zh": "哥伦比亚大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Cornell University",
+      "display_name_zh": "康奈尔大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Dartmouth College",
+      "display_name_zh": "达特茅斯学院",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Duke University",
+      "display_name_zh": "杜克大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Emory University",
+      "display_name_zh": "埃默里大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Georgetown University",
+      "display_name_zh": "乔治城大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Georgia Institute of Technology",
+      "display_name_zh": "佐治亚理工学院",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Harvard University",
+      "display_name_zh": "哈佛大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Harvey Mudd College",
+      "display_name_zh": "哈维穆德学院",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Indiana University Bloomington",
+      "display_name_zh": "印第安纳大学伯明顿分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Johns Hopkins University",
+      "display_name_zh": "约翰斯·霍普金斯大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Lehigh University",
+      "display_name_zh": "理海大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Loyola University Chicago",
+      "display_name_zh": "芝加哥洛约拉大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Massachusetts Institute of Technology",
+      "display_name_zh": "麻省理工学院",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "New York University",
+      "display_name_zh": "纽约大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [
+        "US Northeastern University; not China's Northeastern University"
+      ],
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Northeastern University",
+      "display_name_zh": "东北大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [
+        "US Northwestern University"
+      ],
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Northwestern University",
+      "display_name_zh": "西北大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "The Ohio State University",
+      "display_name_zh": "俄亥俄州立大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Olin College of Engineering",
+      "display_name_zh": "欧林工程学院",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Princeton University",
+      "display_name_zh": "普林斯顿大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Purdue University—Main Campus",
+      "display_name_zh": "普渡大学主校区",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Rice University",
+      "display_name_zh": "莱斯大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Rose-Hulman Institute of Technology",
+      "display_name_zh": "罗斯-霍曼理工学院",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Rutgers University—New Brunswick",
+      "display_name_zh": "罗格斯大学新布朗斯维克分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Stanford University",
+      "display_name_zh": "斯坦福大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Texas A&M University",
+      "display_name_zh": "德州农工大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Tufts University",
+      "display_name_zh": "塔夫茨大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of California, Berkeley",
+      "display_name_zh": "加州大学伯克利分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of California, Davis",
+      "display_name_zh": "加州大学戴维斯分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of California, Irvine",
+      "display_name_zh": "加州大学欧文分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of California, Los Angeles",
+      "display_name_zh": "加州大学洛杉矶分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "canonical_id": "institution:university-of-california-san-diego",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of California, San Diego",
+      "display_name_zh": "加州大学圣地亚哥分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of California, Santa Barbara",
+      "display_name_zh": "加州大学圣塔芭芭拉分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Chicago",
+      "display_name_zh": "芝加哥大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Colorado Boulder",
+      "display_name_zh": "科罗拉多大学博尔德分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Florida",
+      "display_name_zh": "佛罗里达大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Georgia",
+      "display_name_zh": "佐治亚大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [
+        "Urbana-Champaign campus only"
+      ],
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Illinois Urbana-Champaign",
+      "display_name_zh": "伊利诺伊大学厄巴纳-香槟分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Iowa",
+      "display_name_zh": "爱荷华大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Maryland, College Park",
+      "display_name_zh": "马里兰大学帕克分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Michigan—Ann Arbor",
+      "display_name_zh": "密歇根大学安娜堡分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Minnesota Twin Cities",
+      "display_name_zh": "明尼苏达大学双城分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of North Carolina—Chapel Hill",
+      "display_name_zh": "北卡罗来纳大学教堂山分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Notre Dame",
+      "display_name_zh": "圣母大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Pennsylvania",
+      "display_name_zh": "宾夕法尼亚大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Rochester",
+      "display_name_zh": "罗切斯特大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [
+        "Not University of Southern California"
+      ],
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of South Carolina",
+      "display_name_zh": "南卡罗来纳大学哥伦比亚分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [
+        "Not University of South Carolina"
+      ],
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Southern California",
+      "display_name_zh": "南加州大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Texas—Austin",
+      "display_name_zh": "德克萨斯大学奥斯汀分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Virginia",
+      "display_name_zh": "弗吉尼亚大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [
+        "Seattle-based University of Washington; not Washington University in St. Louis"
+      ],
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Washington",
+      "display_name_zh": "华盛顿大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "University of Wisconsin—Madison",
+      "display_name_zh": "威斯康星大学麦迪逊分校",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Vanderbilt University",
+      "display_name_zh": "范德堡大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [
+        "Not University of Washington"
+      ],
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Washington University in St. Louis",
+      "display_name_zh": "圣路易斯华盛顿大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    },
+    {
+      "ambiguity_notes": [],
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "canonical_identity_changed": false,
+      "canonical_name_en": "Yale University",
+      "display_name_zh": "耶鲁大学",
+      "identity_match_basis": "candidate_id_and_canonical_english_name",
+      "machine_translation_claimed_official": false,
+      "manual_review_required": false,
+      "name_status": "reviewed_established",
+      "source_ids": [
+        "source_stage4c_reviewed_localization"
+      ]
+    }
+  ]
+}

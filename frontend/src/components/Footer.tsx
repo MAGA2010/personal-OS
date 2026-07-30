@@ -24,11 +24,11 @@ export default function Footer() {
           <div>
             <h3 className="mb-3 text-sm font-semibold text-panel/85">平台功能</h3>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              <Link href="/map" className="transition-colors hover:text-panel">留学地图</Link>
+              <Link href="/entry/map" className="transition-colors hover:text-panel">留学地图</Link>
               <Link href="/calculator" className="transition-colors hover:text-panel">留学计算器</Link>
-              <Link href="/match" className="transition-colors hover:text-panel">自主测验</Link>
-              <Link href="/assessment" className="transition-colors hover:text-panel">AI 学校评估</Link>
-              <Link href="/portfolio" className="transition-colors hover:text-panel">AI 清单分析</Link>
+              <Link href="/entry/match" className="transition-colors hover:text-panel">自主测验</Link>
+              <Link href="/entry/assessment" className="transition-colors hover:text-panel">AI 学校评估</Link>
+              <Link href="/entry/portfolio" className="transition-colors hover:text-panel">AI 清单分析</Link>
               <Link href="/news" className="transition-colors hover:text-panel">留学资讯</Link>
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function Footer() {
             <h3 className="mb-3 text-sm font-semibold text-panel/85">关于</h3>
             <div className="flex flex-col gap-2 text-sm">
               <span className="text-panel/60">PathOS MVP · 2026</span>
-              <span className="text-panel/60">数据来源：US News · 启德教育</span>
+              <span className="text-panel/60">数据来源可追溯 · Preview / Demo</span>
               <a
                 href="https://github.com/MAGA2010/PathOS"
                 target="_blank"

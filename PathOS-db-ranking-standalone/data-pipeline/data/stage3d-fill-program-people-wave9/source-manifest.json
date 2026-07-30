@@ -1,0 +1,255 @@
+{
+  "record_type": "stage3d_fill_program_people_wave9_source_manifest_input",
+  "sources": [
+    {
+      "source_id": "wave9-source-brown-jessica-meir",
+      "candidate_id": "candidate-v2:brown-university",
+      "source_url": "https://commencement.brown.edu/sites/default/files/2024-05/CHAP_Baccalaureate-Program_MP-3815-digital.pdf",
+      "publisher": "Brown University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Meir earned a bachelor’s degree in biology from Brown University in 1999"],
+      "retrieval_or_review_notes": "Official Brown commencement program; reviewed only the short degree sentence."
+    },
+    {
+      "source_id": "wave9-source-cmu-ted-decker",
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "source_url": "https://www.cmu.edu/leadership/president/lecture-series/speakers",
+      "publisher": "Carnegie Mellon University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["He earned a bachelor’s degree in English from The College of William and Mary and a master’s degree in business administration from Carnegie Mellon University."],
+      "retrieval_or_review_notes": "Official CMU speaker biography; degree sentence directly supports attendance and program."
+    },
+    {
+      "source_id": "wave9-source-caltech-sabeer-bhatia",
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "source_url": "https://www.ee.caltech.edu/news/new-caltech-trustees",
+      "publisher": "California Institute of Technology",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Two distinguished leaders in the computing industry—Michelle \"Mich\" Mathews-Spradlin, and Sabeer Bhatia (BS '91, EE)—have been elected to the Caltech Board of Trustees."],
+      "retrieval_or_review_notes": "Official Caltech EE news; parenthetical degree notation is the source-stated evidence."
+    },
+    {
+      "source_id": "wave9-source-columbia-indrias-bekerie",
+      "candidate_id": "candidate-v2:columbia-university",
+      "source_url": "https://magazine.engineering.columbia.edu/fall2017/class-notes-undergraduate-alumni",
+      "publisher": "Columbia University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Navy Ensign Indrias Bekerie, a native of Athens, GA, graduated from Columbia with a BS in biomedical engineering in 2012 and was commissioned through Officer Candidate School in 2017."],
+      "retrieval_or_review_notes": "Official Columbia Engineering alumni class note."
+    },
+    {
+      "source_id": "wave9-source-dartmouth-aj-hurt",
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "source_url": "https://engineering.dartmouth.edu/news/five-alumni-are-winter-olympics-contenders",
+      "publisher": "Dartmouth College",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Five Dartmouth Engineering Alumni Are Winter Olympics Contenders", "Major: Engineering Sciences"],
+      "retrieval_or_review_notes": "Official Dartmouth Engineering alumni feature; headline and AJ Hurt profile field reviewed together."
+    },
+    {
+      "source_id": "wave9-source-iowa-sarah-nauman",
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "source_url": "https://tippie.uiowa.edu/sarah-nauman-story-iowa-mba",
+      "publisher": "University of Iowa",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["When she graduated from the University of Iowa with an undergraduate degree in finance, Sarah Nauman landed a job with Ameriprise Financial in Minneapolis."],
+      "retrieval_or_review_notes": "Official Tippie College alumni story."
+    },
+    {
+      "source_id": "wave9-source-michigan-brian-schiff",
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "source_url": "https://lsa.umich.edu/psych/undergraduates/career-exploration/alumni-profiles2/research-and-academia/brian-schiff.html",
+      "publisher": "University of Michigan",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Alumni; Psychology", "University of Michigan, A.B., 1990"],
+      "retrieval_or_review_notes": "Official psychology alumni profile; field label and education line reviewed together."
+    },
+    {
+      "source_id": "wave9-source-minnesota-ryan-rosenthal",
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "source_url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2021-09/CarlsonSchool_Fall21_AlumniMagazine.pdf",
+      "publisher": "University of Minnesota",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Ryan Rosenthal, ’11 BSB, expected to use his degree in supply chain and operations."],
+      "retrieval_or_review_notes": "Official Carlson School alumni magazine; short degree line reviewed."
+    },
+    {
+      "source_id": "wave9-source-osu-ryan-gifford",
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "source_url": "https://ise.osu.edu/news/2024/07/gifford-selected-among-future-leaders-responsible-ai",
+      "publisher": "The Ohio State University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["After graduating in the spring, Gifford is working as a research engineer in the ISE Department and earned both his master’s degree in Cognitive Systems Engineering (’22) and bachelor’s degree in Data Analytics (’19) from Ohio State."],
+      "retrieval_or_review_notes": "Official Ohio State engineering alumni news."
+    },
+    {
+      "source_id": "wave9-source-rice-adam-gottlieb",
+      "candidate_id": "candidate-v2:rice-university",
+      "source_url": "https://engineering.rice.edu/news/meet-adam-gottlieb-new-president-rice-engineering-alumni",
+      "publisher": "Rice University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Gottlieb earned his B.S. in mechanical engineering (MECH) in 2003."],
+      "retrieval_or_review_notes": "Official Rice Engineering alumni profile."
+    },
+    {
+      "source_id": "wave9-source-rice-deborah-williams",
+      "candidate_id": "candidate-v2:rice-university",
+      "source_url": "https://alumni.rice.edu/deborah-williams-08",
+      "publisher": "Rice University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Deborah Williams received a bachelor’s degree in psychology from Rice and remains active in the Rice community as committee chair of the Rice Alumni of Houston."],
+      "retrieval_or_review_notes": "Official Rice alumni profile."
+    },
+    {
+      "source_id": "wave9-source-rochester-joshua-pawlicki",
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "source_url": "https://www.cs.rochester.edu/assets/pdf/newsletter-pdfs/newsletter-2023.html",
+      "publisher": "University of Rochester",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["We have with us Joshua Pawlicki, who graduated from CS@UR in 2012 with a double degree in Computer Science and Geology."],
+      "retrieval_or_review_notes": "Official Rochester Computer Science alumni newsletter."
+    },
+    {
+      "source_id": "wave9-source-rutgers-james-dougherty",
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "source_url": "https://www.alumni.rutgers.edu/alumni/hall-distinguished-alumni",
+      "publisher": "Rutgers University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Holding a bachelor’s degree in biological sciences from Rutgers College and a master’s in animal science from Rutgers–New Brunswick, James Dougherty is a retired veterinarian who has generously supported the university."],
+      "retrieval_or_review_notes": "Official Rutgers Hall of Distinguished Alumni; New Brunswick-linked degree context is explicit."
+    },
+    {
+      "source_id": "wave9-source-uci-william-leonard",
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "source_url": "https://merage.uci.edu/news/2022/01/Triple-UCI-Alum-William-Leonard-Propels-his-Accounting-Career-with-Data-Analytics.html",
+      "publisher": "University of California, Irvine",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["William Leonard holds three degrees from UCI and is currently a senior financial analyst at National Retail Systems.", "Afterwards he transferred to UCI in pursuit of a bachelor's degree in business economics and social policy."],
+      "retrieval_or_review_notes": "Official UCI business-school alumni profile; degree completion and program text reviewed together."
+    },
+    {
+      "source_id": "wave9-source-uf-ronald-canakaris",
+      "candidate_id": "candidate-v2:university-of-florida",
+      "source_url": "https://commencement.ufl.edu/media/commencementufledu/past-commencement-pdf/past-commencement-programs/commencement-pdf/Fall-B-M-S-22.pdf",
+      "publisher": "University of Florida",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["He graduated from the University of Florida with a Bachelor of Science in Business Administration degree in 1966."],
+      "retrieval_or_review_notes": "Official University of Florida commencement program biography."
+    },
+    {
+      "source_id": "wave9-source-uga-mai-lise-nguyen",
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "source_url": "https://news.uga.edu/terry-college-honors-douglas-ghertner-nguyen/",
+      "publisher": "University of Georgia",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["graduated magna cum laude", "major in marketing"],
+      "retrieval_or_review_notes": "Official UGA news profile; short graduation and major substrings retained verbatim."
+    },
+    {
+      "source_id": "wave9-source-uiuc-martin-eberhard",
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "source_url": "https://grainger.illinois.edu/academics/graduation/program",
+      "publisher": "University of Illinois Urbana-Champaign",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["He earned a bachelor’s degree in Computer Engineering from the University of Illinois Urbana-Champaign in 1982 and a master’s degree in Electrical Engineering from Illinois in 1984."],
+      "retrieval_or_review_notes": "Official Grainger Engineering commencement speaker biography."
+    },
+    {
+      "source_id": "wave9-source-usc-patrick-becker",
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "source_url": "https://careers.usc.edu/blog/2023/01/11/mentorship-month-alumni-feature-patrick-becker-08-senior-producer-cbs-evening-news/",
+      "publisher": "University of Southern California",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Patrick received his Bachelor of Arts degree in Communication in 2008 from the USC Annenberg School for Communication and Journalism."],
+      "retrieval_or_review_notes": "Official USC Career Center alumni profile."
+    },
+    {
+      "source_id": "wave9-source-ut-austin-jill-meyers",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "source_url": "https://ae.utexas.edu/news/the-sky-is-not-the-limit-one-alumnas-mission-to-empower-women-in-aerospace/",
+      "publisher": "University of Texas at Austin",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["While serving on active duty, Meyers earned her bachelor’s degree in aerospace engineering at UT Austin."],
+      "retrieval_or_review_notes": "Official UT Aerospace Engineering alumna profile."
+    },
+    {
+      "source_id": "wave9-source-uw-hakim-weatherspoon",
+      "candidate_id": "candidate-v2:university-of-washington",
+      "source_url": "https://www.cs.washington.edu/community-engagement/alumni/uw-recognition/",
+      "publisher": "University of Washington",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["After receiving his bachelor’s in computer engineering from the University of Washington, Weatherspoon completed his Ph.D. at the University of California, Berkeley before undertaking post-doctoral research at Cornell University."],
+      "retrieval_or_review_notes": "Official UW computer science alumni recognition page."
+    },
+    {
+      "source_id": "wave9-source-uw-tom-draeger",
+      "candidate_id": "candidate-v2:university-of-washington",
+      "source_url": "https://www.ce.washington.edu/news/article/2026-06-09/tom-draeger-honored-distinguished-alumnus",
+      "publisher": "University of Washington",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Draeger graduated from the UW with a bachelor's degree in civil engineering in 1968 and spent 37 years at Bechtel Corporation, retiring as senior vice president of the Bechtel Group and president of Bechtel Construction Operations."],
+      "retrieval_or_review_notes": "Official UW Civil and Environmental Engineering distinguished alumnus profile."
+    },
+    {
+      "source_id": "wave9-source-washu-tej-seelamsetty",
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "source_url": "https://wuit-shared-apa.g.wustl.edu/news/2026/Not-wasting-time.html",
+      "publisher": "Washington University in St. Louis",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["But Seelamsetty, who earned a bachelor’s degree in computer science from Washington University in St. Louis’ McKelvey School of Engineering in 2019, knew flipping houses wasn’t his long-term plan."],
+      "retrieval_or_review_notes": "Official McKelvey Engineering alumni profile."
+    },
+    {
+      "source_id": "wave9-source-wisconsin-linda-thomas-greenfield",
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "source_url": "https://lafollette.wisc.edu/news/ambassador-thomas-greenfield-shares-experiences-with-la-follette-students/",
+      "publisher": "University of Wisconsin–Madison",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["The Ambassador earned a master’s degree from UW–Madison’s Political Science Department in 1975, and she was the May 2022 UW–Madison Commencement speaker."],
+      "retrieval_or_review_notes": "Official La Follette School news page."
+    },
+    {
+      "source_id": "wave9-source-yale-angelin-mathew",
+      "candidate_id": "candidate-v2:yale-university",
+      "source_url": "https://news.yale.edu/2025/05/15/yale-college-2025-meet-some-graduates",
+      "publisher": "Yale University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["That mission will culminate in Mathew graduating from Yale College this week with a double degree in molecular biology and in humanities, where her focus has been on Buddhist-Christian comparative theology."],
+      "retrieval_or_review_notes": "Official Yale graduation profile."
+    },
+    {
+      "source_id": "wave9-source-yale-noah-robinson",
+      "candidate_id": "candidate-v2:yale-university",
+      "source_url": "https://egc.yale.edu/news/egc-celebrates-class-2023",
+      "publisher": "Yale University",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": ["Noah Robinson graduated with a degree in economics from Yale University in May 2023."],
+      "retrieval_or_review_notes": "Official Yale Economic Growth Center graduation profile."
+    }
+  ]
+}

@@ -74,6 +74,12 @@ export interface UniversityCardProps {
   /** Optional campus POIs for the drill-in map (Phase 4).
    *  TODO: Populate from Supabase `campus_pois` table. */
   campusPois?: CampusPOI[];
+
+  /** Called when the user clicks "完整档案" (Full Profile). When omitted,
+   *  the link is rendered as an anchor to `/university/[id]`. When set,
+   *  the component routes via the callback (e.g. for client-side
+   *  navigation). */
+  onViewProfile?: (poi: UniversityPOI) => void;
 }
 
 // ═══════════════════════════════════════════════════════════════════
@@ -85,6 +91,7 @@ export function UniversityCard({
   onClose,
   onStreetView: _onStreetView,
   campusPois: _campusPois,
+  onViewProfile,
 }: UniversityCardProps) {
   // ── Local state ──
   const [showAllPrograms, setShowAllPrograms] = useState(false);
@@ -94,8 +101,36 @@ export function UniversityCard({
 
   // ── Derived values ──
 
-  /** Cost in wan (万) RMB for display, e.g. "62万/年". */
-  const costWan = (poi.annualCostRmb / 10000).toFixed(1);
+  /** Cost in wan (万) RMB for display, e.g. "62万/年".
+   *  Gate-bloker repair #RG-P0-F: a missing `annualCostRmb` (null)
+   *  used to render "¥NaN万/年" because `(null / 10000).toFixed(1)`
+   *  is the string "NaN". Render the "数据补充中" empty state label
+   *  instead of fabricating 0.0万. */
+  const costLabel = (() => {
+    if (typeof poi.annualCostRmb !== "number" || !Number.isFinite(poi.annualCostRmb) || poi.annualCostRmb <= 0) {
+      return "学费数据补充中";
+    }
+    return `¥${(poi.annualCostRmb / 10000).toFixed(1)}万/年`;
+  })();
+
+  /** Safety / recognition scoring. The previous default-to-0 made
+   *  the card render "0/100" for every school missing safety data. */
+  const safetyLabel =
+    typeof poi.safetyScore === "number" && Number.isFinite(poi.safetyScore)
+      ? `${poi.safetyScore}/100`
+      : "暂未提供学校级安全指标";
+  const recognitionLabel =
+    typeof poi.recognitionScore === "number" && Number.isFinite(poi.recognitionScore)
+      ? `${poi.recognitionScore}/100`
+      : "数据补充中";
+  const communityLabel =
+    poi.chineseCommunity === "high"
+      ? "高"
+      : poi.chineseCommunity === "medium"
+        ? "中"
+        : poi.chineseCommunity === "low"
+          ? "低"
+          : "—";
 
   /** Number of programs visible before the "show more" toggle. */
   const PROGRAM_PREVIEW_COUNT = 4;
@@ -168,7 +203,7 @@ export function UniversityCard({
           icon={<DollarSign size={13} aria-hidden="true" />}
           label="年费用"
           labelEn="Annual Cost"
-          value={`¥${costWan}万/年`}
+          value={costLabel}
           // TODO: Connect to Supabase `universities.annual_cost_rmb`
         />
 
@@ -177,7 +212,7 @@ export function UniversityCard({
           icon={<Shield size={13} aria-hidden="true" />}
           label="安全评分"
           labelEn="Safety Score"
-          value={`${poi.safetyScore}/100`}
+          value={safetyLabel}
           // TODO: Replace with real safety data when Supabase is available
         />
 
@@ -186,7 +221,7 @@ export function UniversityCard({
           icon={<Award size={13} aria-hidden="true" />}
           label="认可度"
           labelEn="Recognition"
-          value={`${poi.recognitionScore}/100`}
+          value={recognitionLabel}
         />
 
         {/* Chinese Community */}
@@ -194,13 +229,7 @@ export function UniversityCard({
           icon={<Users size={13} aria-hidden="true" />}
           label="华人社区"
           labelEn="Chinese Community"
-          value={
-            poi.chineseCommunity === "high"
-              ? "高"
-              : poi.chineseCommunity === "medium"
-                ? "中"
-                : "低"
-          }
+          value={communityLabel}
           // TODO: Replace with real Chinese population data
         />
       </div>
@@ -376,25 +405,31 @@ export function UniversityCard({
             <NearbyRow
               label="地铁站"
               labelEn="Subway"
-              value={`${poi.nearby.subwayStations} 站`}
+              value={poi.nearby.subwayStations > 0 ? `${poi.nearby.subwayStations} 站` : "数据补充中"}
               // TODO: Replace with real subway station count from Supabase
             />
             <NearbyRow
               label="中餐馆"
               labelEn="Chinese Restaurants"
-              value={`${poi.nearby.chineseRestaurants} 家`}
+              value={poi.nearby.chineseRestaurants > 0 ? `${poi.nearby.chineseRestaurants} 家` : "数据补充中"}
               // TODO: Replace with real restaurant count
             />
             <NearbyRow
               label="亚洲超市"
               labelEn="Asian Groceries"
-              value={`${poi.nearby.asianGroceries} 家`}
+              value={poi.nearby.asianGroceries > 0 ? `${poi.nearby.asianGroceries} 家` : "数据补充中"}
               // TODO: Replace with real grocery count
             />
             <NearbyRow
               label="月均房租"
               labelEn="Avg Rent"
-              value={`¥${(poi.nearby.avgRentRmb / 1000).toFixed(1)}k`}
+              value={
+                typeof poi.nearby.avgRentRmb === "number" &&
+                Number.isFinite(poi.nearby.avgRentRmb) &&
+                poi.nearby.avgRentRmb > 0
+                  ? `¥${(poi.nearby.avgRentRmb / 1000).toFixed(1)}k`
+                  : "数据补充中"
+              }
               // TODO: Replace with real rent data
             />
           </div>
@@ -407,11 +442,13 @@ export function UniversityCard({
           <Clock size={10} aria-hidden="true" />
           <span>
             数据更新于{" "}
-            {new Date(poi.verifiedAt).toLocaleDateString("zh-CN", {
-              year: "numeric",
-              month: "2-digit",
-              day: "2-digit",
-            })}
+            {poi.verifiedAt
+              ? new Date(poi.verifiedAt).toLocaleDateString("zh-CN", {
+                  year: "numeric",
+                  month: "2-digit",
+                  day: "2-digit",
+                })
+              : "数据补充中"}
           </span>
           {poi.sourceCount > 0 && (
             <>
@@ -447,19 +484,34 @@ export function UniversityCard({
         </button>
 
         {/* Full profile link (external / detail route) */}
-        {/* TODO: Wire to actual detail route when routing is established:
-             e.g. <Link href={`/university/${poi.id}`}> */}
-        <a
-          href={`/university/${poi.id}`}
-          className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-cobalt/30 bg-cobalt/5 px-3 py-2 text-xs font-medium text-cobalt transition-colors hover:bg-cobalt/10 hover:border-cobalt/40"
-          aria-label={`查看 ${poi.chineseName} 完整档案`}
-        >
-          <ExternalLink size={14} aria-hidden="true" />
-          <span>完整档案</span>
-          <span className="hidden" lang="en">
-            Full Profile
-          </span>
-        </a>
+        {/* Phase 5: open the dedicated /university/[id] page via either a
+            client-side callback (router.push) or a full document nav. */}
+        {onViewProfile ? (
+          <button
+            type="button"
+            onClick={() => onViewProfile(poi)}
+            className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-cobalt/30 bg-cobalt/5 px-3 py-2 text-xs font-medium text-cobalt transition-colors hover:bg-cobalt/10 hover:border-cobalt/40"
+            aria-label={`查看 ${poi.chineseName} 完整档案`}
+          >
+            <ExternalLink size={14} aria-hidden="true" />
+            <span>完整档案</span>
+            <span className="hidden" lang="en">
+              Full Profile
+            </span>
+          </button>
+        ) : (
+          <a
+            href={`/university/${poi.id}`}
+            className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-cobalt/30 bg-cobalt/5 px-3 py-2 text-xs font-medium text-cobalt transition-colors hover:bg-cobalt/10 hover:border-cobalt/40"
+            aria-label={`查看 ${poi.chineseName} 完整档案`}
+          >
+            <ExternalLink size={14} aria-hidden="true" />
+            <span>完整档案</span>
+            <span className="hidden" lang="en">
+              Full Profile
+            </span>
+          </a>
+        )}
       </div>
     </div>
   );

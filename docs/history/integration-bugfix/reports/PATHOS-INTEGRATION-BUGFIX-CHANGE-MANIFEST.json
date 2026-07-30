@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-07-26T08:40:50+08:00",
+  "scope": "integration_frontend_bugfix_only",
+  "counts": {
+    "modified": 6,
+    "added": 19,
+    "deleted": 0,
+    "total": 25,
+    "screenshots": 14
+  },
+  "files": [
+    {
+      "relativePath": "src/components/NavBar.tsx",
+      "changeType": "modified",
+      "beforeSha256": "234ec04f76085a37c790aab83f3ce9ea0c896348d1803f6b1013308119020f62",
+      "afterSha256": "a91d6f20c6e8731a1e1526c786c46212459ae4c9eb01a632321446d691fe7221",
+      "reason": "Prevent wrapped desktop navigation at tablet widths.",
+      "tests": ["Q1", "six viewport browser matrix"],
+      "runtimeImpact": "Desktop navigation begins at lg; tablet keeps one mobile drawer."
+    },
+    {
+      "relativePath": "src/components/map/MapCanvas.tsx",
+      "changeType": "modified",
+      "beforeSha256": "932ccc3cef9554f1905039d03ade5b0f080ab8ee8f9af4d8df9a391b756cd813",
+      "afterSha256": "188ec5e96f25212b4bf3ccfd92e6c0dc362ae41ebefb4063544bb0a7810a4ca7",
+      "reason": "Move MapLibre controls away from the unified toolbar.",
+      "tests": ["Q2", "toolbar/nav geometry"],
+      "runtimeImpact": "NavigationControl uses top-left."
+    },
+    {
+      "relativePath": "src/components/map/MapToolbar.tsx",
+      "changeType": "modified",
+      "beforeSha256": "ba2bb34a80836318d2808919c2c114a7eef636e4b8e26259d701705323e59267",
+      "afterSha256": "1706261a4cdbdfc8e028f2f63b5f4302ee5b5ead281c0bdb219039207ae06e50",
+      "reason": "Keep the 320px state dropdown inside the viewport and above the legend.",
+      "tests": ["Q5", "live dropdown hit-test"],
+      "runtimeImpact": "Open dropdown uses an existing z-index token and narrow-screen left anchor."
+    },
+    {
+      "relativePath": "src/components/map/MapShell.tsx",
+      "changeType": "modified",
+      "beforeSha256": "aeba79f4aa2fe6b2aa8a80fc49423892ac12a75c4a6f536172d5e2deeaf3ddb2",
+      "afterSha256": "de19c39b172fd233da51baabecb5e3be6637bc21e916d9e1e4a2ed60b8027357",
+      "reason": "Remove tablet double-layout and reserve safe lanes for legend/system controls.",
+      "tests": ["Q3", "Q4", "B/D/I/T responsive contracts", "six viewport browser matrix"],
+      "runtimeImpact": "Tablet uses BottomSheet; desktop panels begin at lg; legend clears other overlays."
+    },
+    {
+      "relativePath": "src/app/globals.css",
+      "changeType": "modified",
+      "beforeSha256": "9e23ffd9d8e6bb06f538e4c5327b237c45f689ab4c8f80db7caa8d0807aa33f4",
+      "afterSha256": "db63f8716e846f7d1ed61496b684f017f7893fa4d7564ef7970e0aff71da0f87",
+      "reason": "Give mobile MapLibre controls a scoped toolbar-safe offset.",
+      "tests": ["Q2", "320/390 measured geometry"],
+      "runtimeImpact": "No global redesign; only mobile MapLibre top-left position changes."
+    },
+    {
+      "relativePath": "src/test/unit/stage7b-a3-ui-collision.test.ts",
+      "changeType": "modified",
+      "beforeSha256": "9b086147feb36ffbacb528425c9613dc9796a1bf57a1e341f294f385c8945a7c",
+      "afterSha256": "91f4323ecfe37094f39656e67a42d8243c57e7e13285c91c8701166c6b4505f1",
+      "reason": "Add five regression contracts and align the intentional lg breakpoint.",
+      "tests": ["65/65 dedicated", "534/534 full suite"],
+      "runtimeImpact": "None."
+    },
+    {
+      "relativePath": "../reports/PATHOS-INTEGRATION-BUGFIX-PLAN.md",
+      "changeType": "added",
+      "beforeSha256": null,
+      "afterSha256": "cb6af7ee38701a151fa62abef61bf8ac399b5702ebc8a82978b8abb40ea915fa",
+      "reason": "Scope and verification plan.",
+      "tests": [],
+      "runtimeImpact": "None."
+    },
+    {
+      "relativePath": "../reports/PATHOS-INTEGRATION-BUGFIX-DEVLOG.md",
+      "changeType": "added",
+      "beforeSha256": null,
+      "afterSha256": "d24a239bfcb30f952f1e9d8b7692eb0f87bda13db3e71ef6e296f2e6c5e3a330",
+      "reason": "Development and browser evidence log.",
+      "tests": [],
+      "runtimeImpact": "None."
+    },
+    {
+      "relativePath": "../reports/PATHOS-INTEGRATION-BUGFIX-REPORT.md",
+      "changeType": "added",
+      "beforeSha256": null,
+      "afterSha256": "5dd8e6241af1897b9d595587ce2ddde2cdbf2525dbce8ff33a6935202bde6706",
+      "reason": "Final technical and browser report.",
+      "tests": [],
+      "runtimeImpact": "None."
+    },
+    {
+      "relativePath": "../reports/PATHOS-INTEGRATION-BUGFIX-MATRIX.json",
+      "changeType": "added",
+      "beforeSha256": null,
+      "afterSha256": "554f53888535ce2c8cdcb85ee96c5254265f8f33579888100aad270db8973d4f",
+      "reason": "Machine-readable issue inventory.",
+      "tests": [],
+      "runtimeImpact": "None."
+    },
+    {
+      "relativePath": "../reports/PATHOS-INTEGRATION-BUGFIX-CHANGE-MANIFEST.json",
+      "changeType": "added",
+      "beforeSha256": null,
+      "afterSha256": null,
+      "selfDescribing": true,
+      "reason": "This manifest; self hash is intentionally not asserted.",
+      "tests": ["JSON parse and count validation"],
+      "runtimeImpact": "None."
+    },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/assessment-320x568-final.png", "changeType": "added", "beforeSha256": null, "afterSha256": "dfafe7f13bcf718218d8dfca56b02ab796e74b9907d2c50649819bf1bf6026d6", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/calculator-768x1024-final.png", "changeType": "added", "beforeSha256": null, "afterSha256": "eddc89f428ed64d84fa8a89d41479c039c52fb28a409a5b340edb3e88ba3865c", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/home-1440x900-final.png", "changeType": "added", "beforeSha256": null, "afterSha256": "67d5e4313507925e07d1e692bb1ad87b57b410747bddb766654ddc879853ca6f", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/map-1024x768-final.png", "changeType": "added", "beforeSha256": null, "afterSha256": "df06b93769c3e880ab0f265daba3c9ebc790c6a06655d34295658fdde449fb74", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/map-1280x720-after.png", "changeType": "added", "beforeSha256": null, "afterSha256": "aa222c51b5a9f73480c84cd236eca850e7dfdf3274791c39dc72dc006859357c", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/map-1440x900-after.png", "changeType": "added", "beforeSha256": null, "afterSha256": "eb4161347410f4920400e640794409ad9597306235a2a06caaa2a24faee4a67b", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/map-320x568-final.png", "changeType": "added", "beforeSha256": null, "afterSha256": "a8078a933e97f447a1723ffc5c1a766b8a6cd57ffd01a7054e62e0e9aa5a5bbd", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/map-390x844-final.png", "changeType": "added", "beforeSha256": null, "afterSha256": "851ea28d39060222c0fb6b5b52e8d4c23b776eaa52907cac277c6b2dc90b6317", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/map-768x1024-after.png", "changeType": "added", "beforeSha256": null, "afterSha256": "417f4d274cd4af9ab308db87b37332f4cc365c8fc4fca6dc597935f0ed358efd", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/after/news-390x844-final.png", "changeType": "added", "beforeSha256": null, "afterSha256": "2e3e2c1265ef4dfd20c583c7034e16fcb5d55fcd24b71ece3c29c5043da89b16", "reason": "Browser evidence", "tests": ["visual review"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/before/map-1440x900-before.png", "changeType": "added", "beforeSha256": null, "afterSha256": "4d385a7737b54367e5354a3fe798d71a61f94796481b5868a84ec16a29b556b3", "reason": "Before evidence", "tests": ["visual comparison"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/before/map-320x568-before.png", "changeType": "added", "beforeSha256": null, "afterSha256": "54783d841b0b7d48fa2ca093512f013a492491624d8352bf75bc5a5712bf75c5", "reason": "Before evidence", "tests": ["visual comparison"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/before/map-390x844-before.png", "changeType": "added", "beforeSha256": null, "afterSha256": "94f314f3b0e06253be026da236c7134bfd8bec0510b9dee194e794e75c563aec", "reason": "Before evidence", "tests": ["visual comparison"], "runtimeImpact": "None." },
+    { "relativePath": "../reports/screenshots/integration-bugfix/before/map-768x1024-before.png", "changeType": "added", "beforeSha256": null, "afterSha256": "f10a20c4dce196f4f381068eeab6c381e3a0da6f95fa75ee2daa2b3b996e0611", "reason": "Before evidence", "tests": ["visual comparison"], "runtimeImpact": "None." }
+  ],
+  "verifiedUnchanged": {
+    "backendHead": "b73e61ec4fda11b7c72e74c14e414fbe2c74300f",
+    "backendWorktreeClean": true,
+    "previewBundleManifestSha256": "88f3dd6081df38b051872cc5c8bf5b12dd08e9dee072780f20becfc8e9170bd2",
+    "workbookModified": false,
+    "dataFactsModified": false,
+    "matchAlgorithmModified": false
+  }
+}

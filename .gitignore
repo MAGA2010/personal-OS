@@ -1,51 +1,52 @@
-﻿# Dependencies
-node_modules/
+# macOS
+.DS_Store
 
-# Next.js build output
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Node
+node_modules/
 .next/
 out/
-
-# Environment variables
-.env.local
-.env*.local
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Debug
+dist/
+build/
+coverage/
+.turbo/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# TypeScript
-*.tsbuildinfo
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
 
+# Tests and browser output
+playwright-report/
+test-results/
+screenshots/tmp/
 
-# Temp / irrelevant
-factor_*.pdf
-factor_*.png
-factor_pages/
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Editor scratch files
-_add_*.py
-_edit_*.js
-_edit_*.mjs
-test.py
+# Temporary files
+*.tmp
+*.temp
+*.bak
 
-# Junk artifacts
-frontend/0
-pathos-map.zip
-tuition_summary.txt
-
-# Archive
-_archive/
-
-# Local alternate Git metadata
-.alt_git/
+# Local deployment metadata
+.vercel/
+.pathos-demo-runtime/

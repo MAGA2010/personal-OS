@@ -1,173 +1,118 @@
-# PathOS — 交互式留学地图模块 (Map Module)
+# PathOS
 
-> 这是 PathOS 整体项目中的**地图子模块**。PathOS 是一个面向中国大陆留学家庭的 AI 升学顾问平台，本模块负责其中的交互式地图部分。
->
-> 仓库地址：[MAGA2010/PathOS](https://github.com/MAGA2010/PathOS)
+PathOS 是一个面向美国本科留学探索的数据驱动平台，通过交互式地图、大学资料、区域指标、选校工具和留学资讯帮助用户理解选校空间。
 
----
+## 当前状态
 
-## 模块定位：PathOS 中的地图子系统
+这是 Preview / Demo 版本，不是录取预测系统，也不替代专业升学顾问。项目保留来源、状态、warning 和缺失值边界；Production Data Export 未启用。
 
-```
-PathOS 整体项目
-├── 🗺️ 留学地图 (Map Module)  ← 当前模块
-│   ├── Choropleth 面量图（六大指标图层）
-│   ├── 学校 POI 精确标注
-│   ├── 校园实景 / 街景沉浸
-│   └── 侧边栏留学资讯
-│
-├── 🤖 AI 升学顾问 (Advisor Module)
-│   ├── Agentic RAG 对话
-│   ├── 选校矩阵生成
-│   └── 学生画像分析
-│
-├── 📊 数据库 (Data Module)
-│   ├── 院校结构化数据
-│   ├── 区域地理指标数据
-│   └── Supabase + pgvector
-│
-└── 👥 双重视角 (Parent / Student View)
-    ├── 家长模式（重安全/就业/华人社区）
-    └── 学生模式（重排名/生活/专业）
-```
+## 核心功能
 
----
+- MapLibre 交互地图、大学 Marker、学校卡片和动态详情页。
+- income、safety、employment、chinese_population 四项州级区域图层。
+- 单州高亮、州内学校列表、URL `region/state` 与 Back / Forward。
+- Assessment、Calculator、Match、Portfolio 的基础流程。
+- 编辑式首页、Feature Showcase、功能入场动画和统一主题。
+- News 入口、9 张本地授权校园摄影和 Credits 页面。
+- Next.js BFF + Preview Bundle；backend mode 失败时不回退 fixture。
+- AI 辅助框架与确定性本地分析；真实模型尚未达到生产级。
 
-## 1. 地图模块定位
+## 数据边界
 
-面向中国大陆留学家庭的**数据驱动交互式地图**，是 PathOS 的核心差异化功能。不同于市面上任何一个留学工具：
+| 数据集 | 当前范围 |
+|---|---:|
+| Schools | 62 |
+| Summaries | 62 |
+| Details | 62 |
+| Verified records | 904 |
+| Regional metrics | 4 |
+| Regional records | 204 |
+| State-level jurisdictions | 51 |
 
-| 竞品 | 他们的做法 | 我们的做法 |
-|------|-----------|-----------|
-| Niche / US News | 列表 + 表格筛选 | **Choropleth 等值区域图**，像天气温度图一样直观 |
-| 留学中介 (新东方/启德) | Excel + PDF | **六大指标图层切换**，点一下切换数据维度 |
-| 小红书/知乎 KOL | 主观经验 | **数据引用源头可查**，每个数据带来源链接 |
-| Google Maps | 纯地图 | **Choropleth 底色 + 学校POI标记叠加**，地图即分析工具 |
+大学数据 contract 为 `pathos-preview-v1`。区域指标只用于地图环境参考，`usedForMatch=false`。
 
----
+## 技术架构
 
-## 2. 功能架构（五层叠加）
-
-```
-┌──────────────────────────────────────────────┐
-│  ⑤ 校园实景/街景沉浸                          │
-│     Google Street View 360° 全景              │
-│     校园POI：图书馆📍 食堂📍 宿舍📍           │
-├──────────────────────────────────────────────┤
-│  ④ 学校信息卡片                               │
-│     🏫 哈佛大学 | Top 3 | ¥58万/年           │
-│     周边：地铁3个 · 中餐12家 · 月租¥8000       │
-├──────────────────────────────────────────────┤
-│  ③ 学校POI标记层 (supercluster 聚合)           │
-│     🏫──🏫────🏫                   🏫       │
-├──────────────────────────────────────────────┤
-│  ② Choropleth 面量图（六大指标可切换）         │
-│     ████████▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░        │
-├──────────────────────────────────────────────┤
-│  ① 底图 (MapLibre GL JS / CARTO Positron)    │
-└──────────────────────────────────────────────┘
+```text
+Browser
+  → Next.js App Router
+  → Next.js BFF (/api/pathos/preview)
+  → local Stage 5 Preview Bundle
 ```
 
----
+前端使用 Next.js 14、React 18、TypeScript、MapLibre、Tailwind CSS 和 Vitest。Standalone Backend 保存数据管道、schema、validator、provenance 和冻结 artifacts。无需另启 Python HTTP 服务。
 
-## 3. 六大指标图层
+## 仓库结构
 
-| # | 指标 | 配色 | 含义 | 数据来源 |
-|---|------|------|------|----------|
-| 1 | **收入水平** | 🟢 绿渐变 | 越深=区域越富裕 | Census ACS API |
-| 2 | **安全系数** | 🔵 蓝 → 🔴 红 | 蓝=安全，红=高犯罪率 | FBI Crime Data API |
-| 3 | **托福成绩** | 🔵 蓝渐变 | 越深=托福要求越高 | 大学官网 / Common Data Set |
-| 4 | **SAT分数** | 🟣 紫渐变 | 越深=SAT分越高 | IPEDS / College Scorecard |
-| 5 | **录取率** | 🟠 橙红 | 越深=越难进 | IPEDS |
-| 6 | **华人水平** | 🟡→🔴 黄红 | 越深=华人占比越高 | Census ACS API |
-
-缩放三级粒度：州级 (z0-6) → 县级 (z6-9) → 市级 (z9+)
-
----
-
-## 4. 技术栈
-
-| 层 | 技术 |
-|----|------|
-| 前端框架 | Next.js 14 (App Router) + TypeScript + Tailwind CSS |
-| 地图引擎 | **MapLibre GL JS** (开源，免费无限量) |
-| 色阶渲染 | D3 Scale Chromatic (10 阶平滑渐变) |
-| 边界数据 | TopoJSON (us-atlas，简化为 112KB) |
-| POI聚类 | Supercluster |
-| 底图 | CARTO Positron (免费，无需 API Key) |
-
----
-
-## 5. 目录结构
-
-```
+```text
 PathOS/
-├── CLAUDE.md                           # Claude 项目文档
-├── README.md                           # ← 本文件
-├── MVP-Critical-Plan-Review.md         # MVP 产品评审文档
-└── frontend/
-    ├── package.json                    # 依赖清单
-    ├── tailwind.config.ts              # 主题色配置
-    └── src/
-        ├── app/
-        │   ├── page.tsx                # 首页/landing
-        │   ├── layout.tsx              # 根布局 (zh-CN)
-        │   └── map/
-        │       ├── page.tsx            # /map 路由
-        │       └── layout.tsx
-        ├── components/map/
-        │   ├── MapShell.tsx            # 顶层调度（711行）
-        │   ├── MapCanvas.tsx           # MapLibre 地图初始化（403行）
-        │   ├── MetricTabs.tsx          # 指标Tab切换
-        │   ├── MapLegend.tsx           # 色阶图例
-        │   ├── GranularityBadge.tsx    # 州/县/市粒度标签
-        │   ├── UniversityMarkers.tsx   # 学校POI标记层
-        │   └── UniversityCard.tsx      # 学校信息卡片
-        ├── data/
-        │   ├── universities.json       # ★ 学校数据骨架（待填充）
-        │   ├── region-metrics.json     # ★ 区域指标骨架（待填充）
-        │   └── news.json               # ★ 资讯骨架（待填充）
-        ├── lib/
-        │   ├── types.ts                # 全部类型定义（583行，27 种）
-        │   └── metrics.ts              # 六指标配置 + Mock数据
-        └── public/geography/
-            └── us-states.topojson      # 美国州界 (112KB)
+├── frontend/                         # 唯一正式前端与本地 Preview 副本
+├── PathOS-db-ranking-standalone/     # standalone Backend 与数据管道
+├── FINAL_PROJECT_ARCHIVE/            # 最终冻结和发布记录
+├── docs/                             # 阶段报告与审计证据
+├── resource/                         # 区域来源工作簿
+├── scripts/                          # Demo 生命周期工具
+├── .env.example
+├── SECURITY.md
+└── README-FINAL.md
 ```
 
----
+## 快速启动
 
-## 6. 开发状态
-
-### ✅ 已完成的骨架（此 commit）
-- **TypeScript 0 errors**，可直接编译
-- 27 种类型/接口（types.ts，583行）
-- 6 个指标定义 + 配色方案（metrics.ts）
-- 7 个地图组件（MapShell, MapCanvas, MetricTabs, MapLegend, GranularityBadge, UniversityMarkers, UniversityCard）
-- 3 个数据骨架文件（含完整示例+字段说明）
-- 75+ TODO 标记，精确标注数据接入点
-- US 州级 TopoJSON 边界文件
-
-### ⏳ 待用户提供/爬取数据后即用
-1. 真实学校数据 → `src/data/universities.json`
-2. 真实区域指标 → `src/data/region-metrics.json`
-3. 实时留学资讯 → `src/data/news.json`
-4. 或爬虫脚本 → `data-pipeline/`
-
----
-
-## 7. 快速启动
+环境要求：Node.js 20+、npm。
 
 ```bash
 cd frontend
-npm install
-npm run dev
-# → http://localhost:3000/map
+npm ci
+cp .env.example .env.local
+npm run dev -- -p 3017
 ```
 
----
+默认地址：`http://127.0.0.1:3017`。
 
-## 8. 设计理念
+`.env.example` 默认使用 `PATHOS_DATA_MODE=backend` 和本地 `./data/preview`。不要提交 `.env.local`。
 
-> **数据与代码分离**：所有组件已完成，数据通过 3 个 JSON 文件接入。数据一到，无需修改任何代码即可运行。
+## 环境变量
 
-> **TODO 标注精确**：每个待接入数据的位置都有明确的 `TODO: Replace with real {name} data` 标记，grep 即可定位。
+| 变量 | 用途 |
+|---|---|
+| `PATHOS_DATA_MODE` | 必须为 `backend` 才能使用正式 Preview 链路。 |
+| `PATHOS_PREVIEW_BUNDLE_DIR` | Preview Bundle 目录；仓库默认 `./data/preview`。 |
+| `PATHOS_BACKEND_TIMEOUT_MS` | BFF 超时。 |
+| `NEXT_PUBLIC_PATHOS_MAP_PROVIDER` | `maplibre`（默认）或可选 `baidu`。 |
+| `NEXT_PUBLIC_BAIDU_MAP_AK` | Baidu Runtime 可选配置；使用者自行申请。 |
+| `DEEPSEEK_API_KEY` | 可选外部 AI provider；不要提交真实值。 |
+
+## 数据可信度原则
+
+- 来源可追溯；缺失值优于伪造值。
+- `null` 不显示为 0、rank 0、¥0、0/100、0:1 或 `[0,0]`。
+- pending / deferred 不转换成 verified fact。
+- Fixture 只用于显式测试，不是 backend mode 的事实来源。
+- Preview 数据为 `sourceLimited=true`、`incomplete=true`、`notFinal=true`。
+
+## 图片与许可证
+
+News 的 9 张校园 WebP 来自独立核验的 Wikimedia Commons File 页面。署名和许可证见：
+
+- `frontend/public/news/campus/ATTRIBUTIONS.md`
+- `frontend/docs/STAGE7B-A3-3-NEWS-PHOTOGRAPHY-LICENSES.json`
+
+首页 Entry 使用的地球摄影来源见 `frontend/public/entry/ATTRIBUTIONS.md`。
+
+## 已知限制
+
+- AI 不是生产级 LLM 顾问服务。
+- Rankings 与 Explore 尚未正式产品化。
+- 没有用户账户、支付或商业化系统。
+- Baidu Runtime 需要使用者自行配置 AK；默认使用 MapLibre。
+- 公网 Preview 仍需复核 Marker、Choropleth 和 metric retention 的组合场景。
+- 当前部署与数据均为 Demo / Preview，不是生产发布。
+
+## Final Archive
+
+完整冻结记录见 [FINAL_PROJECT_ARCHIVE](./FINAL_PROJECT_ARCHIVE/PATHOS-FINAL-SUMMARY.md)，启动细节见 [PATHOS-STARTUP-GUIDE.md](./FINAL_PROJECT_ARCHIVE/PATHOS-STARTUP-GUIDE.md)。
+
+## 免责声明
+
+PathOS 是 Demo / Research project。内容用于信息探索，不构成录取预测、申请保证、法律意见、财务意见或专业顾问服务。使用者应回到原始来源核验信息。

@@ -1,0 +1,64 @@
+{
+  "blockedMetrics": [
+    {
+      "metricId": "admission_rate",
+      "reason": "Workbook author marks state-level data as missing; 51/51 N/A."
+    }
+  ],
+  "datasetId": "pathos-regional-state-v1",
+  "distribution": [
+    {
+      "count": 51,
+      "max": 101722.0,
+      "mean": 75811.86,
+      "median": 72581.0,
+      "metricId": "income",
+      "min": 53013.0,
+      "missingCount": 0
+    },
+    {
+      "count": 51,
+      "max": 780.5,
+      "mean": 369.77,
+      "median": 350.8,
+      "metricId": "safety",
+      "min": 110.6,
+      "missingCount": 0
+    },
+    {
+      "count": 51,
+      "max": 97.7,
+      "mean": 96.42,
+      "median": 96.5,
+      "metricId": "employment",
+      "min": 94.8,
+      "missingCount": 0
+    },
+    {
+      "count": 51,
+      "max": 1420670.0,
+      "mean": 88573.31,
+      "median": 24123.0,
+      "metricId": "chinese_population",
+      "min": 1876.0,
+      "missingCount": 0
+    }
+  ],
+  "issues": [],
+  "outOfScopeMetrics": [
+    "cost"
+  ],
+  "schemaVersion": "1.0.0",
+  "summary": {
+    "coverage": "51/51 per metric",
+    "duplicateGeoIds": 0,
+    "missingCount": 0,
+    "outlierCount": 0,
+    "readyMetricCount": 4,
+    "recordsNotReported": 0,
+    "recordsPartial": 0,
+    "recordsTotal": 204,
+    "recordsVerified": 204
+  },
+  "validatedAt": "2026-07-25"
+}

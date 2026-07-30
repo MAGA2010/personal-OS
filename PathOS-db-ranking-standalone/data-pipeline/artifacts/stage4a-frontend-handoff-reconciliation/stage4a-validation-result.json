@@ -1,0 +1,21 @@
+{
+  "checks_passed": 38,
+  "deterministic_generation": true,
+  "errors": [],
+  "final_universe_generated": false,
+  "frontend_export_generated": false,
+  "frontend_modified": false,
+  "frontend_preview_export_generated": false,
+  "handoff_tracked": false,
+  "network_required_for_generation": false,
+  "official_selection_memberships_generated": false,
+  "production_export_generated": false,
+  "push_performed": false,
+  "ranking_field_contamination": 0,
+  "record_type": "stage4a_validation_result",
+  "source_policy_violations": 0,
+  "stage3a_stash_untouched": true,
+  "tag_created": false,
+  "upstream_artifacts_modified": false,
+  "valid": true
+}

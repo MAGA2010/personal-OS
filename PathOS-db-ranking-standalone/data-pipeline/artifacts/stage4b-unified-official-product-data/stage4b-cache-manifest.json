@@ -1,0 +1,97 @@
+{
+  "cache_bodies_committed_by_stage4b": 0,
+  "caches": [
+    {
+      "cache_class": "gitignored_official_cache",
+      "cache_id": "cache_stage4b_census_2024_places_gazetteer",
+      "cache_path": "data-pipeline/cache/stage3c2-geography/2024_Gaz_place_national.zip",
+      "exists": true,
+      "git_tracked": false,
+      "gitignored": true,
+      "reference_year": 2024,
+      "sha256": "cf262fc92b2326f7a8c62a89d156a60eb17d64d6d35f7a62310c43bb08972c06",
+      "source_ids": [
+        "source_stage4b_census_2024_places_gazetteer"
+      ]
+    },
+    {
+      "cache_class": "gitignored_official_cache",
+      "cache_id": "cache_stage4b_college_scorecard_2025_05_19",
+      "cache_path": "data-pipeline/cache/stage3b-official/Most-Recent-Cohorts-Institution_05192025.zip",
+      "exists": true,
+      "git_tracked": false,
+      "gitignored": true,
+      "reference_year": 2025,
+      "sha256": "74d464963c2948b7b6e97df6864345055b177466325a2b06c54f0e50e910b8e4",
+      "source_ids": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ]
+    },
+    {
+      "cache_class": "gitignored_official_cache",
+      "cache_id": "cache_stage4b_ipeds_hd2024",
+      "cache_path": "data-pipeline/cache/stage3-ipeds/HD2024.zip",
+      "exists": true,
+      "git_tracked": false,
+      "gitignored": true,
+      "reference_year": 2024,
+      "sha256": "d98425c123d7c0e872aec6e83960dfb501884818bf17385c340790f3d1f28345",
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    {
+      "cache_class": "committed_verified_input_artifact",
+      "cache_id": "input_stage4b_national_ranking_top50",
+      "cache_path": "data-pipeline/data/ranking-seeds/2026-best-colleges/completion-national/national-universities-top-50.json",
+      "exists": true,
+      "git_tracked": true,
+      "gitignored": false,
+      "reference_year": 2026,
+      "sha256": "31a6bea75a6bc426a206be1024a5340daf88a82688f5e5099770f908a0068223",
+      "source_ids": [
+        "source_stage4b_national_ranking_existing"
+      ]
+    },
+    {
+      "cache_class": "committed_verified_input_artifact",
+      "cache_id": "input_stage4b_stage3b_ratio",
+      "cache_path": "data-pipeline/artifacts/stage3b-demo-critical-gap-fill/stage3b-student-faculty.json",
+      "exists": true,
+      "git_tracked": true,
+      "gitignored": false,
+      "reference_year": 2025,
+      "sha256": "315a8b61d5d4c049197d02525d6c26fe9abd950fa6cb9ebf615ba0aea93a5b09",
+      "source_ids": [
+        "source_stage4b_ratio_existing"
+      ]
+    },
+    {
+      "cache_class": "committed_verified_input_artifact",
+      "cache_id": "input_stage4b_stage3b_tuition",
+      "cache_path": "data-pipeline/artifacts/stage3b-demo-critical-gap-fill/stage3b-tuition-gap-fill.json",
+      "exists": true,
+      "git_tracked": true,
+      "gitignored": false,
+      "reference_year": 2023,
+      "sha256": "3be1ab8881977621d9705c08c1001ced201c4a03e935665dcd96291e4ec46ea0",
+      "source_ids": [
+        "source_stage4b_tuition_existing"
+      ]
+    },
+    {
+      "cache_class": "committed_verified_input_artifact",
+      "cache_id": "input_stage4b_stage3c2_nearest_towns",
+      "cache_path": "data-pipeline/artifacts/stage3c2-nearest-towns-gap-repair/stage3c2-nearest-towns.json",
+      "exists": true,
+      "git_tracked": true,
+      "gitignored": false,
+      "reference_year": 2024,
+      "sha256": "53ce49fb8ef4eb01a9f12966e7db9fddeee5294b2942466e6b9277f47868ebb0",
+      "source_ids": [
+        "source_stage4b_stage3c2_nearest_towns"
+      ]
+    }
+  ],
+  "record_type": "stage4b_cache_manifest"
+}

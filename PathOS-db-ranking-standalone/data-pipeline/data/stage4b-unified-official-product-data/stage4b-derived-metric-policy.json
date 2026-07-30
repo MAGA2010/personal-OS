@@ -1,0 +1,22 @@
+{
+  "cost_of_living_index": {
+    "formula": null,
+    "status": "deferred",
+    "reason": "No uniform licensed official component set is frozen for all 62 schools"
+  },
+  "data_completeness": {
+    "formula": "available_allowed_fields / expected_allowed_fields",
+    "null_is_available": false,
+    "status": "allowed"
+  },
+  "enrollment_size_band": {
+    "formula": "UGDS < 5000 small; < 15000 medium; < 30000 large; otherwise very_large",
+    "status": "allowed"
+  },
+  "record_type": "stage4b_derived_metric_policy",
+  "safety_index": {
+    "formula": null,
+    "status": "deferred",
+    "reason": "No uniform official jurisdiction and reference year is available"
+  }
+}

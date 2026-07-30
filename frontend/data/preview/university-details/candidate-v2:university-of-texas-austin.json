@@ -1,0 +1,465 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.2912,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2912,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "composite": {
+          "percentile_25": 27,
+          "percentile_75": 33
+        },
+        "evidence_type": "middle_50_percent_range",
+        "null_reason": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score"
+      },
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.8764,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9612,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "average": 1380,
+        "evidence_type": "middle_50_percent_range",
+        "math": {
+          "percentile_25": 610,
+          "percentile_75": 760
+        },
+        "null_reason": null,
+        "reading_writing": {
+          "percentile_25": 620,
+          "percentile_75": 730
+        },
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score",
+        "warnings": [
+          "score reporting does not establish a current test-optional policy"
+        ]
+      },
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "University of Texas—Austin"
+  ],
+  "allMajors": [],
+  "allMajorsStatus": {
+    "nullReason": "identity_ipeds_match_not_resolved",
+    "status": "not_reported"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_batch2_ut_austin_anecdote"
+      ],
+      "text": "UT’s Tower lighting guidelines originated in 1947 and remain in use, according to the Tower history.",
+      "type": "campus_tradition"
+    }
+  ],
+  "chineseName": "德克萨斯大学奥斯汀分校",
+  "city": "Austin",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": false,
+    "currency": "USD",
+    "displayLabel": "$11,678–$42,778",
+    "maximumUsd": 42778.0,
+    "minimumUsd": 11678.0,
+    "scopes": [
+      "in_state",
+      "out_of_state"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": [
+      "Public in-state and out-of-state tuition are separate scopes."
+    ]
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 10638,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_derived_same_scope",
+      "unit": null,
+      "value": 52738,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 42100,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "12420",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "Travis County",
+      "warnings": []
+    },
+    "geographyScope": "place",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [
+        "source_stage4b_census_2024_places_gazetteer"
+      ],
+      "status": "verified_place",
+      "unit": "name",
+      "value": "Austin",
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_batch2_ut_austin_history"
+    ],
+    "status": "verified",
+    "value": "UT’s Tower history records an official university opening on the hill where the Tower now stands."
+  },
+  "id": "candidate-v2:university-of-texas-austin",
+  "latitude": 30.282825,
+  "longitude": -97.738273,
+  "name": "University of Texas—Austin",
+  "nameZh": "德克萨斯大学奥斯汀分校",
+  "nationalRanking": 30,
+  "nearbyTowns": [
+    {
+      "distance": 2.32,
+      "name": "Austin"
+    },
+    {
+      "distance": 4.77,
+      "name": "Rollingwood"
+    },
+    {
+      "distance": 7.35,
+      "name": "West Lake Hills"
+    }
+  ],
+  "notableAttendance": [
+    {
+      "personName": "Matthew McConaughey",
+      "program": "Radio-Television-Film",
+      "relationship": "alumnus_unspecified",
+      "sourceIds": [
+        "source_people_pilot_ut_matthew_mcconaughey"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "displayTier": "verified",
+      "id": "person:dheeraj-pandey:university-of-texas-austin:wave7-ut-austin-dheeraj-pandey-cs",
+      "name": "Dheeraj Pandey",
+      "programName": "Computer Science",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave7-ut-austin-dheeraj-pandey-cs"
+      ],
+      "verificationStatus": "live_verified_exact"
+    },
+    {
+      "displayTier": "verified",
+      "id": "person:amy-wong:university-of-texas-austin:wave10-source-ut-austin-amy-wong",
+      "name": "Amy Wong",
+      "programName": "Finance",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave10-source-ut-austin-amy-wong"
+      ],
+      "verificationStatus": "live_verified_exact"
+    }
+  ],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Management Information Systems",
+      "slotId": "candidate-v2:university-of-texas-austin:slot-5",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:university-of-texas-austin:program:1",
+      "name": "Business Administration",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ut_austin_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-texas-austin:program:2",
+      "name": "Computer Science",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ut_austin_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-texas-austin:program:3",
+      "name": "Aerospace Engineering",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ut_austin_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-texas-austin:program:4",
+      "name": "Finance",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ut_austin_undergraduate_catalog"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-texas-austin:program:5",
+      "name": "Management Information Systems",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_ut_austin_undergraduate_catalog"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "english_policy_pending_external_access",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ]
+  },
+  "rankingBand": "national_top_50",
+  "rankingSummary": {
+    "filterBehavior": "include_as_ranked",
+    "nationalRank": 30,
+    "rankingLabel": "#30",
+    "rankingTier": "national_top_50",
+    "sourceIds": [
+      "source_think_academy_top100_2026_pdf"
+    ],
+    "status": "ranked_in_selected_national_family"
+  },
+  "rankingTier": "national_top_50",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 11678.0,
+      "currency": "USD",
+      "scope": "in_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    },
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 42778.0,
+      "currency": "USD",
+      "scope": "out_of_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "Southwest",
+  "schoolType": "public",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "TX",
+  "studentFacultyRatio": 18.0,
+  "topPrograms": [
+    "Business Administration",
+    "Computer Science",
+    "Aerospace Engineering",
+    "Finance",
+    "Management Information Systems"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 42100,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "english_policy_pending_external_access",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ],
+    "count": 3,
+    "hasWarnings": true
+  }
+}

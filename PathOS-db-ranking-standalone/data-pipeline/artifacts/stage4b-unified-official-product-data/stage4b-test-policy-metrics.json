@@ -1,0 +1,1435 @@
+{
+  "incomplete": true,
+  "not_final": true,
+  "record_type": "stage4b_test_policy_metrics",
+  "school_count": 62,
+  "source_limited": true,
+  "universities": [
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "canonical_id": "institution:boston-college",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Boston College"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Bucknell University"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "California Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Columbia University"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Cornell University"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Dartmouth College"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Emory University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Georgia Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Harvard University"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Harvey Mudd College"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Johns Hopkins University"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Lehigh University"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Loyola University Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "New York University"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Northeastern University"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Northwestern University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Olin College of Engineering"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Texas A&M University"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Tufts University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of California, Davis"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of California, Irvine"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "canonical_id": "institution:university-of-california-san-diego",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of California, San Diego"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of California, Santa Barbara"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Colorado Boulder"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Florida"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Georgia"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Iowa"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Maryland, College Park"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Notre Dame"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Pennsylvania"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Rochester"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of South Carolina"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Southern California"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Texas—Austin"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Virginia"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Washington"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "University of Wisconsin—Madison"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Vanderbilt University"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Washington University in St. Louis"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "english_proficiency_policy": {
+        "applicant_scope": "undergraduate_international",
+        "minimum_score": null,
+        "null_reason": "official_undergraduate_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "test_type": null,
+        "verification_status": "pending"
+      },
+      "test_optional_policy": {
+        "applicant_scope": "undergraduate_first_year",
+        "null_reason": "current_official_policy_review_not_completed",
+        "policy_status": "not_found",
+        "reference_year": null,
+        "source_ids": [],
+        "verification_status": "pending"
+      },
+      "university_display_name": "Yale University"
+    }
+  ]
+}

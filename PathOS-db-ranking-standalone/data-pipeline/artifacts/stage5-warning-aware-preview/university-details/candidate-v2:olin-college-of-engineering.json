@@ -1,0 +1,449 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.2166,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.2166,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "composite": {
+          "percentile_25": 34,
+          "percentile_75": 35
+        },
+        "evidence_type": "middle_50_percent_range",
+        "null_reason": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score"
+      },
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9222,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9867,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "average": 1540,
+        "evidence_type": "middle_50_percent_range",
+        "math": {
+          "percentile_25": 760,
+          "percentile_75": 790
+        },
+        "null_reason": null,
+        "reading_writing": {
+          "percentile_25": 720,
+          "percentile_75": 770
+        },
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score",
+        "warnings": [
+          "score reporting does not establish a current test-optional policy"
+        ]
+      },
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "Olin College"
+  ],
+  "allMajors": [],
+  "allMajorsStatus": {
+    "nullReason": "identity_ipeds_match_not_resolved",
+    "status": "not_reported"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_bulk_v2_olin_anecdote"
+      ],
+      "text": "Olin’s inaugural freshman class enrolled 75 students in August 2002.",
+      "type": "academic_milestone"
+    }
+  ],
+  "chineseName": "欧林工程学院",
+  "city": "Needham",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": true,
+    "currency": "USD",
+    "displayLabel": "$61,802",
+    "maximumUsd": 61802.0,
+    "minimumUsd": 61802.0,
+    "scopes": [
+      "private_single_rate"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": []
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": "official_grads_not_reported",
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [],
+      "status": "not_reported",
+      "unit": null,
+      "value": null,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": "graduate_component_not_reported",
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [],
+      "status": "partial",
+      "unit": null,
+      "value": null,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 373,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "14460",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "Norfolk County",
+      "warnings": []
+    },
+    "geographyScope": "place",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [
+        "source_stage4b_census_2024_places_gazetteer"
+      ],
+      "status": "verified_place",
+      "unit": "name",
+      "value": "Needham",
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_bulk_v2_olin_history"
+    ],
+    "status": "verified",
+    "value": "Olin College received its Massachusetts educational charter in 1997 as its foundation announced plans for the school."
+  },
+  "id": "candidate-v2:olin-college-of-engineering",
+  "latitude": 42.293527,
+  "longitude": -71.263378,
+  "name": "Olin College of Engineering",
+  "nameZh": "欧林工程学院",
+  "nationalRanking": null,
+  "nearbyTowns": [
+    {
+      "distance": 2.12,
+      "name": "Wellesley"
+    },
+    {
+      "distance": 2.18,
+      "name": "Needham"
+    },
+    {
+      "distance": 5.22,
+      "name": "Dover"
+    }
+  ],
+  "notableAttendance": [],
+  "people": [],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Undergraduate Engineering Programs (No Doctorate)",
+      "slotId": "candidate-v2:olin-college-of-engineering:slot-1",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Mechanical Engineering",
+      "slotId": "candidate-v2:olin-college-of-engineering:slot-2",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Electrical and Computer Engineering",
+      "slotId": "candidate-v2:olin-college-of-engineering:slot-3",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Bioengineering Concentration",
+      "slotId": "candidate-v2:olin-college-of-engineering:slot-4",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Engineering Computing Concentration",
+      "slotId": "candidate-v2:olin-college-of-engineering:slot-5",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:olin-college-of-engineering:program:1",
+      "name": "Undergraduate Engineering Programs (No Doctorate)",
+      "rank": 3,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "olin-2026-engineering"
+      ]
+    },
+    {
+      "id": "candidate-v2:olin-college-of-engineering:program:2",
+      "name": "Mechanical Engineering",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_olin_majors_concentrations"
+      ]
+    },
+    {
+      "id": "candidate-v2:olin-college-of-engineering:program:3",
+      "name": "Electrical and Computer Engineering",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_olin_majors_concentrations"
+      ]
+    },
+    {
+      "id": "candidate-v2:olin-college-of-engineering:program:4",
+      "name": "Bioengineering Concentration",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_olin_majors_concentrations"
+      ]
+    },
+    {
+      "id": "candidate-v2:olin-college-of-engineering:program:5",
+      "name": "Engineering Computing Concentration",
+      "rank": null,
+      "rankingFamily": "official_school_program_page",
+      "sourceIds": [
+        "source_olin_majors_concentrations"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "english_policy_pending_external_access",
+      "graduate_enrollment_not_reported",
+      "not_in_current_national_scope",
+      "not_in_verified_national_top50_scope",
+      "stale_reference_year",
+      "test_policy_pending_external_access",
+      "total_enrollment_not_reported"
+    ]
+  },
+  "rankingBand": "outside_numeric_scope",
+  "rankingSummary": {
+    "filterBehavior": "exclude_from_numeric_range",
+    "nationalRank": null,
+    "rankingLabel": "Not in selected national ranking scope",
+    "rankingTier": "outside_numeric_scope",
+    "sourceIds": [],
+    "status": "not_in_current_national_scope"
+  },
+  "rankingTier": "outside_numeric_scope",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 61802.0,
+      "currency": "USD",
+      "scope": "private_single_rate",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "New England",
+  "schoolType": "private_nonprofit",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "MA",
+  "studentFacultyRatio": 9.0,
+  "topPrograms": [
+    "Undergraduate Engineering Programs (No Doctorate)",
+    "Mechanical Engineering",
+    "Electrical and Computer Engineering",
+    "Bioengineering Concentration",
+    "Engineering Computing Concentration"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 373,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "english_policy_pending_external_access",
+      "graduate_enrollment_not_reported",
+      "not_in_current_national_scope",
+      "not_in_verified_national_top50_scope",
+      "stale_reference_year",
+      "test_policy_pending_external_access",
+      "total_enrollment_not_reported"
+    ],
+    "count": 7,
+    "hasWarnings": true
+  }
+}

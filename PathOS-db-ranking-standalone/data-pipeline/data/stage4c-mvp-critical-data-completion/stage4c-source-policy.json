@@ -1,0 +1,1 @@
+{"record_type":"stage4c_source_policy","allowed":["official_federal_dataset","official_federal_api","official_university","reviewed_localization_mapping","verified_stage4b_artifact"],"forbidden":["frontend_hardcoded","mock_demo","wikipedia","reddit","quora","search_snippet","ai_memory"],"require_scope_year_unit_for_verified":true}

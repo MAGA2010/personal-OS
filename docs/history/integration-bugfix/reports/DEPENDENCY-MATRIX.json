@@ -1,0 +1,577 @@
+{
+  "generatedAt": "2026-07-25T22:31:40+00:00",
+  "dependencies": [
+    {
+      "dependency": "@playwright/test",
+      "versions": {
+        "canonical": "^1.61.1",
+        "candidateWorktree": "^1.61.1",
+        "candidateGitHead": "^1.61.1"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "@types/d3-scale-chromatic",
+      "versions": {
+        "canonical": "^3.1.0",
+        "candidateWorktree": "^3.1.0",
+        "candidateGitHead": "^3.1.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "@types/node",
+      "versions": {
+        "canonical": "^20.14.0",
+        "candidateWorktree": "^20.14.0",
+        "candidateGitHead": "^20.14.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "@types/react",
+      "versions": {
+        "canonical": "^18.3.0",
+        "candidateWorktree": "^18.3.0",
+        "candidateGitHead": "^18.3.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "@types/react-dom",
+      "versions": {
+        "canonical": "^18.3.0",
+        "candidateWorktree": "^18.3.0",
+        "candidateGitHead": "^18.3.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "@types/supercluster",
+      "versions": {
+        "canonical": "^7.1.3",
+        "candidateWorktree": "^7.1.3",
+        "candidateGitHead": "^7.1.3"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "@types/topojson-client",
+      "versions": {
+        "canonical": "^3.1.5",
+        "candidateWorktree": "^3.1.5",
+        "candidateGitHead": "^3.1.5"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "@types/topojson-simplify",
+      "versions": {
+        "canonical": "^3.0.3",
+        "candidateWorktree": "^3.0.3",
+        "candidateGitHead": "^3.0.3"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "autoprefixer",
+      "versions": {
+        "canonical": "^10.4.20",
+        "candidateWorktree": "^10.4.20",
+        "candidateGitHead": "^10.4.20"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "d3-scale-chromatic",
+      "versions": {
+        "canonical": "^3.1.0",
+        "candidateWorktree": "^3.1.0",
+        "candidateGitHead": "^3.1.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "eslint",
+      "versions": {
+        "canonical": "^8.57.0",
+        "candidateWorktree": "^8.57.0",
+        "candidateGitHead": "^8.57.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "eslint-config-next",
+      "versions": {
+        "canonical": "^14.2.0",
+        "candidateWorktree": "^14.2.0",
+        "candidateGitHead": "^14.2.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "lucide-react",
+      "versions": {
+        "canonical": "^0.468.0",
+        "candidateWorktree": "^0.468.0",
+        "candidateGitHead": "^0.468.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "maplibre-gl",
+      "versions": {
+        "canonical": "^5.24.0",
+        "candidateWorktree": "^5.24.0",
+        "candidateGitHead": "^5.24.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "next",
+      "versions": {
+        "canonical": "^14.2.0",
+        "candidateWorktree": "^14.2.0",
+        "candidateGitHead": "^14.2.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "postcss",
+      "versions": {
+        "canonical": "^8.4.40",
+        "candidateWorktree": "^8.4.40",
+        "candidateGitHead": "^8.4.40"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "react",
+      "versions": {
+        "canonical": "^18.3.1",
+        "candidateWorktree": "^18.3.1",
+        "candidateGitHead": "^18.3.1"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "react-dom",
+      "versions": {
+        "canonical": "^18.3.1",
+        "candidateWorktree": "^18.3.1",
+        "candidateGitHead": "^18.3.1"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "react-map-gl",
+      "versions": {
+        "canonical": "^8.1.1",
+        "candidateWorktree": "^8.1.1",
+        "candidateGitHead": "^8.1.1"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "supercluster",
+      "versions": {
+        "canonical": "^8.0.1",
+        "candidateWorktree": "^8.0.1",
+        "candidateGitHead": "^8.0.1"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "tailwindcss",
+      "versions": {
+        "canonical": "^3.4.0",
+        "candidateWorktree": "^3.4.0",
+        "candidateGitHead": "^3.4.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "topojson-client",
+      "versions": {
+        "canonical": "^3.1.0",
+        "candidateWorktree": "^3.1.0",
+        "candidateGitHead": "^3.1.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "topojson-simplify",
+      "versions": {
+        "canonical": "^3.0.3",
+        "candidateWorktree": "^3.0.3",
+        "candidateGitHead": "^3.0.3"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "dependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "typescript",
+      "versions": {
+        "canonical": "^5.5.0",
+        "candidateWorktree": "^5.5.0",
+        "candidateGitHead": "^5.5.0"
+      },
+      "usedBy": [
+        "candidateGitHead",
+        "candidateWorktree",
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    },
+    {
+      "dependency": "vitest",
+      "versions": {
+        "canonical": "^2.1.9"
+      },
+      "usedBy": [
+        "canonical"
+      ],
+      "kinds": [
+        "devDependencies"
+      ],
+      "alreadyInstalled": true,
+      "required": true,
+      "optional": false,
+      "replacementAvailable": "reuse canonical dependency",
+      "bundleImpact": "none",
+      "securityRisk": "not assessed by this inventory; no upgrade performed",
+      "decision": "KEEP_CANONICAL"
+    }
+  ],
+  "dependencyCount": 25
+}

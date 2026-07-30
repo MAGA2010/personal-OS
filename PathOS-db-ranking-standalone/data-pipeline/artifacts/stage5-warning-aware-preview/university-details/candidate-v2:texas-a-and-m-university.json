@@ -1,0 +1,465 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.6325,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.6325,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "composite": {
+          "percentile_25": 25,
+          "percentile_75": 31
+        },
+        "evidence_type": "middle_50_percent_range",
+        "null_reason": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score"
+      },
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.8378,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9425,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "average": 1272,
+        "evidence_type": "middle_50_percent_range",
+        "math": {
+          "percentile_25": 570,
+          "percentile_75": 700
+        },
+        "null_reason": null,
+        "reading_writing": {
+          "percentile_25": 570,
+          "percentile_75": 680
+        },
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score",
+        "warnings": [
+          "score reporting does not establish a current test-optional policy"
+        ]
+      },
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "Texas A&M University College of Engineering"
+  ],
+  "allMajors": [],
+  "allMajorsStatus": {
+    "nullReason": "identity_ipeds_match_not_resolved",
+    "status": "not_reported"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_bulk_v2_tamu_anecdote"
+      ],
+      "text": "Texas A&M began instruction with 40 students and six faculty members in 1876.",
+      "type": "academic_milestone"
+    }
+  ],
+  "chineseName": "德州农工大学",
+  "city": "College Station",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": false,
+    "currency": "USD",
+    "displayLabel": "$12,841–$40,328",
+    "maximumUsd": 40328.0,
+    "minimumUsd": 12841.0,
+    "scopes": [
+      "in_state",
+      "out_of_state"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": [
+      "Public in-state and out-of-state tuition are separate scopes."
+    ]
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 16700,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_derived_same_scope",
+      "unit": null,
+      "value": 75799,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 59099,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "17780",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "Brazos County",
+      "warnings": []
+    },
+    "geographyScope": "place",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [
+        "source_stage4b_census_2024_places_gazetteer"
+      ],
+      "status": "verified_place",
+      "unit": "name",
+      "value": "College Station",
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_bulk_v2_tamu_history"
+    ],
+    "status": "verified",
+    "value": "Texas established the Agricultural and Mechanical College of Texas in April 1871."
+  },
+  "id": "candidate-v2:texas-a-and-m-university",
+  "latitude": 30.618726,
+  "longitude": -96.336475,
+  "name": "Texas A&M University",
+  "nameZh": "德州农工大学",
+  "nationalRanking": null,
+  "nearbyTowns": [
+    {
+      "distance": 5.35,
+      "name": "College Station"
+    },
+    {
+      "distance": 6.77,
+      "name": "Bryan"
+    },
+    {
+      "distance": 16.3,
+      "name": "Wixon Valley"
+    }
+  ],
+  "notableAttendance": [],
+  "people": [
+    {
+      "displayTier": "verified",
+      "id": "person:lesley-a-weitz:texas-a-and-m-university:wave7-tamu-lesley-weitz-aerospace",
+      "name": "Lesley A. Weitz",
+      "programName": "Aerospace Engineering",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave7-tamu-lesley-weitz-aerospace"
+      ],
+      "verificationStatus": "live_verified_exact"
+    },
+    {
+      "displayTier": "verified",
+      "id": "person:rick-wilkinson:texas-a-and-m-university:wave8-tamu-rick-wilkinson-industrial",
+      "name": "Rick Wilkinson",
+      "programName": "Industrial Engineering",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "wave8-tamu-rick-wilkinson-industrial"
+      ],
+      "verificationStatus": "live_verified_exact"
+    }
+  ],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Materials Engineering",
+      "slotId": "candidate-v2:texas-a-and-m-university:slot-4",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Electrical Engineering",
+      "slotId": "candidate-v2:texas-a-and-m-university:slot-5",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:texas-a-and-m-university:program:1",
+      "name": "Industrial Engineering",
+      "rank": 8,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "texas-am-2026-engineering"
+      ]
+    },
+    {
+      "id": "candidate-v2:texas-a-and-m-university:program:2",
+      "name": "Aerospace Engineering",
+      "rank": 10,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "texas-am-2026-engineering"
+      ]
+    },
+    {
+      "id": "candidate-v2:texas-a-and-m-university:program:3",
+      "name": "Mechanical Engineering",
+      "rank": 14,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "texas-am-2026-engineering"
+      ]
+    },
+    {
+      "id": "candidate-v2:texas-a-and-m-university:program:4",
+      "name": "Materials Engineering",
+      "rank": 16,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "texas-am-2026-engineering"
+      ]
+    },
+    {
+      "id": "candidate-v2:texas-a-and-m-university:program:5",
+      "name": "Electrical Engineering",
+      "rank": 17,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "texas-am-2026-engineering"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "english_policy_pending_external_access",
+      "not_in_current_national_scope",
+      "not_in_verified_national_top50_scope",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ]
+  },
+  "rankingBand": "outside_numeric_scope",
+  "rankingSummary": {
+    "filterBehavior": "exclude_from_numeric_range",
+    "nationalRank": null,
+    "rankingLabel": "Not in selected national ranking scope",
+    "rankingTier": "outside_numeric_scope",
+    "sourceIds": [],
+    "status": "not_in_current_national_scope"
+  },
+  "rankingTier": "outside_numeric_scope",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 12841.0,
+      "currency": "USD",
+      "scope": "in_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    },
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 40328.0,
+      "currency": "USD",
+      "scope": "out_of_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "Southwest",
+  "schoolType": "public",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "TX",
+  "studentFacultyRatio": 19.0,
+  "topPrograms": [
+    "Industrial Engineering",
+    "Aerospace Engineering",
+    "Mechanical Engineering",
+    "Materials Engineering",
+    "Electrical Engineering"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 59099,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "english_policy_pending_external_access",
+      "not_in_current_national_scope",
+      "not_in_verified_national_top50_scope",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ],
+    "count": 5,
+    "hasWarnings": true
+  }
+}

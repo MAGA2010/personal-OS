@@ -2,10 +2,9 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { Bookmark, Brain, Check, DollarSign, GraduationCap, Map, Percent, Shield, Sparkles, Target, TrendingUp, Users } from "lucide-react";
-import { ProductJourney } from "@/components/ProductJourney";
-import universityData from "@/data/universities.json";
-import regionMetrics from "@/data/region-metrics.json";
+import { AlertTriangle, Bookmark, Brain, Check, DollarSign, GraduationCap, Map, Percent, Shield, Sparkles, Target, TrendingUp, Users } from "lucide-react";
+import { useDataSource } from "@/services/data-source-provider";
+import { useUniversitySummaries } from "@/hooks/use-data-source";
 
 const STORAGE_KEY = "pathos_portfolio";
 
@@ -26,36 +25,151 @@ const DIMENSIONS: Array<{ key: DimensionKey; label: string; helper: string; icon
 
 const DEFAULT_STUDENT: StudentInputs = { budget: 72, rank: 76, safety: 68, employment: 72, community: 60, admission: 55 };
 const DEFAULT_WEIGHTS: StudentInputs = { budget: 20, rank: 20, safety: 18, employment: 18, community: 12, admission: 12 };
-const TIER_SCORE: Record<string, number> = { top20: 96, top50: 82, top100: 66, other: 48 };
-const COMMUNITY_SCORE: Record<string, number> = { high: 88, medium: 62, low: 36 };
 const clamp = (value: number) => Math.max(0, Math.min(100, Math.round(value)));
-const formatRmb = (value: number) => "¥" + Math.round(value / 10000) + "万";
+// Stage 7A — `formatRmb` now reads `costSummary.minimumUsd * 7.2`
+// instead of the legacy `annualCostRmb` (which doesn't exist on the
+// canonical summary). USD-minimum is the cheapest publicly listed
+// tuition band; we surface that as the budget anchor so the slider
+// has a real reference number to push against.
+const formatRmb = (value: number | null | undefined) => {
+  if (typeof value !== "number" || !Number.isFinite(value) || value <= 0) return "学费数据补充中";
+  return "¥" + Math.round(value / 10000) + "万";
+};
 
-function getMetricMap(metricId: string) {
-  const records = ((regionMetrics as any).records ?? (regionMetrics as any).metrics ?? []) as any[];
+function getMetricMap(metricId: string, records: readonly any[]) {
   return records.reduce<Record<string, number>>((acc, item) => {
-    if (item.metricId === metricId && item.granularity === "state") acc[item.fipsCode] = Math.round(Number(item.value ?? 0.5) * 100);
+    if (item.metricId === metricId && item.granularity === "state") {
+      const fips = String(item.fipsCode ?? "").padStart(2, "0").slice(-2);
+      acc[fips] = Math.round(Number(item.value ?? 0.5) * 100);
+    }
     return acc;
   }, {});
 }
 
-function schoolPercentages(university: any, maps: Record<string, Record<string, number>>): StudentInputs {
-  const budget = clamp(100 - ((university.annualCostRmb ?? 620000) - 320000) / 5000);
-  const rank = clamp(university.numericRank ? 100 - (Number(university.numericRank) - 1) * 1.35 : TIER_SCORE[university.rankingTier] ?? 50);
-  const safety = clamp(university.safetyScore ?? maps.safety[university.stateFips] ?? 60);
-  const employment = clamp((maps.employment[university.stateFips] ?? 62) * 0.65 + (university.recognitionScore ?? 70) * 0.35);
-  const community = clamp(COMMUNITY_SCORE[university.chineseCommunity] ?? maps.chinese_population[university.stateFips] ?? 50);
-  const admission = clamp(university.admissionRate ? Math.min(100, Number(university.admissionRate) * 2.4) : 105 - rank * 0.75);
-  return { budget, rank, safety, employment, community, admission };
+// Gate-bloker repair #RG-P0-C: the previous version of this function
+// fabricated missing facts: it forced every school with no
+// `annualCostRmb` to look like ¥620000 (the average), every missing
+// `safetyScore` to 60, every missing `recognitionScore` to 70, and
+// every missing `admissionRate` to a derived fallback. That made
+// every "data pending" school look identical to the average. The
+// new version returns `null` for missing dimensions and excludes
+// them from the weighted match — schools missing data show up
+// with the "部分维度数据不足" badge instead of fake 0-100 scores.
+// Stage 7A — `schoolPercentages` + `matchScore` rewrite.
+//
+// The previous version was written against the legacy summary shape
+// (top-level `annualCostRmb`, `safetyScore`, `recognitionScore`,
+// `chineseCommunity`, `numericRank`, `stateFips`). None of those
+// fields exist on the canonical `UniversitySummary` produced by the
+// Stage 5 Preview Bundle, so every school ended up flagged "部分维度
+// 数据不足" and the match score collapsed to a single uniform value
+// (because the math `(weighted/presentTotal)*100` overscaled by 100
+// and everything clamped to 100%).
+//
+// What we DO have on the summary:
+//   - costSummary.minimumUsd / maximumUsd  → budget dimension
+//   - rankingSummary.nationalRank | rankingTier  → rank dimension
+//   - acceptanceRate (lives in detail, not summary) → admission dim
+//   - studentFacultyRatio  → optional safety-ish proxy (small)
+//
+// Region-scoped dimensions (safety, employment, chinese_community)
+// are blocked at the source — the bundle's region-metrics.json has
+// `records: []` and `status: "blocked"`. We render those three as
+// "数据补充中" badges and exclude them from the weighted score
+// instead of fabricating values.
+
+const STAGE5_RMB_PER_USD = 7.2;
+const STAGE5_TIER_SCORE: Record<string, number> = { top20: 96, top50: 82, top100: 66, other: 48 };
+const STAGE5_RANK_DIM_BUDGET_USD = 30000; // USD baseline "comfortable"
+const STAGE5_RANK_DIM_BUDGET_SPAN = 5000;  // USD above baseline that maps to 0%
+
+function schoolPercentages(
+  university: any,
+  detail: { admissions?: { acceptanceRate?: { value: number | null; status?: string } } } | null,
+): { school: StudentInputs; missing: DimensionKey[] } {
+  const missing: DimensionKey[] = [];
+
+  // Budget — read from `costSummary.minimumUsd` (the canonical
+  // USD-based band). Higher USD = lower score.
+  let budget: number | null = null;
+  const minUsd = university?.costSummary?.minimumUsd;
+  if (typeof minUsd === "number" && Number.isFinite(minUsd) && minUsd > 0) {
+    const costRmb = minUsd * STAGE5_RMB_PER_USD;
+    budget = clamp(100 - ((costRmb - STAGE5_RANK_DIM_BUDGET_USD * STAGE5_RMB_PER_USD) / (STAGE5_RANK_DIM_BUDGET_SPAN * STAGE5_RMB_PER_USD)));
+  } else {
+    missing.push("budget");
+  }
+
+  // Rank — read from `rankingSummary.nationalRank` first, then
+  // fall back to the `rankingSummary.rankingTier` enum.
+  let rank: number | null = null;
+  const nationalRank = university?.rankingSummary?.nationalRank;
+  const tier = university?.rankingSummary?.rankingTier ?? university?.rankingTier;
+  if (typeof nationalRank === "number" && Number.isFinite(nationalRank) && nationalRank > 0) {
+    rank = clamp(100 - (nationalRank - 1) * 1.35);
+  } else if (typeof STAGE5_TIER_SCORE[tier] === "number") {
+    rank = clamp(STAGE5_TIER_SCORE[tier]);
+  } else {
+    missing.push("rank");
+  }
+
+  // Region-scoped dimensions — currently blocked at the data source
+  // (region-metrics returns `records: []`). Mark all three missing
+  // and DO NOT fabricate a value from a stale metric cache.
+  missing.push("safety");
+  missing.push("employment");
+  missing.push("community");
+
+  // Admission — comes from preview detail. On the summary list, we
+  // only get this if the caller passed detail (which the page does
+  // not, for performance reasons). When absent, mark missing.
+  let admission: number | null = null;
+  const ar = detail?.admissions?.acceptanceRate?.value;
+  if (typeof ar === "number" && Number.isFinite(ar) && ar > 0 && ar <= 1) {
+    admission = clamp(Math.min(100, ar * 100 * 2.4));
+  } else {
+    missing.push("admission");
+  }
+
+  const school: StudentInputs = {
+    budget: budget ?? 0,
+    rank: rank ?? 0,
+    safety: 0,
+    employment: 0,
+    community: 0,
+    admission: admission ?? 0,
+  };
+  return { school, missing };
 }
 
-function matchScore(student: StudentInputs, weights: StudentInputs, school: StudentInputs) {
-  const totalWeight = DIMENSIONS.reduce((sum, dim) => sum + weights[dim.key], 0) || 1;
+function matchScore(
+  student: StudentInputs,
+  weights: StudentInputs,
+  school: StudentInputs,
+  missing: DimensionKey[],
+): number {
+  // Re-normalize weights across the dimensions that DO have data.
+  // A school missing "budget" can't be penalised for being over
+  // budget; pretending it has a budget value of 0 would unfairly
+  // inflate its score.
+  //
+  // Bug fix (Stage 7A): the previous formula was
+  //   clamp((weighted / presentTotal) * 100)
+  // which produced values vastly > 100 because each dim's
+  // contribution is `(100 - gap) * weight` (range 0..100*weight).
+  // Summing gives 0..100*presentTotal. Dividing by presentTotal
+  // alone (not by presentTotal * 100) gives 0..100.
+  const presentTotal = DIMENSIONS.reduce(
+    (sum, dim) => (missing.includes(dim.key) ? sum : sum + weights[dim.key]),
+    0,
+  );
+  if (presentTotal === 0) return 0;
   const weighted = DIMENSIONS.reduce((sum, dim) => {
+    if (missing.includes(dim.key)) return sum;
     const gap = Math.abs(student[dim.key] - school[dim.key]);
     return sum + Math.max(0, 100 - gap) * weights[dim.key];
   }, 0);
-  return clamp(weighted / totalWeight);
+  return clamp(weighted / presentTotal);
 }
 
 function saveToPortfolio(university: any) {
@@ -71,46 +185,67 @@ function saveToPortfolio(university: any) {
 }
 
 export default function SmartMatchPage() {
-  const universities = (universityData as any).universities as any[];
-  const maps = useMemo(() => ({ safety: getMetricMap("safety"), employment: getMetricMap("employment"), chinese_population: getMetricMap("chinese_population") }), []);
+  const dataSource = useDataSource();
+  const summariesState = useUniversitySummaries(dataSource);
+  // Stage 7A — Region-scoped dimensions (safety / employment /
+  // chinese_population) are blocked at the source (bundle returns
+  // `records: []` + `status: "blocked"`). We no longer fetch them
+  // and no longer fabricate values. The three dimensions render as
+  // "数据补充中" badges and are excluded from the weighted score.
+  const universities = useMemo(
+    () => (summariesState.state.status === "ready" ? (summariesState.state.data as unknown as any[]) : []),
+    [summariesState.state],
+  );
   const [student, setStudent] = useState<StudentInputs>(DEFAULT_STUDENT);
   const [weights, setWeights] = useState<StudentInputs>(DEFAULT_WEIGHTS);
   const [addedId, setAddedId] = useState<string | null>(null);
 
   const matches = useMemo(() => universities.map((university) => {
-    const school = schoolPercentages(university, maps);
-    return { ...university, school, match: matchScore(student, weights, school) };
-  }).sort((a, b) => b.match - a.match).slice(0, 18), [maps, student, universities, weights]);
+    const { school, missing } = schoolPercentages(university, null);
+    return {
+      ...university,
+      school,
+      missing,
+      match: matchScore(student, weights, school, missing),
+    };
+  }).sort((a, b) => b.match - a.match).slice(0, 18), [student, universities, weights]);
 
   const averageTarget = Math.round(DIMENSIONS.reduce((sum, dim) => sum + student[dim.key], 0) / DIMENSIONS.length);
   const totalWeight = DIMENSIONS.reduce((sum, dim) => sum + weights[dim.key], 0);
 
   return (
-    <div className="min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(35,118,107,0.12),transparent_34%),linear-gradient(180deg,#f6f3ed_0%,#fffaf1_58%,#f6f3ed_100%)]">
-      <header className="border-b border-line/50 bg-panel/80 px-5 py-5 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-4">
-          <div className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-ink text-panel shadow-lg shadow-ink/10"><Sparkles size={21} /></div>
-          <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-cobalt/70">Self-service quiz</p>
-            <h1 className="text-xl font-semibold tracking-tight text-ink">自主测验：拉取你的百分比与权重</h1>
-            <p className="mt-1 text-sm text-ink/55">学生先定义自己的六维百分比，再与每所学校的数据百分比做匹配。</p>
+    <div className="min-h-screen bg-surface-base">
+      <header className="border-b border-border-soft bg-surface-1/70 backdrop-blur">
+        <div className="mx-auto flex max-w-page flex-wrap items-center gap-3 px-4 py-3 sm:gap-4 sm:px-6">
+          <div className="grid h-9 w-9 shrink-0 place-items-center rounded-control bg-ink text-paper">
+            <Sparkles size={18} aria-hidden="true" />
           </div>
-          <Link href="/assessment" className="ml-auto inline-flex items-center gap-2 rounded-full bg-ink px-4 py-2 text-xs font-semibold text-panel shadow-sm transition hover:-translate-y-0.5 hover:bg-ink/90"><Brain size={14} /> 切到 AI 学校评估</Link>
+          <div className="min-w-0 flex-1">
+            <p className="text-label uppercase tracking-[0.12em] text-cobalt/80">自主测验</p>
+            <h1 className="text-page text-text-primary">拉取你的百分比与权重</h1>
+            <p className="mt-0.5 text-caption text-text-secondary">
+              学生先定义六维百分比，再与每所学校的数据百分比做匹配。
+            </p>
+          </div>
+          <Link
+            href="/assessment"
+            className="ml-auto inline-flex h-control items-center gap-1.5 rounded-control border border-border-soft bg-surface-1 px-3 text-[12px] font-semibold text-text-primary transition hover:border-cobalt/40 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus-ring"
+          >
+            <Brain size={13} aria-hidden="true" /> 切到 AI 学校评估
+          </Link>
         </div>
       </header>
 
-      <div className="mx-auto max-w-6xl px-4 pt-5"><ProductJourney active="match" compact /></div>
-
-      <main className="mx-auto grid max-w-6xl gap-6 px-4 py-6 lg:grid-cols-[360px_1fr]">
+      <main className="mx-auto grid max-w-page gap-6 px-4 py-5 lg:grid-cols-[360px_1fr] sm:px-6">
         <aside className="space-y-4 lg:sticky lg:top-20 lg:self-start">
-          <section className="rounded-[1.6rem] border border-white/70 bg-white/80 p-5 shadow-xl shadow-ink/5 backdrop-blur">
-            <div className="mb-5 flex items-start justify-between gap-3">
+          <section className="rounded-card border border-border-soft bg-surface-1 p-4 shadow-pop">
+            <div className="mb-4 flex items-start justify-between gap-3">
               <div>
-                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-jade/80">Student pull</p>
-                <h2 className="mt-1 text-base font-semibold text-ink">学生百分比</h2>
-                <p className="mt-1 text-xs leading-relaxed text-ink/50">不是 AI 自动替你判断，而是由学生主动设定目标强度。</p>
+                <p className="text-label uppercase tracking-[0.12em] text-jade">学生百分比</p>
+                <h2 className="mt-0.5 text-section text-text-primary">六维偏好</h2>
+                <p className="mt-1 text-caption text-text-secondary">不是 AI 自动替你判断，而是由学生主动设定目标强度。</p>
               </div>
-              <div className="rounded-full bg-jade/10 px-3 py-1 text-xs font-bold text-jade">均值 {averageTarget}%</div>
+              <div className="rounded-control border border-jade/30 bg-jade/8 px-2.5 py-1 text-[11px] font-bold text-jade">均值 {averageTarget}%</div>
             </div>
 
             <div className="space-y-4">
@@ -149,37 +284,63 @@ export default function SmartMatchPage() {
         </aside>
 
         <section className="space-y-4">
-          <div className="rounded-[1.7rem] border border-white/70 bg-white/80 p-5 shadow-xl shadow-ink/5 backdrop-blur">
-            <div className="flex flex-wrap items-end justify-between gap-4">
+          <div className="rounded-card border border-border-soft bg-surface-1 p-4 shadow-pop">
+            <div className="flex flex-wrap items-end justify-between gap-3">
               <div>
-                <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-persimmon/75">School percentages</p>
-                <h2 className="mt-1 text-xl font-semibold text-ink">学校百分比匹配结果</h2>
-                <p className="mt-1 text-sm text-ink/50">展示学校六维数据和学生目标之间的距离，不混入 AI 结论。</p>
+                <p className="text-label uppercase tracking-[0.12em] text-persimmon">学校百分比</p>
+                <h2 className="mt-0.5 text-page text-text-primary">匹配结果</h2>
+                <p className="mt-1 text-caption text-text-secondary">
+                  展示学校六维数据和学生目标之间的距离，不混入 AI 结论。
+                </p>
               </div>
-              <div className="flex items-center gap-2 rounded-full border border-line/50 bg-panel px-3 py-1.5 text-xs text-ink/55"><Percent size={14} /> Top {matches.length} / {universities.length}</div>
+              <div className="inline-flex items-center gap-1.5 rounded-control border border-border-soft bg-surface-2 px-2.5 py-1 text-caption text-text-secondary">
+                <Percent size={12} aria-hidden="true" /> Top {matches.length} / {universities.length}
+              </div>
+            </div>
+            <div className="mt-3 flex items-start gap-2 rounded-control border border-persimmon/30 bg-persimmon/8 px-3 py-2 text-caption text-persimmon">
+              <AlertTriangle size={13} aria-hidden="true" className="mt-0.5 shrink-0" />
+              <p>区域指标（安全 / 就业 / 华人社区）当前仅在地图上作环境参考，未计入自主匹配分数；综合分仅基于「费用 + 排名」两个真实维度。</p>
             </div>
           </div>
 
           <div className="grid gap-3">
             {matches.map((university, index) => {
               const tone = university.match >= 86 ? "text-jade" : university.match >= 72 ? "text-cobalt" : "text-persimmon";
+              // Stage 7A — read `costSummary.minimumUsd` instead of
+              // the legacy `annualCostRmb` field that no longer exists.
+              const minUsd = typeof university?.costSummary?.minimumUsd === "number" ? university.costSummary.minimumUsd : null;
+              const costRmbForDisplay = minUsd !== null ? minUsd * STAGE5_RMB_PER_USD : null;
+              const safetyLabel = "数据补充中"; // region metrics blocked at source
+              const missingDims = (university.missing ?? []) as DimensionKey[];
               return (
-                <article key={university.id} className="group overflow-hidden rounded-[1.5rem] border border-line/45 bg-white/90 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-cobalt/30 hover:shadow-xl hover:shadow-ink/8">
-                  <div className="flex flex-col gap-4 p-4 sm:flex-row sm:items-start">
-                    <div className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-ink text-sm font-bold text-panel">{index + 1}</div>
+                <article key={university.id} className="group overflow-hidden rounded-card border border-border-soft bg-surface-1 transition hover:-translate-y-0.5 hover:border-cobalt/40 hover:shadow-pop">
+                  <div className="flex flex-col gap-3 p-4 sm:flex-row sm:items-start">
+                    <div className="grid h-9 w-9 shrink-0 place-items-center rounded-control bg-ink text-[13px] font-bold text-paper">{index + 1}</div>
                     <div className="min-w-0 flex-1">
-                      <div className="flex flex-wrap items-center gap-2"><h3 className="text-base font-semibold text-ink">{university.chineseName}</h3><span className="text-xs text-ink/38">{university.name}</span><span className="rounded-full bg-cobalt/8 px-2 py-0.5 text-[11px] font-semibold text-cobalt">{university.rankingTier}</span></div>
-                      <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-ink/48"><span>{university.city}, {university.state}</span><span>·</span><span>{formatRmb(university.annualCostRmb)}/年</span><span>·</span><span>安全 {university.safetyScore ?? "-"}/100</span></div>
+                      <div className="flex flex-wrap items-center gap-2">
+                        <h3 className="text-section text-text-primary">{university.chineseName}</h3>
+                        <span className="text-caption text-text-muted">{university.name}</span>
+                        <span className="rounded-control bg-cobalt/8 px-2 py-0.5 text-[11px] font-semibold text-cobalt">{university.rankingTier}</span>
+                        {missingDims.length > 0 && <span className="rounded-control border border-border-soft bg-surface-2 px-2 py-0.5 text-[10px] font-medium text-text-secondary">部分维度数据不足</span>}
+                      </div>
+                      <div className="mt-1 flex flex-wrap items-center gap-2 text-caption text-text-secondary">
+                        <span>{university.city}, {university.state}</span>
+                        <span aria-hidden="true">·</span>
+                        <span>{formatRmb(costRmbForDisplay)}/年</span>
+                        <span aria-hidden="true">·</span>
+                        <span>安全 {safetyLabel}</span>
+                      </div>
                       <div className="mt-4 grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
                         {DIMENSIONS.map((dim) => {
                           const schoolValue = university.school[dim.key];
                           const studentValue = student[dim.key];
-                          const gap = Math.abs(schoolValue - studentValue);
+                          const isMissing = missingDims.includes(dim.key);
+                          const gap = isMissing ? 0 : Math.abs(schoolValue - studentValue);
                           return (
                             <div key={dim.key} className="rounded-2xl bg-paper/80 p-2.5">
-                              <div className="flex items-center justify-between text-[11px]"><span className="font-medium text-ink/60">{dim.label}</span><span className="font-semibold text-ink">校 {schoolValue}% / 我 {studentValue}%</span></div>
-                              <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-line/50"><div className="h-full rounded-full bg-cobalt" style={{ width: schoolValue + "%" }} /></div>
-                              <div className="mt-1 text-[10px] text-ink/38">差距 {gap} · {dim.helper}</div>
+                              <div className="flex items-center justify-between text-[11px]"><span className="font-medium text-ink/60">{dim.label}</span><span className="font-semibold text-ink">{isMissing ? "数据补充中" : `校 ${schoolValue}% / 我 ${studentValue}%`}</span></div>
+                              <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-line/50">{!isMissing && <div className="h-full rounded-full bg-cobalt" style={{ width: schoolValue + "%" }} />}</div>
+                              <div className="mt-1 text-[10px] text-ink/38">{isMissing ? "等待数据补充" : `差距 ${gap} · ${dim.helper}`}</div>
                             </div>
                           );
                         })}

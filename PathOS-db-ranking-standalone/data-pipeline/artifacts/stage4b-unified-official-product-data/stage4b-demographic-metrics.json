@@ -1,0 +1,4783 @@
+{
+  "incomplete": true,
+  "not_final": true,
+  "record_type": "stage4b_demographic_metrics",
+  "school_count": 62,
+  "source_limited": true,
+  "universities": [
+    {
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "geography_id": "0473000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0473000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0473000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0473000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0473000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Arizona State University"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-college",
+      "canonical_id": "institution:boston-college",
+      "geography_id": "25017",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25017",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25017",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25017",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25017",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Boston College"
+    },
+    {
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "geography_id": "25025",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25025",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25025",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25025",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25025",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Boston University"
+    },
+    {
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "geography_id": "4459000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4459000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4459000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4459000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4459000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Brown University"
+    },
+    {
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "geography_id": "4242976",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4242976",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4242976",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4242976",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4242976",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Bucknell University"
+    },
+    {
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "geography_id": "0656000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0656000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0656000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0656000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0656000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "California Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "geography_id": "4261000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4261000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4261000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4261000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4261000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Carnegie Mellon University"
+    },
+    {
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "geography_id": "36061",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "36061",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "36061",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "36061",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "36061",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Columbia University"
+    },
+    {
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "geography_id": "3638077",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3638077",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3638077",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3638077",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3638077",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Cornell University"
+    },
+    {
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "geography_id": "3333780",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3333780",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3333780",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3333780",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3333780",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Dartmouth College"
+    },
+    {
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "geography_id": "3719000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3719000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3719000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3719000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3719000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Duke University"
+    },
+    {
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "geography_id": "13089",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "13089",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "13089",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "13089",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "13089",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Emory University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "geography_id": "1150000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1150000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1150000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1150000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1150000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Georgetown University"
+    },
+    {
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "geography_id": "1304000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1304000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1304000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1304000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1304000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Georgia Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "geography_id": "2511000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2511000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2511000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2511000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2511000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Harvard University"
+    },
+    {
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "geography_id": "0613756",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0613756",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0613756",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0613756",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0613756",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Harvey Mudd College"
+    },
+    {
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "geography_id": "1805860",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1805860",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1805860",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1805860",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1805860",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Indiana University Bloomington"
+    },
+    {
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "geography_id": "2404000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2404000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2404000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2404000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2404000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Johns Hopkins University"
+    },
+    {
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "geography_id": "4206088",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4206088",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4206088",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4206088",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4206088",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Lehigh University"
+    },
+    {
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "geography_id": "17031",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "17031",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "17031",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "17031",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "17031",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Loyola University Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "geography_id": "2511000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2511000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2511000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2511000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2511000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "geography_id": "36061",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "36061",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "36061",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "36061",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "36061",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "New York University"
+    },
+    {
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "geography_id": "25025",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25025",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25025",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25025",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "25025",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Northeastern University"
+    },
+    {
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "geography_id": "1724582",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1724582",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1724582",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1724582",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1724582",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Northwestern University"
+    },
+    {
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "geography_id": "3918000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3918000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3918000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3918000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3918000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "The Ohio State University"
+    },
+    {
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "geography_id": "2544140",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2544140",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2544140",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2544140",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2544140",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Olin College of Engineering"
+    },
+    {
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "geography_id": "3460900",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3460900",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3460900",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3460900",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3460900",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Princeton University"
+    },
+    {
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "geography_id": "1882862",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1882862",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1882862",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1882862",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1882862",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Purdue University—Main Campus"
+    },
+    {
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "geography_id": "48201",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "48201",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "48201",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "48201",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "48201",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Rice University"
+    },
+    {
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "geography_id": "1875428",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1875428",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1875428",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1875428",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1875428",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "geography_id": "3451210",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3451210",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3451210",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3451210",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3451210",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "geography_id": "0673906",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0673906",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0673906",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0673906",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0673906",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Stanford University"
+    },
+    {
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "geography_id": "4815976",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4815976",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4815976",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4815976",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4815976",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Texas A&M University"
+    },
+    {
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "geography_id": "2539835",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2539835",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2539835",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2539835",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2539835",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Tufts University"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "geography_id": "0606000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0606000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0606000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0606000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0606000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of California, Berkeley"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "geography_id": "0618100",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0618100",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0618100",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0618100",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0618100",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of California, Davis"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "geography_id": "0636770",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0636770",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0636770",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0636770",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0636770",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of California, Irvine"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "geography_id": "0644000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0644000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0644000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0644000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0644000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of California, Los Angeles"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "canonical_id": "institution:university-of-california-san-diego",
+      "geography_id": "06073",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06073",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06073",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06073",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06073",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of California, San Diego"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "geography_id": "06083",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06083",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06083",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06083",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06083",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of California, Santa Barbara"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "geography_id": "1714000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1714000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1714000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1714000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1714000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Chicago"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "geography_id": "0807850",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0807850",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0807850",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0807850",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0807850",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Colorado Boulder"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "geography_id": "1225175",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1225175",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1225175",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1225175",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1225175",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Florida"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "geography_id": "13059",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "13059",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "13059",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "13059",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "13059",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Georgia"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "geography_id": "1712385",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1712385",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1712385",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1712385",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1712385",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "geography_id": "1938595",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1938595",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1938595",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1938595",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1938595",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Iowa"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "geography_id": "2418750",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2418750",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2418750",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2418750",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2418750",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Maryland, College Park"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "geography_id": "2603000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2603000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2603000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2603000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2603000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "geography_id": "2743000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2743000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2743000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2743000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "2743000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "geography_id": "3711800",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3711800",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3711800",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3711800",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3711800",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "geography_id": "1855386",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1855386",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1855386",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1855386",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "1855386",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Notre Dame"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "geography_id": "42101",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "42101",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "42101",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "42101",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "42101",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Pennsylvania"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "geography_id": "3663000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3663000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3663000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3663000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "3663000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Rochester"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "geography_id": "45079",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "45079",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "45079",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "45079",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "45079",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of South Carolina"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "geography_id": "06037",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06037",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06037",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06037",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "06037",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Southern California"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "geography_id": "4805000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4805000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4805000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4805000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "4805000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Texas—Austin"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "geography_id": "5114968",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5114968",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5114968",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5114968",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5114968",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Virginia"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "geography_id": "5363000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5363000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5363000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5363000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5363000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Washington"
+    },
+    {
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "geography_id": "5548000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5548000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5548000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5548000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "5548000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "University of Wisconsin—Madison"
+    },
+    {
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "geography_id": "47037",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "47037",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "47037",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "47037",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "47037",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Vanderbilt University"
+    },
+    {
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "geography_id": "29189",
+      "geography_type": "county",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "29189",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "29189",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "29189",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "29189",
+          "geography_type": "county",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Washington University in St. Louis"
+    },
+    {
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "geography_id": "0952000",
+      "geography_type": "place",
+      "metrics": {
+        "asian_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0952000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "asian_alone_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "chinese_population_ratio": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0952000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "chinese_alone_or_in_any_combination_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "poverty_rate": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0952000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "population_for_whom_poverty_status_is_determined",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "ratio",
+          "value": null
+        },
+        "total_population": {
+          "availability_status": "deferred",
+          "denominator": null,
+          "estimate_type": "ACS_5_year_estimate",
+          "geography_id": "0952000",
+          "geography_type": "place",
+          "margin_of_error": null,
+          "null_reason": "official_acs_api_requires_unavailable_credential",
+          "numerator": null,
+          "population_definition": "total_resident_population",
+          "reference_year": 2023,
+          "source_ids": [
+            "source_stage4b_acs5_2023_intake_deferred"
+          ],
+          "unit": "people",
+          "value": null
+        }
+      },
+      "university_display_name": "Yale University"
+    }
+  ]
+}

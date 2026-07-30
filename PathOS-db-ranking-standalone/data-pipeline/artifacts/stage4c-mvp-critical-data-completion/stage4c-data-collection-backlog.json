@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "field": "graduate_enrollment",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P0",
+      "status": "partial"
+    },
+    {
+      "field": "total_enrollment",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P0",
+      "status": "partial"
+    },
+    {
+      "field": "sat",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "partial"
+    },
+    {
+      "field": "act",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P2",
+      "status": "partial"
+    },
+    {
+      "field": "test_policy",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P0",
+      "status": "missing"
+    },
+    {
+      "field": "english_policy",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P0",
+      "status": "missing"
+    },
+    {
+      "field": "median_household_income",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "blocked"
+    },
+    {
+      "field": "median_gross_rent",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "blocked"
+    },
+    {
+      "field": "population_density",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "blocked"
+    },
+    {
+      "field": "asian_population_ratio",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "blocked"
+    },
+    {
+      "field": "chinese_specific_population_ratio",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P2",
+      "status": "blocked"
+    },
+    {
+      "field": "international_applicant_section",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "partial"
+    },
+    {
+      "field": "parent_mode",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "partial"
+    },
+    {
+      "field": "ai_context",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "partial"
+    },
+    {
+      "field": "choropleth",
+      "next_action": "retry official API/bulk intake or freeze official university page",
+      "priority": "P1",
+      "status": "blocked"
+    }
+  ],
+  "record_type": "stage4c_data_collection_backlog"
+}

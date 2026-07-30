@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-07-25T22:31:37+00:00",
+  "scope": "/Users/jiayihuang/Downloads/PathOS合并/PathOS所有合并/pathos",
+  "selectionPolicy": "semantic evidence; lastModified is recorded but never used for selection",
+  "physicalCandidateGitRepositoryCount": 1,
+  "candidateVersionEntityCount": 3,
+  "canonicalProjectCount": 1,
+  "projects": [
+    {
+      "projectId": "canonical-stable-frontend",
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并-integration-workspace/pathos-coupling/canonical-baseline/frontend",
+      "projectType": "canonical-frontend-snapshot",
+      "framework": "Next.js App Router",
+      "language": [
+        "css",
+        "mjs",
+        "py",
+        "ts",
+        "tsx"
+      ],
+      "packageManager": "npm",
+      "gitStatus": null,
+      "gitBranch": null,
+      "gitHead": null,
+      "gitRemote": null,
+      "lastModified": "2026-07-25T22:07:18+00:00",
+      "lastModifiedUsedForSelection": false,
+      "sourceFileCount": 120,
+      "routeCount": 14,
+      "routes": [
+        "/",
+        "/api/ai/analyze",
+        "/api/ai/context",
+        "/api/pathos/preview",
+        "/api/xuanxiao/universities",
+        "/assessment",
+        "/calculator",
+        "/map",
+        "/match",
+        "/news",
+        "/news/credits",
+        "/portfolio",
+        "/university/[id]",
+        "/xuanxiao"
+      ],
+      "componentCount": 49,
+      "testCount": 22,
+      "assetCount": 9,
+      "backendCount": 4,
+      "dataFileCount": 34,
+      "buildConfig": [
+        "next.config.mjs",
+        "tailwind.config.ts",
+        "tsconfig.json"
+      ],
+      "environmentFiles": [
+        ".env.example",
+        ".env.local.example"
+      ],
+      "likelyPurpose": "当前稳定 Next.js 前端，只读基线",
+      "relationshipToOtherProjects": "CANONICAL",
+      "packageName": "beijing-advisory-mvp",
+      "lockfiles": [
+        "package-lock.json"
+      ]
+    },
+    {
+      "projectId": "candidate-worktree",
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并-integration-workspace/pathos-coupling/candidate-inventory/worktree-snapshot",
+      "projectType": "candidate-monorepo-worktree-snapshot",
+      "framework": "Next.js App Router",
+      "language": [
+        "css",
+        "mjs",
+        "py",
+        "sql",
+        "ts",
+        "tsx"
+      ],
+      "packageManager": "npm",
+      "gitStatus": "D frontend/public/images/campus-avenue.jpg\n D frontend/public/images/campus-walkway.jpg\n D frontend/public/images/columbia-library.jpg\n D frontend/public/images/columns-building.jpg\n D frontend/public/images/princeton-arches.jpg\n D frontend/public/images/red-brick-building.jpg\n D frontend/public/images/university-building.jpg\n M frontend/src/app/assessment/page.tsx\n M frontend/src/app/calculator/page.tsx\n M frontend/src/app/globals.css\n M frontend/src/app/layout.tsx\n M frontend/src/app/map/page.tsx\n M frontend/src/app/map/rankings/page.tsx\n M frontend/src/app/match/page.tsx\n M frontend/src/app/page.tsx\n M frontend/src/app/portfolio/page.tsx\n M frontend/src/app/xuanxiao/page.tsx\n M frontend/src/components/Footer.tsx\n M frontend/src/components/NavBar.tsx\n M frontend/src/components/map/CityChoroplethLayer.tsx\n M frontend/src/components/map/MapCanvas.tsx\n M frontend/src/components/map/MapLegend.tsx\n M frontend/src/components/map/MapShell.tsx\n?? frontend/public/images/pathos-earth-from-orbit.jpg\n?? frontend/public/images/portfolio-robot-cutout.png\n?? frontend/src/app/assessment/assessment.module.css\n?? frontend/src/app/map/explore/\n?? frontend/src/app/match/explore/\n?? frontend/src/app/portfolio/explore/\n?? frontend/src/components/assessment/\n?? frontend/src/components/map/MapEntry.tsx\n?? frontend/src/components/match/\n?? frontend/src/components/portfolio/",
+      "gitBranch": "main",
+      "gitHead": "ec96e2c0d0e8221063827e34a67b8827d6e3ea63",
+      "gitRemote": "origin\thttps://github.com/MAGA2010/Pathos-7.25.git (fetch)\norigin\thttps://github.com/MAGA2010/Pathos-7.25.git (push)",
+      "lastModified": "2026-07-25T22:06:13+00:00",
+      "lastModifiedUsedForSelection": false,
+      "sourceFileCount": 134,
+      "routeCount": 14,
+      "routes": [
+        "/",
+        "/api/ai/analyze",
+        "/api/xuanxiao/universities",
+        "/assessment",
+        "/calculator",
+        "/map",
+        "/map/explore",
+        "/map/rankings",
+        "/match",
+        "/match/explore",
+        "/news",
+        "/portfolio",
+        "/portfolio/explore",
+        "/xuanxiao"
+      ],
+      "componentCount": 23,
+      "testCount": 41,
+      "assetCount": 6,
+      "backendCount": 82,
+      "dataFileCount": 418,
+      "buildConfig": [
+        "data-pipeline/pyproject.toml",
+        "frontend/next.config.mjs",
+        "frontend/tailwind.config.ts",
+        "frontend/tsconfig.json"
+      ],
+      "environmentFiles": [
+        "frontend/.env.local.example"
+      ],
+      "likelyPurpose": "同学候选仓库的未提交工作树，包含高级首页与 explore 原型",
+      "relationshipToOtherProjects": "FORKED_FROM_CANDIDATE / DIRTY_UNVERIFIED",
+      "packageName": "beijing-advisory-mvp",
+      "lockfiles": [
+        "package-lock.json"
+      ]
+    },
+    {
+      "projectId": "candidate-git-head",
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并-integration-workspace/pathos-coupling/candidate-inventory/git-head-snapshot",
+      "projectType": "candidate-monorepo-committed-snapshot",
+      "framework": "Next.js App Router",
+      "language": [
+        "css",
+        "mjs",
+        "py",
+        "sql",
+        "ts",
+        "tsx"
+      ],
+      "packageManager": "npm",
+      "gitStatus": null,
+      "gitBranch": null,
+      "gitHead": null,
+      "gitRemote": null,
+      "lastModified": "2026-07-25T14:58:07+00:00",
+      "lastModifiedUsedForSelection": false,
+      "sourceFileCount": 121,
+      "routeCount": 11,
+      "routes": [
+        "/",
+        "/api/ai/analyze",
+        "/api/xuanxiao/universities",
+        "/assessment",
+        "/calculator",
+        "/map",
+        "/map/rankings",
+        "/match",
+        "/news",
+        "/portfolio",
+        "/xuanxiao"
+      ],
+      "componentCount": 17,
+      "testCount": 41,
+      "assetCount": 11,
+      "backendCount": 82,
+      "dataFileCount": 418,
+      "buildConfig": [
+        "data-pipeline/pyproject.toml",
+        "frontend/next.config.mjs",
+        "frontend/tailwind.config.ts",
+        "frontend/tsconfig.json"
+      ],
+      "environmentFiles": [
+        "frontend/.env.local.example"
+      ],
+      "likelyPurpose": "同学候选仓库 main@ec96e2c 的提交态，含校园图轮播首页",
+      "relationshipToOtherProjects": "OLDER_COMMITTED_VARIANT",
+      "packageName": "beijing-advisory-mvp",
+      "lockfiles": [
+        "package-lock.json"
+      ]
+    },
+    {
+      "projectId": "candidate-backend-zip",
+      "absolutePath": "/Users/jiayihuang/Downloads/PathOS合并/PathOS所有合并/pathos/PathOS-db-ranking.zip",
+      "projectType": "archive-of-linked-backend-era-project",
+      "framework": "Next.js + Python data pipeline archive",
+      "language": [
+        "ts",
+        "tsx",
+        "py",
+        "sql"
+      ],
+      "packageManager": "npm",
+      "gitStatus": "embedded .git pointer; not activated",
+      "gitBranch": null,
+      "gitHead": null,
+      "gitRemote": null,
+      "lastModified": "2026-07-22T02:45:26+00:00",
+      "lastModifiedUsedForSelection": false,
+      "sourceFileCount": 95,
+      "routeCount": 1,
+      "routes": [
+        "/map"
+      ],
+      "componentCount": 7,
+      "testCount": 45,
+      "assetCount": 0,
+      "backendCount": 77,
+      "dataFileCount": 412,
+      "buildConfig": [
+        "PathOS-db-ranking/frontend/next.config.mjs",
+        "PathOS-db-ranking/frontend/package.json",
+        "PathOS-db-ranking/data-pipeline/pyproject.toml"
+      ],
+      "environmentFiles": [],
+      "likelyPurpose": "旧 linked-backend 时期的前后端与 Stage 3 数据管道归档",
+      "relationshipToOtherProjects": "OLDER_UNVERIFIED_VERSION / ARCHIVE_ONLY",
+      "archiveSha256": "8190108e31b45bb93bb47444bbf0ab18391af55fa34682de1a2072d8a2b1316b",
+      "archiveBytes": 38617224,
+      "archiveEntryCount": 766
+    }
+  ]
+}

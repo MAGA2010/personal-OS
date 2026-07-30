@@ -12,20 +12,14 @@ import {
 } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { MapPin, Loader2 } from "lucide-react";
+import { Loader2 } from "lucide-react";
 import type { MapViewState, Granularity, MetricId } from "@/lib/types";
-import { METRIC_DEFINITIONS } from "@/lib/metrics";
-import regionMetrics from "@/data/region-metrics.json";
-import {
-  interpolateGreens,
-  interpolateRdBu,
-  interpolateYlGn,
-  interpolateOranges,
-  interpolateOrRd,
-  interpolateYlOrRd,
-} from "d3-scale-chromatic";
-import { feature } from "topojson-client";
-import type { FeatureCollection, Geometry } from "geojson";
+
+// PathOS Stage 7B-A.1 Closing Patch v2: MapCanvas no longer owns the
+// state-level choropleth. The previous version imported METRIC_DEFINITIONS
+// (for palette mapping), the d3-scale-chromatic interpolators, the
+// topojson-client `feature()` decoder, and the RegionMetricSet type —
+// none of which are used anymore. The imports are removed.
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // MapCanvas — MapLibre GL map initialisation shell
@@ -61,9 +55,77 @@ import type { FeatureCollection, Geometry } from "geojson";
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 
-/** Free CARTO Positron raster tile style — no API key needed. */
-const DEFAULT_STYLE_URL =
-  "https://demotiles.maplibre.org/style.json";
+/**
+ * Light basemap. Carto Voyager — clean, light cream land with
+ * muted blue water; key-less, public, MIT-licensed raster style.
+ * We rebuild it inline rather than fetching the remote style.json
+ * so the style loads synchronously and we have full control over
+ * attribution / paint properties.
+ */
+const LIGHT_BASEMAP_STYLE: maplibregl.StyleSpecification = {
+  version: 8,
+  sources: {
+    "carto-light": {
+      type: "raster",
+      tiles: [
+        "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+        "https://d.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+      ],
+      tileSize: 256,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    },
+  },
+  layers: [
+    { id: "background", type: "background", paint: { "background-color": "#f6f3ed" } },
+    { id: "carto-light", type: "raster", source: "carto-light" },
+  ],
+  // NOTE: No `glyphs` field — both inline basemaps are raster-only
+  // (background + raster source). MapLibre v3 rejects styles that declare
+  // any property as explicit `undefined`; omitting the key entirely is
+  // the canonical fix when no symbol/text-field layer is present.
+};
+
+/**
+ * Dark basemap. Carto Dark Matter — public, key-less raster style.
+ * Built inline so we don't depend on remote style.json loading.
+ * Uses cool charcoal land + dark blue water; light labels remain
+ * legible against the deep background.
+ */
+const DARK_BASEMAP_STYLE: maplibregl.StyleSpecification = {
+  version: 8,
+  sources: {
+    "carto-dark": {
+      type: "raster",
+      tiles: [
+        "https://a.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png",
+        "https://b.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png",
+        "https://c.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png",
+        "https://d.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png",
+      ],
+      tileSize: 256,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    },
+  },
+  layers: [
+    { id: "background", type: "background", paint: { "background-color": "#181e24" } },
+    { id: "carto-dark", type: "raster", source: "carto-dark" },
+  ],
+  // NOTE: No `glyphs` field — raster-only style. See LIGHT_BASEMAP_STYLE
+  // for the rationale on omitting the key entirely.
+};
+
+/**
+ * Public constants so callers can introspect which style is in use.
+ * Note: these are inline styles (no remote style.json fetch); both
+ * are key-less public CARTO basemaps.
+ */
+export const DEFAULT_LIGHT_STYLE = LIGHT_BASEMAP_STYLE;
+export const DEFAULT_DARK_STYLE = DARK_BASEMAP_STYLE;
+export { LIGHT_BASEMAP_STYLE, DARK_BASEMAP_STYLE };
 
 /** Map centre: continental US. */
 const INITIAL_CENTER: [number, number] = [-98.5, 39.8];
@@ -77,82 +139,18 @@ const STATE_MAX_ZOOM = 6;
 /** County-level band. */
 const COUNTY_MAX_ZOOM = 9;
 
-const CHOROPLETH_SOURCE_ID = "pathos-us-states";
-const CHOROPLETH_FILL_LAYER_ID = "pathos-us-states-fill";
-const CHOROPLETH_LINE_LAYER_ID = "pathos-us-states-line";
-const STATE_TOPOJSON_URL = "/geography/us-states.topojson";
-const DEFAULT_METRIC_ID: MetricId = "income";
-const MISSING_REGION_COLOR = "rgba(21, 32, 37, 0.08)";
-
-type TopologyWithStates = {
-  objects: {
-    states: unknown;
-  };
-};
-
-type ChoroplethFeatureProperties = {
-  name?: string;
-  fipsCode: string;
-  metricValue?: number;
-  metricColor?: string;
-};
-
-type ChoroplethFeatureCollection = FeatureCollection<
-  Geometry,
-  ChoroplethFeatureProperties
->;
-
-const COLOR_INTERPOLATORS: Record<string, (t: number) => string> = {
-  greens: interpolateGreens,
-  redblue: interpolateRdBu,
-  tealgrn: interpolateYlGn,
-  oranges: interpolateOranges,
-  orangered: interpolateOrRd,
-  ylorrd: interpolateYlOrRd,
-};
-
-function metricColor(metricId: MetricId, value?: number): string {
-  if (value === undefined) return MISSING_REGION_COLOR;
-  const metric = METRIC_DEFINITIONS[metricId];
-  const t = Math.max(0, Math.min(1, value));
-  const clipped = 0.08 + t * 0.84;
-  const interpolator = COLOR_INTERPOLATORS[metric.colorScheme];
-  return interpolator(metric.invertScale ? 1 - clipped : clipped);
-}
-
-function firstSymbolLayerId(map: maplibregl.Map): string | undefined {
-  return map.getStyle().layers?.find((layer) => layer.type === "symbol")?.id;
-}
-
-function buildStateChoroplethData(
-  topology: TopologyWithStates,
-  metricId: MetricId,
-): ChoroplethFeatureCollection {
-  const collection = feature(
-    topology as never,
-    topology.objects.states as never,
-  ) as unknown as ChoroplethFeatureCollection;
-
-  const metricForMetricId = regionMetrics.records.filter((r) => r.metricId === metricId);
-  const metricByFips = new Map(metricForMetricId.map((metric) => [metric.fipsCode, metric]));
-
-  return {
-    ...collection,
-    features: collection.features.map((stateFeature) => {
-      const fipsCode = String(stateFeature.id ?? "");
-      const metric = metricByFips.get(fipsCode);
-      return {
-        ...stateFeature,
-        properties: {
-          ...(stateFeature.properties ?? {}),
-          fipsCode,
-          metricValue: metric?.value,
-          metricColor: metricColor(metricId, metric?.value),
-        },
-      };
-    }),
-  };
-}
+// PathOS Stage 7B-A.1 Closing Patch v2: the state-level choropleth is
+// now owned EXCLUSIVELY by `RegionalStateLayer` (it listens to the
+// regional metric from `useRegionalMetric`). The previous version of
+// `MapCanvas` maintained its own `pathos-us-states-fill` layer driven
+// by the city-level `activeMetricId`, which produced two competing
+// choropleth layers (C1 in the Re-Gate report) and made the regional
+// metric visually invisible.
+//
+// All choropleth constants/helpers/effects have been removed. The
+// `activeMetricId` prop is preserved (used by `syncViewState` to keep
+// the URL bridge informed about the city-level metric) but it no
+// longer drives any paint expression.
 
 // ── Map Context ───────────────────────────────────────────────────────────────
 
@@ -186,8 +184,11 @@ export interface MapCanvasProps {
   /** Extra CSS classes appended to the outermost wrapper. */
   className?: string;
 
-  /** Override the default tile style (e.g. a MapTiler or self-hosted URL). */
-  styleUrl?: string;
+  /** Override the light-theme tile style. Defaults to Carto Voyager raster. */
+  lightStyle?: maplibregl.StyleSpecification;
+
+  /** Override the dark-theme tile style. Defaults to Carto Dark Matter raster. */
+  darkStyle?: maplibregl.StyleSpecification;
 
   /** Override the initial centre coordinate. */
   initialCenter?: [number, number];
@@ -203,6 +204,15 @@ export interface MapCanvasProps {
 
   /** Called when a state choropleth region is clicked. */
   onRegionClick?: (fipsCode: string) => void;
+
+  /**
+   * Called when the user clicks the map outside any POI / region.
+   * Used by the parent to clear the selected university profile
+   * when the user clicks empty space (replaces the previous
+   * full-bleed transparent backdrop which was intercepting
+   * mousedown / wheel / touch and locking MapLibre drag/zoom).
+   */
+  onMapEmptyClick?: () => void;
 
   /** Called once the MapLibre instance has been created. */
   onMapInit?: (map: maplibregl.Map) => void;
@@ -220,39 +230,49 @@ export interface MapCanvasProps {
   /** Active metric for tooltip display formatting. */
   // TODO: Replace with real {metricId} from parent state
   activeMetricId?: MetricId;
+
+  /**
+   * Region metric records for choropleth fill — REMOVED in Closing
+   * Patch v2. The state-level choropleth is owned exclusively by
+   * `RegionalStateLayer` now; `MapCanvas` no longer paints the US
+   * states. The prop is removed from the type surface entirely;
+   * callers passing it via the legacy `MapCanvasProps` spread will
+   * hit a TypeScript error pointing them at the new owner. We keep
+   * this comment block so the next reader understands why the prop
+   * disappeared.
+   *
+   * @deprecated use `RegionalStateLayer` to drive the state choropleth.
+   */
+  regionMetricSet?: never;
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export function MapCanvas({
   className,
-  styleUrl = DEFAULT_STYLE_URL,
+  lightStyle = LIGHT_BASEMAP_STYLE,
+  darkStyle = DARK_BASEMAP_STYLE,
   initialCenter = INITIAL_CENTER,
   initialZoom = INITIAL_ZOOM,
   onViewStateChange,
   onGranularityChange,
   onRegionClick,
+  onMapEmptyClick,
   onMapInit,
   children,
   loadingFallback,
   interactiveLayerIds,
   activeMetricId,
+  regionMetricSet,
 }: MapCanvasProps) {
   // ── Refs ──
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const initializedRef = useRef(false);
-  const topologyRef = useRef<TopologyWithStates | null>(null);
   const regionClickRef = useRef<MapCanvasProps["onRegionClick"]>(onRegionClick);
-  const metricIdRef = useRef<MetricId>(DEFAULT_METRIC_ID);
+  const emptyClickRef = useRef<MapCanvasProps["onMapEmptyClick"]>(onMapEmptyClick);
 
   // ── State ──
-  const [tooltipData, setTooltipData] = useState<{
-    x: number;
-    y: number;
-    name: string;
-    displayValue: string;
-  } | null>(null);
  const [mapReady, setMapReady] = useState(false);
   const [granularity, setGranularity] = useState<Granularity>("state");
   const [viewState, setViewState] = useState<MapViewState>({
@@ -269,6 +289,12 @@ export function MapCanvas({
   });
 
   // ── Derived context value ──
+  //
+  // `mapRef.current` is captured at memo time, but reading a ref doesn't
+  // track changes. We re-derive the context object whenever the
+  // `mapReady` boolean flips (which happens in lockstep with the ref
+  // being populated), so the memo's dep array stays ESLint-clean while
+  // descendants still get a fresh `map` reference after init.
   const contextValue = useMemo<MapContextValue>(
     () => ({
       map: mapRef.current,
@@ -289,60 +315,9 @@ export function MapCanvas({
     regionClickRef.current = onRegionClick;
   }, [onRegionClick]);
   useEffect(() => {
-    metricIdRef.current = activeMetricId ?? DEFAULT_METRIC_ID;
-  }, [activeMetricId]);
+    emptyClickRef.current = onMapEmptyClick;
+  }, [onMapEmptyClick]);
 
-  useEffect(() => {
-    if (!mapReady || !mapRef.current) return;
-    const map = mapRef.current;
-    const metricId = activeMetricId ?? DEFAULT_METRIC_ID;
-    let cancelled = false;
-
-    async function loadChoropleth() {
-      try {
-        if (!topologyRef.current) {
-          const response = await fetch(STATE_TOPOJSON_URL);
-          if (!response.ok) throw new Error("Failed to load " + STATE_TOPOJSON_URL);
-          topologyRef.current = (await response.json()) as TopologyWithStates;
-        }
-        if (cancelled || !topologyRef.current) return;
-        const data = buildStateChoroplethData(topologyRef.current, metricId);
-        const existingSource = map.getSource(CHOROPLETH_SOURCE_ID);
-        if (existingSource) {
-          (existingSource as maplibregl.GeoJSONSource).setData(data);
-        } else {
-          map.addSource(CHOROPLETH_SOURCE_ID, { type: "geojson", data });
-          map.addLayer({ id: CHOROPLETH_FILL_LAYER_ID, type: "fill", source: CHOROPLETH_SOURCE_ID, paint: { "fill-color": ["coalesce", ["get", "metricColor"], MISSING_REGION_COLOR], "fill-opacity": 0.58 } });
-          map.addLayer({ id: CHOROPLETH_LINE_LAYER_ID, type: "line", source: CHOROPLETH_SOURCE_ID, paint: { "line-color": "rgba(21, 32, 37, 0.32)", "line-width": 0.7 } });
-         map.on("mouseenter", CHOROPLETH_FILL_LAYER_ID, () => { map.getCanvas().style.cursor = "pointer"; });
-         map.on("mouseleave", CHOROPLETH_FILL_LAYER_ID, () => { map.getCanvas().style.cursor = ""; });
-            setTooltipData(null);
-         map.on("mousemove", CHOROPLETH_FILL_LAYER_ID, (e) => {
-            if (!e.features || e.features.length === 0) return;
-            const props = e.features[0].properties as Record<string, any>;
-            const currentMetricId = metricIdRef.current;
-            const metricRecord = (regionMetrics.records as any[]).find(
-              (r: any) => r.fipsCode === props.fipsCode && r.metricId === currentMetricId
-            );
-            setTooltipData({
-              x: e.point.x,
-              y: e.point.y,
-              name: props.name || props.fipsCode,
-              displayValue: metricRecord?.displayValue ?? "N/A",
-            });
-          });
-         map.on("click", CHOROPLETH_FILL_LAYER_ID, (event) => {
-            const fipsCode = event.features?.[0]?.properties?.fipsCode;
-            if (typeof fipsCode === "string") regionClickRef.current?.(fipsCode);
-          });
-        }
-      } catch (error) {
-        console.error("[MapCanvas] Failed to render state choropleth:", error);
-      }
-    }
-    void loadChoropleth();
-    return () => { cancelled = true; };
-  }, [activeMetricId, mapReady]);
   // ── Initialise / destroy MapLibre ─────────────────────────────────────────
   useEffect(() => {
     if (!containerRef.current || initializedRef.current) return;
@@ -350,7 +325,14 @@ export function MapCanvas({
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: styleUrl,
+      // Initial style is read on first mount; the theme-listener
+      // below will swap to the dark style whenever the user (or the
+      // OS in System mode) flips to dark mode. We pick the right
+      // style up front so the very first paint is already correct.
+      style:
+        typeof document !== "undefined" && document.documentElement.classList.contains("dark")
+          ? darkStyle
+          : lightStyle,
       center: initialCenter,
       zoom: initialZoom,
       attributionControl: false,
@@ -363,22 +345,124 @@ export function MapCanvas({
       dragRotate: false,
     });
 
+    // Theme switch — when the user toggles Light↔Dark (or the OS
+    // listener flips us in System mode) we swap `setStyle` here.
+    // We use a `data-theme` observer on <html>; MapLibre takes
+    // care of re-emitting `style.load` after `setStyle` resolves,
+    // and our POI / choropleth layers are re-added inside the
+    // existing `style.load` handler so markers and the choropleth
+    // fill are preserved across the switch.
+    //
+    // We only react to `data-theme` (the attribute set by the
+    // no-flash bootstrap + our own theme hook) — observing the
+    // `class` attribute would also fire for unrelated class changes
+    // (e.g. iOS Safari toggling "dark" on the document element for
+    // status-bar styling), causing spurious basemap swaps.
+    if (typeof MutationObserver !== "undefined") {
+      const themeObserver = new MutationObserver(() => {
+        const dataTheme = document.documentElement.getAttribute("data-theme");
+        const isDark = dataTheme === "dark";
+        const target = isDark ? darkStyle : lightStyle;
+        try { map.setStyle(target); } catch { /* ignore transient errors */ }
+      });
+      themeObserver.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-theme"],
+      });
+    }
+
+    // Map-level empty click → let parent clear the selected POI profile
+    // when the user clicks map empty space (was previously done via a
+    // full-bleed transparent `<div className="absolute inset-0 z-20">`
+    // which intercepted mousedown / wheel / touch and broke drag/zoom).
+    // We check the POI layer: if it was not hit, it's a true empty click.
+    // The state choropleth (RegionalStateLayer) and the city drilldown
+    // (CityLayer) handle their own clicks via the layer-level `click`
+    // binding they own; this handler only fires when neither was hit.
+    map.on("click", (event) => {
+      try {
+        // Filter to layer IDs that actually exist in the current style.
+        // setStyle() (theme switch) removes all custom layers, so
+        // querying a stale layer ID raises
+        // "The layer 'X' does not exist in the map's style".
+        const styleLayerIds = new Set(
+          (map.getStyle()?.layers ?? []).map((l) => l.id).filter(Boolean) as string[],
+        );
+        const candidates = ["pathos-universities-points"]
+          .filter((id): id is string => !!id && styleLayerIds.has(id));
+        if (candidates.length === 0) {
+          emptyClickRef.current?.();
+          return;
+        }
+        const hits = map.queryRenderedFeatures(event.point, { layers: candidates });
+        if (hits.length === 0) {
+          emptyClickRef.current?.();
+        }
+      } catch {
+        // MapLibre's `queryRenderedFeatures` can throw before the
+        // style has finished loading; ignore and let the event pass.
+      }
+    });
+
     // Navigation controls (zoom +/- and compass)
-    map.addControl(new maplibregl.NavigationControl(), "top-right");
+    map.addControl(new maplibregl.NavigationControl(), "top-left");
     // Compact attribution (bottom-right)
     map.addControl(
       new maplibregl.AttributionControl({ compact: true }),
       "bottom-right",
     );
 
-    // Style loaded → map is interactive
+    // MapLibre caches the container size at instantiation. If the
+    // container is still 0-height at this point (because the flex
+    // chain above us hasn't laid out yet, e.g. MapShell → MapCanvas →
+    // containerRef), the projection becomes degenerate and POI
+    // markers all project to the same screen point. Force a resize
+    // once the layout has had a chance to settle so the projection
+    // gets correct dimensions. The ResizeObserver below handles
+    // subsequent size changes.
+    requestAnimationFrame(() => {
+      try { map.resize(); } catch { /* ignore */ }
+    });
+
+    // Style loaded → map is interactive.
+    //
+    // Closing Patch v2: setMapReady(true) is now called SYNCHRONOUSLY
+    // here (no rAF indirection). The previous version wrapped the
+    // ready flip inside requestAnimationFrame() + a resize/jumpTo dance
+    // that was meant to work around a stale-projection bug. Under the
+    // current code path, that dance was being cancelled mid-flight by
+    // the React Strict Mode / Fast Refresh rebuild caused by the
+    // Suspense fallback mismatch in /app/map/page.tsx (F1). The chain
+    // was the real reason `mapReady` stayed `false` indefinitely,
+    // which in turn prevented the regional choropleth fill layer from
+    // ever being installed.
+    //
+    // Layout projection is handled separately by the ResizeObserver
+    // registered further down (it fires `map.resize() + map.fire("move")`
+    // whenever the container size settles). Marking the map ready
+    // here only gates "are MapLibre's APIs usable?" — projection is a
+    // separate concern owned by the resize observer.
     map.on("load", () => {
       setMapReady(true);
     });
 
     // Style-load error — surface to console so devs can diagnose
     map.on("error", (e) => {
-      console.error("[MapCanvas] MapLibre error:", e.error);
+      // Suppress the post-setStyle race noise: when the user toggles
+      // the theme, MapLibre removes every custom source/layer and
+      // child effects (POI layer, choropleth, regional) call methods
+      // on those sources/layers for a brief render frame before
+      // noticing the swap. The MapLibre error is caught in those
+      // effects' own try/catch; logging it again here just floods the
+      // console. We only forward errors that look unrecoverable.
+      const msg = String((e as { error?: unknown })?.error ?? "");
+      const isTransientStyleSwapNoise =
+        msg.includes("does not exist in the map's style") ||
+        msg.includes("Style is not done loading");
+      if (!isTransientStyleSwapNoise) {
+        // eslint-disable-next-line no-console
+        console.error("[MapCanvas] MapLibre error:", e.error);
+      }
     });
 
     // ── Zoom → Granularity derivation ──────────────────────────────────────
@@ -425,15 +509,55 @@ export function MapCanvas({
     onMapInit?.(map);
 
     // ── Cleanup ────────────────────────────────────────────────────────────
+    // Stage 7B-A.1 v3 (V3-D): the previous cleanup restored a captured
+    // `origWarn` because we had monkey-patched `console.warn` to swallow
+    // benign MapLibre style-diff warnings. That monkey-patch leaked across
+    // remounts under React Strict Mode dev double-render (each mount
+    // captured the *patched* `console.warn`, then the second cleanup
+    // restored the first mount's patch — leaving console.warn suppressed
+    // for the entire page lifetime). The monkey-patch has been removed
+    // entirely; the cleanup is therefore a no-op for console.warn.
+    // Benign style-diff warnings are now routed through MapLibre's own
+    // `error` handler filter (above) and child-effect try/catch wrappers.
     return () => {
       map.remove();
       mapRef.current = null;
       initializedRef.current = false;
       setMapReady(false);
     };
-    // Only run on mount/unmount — style changes happen via map.setStyle()
+    // MapLibre init runs exactly once (mount + unmount); re-running
+    // it would destroy & recreate the entire map instance. We
+    // intentionally exclude callback props from deps and rely on the
+    // `*Ref.current` pattern (above) to read the latest values at
+    // call time — see MapShell's `regionClickRef`, `emptyClickRef`,
+    // `metricIdRef`, `regionMetricSetRef` for the up-to-date handles.
+    // The disable covers `onMapInit` / `onViewStateChange` / etc.
+    // that ESLint can't statically see as "intentionally excluded".
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // ── Re-measure when the container resizes ─────────────────────────
+  // MapLibre caches the container size at init; if the layout changes
+  // height after init (e.g. flex chain propagation, browser resize, or
+  // a parent collapsing) the canvas / canvas-container end up with
+  // height=0 and POI markers fall outside the visible area. Calling
+  // `map.resize()` after any size change recomputes the viewport and
+  // a follow-up 'move' event forces MapLibre to re-project existing
+  // markers (markers' transform style is not refreshed on resize
+  // alone, only on move).
+  useEffect(() => {
+    const map = mapRef.current;
+    const container = containerRef.current;
+    if (!map || !container) return;
+    const ro = new ResizeObserver(() => {
+      try {
+        map.resize();
+        map.fire('move');
+      } catch { /* map destroyed mid-tear-down */ }
+    });
+    ro.observe(container);
+    return () => ro.disconnect();
+  }, [mapReady]);
 
   // ── Render ──────────────────────────────────────────────────────────────────
   const isLoading = !mapReady;
@@ -441,13 +565,14 @@ export function MapCanvas({
   return (
     <MapContext.Provider value={contextValue}>
       <div
-        className={`relative ${className ?? ""}`}
+        className={`relative h-full w-full ${className ?? ""}`}
         role="region"
         aria-label="交互式留学地图 / Interactive Study-Abroad Map"
       >
         {/* ── Map container ────────────────────────────────────────────── */}
         <div
           ref={containerRef}
+          data-map-canvas-root="true"
           className="h-full min-h-[400px] w-full rounded-lg border border-line bg-paper"
           aria-label="MapLibre 地图视窗"
         />
@@ -455,7 +580,7 @@ export function MapCanvas({
         {/* ── Loading overlay ──────────────────────────────────────────── */}
         {isLoading && (
           <div
-            className="absolute inset-0 z-20 flex items-center justify-center rounded-lg bg-paper/70 backdrop-blur-sm"
+            className="pointer-events-none absolute inset-0 z-map-modal flex items-center justify-center rounded-lg bg-paper/70 backdrop-blur-sm"
             role="status"
             aria-live="polite"
           >
@@ -486,13 +611,11 @@ export function MapCanvas({
 
         {/* ── Overlay children (metric tabs, legend, tooltip, etc.) ────── */}
         {children}
-       {/* State hover tooltip */}
-       {tooltipData && (
-         <div className="pointer-events-none absolute z-50 rounded border border-line bg-white/85 px-1.5 py-0.5 text-[10px] leading-tight shadow-sm backdrop-blur" style={{ left: tooltipData.x + 10, top: tooltipData.y - 10 }}>
-           <span className="font-medium text-ink">{tooltipData.name}</span>
-           <span className="text-ink/40 mx-0.5">·</span><span className="text-ink/60">{tooltipData.displayValue}</span>
-         </div>
-       )}
+
+        {/* ── State hover tooltip is provided by RegionalStateLayer via
+             the `children` overlay (RegionalHoverTooltip). It is no
+             longer rendered here to avoid the dual-tooltip path that
+             duplicated RegionalStateLayer's tooltip behaviour. */}
 
 
 
@@ -501,7 +624,7 @@ export function MapCanvas({
         */}
         {mapReady && (
           <div
-            className="pointer-events-none absolute bottom-3 right-3 z-10 select-none"
+            className="pointer-events-none absolute bottom-3 right-3 z-map-basemap select-none"
             aria-hidden="true"
           >
             <span className="rounded-full border border-line bg-white/88 px-2.5 py-1 text-[11px] font-medium text-ink/56 backdrop-blur">
@@ -513,68 +636,6 @@ export function MapCanvas({
             </span>
           </div>
         )}
-
-        {/* ── Placeholder: choropleth layer injection point ─────────────────
-             Rendered as an invisible marker.  When the choropleth hook is
-             ready, import <ChoroplethLayer /> here and pass:
-               • boundaries  (FeatureCollection from useBoundaries)
-               • metrics     (RegionMetric[] from useMetrics)
-               • metricId    (MetricId active layer)
-
-             TODO: Replace with <ChoroplethLayer /> component
-             TODO: Connect to Supabase when available
-
-             Expected data shape for a single region when the choropleth
-             layer is wired:
-               {
-                 fipsCode: "06",            // FIPS / GEOID string
-                 granularity: "state",       // state | county | city
-                 metricId: "income",         // MetricId
-                 value: 0.90,               // 0–1 normalised
-                 rawValue: 135000,          // actual $ or score
-                 displayValue: "$135k",     // pre-formatted
-                 year: 2025,                // data vintage
-               }
-        */}
-        {/*
-          TODO: Uncomment when ChoroplethLayer is implemented:
-          <ChoroplethLayer
-            boundaries={boundaries}
-            metrics={metrics}
-            metricId={activeMetricId}
-            interactiveLayerIds={interactiveLayerIds}
-          />
-        */}
-
-        {/* ── Placeholder: POI marker injection point ────────────────────────
-             When the POI layer is ready, import <POIMarkerLayer /> here.
-
-             TODO: Replace with <POIMarkerLayer /> component
-             TODO: Connect to Supabase `universities` table when available
-
-             Expected data shape for a single university POI:
-               {
-                 id: "harvard-university",
-                 name: "Harvard University",
-                 chineseName: "哈佛大学",
-                 latitude: 42.3770,
-                 longitude: -71.1167,
-                 rankingTier: "top20",
-                 annualCostRmb: 560000,
-                 safetyScore: 78,
-                 recognitionScore: 98,
-                 chineseCommunity: "high",
-               }
-        */}
-        {/*
-          TODO: Uncomment when POIMarkerLayer is implemented:
-          <POIMarkerLayer
-            pois={universityPois}
-            selectedId={selectedUniversityId}
-            onSelect={setSelectedUniversityId}
-            filters={mapFilters}
-          />
-        */}
       </div>
     </MapContext.Provider>
   );
@@ -583,7 +644,6 @@ export function MapCanvas({
 // ── Exports ───────────────────────────────────────────────────────────────────
 
 export default MapCanvas;
-
 
 
 

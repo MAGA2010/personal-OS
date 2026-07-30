@@ -1,0 +1,2829 @@
+{
+  "incomplete": true,
+  "not_final": true,
+  "record_type": "stage4b_transport_accessibility_metrics",
+  "school_count": 62,
+  "source_limited": true,
+  "universities": [
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:arizona-state-university",
+      "canonical_id": "institution:arizona-state-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 3.27,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Arizona State University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:boston-college",
+      "canonical_id": "institution:boston-college",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.63,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Boston College"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:boston-university",
+      "canonical_id": "institution:boston-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.91,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Boston University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:brown-university",
+      "canonical_id": "institution:brown-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.28,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Brown University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:bucknell-university",
+      "canonical_id": "institution:bucknell-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.25,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Bucknell University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "canonical_id": "institution:california-institute-of-technology",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.02,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "California Institute of Technology"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:carnegie-mellon-university",
+      "canonical_id": "institution:carnegie-mellon-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.88,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Carnegie Mellon University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:columbia-university",
+      "canonical_id": "institution:columbia-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.08,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Columbia University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:cornell-university",
+      "canonical_id": "institution:cornell-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.3,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Cornell University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "canonical_id": "institution:dartmouth-college",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.59,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Dartmouth College"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:duke-university",
+      "canonical_id": "institution:duke-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 4.39,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Duke University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:emory-university",
+      "canonical_id": "institution:emory-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.75,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Emory University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:georgetown-university",
+      "canonical_id": "institution:georgetown-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 4.13,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Georgetown University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:georgia-institute-of-technology",
+      "canonical_id": "institution:georgia-institute-of-technology",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.78,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Georgia Institute of Technology"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:harvard-university",
+      "canonical_id": "institution:harvard-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.18,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Harvard University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:harvey-mudd-college",
+      "canonical_id": "institution:harvey-mudd-college",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.08,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Harvey Mudd College"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:indiana-university-bloomington",
+      "canonical_id": "institution:indiana-university-bloomington",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.33,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Indiana University Bloomington"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:johns-hopkins-university",
+      "canonical_id": "institution:johns-hopkins-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 3.36,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Johns Hopkins University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:lehigh-university",
+      "canonical_id": "institution:lehigh-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.41,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Lehigh University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:loyola-university-chicago",
+      "canonical_id": "institution:loyola-university-chicago",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 5.94,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Loyola University Chicago"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:massachusetts-institute-of-technology",
+      "canonical_id": "institution:massachusetts-institute-of-technology",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.8,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Massachusetts Institute of Technology"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:new-york-university",
+      "canonical_id": "institution:new-york-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 3.12,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "New York University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:northeastern-university",
+      "canonical_id": "institution:northeastern-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 4.7,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Northeastern University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:northwestern-university",
+      "canonical_id": "institution:northwestern-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.28,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Northwestern University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "canonical_id": "institution:ohio-state-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.61,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "The Ohio State University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:olin-college-of-engineering",
+      "canonical_id": "institution:olin-college-of-engineering",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.12,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Olin College of Engineering"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:princeton-university",
+      "canonical_id": "institution:princeton-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.23,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Princeton University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:purdue-university-main-campus",
+      "canonical_id": "institution:purdue-university-main-campus",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.89,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Purdue University—Main Campus"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:rice-university",
+      "canonical_id": "institution:rice-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.87,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Rice University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:rose-hulman-institute-of-technology",
+      "canonical_id": "institution:rose-hulman-institute-of-technology",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 4.75,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Rose-Hulman Institute of Technology"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:rutgers-university-new-brunswick",
+      "canonical_id": "institution:rutgers-university-new-brunswick",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.35,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Rutgers University—New Brunswick"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:stanford-university",
+      "canonical_id": "institution:stanford-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.28,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Stanford University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "canonical_id": "institution:texas-a-and-m-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 5.35,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Texas A&M University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:tufts-university",
+      "canonical_id": "institution:tufts-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.86,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Tufts University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "canonical_id": "institution:university-of-california-berkeley",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 3.43,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of California, Berkeley"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-davis",
+      "canonical_id": "institution:university-of-california-davis",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.76,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of California, Davis"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "canonical_id": "institution:university-of-california-irvine",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 6.86,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of California, Irvine"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-california-los-angeles",
+      "canonical_id": "institution:university-of-california-los-angeles",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 3.75,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of California, Los Angeles"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "canonical_id": "institution:university-of-california-san-diego",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 9.84,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of California, San Diego"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:university-of-california-santa-barbara",
+      "canonical_id": "institution:university-of-california-santa-barbara",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.17,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of California, Santa Barbara"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "canonical_id": "institution:university-of-chicago",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 8.94,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Chicago"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-colorado-boulder",
+      "canonical_id": "institution:university-of-colorado-boulder",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.41,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Colorado Boulder"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-florida",
+      "canonical_id": "institution:university-of-florida",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 3.7,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Florida"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "canonical_id": "institution:university-of-georgia",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.83,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Georgia"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-illinois-urbana-champaign",
+      "canonical_id": "institution:university-of-illinois-urbana-champaign",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.77,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-iowa",
+      "canonical_id": "institution:university-of-iowa",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.84,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Iowa"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-maryland-college-park",
+      "canonical_id": "institution:university-of-maryland-college-park",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.2,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Maryland, College Park"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-michigan-ann-arbor",
+      "canonical_id": "institution:university-of-michigan-ann-arbor",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.41,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Michigan—Ann Arbor"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-minnesota-twin-cities",
+      "canonical_id": "institution:university-of-minnesota-twin-cities",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.79,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Minnesota Twin Cities"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-north-carolina-chapel-hill",
+      "canonical_id": "institution:university-of-north-carolina-chapel-hill",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.03,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of North Carolina—Chapel Hill"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "canonical_id": "institution:university-of-notre-dame",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.31,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Notre Dame"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:university-of-pennsylvania",
+      "canonical_id": "institution:university-of-pennsylvania",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 5.2,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Pennsylvania"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-rochester",
+      "canonical_id": "institution:university-of-rochester",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 4.17,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Rochester"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:university-of-south-carolina-columbia",
+      "canonical_id": "institution:university-of-south-carolina-columbia",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.68,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of South Carolina"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "canonical_id": "institution:university-of-southern-california",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 6.58,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Southern California"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "canonical_id": "institution:university-of-texas-austin",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.32,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Texas—Austin"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "canonical_id": "institution:university-of-virginia",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.5,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Virginia"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-washington",
+      "canonical_id": "institution:university-of-washington",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 5.31,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Washington"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "canonical_id": "institution:university-of-wisconsin-madison",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 2.51,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "University of Wisconsin—Madison"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:vanderbilt-university",
+      "canonical_id": "institution:vanderbilt-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 3.25,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Vanderbilt University"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "pending",
+        "campus_place_resolved": false,
+        "source_ids": []
+      },
+      "candidate_id": "candidate-v2:washington-university-in-st-louis",
+      "canonical_id": "institution:washington-university-in-st-louis",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 1.75,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Washington University in St. Louis"
+    },
+    {
+      "availability_status": "partial",
+      "campus_city_relationship": {
+        "availability_status": "verified",
+        "campus_place_resolved": true,
+        "source_ids": [
+          "source_stage4b_census_2024_places_gazetteer"
+        ]
+      },
+      "candidate_id": "candidate-v2:yale-university",
+      "canonical_id": "institution:yale-university",
+      "nearest_airport": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "airport",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_intercity_rail": {
+        "availability_status": "deferred",
+        "distance_km": null,
+        "distance_method": null,
+        "kind": "intercity_rail",
+        "name": null,
+        "null_reason": "uniform_official_transport_intake_not_available",
+        "source_ids": []
+      },
+      "nearest_towns": {
+        "availability_status": "verified",
+        "count": 3,
+        "distance_method": "haversine_straight_line",
+        "minimum_distance_km": 0.15,
+        "source_ids": [
+          "source_stage4b_stage3c2_nearest_towns"
+        ]
+      },
+      "public_transit_availability": {
+        "availability_status": "deferred",
+        "null_reason": "uniform_official_transit_agency_intake_not_available",
+        "source_ids": [],
+        "value": null
+      },
+      "university_display_name": "Yale University"
+    }
+  ]
+}

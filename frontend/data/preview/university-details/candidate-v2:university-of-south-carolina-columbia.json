@@ -1,0 +1,467 @@
+{
+  "acceptanceRate": {
+    "nullReason": null,
+    "referenceYear": 2025,
+    "scope": "institution_undergraduate_admissions",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": "ratio",
+    "value": 0.6149,
+    "warnings": [
+      "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+    ]
+  },
+  "admissions": {
+    "acceptanceRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution_undergraduate_admissions",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.6149,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "act": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "composite": {
+          "percentile_25": 26,
+          "percentile_75": 32
+        },
+        "evidence_type": "middle_50_percent_range",
+        "null_reason": null,
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score"
+      },
+      "warnings": []
+    },
+    "englishPolicy": {
+      "nullReason": "official_undergraduate_english_policy_pages_not_frozen",
+      "referenceYear": null,
+      "scope": "international_first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    },
+    "graduationRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.7775,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "retentionRate": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": "four_year_institution",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": "ratio",
+      "value": 0.9074,
+      "warnings": [
+        "uniform source-variable cohort year is not available in the frozen 2025 release metadata"
+      ]
+    },
+    "sat": {
+      "nullReason": null,
+      "referenceYear": 2025,
+      "scope": null,
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_middle_50",
+      "unit": null,
+      "value": {
+        "availability_status": "verified",
+        "average": 1297,
+        "evidence_type": "middle_50_percent_range",
+        "math": {
+          "percentile_25": 580,
+          "percentile_75": 690
+        },
+        "null_reason": null,
+        "reading_writing": {
+          "percentile_25": 600,
+          "percentile_75": 690
+        },
+        "reference_year": 2025,
+        "reference_year_semantics": "dataset_release_year",
+        "reporting_population": "enrolled_students_who_submitted_scores",
+        "source_ids": [
+          "source_stage4b_college_scorecard_2025_05_19"
+        ],
+        "unit": "score",
+        "warnings": [
+          "score reporting does not establish a current test-optional policy"
+        ]
+      },
+      "warnings": []
+    },
+    "testPolicy": {
+      "nullReason": "official_admissions_policy_bulk_unavailable_and_school_page_not_frozen",
+      "referenceYear": null,
+      "scope": "first_year_undergraduate",
+      "sourceIds": [],
+      "status": "pending_external_access",
+      "unit": "policy",
+      "value": null,
+      "warnings": [
+        "pending_data_not_a_verified_fact"
+      ]
+    }
+  },
+  "aliases": [
+    "Darla Moore School of Business"
+  ],
+  "allMajors": [],
+  "allMajorsStatus": {
+    "nullReason": "identity_ipeds_match_not_resolved",
+    "status": "not_reported"
+  },
+  "anecdotes": [
+    {
+      "sourceIds": [
+        "source_bulk_v2_south_carolina_anecdote"
+      ],
+      "text": "The Gamecock emerged as the university’s mascot after a rivalry episode involving a student banner.",
+      "type": "campus_tradition"
+    }
+  ],
+  "chineseName": "南卡罗来纳大学哥伦比亚分校",
+  "city": "Columbia",
+  "costSummary": {
+    "academicYear": "2023-24",
+    "comparisonSafe": false,
+    "currency": "USD",
+    "displayLabel": "$12,688–$34,943",
+    "maximumUsd": 34943.0,
+    "minimumUsd": 12688.0,
+    "scopes": [
+      "in_state",
+      "out_of_state"
+    ],
+    "sourceIds": [
+      "source_ipeds_ic2023_ay"
+    ],
+    "warnings": [
+      "Public in-state and out-of-state tuition are separate scopes."
+    ]
+  },
+  "country": "US",
+  "datasetVersion": "stage5-preview-ec8c66e",
+  "displayTier": "preview",
+  "enrollment": {
+    "graduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 8109,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "total": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_degree_seeking_plus_graduate_students",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified_derived_same_scope",
+      "unit": null,
+      "value": 36222,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    },
+    "undergraduate": {
+      "nullReason": null,
+      "referenceYear": 2019,
+      "scope": "undergraduate_certificate_or_degree_seeking",
+      "sourceIds": [
+        "source_stage4b_college_scorecard_2025_05_19"
+      ],
+      "status": "verified",
+      "unit": null,
+      "value": 28113,
+      "warnings": [
+        "stale_reference_year"
+      ]
+    }
+  },
+  "geography": {
+    "cbsa": {
+      "availability_status": "verified",
+      "geography_type": "cbsa",
+      "geoid": "17900",
+      "join_confidence": "high",
+      "join_method": "ipeds_reported_cbsa",
+      "null_reason": null,
+      "reference_year": 2024,
+      "source_ids": [
+        "source_stage4b_ipeds_hd2024"
+      ]
+    },
+    "county": {
+      "referenceYear": 2024,
+      "scope": "county",
+      "sourceIds": [
+        "source_stage4b_ipeds_hd2024"
+      ],
+      "status": "verified",
+      "unit": "name",
+      "value": "Richland County",
+      "warnings": []
+    },
+    "geographyScope": "county",
+    "place": {
+      "referenceYear": 2024,
+      "scope": "census_place",
+      "sourceIds": [],
+      "status": "county_only_valid",
+      "unit": "name",
+      "value": null,
+      "warnings": []
+    }
+  },
+  "history": {
+    "sourceIds": [
+      "source_bulk_v2_south_carolina_history"
+    ],
+    "status": "verified",
+    "value": "Founded in 1801 as South Carolina College, the institution adopted the University of South Carolina name permanently in 1906."
+  },
+  "id": "candidate-v2:university-of-south-carolina-columbia",
+  "latitude": 33.996788,
+  "longitude": -81.026935,
+  "name": "University of South Carolina",
+  "nameZh": "南卡罗来纳大学哥伦比亚分校",
+  "nationalRanking": null,
+  "nearbyTowns": [
+    {
+      "distance": 2.68,
+      "name": "Olympia"
+    },
+    {
+      "distance": 4.23,
+      "name": "Arthurtown"
+    },
+    {
+      "distance": 5.28,
+      "name": "Cayce"
+    }
+  ],
+  "notableAttendance": [],
+  "people": [
+    {
+      "displayTier": "verified",
+      "id": "person:glenn-tilton:university-of-south-carolina-columbia:source-wave3-south-carolina-glenn-tilton",
+      "name": "Glenn Tilton",
+      "programName": "International Business",
+      "quarantined": false,
+      "relationshipType": "graduated",
+      "sourceIds": [
+        "source_wave3_south_carolina_glenn_tilton"
+      ],
+      "verificationStatus": "live_verified_exact"
+    }
+  ],
+  "previewOnly": true,
+  "programPeopleGaps": [
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Data Analytics",
+      "slotId": "candidate-v2:university-of-south-carolina-columbia:slot-2",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Economics",
+      "slotId": "candidate-v2:university-of-south-carolina-columbia:slot-3",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Management",
+      "slotId": "candidate-v2:university-of-south-carolina-columbia:slot-4",
+      "status": "source_review_not_completed"
+    },
+    {
+      "displayAsNone": false,
+      "displayLabel": "数据补充中",
+      "programName": "Marketing",
+      "slotId": "candidate-v2:university-of-south-carolina-columbia:slot-5",
+      "status": "source_review_not_completed"
+    }
+  ],
+  "programs": [
+    {
+      "id": "candidate-v2:university-of-south-carolina-columbia:program:1",
+      "name": "International Business",
+      "rank": 1,
+      "rankingFamily": "usnews_program_ranking",
+      "sourceIds": [
+        "south-carolina-moore-2026-rankings"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-south-carolina-columbia:program:2",
+      "name": "Data Analytics",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_usc_majors_degrees"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-south-carolina-columbia:program:3",
+      "name": "Economics",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_usc_majors_degrees"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-south-carolina-columbia:program:4",
+      "name": "Management",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_usc_majors_degrees"
+      ]
+    },
+    {
+      "id": "candidate-v2:university-of-south-carolina-columbia:program:5",
+      "name": "Marketing",
+      "rank": null,
+      "rankingFamily": "official_major_list",
+      "sourceIds": [
+        "source_usc_majors_degrees"
+      ]
+    }
+  ],
+  "qualitySummary": {
+    "sourceLimited": true,
+    "status": "warning",
+    "warningCodes": [
+      "county_scope_only",
+      "english_policy_pending_external_access",
+      "not_in_current_national_scope",
+      "not_in_verified_national_top50_scope",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ]
+  },
+  "rankingBand": "outside_numeric_scope",
+  "rankingSummary": {
+    "filterBehavior": "exclude_from_numeric_range",
+    "nationalRank": null,
+    "rankingLabel": "Not in selected national ranking scope",
+    "rankingTier": "outside_numeric_scope",
+    "sourceIds": [],
+    "status": "not_in_current_national_scope"
+  },
+  "rankingTier": "outside_numeric_scope",
+  "rankingYear": null,
+  "rawCostRecords": [
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 12688.0,
+      "currency": "USD",
+      "scope": "in_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    },
+    {
+      "academicYear": "2023-24",
+      "amountUsd": 34943.0,
+      "currency": "USD",
+      "scope": "out_of_state",
+      "sourceIds": [
+        "source_ipeds_ic2023_ay"
+      ]
+    }
+  ],
+  "region": "Southeast",
+  "schoolType": "public",
+  "sourceCommit": "ec8c66e200b566dba4de35987aa5213960749a57",
+  "sourceStatus": "verified_frozen_with_warnings",
+  "state": "SC",
+  "studentFacultyRatio": 18.0,
+  "topPrograms": [
+    "International Business",
+    "Data Analytics",
+    "Economics",
+    "Management",
+    "Marketing"
+  ],
+  "undergraduateEnrollment": {
+    "nullReason": null,
+    "referenceYear": 2019,
+    "scope": "undergraduate_certificate_or_degree_seeking",
+    "sourceIds": [
+      "source_stage4b_college_scorecard_2025_05_19"
+    ],
+    "status": "verified",
+    "unit": null,
+    "value": 28113,
+    "warnings": [
+      "stale_reference_year"
+    ]
+  },
+  "warningSummary": {
+    "codes": [
+      "county_scope_only",
+      "english_policy_pending_external_access",
+      "not_in_current_national_scope",
+      "not_in_verified_national_top50_scope",
+      "stale_reference_year",
+      "test_policy_pending_external_access"
+    ],
+    "count": 6,
+    "hasWarnings": true
+  }
+}

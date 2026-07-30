@@ -1,0 +1,37 @@
+{
+  "choroplethEnabled": false,
+  "contractVersion": "pathos-preview-v1",
+  "disabledReason": "Credentialed official regional intake is unavailable.",
+  "metricMetadata": [
+    {
+      "metricId": "income",
+      "status": "deferred",
+      "unit": null
+    },
+    {
+      "metricId": "safety",
+      "status": "deferred",
+      "unit": null
+    },
+    {
+      "metricId": "employment",
+      "status": "deferred",
+      "unit": null
+    },
+    {
+      "metricId": "cost",
+      "status": "deferred",
+      "unit": null
+    },
+    {
+      "metricId": "chinese_population",
+      "status": "deferred",
+      "unit": null
+    }
+  ],
+  "records": [],
+  "status": "blocked",
+  "warnings": [
+    "deferred_regional_data_not_a_verified_fact"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "contractVersion": "pathos-preview-v1",
+  "statuses": {
+    "blocked": "Feature is disabled because prerequisites are unavailable",
+    "deferred": "Prerequisite data is deferred and no fact is available",
+    "incomplete": "The Preview contract is incomplete",
+    "not_applicable": "The field does not apply to this record",
+    "not_final": "The Preview contract is not final",
+    "not_in_current_national_scope": "Excluded from numeric rank filters",
+    "not_reported": "Official source did not report a value",
+    "pending_external_access": "Not a fact; external review remains pending",
+    "quarantined": "The record is excluded from public Preview output",
+    "source_limited": "The Preview is limited to approved frozen sources",
+    "source_review_not_completed": "数据补充中",
+    "verified": "Frozen verified fact"
+  }
+}

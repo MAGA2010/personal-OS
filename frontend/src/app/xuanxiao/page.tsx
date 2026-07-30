@@ -1,9 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
-import { ProductJourney } from "@/components/ProductJourney";
-import { Search, Globe, ExternalLink, Loader2 } from "lucide-react";
+import { Search, Globe, ExternalLink } from "lucide-react";
+import Image from "next/image";
+import {
+  DataLoadingState,
+  DataUnavailableState,
+  DataEmptyState,
+} from "@/components/shared/data-states";
 
 interface Uni { id: string; slug: string; name: string; nameEn: string; country: string; countryCode: string; rank: number; logoUrl: string; }
 
@@ -27,13 +32,19 @@ export default function XuanxiaoPage() {
   const [search, setSearch] = useState("");
   const [selectedCountry, setSelectedCountry] = useState("");
 
-  useEffect(() => {
+  const loadUnis = useCallback(function() {
+    setLoading(true);
+    setError("");
     fetch("/api/xuanxiao/universities")
       .then(function(r) { return r.json(); })
       .then(function(res) { if (res.success) setUnis(res.data); else setError(res.error || "加载失败"); })
       ["catch"](function(e) { setError(e.message); })
       .finally(function() { setLoading(false); });
   }, []);
+
+  useEffect(() => {
+    loadUnis();
+  }, [loadUnis]);
 
   const countrySet: string[] = [];
   unis.forEach(function(u) {
@@ -48,16 +59,18 @@ export default function XuanxiaoPage() {
   });
 
   return (
-    <div>
-      <header className="border-b border-line bg-panel px-5 py-3">
-        <div className="mx-auto flex max-w-6xl items-center gap-3">
-          <div className="grid h-8 w-8 shrink-0 place-items-center rounded-md bg-cobalt text-panel"><Globe size={18} /></div>
-          <div><h1 className="text-base font-semibold text-ink">全球大学库</h1><p className="text-xs text-ink/52">数据合作方 · 选校</p></div>
-          <Link href="/match" className="ml-auto text-xs text-cobalt hover:underline">← 返回自主测验</Link>
+    <div className="min-h-screen bg-surface-base">
+      <header className="border-b border-border-soft bg-surface-1/70 backdrop-blur">
+        <div className="mx-auto flex max-w-page items-center gap-3 px-4 py-3 sm:px-6">
+          <div className="grid h-8 w-8 shrink-0 place-items-center rounded-control bg-cobalt text-paper"><Globe size={16} aria-hidden="true" /></div>
+          <div className="min-w-0 flex-1">
+            <p className="text-label uppercase tracking-[0.12em] text-cobalt">全球大学库</p>
+            <h1 className="text-page text-text-primary">数据合作方 · 选校</h1>
+          </div>
+          <Link href="/match" className="ml-auto text-caption font-semibold text-cobalt hover:underline">← 返回自主测验</Link>
         </div>
       </header>
-      <div className="mx-auto max-w-6xl px-4 pt-4"><ProductJourney active="match" compact /></div>
-      <main className="mx-auto max-w-6xl px-4 py-6">
+      <main className="mx-auto max-w-page px-4 py-5 sm:px-6">
         <div className="mb-6 flex flex-wrap gap-3">
           <div className="relative flex-1 min-w-[200px]">
             <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink/30" />
@@ -72,8 +85,8 @@ export default function XuanxiaoPage() {
           </select>
         </div>
 
-        {loading && <div className="flex items-center justify-center py-20 text-ink/40"><Loader2 size={20} className="animate-spin mr-2" /> 加载中...</div>}
-        {error && <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-500">{error}</div>}
+        {loading && <DataLoadingState message="正在加载全球大学库…" />}
+        {error && <DataUnavailableState reason={error} onRetry={loadUnis} />}
 
         {!loading && !error && (
           <>
@@ -86,7 +99,7 @@ export default function XuanxiaoPage() {
                     className="group rounded-xl border border-line/40 bg-white/90 p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-cobalt/30">
                     <div className="flex items-start justify-between mb-3">
                       {u.logoUrl ? (
-                        <img src={u.logoUrl} alt={u.name} className="w-10 h-10 rounded-lg object-contain" />
+                        <Image src={u.logoUrl} alt={u.name} width={40} height={40} unoptimized className="w-10 h-10 rounded-lg object-contain" />
                       ) : (
                         <div className="w-10 h-10 rounded-lg bg-ink/5 flex items-center justify-center text-lg">{u.name.charAt(0)}</div>
                       )}
@@ -102,7 +115,12 @@ export default function XuanxiaoPage() {
                 );
               })}
             </div>
-            {filtered.length === 0 && <div className="text-center py-16 text-ink/40 text-sm">未找到匹配的大学</div>}
+            {filtered.length === 0 && (
+              <DataEmptyState
+                title="未找到匹配的大学"
+                description="请尝试清空筛选条件,或更换关键词。"
+              />
+            )}
           </>
         )}
 

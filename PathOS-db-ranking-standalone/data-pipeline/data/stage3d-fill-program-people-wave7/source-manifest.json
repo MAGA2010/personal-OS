@@ -1,0 +1,337 @@
+{
+  "record_type": "stage3d_fill_program_people_wave7_source_manifest_input",
+  "sources": [
+    {
+      "source_id": "wave7-bucknell-michelle-lesh-me",
+      "candidate_id": "candidate-v2:bucknell-university",
+      "source_url": "https://engineeringnews.blogs.bucknell.edu/2026/03/27/alumni-spotlight-qa-with-michelle-lesh-00/",
+      "publisher": "Bucknell University College of Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Michelle Lesh graduated from Bucknell in 2000 with a mechanical engineering degree."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-caltech-jim-adams-me",
+      "candidate_id": "candidate-v2:california-institute-of-technology",
+      "source_url": "https://www.alumni.caltech.edu/james-jim-l-adams/",
+      "publisher": "Caltech Alumni Association",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "As an undergraduate at Caltech, he finished top in his engineering class in 1955, was elected student body president, and played on the basketball team.",
+        "BS ’ 55 · Mechanical Engineering"
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-columbia-sandrine-rutayisire-cs",
+      "candidate_id": "candidate-v2:columbia-university",
+      "source_url": "https://isso.columbia.edu/content/sandrine",
+      "publisher": "Columbia University ISSO",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "I graduated in Computer Science and Visual Arts."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-cornell-james-wang-biology",
+      "candidate_id": "candidate-v2:cornell-university",
+      "source_url": "https://news.cornell.edu/stories/2014/12/weill-cornell-students-advise-pre-med-undergrads",
+      "publisher": "Cornell Chronicle",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "James Wang ’12, a third-year student at Weill Cornell, graduated from Cornell with a degree in biological sciences but said he felt a little lost exploring health care careers as an undergrad in Ithaca."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-dartmouth-tim-geithner-government",
+      "candidate_id": "candidate-v2:dartmouth-college",
+      "source_url": "https://home.dartmouth.edu/news/2011/06/leading-voices-lecturer-tim-geithner-83",
+      "publisher": "Dartmouth College",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Geithner graduated from Dartmouth with a degree in government and Asian studies in 1983 and from the Johns Hopkins School of Advanced International Studies with a master’s degree in international economics and East Asian studies in 1985."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-duke-stuart-dupuy-economics",
+      "candidate_id": "candidate-v2:duke-university",
+      "source_url": "https://econ.duke.edu/alumni/stuart-dupuy-ba-1992",
+      "publisher": "Duke University Department of Economics",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "I graduated from Duke in 1992 and immediately went to the University of Texas School of Law.",
+        "1992 Major: Economics"
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-emory-ahmed-aljohani-biology",
+      "candidate_id": "candidate-v2:emory-university",
+      "source_url": "https://college.emory.edu/national-awards/scholar-profiles/aljohani-ahmed.html",
+      "publisher": "Emory College",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Ahmed Aljohani, a native of Saudi Arabia, graduated from Emory with highest honors in Biology."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-georgetown-amelia-fattore-finance",
+      "candidate_id": "candidate-v2:georgetown-university",
+      "source_url": "https://careercenter.georgetown.edu/alumni-stories/how-i-got-there-amelia-fattore-msb-2018-vp-private-credit-financing-at-citigroup/",
+      "publisher": "Georgetown University Cawley Career Education Center",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Amelia Fattore graduated from Georgetown University’s McDonough School of Business (MSB) with a Finance and Accounting Degree."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-harvard-max-kuhelj-bugaric-government",
+      "candidate_id": "candidate-v2:harvard-university",
+      "source_url": "https://www.gov.harvard.edu/directory/max-kuhelj-bugaric/",
+      "publisher": "Harvard University Department of Government",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "I graduated from Harvard College in 2019 with an A.B. in Government (summa cum laude); my thesis “Ahead of Their Time: Temporal Orientation and Organizational Technological Invention” was awarded the James Gordon Bennett Prize."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-lehigh-leeza-khalif-csb",
+      "candidate_id": "candidate-v2:lehigh-university",
+      "source_url": "https://alumni.lehigh.edu/young-alumni-council",
+      "publisher": "Lehigh University Alumni",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Leeza Khalif graduated from Lehigh University in 2023 with a Bachelor of Science in Computer Science and Business."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-uva-eliza-haverstock-economics",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "source_url": "https://economics.virginia.edu/people/eliza-haverstock",
+      "publisher": "University of Virginia Department of Economics",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Eliza graduated from UVA in the spring of 2019.",
+        "She majored in Economics and History."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-northwestern-chandana-sooranahalli-econ",
+      "candidate_id": "candidate-v2:northwestern-university",
+      "source_url": "https://economics.northwestern.edu/people/alumni/alumni-spotlights.html",
+      "publisher": "Northwestern University Department of Economics",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Chandana Sooranahalli graduated from Weinberg College in 2020, studying Economics with a minor in cognitive science."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-ohio-state-ben-gilbert-cse",
+      "candidate_id": "candidate-v2:ohio-state-university",
+      "source_url": "https://engineering.osu.edu/notable-alumni",
+      "publisher": "Ohio State University College of Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "After earning his computer science and engineering degree in 2011, he had a clear career path in mind: work at a big company for a few years, launch a tech startup as CEO, raise capital and build it into a big company."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-tamu-lesley-weitz-aerospace",
+      "candidate_id": "candidate-v2:texas-a-and-m-university",
+      "source_url": "https://engineering.tamu.edu/news/2024/02/distinguished-alum-awarded-high-distinction-in-aerospace-engineering-community.html",
+      "publisher": "Texas A&M University Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Weitz received her bachelor’s degree in mechanical engineering from the University at Buffalo in 2002 and her master’s and Ph.D. in aerospace engineering from Texas A&M in 2005 and 2009, respectively."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-notre-dame-alessandro-disanto-econ",
+      "candidate_id": "candidate-v2:university-of-notre-dame",
+      "source_url": "https://economics.nd.edu/about/alumni-board/",
+      "publisher": "University of Notre Dame Department of Economics",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Alessandro graduated summa cum laude from Notre Dame with a double major in finance and economics, as well as a minor in Italian."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-uci-christina-phan-biology",
+      "candidate_id": "candidate-v2:university-of-california-irvine",
+      "source_url": "https://www.bio.uci.edu/ayala-school-alumni-is-a-current-white-house-intern/",
+      "publisher": "UC Irvine Biological Sciences",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "A 2014 graduate with her bachelor’s degree in biological sciences in under three years and a recipient of the Chancellor’s Award of Distinction, Christina recently began an internship at the White House."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-uchicago-carla-garcia-cs",
+      "candidate_id": "candidate-v2:university-of-chicago",
+      "source_url": "https://masters.cs.uchicago.edu/career-services/alumni-profiles/carlagarcia/",
+      "publisher": "University of Chicago Masters Program in Computer Science",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Carla Garcia graduated from the MPCS in 2020.",
+        "Masters Program in Computer Science"
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-ucsd-vania-bailon-economics",
+      "candidate_id": "candidate-v2:university-of-california-san-diego",
+      "source_url": "https://emeriti.ucsd.edu/_files/CS_Journal/CSP_Journal_Vol_3_No_1.pdf",
+      "publisher": "UC San Diego Emeriti Association",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Vania is a UCSD Muir College alumna, having graduated in 2018 with a bachelor’s degree in economics."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-uga-neal-quirk-finance",
+      "candidate_id": "candidate-v2:university-of-georgia",
+      "source_url": "https://news.uga.edu/uga-alumni-faculty-and-friends-to-receive-alumni-awards/",
+      "publisher": "University of Georgia",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Quirk graduated from UGA with a Bachelor of Business Administration in finance in 1982."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-wisconsin-carlton-highsmith-economics",
+      "candidate_id": "candidate-v2:university-of-wisconsin-madison",
+      "source_url": "https://diversity.wisc.edu/2016/05/ddeea-honors-inaugural-outstanding-alumni-of-color-recipients-ray-allen-carlton-highsmith/",
+      "publisher": "University of Wisconsin–Madison",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Carlton Highsmith earned a Bachelor’s degree in Economics from the University of Wisconsin-Madison in 1973."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-ut-austin-dheeraj-pandey-cs",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "source_url": "https://www.cs.utexas.edu/advisory-council/dheeraj-pandey",
+      "publisher": "University of Texas at Austin Department of Computer Science",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Dheeraj holds a Bachelor of Technology in Computer Science from the Indian Institute of Technology (IIT), Kanpur, and a M.S. in Computer Science from the University of Texas at Austin."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-berkeley-frank-cooper-business",
+      "candidate_id": "candidate-v2:university-of-california-berkeley",
+      "source_url": "https://newsroom.haas.berkeley.edu/haas-names-alumni-business-leaders-as-2023-commencement-speakers/",
+      "publisher": "UC Berkeley Haas School of Business",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Visa’s Chief Marketing Officer Frank Cooper III, BS 86, and Toast’s Chief Financial Officer Elena Gomez, BS 91, will serve as Berkeley Haas commencement speakers this May.",
+        "He earned an undergraduate degree in business administration at UC Berkeley, and a JD from Harvard Law School, where he served as the Supreme Court Editor of The Harvard Law Review."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-stanford-victoria-parikh-human-biology",
+      "candidate_id": "candidate-v2:stanford-university",
+      "source_url": "https://humanbiology.stanford.edu/news/humbio-and-heartbeats",
+      "publisher": "Stanford University Program in Human Biology",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Meet Victoria Parikh, a clinician scientist in cardiovascular medicine at Stanford Medicine and a HumBio alumna from the class of 2005.",
+        "Realizing she could learn about disease and also study the disparities and gaps in available services for treating those diseases, Parikh’s interest in studying Human Biology was solidified and she officially declared HumBio."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-usc-param-patel-cs",
+      "candidate_id": "candidate-v2:university-of-southern-california",
+      "source_url": "https://viterbiundergrad.usc.edu/gcsp/alumni/",
+      "publisher": "USC Viterbi School of Engineering",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Param Patel earned a B.S. and M.S. in Computer Science and a B.A. in Applied and Computational Mathematics from the University of Southern California (USC)."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-uva-rory-black-data-science",
+      "candidate_id": "candidate-v2:university-of-virginia",
+      "source_url": "https://datascience.virginia.edu/people/rory-black",
+      "publisher": "University of Virginia School of Data Science",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Alumnus",
+        "M.S in Data Science 2023, University of Virginia"
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-ut-austin-sunil-jaini-business",
+      "candidate_id": "candidate-v2:university-of-texas-austin",
+      "source_url": "https://blogs.mccombs.utexas.edu/bhp-news/2023/10/18/canfield-bhp-alumni-advisory-board-welcomes-new-members-3/",
+      "publisher": "University of Texas at Austin McCombs School of Business",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Sunil graduated in 2010 and holds a Bachelor of Business Administration degree in Finance from the Canfield Business Honors Program at The University of Texas in Austin, Texas and an MBA from London Business School in London, UK."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    },
+    {
+      "source_id": "wave7-washington-paul-forquera-aero",
+      "candidate_id": "candidate-v2:university-of-washington",
+      "source_url": "https://www.aa.washington.edu/alumni/luncheon",
+      "publisher": "University of Washington Department of Aeronautics & Astronautics",
+      "source_type": "official_institutional",
+      "accessed_date": "2026-07-21",
+      "verified_direct_quotes": [
+        "Alumnus Paul Forquera (BS 02)",
+        "Paul holds a Masters Degree in Aeronautics and Astronautics from Stanford, and a Bachelors of Aeronautical and Astronautical Engineering from the University of Washington."
+      ],
+      "retrieval_or_review_notes": "Official institutional profile or alumni/department page; reviewed short excerpts cached locally for substring verification."
+    }
+  ]
+}

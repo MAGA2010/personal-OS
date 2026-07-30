@@ -1,0 +1,446 @@
+{
+  "check_count": 86,
+  "checks": [
+    {
+      "check_id": "01_school_scope_62",
+      "detail": "62 schools preserved",
+      "status": "pass"
+    },
+    {
+      "check_id": "02_candidate_v2_unchanged",
+      "detail": "Candidate v2 unchanged",
+      "status": "pass"
+    },
+    {
+      "check_id": "03_ranking_memberships_unchanged",
+      "detail": "Ranking membership unchanged",
+      "status": "pass"
+    },
+    {
+      "check_id": "04_stage4b_pins_match",
+      "detail": "Stage 4B overlay pin matches",
+      "status": "pass"
+    },
+    {
+      "check_id": "05_people_180",
+      "detail": "People remain 180",
+      "status": "pass"
+    },
+    {
+      "check_id": "06_gaps_130",
+      "detail": "People gaps remain 130",
+      "status": "pass"
+    },
+    {
+      "check_id": "07_frontend_untouched",
+      "detail": "Frontend untouched",
+      "status": "pass"
+    },
+    {
+      "check_id": "08_handoff_untouched",
+      "detail": "Handoff untracked and unchanged",
+      "status": "pass"
+    },
+    {
+      "check_id": "09_stage3a_stash",
+      "detail": "Stage 3A stash untouched",
+      "status": "pass"
+    },
+    {
+      "check_id": "10_enrollment_scope_separation",
+      "detail": "Enrollment scopes separated",
+      "status": "pass"
+    },
+    {
+      "check_id": "11_system_wide_rejected",
+      "detail": "System-wide counts rejected",
+      "status": "pass"
+    },
+    {
+      "check_id": "12_total_same_scope_derived",
+      "detail": "Total derivation constrained",
+      "status": "pass"
+    },
+    {
+      "check_id": "13_enrollment_year",
+      "detail": "Enrollment years recorded",
+      "status": "pass"
+    },
+    {
+      "check_id": "14_total_not_undergraduate_copy",
+      "detail": "Total not copied",
+      "status": "pass"
+    },
+    {
+      "check_id": "15_missing_enrollment_null",
+      "detail": "Missing enrollment remains null",
+      "status": "pass"
+    },
+    {
+      "check_id": "16_test_policy_enum",
+      "detail": "Policy enum validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "17_first_year_scope",
+      "detail": "First-year scope",
+      "status": "pass"
+    },
+    {
+      "check_id": "18_not_inferred_from_sat",
+      "detail": "No SAT inference",
+      "status": "pass"
+    },
+    {
+      "check_id": "19_blind_distinct_optional",
+      "detail": "Blind and optional distinct",
+      "status": "pass"
+    },
+    {
+      "check_id": "20_policy_cycle_for_verified",
+      "detail": "Verified cycle required",
+      "status": "pass"
+    },
+    {
+      "check_id": "21_stale_policy_rejected",
+      "detail": "Stale policy rejected",
+      "status": "pass"
+    },
+    {
+      "check_id": "22_graduate_english_rejected",
+      "detail": "Graduate policy rejected",
+      "status": "pass"
+    },
+    {
+      "check_id": "23_accepted_tests_enum",
+      "detail": "English tests enum validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "24_minimum_recommended_distinct",
+      "detail": "Minimum/recommended distinction validated",
+      "status": "pass"
+    },
+    {
+      "check_id": "25_waiver_source_supported",
+      "detail": "Waivers sourced",
+      "status": "pass"
+    },
+    {
+      "check_id": "26_program_scope_distinct",
+      "detail": "Program scope distinct",
+      "status": "pass"
+    },
+    {
+      "check_id": "27_unknown_minimum_null",
+      "detail": "Unknown minimum remains null",
+      "status": "pass"
+    },
+    {
+      "check_id": "28_english_identity_unchanged",
+      "detail": "Canonical identity unchanged",
+      "status": "pass"
+    },
+    {
+      "check_id": "29_chinese_status",
+      "detail": "Display names have status",
+      "status": "pass"
+    },
+    {
+      "check_id": "30_ambiguous_names_reviewed",
+      "detail": "Ambiguous names reviewed",
+      "status": "pass"
+    },
+    {
+      "check_id": "31_machine_translation_not_official",
+      "detail": "No machine translation claim",
+      "status": "pass"
+    },
+    {
+      "check_id": "32_chinese_not_identity",
+      "detail": "Chinese alias not identity key",
+      "status": "pass"
+    },
+    {
+      "check_id": "33_all_sat_act_resolved",
+      "detail": "All SAT/ACT explicit",
+      "status": "pass"
+    },
+    {
+      "check_id": "34_test_null_not_zero",
+      "detail": "Test null not zero",
+      "status": "pass"
+    },
+    {
+      "check_id": "35_middle50_distinct_average",
+      "detail": "Middle-50 semantics",
+      "status": "pass"
+    },
+    {
+      "check_id": "36_test_population_scope",
+      "detail": "Reporting population retained",
+      "status": "pass"
+    },
+    {
+      "check_id": "37_geography_ids",
+      "detail": "Geography IDs valid",
+      "status": "pass"
+    },
+    {
+      "check_id": "38_nearest_town_rejected",
+      "detail": "Nearest town rejected",
+      "status": "pass"
+    },
+    {
+      "check_id": "39_county_fallback_explicit",
+      "detail": "County fallback explicit",
+      "status": "pass"
+    },
+    {
+      "check_id": "40_unincorporated_valid",
+      "detail": "Unincorporated status allowed",
+      "status": "pass"
+    },
+    {
+      "check_id": "41_ambiguous_not_promoted",
+      "detail": "Ambiguous joins not promoted",
+      "status": "pass"
+    },
+    {
+      "check_id": "42_join_method_recorded",
+      "detail": "Join method recorded",
+      "status": "pass"
+    },
+    {
+      "check_id": "43_ranked_50_unchanged",
+      "detail": "50 ranks unchanged",
+      "status": "pass"
+    },
+    {
+      "check_id": "44_null_12_semantic",
+      "detail": "12 null ranks semantic",
+      "status": "pass"
+    },
+    {
+      "check_id": "45_program_rank_rejected",
+      "detail": "Program rank rejected",
+      "status": "pass"
+    },
+    {
+      "check_id": "46_rank_null_not_zero",
+      "detail": "Rank zero absent",
+      "status": "pass"
+    },
+    {
+      "check_id": "47_rank_filter_behavior",
+      "detail": "Rank filter behavior explicit",
+      "status": "pass"
+    },
+    {
+      "check_id": "48_regional_official_only",
+      "detail": "No unofficial regional value",
+      "status": "pass"
+    },
+    {
+      "check_id": "49_regional_scope",
+      "detail": "Geography scope present",
+      "status": "pass"
+    },
+    {
+      "check_id": "50_regional_year",
+      "detail": "Reference year present",
+      "status": "pass"
+    },
+    {
+      "check_id": "51_ratio_inputs",
+      "detail": "Ratio inputs valid",
+      "status": "pass"
+    },
+    {
+      "check_id": "52_ratio_range",
+      "detail": "Ratio range valid",
+      "status": "pass"
+    },
+    {
+      "check_id": "53_asian_chinese_distinct",
+      "detail": "Asian/Chinese separated",
+      "status": "pass"
+    },
+    {
+      "check_id": "54_county_not_place",
+      "detail": "County fallback labeled",
+      "status": "pass"
+    },
+    {
+      "check_id": "55_moe_separated",
+      "detail": "MOE separated",
+      "status": "pass"
+    },
+    {
+      "check_id": "56_density_units",
+      "detail": "Density units valid",
+      "status": "pass"
+    },
+    {
+      "check_id": "57_acs_failures_honest",
+      "detail": "ACS failures recorded",
+      "status": "pass"
+    },
+    {
+      "check_id": "58_demo_estimates_excluded",
+      "detail": "Demo estimates excluded",
+      "status": "pass"
+    },
+    {
+      "check_id": "59_missing_crime_not_safe",
+      "detail": "Missing crime not safe",
+      "status": "pass"
+    },
+    {
+      "check_id": "60_no_opaque_safety",
+      "detail": "No opaque safety index",
+      "status": "pass"
+    },
+    {
+      "check_id": "61_no_fabricated_col",
+      "detail": "No fabricated COL",
+      "status": "pass"
+    },
+    {
+      "check_id": "62_transport_partial",
+      "detail": "Transport remains partial",
+      "status": "pass"
+    },
+    {
+      "check_id": "63_verified_overlay_only",
+      "detail": "Only verified overlay",
+      "status": "pass"
+    },
+    {
+      "check_id": "64_overlay_unique",
+      "detail": "Overlay unique",
+      "status": "pass"
+    },
+    {
+      "check_id": "65_stage4b_not_rewritten",
+      "detail": "Stage 4B not rewritten",
+      "status": "pass"
+    },
+    {
+      "check_id": "66_cumulative_arithmetic",
+      "detail": "Cumulative arithmetic",
+      "status": "pass"
+    },
+    {
+      "check_id": "67_readiness_matches_coverage",
+      "detail": "Readiness coverage matches",
+      "status": "pass"
+    },
+    {
+      "check_id": "68_quarantine_excluded",
+      "detail": "Quarantine excluded",
+      "status": "pass"
+    },
+    {
+      "check_id": "69_null_strategy",
+      "detail": "Null strategy explicit",
+      "status": "pass"
+    },
+    {
+      "check_id": "70_source_status_exposed",
+      "detail": "Source status exposed",
+      "status": "pass"
+    },
+    {
+      "check_id": "71_ai_excludes_quarantine",
+      "detail": "AI excludes quarantine",
+      "status": "pass"
+    },
+    {
+      "check_id": "72_people_unchanged",
+      "detail": "Program people unchanged",
+      "status": "pass"
+    },
+    {
+      "check_id": "73_cache_sha",
+      "detail": "Cache SHA matches",
+      "status": "pass"
+    },
+    {
+      "check_id": "74_no_missing_cache",
+      "detail": "No missing cache",
+      "status": "pass"
+    },
+    {
+      "check_id": "75_intake_separated",
+      "detail": "Intake separated",
+      "status": "pass"
+    },
+    {
+      "check_id": "76_regeneration_no_network",
+      "detail": "Regeneration offline",
+      "status": "pass"
+    },
+    {
+      "check_id": "77_byte_identical",
+      "detail": "Artifacts deterministic",
+      "status": "pass"
+    },
+    {
+      "check_id": "78_validation_contract",
+      "detail": "Validation contract",
+      "status": "pass"
+    },
+    {
+      "check_id": "79_source_policy_zero",
+      "detail": "Source violations zero",
+      "status": "pass"
+    },
+    {
+      "check_id": "80_ranking_contamination_zero",
+      "detail": "Ranking contamination zero",
+      "status": "pass"
+    },
+    {
+      "check_id": "81_no_final_universe",
+      "detail": "No final universe",
+      "status": "pass"
+    },
+    {
+      "check_id": "82_no_memberships",
+      "detail": "No memberships",
+      "status": "pass"
+    },
+    {
+      "check_id": "83_no_frontend_export",
+      "detail": "No frontend export",
+      "status": "pass"
+    },
+    {
+      "check_id": "84_no_preview_export",
+      "detail": "No preview export",
+      "status": "pass"
+    },
+    {
+      "check_id": "85_no_production_export",
+      "detail": "No production export",
+      "status": "pass"
+    },
+    {
+      "check_id": "86_no_tag_push",
+      "detail": "No tag/push",
+      "status": "pass"
+    }
+  ],
+  "deterministic_regeneration": true,
+  "failed_check_count": 0,
+  "incomplete": true,
+  "network_disabled_generation": true,
+  "not_final": true,
+  "passed_check_count": 86,
+  "ranking_field_contamination": 0,
+  "record_type": "stage4c_validation_result",
+  "source_limited": true,
+  "source_policy_violations": 0,
+  "status": "pass"
+}

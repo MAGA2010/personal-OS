@@ -1,0 +1,280 @@
+{
+  "items": [
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "acceptance_rate",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P0",
+      "recommended_source": "IPEDS_or_College_Scorecard",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "comparison_readiness",
+      "frontend_feature_unlocked": "comparison",
+      "priority": "P0",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 1,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "filter_readiness",
+      "frontend_feature_unlocked": "filter",
+      "priority": "P0",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 1,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "map_choropleth_readiness",
+      "frontend_feature_unlocked": "map",
+      "priority": "P0",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 1,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "marker_level_summary",
+      "frontend_feature_unlocked": "map",
+      "priority": "P0",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "national_ranking",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P0",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 12,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "school_marker_metric_readiness",
+      "frontend_feature_unlocked": "map",
+      "priority": "P0",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 1,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "ai_context_readiness",
+      "frontend_feature_unlocked": "ai",
+      "priority": "P1",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 1,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "asian_population_ratio",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "chinese_name",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "high",
+      "field": "chinese_population_ratio",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "cost_of_living_index",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "crime_rate",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "enrollment",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "IPEDS_or_College_Scorecard",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "median_household_income",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "median_rent",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "parent_mode_readiness",
+      "frontend_feature_unlocked": "mode",
+      "priority": "P1",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 1,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "population_density",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "high",
+      "field": "safety_index",
+      "frontend_feature_unlocked": "map",
+      "priority": "P1",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "sat",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "IPEDS_or_College_Scorecard",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "school_type",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "IPEDS_or_College_Scorecard",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "student_mode_readiness",
+      "frontend_feature_unlocked": "mode",
+      "priority": "P1",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 1,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "toefl_policy",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P1",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "campus_city_relationship",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P2",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "program_people",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P2",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 130,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "representative_events",
+      "frontend_feature_unlocked": "detail",
+      "priority": "P2",
+      "recommended_source": "official_university_or_primary_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    },
+    {
+      "dependency": "reviewed_source_intake",
+      "estimated_difficulty": "medium",
+      "field": "transport_accessibility",
+      "frontend_feature_unlocked": "map",
+      "priority": "P2",
+      "recommended_source": "Census_ACS_or_official_local_dataset",
+      "schools_or_geographies_affected": 62,
+      "validation_rule": "explicit_scope_year_unit_source_and_candidate_or_GEOID_match"
+    }
+  ],
+  "priority_counts": {
+    "P0": 7,
+    "P1": 16,
+    "P2": 4
+  },
+  "record_type": "stage4a_data_collection_backlog"
+}

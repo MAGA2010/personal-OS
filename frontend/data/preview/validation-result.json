@@ -1,0 +1,259 @@
+{
+  "checkCount": 49,
+  "checks": [
+    {
+      "checkId": "stage5_01",
+      "label": "contract version",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_02",
+      "label": "source checkpoint",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_03",
+      "label": "preview view",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_04",
+      "label": "summary count",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_05",
+      "label": "detail count",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_06",
+      "label": "unique IDs",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_07",
+      "label": "valid coordinates",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_08",
+      "label": "no null island",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_09",
+      "label": "summary detail IDs",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_10",
+      "label": "English names",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_11",
+      "label": "Chinese names",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_12",
+      "label": "locations",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_13",
+      "label": "detail coordinates",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_14",
+      "label": "rankings",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_15",
+      "label": "acceptance",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_16",
+      "label": "cost",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_17",
+      "label": "ratios",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_18",
+      "label": "school types",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_19",
+      "label": "warnings",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_20",
+      "label": "verified boundary",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_21",
+      "label": "pending policies",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_22",
+      "label": "deferred regions",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_23",
+      "label": "no quarantined people",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_24",
+      "label": "no handoff",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_25",
+      "label": "no fixture",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_26",
+      "label": "2019 enrollment",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_27",
+      "label": "Harvey Mudd partial",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_28",
+      "label": "Olin partial",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_29",
+      "label": "12 null ranks",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_30",
+      "label": "no rank zero",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_31",
+      "label": "9 SAT missing",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_32",
+      "label": "9 ACT missing",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_33",
+      "label": "test policy pending",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_34",
+      "label": "English policy pending",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_35",
+      "label": "16 county scopes",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_36",
+      "label": "nearest town distinct",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_37",
+      "label": "130 people gaps",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_38",
+      "label": "sources resolve",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_39",
+      "label": "regions blocked",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_40",
+      "label": "choropleth disabled",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_41",
+      "label": "AI disabled",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_42",
+      "label": "production false",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_43",
+      "label": "approved input paths",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_44",
+      "label": "deterministic marker",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_45",
+      "label": "mapping matrix",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_46",
+      "label": "all majors",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_47",
+      "label": "no synthetic source placeholders",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_48",
+      "label": "complete status dictionary",
+      "status": "pass"
+    },
+    {
+      "checkId": "stage5_49",
+      "label": "region metric metadata",
+      "status": "pass"
+    }
+  ],
+  "deterministicRegeneration": true,
+  "failedCheckCount": 0,
+  "incomplete": true,
+  "networkDisabledGeneration": true,
+  "notFinal": true,
+  "passedCheckCount": 49,
+  "recordType": "stage5_preview_validation_result",
+  "sourceLimited": true,
+  "status": "pass"
+}

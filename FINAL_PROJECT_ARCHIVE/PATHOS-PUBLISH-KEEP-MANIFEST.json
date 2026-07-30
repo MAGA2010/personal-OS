@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-07-30",
+  "workspaceRoot": "/Users/jiayihuang/Downloads/PathOS合并",
+  "canonicalFrontendSource": "vercel-deploy/pathos-preview-20260726",
+  "canonicalFrontendTarget": "frontend",
+  "canonicalBackend": "PathOS-db-ranking-standalone",
+  "entries": [
+    {
+      "path": "frontend",
+      "type": "CANONICAL_FRONTEND",
+      "reason": "与隔离 integration 最终源哈希一致；具备整合首页、17 个 route 文件、21 个测试文件、9 张授权校园 WebP 和当前地图修复。",
+      "runtimeRequired": true,
+      "documentationRequired": false,
+      "dataRequired": false,
+      "licenseStatus": "CODE_AND_AUDITED_MEDIA",
+      "estimatedBytes": 8764347
+    },
+    {
+      "path": "PathOS-db-ranking-standalone",
+      "type": "CANONICAL_BACKEND_AND_PIPELINE",
+      "reason": "唯一 standalone Git Backend；HEAD b73e61ec4fda11b7c72e74c14e414fbe2c74300f，包含数据管道、schema、validator、provenance 和 Preview Bundle。",
+      "runtimeRequired": true,
+      "documentationRequired": true,
+      "dataRequired": true,
+      "licenseStatus": "PROJECT_DATA_WITH_PROVENANCE",
+      "estimatedBytes": 51501213
+    },
+    {
+      "path": "PathOS-db-ranking-standalone/data-pipeline/artifacts/stage5-warning-aware-preview",
+      "type": "RUNTIME_PREVIEW_BUNDLE",
+      "reason": "Next.js BFF 的 canonical Preview 数据源；62/62/62/904。",
+      "runtimeRequired": true,
+      "documentationRequired": true,
+      "dataRequired": true,
+      "licenseStatus": "PREVIEW_RESEARCH_DATA",
+      "estimatedBytes": 0
+    },
+    {
+      "path": "resource/PathOS_美国各州留学数据矩阵.xlsx",
+      "type": "REGIONAL_SOURCE_WORKBOOK",
+      "reason": "4 项、204 条、51 个州级辖区数据的来源工作簿；SHA-256 409ed47b…096。",
+      "runtimeRequired": false,
+      "documentationRequired": true,
+      "dataRequired": true,
+      "licenseStatus": "PROJECT_SOURCE_DATA",
+      "estimatedBytes": 18202
+    },
+    {
+      "path": "FINAL_PROJECT_ARCHIVE",
+      "type": "FINAL_ARCHIVE",
+      "reason": "最终总结、架构、数据、功能、限制、路线、交接与发布清单。",
+      "runtimeRequired": false,
+      "documentationRequired": true,
+      "dataRequired": false,
+      "licenseStatus": "PROJECT_DOCUMENTATION",
+      "estimatedBytes": 32238
+    },
+    {
+      "path": "docs",
+      "type": "PROJECT_DOCUMENTATION",
+      "reason": "Stage 6 / 7 报告、区域数据来源和将迁入的 integration 审计证据。",
+      "runtimeRequired": false,
+      "documentationRequired": true,
+      "dataRequired": false,
+      "licenseStatus": "PROJECT_DOCUMENTATION",
+      "estimatedBytes": 219897
+    },
+    {
+      "path": "README.md",
+      "type": "PUBLIC_README",
+      "reason": "将根据当前真实架构和数据边界创建。",
+      "runtimeRequired": false,
+      "documentationRequired": true,
+      "dataRequired": false,
+      "licenseStatus": "PROJECT_DOCUMENTATION",
+      "estimatedBytes": 0
+    },
+    {
+      "path": "README-FINAL.md",
+      "type": "ARCHIVE_README",
+      "reason": "最终冻结入口。",
+      "runtimeRequired": false,
+      "documentationRequired": true,
+      "dataRequired": false,
+      "licenseStatus": "PROJECT_DOCUMENTATION",
+      "estimatedBytes": 3317
+    },
+    {
+      "path": ".gitignore",
+      "type": "PUBLIC_REPOSITORY_CONFIG",
+      "reason": "阻止环境文件、依赖、缓存、构建产物和临时输出进入公开仓库。",
+      "runtimeRequired": false,
+      "documentationRequired": true,
+      "dataRequired": false,
+      "licenseStatus": "PROJECT_CONFIG",
+      "estimatedBytes": 0
+    },
+    {
+      "path": ".env.example",
+      "type": "SAFE_ENV_TEMPLATE",
+      "reason": "只包含变量名和安全占位符。",
+      "runtimeRequired": false,
+      "documentationRequired": true,
+      "dataRequired": false,
+      "licenseStatus": "PROJECT_CONFIG",
+      "estimatedBytes": 0
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "SECURITY_GUIDANCE",
+      "reason": "公开仓库凭据和用户数据处理规范。",
+      "runtimeRequired": false,
+      "documentationRequired": true,
+      "dataRequired": false,
+      "licenseStatus": "PROJECT_DOCUMENTATION",
+      "estimatedBytes": 0
+    }
+  ]
+}
