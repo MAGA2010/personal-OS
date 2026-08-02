@@ -1,4 +1,4 @@
-ï»¿# PathOS â€” Render Web Service + Supabase Postgres.
+# PathOS ¡ª Render Web Service + Supabase Postgres.
 #
 # Stack:
 #   - Render Web Service (Node.js) hosts the Next.js frontend + BFF.
@@ -17,7 +17,7 @@ services:
     plan: free
     region: oregon
     rootDir: frontend
-    buildCommand: npm ci && npm run build
+    buildCommand: npm install && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
     autoDeploy: true

@@ -1,0 +1,6 @@
+# Allow all crawlers (public website)
+User-agent: *
+Allow: /
+
+# Sitemap (add when ready)
+# Sitemap: https://personal-os-zu9q.onrender.com/sitemap.xml
