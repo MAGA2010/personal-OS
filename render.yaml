@@ -1,0 +1,44 @@
+﻿# PathOS — Render Web Service + Supabase Postgres.
+#
+# Stack:
+#   - Render Web Service (Node.js) hosts the Next.js frontend + BFF.
+#   - Supabase Postgres (free tier) holds the preview dataset.
+#   - All 4 API routes (preview / ai / xuanxiao) live in the same service.
+#
+# Required manual setup (one-time, in Render dashboard):
+#   1. Create the Supabase project, copy its DATABASE_URL.
+#   2. In Render dashboard, set the secret env vars (DATABASE_URL,
+#      DEEPSEEK_API_KEY, PATHOS_ALLOWED_ORIGIN). See DEPLOY.md.
+
+services:
+  - type: web
+    name: pathos
+    runtime: node
+    plan: free
+    region: oregon
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "10000"
+      - key: PATHOS_DATA_MODE
+        value: backend
+      # DATABASE_URL is set in Render dashboard as a secret env var.
+      # It is NOT committed here.
+      - key: DATABASE_URL
+        sync: false
+      - key: PATHOS_ALLOWED_ORIGIN
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: DEEPSEEK_BASE_URL
+        value: https://api.deepseek.com
+      - key: DEEPSEEK_MODEL
+        value: deepseek-chat
+      - key: AI_PROVIDER
+        value: deepseek

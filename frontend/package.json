@@ -8,13 +8,16 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "db:import": "tsx scripts/import-to-supabase.ts",
+    "db:reset": "tsx scripts/reset-schema.ts"
   },
   "dependencies": {
     "d3-scale-chromatic": "^3.1.0",
     "lucide-react": "^0.468.0",
     "maplibre-gl": "^5.24.0",
     "next": "^14.2.0",
+    "pg": "^8.13.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-map-gl": "^8.1.1",
@@ -26,6 +29,7 @@
     "@playwright/test": "^1.61.1",
     "@types/d3-scale-chromatic": "^3.1.0",
     "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.10",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "@types/supercluster": "^7.1.3",
@@ -36,6 +40,7 @@
     "eslint-config-next": "^14.2.0",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.0",
+    "tsx": "^4.19.2",
     "typescript": "^5.5.0",
     "vitest": "^2.1.9"
   }
