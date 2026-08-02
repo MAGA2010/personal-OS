@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   PreviewField,
   PreviewMetadata,
   ProvenanceStatus,
@@ -222,6 +222,7 @@ const KNOWN_DETAIL_STATUSES = new Set([
   "ranked_in_selected_national_family",
   "not_in_current_national_scope",
   "not_reported",
+  "ai_assisted",
   "partial",
   "pending_external_access",
   "county_only_valid",
@@ -467,7 +468,7 @@ export function normalizeStage5Detail(
     })),
     notableAttendance: raw.notableAttendance.map((row) => ({
       type: "notable_attendance",
-      context: [row.personName, row.program].filter(Boolean).join(" · "),
+      context: [row.personName, row.program].filter(Boolean).join(" 路 "),
       status: "live_verified_exact",
     })),
     people: raw.people
@@ -503,7 +504,7 @@ export function normalizeStage5StatusDictionary(raw: unknown): StatusDictionaryM
   const output: StatusDictionaryMap = { ...FALLBACK_STATUS_DICTIONARY };
   for (const key of Object.keys(statuses)) {
     output[key] = output[key] ?? {
-      consumerLabel: "数据补充中",
+      consumerLabel: "鏁版嵁琛ュ厖涓?,
       technicalLabel: key,
       icon: "hourglass",
       tone: "neutral",
