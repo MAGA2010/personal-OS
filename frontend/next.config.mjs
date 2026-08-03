@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Render Web Service runs the full Next.js app (pages + BFF).
-  // data/preview/ is no longer read at runtime ¡ª Supabase Postgres is.
+  // data/preview/ is no longer read at runtime â€” Supabase Postgres is.
   images: { unoptimized: true },
   experimental: {
     typedRoutes: false,
   },
 
-  // Security headers (production only ¡ª Render runs `next start`).
+  // Security headers (production only â€” Render runs `next start`).
   async headers() {
     return [
       {
@@ -27,9 +27,10 @@ const nextConfig = {
               "default-src 'self'",
               "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
               "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' data: https: blob:",
+              "img-src 'self' data: https: blob: https://*.basemaps.cartocdn.com",
               "font-src 'self'",
-              "connect-src 'self' https://hezccqkbqictwysxkonc.supabase.co https://api.deepseek.com",
+              "connect-src 'self' https://hezccqkbqictwysxkonc.supabase.co https://api.deepseek.com https://*.basemaps.cartocdn.com",
+              "worker-src 'self' blob:",
               "frame-src 'none'",
               "object-src 'none'",
               "base-uri 'self'",
