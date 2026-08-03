@@ -137,6 +137,10 @@ export function summaryToLegacyUniversityPOI(s: UniversitySummary): UniversityPO
       typeof s.studentFacultyRatio === "number" && Number.isFinite(s.studentFacultyRatio)
         ? s.studentFacultyRatio
         : null,
+    undergraduateEnrollment: s.enrollmentSummary?.undergraduate ?? null,
+    graduateEnrollment: s.enrollmentSummary?.graduate ?? null,
+    totalEnrollment: s.enrollmentSummary?.total ?? null,
+    enrollmentReferenceYear: s.enrollmentSummary?.referenceYear ?? null,
     campusImages: [],
     nearby: {
       subwayStations: 0,

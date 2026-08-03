@@ -93,6 +93,13 @@ export interface UniversitySummary {
     displayLabel?: string;
     comparisonSafe?: boolean;
   };
+  /** Compact enrollment snapshot for list view (map, calculator, search). */
+  enrollmentSummary?: {
+    undergraduate?: number | null;
+    graduate?: number | null;
+    total?: number | null;
+    referenceYear?: number | null;
+  };
   studentFacultyRatio?: number;
   qualitySummary?: {
     coveragePercent?: number;

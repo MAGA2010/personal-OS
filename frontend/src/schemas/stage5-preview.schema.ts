@@ -63,6 +63,17 @@ export interface Stage5Summary {
   };
   studentFacultyRatio: number | null;
   qualitySummary: { warningCodes: string[] };
+  /**
+   * Compact enrollment snapshot used by the summary list view (map,
+   * calculator, search). Mirrors Stage5Detail.previewMetadata.enrollment
+   * but is populated from the universities-table payload so it does not
+   * require a per-school detail fetch.
+   */
+  enrollment: {
+    undergraduate: PreviewField<number>;
+    graduate: PreviewField<number>;
+    total: PreviewField<number>;
+  };
   warningSummary: { count: number; codes: string[]; hasWarnings: boolean };
   displayTier: "preview";
   previewOnly: true;
@@ -171,6 +182,16 @@ export function parseStage5Manifest(raw: unknown): Stage5Manifest {
   return value as unknown as Stage5Manifest;
 }
 
+function parseEnrollmentFieldFromString(raw: unknown, path: string): PreviewField<number> {
+  if (typeof raw === "string") {
+    if (raw === "" || raw === "null") {
+      return { unit: null, scope: "", value: null, status: "not_reported", warnings: [], sourceIds: [], nullReason: "missing", referenceYear: null };
+    }
+    try { raw = JSON.parse(raw); } catch (e) { throw new Error(`${path} not parseable: ${raw}`); }
+  }
+  return parseField<number>(raw, path);
+}
+
 export function parseStage5Summary(raw: unknown): Stage5Summary {
   const value = object(raw, "summary");
   const id = string(value.id, "summary.id");
@@ -196,7 +217,14 @@ export function parseStage5Summary(raw: unknown): Stage5Summary {
   string(value.region, `${id}.region`);
   stringArray(value.aliases, `${id}.aliases`);
   stringArray(value.topPrograms, `${id}.topPrograms`);
-  return value as unknown as Stage5Summary;
+  // Enrollment fields arrive as JSON-encoded strings in the universities
+  // payload (vs parsed objects in university_details). Coerce to PreviewField.
+  const enrollment = {
+    undergraduate: parseEnrollmentFieldFromString(value.undergraduateEnrollment, `${id}.enrollment.undergraduate`),
+    graduate: parseEnrollmentFieldFromString(value.graduateEnrollment, `${id}.enrollment.graduate`),
+    total: parseEnrollmentFieldFromString(value.totalEnrollment, `${id}.enrollment.total`),
+  };
+  return { ...(value as Record<string, unknown>), enrollment } as unknown as Stage5Summary;
 }
 
 export function parseStage5Summaries(raw: unknown): Stage5Summary[] {
@@ -368,6 +396,12 @@ export function normalizeStage5Summary(raw: Stage5Summary): UniversitySummary {
     },
     costSummary: raw.costSummary,
     studentFacultyRatio: raw.studentFacultyRatio ?? undefined,
+    enrollmentSummary: {
+      undergraduate: raw.enrollment?.undergraduate?.value ?? null,
+      graduate: raw.enrollment?.graduate?.value ?? null,
+      total: raw.enrollment?.total?.value ?? null,
+      referenceYear: typeof raw.enrollment?.undergraduate?.referenceYear === "number" ? raw.enrollment.undergraduate.referenceYear : null,
+    },
     qualitySummary: { warningCodes: raw.qualitySummary.warningCodes },
     rankingTier: tier,
     rankingBand: raw.rankingSummary.rankingLabel,

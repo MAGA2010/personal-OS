@@ -81,7 +81,10 @@ export function UniversityProfile({
   };
   const acceptanceRate = detailAny.admissions?.acceptanceRate?.value ?? null;
   const acceptanceStatus = detailAny.admissions?.acceptanceRate?.status ?? null;
-  const undergradCount = detailAny.enrollment?.undergraduate?.value ?? null;
+  const undergradCount =
+    detailAny.enrollment?.undergraduate?.value ??
+    summary.enrollmentSummary?.undergraduate ??
+    null;
   const undergradStatus = detailAny.enrollment?.undergraduate?.status ?? null;
   const programs = detailAny.programs ?? [];
   const majors = detailAny.allMajors ?? [];

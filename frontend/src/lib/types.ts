@@ -272,6 +272,10 @@ export interface UniversityPOI {
   sourceCount: number;
   admissionRate: number | null;
   studentFacultyRatio: number | null;
+  undergraduateEnrollment: number | null;
+  graduateEnrollment: number | null;
+  totalEnrollment: number | null;
+  enrollmentReferenceYear: number | null;
 
   // 鈹€鈹€ Campus Experience 鈹€鈹€
   /** Google / MapLibre Street View panorama ID for this campus. */

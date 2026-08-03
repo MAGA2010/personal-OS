@@ -59,7 +59,8 @@ export function UniversityHoverTooltip({ summary, x, y }: UniversityHoverTooltip
 
   if (!summary) return null;
   const tuition = tuitionRmbFromSummary(summary);
-  const costLabel = tuition !== null ? `¥${Math.round(tuition / 10000)}万/年` : "未报告";
+    const ugCount = summary.enrollmentSummary?.undergraduate ?? null;
+const costLabel = tuition !== null ? `¥${Math.round(tuition / 10000)}万/年` : "未报告";
   const tier = summary.rankingSummary?.rankingTier ?? summary.rankingTier ?? null;
   return (
     <div
@@ -81,7 +82,10 @@ export function UniversityHoverTooltip({ summary, x, y }: UniversityHoverTooltip
           <span className="rounded-full border border-line/60 bg-paper px-1.5 py-0.5 text-[9px] font-medium text-ink/72">{tier}</span>
         )}
         <span>{costLabel}</span>
-      </div>
+       {ugCount !== null && ugCount > 0 && (
+          <span className="text-ink/72">{ugCount >= 1000 ? (ugCount/1000).toFixed(1) + 'k' : ugCount}</span>
+        )}
+        </div>
       {(summary.city || summary.state) && (
         <div className="mt-0.5 text-ink/45">
           {[summary.city, summary.state].filter(Boolean).join(" · ")}
