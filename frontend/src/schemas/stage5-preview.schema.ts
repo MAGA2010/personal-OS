@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   PreviewField,
   PreviewMetadata,
   ProvenanceStatus,
@@ -468,7 +468,7 @@ export function normalizeStage5Detail(
     })),
     notableAttendance: raw.notableAttendance.map((row) => ({
       type: "notable_attendance",
-      context: [row.personName, row.program].filter(Boolean).join(" 路 "),
+      context: [row.personName, row.program].filter(Boolean).join(" · "),
       status: "live_verified_exact",
     })),
     people: raw.people
@@ -504,7 +504,7 @@ export function normalizeStage5StatusDictionary(raw: unknown): StatusDictionaryM
   const output: StatusDictionaryMap = { ...FALLBACK_STATUS_DICTIONARY };
   for (const key of Object.keys(statuses)) {
     output[key] = output[key] ?? {
-      consumerLabel: "鏁版嵁琛ュ厖涓?,
+      consumerLabel: "数据补充中",
       technicalLabel: key,
       icon: "hourglass",
       tone: "neutral",
