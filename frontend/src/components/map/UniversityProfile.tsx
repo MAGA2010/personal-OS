@@ -83,10 +83,9 @@ export function UniversityProfile({
   const acceptanceStatus = detailAny.admissions?.acceptanceRate?.status ?? null;
   const undergradCount =
     detailAny.previewMetadata?.enrollment?.undergraduate?.value ??
-    detailAny.enrollment?.undergraduate?.value ??
     summary.enrollmentSummary?.undergraduate ??
     null;
-  const undergradStatus = detailAny.enrollment?.undergraduate?.status ?? null;
+  const undergradStatus = detailAny.previewMetadata?.enrollment?.undergraduate?.status ?? null;
   const programs = detailAny.programs ?? [];
   const majors = detailAny.allMajors ?? [];
 
