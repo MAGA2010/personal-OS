@@ -76,12 +76,13 @@ export function UniversityProfile({
     cost?: Array<{ amount: number; currency: string; year: number; components?: { tuition?: boolean; roomBoard?: boolean; mandatoryFees?: boolean } }>;
     nearbyTowns?: Array<{ name: string; nameZh?: string; distanceKm?: number }>;
     admissions?: { acceptanceRate?: { value: number | null; status?: string } };
-    enrollment?: { undergraduate?: { value: number | null; status?: string } };
+    previewMetadata?: { enrollment?: { undergraduate?: { value: number | null; status?: string } } };
     allMajors?: Array<{ name: string; displayName: string }>;
   };
   const acceptanceRate = detailAny.admissions?.acceptanceRate?.value ?? null;
   const acceptanceStatus = detailAny.admissions?.acceptanceRate?.status ?? null;
   const undergradCount =
+    detailAny.previewMetadata?.enrollment?.undergraduate?.value ??
     detailAny.enrollment?.undergraduate?.value ??
     summary.enrollmentSummary?.undergraduate ??
     null;
