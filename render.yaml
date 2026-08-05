@@ -1,4 +1,4 @@
-# PathOS ¡ª Render Web Service + Supabase Postgres.
+# PathOS ï¿½ï¿½ Render Web Service + Supabase Postgres.
 #
 # Stack:
 #   - Render Web Service (Node.js) hosts the Next.js frontend + BFF.
@@ -42,3 +42,8 @@ services:
         value: deepseek-chat
       - key: AI_PROVIDER
         value: deepseek
+      # Admin token for one-shot ops like /api/admin/enrich-summaries.
+      # Set a long random string in the Render dashboard. The endpoint
+      # refuses to run without it.
+      - key: PATHOS_ADMIN_TOKEN
+        sync: false
