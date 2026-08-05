@@ -50,3 +50,7 @@ screenshots/tmp/
 # Local deployment metadata
 .vercel/
 .pathos-demo-runtime/
+
+# Local Codex and API inspection output
+/.codex/
+/frontend/api-*.json

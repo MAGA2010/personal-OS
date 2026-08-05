@@ -1,5 +1,5 @@
 export type AdmissionTier = "reach" | "target" | "safety";
-export type RiskLevel = "low" | "medium" | "high";
+export type RiskLevel = "low" | "medium" | "high" | "unknown";
 
 export interface StudentProfile {
   background: string;
@@ -10,6 +10,17 @@ export interface StudentProfile {
   sat?: number;
   budgetRmb: number;
   priorities: Array<"employment" | "safety" | "recognition" | "cost" | "community">;
+}
+
+export interface AssessmentUniversity {
+  id: string;
+  rankingTier?: string;
+  admissionRate?: number | null;
+  annualCostRmb?: number | null;
+  safetyScore?: number | null;
+  chineseCommunity?: string | null;
+  sat25?: number | null;
+  sat75?: number | null;
 }
 
 export interface SchoolAssessment {
@@ -36,68 +47,133 @@ export interface PortfolioAssessment {
 }
 
 const TIER_SCORE: Record<string, number> = {
-  top20: 1.0,
+  top20: 1,
   top50: 0.7,
   top100: 0.4,
   other: 0.1,
 };
 
-export function assessSchoolFit(profile: StudentProfile, university: any): SchoolAssessment {
-  const rate = university.admissionRate ?? 50;
-  const tierScore = TIER_SCORE[university.rankingTier] ?? 0.1;
-  let tier: AdmissionTier;
-  if (rate < 8) tier = "reach";
-  else if (rate < 20) tier = tierScore >= 0.7 ? "reach" : "target";
-  else if (rate < 45) tier = "target";
-  else tier = "safety";
+function finiteNumber(value: unknown): number | null {
+  return typeof value === "number" && Number.isFinite(value) ? value : null;
+}
 
-  let costRisk: RiskLevel;
-  const cost = university.annualCostRmb ?? 999999;
-  if (cost > profile.budgetRmb) costRisk = "high";
-  else if (cost > profile.budgetRmb * 0.85) costRisk = "medium";
-  else costRisk = "low";
+function normalizeAdmissionRate(value: unknown): number | null {
+  const rate = finiteNumber(value);
+  if (rate === null || rate < 0) return null;
+  return rate <= 1 ? rate * 100 : rate;
+}
 
-  const safety = university.safetyScore ?? 70;
-  let safetyRisk: RiskLevel;
-  if (safety < 65) safetyRisk = "high";
-  else if (safety < 78) safetyRisk = "medium";
-  else safetyRisk = "low";
+function riskScore(risk: RiskLevel): number | null {
+  if (risk === "low") return 1;
+  if (risk === "medium") return 0.6;
+  if (risk === "high") return 0.2;
+  return null;
+}
 
-  const comm = university.chineseCommunity ?? "medium";
-  let envRisk: RiskLevel;
-  if (safetyRisk === "high" && comm === "low") envRisk = "high";
-  else if (safetyRisk === "medium" && comm === "low") envRisk = "medium";
-  else envRisk = "low";
+function weightedScore(dimensions: Array<{ score: number | null; weight: number }>): number {
+  let weighted = 0;
+  let totalWeight = 0;
+  for (const dimension of dimensions) {
+    if (dimension.score === null) continue;
+    weighted += dimension.score * dimension.weight;
+    totalWeight += dimension.weight;
+  }
+  return totalWeight > 0 ? Math.round((weighted / totalWeight) * 100) : 0;
+}
 
-  let admissionRisk: RiskLevel;
-  if (tier === "reach" && rate < 10) admissionRisk = "high";
-  else if (tier === "reach") admissionRisk = "medium";
-  else admissionRisk = "low";
+function inferTier(rate: number | null, rankingTier: string | undefined): AdmissionTier {
+  if (rate === null) return rankingTier === "top20" ? "reach" : "target";
+  if (rate < 8) return "reach";
+  if (rate < 20) return rankingTier === "top20" || rankingTier === "top50" ? "reach" : "target";
+  if (rate < 45) return "target";
+  return "safety";
+}
 
-  const costScore = costRisk === "low" ? 1 : costRisk === "medium" ? 0.6 : 0.2;
-  const safetyScore = safetyRisk === "low" ? 1 : safetyRisk === "medium" ? 0.6 : 0.2;
-  const admitScore = admissionRisk === "low" ? 1 : admissionRisk === "medium" ? 0.6 : 0.2;
-  const rankScore = tierScore;
-  const envScore = envRisk === "low" ? 1 : envRisk === "medium" ? 0.6 : 0.2;
-  const fitScore = Math.round(
-    (admitScore * 0.3 + costScore * 0.25 + safetyScore * 0.2 + rankScore * 0.15 + envScore * 0.1) * 100
-  );
+export function assessSchoolFit(
+  profile: StudentProfile,
+  university: AssessmentUniversity,
+): SchoolAssessment {
+  const rate = normalizeAdmissionRate(university.admissionRate);
+  const tierScore = TIER_SCORE[university.rankingTier ?? ""] ?? null;
+  const tier = inferTier(rate, university.rankingTier);
+
+  const cost = finiteNumber(university.annualCostRmb);
+  const costRisk: RiskLevel = cost === null
+    ? "unknown"
+    : cost > profile.budgetRmb
+      ? "high"
+      : cost > profile.budgetRmb * 0.85
+        ? "medium"
+        : "low";
+
+  const safety = finiteNumber(university.safetyScore);
+  const safetyRisk: RiskLevel = safety === null
+    ? "unknown"
+    : safety < 65
+      ? "high"
+      : safety < 78
+        ? "medium"
+        : "low";
+
+  const community = university.chineseCommunity;
+  const environmentRisk: RiskLevel = safetyRisk === "unknown" || !community
+    ? "unknown"
+    : safetyRisk === "high" && community === "low"
+      ? "high"
+      : safetyRisk === "medium" && community === "low"
+        ? "medium"
+        : "low";
+
+  const admissionRisk: RiskLevel = rate === null
+    ? "unknown"
+    : tier === "reach" && rate < 10
+      ? "high"
+      : tier === "reach" || tier === "target"
+        ? "medium"
+        : "low";
+
+  const fitScore = weightedScore([
+    { score: riskScore(admissionRisk), weight: 0.35 },
+    { score: riskScore(costRisk), weight: 0.25 },
+    { score: riskScore(safetyRisk), weight: 0.2 },
+    { score: tierScore, weight: 0.15 },
+    { score: riskScore(environmentRisk), weight: 0.05 },
+  ]);
 
   const reasons: string[] = [];
-  if (tier === "safety") reasons.push("该校录取率较高，适合作为保底选择。");
-  else if (tier === "target") reasons.push("该校录取率适中，匹配当前学生水平。");
-  else reasons.push("该校录取竞争激烈，适合作为冲刺目标。");
-  if (costRisk === "low") reasons.push("年度费用在预算范围内，经济压力可控。");
-  else reasons.push("费用较高，需提前评估四年总支出。");
-  if (safetyRisk !== "high") reasons.push("所在城市安全状况良好，家长可放心。");
-  else reasons.push("周边安全风险较高，建议关注具体社区情况。");
-  if (envRisk !== "high") reasons.push("华人社区与生活便利度基本满足需求。");
+  if (rate !== null) {
+    if (tier === "safety") reasons.push("学校整体录取率相对较高，可作为保底候选，但不构成录取保证。");
+    else if (tier === "target") reasons.push("学校整体录取率处于中间区间，可作为匹配候选继续核验专业难度。");
+    else reasons.push("学校整体录取竞争激烈，当前更适合作为冲刺候选。");
+  }
+  if (costRisk === "low") reasons.push("当前收录学费在预算范围内；住宿、保险和生活费仍需另算。");
+  else if (costRisk === "medium") reasons.push("当前收录学费接近预算上限，需要核算完整年度支出。");
+  else if (costRisk === "high") reasons.push("当前收录学费高于预算上限，需要奖助学金或替代方案。");
+  if (safetyRisk === "low") reasons.push("已收录的区域安全指标表现较好。");
+  else if (safetyRisk === "high") reasons.push("已收录的区域安全指标偏低，需要核验具体校区与居住地。");
+  if (environmentRisk !== "unknown" && environmentRisk !== "high") {
+    reasons.push("当前区域社区数据未显示明显环境风险。");
+  }
+
+  const sat25 = finiteNumber(university.sat25);
+  const sat75 = finiteNumber(university.sat75);
+  if (profile.sat && sat25 !== null && sat75 !== null) {
+    if (profile.sat < sat25) {
+      reasons.push(`当前 SAT 低于该校已报告中间 50% 区间下沿 ${sat25}。`);
+    } else if (profile.sat > sat75) {
+      reasons.push(`当前 SAT 高于该校已报告中间 50% 区间上沿 ${sat75}。`);
+    } else {
+      reasons.push(`当前 SAT 位于该校已报告中间 50% 区间 ${sat25}–${sat75}。`);
+    }
+  }
 
   const warnings: string[] = [];
-  if (tier === "reach") warnings.push("不建议作为主申核心，建议搭配匹配校使用。");
-  if (costRisk === "high") warnings.push("年度费用超出预算上限，若无法获得奖学金将带来较大经济压力。");
-  if (safetyRisk === "high") warnings.push("安全指数偏低，建议仔细了解校区周边环境。");
-  if (admissionRisk === "high") warnings.push("该专业方向竞争激烈，录取不确定性较高。");
+  if (rate === null) warnings.push("学校整体录取率未报告，冲刺/匹配标签仅按排名档次暂定。");
+  if (tier === "reach") warnings.push("建议搭配录取更稳的匹配校和保底校，不把该校作为唯一核心选择。");
+  if (costRisk === "unknown") warnings.push("学费数据未报告，评分已自动排除成本维度。");
+  if (safetyRisk === "unknown") warnings.push("区域安全数据未接入，评分已自动排除安全维度。");
+  if (environmentRisk === "unknown") warnings.push("华人社区或区域环境数据未接入，未对该维度作结论。");
+  if (admissionRisk === "high") warnings.push("这里只使用学校整体录取率；目标专业的实际竞争可能更高，需单独核验。");
 
   return {
     universityId: university.id,
@@ -106,51 +182,59 @@ export function assessSchoolFit(profile: StudentProfile, university: any): Schoo
     admissionRisk,
     costRisk,
     safetyRisk,
-    environmentRisk: envRisk,
+    environmentRisk,
     reasons,
     warnings,
   };
 }
 
-export function assessPortfolio(profile: StudentProfile, universities: any[]): PortfolioAssessment {
-  const schools = universities.map((u) => assessSchoolFit(profile, u));
-  const reachCount = schools.filter((s) => s.tier === "reach").length;
-  const targetCount = schools.filter((s) => s.tier === "target").length;
-  const safetyCount = schools.filter((s) => s.tier === "safety").length;
-  const avgFit = Math.round(schools.reduce((s, x) => s + x.fitScore, 0) / schools.length);
+export function assessPortfolio(
+  profile: StudentProfile,
+  universities: AssessmentUniversity[],
+): PortfolioAssessment {
+  const schools = universities.map((university) => assessSchoolFit(profile, university));
+  const reachCount = schools.filter((school) => school.tier === "reach").length;
+  const targetCount = schools.filter((school) => school.tier === "target").length;
+  const safetyCount = schools.filter((school) => school.tier === "safety").length;
+  const averageFitScore = schools.length > 0
+    ? Math.round(schools.reduce((sum, school) => sum + school.fitScore, 0) / schools.length)
+    : 0;
+  const highCostCount = schools.filter((school) => school.costRisk === "high").length;
+  const highSafetyCount = schools.filter((school) => school.safetyRisk === "high").length;
+  const unknownCostCount = schools.filter((school) => school.costRisk === "unknown").length;
+  const unknownSafetyCount = schools.filter((school) => school.safetyRisk === "unknown").length;
 
-  const parts: string[] = [];
-  if (reachCount > 4) parts.push("冲刺校占比偏高，整体选校策略偏激进。");
-  else if (reachCount <= 2) parts.push("冲刺校数量适中。");
-  if (safetyCount < 2) parts.push("保底校不足，建议增加保底选择。");
-  else parts.push("保底校数量合理。");
-  const highCostCount = schools.filter((s) => s.costRisk === "high").length;
-  if (highCostCount > 5) parts.push("多所学校费用超出预算，建议关注奖学金或替换方案。");
-  const highSafetyCount = schools.filter((s) => s.safetyRisk === "high").length;
-  if (highSafetyCount > 2) parts.push("部分学校所在城市安全风险偏高，建议仔细评估。");
-  const summary = parts.join("");
+  const summaryParts: string[] = [];
+  if (reachCount > Math.max(2, schools.length / 2)) summaryParts.push("冲刺校占比偏高，整体策略较激进。");
+  else summaryParts.push("冲刺校比例基本可控。");
+  if (safetyCount < 2) summaryParts.push("保底候选不足，建议至少补充 2 所并人工核验。");
+  else summaryParts.push("保底候选数量达到基础要求。");
+  if (highCostCount > 0) summaryParts.push(`${highCostCount} 所学校当前收录学费高于预算。`);
+  if (unknownSafetyCount > 0) summaryParts.push("区域安全维度尚未进入评分，相关结论保持空缺。");
 
   const majorRisks: string[] = [];
-  if (reachCount > 4) majorRisks.push("冲刺校占比偏高，缺乏明确保底");
-  if (safetyCount < 2) majorRisks.push("保底不足");
-  if (highCostCount > 3) majorRisks.push("成本超预算的学校较多");
-  if (highSafetyCount > 2) majorRisks.push("部分城市安全风险偏高");
+  if (reachCount > Math.max(2, schools.length / 2)) majorRisks.push("冲刺校占比偏高");
+  if (safetyCount < 2) majorRisks.push("保底候选不足");
+  if (highCostCount > 0) majorRisks.push("部分学校学费超预算");
+  if (highSafetyCount > 0) majorRisks.push("部分区域安全指标偏低");
+  if (unknownCostCount > 0) majorRisks.push(`${unknownCostCount} 所学校缺少可比较学费`);
+  if (unknownSafetyCount > 0) majorRisks.push("区域安全数据尚未接入评分");
 
   const parentQuestions: string[] = [
-    "这所学校过去是否有与我孩子背景相近的录取案例？",
-    "推荐该校是因为专业匹配，还是因为排名更好看？",
-    "这份选校表中哪几所是真正保底？依据是什么？",
+    "学校整体录取率与目标专业录取难度之间有多大差异？",
+    "这份清单中哪些学校是真正的保底候选，依据是什么？",
+    "学费之外的住宿、保险、交通和生活费分别是多少？",
     "如果预算超过上限，是否有奖学金或替代学校方案？",
-    "该专业录取难度是否高于学校整体录取率？",
-    "这些学校的地理分布是否合理？是否集中在高成本区域？",
+    "标化与英语要求是否来自当前申请周期的官方本科页面？",
+    "区域安全与华人社区数据何时完成核验？",
   ];
 
   return {
-    summary,
+    summary: summaryParts.join(""),
     reachCount,
     targetCount,
     safetyCount,
-    averageFitScore: avgFit,
+    averageFitScore,
     majorRisks,
     parentQuestions,
     schools,

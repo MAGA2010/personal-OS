@@ -10,6 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "db:import": "tsx scripts/import-to-supabase.ts",
+    "db:repair-content": "tsx scripts/repair-university-content.ts",
+    "db:enrich": "tsx scripts/enrich-summary-fields.ts",
     "db:reset": "tsx scripts/reset-schema.ts"
   },
   "dependencies": {

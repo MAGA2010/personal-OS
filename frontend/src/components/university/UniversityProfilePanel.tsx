@@ -37,6 +37,7 @@ import {
   ChevronDown,
   ChevronUp,
   Clock,
+  ClipboardCheck,
   ExternalLink,
   GraduationCap,
   History,
@@ -78,6 +79,101 @@ function formatPosition(p: number | string): string {
   return typeof p === "number" ? `#${p}` : p;
 }
 
+function asRecord(value: unknown): Record<string, unknown> | null {
+  return value !== null && typeof value === "object" && !Array.isArray(value)
+    ? (value as Record<string, unknown>)
+    : null;
+}
+
+function finiteNumber(value: unknown): number | null {
+  return typeof value === "number" && Number.isFinite(value) ? value : null;
+}
+
+function formatCount(value: number | null | undefined): string {
+  return typeof value === "number" && Number.isFinite(value)
+    ? new Intl.NumberFormat("zh-CN").format(value)
+    : "数据补充中";
+}
+
+function formatRate(value: number | null | undefined): string {
+  if (typeof value !== "number" || !Number.isFinite(value)) return "数据补充中";
+  const percent = value <= 1 ? value * 100 : value;
+  return `${percent.toFixed(1)}%`;
+}
+
+function scoreRange(value: unknown, key: string): [number, number] | null {
+  const range = asRecord(asRecord(value)?.[key]);
+  const low = finiteNumber(range?.percentile_25);
+  const high = finiteNumber(range?.percentile_75);
+  return low !== null && high !== null ? [low, high] : null;
+}
+
+function formatSat(value: unknown): string {
+  const record = asRecord(value);
+  if (!record) return "数据补充中";
+  const average = finiteNumber(record.average);
+  const math = scoreRange(record, "math");
+  const reading = scoreRange(record, "reading_writing");
+  const parts: string[] = [];
+  if (average !== null) parts.push(`平均 ${Math.round(average)}`);
+  if (math && reading) {
+    parts.push(`中间 50% ${math[0] + reading[0]}–${math[1] + reading[1]}`);
+  }
+  return parts.length > 0 ? parts.join(" · ") : "数据补充中";
+}
+
+function formatAct(value: unknown): string {
+  const composite = scoreRange(value, "composite");
+  return composite ? `中间 50% ${composite[0]}–${composite[1]}` : "数据补充中";
+}
+
+const POLICY_LABELS: Record<string, string> = {
+  required: "必须提交",
+  test_required: "必须提交",
+  optional: "可选提交",
+  test_optional: "可选提交",
+  blind: "不审阅标化成绩",
+  test_blind: "不审阅标化成绩",
+  flexible: "灵活提交",
+  test_flexible: "灵活提交",
+};
+
+function formatPolicy(value: unknown, emptyLabel: string): string {
+  if (typeof value === "string" && value.trim()) {
+    return POLICY_LABELS[value] ?? value;
+  }
+  const record = asRecord(value);
+  if (!record) return emptyLabel;
+  const rawStatus = [record.policyStatus, record.policy_status, record.label, record.displayLabel]
+    .find((item): item is string => typeof item === "string" && item.trim() !== "");
+  const status = rawStatus ? (POLICY_LABELS[rawStatus] ?? rawStatus) : "";
+  const acceptedTests = Array.isArray(record.acceptedTests ?? record.accepted_tests)
+    ? (record.acceptedTests ?? record.accepted_tests) as unknown[]
+    : [];
+  const tests = acceptedTests
+    .map((item) => {
+      if (typeof item === "string") return item;
+      const test = asRecord(item);
+      if (!test) return "";
+      const name = test.name ?? test.test ?? test.type;
+      const minimum = test.minimumScore ?? test.minimum_score ?? test.minimum;
+      if (typeof name !== "string") return "";
+      return typeof minimum === "number" ? `${name} ${minimum}` : name;
+    })
+    .filter(Boolean)
+    .join(" / ");
+  return [status, tests].filter(Boolean).join(" · ") || emptyLabel;
+}
+
+function fieldStatusLabel(status: string | undefined): string {
+  if (!status) return "未标注";
+  if (status.startsWith("verified")) return "已核验";
+  if (status === "source_limited") return "来源有限";
+  if (status === "pending_external_access") return "待核验";
+  if (status === "not_reported") return "未报告";
+  return status;
+}
+
 // ── Root component ──
 
 export interface UniversityProfilePanelProps {
@@ -92,6 +188,7 @@ export function UniversityProfilePanel({ detail, statusDictionary }: UniversityP
       <div className="divide-y divide-line/50 border-y border-line/50 bg-panel lg:grid lg:grid-cols-[1fr_360px] lg:gap-x-6 lg:divide-y-0 lg:border-0 lg:bg-transparent">
         <div className="divide-y divide-line/50 lg:border-y lg:border-line/50 lg:bg-panel">
           <OverviewSection detail={detail} statusDictionary={statusDictionary} />
+          <AdmissionsSection detail={detail} statusDictionary={statusDictionary} />
           <ProgramsSection detail={detail} statusDictionary={statusDictionary} />
           <RankingSection detail={detail} statusDictionary={statusDictionary} />
           <CostSection detail={detail} statusDictionary={statusDictionary} />
@@ -233,8 +330,141 @@ function Field({ label, value, mono = false }: { label: string; value: string; m
   );
 }
 
-// ── Programs ──
+function AdmissionsDataPoint({
+  label,
+  value,
+  status,
+  referenceYear,
+  sourceCount = 0,
+  wide = false,
+}: {
+  label: string;
+  value: string;
+  status?: string;
+  referenceYear?: number | string | null;
+  sourceCount?: number;
+  wide?: boolean;
+}) {
+  const verified = status?.startsWith("verified") ?? false;
+  return (
+    <div className={`rounded-lg border border-line/55 bg-white/65 px-3 py-2.5 ${wide ? "sm:col-span-2" : ""}`}>
+      <div className="flex items-center justify-between gap-2">
+        <p className="text-[10px] uppercase tracking-wide text-ink/44">{label}</p>
+        <span
+          className={`rounded-full px-1.5 py-0.5 text-[9px] font-semibold ${
+            verified ? "bg-jade/10 text-jade" : "bg-persimmon/10 text-persimmon"
+          }`}
+        >
+          {fieldStatusLabel(status)}
+        </span>
+      </div>
+      <p className="mt-1 text-sm font-semibold leading-relaxed text-ink">{value}</p>
+      {(referenceYear || sourceCount > 0) ? (
+        <p className="mt-1 text-[9px] text-ink/38">
+          {referenceYear ? `参考 ${referenceYear}` : ""}
+          {referenceYear && sourceCount > 0 ? " · " : ""}
+          {sourceCount > 0 ? `${sourceCount} 个来源` : ""}
+        </p>
+      ) : null}
+    </div>
+  );
+}
 
+function AdmissionsSection({ detail }: SectionProps) {
+  const enrollment = detail.previewMetadata?.enrollment;
+  const admissions = detail.previewMetadata?.admissions;
+  if (!enrollment && !admissions) {
+    return (
+      <Section icon={<ClipboardCheck size={14} />} title="招生与规模" titleEn="Admissions & Enrollment">
+        <EmptyHint>招生与在校生数据补充中</EmptyHint>
+      </Section>
+    );
+  }
+
+  return (
+    <Section icon={<ClipboardCheck size={14} />} title="招生与规模" titleEn="Admissions & Enrollment">
+      <div className="grid gap-2 sm:grid-cols-2">
+        <AdmissionsDataPoint
+          label="本科生人数"
+          value={formatCount(enrollment?.undergraduate.value ?? detail.enrollmentSummary?.undergraduate)}
+          status={enrollment?.undergraduate.status}
+          referenceYear={enrollment?.undergraduate.referenceYear ?? detail.enrollmentSummary?.referenceYear}
+          sourceCount={enrollment?.undergraduate.sourceIds.length ?? 0}
+        />
+        <AdmissionsDataPoint
+          label="研究生人数"
+          value={formatCount(enrollment?.graduate.value ?? detail.enrollmentSummary?.graduate)}
+          status={enrollment?.graduate.status}
+          referenceYear={enrollment?.graduate.referenceYear}
+          sourceCount={enrollment?.graduate.sourceIds.length ?? 0}
+        />
+        <AdmissionsDataPoint
+          label="在校生总数"
+          value={formatCount(enrollment?.total.value ?? detail.enrollmentSummary?.total)}
+          status={enrollment?.total.status}
+          referenceYear={enrollment?.total.referenceYear}
+          sourceCount={enrollment?.total.sourceIds.length ?? 0}
+        />
+        <AdmissionsDataPoint
+          label="本科录取率"
+          value={formatRate(admissions?.acceptanceRate.value)}
+          status={admissions?.acceptanceRate.status}
+          referenceYear={admissions?.acceptanceRate.referenceYear}
+          sourceCount={admissions?.acceptanceRate.sourceIds.length ?? 0}
+        />
+        <AdmissionsDataPoint
+          label="毕业率"
+          value={formatRate(admissions?.graduationRate.value)}
+          status={admissions?.graduationRate.status}
+          referenceYear={admissions?.graduationRate.referenceYear}
+          sourceCount={admissions?.graduationRate.sourceIds.length ?? 0}
+        />
+        <AdmissionsDataPoint
+          label="大一保留率"
+          value={formatRate(admissions?.retentionRate.value)}
+          status={admissions?.retentionRate.status}
+          referenceYear={admissions?.retentionRate.referenceYear}
+          sourceCount={admissions?.retentionRate.sourceIds.length ?? 0}
+        />
+        <AdmissionsDataPoint
+          label="SAT"
+          value={formatSat(admissions?.sat.value)}
+          status={admissions?.sat.status}
+          referenceYear={admissions?.sat.referenceYear}
+          sourceCount={admissions?.sat.sourceIds.length ?? 0}
+        />
+        <AdmissionsDataPoint
+          label="ACT"
+          value={formatAct(admissions?.act.value)}
+          status={admissions?.act.status}
+          referenceYear={admissions?.act.referenceYear}
+          sourceCount={admissions?.act.sourceIds.length ?? 0}
+        />
+        <AdmissionsDataPoint
+          label="标化考试政策"
+          value={formatPolicy(admissions?.testPolicy.value, "官方本科标化政策待核验")}
+          status={admissions?.testPolicy.status}
+          referenceYear={admissions?.testPolicy.referenceYear}
+          sourceCount={admissions?.testPolicy.sourceIds.length ?? 0}
+          wide
+        />
+        <AdmissionsDataPoint
+          label="国际生英语要求"
+          value={formatPolicy(admissions?.englishPolicy.value, "官方本科英语要求待核验")}
+          status={admissions?.englishPolicy.status}
+          referenceYear={admissions?.englishPolicy.referenceYear}
+          sourceCount={admissions?.englishPolicy.sourceIds.length ?? 0}
+          wide
+        />
+      </div>
+      <p className="mt-2 text-[10px] leading-relaxed text-ink/40">
+        标化与英语政策仅展示已冻结的官方本科来源；不会根据 SAT 报送数据或学校排名推断政策。
+      </p>
+    </Section>
+  );
+}
+
+// ── Programs ──
 function ProgramsSection({ detail, statusDictionary }: SectionProps) {
   const programs = detail.programs ?? [];
   const topIds = new Set(detail.topProgramIds ?? []);

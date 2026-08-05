@@ -44,6 +44,22 @@ function savePortfolio(items: PortfolioItem[]) {
 const tierLabel: Record<string, string> = { reach: "冲刺", target: "匹配", safety: "保底" };
 const tierTone: Record<string, string> = { reach: "bg-persimmon/10 text-persimmon", target: "bg-cobalt/10 text-cobalt", safety: "bg-jade/10 text-jade" };
 
+function analysisSourceLabel(source: string): string {
+  if (source === "deepseek") return "DeepSeek + PathOS 数据";
+  if (source === "local-model") return "PathOS 规则引擎";
+  if (source === "external-ai") return "外部 AI + PathOS 数据";
+  return source;
+}
+
+function readCostRmb(school: any): number | null {
+  const direct = school?.annualCostRmb;
+  if (typeof direct === "number" && Number.isFinite(direct) && direct > 0) return direct;
+  const usd = school?.costSummary?.maximumUsd ?? school?.costSummary?.minimumUsd;
+  return typeof usd === "number" && Number.isFinite(usd) && usd > 0
+    ? Math.round(usd * 7.2)
+    : null;
+}
+
 const LOCAL_AI_PORTFOLIO_DEMO: AnalysisResult = {
   source: "本地 Demo 示例",
   summary: "这是本地交互示例，用于展示 AI 清单分析的输出结构。它不会连接外部 AI，也不会推断任何学校的录取概率。",
@@ -70,6 +86,8 @@ export default function PortfolioPage() {
   const [query, setQuery] = useState("");
   const [showAdd, setShowAdd] = useState(false);
   const [result, setResult] = useState<AnalysisResult | null>(null);
+  const [analyzing, setAnalyzing] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
 
   useEffect(() => setItems(loadPortfolio()), []);
 
@@ -84,29 +102,18 @@ export default function PortfolioPage() {
     return all.filter((school: any) => school.chineseName.toLowerCase().includes(keyword) || school.name.toLowerCase().includes(keyword) || (school.city || "").toLowerCase().includes(keyword)).slice(0, 10);
   }, [all, query]);
 
-  // Gate-bloker repair #RG-P0-D: the previous totalCost reducer used
-// `(school.annualCostRmb || 0)` which treated missing cost as ¥0.
-// That both under-reported the budget exposure and let schools
-// with no data appear to be the cheapest in the list. We now
-// filter out missing values from the sum and report a "data
-// incomplete" hint when at least one school lacks cost data.
-function readCostRmb(school: any): number | null {
-  const v = school?.annualCostRmb;
-  if (typeof v !== "number" || !Number.isFinite(v) || v <= 0) return null;
-  return v;
-}
-const costSummary = useMemo(() => {
-  let sum = 0;
-  let missing = 0;
-  for (const school of schools as any[]) {
-    const c = readCostRmb(school);
-    if (c === null) missing += 1;
-    else sum += c;
-  }
-  return { sum, missing };
-}, [schools]);
-const hasIncompleteCost = costSummary.missing > 0;
-const costCount = schools.length - costSummary.missing;
+  const costSummary = useMemo(() => {
+    let sum = 0;
+    let missing = 0;
+    for (const school of schools as any[]) {
+      const cost = readCostRmb(school);
+      if (cost === null) missing += 1;
+      else sum += cost;
+    }
+    return { sum, missing };
+  }, [schools]);
+  const hasIncompleteCost = costSummary.missing > 0;
+  const costCount = schools.length - costSummary.missing;
   const roughTiers = useMemo(() => schools.reduce((acc: { reach: number; target: number; safety: number }, school: any) => {
     if (school.rankingTier === "top20") acc.reach += 1;
     else if (school.rankingTier === "top50") acc.target += 1;
@@ -152,8 +159,30 @@ const costCount = schools.length - costSummary.missing;
     URL.revokeObjectURL(url);
   }, [hasIncompleteCost, result, schools]);
 
-  const runAiReview = () => {
-    setResult(LOCAL_AI_PORTFOLIO_DEMO);
+  const runAiReview = async () => {
+    if (items.length === 0) {
+      setAiError("请先加入学校到清单。");
+      return;
+    }
+    setAnalyzing(true);
+    setAiError(null);
+    setResult(null);
+    try {
+      const r = await fetch("/api/ai/analyze", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ mode: "portfolio_review", profile: { background: "高中留学生", targetDegree: "bachelor" }, schools: schools }),
+      });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const data = await r.json();
+      setResult(data);
+    } catch (error: unknown) {
+      console.warn("ai analyze failed", error instanceof Error ? error.message : error);
+      setAiError("分析接口暂不可用，已切换为离线结构示例。");
+      setResult(LOCAL_AI_PORTFOLIO_DEMO);
+    } finally {
+      setAnalyzing(false);
+    }
   };
 
   return (
@@ -164,7 +193,7 @@ const costCount = schools.length - costSummary.missing;
           <div className="min-w-0 flex-1">
             <p className="text-label uppercase tracking-[0.12em] text-persimmon">AI 清单分析</p>
             <h1 className="text-page text-text-primary">冲刺 / 匹配 / 保底结构</h1>
-            <p className="mt-0.5 text-caption text-text-secondary">本地 Demo 示例：点击即可查看输出结构，不连接外部 AI。</p>
+            <p className="mt-0.5 text-caption text-text-secondary">使用当前 Supabase 学校数据检查清单结构；配置 DeepSeek 后自动叠加模型分析。</p>
           </div>
           <Link href="/assessment" className="ml-auto inline-flex h-control items-center gap-1.5 rounded-control bg-ink px-3 text-[12px] font-semibold text-paper transition hover:bg-ink/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus-ring"><Brain size={13} aria-hidden="true" /> 先做学校评估</Link>
         </div>
@@ -186,7 +215,9 @@ const costCount = schools.length - costSummary.missing;
               <Stat label="冲刺" value={roughTiers.reach} />
               <Stat label="保底" value={roughTiers.safety} />
             </div>
-            <div className="mt-4 flex gap-2"><button onClick={runAiReview} className="inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-ink px-4 py-2.5 text-sm font-semibold text-panel transition hover:bg-ink/90"><Brain size={16} /> 查看 AI Demo</button><button disabled={schools.length === 0} onClick={exportSchools} className="rounded-full border border-line/60 bg-panel px-3 text-ink/55 transition hover:text-ink disabled:opacity-40"><Download size={16} /></button></div>
+            <div className="mt-4 flex gap-2"><button onClick={runAiReview} disabled={analyzing || items.length === 0} className="inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-ink px-4 py-2.5 text-sm font-semibold text-panel transition hover:bg-ink/90 disabled:opacity-60 disabled:cursor-not-allowed"><Brain size={16} /> {analyzing ? "分析中…" : "运行 AI 清单分析"}</button><button disabled={schools.length === 0} onClick={exportSchools} className="rounded-full border border-line/60 bg-panel px-3 text-ink/55 transition hover:text-ink disabled:opacity-40"><Download size={16} /></button></div>
+            {aiError ? <div role="alert" className="mt-2 rounded-md border border-persimmon/30 bg-persimmon/8 px-3 py-2 text-xs text-persimmon">{aiError}</div> : null}
+
             {schools.length > 0 && <button onClick={clearSchools} className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-ink/38 transition hover:text-persimmon"><Trash2 size={13} /> 清空清单</button>}
           </section>
 
@@ -200,7 +231,7 @@ const costCount = schools.length - costSummary.missing;
 
         <section className="space-y-4">
           <div className="rounded-[1.7rem] border border-white/70 bg-white/85 p-5 shadow-xl shadow-ink/5">
-            <div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-persimmon/75">当前清单</p><h2 className="mt-1 text-xl font-semibold text-ink">当前选校清单</h2><p className="mt-1 text-sm text-ink/50">点击 AI Demo 立即查看示例；非真实 AI 结论。</p></div><Link href="/match" className="inline-flex items-center gap-2 rounded-full border border-line/60 bg-panel px-4 py-2 text-xs font-semibold text-ink/60 transition hover:border-cobalt/35 hover:text-cobalt"><Sparkles size={14} /> 从自主测验添加</Link></div>
+            <div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-persimmon/75">当前清单</p><h2 className="mt-1 text-xl font-semibold text-ink">当前选校清单</h2><p className="mt-1 text-sm text-ink/50">运行数据驱动的冲刺 / 匹配 / 保底检查；结果不等同于录取概率。</p></div><Link href="/match" className="inline-flex items-center gap-2 rounded-full border border-line/60 bg-panel px-4 py-2 text-xs font-semibold text-ink/60 transition hover:border-cobalt/35 hover:text-cobalt"><Sparkles size={14} /> 从自主测验添加</Link></div>
             {schools.length === 0 ? <div className="mt-8 rounded-[1.4rem] border border-dashed border-line/70 bg-panel/60 p-10 text-center"><Bookmark size={32} className="mx-auto text-ink/20" /><h3 className="mt-3 text-base font-semibold text-ink/62">清单还是空的</h3><p className="mt-1 text-sm text-ink/42">先添加学校，或从自主测验结果加入清单。</p><button onClick={() => setShowAdd(true)} className="mt-5 rounded-full bg-ink px-5 py-2 text-sm font-semibold text-panel">添加学校</button></div> : <div className="mt-5 grid gap-3">{schools.map((school: any, index: number) => <article key={school.id} className="rounded-[1.4rem] border border-line/45 bg-panel/70 p-4 transition hover:border-cobalt/30 hover:bg-white"><div className="flex items-start gap-3"><div className="grid h-9 w-9 place-items-center rounded-2xl bg-ink text-xs font-bold text-panel">{index + 1}</div><div className="min-w-0 flex-1"><div className="flex flex-wrap items-center gap-2"><h3 className="text-sm font-semibold text-ink">{school.chineseName}</h3><span className="text-xs text-ink/38">{school.name}</span><span className="rounded-full bg-cobalt/8 px-2 py-0.5 text-[11px] font-semibold text-cobalt">{school.rankingTier}</span></div><p className="mt-1 text-xs text-ink/45">
                   {school.city}, {school.state} ·{" "}
                   {readCostRmb(school) !== null
@@ -211,15 +242,15 @@ const costCount = schools.length - costSummary.missing;
           </div>
 
           {result && <section className="rounded-[1.7rem] border border-white/70 bg-ink p-5 text-panel shadow-xl shadow-ink/10">
-            <div className="flex flex-wrap items-start justify-between gap-3"><div><p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-panel/45">本地示例 · {result.source}</p><h2 className="mt-1 text-xl font-semibold">清单分析 Demo</h2></div><div className="rounded-full bg-panel/10 px-3 py-1.5 text-xs font-semibold text-panel/70">示例不评分</div></div>
+            <div className="flex flex-wrap items-start justify-between gap-3"><div><p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-panel/45">数据驱动 · {analysisSourceLabel(result.source)}</p><h2 className="mt-1 text-xl font-semibold">清单分析结果</h2></div><div className="rounded-full bg-panel/10 px-3 py-1.5 text-xs font-semibold text-panel/70">仅供决策参考</div></div>
             <p className="mt-4 rounded-2xl bg-panel/10 p-4 text-sm leading-relaxed text-panel/76">{result.summary}</p>
-            <div className="mt-4 grid gap-3 sm:grid-cols-4"><Metric label="冲刺" value={result.portfolio.reachCount} /><Metric label="匹配" value={result.portfolio.targetCount} /><Metric label="保底" value={result.portfolio.safetyCount} /><Metric label="风险" value="示例" /></div>
+            <div className="mt-4 grid gap-3 sm:grid-cols-4"><Metric label="冲刺" value={result.portfolio.reachCount} /><Metric label="匹配" value={result.portfolio.targetCount} /><Metric label="保底" value={result.portfolio.safetyCount} /><Metric label="平均适配" value={result.portfolio.averageFitScore !== null ? `${result.portfolio.averageFitScore}%` : null} /></div>
             <div className="mt-5 grid gap-3 lg:grid-cols-3">
               <Panel title="结构风险">{(result.portfolio.majorRisks.length ? result.portfolio.majorRisks : ["暂未发现明显结构风险"]).map((risk) => <Item key={risk}>{risk}</Item>)}</Panel>
               <Panel title="家长追问">{result.portfolio.parentQuestions.slice(0, 4).map((question) => <Item key={question}>{question}</Item>)}</Panel>
               <Panel title="下一步动作">{result.nextActions.map((action) => <Item key={action}>{action}</Item>)}</Panel>
             </div>
-            <div className="mt-5"><h3 className="mb-2 text-sm font-semibold text-panel/85">优先复核学校</h3><div className="rounded-2xl bg-panel/10 p-3 text-sm text-panel/70">Demo 不生成学校排序或录取判断。</div></div>
+            <div className="mt-5"><h3 className="mb-2 text-sm font-semibold text-panel/85">优先复核学校</h3>{result.recommended.length > 0 ? <div className="grid gap-2 sm:grid-cols-3">{result.recommended.map((school) => <article key={school.id} className="rounded-2xl bg-panel/10 p-3"><div className="flex items-center justify-between gap-2"><p className="text-sm font-semibold text-panel">{school.chineseName}</p><span className={`rounded-full px-2 py-0.5 text-[10px] font-semibold ${tierTone[school.tier] ?? "bg-panel/10 text-panel/70"}`}>{tierLabel[school.tier] ?? school.tier}</span></div><p className="mt-1 text-xs text-panel/50">适配度 {school.fitScore}%</p>{school.reasons[0] ? <p className="mt-2 text-xs leading-relaxed text-panel/70">{school.reasons[0]}</p> : null}{school.warnings[0] ? <p className="mt-2 text-[11px] leading-relaxed text-persimmon/90">{school.warnings[0]}</p> : null}</article>)}</div> : <div className="rounded-2xl bg-panel/10 p-3 text-sm text-panel/70">当前没有可排序结果，请补充学校或稍后重试。</div>}</div>
           </section>}
         </section>
       </main>

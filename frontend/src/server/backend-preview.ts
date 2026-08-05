@@ -1,4 +1,4 @@
-// PathOS BFF â€” backend (Postgres) mode.
+// PathOS BFF â€?backend (Postgres) mode.
 //
 // Every artifact (manifest, universities, university details, region
 // envelope, status dictionary, source index) is now a Postgres row
@@ -34,10 +34,18 @@ export class PreviewBundleError extends Error {
 }
 
 function respond(body: unknown, status = 200): NextResponse {
+  // Backend preview responses are immutable snapshots produced by the
+  // ETL pipeline (db:import + db:repair-content). Safe to cache at the
+  // CDN edge for 5 minutes; may be served stale for 10 minutes while a
+  // refresh is in flight. Errors (404 / 503) are never cached.
+  const cacheControl =
+    status >= 200 && status < 300
+      ? "public, s-maxage=300, stale-while-revalidate=600"
+      : "no-store";
   return NextResponse.json(body, {
     status,
     headers: {
-      "Cache-Control": "no-store",
+      "Cache-Control": cacheControl,
       "X-PathOS-BFF": "preview-bundle",
       "X-PathOS-Data-Mode": "backend",
     },
