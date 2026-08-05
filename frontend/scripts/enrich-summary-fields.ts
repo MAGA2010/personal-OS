@@ -113,9 +113,11 @@ function mergePayload(summary: JsonObject, derived: DerivedFields): JsonObject {
 }
 
 function diff(oldPayload: JsonObject, newPayload: JsonObject): string[] {
-  const keys = new Set([...Object.keys(oldPayload), ...Object.keys(newPayload)]);
+  const keys = new Set<string>();
+  for (const k of Object.keys(oldPayload)) keys.add(k);
+  for (const k of Object.keys(newPayload)) keys.add(k);
   const changed: string[] = [];
-  for (const key of keys) {
+  for (const key of Array.from(keys)) {
     const a = JSON.stringify(oldPayload[key]);
     const b = JSON.stringify(newPayload[key]);
     if (a !== b) changed.push(key);
@@ -146,7 +148,8 @@ async function main(): Promise<void> {
   await client.connect();
   console.log(`connected to ${new URL(url).host}${DRY_RUN ? " (DRY RUN)" : ""}`);
 
-  const r = await client.query<{ id: string; payload: JsonObject }>(
+  interface Row { id: string; payload: JsonObject; detail: JsonObject | null }
+  const r = await client.query<Row>(
     `SELECT u.id,
             u.payload AS payload,
             d.payload AS detail

@@ -60,6 +60,11 @@ export function UniversityHoverTooltip({ summary, x, y }: UniversityHoverTooltip
   if (!summary) return null;
   const tuition = tuitionRmbFromSummary(summary);
     const ugCount = summary.enrollmentSummary?.undergraduate ?? null;
+    const acceptanceRate = summary.acceptanceRate ?? null;
+    const sat25 = typeof summary.sat25 === "number" && summary.sat25 > 0 ? summary.sat25 : null;
+    const sat75 = typeof summary.sat75 === "number" && summary.sat75 > 0 ? summary.sat75 : null;
+    const retentionRate = summary.retentionRate ?? null;
+    const graduationRate = summary.graduationRate ?? null;
 const costLabel = tuition !== null ? `¥${Math.round(tuition / 10000)}万/年` : "未报告";
   const tier = summary.rankingSummary?.rankingTier ?? summary.rankingTier ?? null;
   return (
@@ -84,6 +89,18 @@ const costLabel = tuition !== null ? `¥${Math.round(tuition / 10000)}万/年` :
         <span>{costLabel}</span>
        {ugCount !== null && ugCount > 0 && (
           <span className="text-ink/72">{ugCount >= 1000 ? (ugCount/1000).toFixed(1) + 'k' : ugCount}</span>
+        )}
+        {(acceptanceRate !== null || (sat25 !== null && sat75 !== null)) && (
+          <span className="text-ink/72">
+            {acceptanceRate !== null ? "接受率 " + (acceptanceRate < 1 ? (acceptanceRate * 100).toFixed(1) : acceptanceRate.toFixed(1)) + "%" : ""}
+            {sat25 !== null && sat75 !== null ? (acceptanceRate !== null ? " · " : "") + "SAT " + sat25 + "–" + sat75 : ""}
+          </span>
+        )}
+        {(graduationRate !== null || retentionRate !== null) && (
+          <span className="text-ink/60">
+            {graduationRate !== null ? "毕业率 " + (graduationRate < 1 ? graduationRate * 100 : graduationRate).toFixed(0) + "%" : ""}
+            {retentionRate !== null ? (graduationRate !== null ? " · " : "") + "保留率 " + (retentionRate < 1 ? retentionRate * 100 : retentionRate).toFixed(0) + "%" : ""}
+          </span>
         )}
         </div>
       {(summary.city || summary.state) && (

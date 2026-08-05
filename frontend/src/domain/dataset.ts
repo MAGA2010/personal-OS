@@ -105,6 +105,14 @@ export interface UniversitySummary {
     coveragePercent?: number;
     warningCodes?: string[];
   };
+  /** Flat admissions / outcomes snapshot. Populated by db:enrich from
+   *  university_details. acceptanceRate is stored as a percent (0-100),
+   *  not a ratio. sat25/sat75 are the sum of math and reading middle-50. */
+  acceptanceRate?: number | null;
+  sat25?: number | null;
+  sat75?: number | null;
+  graduationRate?: number | null;
+  retentionRate?: number | null;
 
   // ── Legacy fields (transition aid only) ──────────────────────────
   /** @deprecated Use `rankingSummary.rankingTier`. */

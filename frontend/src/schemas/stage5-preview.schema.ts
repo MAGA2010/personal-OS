@@ -63,6 +63,12 @@ export interface Stage5Summary {
   };
   studentFacultyRatio: number | null;
   qualitySummary: { warningCodes: string[] };
+  /** Flat summary-level fields populated by db:enrich from university_details. */
+  acceptanceRate?: number | null;
+  sat25?: number | null;
+  sat75?: number | null;
+  graduationRate?: number | null;
+  retentionRate?: number | null;
   /**
    * Compact enrollment snapshot used by the summary list view (map,
    * calculator, search). Mirrors Stage5Detail.previewMetadata.enrollment
@@ -227,7 +233,22 @@ export function parseStage5Summary(raw: unknown): Stage5Summary {
     graduate: parseEnrollmentFieldFromString(value.graduateEnrollment, `${id}.enrollment.graduate`),
     total: parseEnrollmentFieldFromString(value.totalEnrollment, `${id}.enrollment.total`),
   };
-  return { ...(value as Record<string, unknown>), enrollment } as unknown as Stage5Summary;
+  // Flat summary-level fields populated by db:enrich (raw numbers) or
+  // legacy artifact (wrapper object with .value). Accept both forms.
+  const flatNumber = (raw: unknown): number | null => {
+    if (typeof raw === "number" && Number.isFinite(raw)) return raw;
+    if (raw !== null && typeof raw === "object") {
+      const v = (raw as { value?: unknown }).value;
+      if (typeof v === "number" && Number.isFinite(v)) return v;
+    }
+    return null;
+  };
+  const acceptanceRate = flatNumber(value.acceptanceRate);
+  const sat25 = flatNumber(value.sat25);
+  const sat75 = flatNumber(value.sat75);
+  const graduationRate = flatNumber(value.graduationRate);
+  const retentionRate = flatNumber(value.retentionRate);
+  return { ...(value as Record<string, unknown>), enrollment, acceptanceRate, sat25, sat75, graduationRate, retentionRate } as unknown as Stage5Summary;
 }
 
 export function parseStage5Summaries(raw: unknown): Stage5Summary[] {
@@ -406,6 +427,11 @@ export function normalizeStage5Summary(raw: Stage5Summary): UniversitySummary {
       referenceYear: typeof raw.enrollment?.undergraduate?.referenceYear === "number" ? raw.enrollment.undergraduate.referenceYear : null,
     },
     qualitySummary: { warningCodes: raw.qualitySummary.warningCodes },
+    acceptanceRate: raw.acceptanceRate ?? null,
+    sat25: raw.sat25 ?? null,
+    sat75: raw.sat75 ?? null,
+    graduationRate: raw.graduationRate ?? null,
+    retentionRate: raw.retentionRate ?? null,
     rankingTier: tier,
     rankingBand: raw.rankingSummary.rankingLabel,
     nationalRanking: rank ?? undefined,
