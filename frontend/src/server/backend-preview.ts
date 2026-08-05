@@ -1,4 +1,4 @@
-// PathOS BFF â€?backend (Postgres) mode.
+// PathOS BFF --backend (Postgres) mode.
 //
 // Every artifact (manifest, universities, university details, region
 // envelope, status dictionary, source index) is now a Postgres row
