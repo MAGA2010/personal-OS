@@ -189,14 +189,18 @@ export function parseStage5Manifest(raw: unknown): Stage5Manifest {
 }
 
 function parseEnrollmentFieldFromString(raw: unknown, path: string): PreviewField<number> {
-  if (raw === null || raw === undefined) {
-    return { unit: null, scope: null, value: null, status: "not_reported", warnings: [], sourceIds: [], nullReason: "missing", referenceYear: null };
+  const missing = { unit: null, scope: null, value: null, status: "not_reported", warnings: [], sourceIds: [], nullReason: "missing", referenceYear: null } as PreviewField<number>;
+  if (raw === null || raw === undefined) return missing;
+  if (typeof raw === "number") {
+    return Number.isFinite(raw) ? { ...missing, value: raw, status: "verified" } : missing;
   }
   if (typeof raw === "string") {
-    if (raw === "" || raw === "null") {
-      return { unit: null, scope: null, value: null, status: "not_reported", warnings: [], sourceIds: [], nullReason: "missing", referenceYear: null };
-    }
+    if (raw === "" || raw === "null") return missing;
     try { raw = JSON.parse(raw); } catch (e) { throw new Error(`${path} not parseable: ${raw}`); }
+  }
+  if (raw === null || raw === undefined) return missing;
+  if (typeof raw === "number") {
+    return Number.isFinite(raw) ? { ...missing, value: raw, status: "verified" } : missing;
   }
   return parseField<number>(raw, path);
 }
