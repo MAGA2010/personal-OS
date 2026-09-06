@@ -69,7 +69,6 @@ export interface EnrichReport {
   fieldsFilled: Record<string, number>;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function enrichSummaries(
   client: { query: (...args: any[]) => Promise<{ rows: any[] }> },
   opts: { dryRun: boolean },
