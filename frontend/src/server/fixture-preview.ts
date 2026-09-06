@@ -201,6 +201,33 @@ async function loadNews(): Promise<Array<{ id?: string; title?: string; titleEn?
   return Array.isArray(raw.articles) ? (raw.articles as Array<{ id?: string; title?: string; titleEn?: string; summary?: string; source?: string; url?: string; publishedAt?: string; category?: string; [k: string]: unknown }>) : [];
 }
 
+function guideMatchKey(value: unknown): string {
+  return String(value ?? "").toLocaleLowerCase().replace(/[\s\-—–_.,'’()（）/\\:&]+/g, "").replace(/university|college|institute|of|the/g, "");
+}
+
+async function loadCollegeGuides(): Promise<Array<Record<string, unknown>>> {
+  try {
+    const raw = await loadFixture<{ profiles?: Array<Record<string, unknown>> }>("../../../data/college-guides/iecg-2025.json");
+    const universities = await loadUniversities();
+    return (raw.profiles ?? []).map((profile) => {
+      const target = guideMatchKey(profile.schoolNameRaw);
+      const university = universities.find((candidate) => {
+        const name = guideMatchKey(candidate.name);
+        const chinese = guideMatchKey(candidate.chineseName);
+        return target.length >= 6 && (target === name || target.includes(name) || target === chinese || target.includes(chinese));
+      });
+      return {
+        ...profile,
+        universityId: university?.id,
+        universityName: university?.name,
+        universityNameZh: university?.chineseName,
+      };
+    });
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && (error as { code?: string }).code === "ENOENT") return [];
+    throw error;
+  }
+}
 async function loadCityBoundaries(): Promise<unknown> {
   return loadFixture("city-boundaries.fixture.json");
 }
@@ -421,6 +448,20 @@ export async function handleFixturePreviewRoute(req: Request): Promise<NextRespo
         displayTier: "preview",
       }));
       return csvRespond(mapped);
+    }
+
+    if (endpoint === "college-guides") {
+      const query = (url.searchParams.get("q") ?? "").trim().toLocaleLowerCase();
+      const guides = await loadCollegeGuides();
+      const filtered = query ? guides.filter((guide) => [guide.schoolNameRaw, guide.universityName, guide.universityNameZh, guide.rawText].filter(Boolean).join(" ").toLocaleLowerCase().includes(query)) : guides;
+      return csvRespond(filtered.map(({ rawText, ...guide }) => guide));
+    }
+
+    if (endpoint === "college-guide") {
+      const universityId = url.searchParams.get("universityId") ?? "";
+      const guides = await loadCollegeGuides();
+      const guide = guides.find((item) => item.universityId === universityId);
+      return csvRespond(guide ?? null);
     }
 
     if (endpoint === "status-dictionary") {

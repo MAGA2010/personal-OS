@@ -28,7 +28,7 @@ const NAV_LINKS = [
   { href: "/entry/match", label: "自主测验" },
   { href: "/entry/assessment", label: "AI 学校评估" },
   { href: "/entry/portfolio", label: "AI 清单分析" },
-  { href: "/news",       label: "留学资讯" },
+  { href: "/opportunities", label: "机会动态" },
 ] as const;
 
 function isPathActive(pathname: string, href: string): boolean {

@@ -4,6 +4,7 @@
 // unavailable stub. Components MUST NOT import static JSON.
 
 import type {
+  CollegeGuide,
   DatasetManifest,
   NewsArticle,
   RegionDetail,
@@ -39,6 +40,10 @@ export interface PathOSDataSource {
 
   /** News sidebar (unrelated to a specific university). */
   getNews(category?: string, signal?: AbortSignal): Promise<NewsArticle[]>;
+
+  /** Source-preserving college guide list/detail. */
+  getCollegeGuides(query?: string, signal?: AbortSignal): Promise<CollegeGuide[]>;
+  getCollegeGuide(universityId: string, signal?: AbortSignal): Promise<CollegeGuide | null>;
 
   /** Provenance status dictionary (icons / labels / tones). */
   getStatusDictionary(signal?: AbortSignal): Promise<StatusDictionaryMap>;

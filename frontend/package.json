@@ -12,7 +12,9 @@
     "db:import": "tsx scripts/import-to-supabase.ts",
     "db:repair-content": "tsx scripts/repair-university-content.ts",
     "db:enrich": "tsx scripts/enrich-summary-fields.ts",
-    "db:reset": "tsx scripts/reset-schema.ts"
+    "db:reset": "tsx scripts/reset-schema.ts",
+    "guides:extract": "python scripts/extract-iecg-guides.py --source-dir \"../IECG 美本院校资料 Top90-2025(1)/IECG 美本院校资料 Top90-2025\" --output data/college-guides/iecg-2025.json --year 2025",
+    "guides:import": "tsx scripts/import-iecg-guides.ts"
   },
   "dependencies": {
     "d3-scale-chromatic": "^3.1.0",

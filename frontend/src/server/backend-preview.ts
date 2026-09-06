@@ -148,6 +148,117 @@ async function readUniversityDetail(id: string): Promise<unknown> {
   return r.rows[0].payload;
 }
 
+async function readNews(category?: string): Promise<unknown[]> {
+  try {
+    const params: unknown[] = [];
+    const where = category ? "WHERE a.category = $1 OR a.event_type = $1" : "";
+    if (category) params.push(category);
+    const result = await getPool().query(
+      `SELECT a.id, a.university_id, u.name AS university_name,
+              u.chinese_name AS university_name_zh, a.title, a.title_en,
+              a.summary, a.what_changed, a.why_it_matters, a.action_steps,
+              a.category, a.event_type, a.audience, a.source, a.url,
+              a.published_at, a.action_deadline, a.importance,
+              a.display_tier, a.source_status
+       FROM news_articles a
+       LEFT JOIN universities u ON u.id = a.university_id
+       ${where}
+       ORDER BY CASE a.importance WHEN 'high' THEN 0 WHEN 'medium' THEN 1 ELSE 2 END,
+                COALESCE(a.action_deadline, a.published_at) ASC,
+                a.published_at DESC
+       LIMIT 100`,
+      params,
+    );
+    return result.rows.map((row) => ({
+      id: row.id,
+      title: row.title,
+      titleEn: row.title_en ?? undefined,
+      summary: row.summary ?? undefined,
+      source: row.source,
+      url: row.url,
+      publishedAt: row.published_at instanceof Date ? row.published_at.toISOString() : String(row.published_at),
+      category: row.category,
+      displayTier: row.display_tier ?? "preview",
+      universityId: row.university_id ?? undefined,
+      whatChanged: row.what_changed ?? undefined,
+      whyItMatters: row.why_it_matters ?? undefined,
+      actionSteps: Array.isArray(row.action_steps) ? row.action_steps : [],
+      actionDeadline: row.action_deadline instanceof Date ? row.action_deadline.toISOString() : row.action_deadline ? String(row.action_deadline) : undefined,
+      audience: Array.isArray(row.audience) ? row.audience : [],
+      eventType: row.event_type ?? "other",
+      importance: row.importance ?? "medium",
+      sourceStatus: row.source_status ?? "source_review_not_completed",
+    }));
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && (error as { code?: string }).code === "42P01") return [];
+    throw error;
+  }
+}
+async function mapCollegeGuideRow(row: Record<string, any>, includeRawText: boolean): Promise<Record<string, unknown>> {
+  return {
+    id: row.id,
+    universityId: row.university_id ?? undefined,
+    universityName: row.university_name ?? undefined,
+    universityNameZh: row.university_name_zh ?? undefined,
+    sourceFile: row.source_file,
+    sourceSnapshotYear: row.source_snapshot_year,
+    schoolNameRaw: row.school_name_raw ?? undefined,
+    sourceUrl: row.source_url ?? undefined,
+    sections: Array.isArray(row.sections) ? row.sections : [],
+    structured: row.structured && typeof row.structured === "object" ? row.structured : {},
+    ...(includeRawText ? { rawText: row.raw_text ?? undefined } : {}),
+    displayTier: row.display_tier ?? "preview",
+    sourceStatus: row.source_status ?? "archived_source",
+  };
+}
+
+async function readCollegeGuides(query?: string): Promise<unknown[]> {
+  try {
+    const params: unknown[] = [];
+    const where = query
+      ? "WHERE g.school_name_raw ILIKE $1 OR u.name ILIKE $1 OR u.chinese_name ILIKE $1 OR g.raw_text ILIKE $1"
+      : "";
+    if (query) params.push(`%${query}%`);
+    const result = await getPool().query(
+      `SELECT g.id, g.university_id, u.name AS university_name,
+              u.chinese_name AS university_name_zh, g.source_file,
+              g.source_snapshot_year, g.school_name_raw, g.source_url,
+              g.sections, g.structured, g.display_tier, g.source_status
+       FROM college_guides g
+       LEFT JOIN universities u ON u.id = g.university_id
+       ${where}
+       ORDER BY g.source_snapshot_year DESC, COALESCE(u.name, g.school_name_raw) ASC
+       LIMIT 100`,
+      params,
+    );
+    return Promise.all(result.rows.map((row) => mapCollegeGuideRow(row, false)));
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && (error as { code?: string }).code === "42P01") return [];
+    throw error;
+  }
+}
+
+async function readCollegeGuide(universityId: string): Promise<unknown | null> {
+  try {
+    const result = await getPool().query(
+      `SELECT g.id, g.university_id, u.name AS university_name,
+              u.chinese_name AS university_name_zh, g.source_file,
+              g.source_snapshot_year, g.school_name_raw, g.source_url,
+              g.sections, g.structured, g.raw_text, g.display_tier, g.source_status
+       FROM college_guides g
+       LEFT JOIN universities u ON u.id = g.university_id
+       WHERE g.university_id = $1
+       ORDER BY g.source_snapshot_year DESC
+       LIMIT 1`,
+      [universityId],
+    );
+    if (!result.rows[0]) return null;
+    return mapCollegeGuideRow(result.rows[0], true);
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && (error as { code?: string }).code === "42P01") return null;
+    throw error;
+  }
+}
 // ---- Query builders ---------------------------------------------------
 
 interface SummaryFilters {
@@ -285,7 +396,23 @@ export async function handleBackendPreviewRoute(
       return respond(rows);
     }
 
-    if (endpoint === "news") return respond([]);
+    if (endpoint === "news") {
+      const category = url.searchParams.get("category")?.trim() || undefined;
+      return respond(await readNews(category));
+    }
+
+    if (endpoint === "college-guides") {
+      const query = url.searchParams.get("q")?.trim() || undefined;
+      return respond(await readCollegeGuides(query));
+    }
+
+    if (endpoint === "college-guide") {
+      const universityId = decodeUniversityId((url.searchParams.get("universityId") ?? "").trim());
+      if (!universityId) {
+        throw new PreviewBundleError("MISSING_UNIVERSITY_ID", "University ID is required", 400, false);
+      }
+      return respond(await readCollegeGuide(universityId));
+    }
 
     if (endpoint === "region-detail") {
       throw new PreviewBundleError(

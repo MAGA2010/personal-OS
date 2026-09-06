@@ -6,6 +6,8 @@
 import { ValidationError, combine, validateNullable, validateNumber, validateOneOf, validateString } from "./validators";
 import type {
   Anecdote,
+  CollegeGuide,
+  CollegeGuideSection,
   CostRecord,
   DatasetManifest,
   NearbyTown,
@@ -528,10 +530,79 @@ export function parseNewsArticleList(raw: unknown): NewsArticle[] {
       publishedAt: typeof o.publishedAt === "string" ? o.publishedAt : new Date().toISOString(),
       category: typeof o.category === "string" ? o.category : "admissions",
       displayTier: oneOfOrFallback(o.displayTier, DISPLAY_TIER, "preview"),
+      universityId: typeof o.universityId === "string" ? o.universityId : undefined,
+      universityName: typeof o.universityName === "string" ? o.universityName : undefined,
+      universityNameZh: typeof o.universityNameZh === "string" ? o.universityNameZh : undefined,
+      eventType: ["new_program", "application_change", "deadline", "scholarship", "policy", "campus_update", "other"].includes(o.eventType as string) ? o.eventType as NewsArticle["eventType"] : undefined,
+      importance: ["high", "medium", "low"].includes(o.importance as string) ? o.importance as NewsArticle["importance"] : undefined,
+      whatChanged: typeof o.whatChanged === "string" ? o.whatChanged : undefined,
+      whyItMatters: typeof o.whyItMatters === "string" ? o.whyItMatters : undefined,
+      actionSteps: Array.isArray(o.actionSteps) ? o.actionSteps.filter((step): step is string => typeof step === "string") : undefined,
+      actionDeadline: typeof o.actionDeadline === "string" ? o.actionDeadline : undefined,
+      audience: Array.isArray(o.audience) ? o.audience.filter((item): item is string => typeof item === "string") : undefined,
+      sourceStatus: oneOfOrFallback(o.sourceStatus, PROVENANCE_STATUS, "source_review_not_completed") as NewsArticle["sourceStatus"],
     };
   });
 }
 
+// ── College guides ──
+
+function parseCollegeGuideSection(raw: unknown, index: number): CollegeGuideSection {
+  if (!raw || typeof raw !== "object") throw new ValidationError([{ path: `collegeGuides.sections[${index}]`, message: "not object" }]);
+  const o = raw as Record<string, unknown>;
+  const title = typeof o.title === "string" && o.title.trim() ? o.title : "未命名章节";
+  const paragraphs = Array.isArray(o.paragraphs)
+    ? o.paragraphs.filter((value): value is string => typeof value === "string")
+    : typeof o.text === "string" ? o.text.split("\n").filter(Boolean) : [];
+  return {
+    id: typeof o.id === "string" ? o.id : `section-${index + 1}`,
+    title,
+    paragraphs,
+    text: typeof o.text === "string" ? o.text : paragraphs.join("\n"),
+  };
+}
+
+export function parseCollegeGuide(raw: unknown): CollegeGuide | null {
+  if (raw === null) return null;
+  if (typeof raw !== "object") throw new ValidationError([{ path: "collegeGuide", message: "not object" }]);
+  const o = raw as Record<string, unknown>;
+  if (typeof o.id !== "string" || typeof o.sourceFile !== "string") {
+    throw new ValidationError([{ path: "collegeGuide", message: "id and sourceFile are required" }]);
+  }
+  const sections = Array.isArray(o.sections) ? o.sections.map(parseCollegeGuideSection) : [];
+  const structured: CollegeGuide["structured"] = {};
+  if (o.structured && typeof o.structured === "object" && !Array.isArray(o.structured)) {
+    for (const [key, value] of Object.entries(o.structured as Record<string, unknown>)) {
+      if (typeof value === "string" || typeof value === "number" || (Array.isArray(value) && value.every((item) => typeof item === "string"))) {
+        structured[key] = value as string | number | string[];
+      }
+    }
+  }
+  return {
+    id: o.id,
+    universityId: typeof o.universityId === "string" ? o.universityId : undefined,
+    universityName: typeof o.universityName === "string" ? o.universityName : undefined,
+    universityNameZh: typeof o.universityNameZh === "string" ? o.universityNameZh : undefined,
+    sourceFile: o.sourceFile,
+    sourceSnapshotYear: typeof o.sourceSnapshotYear === "number" ? o.sourceSnapshotYear : 2025,
+    schoolNameRaw: typeof o.schoolNameRaw === "string" ? o.schoolNameRaw : undefined,
+    sourceUrl: typeof o.sourceUrl === "string" ? o.sourceUrl : undefined,
+    sections,
+    structured,
+    rawText: typeof o.rawText === "string" ? o.rawText : undefined,
+    displayTier: oneOfOrFallback(o.displayTier, DISPLAY_TIER, "preview"),
+    sourceStatus: oneOfOrFallback(o.sourceStatus, PROVENANCE_STATUS, "archived_source"),
+  };
+}
+
+export function parseCollegeGuideList(raw: unknown): CollegeGuide[] {
+  if (!Array.isArray(raw)) throw new ValidationError([{ path: "collegeGuides", message: "expected array" }]);
+  return raw.map((item, index) => {
+    const guide = parseCollegeGuide(item);
+    if (!guide) throw new ValidationError([{ path: `collegeGuides[${index}]`, message: "null guide" }]);
+    return guide;
+  });
+}
 // ── Search ──
 
 export function parseUniversitySearchResultList(raw: unknown): UniversitySearchResult[] {

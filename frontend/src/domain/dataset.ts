@@ -304,8 +304,41 @@ export interface NewsArticle {
   publishedAt: string;
   category: string;
   displayTier: DisplayTier;
+  universityId?: string;
+  universityName?: string;
+  universityNameZh?: string;
+  eventType?: "new_program" | "application_change" | "deadline" | "scholarship" | "policy" | "campus_update" | "other";
+  importance?: "high" | "medium" | "low";
+  whatChanged?: string;
+  whyItMatters?: string;
+  actionSteps?: string[];
+  actionDeadline?: string;
+  audience?: string[];
+  sourceStatus?: ProvenanceStatus;
 }
 
+export interface CollegeGuideSection {
+  id: string;
+  title: string;
+  text: string;
+  paragraphs: string[];
+}
+
+export interface CollegeGuide {
+  id: string;
+  universityId?: string;
+  universityName?: string;
+  universityNameZh?: string;
+  sourceFile: string;
+  sourceSnapshotYear: number;
+  schoolNameRaw?: string;
+  sourceUrl?: string;
+  sections: CollegeGuideSection[];
+  structured: Record<string, string | number | string[]>;
+  rawText?: string;
+  displayTier: DisplayTier;
+  sourceStatus: ProvenanceStatus;
+}
 export interface RegionDetail {
   fipsCode: string;
   granularity: "state" | "county" | "city";

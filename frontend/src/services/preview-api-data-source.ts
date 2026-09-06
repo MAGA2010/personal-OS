@@ -5,6 +5,8 @@
 
 import type { PathOSDataSource } from "./pathos-data-source";
 import {
+  parseCollegeGuide,
+  parseCollegeGuideList,
   parseManifest,
   parseNewsArticleList,
   parseRegionDetail,
@@ -16,7 +18,7 @@ import {
   parseUniversitySummaryList,
 } from "@/schemas/dataset.schema";
 import { ValidationError } from "@/schemas/validators";
-import type { NewsArticle, RegionMetricQuery, SourceReference, StatusDictionaryMap, UniversityQuery } from "@/domain/dataset";
+import type { CollegeGuide, NewsArticle, RegionMetricQuery, SourceReference, StatusDictionaryMap, UniversityQuery } from "@/domain/dataset";
 
 // Allowed values for the `tier` query parameter (gate-bloker repair
 // #GB-P0-4). Mirrors `RANKING_TIER` in `@/schemas/dataset.schema.ts`;
@@ -202,6 +204,14 @@ export class PreviewApiDataSource implements PathOSDataSource {
   getNews(category: string | undefined, signal?: AbortSignal) {
     const qs = new URLSearchParams({ endpoint: "news", ...(category ? { category } : {}) }).toString();
     return fetchPreviewJson(`${this.baseUrl}?${qs}`, parseNewsArticleList, signal as AbortSignal, this.timeoutMs) as Promise<NewsArticle[]>;
+  }
+  getCollegeGuides(query?: string, signal?: AbortSignal) {
+    const qs = new URLSearchParams({ endpoint: "college-guides", ...(query ? { q: query } : {}) }).toString();
+    return fetchPreviewJson(`${this.baseUrl}?${qs}`, parseCollegeGuideList, signal, this.timeoutMs) as Promise<CollegeGuide[]>;
+  }
+  getCollegeGuide(universityId: string, signal?: AbortSignal) {
+    const qs = new URLSearchParams({ endpoint: "college-guide", universityId }).toString();
+    return fetchPreviewJson(`${this.baseUrl}?${qs}`, parseCollegeGuide, signal, this.timeoutMs) as Promise<CollegeGuide | null>;
   }
   getStatusDictionary(signal?: AbortSignal): Promise<StatusDictionaryMap> {
     return fetchPreviewJson(`${this.baseUrl}?endpoint=status-dictionary`, parseStatusDictionary, signal, this.timeoutMs);

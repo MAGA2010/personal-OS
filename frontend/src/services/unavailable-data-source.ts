@@ -4,6 +4,7 @@
 
 import type { PathOSDataSource } from "./pathos-data-source";
 import type {
+  CollegeGuide,
   DatasetManifest,
   NewsArticle,
   RegionDetail,
@@ -46,6 +47,12 @@ export class UnavailableDataSource implements PathOSDataSource {
     return unavailable();
   }
   getNews(_category?: string): Promise<NewsArticle[]> {
+    return unavailable();
+  }
+  getCollegeGuides(_query?: string): Promise<CollegeGuide[]> {
+    return unavailable();
+  }
+  getCollegeGuide(_universityId: string): Promise<CollegeGuide | null> {
     return unavailable();
   }
   resolveSourceReference(_source: SourceReference): Promise<{ url: string; cachedSnapshotAt?: string; anchor?: string }> {

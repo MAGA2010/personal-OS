@@ -9,6 +9,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import type {
+  CollegeGuide,
   DatasetManifest,
   NewsArticle,
   RegionDetail,
@@ -192,6 +193,31 @@ export function useNews(
   );
 }
 
+export function useCollegeGuides(
+  source: PathOSDataSource | null,
+  query?: string,
+): ResourceHook<CollegeGuide[]> {
+  const key = query ?? "";
+  return useResource(
+    [source, key],
+    async (s) => (source ? await source.getCollegeGuides(key, s) : []),
+    { status: "ready", data: [] },
+  );
+}
+
+export function useCollegeGuide(
+  source: PathOSDataSource | null,
+  universityId: string | null,
+): ResourceHook<CollegeGuide | null> {
+  return useResource(
+    [source, universityId],
+    async (s) => {
+      if (!source || !universityId) return null;
+      return source.getCollegeGuide(universityId, s);
+    },
+    { status: "idle" },
+  );
+}
 export function useSourceReferenceResolver(source: PathOSDataSource | null) {
   return useCallback(
     (src: SourceReference, signal?: AbortSignal) =>

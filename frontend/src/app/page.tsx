@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowUpRight,
+  BellRing,
   BookmarkCheck,
+  BookOpen,
   Calculator,
   ClipboardCheck,
   Map,
-  Newspaper,
   SlidersHorizontal,
 } from "lucide-react";
 import { FlipModuleCard } from "@/components/home/FlipModuleCard";
@@ -66,12 +67,21 @@ const CORE_MODULES = [
   },
   {
     index: "06",
-    title: "留学资讯",
-    eyebrow: "JOURNAL",
-    description: "进入 PathOS 的编辑式资讯入口，追踪申请与校园动态。",
-    reveal: "翻开 PathOS Journal，追踪申请趋势、院校动态与真实校园影像。",
-    href: "/news",
-    icon: Newspaper,
+    title: "机会动态",
+    eyebrow: "RADAR",
+    description: "追踪新项目、申请变化、奖学金和重要截止日期。",
+    reveal: "打开机会雷达，看懂学校变化与你的申请有什么关系。",
+    href: "/opportunities",
+    icon: BellRing,
+  },
+  {
+    index: "07",
+    title: "读懂大学",
+    eyebrow: "UNDERSTAND",
+    description: "先理解学校的学习方式、成本与申请现实，再决定是否申请。",
+    reveal: "打开大学指南，用家庭可以讨论的语言理解一所学校。",
+    href: "/guides",
+    icon: BookOpen,
   },
 ] as const;
 
@@ -173,7 +183,7 @@ export default function HomePage() {
       <section className={styles.modules} aria-labelledby="modules-title">
         <div className={styles.sectionHeading}>
           <p>ONE SYSTEM / DISTINCT CHAPTERS</p>
-          <h2 id="modules-title">把复杂选择拆成可以行动的六个章节。</h2>
+          <h2 id="modules-title">把复杂选择拆成可以行动的七个章节。</h2>
         </div>
 
         <div className={styles.moduleGrid}>

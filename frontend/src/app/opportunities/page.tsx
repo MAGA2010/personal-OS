@@ -1,0 +1,35 @@
+"use client";
+
+import Link from "next/link";
+import { useMemo, useState } from "react";
+import { ArrowUpRight, Bell, CalendarClock, CheckCircle2, CircleAlert, ExternalLink, Radar, Sparkles } from "lucide-react";
+import { useDataSource } from "@/services/data-source-provider";
+import { useNews } from "@/hooks/use-data-source";
+import { DataEmptyState, DataLoadingState, DataUnavailableState } from "@/components/shared/data-states";
+
+const LABELS: Record<string, string> = { new_program: "新项目", application_change: "申请变化", deadline: "截止日期", scholarship: "奖学金", policy: "政策动态", campus_update: "学校动态", admissions: "录取申请", visa: "签证", career: "职业发展" };
+const STORAGE_KEY = "pathos_followed_universities";
+function fmtDate(value?: string) { if (!value) return "日期待核验"; const date = new Date(value); return Number.isNaN(date.getTime()) ? value : `${date.getFullYear()}年${date.getMonth()+1}月${date.getDate()}日`; }
+function loadFollowing() { try { const value = localStorage.getItem(STORAGE_KEY); return value ? JSON.parse(value) as string[] : []; } catch { return []; } }
+
+export default function OpportunitiesPage() {
+  const source = useDataSource();
+  const state = useNews(source);
+  const [category, setCategory] = useState("");
+  const [followingOnly, setFollowingOnly] = useState(false);
+  const [following] = useState<string[]>(() => loadFollowing());
+  const articles = state.state.status === "ready" ? state.state.data : [];
+  const categories = useMemo(() => Array.from(new Set(articles.map((item) => item.eventType || item.category))), [articles]);
+  const filtered = articles.filter((item) => (!category || item.eventType === category || item.category === category) && (!followingOnly || (!!item.universityId && following.includes(item.universityId))));
+  return <main className="min-h-screen bg-surface-base">
+    <header className="border-b border-border-soft bg-ink text-paper"><div className="mx-auto max-w-page px-4 py-8 sm:px-6"><div className="flex flex-wrap items-start justify-between gap-5"><div className="max-w-2xl"><p className="text-label uppercase tracking-[0.16em] text-paper/45">COLLEGE OPPORTUNITY RADAR</p><h1 className="mt-2 text-3xl font-semibold">机会动态</h1><p className="mt-3 text-sm leading-7 text-paper/68">学校发生重要变化时，PathOS 帮你看懂它是否与你有关、现在需要做什么，以及信息来自哪里。</p></div><div className="grid h-12 w-12 place-items-center border border-paper/20 text-persimmon"><Radar size={24} /></div></div><div className="mt-7 grid gap-px bg-paper/15 sm:grid-cols-3"><RadarStat value="新项目" label="专业与课程机会" /><RadarStat value="截止日" label="申请动作提醒" /><RadarStat value="官方源" label="每条动态可追溯" /></div></div></header>
+    <div className="mx-auto max-w-page px-4 py-5 sm:px-6"><div className="flex flex-wrap items-center gap-2 border-b border-border-soft pb-4"><button onClick={() => setCategory("")} className={`rounded-control px-3 py-2 text-xs font-semibold ${!category ? "bg-ink text-paper" : "border border-border-soft bg-surface-1 text-text-secondary"}`}>全部动态</button>{categories.map((item) => <button key={item} onClick={() => setCategory(item)} className={`rounded-control px-3 py-2 text-xs font-semibold ${category === item ? "bg-ink text-paper" : "border border-border-soft bg-surface-1 text-text-secondary"}`}>{LABELS[item] || item}</button>)}<button onClick={() => setFollowingOnly((value) => !value)} className={`ml-auto inline-flex items-center gap-1.5 rounded-control px-3 py-2 text-xs font-semibold ${followingOnly ? "bg-persimmon text-paper" : "border border-border-soft bg-surface-1 text-text-secondary"}`}><Bell size={13} />我的学校</button></div>
+      {state.state.status === "loading" && <DataLoadingState message="正在加载机会动态…" />}{state.state.status === "error" && <DataUnavailableState reason="机会动态后端暂不可用。" onRetry={() => state.reload()} />}{state.state.status === "ready" && articles.length === 0 && <div className="py-6"><DataEmptyState title="机会雷达正在建立" description="动态只会在完成来源核验后发布。你可以先在大学指南中了解学校，并把学校加入清单。" action={<Link href="/guides" className="inline-flex items-center gap-1.5 rounded-control bg-ink px-3 py-2 text-xs font-semibold text-paper">打开大学指南 <ArrowUpRight size={13} /></Link>} /></div>}
+      {filtered.length > 0 && <div className="mt-5 grid gap-4">{filtered.map((item) => <OpportunityCard key={item.id} item={item} />)}</div>}
+    </div>
+  </main>;
+}
+
+function RadarStat({ value, label }: { value: string; label: string }) { return <div className="bg-paper/8 px-4 py-3"><p className="text-sm font-semibold">{value}</p><p className="mt-1 text-[11px] text-paper/48">{label}</p></div>; }
+function OpportunityCard({ item }: { item: any }) { return <article className="border border-border-soft bg-surface-1"><div className="flex flex-wrap items-start justify-between gap-4 border-b border-border-soft px-5 py-4"><div className="min-w-0"><div className="flex flex-wrap items-center gap-2"><span className={`rounded-control px-2 py-1 text-[10px] font-semibold ${item.importance === "high" ? "bg-persimmon/10 text-persimmon" : "bg-cobalt/10 text-cobalt"}`}>{LABELS[item.eventType || item.category] || item.category}</span>{item.importance === "high" && <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-persimmon"><CircleAlert size={11} />建议尽快查看</span>}</div><h2 className="mt-2 text-lg font-semibold text-text-primary">{item.title}</h2>{item.universityNameZh && <p className="mt-1 text-xs font-semibold text-cobalt">{item.universityNameZh}{item.universityName ? ` · ${item.universityName}` : ""}</p>}</div><div className="text-right text-[11px] text-text-tertiary"><p>{fmtDate(item.publishedAt)}</p>{item.actionDeadline && <p className="mt-1 inline-flex items-center gap-1 text-persimmon"><CalendarClock size={11} />行动截止 {fmtDate(item.actionDeadline)}</p>}</div></div><div className="grid gap-0 divide-y divide-border-soft lg:grid-cols-3 lg:divide-x lg:divide-y-0"><InfoBlock title="发生了什么" text={item.whatChanged || item.summary || "这条动态正在补充解释。"} /><InfoBlock title="为什么值得关注" text={item.whyItMatters || "请结合你的申请年份、专业和身份核对是否适用。"} /><InfoBlock title="下一步" text={item.actionSteps?.length ? item.actionSteps.join("；") : "打开官方页面，确认资格、截止日期和申请方式。"} /></div><div className="flex flex-wrap items-center gap-3 border-t border-border-soft px-5 py-3"><a href={item.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-control bg-cobalt px-3 py-2 text-xs font-semibold text-paper"><ExternalLink size={13} />查看官方页面</a>{item.universityId && <Link href={`/university/${encodeURIComponent(item.universityId)}`} className="inline-flex items-center gap-1 text-xs font-semibold text-text-secondary hover:text-cobalt">查看学校 <ArrowUpRight size={13} /></Link>}<span className="ml-auto inline-flex items-center gap-1 text-[10px] text-text-tertiary"><Sparkles size={11} />来源：{item.source}</span></div></article>; }
+function InfoBlock({ title, text }: { title: string; text: string }) { return <section className="px-5 py-4"><p className="text-label uppercase tracking-[0.1em] text-text-tertiary">{title}</p><p className="mt-2 text-sm leading-7 text-text-secondary">{text}</p></section>; }
